@@ -20,7 +20,7 @@ The YAML is structured and indented (that's how they work). Just with a little d
 Example for a female character:
 ```
 __BoChars/female/modern__
-`` 
+```
 A cool thing you can do, too, is using a wildcard "*" in the wildcards. So you could use the magical chararcter wildcards in the same prompt and get chars from both sets:
 ```
 __BoChars*/female/modern__
