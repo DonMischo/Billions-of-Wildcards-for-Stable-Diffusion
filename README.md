@@ -1,6 +1,33 @@
 # Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
 Checkout the Descriptions at civitai.
-Detailed readme coming soon
+
+##Usage
+
+Unleash the full power:
+
+Activate: Dynamic Prompts->Advanced Options->Unlink seed from prompt
+
+__Usage__ is pretty much the same as for "regular" wildcards.
+
+You need the SD Dynamic Prompt Extension. Put the files directly into the wildcard folder:
+```
+~\stable-diffusion-webui\extensions\sd-dynamic-prompts\wildcards 
+```
+They show up as a menu on the left in the Wildcards tab.
+
+The YAML is structured and indented (that's how they work). Just with a little difference. You have to add the category layers in the wildcard.
+
+Example for a female character:
+```
+__BoChars/female/modern__
+`` 
+A cool thing you can do, too, is using a wildcard "*" in the wildcards. So you could use the magical chararcter wildcards in the same prompt and get chars from both sets:
+```
+__BoChars*/female/modern__
+__clothings*__ # for clothings from both sets
+```
+I made those easy to use cards for character creations. There are some wildcards that are not used for it. Have a look what's in there, too. You'll find a full list below. (another nice part of YAMLs)
+You are welcome
 
 ## Content
 ### Billions of Characters
