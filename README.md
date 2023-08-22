@@ -884,7 +884,7 @@ magic:
 ```
 
 ### Dr.Derp cards
-
+https://civitai.com/models/116021
 ```
 dr.derp-hypernetworks:
     front-shot:
