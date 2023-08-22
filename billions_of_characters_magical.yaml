@@ -1,0 +1,1187 @@
+# BoCharsMag
+BoCharsMag:
+    female:
+        classic:
+            - "female __person-magical/female__ 
+            {
+            wearing __clothings-magical/female-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person-magical/poses__, __magical/lighting__"
+        modern:
+            - "female __person-magical/female__ 
+            {
+            wearing __clothings/female-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person-magical/poses__, __magical/lighting__"
+        scenery:
+            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __magical/lighting__, __scenes/*__"
+        BoConstructions:
+            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
+    male:
+        classic:
+            - "male __person-magical/male__ 
+            {
+            wearing __clothings-magical/male-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person-magical/poses__, __magical/lighting__"
+        modern:
+            - "male __person-magical/male__ 
+            {
+            wearing __clothings/male-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person-magical/poses__, __magical/lighting__"
+        scenery:
+            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __magical/lighting__, __scenes/*__"
+        BoConstructions:
+            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
+    div:
+        - "female {__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}"
+        - "male {__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}"
+    random:
+        - "{0.45::{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}|
+        0.45::{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}|
+        0.1::__BoCharsMag/div__}"
+clothings-magical:
+    female-attire:
+        - "{
+            {0.8::__random/properties-magical__|} __clothings-magical/female/lower-body__,
+            {0.8::__random/properties-magical__|} __clothings-magical/female/upper-body__ |
+            {0.8::__random/properties-magical__|} __clothings-magical/female/full-body__
+           },
+        {0.8::__clothings/female/footwear__|},
+        {0.5::__clothings/female/headwear__|},
+        __random/accesoires__"
+    male-attire:
+        - "{
+            {0.8::__random/properties-magical__|} __clothings-magical/male/lower-body__,
+            {0.8::__random/properties-magical__|} __clothings-magical/male/upper-body__ |
+            {0.8::__random/properties-magical__|} __clothings-magical/male/full-body__
+           },
+        {0.8::__clothings-magical/male/footwear__|},
+        {0.5::__clothings-magical/male/headwear__|},
+        __random/accesoires__"
+    female:
+        upper-body:
+            - Celestial Boleros
+            - Celestial Capes
+            - Celestial Cloaks
+            - Celestial Wraps
+            - Elemental Shawls
+            - Elven Boleros
+            - Elven Capes
+            - Elven Cloaks
+            - Elven Robes
+            - Elven Tunics
+            - Enchanted Capes
+            - Enchanted Caplets
+            - Enchanted Mantles
+            - Enchanted Robes
+            - Enchanted Shirts
+            - Enchanted Shrugs
+            - Enchanting Ponchos
+            - Fairy Blouses
+            - Fairy Capes
+            - Fairy Capes
+            - Fairy Caplets
+            - Fairy Vests
+            - Mystic Capes
+            - Mystic Capes
+            - Mystic Caplets
+            - Mystic Wraps
+            - Mystical Capes
+            - Mystical Tunics
+            - Runed Vests
+            - Rune-etched Tunics
+            - Rune-etched Vests
+            - Rune-etched Wraps
+            - Seeress Cloaks
+            - Sorceress Boleros
+            - Sorceress Capes
+            - Sorceress Capes
+            - Sorceress Caplets
+            - Sorceress Cloaks
+            - Sorceress Gowns
+            - Sorceress Mantles
+            - Sorceress Tunics
+            - Witch's Cloaks
+            - Witch's Tunics
+            - Wizardess Robes
+        full-body:
+            - Elven Gown
+            - Celestial Robes
+            - Enchantress Dress
+            - Sorceress Robe
+            - Mystic Garment
+            - Arcane Tunic
+            - Enigma Gown
+            - Druidic Robes
+            - Enchanter's Attire
+            - Enigmatic Robe
+            - Seeress Dress
+            - Sorcerer's Habit
+            - Alchemist Ensemble
+            - Mystic Vestment
+            - Oracle Robe
+            - Priestess Attire
+            - Wizard's Habit
+            - Witch's Gown
+            - Celestial Dress
+            - Magician Robes
+        lower-body:
+            - Enchanted Skirt
+            - Sorceress Gown
+            - Mystic Robe with Train
+            - Elven Leggings
+            - Enigma Trousers
+            - Celestial Culottes
+            - Sorcerer's Breeches
+            - Enchanter's Skort
+            - Alchemist Sarong
+            - Seeress Veil Skirt
+            - Druidic Kilt
+            - Enchantress Harem Pants
+            - Celestial Flare Skirt
+            - Magician's Banded Skirt
+            - Sorceress Flared Trousers
+            - Enigma Split Skirt
+            - Celestial Wide-Leg Pants
+            - Oracle Draped Skirt
+            - Mystic Embroidered Leggings
+            - Priestess Ankle Skirt
+        footwear:
+            - Enchanted Slippers
+            - Sorceress Sandals
+            - Mystic Boots
+            - Elven Pointed Shoes
+            - Enigma Ballet Flats
+            - Celestial Wedge Heels
+            - Sorcerer's Buckled Boots
+            - Enchanter's Booties
+            - Alchemist Espadrilles
+            - Seeress Ankle Boots
+            - Druidic Leaf Sandals
+            - Enchantress Embroidered Shoes
+            - Celestial Wrap-Around Sandals
+            - Magician's Tasseled Loafers
+            - Sorceress High Heels
+            - Enigma Lace-Up Boots
+            - Celestial Platform Shoes
+            - Oracle Beaded Slippers
+            - Mystic Wrap Sandals
+            - Priestess Kitten Heels
+        headwear:
+            - Enchanted Circlet
+            - Sorceress Hood
+            - Mystic Veil
+            - Elven Tiara
+            - Enigma Headband
+            - Celestial Diadem
+            - Sorcerer's Hat
+            - Enchanter's Wreath
+            - Alchemist Headscarf
+            - Seeress Headpiece
+            - Druidic Crown
+            - Enchantress Headband
+            - Celestial Crescent Crown
+            - Magician's Pointed Hat
+            - Sorceress Veil
+            - Enigma Feathered Fascinator
+            - Celestial Star Diadem
+            - Oracle Crystal Crown
+            - Mystic Embroidered Headwrap
+            - Priestess Headdress
+    male:
+        upper-body:
+            - Enchanted Cloak
+            - Wizard Robe
+            - Mystic Tunic
+            - Elven Mantle
+            - Enigma Cape
+            - Celestial Coat
+            - Sorcerer's Robe
+            - Enchanter's Vest
+            - Alchemist Capelet
+            - Seer's Shrug
+            - Druidic Surcoat
+            - Enchanter's Cloak
+            - Celestial Mantle
+            - Magician's Cloak
+            - Sorcerer's Cape
+            - Enigma Drape
+            - Celestial Robe
+            - Oracle Cape
+            - Mystic Capelet
+            - Priest's Vestment
+        full-body:
+            - Enchanted Robes
+            - Wizard's Gown
+            - Mystic Garb
+            - Elven Attire
+            - Enigma Ensemble
+            - Celestial Regalia
+            - Sorcerer's Attire
+            - Enchanter's Raiment
+            - Alchemist's Ensemble
+            - Seer's Vestments
+            - Druidic Robes
+            - Enchanter's Vestment
+            - Celestial Vestments
+            - Magician's Garments
+            - Sorcerer's Robes
+            - Enigma Robes
+            - Celestial Vesture
+            - Oracle Attire
+            - Mystic Vestments
+            - Priest's Robes
+        lower-body:
+            - Enchanted Trousers
+            - Wizard's Pants
+            - Mystic Leggings
+            - Elven Breeches
+            - Enigma Trousers
+            - Celestial Harem Pants
+            - Sorcerer's Trousers
+            - Enchanter's Leggings
+            - Alchemist's Breeches
+            - Seer's Trousers
+            - Druidic Kilt
+            - Enchanter's Harem Pants
+            - Celestial Trousers
+            - Magician's Pants
+            - Sorcerer's Breeches
+            - Enigma Split Skirt
+            - Celestial Wide-Leg Pants
+            - Oracle Draped Skirt
+            - Mystic Embroidered Leggings
+            - Priest's Ankle Skirt
+        footwear:
+            - Enchanted Boots
+            - Wizard's Shoes
+            - Mystic Sandals
+            - Elven Pointed Boots
+            - Enigma Loafers
+            - Celestial Wingtip Shoes
+            - Sorcerer's Buckled Boots
+            - Enchanter's Booties
+            - Alchemist's Boots
+            - Seer's Sandals
+            - Druidic Leaf Sandals
+            - Enchanter's Loafers
+            - Celestial Ankle Boots
+            - Magician's Shoes
+            - Sorcerer's High Boots
+            - Enigma Lace-Up Boots
+            - Celestial Platform Shoes
+            - Oracle Sandals
+            - Mystic Wrap Sandals
+            - Priest's Ankle Boots
+        headwear:
+            - Enchanted Hat
+            - Wizard's Pointed Hat
+            - Mystic Hood
+            - Elven Circlet
+            - Enigma Headband
+            - Celestial Crown
+            - Sorcerer's Hat
+            - Enchanter's Cap
+            - Alchemist's Bandana
+            - Seer's Headband
+            - Druidic Wreath
+            - Enchanter's Headband
+            - Celestial Diadem
+            - Magician's Hat
+            - Sorcerer's Hood
+            - Enigma Feathered Fascinator
+            - Celestial Star Crown
+            - Oracle Headpiece
+            - Mystic Embroidered Headwrap
+            - Priest's Headdress
+    unisex:
+        accesoires:
+            - Enchanted Amulet
+            - Wizard's Staff
+            - Mystic Runes Bracelet
+            - Elven Leaf Brooch
+            - Enigma Crystal Pendant
+            - Celestial Moonstone Ring
+            - Sorcerer's Tome Grimoire
+            - Enchanter's Rune Cufflinks
+            - Alchemist's Elixir Vial Necklace
+            - Seer's Divination Tarot Cards
+            - Druidic Nature Talisman
+            - Enchantress Charm Bracelet
+            - Celestial Starry Diadem
+            - Magician's Top Hat with Hidden Compartments
+            - Sorcerer's Magic Gloves
+            - Enigma Pocket Watch with Time Magic Engravings
+            - Celestial Starry Cloak Pin
+            - Oracle's Fortune Telling Crystal Ball
+            - Mystic Pentacle Pendant
+            - Priest's Holy Relic Medallion
+        backwear:
+            - Cloak with Hood
+            - Elaborate Wizard Robe
+            - Enchanted Shawl
+            - Spellweaver Cape
+            - Mystic Mantle
+            - Sorceress Bolero
+            - Enchanter's Tunic
+            - Druidic Wrap
+            - Celestial Cloak
+            - Witch's Capelet
+            - Mage Blouse
+            - Alchemist Vestment
+            - Enigma Shrug
+            - Sibyl's Scarf
+            - Enchantress Stole
+            - Seeress Poncho
+            - Priestess Cape
+            - Elemental Shroud
+            - Oracle Capelet
+            - Magician Jacket
+        facewear:
+            - Mask of Illusions
+            - Enchanted Veil
+            - Mystic Goggles
+            - Sorcerer's Mask
+            - Celestial Visor
+            - Enigma Masquerade Mask
+            - Druidic Face Paint
+            - Enchanter's Eyepatch
+            - Alchemist's Breathing Mask
+            - Seer's Third Eye Crystal
+            - Elven Leaf Mask
+            - Oracle's Divination Veil
+            - Enchantress' Veiled Hat
+            - Magician's Enigmatic Mask
+            - Elemental Face Guard
+            - Dreamweaver Mask
+            - Time-Bender Goggles
+            - Celestial Moon Mask
+            - Rune-Engraved Faceplate
+            - Priest's Sacred Embellishment
+            - Enchanted Spectacles
+            - Wizard's Arcane Glasses
+            - Mystic Crystal Goggles
+            - Elven Enchantment Eyewear
+            - Enigma Kaleidoscope Glasses
+            - Celestial Starlight Shades
+            - Sorcerer's Sightseeing Glasses
+            - Enchanter's Runed Eyeglasses
+            - Alchemist's Potion-Enhanced Goggles
+            - Seer's Future-Reading Spectacles
+            - Druidic Nature-Focused Glasses
+            - Enchantress' Enigmatic Lenses
+            - Celestial Moonlit Eyeglasses
+            - Magician's Illusion-Dispelling Goggles
+            - Elemental Elemental-Sensing Glasses
+            - Dreamweaver Dream-Interpreting Spectacles
+            - Time-Bender Time-Reading Glasses
+            - Oracle's Foresight Goggles
+            - Mystic Enchanted Monocle
+            - Priest's Divine Vision Glasses
+        neckwear:
+            - Amulet of Protection
+            - Celestial Amulet
+            - Celestial Choker
+            - Celestial Collar
+            - Celestial Necklace
+            - Celestial Pendant
+            - Celestial Torc
+            - Elven Locket
+            - Elven Ribbon
+            - Elven Torc
+            - Enchanted Amulet
+            - Enchanted Choker
+            - Enchanted Choker
+            - Enchanted Collar
+            - Enchanted Ribbon
+            - Enchanted Torc
+            - Enchanting Collar
+            - Enchanting Locket
+            - Enchanting Pendant
+            -        Enchanting Torc
+            - Enchantress Medallion
+            - Enchantress Necklace
+            - Enchantress Torc
+            - Fairy Collar
+            - Fairy Locket
+            -        Fairy Medallion
+            - Fairy Necklace
+            - Mystic Choker
+            - Mystic Collar
+            - Mystic Medallion
+            - Mystic Scarf
+            - Mystic Talisman
+            - Rune-engraved Ribbon
+            - Rune-engraved Torc
+            - Rune-etched Collar
+            - Rune-etched Collar
+            - Rune-etched Medallion
+            - Seeress Pendant
+            - Seer's Necklace
+            - Sorcerer's Locket
+            - Sorcerer's Medallion
+            - Sorcerer's Torc
+            - Sorceress Medallion
+            - Sorceress Necklace
+            - Sorceress Talisman
+            - Talismanic Choker
+            - Talismanic Pendant
+            - Wizard's Choker
+            - Wizard's Necklace
+person-magical:
+    female:
+        - "{__magical/beings__|},
+        __person/female__, 
+        __person-magical/poses__, 
+        {0.1::__person-magical/wings__|}"
+    male:
+        - "{__magical/beings__|},
+        __person/male__,
+        __person-magical/poses__,
+        {0.1::__person-magical/wings__|}"
+    poses:
+        - Mystic Gesture, Hands extended in arcane symbols
+        - Summoning Stance, Arms raised, calling upon mystical forces
+        - Incantation Pose, Hands near mouth, casting powerful spells
+        - Wand Waving, Swirling motions with a magical wand
+        - Elemental Channeling, Fingers pointed to control elemental energies
+        - Enchantment Pose, Palms facing outward, imbuing objects with magic
+        - Ritualistic Stance, Intricate movements in ceremonial magic
+        - Sorcerer's Gesture, One hand held aloft, magic emanating from fingertips
+        - Concentration Pose, Eyes closed, deep focus on spellcasting
+        - Rune Invocation, Tracing runes in the air for spell activation
+        - Arcane Balance, Balanced posture, drawing from inner magic
+        - Celestial Alignment, Arms raised to the heavens, invoking cosmic energies
+        - Magical Nexus, Hands touching, forming a magical connection
+        - Elemental Attunement, Standing in harmony with natural elements
+        - Time Manipulation, Circular motions to bend time and space
+        - Spatial Expansion, Arms spread wide, expanding magical reach
+        - Astral Projection, Leaning backward, projecting consciousness
+        - Mystic Meditation, Cross-legged, entering a meditative state for magic
+        - Veil of Illusion, Hands covering face, concealing or revealing magic
+        - Astral Transcendence, Floating posture, ascending to a higher plane
+        - Etheric Resonance, Hands forming an energy ball between palms
+        - Elemental Fusion, Combining gestures for multi-elemental spells
+        - Arcane Focus, Pointing at a specific target for concentrated magic
+        - Mana Absorption, Palms open, drawing magic from the surroundings
+        - Empowerment Stance, Feet firmly planted, harnessing inner strength
+        - Symbolic Enchantment, Tracing magical symbols in the air
+        - Crystal Attunement, Holding crystals to amplify magical energy
+        - Divine Invocation, Kneeling with reverence, calling upon deities
+        - Celestial Harmony, Hands in prayer, seeking celestial blessings
+        - Alchemical Transmutation, Fingers forming alchemical symbols
+        - Channeling Pose, Opening oneself as a vessel for otherworldly entities
+        - Runelore Mastery, Hands on ancient runes, accessing their powers
+        - Dimensional Gateway, Forming a gateway to other realms
+        - Astral Projection, Palms facing outward, projecting astral form
+        - Mana Infusion, Palms over a magical source, absorbing energy
+        - Elemental Burst, Dynamic motion to release elemental power
+        - Enigmatic Divination, Holding a magical artifact for prophetic visions
+        - Shielding Stance, Arms crossed, creating protective barriers
+        - Essence Bond, Hands on heart, connecting with inner magic
+        - Transcendent Trance, Eyes closed, entering a state of higher consciousness
+        - Kneeling with arms outstretched, calling upon higher forces
+        - Standing tall, one hand pointed forward, channeling energy
+        - Seated, surrounded by books and scrolls, deep in thought
+        - Meditating in a lotus position, seeking inner wisdom
+        - Leaping in mid-air, casting a counter-spell
+        - Standing with arms raised, palms open, invoking mystical beings
+        - Fingers weaving intricate patterns, shaping the magical weave
+        - Holding an ancient artifact, eyes focused on deciphering its power
+        - Scribbling furiously in a spellbook, absorbing magical knowledge
+        - Dodging an opponent's attack, poised for a retaliatory strike
+        - Concentrated gaze, calling forth elemental energies
+        - Arms swirling in circular motions, summoning a cyclone of magic
+        - Hands clasped, calling upon forces from the mystical realms
+        - Concentrated stance, eyes closed, mentally focusing on the spell
+        - Elegant hand gestures, drawing symbols in the air to cast spells
+        - Gazing upwards as celestial beings descend upon the summoner
+        - Standing within a sacred summoning circle, arms outstretched
+        - Communicating with spirits through subtle gestures and movements
+        - Tracing glowing sigils in the air with fingertips, activating magic
+        - Holding a gemstone infused with power, summoning its energy
+        - Engrossed in deciphering cryptic texts, surrounded by ancient scrolls
+        - Engaged in astral projection, seeking knowledge from beyond
+        - Practicing runic writing with devotion, strengthening their magic
+        - Seeking counsel from an enchanted book, reading with intense focus
+        - Absorbing wisdom from an enchanted tree, standing with reverence
+        - Dissecting magical creatures for insights, uncovering their secrets
+        - Holding a crystal for heightened intuition, seeking inner guidance
+        - Conjuring a barrier with focused intent, protecting against attacks
+        - Concentrated eyes and poised hands, summoning magical creatures
+        - Channeling the forces of nature, connecting with the elements
+        - Embracing fire with flickering fingers, manipulating flames
+        - Gazing into a pool of scrying water, seeking visions of the future
+        - Solving riddles within enchanted puzzles, unlocking magical doors
+        - Collecting dewdrops from enchanted flowers, harnessing nature's essence
+        - Observing the dance of magical fireflies, learning from their luminescence
+        - Merging into shadows for stealth, using darkness to their advantage
+        - Unleashing a barrage of enchanted arrows, arrows glowing with magic
+        - Shrouding allies in protective auras, enhancing their defenses
+        - Dancing gracefully in a magical ritual, invoking the power of movement
+        - Humming a melodious incantation, infusing magic with sound vibrations
+        - Using a staff to amplify magical energy, connecting with its power
+        - Conjuring a blinding flash of light, dazzling opponents momentarily
+        - Deflecting a curse with a magical shield, forming a barrier of protection
+        - Unleashing a powerful elemental blast, harnessing the forces of nature
+        - Transforming into a creature of power, embodying magical attributes
+        - Glowing eyes locked on the adversary, intimidating with magical intensity
+        - Drawing energy from the earth with roots, connecting to the natural world
+        - Calling upon the winds with outstretched arms, manipulating the air
+        - Conjuring water with cupped hands, controlling its flow and power
+        - Radiating warmth with a touch of the palm, healing with magic's touch
+        - Extending one hand towards the target plane, summoning entities
+        - Comparing notes with other magical beings, sharing knowledge and insights
+        - Holding a magnifying glass to inspect details, examining magical artifacts
+        - Mixing potions in a cauldron, concocting potent elixirs
+        - Pouring over ancient manuscripts, uncovering lost knowledge
+        - Examining star charts and astrological signs, seeking celestial guidance
+        - Using a magical compass to seek answers, orienting to magical energies
+        - Analyzing the patterns in a spell matrix, discerning its workings
+        - Engaging in alchemical experiments, transforming elements with magic
+        - Seeking visions through a magical mirror, peering into other realms
+        - Experimenting with time-altering spells, manipulating temporal forces
+        - Tracing symbols with a quill on parchment, crafting spells with precision
+        - Immersed in an intricate magical map, navigating its arcane paths
+        - Dancing with grace, invoking elemental energies through movement
+        - Singing an enchanting melody, infusing magic with musical notes
+        - Synchronizing breath and energy flow, harmonizing with the universe
+        - Blowing magical dust into the air, using it for mystical purposes
+        - Conducting an otherworldly orchestra, harnessing the power of music
+        - Sorting magical ingredients with precision, preparing spell components
+        - Aligned with celestial bodies, drawing power from the stars above
+        - Collecting moonlight in a crystal, capturing its mystical essence
+        - Weaving spells into fabric, creating enchanted garments and cloaks
+        - Transcribing ancient runes onto sacred surfaces, charging them with magic
+        - Inscribing talismans with symbols, imbuing them with specific powers
+        - Unraveling the intricacies of a magical curse, seeking its source
+        - Observing patterns in the movements of magical creatures, decoding their behavior
+        - Analyzing the glow of a magical crystal, determining its properties
+        - Experimenting with potions and elixirs, seeking new magical brews
+        - Consulting with enchanted creatures, seeking their wisdom and guidance
+        - Tracing the lines of a magical glyph, activating its hidden potential
+        - Gazing at the moon with reverence, channeling lunar energies
+        - Connecting with the spirits of the land, becoming one with nature
+        - Balancing on a narrow precipice, honing balance and magical stability
+        - Huddled in a circle with other magical beings, pooling their powers
+        - In the midst of a magical storm, controlling the elements around them
+        - Chanting ancient incantations, giving voice to powerful spells
+        - Holding a sacred relic aloft, channeling its sacred energies
+        - Engulfed in a swirling vortex of magic, tapping into a ley line's power
+    wings:
+        - Celestial Wings (__magical/magic__ wings attached to the back)
+        - Angelic Wings
+        - Demonic Wings
+        - Fairy Wings
+        - Dragon Wings
+        - Phoenix Wings
+        - Butterfly Wings
+        - Seraph Wings
+        - Bat Wings
+        - Pegasus Wings
+        - Griffin Wings
+        - Wyvern Wings
+        - __magical/elemental__ Wings
+        - Crystal Wings
+        - Celestial Wings
+        - Dark Wings
+        - Feathered Wings
+        - Icarus Wings (enchanted wings made from wax and feathers)
+        - Gargoyle Wings
+        - Mechanical Wings made of gears and cogs and clockwork
+magical:
+    magic:
+        - "({6-7$${-3$$__magical/words/adjectives__}|
+        {-2$$__random/color__} |
+        {-2$$__matter/movement1__}|
+        {-1$$__matter/movement2__}|
+        0.1::{-1$$__phenomena/natural__}|
+        {-1$$__phenomena/abstract__}|
+        {-2$$__properties/patterns/lines__}|
+        0.1::{-1$$__properties/patterns/2Dshapes__}
+        |0.1::{-1$$__properties/patterns/3Dshapes__}|
+        {-1$$__matter/state__}} 
+        magic:1.3)"
+    types:
+        air:
+            - air magic
+            - Air Manipulation (controlling wind and air currents)
+            - Aerokinesis
+            - Flight (levitating or flying)
+            - Weather Control (manipulating weather patterns)
+        dark:
+            - dark magic
+            - entropy magic
+            - void magic
+            - Unpredictable Magic
+            - Disorder Manipulation
+            - Necromancy
+            - Curses
+            - Hexes
+            - Black Magic
+            - Dark Rituals
+            - Summoning volent Entities
+        divination:
+            - Divination magic
+            - Psychic Magic
+            - Fortune-telling
+            - Clairvoyance
+            - Precognition
+            - Telepathy
+            - Scrying
+        dream:
+            - dream magic
+            - Entering Dream Worlds
+            - Manipulating Dreams
+            - Creating Illusions on a Larger Scale
+        earth:
+            - earth magic
+            - Earth Manipulation (shaping and moving the ground)
+            - Terrakinesis
+            - Plant Manipulation (controlling plant life)
+            - Crystal Manipulation
+        elemental:
+            - __magical/types/air__
+            - __magical/types/earth__
+            - __magical/types/fire__
+            - __magical/types/ice__
+            - __magical/types/lightning__
+            - __magical/types/metal__
+            - __magical/types/water__
+        fire:
+            - fire magic
+            - Fireballs
+            - Fire Manipulation (creating and controlling flames)
+            - Fire Breathing
+            - Pyrokinesis
+            - Flame Projection
+        gravity:
+            - gravity magic
+            - Gravitational Manipulation (controlling gravity fields)
+            - Levitation and Floating
+            - Black Hole Creation (controlled, fictional application)
+        ice:
+            - ice magic
+            - Cryokinesis (mind over ice and cold)
+            - Frost Manipulation (creating and controlling frost)
+            - Snow Manipulation (creating and controlling snow)
+        illusion:
+            - Illusion Magic
+            - Enchantment
+            - Creating Illusions
+            - Enchanting Objects
+            - Shape-shifting
+        light:
+            - light magic
+            - Healing Magic
+            - Illusion Magic
+            - Using Music or Sound for Magic
+            - Harmonious or Discordant Effects
+            - Star-based Spells
+            - Cosmic Energy Manipulation
+            - Harnessing Celestial Bodies
+            - Healing Magic
+            - Purification Spells
+            - Light Manipulation
+            - Protection Charm
+        lightning:
+            - lightning magic
+            - Electrokinesis
+            - Lightning Bolts
+            - Electrical Manipulation (creating and controlling electrical currents)
+        metal:
+            - metal magic
+            - Metal Manipulation (controlling metal objects)
+            - Ferrokinesis
+            - Magnetism Manipulation
+            - Shaping and forging metal with magic
+        nature:
+            - nature magic
+            - Plant Growth Manipulation
+            - Vine Manipulation (controlling and animating vines)
+            - Photosynthesis Magic (creating energy from light)
+            - Plant Manipulation
+            - Controlling Animals
+            - Weather Manipulation
+            - Communicating with Nature Spirits
+        shadow:
+            - shadow magic
+            - Shadow Manipulation (creating and controlling shadows)
+            - Darkness Magic
+            - Invisibility and Concealment
+        tech:
+            - Technology manipulation
+            - Psychic powers
+            - Fusion of magic and cybernetics
+            - Nanotechnology manipulation
+            - Control over energy forms
+            - Time manipulation
+            - Space-warping abilities
+            - Genetic and biotechnology manipulation
+            - Creation and control of holographic illusions
+            - Control over quantum particles and reality
+        time:
+            - time magic
+            - Chronokinesis (mind over time)
+            - Time Bending (manipulating the flow of time)
+            - Time Loops and Time Travel
+            - Time Manipulation
+            - Time Travel
+            - Time Alteration
+        transmutation:
+            - Transmutation
+            - Alchemy
+            - Substance Transformation
+            - Magical Potions and Elixirs
+        water:
+            - water magic
+            - Water Manipulation (controlling water flow and shape)
+            - Hydrokinesis
+            - Healing Waters
+            - Ice Manipulation
+    beings:
+        - Amazon, Fearless warrior, Skilled archer, Formidable strength, Independent and self-reliant, Tall and muscular stature, Battle-hardened, Warriors of ancient myths, Honor and bravery, fantasy
+        - android, Human-like appearance, Anthropomorphic design, Synthetic skin and hair, Futuristic and sleek aesthetics, Elegance and sophistication in design, Enhanced with advanced technology, sci-fi
+        - Angel, Radiant aura, Heavenly grace, Harbingers of good news, Guardians of the divine realm, Symbolize purity and innocence, Emanate ethereal light, fantasy
+        - Centaur, Half-human, half-horse, Mythological creatures, Powerful and agile, Equine lower body, Human upper body,Guardians of the wild, fantasy
+        - cyborg, Human-machine hybrids, Part organic and part artificial, Advanced bionic enhancements, Futuristic technology, Cybernetic implants, Blend of biology and robotics, Enhanced physical capabilities, Integrated electronics, Neural interfaces, sci-fi, magical
+        - CyclopeOne-eyed giants, Mythological creatures, Enormous and powerful, Singular eye in the middle of the forehead, Fierce and intimidating appearance, Known for strength and brutality, fantasy, greek mythology
+        - Demon, Malevolent supernatural being, evil, chaos, infernal, powerful entity, corrupt,harm full, fantasy
+        - Devil, embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
+        - Djinn, supernatural beings, Middle Eastern folklore, humanoid created from smokeless fire, fantasy
+        - Dragon (in humanoid form),  immense power, wisdom, and connection to fire, draconic features,scales, wings, wise, ancient being, knowledge , fantasy
+        - Dwarf, short-statured humanoid beings, 3 to 4 feet tall, skilled craftsmen,expertise in mining and blacksmithing, resilience, determination, fantasy
+        - Elf, graceful and long-lived beings, 6 to 7 feet tall, beautiful,elegant,youthful appearance, graceful, ethereal, magical, fantasy
+        - Fairy,enchanting, ethereal creature, beauty, nature, protectors creatures, sacred places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
+        - Giant, humanoid, enormous and powerful beings, 20 to 40 feet tall, benevolent and wise, force of nature, legendary strength, fantasy
+        - Gnome, 1 feet small, humanoid, earth-dwelling humanoid being, affinity with the earth and nature, gardening and craftsmanship, fantasy
+        - Goblin,imaginative and mischievous goblin character with a hunched posture, glowing beady eyes, and a malevolent grin. Use earthy green and brown tones for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small in stature, around 2 to 3 feet tall, fantasy
+        - Harpie,mythical creature, upper body of a woman,  wings and lower body of a bird, vicious and malevolent, fantasy
+        - Human
+        - Kitsune,mythical creature, Japanese folklore, intelligent, humanform with multiple foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
+        - Leprechaun, mischievous, solitary,old men wearing green coats and buckled shoes, 3-4 feet tall, crafty and elusive, fantasy
+        - Merfolk, upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
+        - Minotaur, mythical creature with the head of a bull and the body of a man, Greek mythology, fierce and monstrous, chaos, primal instinct, fantasy
+        - Minotaurin, mythical creature, body of a woman, cow tail, bull horns, cow spots, gentle, friendly, large breasts , Greek mythology
+        - Naga, mythical serpent humanoid being, serpentine lower bodies, human upper body, "{devine, wisdom, knowledge|dangerous, unpredictable}", fantasy
+        - Nymph, Ethereal beauty, Nature's guardian, Alluring grace, Youthful appearance, Connected to the environment, Magical presence, Nature spirits, Reside in forests and water bodies, fantasy
+        - Orc, fictional humanoid creatures, brutish, fearsome, strength, muscular,rough rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray} skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated noses, and wide, powerful jaws, {sharp teeth|} fantasy
+        - Pixie, tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows}, playful, curious, delicate wings, flitting throught the air, fanatasy
+        - Satyr, mythological creature, upper body human, lower body goat, revelry, music, wine, dance, skilled musician and dancer, horns, fantasy
+        - Siren, seductive and alluring creatures, Greek mythology,beautiful,danger, temptation
+        - Sylph, humanoid elemental being, delicate and ethereal beings with gossamer wings, guardians of the air, {sky|mountain top},weather
+        - Troll, mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep forests}, Thick Warty {grey|green|brown} Skin, large nose, pointy ears, jutting jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy, stooped posture
+        - Vampire, legendary creature, force, power, blood, undead, beautyful, alluring, night, moon, fangs, fantasy
+        - Werewolf, lycanthropes,  mythical creature, humanoid wolf-like form, full moon, hairy furry skin, fangs, wolf ears, wolf-like face
+        - Yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains, 
+    elemental:
+        - "{fire|water|air|earth|elemental}"
+    lighting:
+        - Astral Gleam
+        - Celestial Glimmer
+        - Celestial Radiance
+        - Crystal Luminance
+        - Dazzling Radiance
+        - Dreamshine
+        - Elemental Glow
+        - Emanating Luminescence
+        - Enchanted Luminosity
+        - Enchanted Radiance
+        - Enchanting Luminescence
+        - Enchantment Aura
+        - Enigma Ray
+        - Ethereal Glow
+        - Ethereal Luminescence
+        - Everglow
+        - Faerie Glow
+        - Faerie Lights
+        - Glowstone
+        - Incandescent Brilliance
+        - Lumina Veil
+        - Luminescent Auras
+        - Magical Radiance
+        - Moonbeam
+        - Mystic Ember
+        - Mystical Radiance
+        - Prismatic Illumination
+        - Radiant Halo
+        - Solar Flare
+        - Sorcerer's Brilliance
+        - Spectral Radiant
+        - Starfire
+        - Transcendent Glow
+        - Twilight Spark
+        - Wispfire
+
+    profession:
+        crafter:
+            - Alchemist
+            - Conjurer
+            - Enchanter
+        caster:
+            - caster 
+            - Mage
+            - Magician
+            - Magus
+            - Sorcerer
+            - Spellcaster
+        knowledge:
+            - Arcanist
+            - Wizard
+        nature:
+            - Druid
+            - Shaman
+        dark:
+            - Necromancer
+            - Occultist
+            - Thaumaturge
+            - Warlock
+            - Witch
+        light:
+            - High Priest
+            - Priest
+            - Mystic
+        illusion:
+            - Clairvoyant
+            - Enigma
+            - Illusionist
+            - Seer
+        technomancy:
+            - Technomancer
+            - Psion
+            - Cyberwizard
+            - Nanomancer
+            - Energy Manipulator
+            - Chronomancer
+            - Space Mage
+            - Biowitch
+            - Hologrammancer
+            - Quantum Sorcerer
+    profession-magic-use:
+        crafter:
+            - __magical/types/transmutation__
+            - __magical/types/metal__
+            - __magical/types/tech__, __styles/punk-styles__
+        caster:
+            - __magical/types/air__
+            - __magical/types/fire__
+            - __magical/types/earth__
+            - __magical/types/lightning__
+            - __magical/types/ice__
+            - __magical/types/light__
+            - __magical/types/metal__
+            - __magical/types/water__
+            - __magical/types/elemental__
+        knowledge:
+            - __magical/types/time__
+            - __magical/types/gravity__
+            - __magical/types/illusion__
+            - __magical/types/light__
+        nature:
+            - __magical/types/nature__
+            - __magical/types/water__
+            - __magical/types/elemental__
+        dark:
+            - __magical/types/dark__
+            - __magical/types/tech__, __styles/punk-styles__
+            - __magical/types/shadow__
+            - __magical/types/elemental__
+        light:
+            - __magical/types/light__
+            - __magical/types/dream__
+            - __magical/types/nature__
+            - __magical/types/water__
+        illusion:
+            - __magical/types/divination__
+            - __magical/types/illusion__
+            - __magical/types/dream__
+            - __magical/types/light__
+            - __magical/types/elemental__
+            - __magical/types/shadow__
+        technomancy:
+            - __magical/types/tech__, __styles/punk-styles__
+    words:
+        adjectives:
+            - Alluring
+            - Astral
+            - Beguiling
+            - Bewildering
+            - Bewitching
+            - Captivating
+            - Celestial
+            - Charmed
+            - Elysian
+            - Enchanted
+            - Enchanting
+            - Enigmatic
+            - Enlivening
+            - Enrapturing
+            - Enthralling
+            - Enveloping
+            - Ephemeral
+            - Ethereal
+            - Fantasmagoric
+            - Fantastical
+            - Glamorous
+            - Glowing
+            - Hypnotic
+            - Hypnotizing
+            - Illuminating
+            - Illusionary
+            - Illustrious
+            - Intriguing
+            - Luminescent
+            - Magical
+            - Mesmerizing
+            - Mysterious
+            - Mystical
+            - Mystifying
+            - Ornate
+            - Otherworldly
+            - Pulsating
+            - Radiant
+            - Radiating
+            - Resonant
+            - Resonating
+            - Resplendent
+            - Seraphic
+            - Shimmering
+            - Sorcerous
+            - Spectral
+            - Spellbinding
+            - Spellbound
+            - Supernatural
+            - Transcendent
+            - Transcending
+            - Transfiguring
+            - Unearthly
+            - Unfathomable
+            - Veiled
+            - Vibrant
+            - Whimsical
+            - Whirling
+        substantives:
+            - Alchemy
+            - Amulet
+            - Arcane
+            - Arcanist
+            - Arcanum
+            - Astral
+            - Aura
+            - Cauldron
+            - Celestial
+            - Charm
+            - Conjuration
+            - Conjuring
+            - Coven
+            - Crystal
+            - Divination
+            - Enchanter
+            - Enchantment
+            - Enigma
+            - Enigmatic
+            - Enthrallment
+            - Familiar
+            - Glamour
+            - Glyph
+            - Grimoire
+            - Illusion
+            - Incantation
+            - Invocation
+            - Mage
+            - Magician
+            - Mysticism
+            - Oracle
+            - Parchment
+            - Pentacle
+            - Potion
+            - Prophecy
+            - Ritual
+            - Rune
+            - Runestone
+            - Scroll
+            - Sorcery
+            - Spellcasting
+            - Talisman
+            - Thaumaturgy
+            - Wand
+            - Warlock
+            - Witchcraft
+            - Wizardry
+        verbs:
+            - Beam
+            - Bedazzle
+            - Bewitch
+            - Captivate
+            - Cast
+            - Channel
+            - Charm
+            - Conjure
+            - Dazzle
+            - Emit
+            - Enchant
+            - Enflame
+            - Enkindle
+            - Enliven
+            - Enrapture
+            - Enshroud
+            - Enthrall
+            - Envelop
+            - Evolve
+            - Fascinate
+            - Flicker
+            - Flourish
+            - Gleam
+            - Glimmer
+            - Glitter
+            - Glow
+            - Hypnotize
+            - Illuminate
+            - Infuse
+            - Inspire
+            - Manifest
+            - Mesmerize
+            - Pulse
+            - Radiate
+            - Resonate
+            - Shine
+            - Spark
+            - Sparkle
+            - Stun
+            - Summon
+            - Transcend
+            - Transfigure
+            - Twinkle
+            - Unleash
+            - Vivify
+properties:
+    materials-magic:
+        ingredients:
+            - Copper
+            - Brass
+            - Enchanted Steel
+            - Magic-infused Alloy
+            - Bronze
+            - Iron
+            - Silver
+            - Gold
+            - Mithril
+            - Adamantine
+            - Arcane Crystals
+            - Runescribed Plates
+            - Ethereal Ectoplasm
+            - Celestial Stardust
+            - Ancient Hieroglyphic Plates
+            - Living Wood
+            - Dragon Scales
+            - Metallic Plates
+            - Fey-forged Metal
+            - __magical/elemental__ Crystals
+            - Time-Twisted Metal
+            - Void-Forged Dark Metal
+phenomena:
+    natural:
+        - water
+        - lightning
+        - rainbow
+        - tornado
+        - earthquake
+        - aurora
+        - volcanic eruption
+        - tsunami
+        - solar eclipse
+        - meteor shower
+        - geyser
+        - waterfall
+        - dust storm
+        - comet
+        - glacier
+        - waterspout
+        - bioluminescence
+        - fog
+        - avalanche
+        - sinkhole
+        - dust devil
+        - iceberg
+        - hailstorm
+        - spring bloom
+        - aurora australis
+        - st. elmo's fire
+        - fire rainbow
+        - sundogs
+        - moonbow
+        - sprites and elves
+        - fata morgana
+        - mammatus clouds
+        - steam devil
+        - Northern lights
+    abstract:
+        - death
+        - decay
+        - doom
+        - void
+        - Synchronicity
+        - Déjà vu
+        - Serendipity
+        - Cognitive dissonance
+        - Flow state
+        - Epiphany
+        - Mindfulness
+        - Collective consciousness
+        - Quantum entanglement
+        - Pareidolia
+        - Hindsight bias
+        - Theory of mind
+        - Gestalt principles
+        - Placebo effect
+        - Self-fulfilling prophecy
+        - time
+        - Time dilation
+        - Time perception
+        - Timelessness
+        - Time loops
+        - Time travel
+        - Time paradoxes
+        - Time compression
+        - Space-time continuum
+        - Entropy
+        - Eternity
+        - Synchronicity
+        - Temporality
+        - Timelessness
+        - Chronostasis
+        - Time dilation
+        - Timelessness
+        - Causality
+        - Perpetuity
+        - Timelessness
+        - Transience
+        - Timelessness
+        - Singularity
+random:
+    accesoires-magical:
+        - "{1-4$$ and$${0.1::__clothings/unisex/accesoires__ |}|
+        {0.2::__clothings/unisex/backwear__ |}|
+        {0.2::__clothings/unisex/facewear__ |}|
+        {0.1::__clothings/unisex/neckwear__ |}}"
+    properties-magical:
+        - "{0-5$$ and $${-2$$__magical/words/adjectives__}|
+        {-2$$__magical/words/substantives__}|
+        {-2$$__magical/words/verbs__}|
+        {-2$$__properties/materials-magic/*__}|
+        __magical/lighting__}"
+    profession-magic:
+        - __magical/profession/crafter__, __magical/magic__ __magical/profession-magic-use/crafter__
+        - __magical/profession/caster__, __magical/magic__ __magical/profession-magic-use/caster__
+        - __magical/profession/knowledge__, __magical/magic__ __magical/profession-magic-use/knowledge__
+        - __magical/profession/nature__, __magical/magic__ __magical/profession-magic-use/nature__
+        - __magical/profession/dark__, __magical/magic__ __magical/profession-magic-use/dark__
+        - __magical/profession/light__, __magical/magic__ __magical/profession-magic-use/light__
+        - __magical/profession/illusion__, __magical/magic__ __magical/profession-magic-use/illusion__
+        - __magical/profession/technomancy__, __magical/magic__ __magical/profession-magic-use/technomancy__

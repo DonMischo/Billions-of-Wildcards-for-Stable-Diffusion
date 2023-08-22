@@ -1,0 +1,878 @@
+# Billions of vehicles:
+BoVehicles:
+    random:
+        - "{__vehicles/size__|} __vehicles/types/*__,
+        {__vehicles/exterior-features__,|}
+        {__vehicles/windows__,|}
+        {__vehicles/lights__,|}
+        {__vehicles/Accessories__,|}
+        {__vehicles/Customization__,|}
+        __properties/materials-vehicles__,
+        __properties/Visual-Appearance__,
+        {__properties/paint-vehicle__,|}
+        {__properties/Texture-vehicles__,|}"
+    random-scifi:
+        - "{__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|__vehicles/types/Flying-Car-Like-Vehicles__|__vehicles/types/Underground-Vehicles__},
+        {__vehicles/exterior-features__,|}
+        {__vehicles/windows__,|}
+        {__vehicles/lights__,|}
+        {__vehicles/Accessories__,|}
+        {__vehicles/Customization__,|}
+        __properties/materials-vehicles__,
+        __properties/Visual-Appearance__,
+        {__properties/paint-vehicle__,|}
+        {__properties/Texture-vehicles__,|}"
+    random-notype:
+        - "{__vehicles/size__|} Conveyance,
+        {__vehicles/exterior-features__,|}
+        {__vehicles/windows__,|}
+        {__vehicles/lights__,|}
+        {__vehicles/Accessories__,|}
+        {__vehicles/Customization__,|}
+        __properties/materials-vehicles__,
+        __properties/Visual-Appearance__,
+        {__properties/paint-vehicle__,|}
+        {__properties/Texture-vehicles__,|}"
+vehicles:
+    size:
+        - Tiny
+        - Small
+        - Compact
+        - Medium
+        - Average
+        - Large
+        - Big
+        - Huge
+        - Gigantic
+        - Enormous
+        - Massive
+        - Colossal
+    types:
+        train:
+            - Steam Locomotive
+            - Diesel Locomotive
+            - Electric Locomotive
+            - High-Speed Train
+            - Maglev Train
+            - Commuter Train
+            - Freight Train
+            - Passenger Train
+            - Monorail
+            - Subway Train
+            - Light Rail
+            - Vintage Train
+            - Articulated Train
+        space:
+            - Astral Galleon
+            - Astral Surveyor
+            - Astro Galleon
+            - Black Hole Explorer
+            - Celestial Cruiser
+            - Celestial Navigator
+            - Celestial Shuttle
+            - Comet Hopper
+            - Cosmic Cruiser
+            - Cosmic Explorer
+            - Dimensional Transporter
+            - Exoplanet Rover
+            - Exoplanet Seeker
+            - Galactic Cruiser
+            - Galactic Probe
+            - Galactic Surveyor
+            - Hyperspace Ship
+            - Hyperspace Yacht
+            - Intergalactic Ark
+            - Intergalactic Corvette
+            - Interstellar Ark
+            - Ion Cruiser
+            - Ion Thruster Vessel
+            - Lunar Rover
+            - Moon Buggy
+            - Nebula Cruiser
+            - Nebula Explorer
+            - Nebula Hopper
+            - Nebula Lander
+            - Nebula Navigator
+            - Nebula Surveyor
+            - Nebula Traveler
+            - Nebula Voyager
+            - Plasma Propulsion Craft
+            - Quantum Jumpship
+            - Quantum Traveler
+            - Solar Cruiser
+            - Solar Sailer
+            - Space Colony
+            - Space Elevator
+            - Space Probe
+            - Space Shuttle
+            - Space Station
+            - Star Cluster Explorer
+            - Starship
+            - Starry Skiff
+            - Stellar Lander
+            - UFO (Unidentified Flying Object)
+            - Warp Drive Vessel
+            - Warp Jet
+            - Wormhole Shuttle
+            - Y-Wing (Star Wars)
+            - X-Wing (Star Wars)
+            - Zeta Craft
+        Cars:
+            - Sedan
+            - Coupe
+            - Hatchback
+            - Convertible
+            - SUV (Sports Utility Vehicle)
+            - Minivan
+            - Pickup Truck
+            - Electric Car
+            - Hybrid Car
+            - Vintage Car
+            - Muscle Car
+            - Sports Car
+            - Luxury Car
+            - Autonomous Car
+            - Concept Car
+        Motorcycles:
+            - Cruiser
+            - Sport Bike
+            - Touring Bike
+            - Dirt Bike
+            - Adventure Bike
+            - Café Racer
+            - Chopper
+            - Electric Motorcycle
+        Bicycles:
+            - Mountain Bike
+            - Road Bike
+            - Hybrid Bike
+            - BMX Bike
+            - Folding Bike
+            - Electric Bike
+        Heavy-Vehicles:
+            - Dump Truck
+            - Fire Truck
+            - Garbage Truck
+            - Tow Truck
+            - Cement Mixer Truck
+            - Tanker Truck
+            - Semi-Truck
+            - Armored Vehicle
+            - Construction Vehicle
+        Public Transport:
+            - Bus
+            - Trolleybus
+            - Tram
+            - Light Rail
+            - Subway/Metro
+            - Monorail
+        Special-Purpose:
+            - Bulldozer
+            - Excavator
+            - Tractor
+            - Forklift
+            - Snowplow
+            - Ambulance
+            - Police Car
+            - Military Vehicle
+        Fictional-Concept:
+            - Hovercraft
+            - Amphibious Vehicle
+            - Land Speeder (Star Wars)
+            - War Rig (Mad Max)
+            - Batmobile (Batman)
+            - DeLorean Time Machine (Back to the Future)
+            - Tron Light Cycle (Tron)
+            - Ghostbusters Ecto-1 (Ghostbusters)
+            - Warthog (Halo)
+            - Speeder Bike (Star Wars)
+            - Spinner (Blade Runner)
+            - Thunderbird 2 (Thunderbirds)
+            - Millennium Falcon (Star Wars)
+            - Tumbler (The Dark Knight)
+            - Red Five X-Wing Starfighter (Star Wars)
+            - USS Enterprise (Star Trek)
+            - Serenity (Firefly)
+            - TIE Fighter (Star Wars)
+            - AT-AT Walker (Star Wars)
+            - NCC-1701-D (Star Trek)
+            - TARDIS (Doctor Who)
+            - Mako (Mass Effect)
+            - Light Runner (TRON Legacy)
+            - Viper (Battlestar Galactica)
+            - Speeder (Star Wars)
+            - Mjolnir Powered Assault Armor (Halo)
+            - Cyclone (Robotech)
+            - Gundam Mobile Suit (Mobile Suit Gundam)
+            - Warthog (Gears of War)
+            - Skutter (Red Dwarf)
+        Airborne-Vehicles:
+            - Aerial Tramway
+            - Autogyro
+            - Autoplane
+            - Autocopter
+            - Autoheli
+            - Flying Saucer (Fictional)
+            - Airboard
+            - Airsled
+            - Amphibious Aircraft
+            - Personal Flying Device
+            - Nimbus 2002 (Harry Potter, Fictional)
+            - Quidditch Broomstick (Harry Potter, Fictional)
+            - Snowspeeder (Star Wars, Fictional)
+            - Millennium Falcon (Star Wars, Fictional)
+            - Landspeeder (Star Wars, Fictional)
+            - AT-AT Walker (Star Wars, Fictional)
+            - Tron Light Cycle (Tron, Fictional)
+            - Banshee (Avatar, Fictional)
+            - Flying Nimbus (Dragon Ball, Fictional)
+            - Ornithopter (Dune, Fictional)
+            - TARDIS (Doctor Who, Fictional)
+            - Serenity (Firefly, Fictional)
+            - NCC-1701 Starship (Star Trek, Fictional)
+            - Klingon Bird-of-Prey (Star Trek, Fictional)
+            - Viper (Battlestar Galactica, Fictional)
+            - Arwing (Star Fox, Fictional)
+            - Dragon (Various, Fictional)
+            - Magic Broom (Various, Fictional)
+            - B-wing Starfighter (Star Wars, Fictional)
+            - Snowspeeder (Star Wars, Fictional)
+            - U-wing (Star Wars, Fictional)
+            - Nimbus 2003 (Harry Potter, Fictional)
+            - X-34 Landspeeder (Star Wars, Fictional)
+            - Light Runner (Tron, Fictional)
+        Flying-Car-Like-Vehicles:
+            - Hovercar
+            - AeroCar
+            - Aeromobile
+            - AeroMobil
+            - PAL-V Liberty
+            - SkyDrive SD-03
+            - Terrafugia Transition
+            - PAL-V Liberty Pioneer Edition
+            - Vertical Aerospace VA-1X
+            - Urban Aeronautics CityHawk
+            - AeroMobil 5.0
+            - PAL-V Liberty Sport
+            - SkyDrive SD-XX
+            - Terrafugia TF-X (Concept)
+            - Urban Aeronautics CityAirbus (Concept)
+            - AeroMobil 6.0 (Concept)
+            - PAL-V Liberty Aero (Concept)
+            - SkyDrive SD-Zero (Concept)
+            - Terrafugia TF-2 (Concept)
+        Underwater-Vehicles:
+            - Submarine
+            - Research Submarine
+            - Deep-sea Submersible
+            - Personal Submersible
+            - Tourist Submarine
+            - Autonomous Underwater Vehicle (AUV)
+            - Remotely Operated Vehicle (ROV)
+            - Bathyscaphe
+            - Manned Torpedo
+            - Wet Submersible
+            - Semi-Submersible
+            - Submersible Yacht (Concept)
+            - Submersible Car (Concept)
+            - DeepFlight Super Falcon
+            - Triton 3300/3
+            - EGO Compact Semi-Submarine
+            - Ortega Mk. 1C Submersible
+            - Seamagine Aurora-6
+            - Necker Nymph
+            - U-Boat Worx C-Explorer 3
+        Fictional-Underwater-Vehicles:
+            - Nautilus (20,000 Leagues Under the Sea)
+            - SeaQuest DSV (SeaQuest DSV TV Series)
+            - GUP (Octonauts)
+            - Sea Treader (BioShock)
+            - Aquabat (Batman Beyond)
+            - Stingray (Stingray TV Series)
+            - Bathysphere (BioShock)
+            - Seaview (Voyage to the Bottom of the Sea)
+            - Hydronaut (Thunderbirds)
+            - Gungan Bongo Submarine (Star Wars)
+            - The Flying Dutchman (SpongeBob SquarePants)
+            - The Sea Star (The Deep)
+            - The Poseidon (The Poseidon Adventure)
+            - S.U.B. (Super Underwater Buggy, Inspector Gadget)
+            - The Spectre (Batman The Brave and the Bold)
+            - The Neptune (The SpongeBob SquarePants Movie)
+            - Subcar (The Simpsons)
+            - Sub-Mariner's Transport (Marvel Comics)
+            - Sea Ship (Adventures of Sonic the Hedgehog)
+            - Subcraft (Thunderbirds)
+        Underground-Vehicles:
+            - Subway Train
+            - Metro
+            - Underground Tram
+            - Mining Vehicle
+            - Tunnel Boring Machine (TBM)
+            - Mole Machine (Fictional)
+            - Subterranean Driller
+            - Subterranean Transport
+            - Digger
+            - Drillship (Subnautica)
+            - Subterrene (Conceptual)
+            - Boring Pod (Futurama)
+            - Worm Drill (Dune)
+            - Boring Vehicle (Total Recall)
+            - Underminer's Drill Vehicle (The Incredibles)
+            - The Mole (Thunderbirds)
+            - Deviant Vehicle (Gears of War)
+            - Tunneler (Red Faction)
+    exterior-features:
+        - Aerodynamic Lines
+        - Aggressive Front Grille
+        - Angular Headlights
+        - Antenna
+        - Articulated Wings
+        - Body Panels
+        - Bumper Guards
+        - Canopy
+        - Chassis
+        - Convertible Roof
+        - Corrosion-resistant Coating
+        - Crisp Contours
+        - Curved Fenders
+        - Distinctive Silhouette
+        - Door Handles
+        - Engine Air Intake
+        - Exhaust Pipes
+        - External Cameras
+        - Fins
+        - Flared Wheel Arches
+        - Flowing Lines
+        - Foldable Mirrors
+        - Gullwing Doors
+        - Hatchback Design
+        - Hood Scoop
+        - LED Lighting
+        - Panoramic Sunroof
+        - Portholes
+        - Rear Spoiler
+        - Roof Rack
+        - Running Boards
+        - Sculpted Body
+        - Shark Fin Antenna
+        - Side Skirts
+        - Sliding Doors
+        - Slit Windows
+        - Smooth Curves
+        - Solar Panels
+        - Sporty Appearance
+        - Stylized Grille
+        - Tailfins
+        - Tinted Windows
+        - Trunk Lid
+        - Twin Exhaust Tips
+        - Underbody Lights
+        - Upswept Roofline
+        - Ventilated Panels
+        - Vented Hood
+        - Wheel Arch Cladding
+        - Windshield Wipers
+    windows:
+        - Tinted Windows
+        - Reflective Glass
+        - Panoramic Windows
+        - Curved Windshield
+        - Wraparound Windows
+        - Oversized Windshield
+        - Sliding Windows
+        - Bulletproof Glass
+        - Privacy Windows
+        - Frosted Glass
+        - Ventilated Windows
+        - Power Windows
+        - Teardrop Windows
+        - Frameless Windows
+        - Sunroof
+        - Rear Quarter Windows
+        - Louvered Windows
+        - Split Windows
+        - Bubble Windows
+        - Clear Glass
+        - Stained Glass
+        - One-Way Glass
+        - Wing Windows
+        - Bifocal Windows
+        - Multi-Pane Windows
+        - Defogging Windows
+        - Pop-Out Windows
+        - Side-View Mirrors
+        - Convex Mirrors
+        - Wide-Angle Mirrors
+        - Blind-Spot Mirrors
+        - Self-Dimming Mirrors
+        - Heated Mirrors
+        - Rearview Camera
+        - Electrochromic Glass
+        - Adjustable Mirrors
+        - Side Mirrors with Turn Signals
+        - Anti-Glare Mirrors
+        - Smart Glass Windows
+        - Electrostatic Windows
+        - Curved Rear Windows
+        - Sliding Rear Windows
+        - Power Sunshade
+        - Rain-Sensing Wipers
+        - Automatic Windows
+        - Electrostatic Tinting
+        - Rear Defroster
+        - Self-Cleaning Windows
+        - Rear Wiper
+        - Solar-Control Glass
+        - Electrochromatic Mirrors
+        - Motorized Sunroof
+        - Heated Windshield
+        - Auto-Dimming Side Mirrors
+        - Reverse-Activated Mirrors
+        - Electric Window Shades
+        - Rear Privacy Glass
+        - Heads-Up Display
+        - Hydrophobic Glass
+        - Electro-Optic Glass
+    lights:
+        - Halogen Headlights
+        - LED Headlights
+        - Xenon Headlights
+        - Projector Headlights
+        - HID Headlights
+        - Daytime Running Lights (DRL)
+        - Fog Lights
+        - Cornering Lights
+        - Adaptive Headlights
+        - Matrix LED Headlights
+        - Laser Headlights
+        - Halogen Fog Lights
+        - LED Fog Lights
+        - Halogen Tail Lights
+        - LED Tail Lights
+        - Sequential Tail Lights
+        - Brake Lights
+        - Turn Signal Lights
+        - Hazard Lights
+        - Side Marker Lights
+        - Interior Ambient Lighting
+        - Accent Lighting
+        - Underglow Lights
+        - Puddle Lights
+        - Door Handle Lights
+        - Welcome Lights
+        - Running Board Lights
+        - Trunk Light
+        - Glove Box Light
+        - Dome Light
+        - Map Lights
+        - Reading Lights
+        - Vanity Mirror Lights
+        - Footwell Lights
+        - Cargo Area Light
+        - Third Brake Light
+        - Emergency Lights
+        - Strobe Lights
+        - Beacon Lights
+        - Flashing Lights
+        - Emergency Brake Lights
+        - Emergency Exit Lights
+        - High Beam Lights
+        - Low Beam Lights
+        - Headlight Washers
+        - Auto-Leveling Headlights
+        - Dynamic Bend Lighting
+        - Cornering Function Lights
+        - Light Sensors
+        - Auto On/Off Lights
+        - Light Bars
+        - Light Strips
+        - Mood Lighting
+        - Neon Lights
+        - UV Lights
+        - Infrared Lights
+        - Night Vision Lights
+        - Safety Lights
+        - Clearance Lights
+        - Reverse Lights
+        - License Plate Lights
+        - Off-Road Lights
+        - Spotlights
+        - Work Lights
+        - Emergency Warning Lights
+        - Beacon Lights
+    Accessories:
+        - Roof Rack
+        - Roof Box
+        - Luggage Carrier
+        - Bull Bar
+        - Brush Guard
+        - Grille Guard
+        - Winch
+        - Winch Bumper
+        - Off-Road Bumper
+        - Step Bars
+        - Running Boards
+        - Nerf Bars
+        - Mud Flaps
+        - Splash Guards
+        - Fender Flares
+        - Vent Visors
+        - Bug Deflector
+        - Window Tint
+    Customization:
+            - Custom Paint Job
+            - Vinyl Wrap
+            - Airbrushed Design
+            - Graphics Decals
+            - Pinstriping
+            - Custom Wheels
+            - Alloy Wheels
+            - Chrome Wheels
+            - Spoked Wheels
+            - Hubcaps
+            - Wheel Covers
+            - Wheel Flares
+            - Wheel Spacers
+            - Lift Kit
+            - Lowering Kit
+            - Suspension Upgrade
+            - Performance Exhaust System
+            - Cat-Back Exhaust
+            - Cold Air Intake
+            - Supercharger
+            - Turbocharger
+            - Nitrous Oxide Kit
+            - ECU Tuning
+            - Performance Brakes
+            - Brake Caliper Covers
+            - Spoiler
+            - Wing
+            - Body Kit
+            - Widebody Kit
+            - Ground Effects
+            - Splitter
+            - Diffuser
+            - Roof Spoiler
+            - Window Tint
+            - Towing Mirrors
+            - Trailer Hitch
+            - LED Lighting Upgrades
+            - HID Headlights
+            - LED Tail Lights
+            - Light Bars
+            - Underglow Lights
+            - Interior LED Lighting
+            - Sound System Upgrade
+            - Subwoofer
+            - Amplifier
+            - Head Unit
+            - Speaker Upgrade
+            - Custom Upholstery
+            - Leather Seats
+            - Alcantara Seats
+            - Racing Seats
+            - Seat Covers
+            - Steering Wheel Wrap
+            - Custom Floor Mats
+            - Pedal Covers
+            - Shift Knob
+            - Gauges and Instrument Panel Upgrades
+            - Dash Kit
+            - Custom Mirrors
+            - Antenna Replacement
+            - Hood Scoop
+            - Body Accent Trim
+            - Chrome Accessories
+            - Carbon Fiber Accessories
+            - Engine Dress-Up Kit
+            - Decals and Emblems
+            - Windshield Banner
+            - Hood Graphics
+            - Roof Graphics
+            - Rear Window Graphics
+            - Door Sill Guards
+            - License Plate Frame
+            - Custom Grille
+            - Billet Grille
+            - Mesh Grille
+            - Badge Replacement
+            - Key Fob Cover
+            - Custom Valve Stem Caps
+            - Custom Valve Covers
+            - Engine Bay Lights
+            - Engine Cover
+            - Air Suspension
+            - Frame Reinforcement
+            - Roll Cage
+            - Painted Brake Calipers
+            - Custom Badges
+properties:
+    materials-vehicles:
+        - Wood
+        - Metal
+        - Steel
+        - Aluminum
+        - Titanium
+        - Carbon Fiber
+        - Plastic
+        - Fiberglass
+        - Ceramic
+        - Glass
+        - Rubber
+        - Leather
+        - Cloth
+        - Silk
+        - Velvet
+        - Paper
+        - Cardboard
+        - Stone
+        - Concrete
+        - Brick
+        - Silver
+        - Gold
+        - Copper
+        - Bronze
+        - Nickel
+        - Brass
+        - Marble
+        - Crystal
+        - Obsidian
+        - Ice
+        - Luminite
+        - Ethereal Crystal
+        - Quenched Iron (Wheel of Time)
+        - Orichalcum (Mythical)
+        - Dark Matter
+        - Mithral
+        - Lunar Steel
+        - Voidmetal
+        - Ebony
+        - Bloodwood
+        - Dragonbone
+        - Corundum
+        - Glass-Steel
+        - Electrum
+        - Vibroblade
+    Visual-Appearance:
+        - Aerodynamic
+        - Alien
+        - Angular
+        - Asymmetrical
+        - Bold
+        - Box-shaped
+        - Bulky
+        - Camouflaged
+        - Chromed
+        - Clunky
+        - Curved
+        - Cutting-edge
+        - Dynamic
+        - Eccentric
+        - Elaborate
+        - Elegant
+        - Ethereal
+        - Extravagant
+        - Familiar
+        - Flashing
+        - Fluid
+        - Futuristic
+        - Geometric
+        - Glassy
+        - Glowing
+        - Glossy
+        - Graceful
+        - High-tech
+        - Illuminated
+        - Imposing
+        - Industrial
+        - Intricate
+        - Luminous
+        - Low-tech
+        - Matte
+        - Mechanical
+        - Metallic
+        - Minimalist
+        - Monochrome
+        - Monstrous
+        - Multicolored
+        - Multifunctional
+        - Muted
+        - Neon-lit
+        - Opaque
+        - Organic
+        - Ornate
+        - Patterned
+        - Polished
+        - Pristine
+        - Rugged
+        - Rusty
+        - Sleek
+        - Smooth
+        - Streamlined
+        - Striped
+        - Subtle
+        - Symmetrical
+        - Textured
+        - Tinted
+        - Timeless
+        - Translucent
+        - Transparent
+        - Two-toned
+        - Unconventional
+        - Utilitarian
+        - Vibrant
+        - Vintage
+        - Weathered
+        - Whimsical
+        - Xeno
+    paint-vehicle:
+        - Glossy Finish
+        - Matte Coating
+        - Metallic Paint
+        - Pearl Effect
+        - Satin Sheen
+        - Shimmering Coat
+        - Chrome Plating
+        - Reflective Surface
+        - Candy Color
+        - Two-Tone Paint
+        - Glossy Varnish
+        - Iridescent Hue
+        - High-Gloss Polish
+        - UV-resistant Paint
+        - Textured Finish
+        - Weathered Patina
+        - Distressed Look
+        - Flaked Paint
+        - Chameleon Paint
+        - Color-Shifting Coat
+        - Vintage Paintjob
+        - Classic Livery
+        - Custom Artwork
+        - Racing Stripes
+        - Tribal Designs
+        - Airbrushed Patterns
+        - Matte Black
+        - Sleek Silver
+        - Vibrant Red
+        - Deep Blue
+        - Pearl White
+        - Midnight Black
+        - Electric Green
+        - Ruby Red
+        - Sapphire Blue
+        - Champagne Gold
+        - Graphite Gray
+        - Candy Apple Red
+        - Jet Black
+        - Arctic White
+        - Gunmetal Gray
+        - Desert Sand
+        - Ocean Blue
+        - Emerald Green
+        - Amber Yellow
+        - Sunset Orange
+        - Plum Purple
+        - Mocha Brown
+        - Rose Pink
+        - Neon Glow
+        - Fluorescent Paint
+        - Rustic Patina
+        - Faded Colors
+        - Brushed Finish
+        - Polished Metal
+        - Pearlized Paint
+        - Weathered Texture
+        - Glossy Enamel
+        - Matte Velvet
+        - Textured Surface
+        - Polychromatic Paint
+        - Candy Flake Paint
+        - Chrome Accents
+        - High-Gloss Shine
+        - Glossy Pearl
+        - Metallic Flakes
+        - Glossy Clear Coat
+        - Mirror-Like Reflectivity
+        - Antique Finish
+        - Distinctive Hues
+        - Contrasting Colors
+        - Gradient Effect
+        - Iridescent Sparkle
+        - Prismatic Coating
+        - Deep Gloss
+        - Smooth Sheen
+        - Glittering Highlights
+        - Color-Shifting Pigments
+        - Airbrushed Art
+        - Retro-inspired Livery
+        - Racing Decals
+        - Tribal Patterns
+        - Abstract Designs
+        - Vintage Graphics
+        - Carbon Fiber Texture
+        - Glossy Deep Black
+        - Classic Cream
+        - Royal Blue
+        - Candy Green
+        - Goldenrod
+        - Steel Gray
+        - Burgundy Wine
+        - Ocean Teal
+        - Poppy Red
+        - Mellow Yellow
+        - Lavender Mist
+        - Cherry Blossom Pink
+    Texture-vehicles:
+        - Smooth Surface
+        - Textured Panels
+        - Ribbed Texture
+        - Embossed Patterns
+        - Etched Details
+        - Woven Texture
+        - Rugged Texture
+        - Weathered Surface
+        - Slick Finish
+        - Matte Coating
+        - Glossy Texture
+        - Sandblasted Effect
+        - Polished Metal
+        - Brushed Steel Texture
+        - Velvet-like Feel
+        - Coarse Grain
+        - Soft Leather Upholstery
+        - Rubberized Texture
+        - Faux Woodgrain
+        - Gravelly Texture
+        - Metallic Sheen
+        - Raised Bumps
+        - Pebbled Texture
+        - Cracked Texture
+        - Pitted Surface
+        - Worn Patina
+        - Mesh Texture
+        - Satin Finish
+        - Chiseled Surface
+        - Crystalized Texture
+        - Holographic Glitter
+        - Waxy Coating
+        - Porous Texture
+        - Glassy Smoothness
+        - Rigid Texture
+        - Velvety Plushness
+        - Shiny Resin Coating
+        - Ceramic Smoothness
+        - Crinkled Texture
+        - Fluffy Cushioning
+        - Reflective Gloss
+        - Knurled Pattern
+        - Diamond Quilting
+        - Grungy Feel
+        - Tactile Grooves
+        - Silky Finish
+        - Sandy Texture
+        - Rippled Surface
+        - Iridescent Sheen
+        - Vinyl Texture
+        - Frosted Surface

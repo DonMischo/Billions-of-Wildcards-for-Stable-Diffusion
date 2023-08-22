@@ -1,0 +1,1783 @@
+# BoCharsSciFI
+BoCharsScifi:
+    female:
+        classic:
+            - female __random/profession-scifi__, __person-scifi/female__ wearing __clothings-scifi/female-attire__, __person-scifi/poses__
+        scenery:
+            - __BoCharsScifi/female/classic__, __scifi/lighting__, __scenes-scifi/*__
+        BoConstructions:
+            - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
+    male:
+        classic:
+            - male __random/profession-scifi__, __person-scifi/male__ wearing __clothings-scifi/male-attire__, __person-scifi/poses__, __scifi/lighting__, __scenes-scifi/*__
+        scenery:
+            - __BoCharsScifi/male/classic__, __scifi/lighting__, __scenes-scifi/*__
+        BoConstructions:
+            - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
+    random:
+        - "{__BoCharsScifi/male/classic__|__BoCharsScifi/female/classic__}"
+clothings-scifi:
+    female-attire:
+        - "{0.8::__random/dress-properties__|} __clothings-scifi/female/lower-body__,
+        {0.8::__random/dress-properties__|} __clothings-scifi/female/upper-body__,
+        {0.8::__clothings-scifi/female/footwear__|},
+        {0.5::__clothings-scifi/female/headwear__|},
+        __random/accesoires-scifi__"
+    male-attire:
+        - "{0.8::__random/dress-properties__|} __clothings-scifi/male/lower-body__,
+        {0.8::__random/dress-properties__|} __clothings-scifi/male/upper-body__,
+        {0.8::__clothings-scifi/male/footwear__|},
+        {0.5::__clothings-scifi/male/headwear__|},
+        __random/accesoires-scifi__"
+    female:
+        upper-body:
+            - Holographic Blouse
+            - Plasma-infused Crop Top
+            - Quantum-linked Tank Top
+            - Cybernetic Corset
+            - Augmented Reality Tunic
+            - Neural Interface T-shirt
+            - Bionic Bodysuit
+            - Microchip Vest
+            - Electromagnetic Jacket
+            - AR Blazer
+            - Virtual Reality Cardigan
+            - Gravitational Wrap Top
+            - Bioluminescent Off-shoulder Top
+            - Graphene Turtleneck
+            - Carbon-fiber Bolero
+            - Robotic Blouse
+            - Haptic Feedback Hoodie
+            - Nano-linked Long-sleeve Top
+            - Electroluminescent Peplum Top
+            - Reactive Kimono
+            - Levitating Poncho
+            - Solar-powered Sports Bra
+            - Sonic Soundwave Jacket
+            - Thermal-regulating Shrug
+            - Quantum-tech Blouse
+            - Cyber-silk Camisole
+            - Holographic Halter Top
+            - Bionic Corset Top
+            - AR Mesh Shirt
+            - Neural-linked Tunic
+            - Plasma-infused Sleeveless Blouse
+            - Gravitational Wrap Blouse
+            - Electromagnetic Hooded Sweater
+            - Virtual Reality Tunic Dress
+            - Graphene Crop Top
+            - Carbon-fiber Cropped Cardigan
+            - Bioluminescent Wrap Blouse
+            - Robotic Off-shoulder Sweatshirt
+            - Haptic Feedback Tank Top
+            - Nano-fiber Long-sleeve Blouse
+            - Levitating Kimono Jacket
+            - Solar-powered Sleeveless Vest
+            - Sonic Soundwave Poncho
+            - Thermal-regulating Bolero Jacket
+            - Holo-chiffon Halter Top
+            - Quantum-stitch Sweater
+            - Cybernetic Biker Jacket
+            - AR-embedded Blouse
+            - Plasma-lace Tunic
+            - Gravitational Cape Blazer
+            - Electromesh Hoodie
+            - Virtuality Cardigan Dress
+            - Graphene Tube Top
+            - Carbon-fiber Hooded Poncho
+            - Bioluminescent Sleeveless Tunic
+            - Robotic Off-shoulder Blouse
+            - Haptic Knit Crop Top
+            - Nano-fiber Long-sleeve Shirt
+            - Levitating Wrap Cardigan
+            - Solar-powered Muscle Tee
+            - Sonic Soundwave Windbreaker
+            - Thermal-regulating Ruffled Blouse
+        full-body:
+            - Holographic Jumpsuit
+            - Plasma-infused Catsuit
+            - Quantum-linked Bodysuit
+            - Cybernetic Exosuit
+            - Augmented Reality Onesie
+            - Neural Interface Unitard
+            - Bionic Morphsuit
+            - Microchip Coverall
+            - Electromagnetic Overall
+            - AR Space Suit
+            - Virtual Reality Romper
+            - Gravitational Compression Suit
+            - Bioluminescent Leotard
+            - Graphene Flight Suit
+            - Carbon-fiber Onesie
+            - Robotic Mech Suit
+            - Haptic Feedback Diving Suit
+            - Nano-tech Unitard
+            - Electroluminescent Morphsuit
+            - Reactive Lycra Bodysuit
+            - Levitating Coverall
+            - Solar-powered Jumpsuit
+            - Sonic Soundwave Wetsuit
+            - Thermal-regulating Lycra Catsuit
+            - Quantum-tech Morphsuit
+            - Cyber-silk Catsuit
+            - Holographic Exoskeleton Suit
+            - Bionic Battle Armor
+            - AR Tactical Jumpsuit
+            - Neural-linked Power Suit
+            - Plasma-infused Adaptive Suit
+            - Gravitational Anti-G Suit
+            - Electromagnetic Stealth Suit
+            - Virtual Reality Combat Armor
+            - Graphene Nano-Skin Suit
+            - Carbon-fiber Tactical Uniform
+            - Robotic Mech Armor
+            - Haptic Feedback EVA Suit
+            - Nano-fiber Space Jumpsuit
+            - Levitating Magnetic Suit
+            - Solar-powered Solar Sail Suit
+            - Sonic Soundwave Dampening Suit
+            - Thermal-regulating Exosuit
+            - Holo-chiffon Gown
+            - Quantum-stitch Evening Dress
+            - Cybernetic Ballroom Dress
+            - AR-embedded Maxi Dress
+            - Plasma-lace Mermaid Gown
+            - Gravitational Princess Dress
+            - Electromesh Cocktail Dress
+            - Virtuality Sheath Dress
+            - Graphene Halter Gown
+            - Carbon-fiber Empire Waist Dress
+            - Bioluminescent A-line Dress
+            - Robotic Off-shoulder Dress
+            - Haptic Fit-and-flare Dress
+            - Nano-fiber Midi Dress
+            - Levitating High-low Dress
+            - Solar-powered Wrap Dress
+            - Sonic Soundwave Tunic Dress
+            - Thermal-regulating Pleated Dress
+        lower-body:
+            - Holographic Leggings
+            - Plasma-infused Shorts
+            - Quantum-linked Skirt
+            - Cybernetic Pants
+            - Augmented Reality Trousers
+            - Neural Interface Jeans
+            - Bionic Leggings
+            - Microchip Cargo Pants
+            - Electromagnetic Tights
+            - AR Capris
+            - Virtual Reality Culottes
+            - Gravitational Pleated Skirt
+            - Bioluminescent Joggers
+            - Graphene Harem Pants
+            - Carbon-fiber Jeggings
+            - Robotic Flare Pants
+            - Haptic Feedback Leg Wraps
+            - Nano-linked Yoga Pants
+            - Electroluminescent Palazzo Pants
+            - Reactive Bell Bottoms
+            - Levitating Sarong
+            - Solar-powered Bike Shorts
+            - Sonic Soundwave Leg Warmers
+            - Thermal-regulating Leggings
+            - Quantum-tech Leggings
+            - Cyber-silk Shorts
+            - Holographic Skater Skirt
+            - Bionic Cargo Skirt
+            - AR Mesh Leggings
+            - Plasma-lace Culottes
+            - Gravitational Split Skirt
+            - Electromagnetic Bootcut Pants
+            - Virtuality Mini Skirt
+            - Graphene A-line Skirt
+            - Carbon-fiber Pencil Skirt
+            - Robotic Utility Kilt
+            - Haptic Feedback Leg Holster
+            - Nano-fiber Athletic Skirt
+            - Levitating Wrap-around Skirt
+            - Solar-powered Tennis Skirt
+            - Sonic Soundwave Compression Shorts
+            - Thermal-regulating High-waisted Shorts
+            - Holo-chiffon Maxi Skirt
+            - Quantum-stitch Pleated Midi Skirt
+            - Cybernetic High-low Skirt
+            - AR-embedded Denim Skirt
+            - Plasma-lace Ruffled Skirt
+            - Gravitational Mermaid Skirt
+            - Electromesh Paperbag Waist Pants
+            - Virtuality Cargo Culottes
+            - Graphene Wide-leg Pants
+            - Carbon-fiber Culottes
+            - Robotic Palazzo Trousers
+            - Haptic Feedback Flare Pants
+            - Nano-fiber Lounge Pants
+            - Levitating Asymmetric Skirt
+            - Solar-powered Board Shorts
+            - Sonic Soundwave Biker Shorts
+            - Thermal-regulating Jogger Pants
+        footwear:
+            - Holographic Sneakers
+            - Plasma-infused Sandals
+            - Quantum-linked Boots
+            - Cybernetic Heels
+            - Augmented Reality Flats
+            - Neural Interface Mules
+            - Bionic Loafers
+            - Microchip Oxfords
+            - Electromagnetic High-tops
+            - AR Ankle Boots
+            - Virtual Reality Wedges
+            - Gravitational Platform Shoes
+            - Bioluminescent Espadrilles
+            - Graphene Hiking Boots
+            - Carbon-fiber Mary Janes
+            - Robotic Combat Boots
+            - Haptic Feedback Ballet Flats
+            - Nano-linked Running Shoes
+            - Electroluminescent Stilettos
+            - Reactive Trail Shoes
+            - Levitating Flip-flops
+            - Solar-powered Slides
+            - Sonic Soundwave Sneaker Boots
+            - Thermal-regulating Socks
+            - Quantum-tech Sneakers
+            - Cyber-silk Sandals
+            - Holographic Combat Boots
+            - Bionic Knee-high Boots
+            - AR Mesh Sneakers
+            - Plasma-lace Ballet Flats
+            - Gravitational Hiking Sandals
+            - Electromagnetic Platform Boots
+            - Virtuality Slip-on Sneakers
+            - Graphene Ankle Strap Heels
+            - Carbon-fiber Wedge Sandals
+            - Robotic Steel-toe Boots
+            - Haptic Feedback Flip-flop Sandals
+            - Nano-fiber Track Shoes
+            - Levitating Wedge Sneakers
+            - Solar-powered Sport Sandals
+            - Sonic Soundwave High Heels
+            - Thermal-regulating Winter Boots
+            - Holo-chiffon Pumps
+            - Quantum-stitch Slide Sandals
+            - Cybernetic Lace-up Boots
+            - AR-embedded Ballet Flats
+            - Plasma-lace Strappy Heels
+            - Gravitational Platform Sandals
+            - Electromesh Running Shoes
+            - Virtuality Knee-high Sneakers
+            - Graphene Mule Slippers
+            - Carbon-fiber Athletic Sneakers
+            - Robotic Ankle Boots
+            - Haptic Feedback Sneaker Mules
+            - Nano-fiber Hiking Sneakers
+            - Levitating Hiker Boots
+            - Solar-powered Rain Boots
+            - Sonic Soundwave Slip-on Sneakers
+            - Thermal-regulating Slipper Socks
+        headwear:
+            - Holographic Headband
+            - Plasma-infused Beanie
+            - Quantum-linked Cap
+            - Cybernetic Visor
+            - Augmented Reality Hat
+            - Neural Interface Headscarf
+            - Bionic Tiara
+            - Microchip Beret
+            - Electromagnetic Headwrap
+            - AR Baseball Cap
+            - Virtual Reality Headpiece
+            - Gravitational Sun Hat
+            - Bioluminescent Headband
+            - Graphene Cloche Hat
+            - Carbon-fiber Hood
+            - Robotic Helm
+            - Haptic Feedback Bandana
+            - Nano-linked Fedora
+            - Electroluminescent Fascinator
+            - Reactive Headgear
+            - Levitating Bowler Hat
+            - Solar-powered Sun Visor
+            - Sonic Soundwave Earmuffs
+            - Thermal-regulating Headband
+            - Quantum-tech Headband
+            - Cyber-silk Turban
+            - Holographic Headscarf
+            - Bionic Ear Muffs
+            - AR Mesh Cap
+            - Plasma-lace Fascinator
+            - Gravitational Bucket Hat
+            - Electromagnetic Aviator Hat
+            - Virtuality Bonnet
+            - Graphene Turban Hat
+            - Carbon-fiber Fedora Hat
+            - Robotic Welding Helmet
+            - Haptic Feedback Sports Headband
+            - Nano-fiber Newsboy Cap
+            - Levitating Fascinator Hat
+            - Solar-powered Head Visor
+            - Sonic Soundwave Bluetooth Headset
+            - Thermal-regulating Head Wrap
+            - Holo-chiffon Wide Brim Hat
+            - Quantum-stitch Snapback Cap
+            - Cybernetic VR Headset
+            - AR-embedded Headscarf
+            - Plasma-lace Cowboy Hat
+            - Gravitational Pilot Cap
+            - Electromesh Space Helmet
+            - Virtuality Fascinator Cap
+            - Graphene Beanie Hat
+            - Carbon-fiber Ski Mask
+            - Robotic Samurai Helmet
+            - Haptic Feedback Headband Earphones
+            - Nano-fiber Knit Beanie
+            - Levitating Bowler Cap
+            - Solar-powered Cooling Hat
+            - Sonic Soundwave Noise-canceling Headphones
+            - Thermal-regulating Balaclava
+    male:
+        upper-body:
+            - Holographic Shirt
+            - Plasma-infused Polo
+            - Quantum-linked Tank Top
+            - Cybernetic Jacket
+            - Augmented Reality Hoodie
+            - Neural Interface T-shirt
+            - Bionic Blazer
+            - Microchip Vest
+            - Electromagnetic Sweatshirt
+            - AR Dress Shirt
+            - Virtual Reality Sweater
+            - Gravitational Cardigan
+            - Bioluminescent Muscle Tee
+            - Graphene Hooded Sweatshirt
+            - Carbon-fiber Turtleneck
+            - Robotic Work Shirt
+            - Haptic Feedback Henley
+            - Nano-linked Long-sleeve Shirt
+            - Electroluminescent Polo
+            - Reactive Muscle Tank
+            - Levitating Poncho
+            - Solar-powered Polo
+            - Sonic Soundwave Jacket
+            - Thermal-regulating Shirt
+            - Quantum-tech Tee
+            - Cyber-silk Dress Shirt
+            - Holographic Windbreaker
+            - Bionic Utility Jacket
+            - AR Mesh Polo
+            - Plasma-lace Sweatshirt
+            - Gravitational Utility Vest
+            - Electromagnetic Hooded Jacket
+            - Virtuality Henley Shirt
+            - Graphene Cardigan Sweater
+            - Carbon-fiber Sports Jacket
+            - Robotic Dress Vest
+            - Haptic Feedback Performance Shirt
+            - Nano-fiber Henley Tee
+            - Levitating Poncho
+            - Solar-powered Golf Polo
+            - Sonic Soundwave Windbreaker
+            - Thermal-regulating Pullover
+            - Holo-chiffon Button-down Shirt
+            - Quantum-stitch Polo
+            - Cybernetic Bomber Jacket
+            - AR-embedded Henley
+            - Plasma-lace Pullover Sweater
+            - Gravitational Vest
+            - Electromesh Track Jacket
+            - Virtuality Dress Shirt
+            - Graphene Cardigan Vest
+            - Carbon-fiber Hooded Sweater
+            - Robotic Work Jacket
+            - Haptic Feedback Polo Shirt
+            - Nano-fiber Long-sleeve T-shirt
+            - Levitating Poncho
+            - Solar-powered Workout Tank
+            - Sonic Soundwave Windbreaker
+            - Thermal-regulating Henley
+            - Holographic Performance Shirt
+            - Quantum-stitch Henley
+            - Cybernetic Utility Jacket
+            - AR-embedded Hoodie
+            - Plasma-lace Quarter-zip Sweater
+            - Gravitational Blazer
+            - Electromesh Track Jacket
+            - Virtuality Dress Vest
+            - Graphene Cardigan Sweater
+            - Carbon-fiber Sports Jacket
+            - Robotic Trench Coat
+            - Haptic Feedback Henley
+            - Nano-fiber Long-sleeve Polo
+            - Levitating Poncho
+            - Solar-powered Golf Shirt
+            - Sonic Soundwave Vest
+            - Thermal-regulating Zip-up Hoodie
+        full-body:
+            - Holographic Jumpsuit
+            - Plasma-infused Coveralls
+            - Quantum-linked Onesie
+            - Cybernetic Bodysuit
+            - Augmented Reality Overalls
+            - Neural Interface Romper
+            - Bionic Flight Suit
+            - Microchip Jumpsuit
+            - Electromagnetic Catsuit
+            - AR Space Suit
+            - Virtual Reality Tuxedo
+            - Gravitational Mech Suit
+            - Bioluminescent Onesie
+            - Graphene Wetsuit
+            - Carbon-fiber Hazmat Suit
+            - Robotic Exoskeleton
+            - Haptic Feedback Pajamas
+            - Nano-linked Unitard
+            - Electroluminescent Tuxedo Jacket
+            - Reactive Coveralls
+            - Levitating Poncho
+            - Solar-powered Onesie
+            - Sonic Soundwave Jumpsuit
+            - Thermal-regulating Bodysuit
+            - Quantum-tech Full-body Suit
+            - Cyber-silk Flight Suit
+            - Holographic Ski Suit
+            - Bionic Tactical Jumpsuit
+            - AR Mesh Onesie
+            - Plasma-lace Tuxedo
+            - Gravitational Tactical Suit
+            - Electromagnetic Lab Coat
+            - Virtuality Tuxedo Romper
+            - Graphene Space Suit
+            - Carbon-fiber Combat Armor
+            - Robotic Stealth Suit
+            - Haptic Feedback Onesie
+            - Nano-fiber Hiking Jumpsuit
+            - Levitating Poncho
+            - Solar-powered Onesie
+            - Sonic Soundwave Combat Suit
+            - Thermal-regulating Racing Suit
+            - Holo-chiffon Formal Suit
+            - Quantum-stitch Jumpsuit
+            - Cybernetic Astronaut Suit
+            - AR-embedded Flight Suit
+            - Plasma-lace Tuxedo Jumpsuit
+            - Gravitational Pilot Suit
+            - Electromesh Hazmat Suit
+            - Virtuality Tuxedo Onesie
+            - Graphene Wetsuit
+            - Carbon-fiber Military Uniform
+            - Robotic Battle Armor
+            - Haptic Feedback Space Suit
+            - Nano-fiber Racing Jumpsuit
+            - Levitating Poncho
+            - Solar-powered Flight Suit
+            - Sonic Soundwave Diving Suit
+            - Thermal-regulating Body Armor
+            - Holographic Formal Tuxedo
+            - Quantum-stitch Astronaut Suit
+            - Cybernetic Tactical Jumpsuit
+            - AR-embedded Mech Suit
+            - Plasma-lace Tuxedo Onesie
+            - Gravitational Cargo Jumpsuit
+            - Electromagnetic Lab Coveralls
+            - Virtuality Tuxedo Romper
+            - Graphene Work Coveralls
+            - Carbon-fiber Sports Overalls
+            - Robotic Hazmat Suit
+            - Haptic Feedback Racing Jumpsuit
+            - Nano-fiber Hiking Suit
+            - Levitating Poncho
+            - Solar-powered Space Jumpsuit
+            - Sonic Soundwave Racing Suit
+            - Thermal-regulating Pajamas
+        lower-body:
+            - Holographic Pants
+            - Plasma-infused Shorts
+            - Quantum-linked Trousers
+            - Cybernetic Jeans
+            - Augmented Reality Cargo Pants
+            - Neural Interface Sweatpants
+            - Bionic Chinos
+            - Microchip Joggers
+            - Electromagnetic Track Pants
+            - AR Dress Pants
+            - Virtual Reality Leggings
+            - Gravitational Harem Pants
+            - Bioluminescent Athletic Shorts
+            - Graphene Work Pants
+            - Carbon-fiber Dress Slacks
+            - Robotic Biker Pants
+            - Haptic Feedback Capri Pants
+            - Nano-linked Athletic Tights
+            - Electroluminescent Cropped Trousers
+            - Reactive Workout Shorts
+            - Levitating Sarong
+            - Solar-powered Hiking Shorts
+            - Sonic Soundwave Compression Leggings
+            - Thermal-regulating Trousers
+            - Quantum-tech Pants
+            - Cyber-silk Dress Pants
+            - Holographic Track Pants
+            - Bionic Cargo Shorts
+            - AR Mesh Trousers
+            - Plasma-lace Joggers
+            - Gravitational Convertible Pants
+            - Electromagnetic Training Shorts
+            - Virtuality Athletic Pants
+            - Graphene Culottes
+            - Carbon-fiber Athletic Shorts
+            - Robotic Tactical Pants
+            - Haptic Feedback Sweat Shorts
+            - Nano-fiber Running Shorts
+            - Levitating Wrap Skirt
+            - Solar-powered Swim Trunks
+            - Sonic Soundwave Athletic Leggings
+            - Thermal-regulating Golf Pants
+            - Holo-chiffon Pleated Pants
+            - Quantum-stitch Bermuda Shorts
+            - Cybernetic Board Shorts
+            - AR-embedded Dress Shorts
+            - Plasma-lace Workout Leggings
+            - Gravitational Hiking Pants
+            - Electromesh Compression Shorts
+            - Virtuality Track Pants
+            - Graphene Pleated Shorts
+            - Carbon-fiber Athletic Pants
+            - Robotic Tactical Shorts
+            - Haptic Feedback Athletic Leggings
+            - Nano-fiber Jogger Shorts
+            - Levitating Wrap-around Skirt
+            - Solar-powered Cycling Shorts
+            - Sonic Soundwave Basketball Shorts
+            - Thermal-regulating Ski Pants
+            - Holographic Joggers
+            - Quantum-stitch Training Pants
+            - Cybernetic Hiking Shorts
+            - AR-embedded Cargo Pants
+            - Plasma-lace Tennis Shorts
+            - Gravitational Convertible Pants
+            - Electromagnetic Training Tights
+            - Virtuality Track Shorts
+            - Graphene Pleated Skirt
+            - Carbon-fiber Golf Shorts
+            - Robotic Tactical Trousers
+            - Haptic Feedback Basketball Shorts
+            - Nano-fiber Cycling Shorts
+            - Levitating Wrap Skirt
+            - Solar-powered Running Tights
+            - Sonic Soundwave Compression Shorts
+            - Thermal-regulating Leggings
+        footwear:
+            - Holographic Sneakers
+            - Plasma-infused Boots
+            - Quantum-linked Loafers
+            - Cybernetic Sandals
+            - Augmented Reality Oxfords
+            - Neural Interface High-tops
+            - Bionic Dress Shoes
+            - Microchip Sneakers
+            - Electromagnetic Work Boots
+            - AR Athletic Shoes
+            - Virtual Reality Slippers
+            - Gravitational Hiking Boots
+            - Bioluminescent Flip-flops
+            - Graphene Dress Boots
+            - Carbon-fiber Running Shoes
+            - Robotic Combat Boots
+            - Haptic Feedback Boat Shoes
+            - Nano-linked Skate Shoes
+            - Electroluminescent Ankle Boots
+            - Reactive Socks
+            - Levitating Sandals
+            - Solar-powered Dress Shoes
+            - Sonic Soundwave Sport Sandals
+            - Thermal-regulating Sneakers
+            - Quantum-tech Sneakers
+            - Cyber-silk Loafers
+            - Holographic High-tops
+            - Bionic Chelsea Boots
+            - AR Mesh Sneakers
+            - Plasma-lace Dress Shoes
+            - Gravitational Hiking Sandals
+            - Electromagnetic Work Boots
+            - Virtuality Sneakers
+            - Graphene Desert Boots
+            - Carbon-fiber Athletic Sandals
+            - Robotic Military Boots
+            - Haptic Feedback Slip-on Sneakers
+            - Nano-fiber Running Shoes
+            - Levitating Loafers
+            - Solar-powered Slides
+            - Sonic Soundwave Sneaker Boots
+            - Thermal-regulating Socks
+            - Holographic Dress Shoes
+            - Quantum-stitch Loafers
+            - Cybernetic Work Boots
+            - AR-embedded Athletic Shoes
+            - Plasma-lace Flip-flops
+            - Gravitational Hiking Boots
+            - Electromesh Trail Running Shoes
+            - Virtuality Boat Shoes
+            - Graphene Snow Boots
+            - Carbon-fiber Hiking Sandals
+            - Robotic Tactical Boots
+            - Haptic Feedback Slip-on Sandals
+            - Nano-fiber Skate Shoes
+            - Levitating Sneaker Boots
+            - Solar-powered Dress Sandals
+            - Sonic Soundwave Water Shoes
+            - Thermal-regulating Slippers
+            - Holo-chiffon Sneakers
+            - Quantum-stitch Sandals
+            - Cybernetic Casual Shoes
+            - AR-embedded Work Boots
+            - Plasma-lace Hiking Shoes
+            - Gravitational Loafers
+            - Electromesh Trail Sandals
+            - Virtuality Athletic Sandals
+            - Graphene Casual Sneakers
+            - Carbon-fiber Running Sandals
+            - Robotic Combat Sandals
+            - Haptic Feedback Boat Sandals
+            - Nano-fiber Slip-on Sneakers
+            - Levitating Athletic Shoes
+            - Solar-powered Hiking Boots
+            - Sonic Soundwave Sneaker Slippers
+            - Thermal-regulating Socks
+        headwear:
+            - Holographic Cap
+            - Plasma-infused Beanie
+            - Quantum-linked Fedora
+            - Cybernetic Visor
+            - Augmented Reality Snapback
+            - Neural Interface Baseball Cap
+            - Bionic Trucker Hat
+            - Microchip Newsboy Cap
+            - Electromagnetic Bucket Hat
+            - AR Headband
+            - Virtual Reality Beret
+            - Gravitational Bowler Hat
+            - Bioluminescent Sun Visor
+            - Graphene Fedora Hat
+            - Carbon-fiber Cowboy Hat
+            - Robotic Helmet
+            - Haptic Feedback Bandana
+            - Nano-linked Flat Cap
+            - Electroluminescent Beanie
+            - Reactive Headband
+            - Levitating Newsboy Cap
+            - Solar-powered Fedora
+            - Sonic Soundwave Cap
+            - Thermal-regulating Beanie
+            - Holographic Snapback Cap
+            - Quantum-tech Baseball Cap
+            - Cyber-silk Fedora
+            - AR Trucker Hat
+            - Plasma-lace Newsboy Cap
+            - Gravitational Cowboy Hat
+            - Electromagnetic Visor
+            - Virtuality Bowler Hat
+            - Graphene Sun Visor
+            - Carbon-fiber Top Hat
+            - Robotic Samurai Helmet
+            - Haptic Feedback Bandana
+            - Nano-fiber Flat Cap
+            - Levitating Snapback
+            - Solar-powered Baseball Cap
+            - Sonic Soundwave Fedora
+            - Thermal-regulating Beanie
+            - Holographic Beanie
+            - Quantum-stitch Trucker Hat
+            - Cybernetic Sun Hat
+            - AR-embedded Fedora
+            - Plasma-lace Baseball Cap
+            - Gravitational Bucket Hat
+            - Electromagnetic Snapback
+            - Virtuality Bowler Hat
+            - Graphene Beanie Hat
+            - Carbon-fiber Cowboy Hat
+            - Robotic Pilot Helmet
+            - Haptic Feedback Headband
+            - Nano-fiber Newsboy Cap
+            - Levitating Visor
+            - Solar-powered Snapback
+            - Sonic Soundwave Beanie
+            - Thermal-regulating Cap
+            - Holographic Baseball Cap
+            - Quantum-stitch Fedora Hat
+            - Cybernetic Trucker Hat
+            - AR-embedded Bowler Hat
+            - Plasma-lace Sun Visor
+            - Gravitational Top Hat
+            - Electromagnetic Cowboy Hat
+            - Virtuality Beanie Hat
+            - Graphene Baseball Cap
+            - Carbon-fiber Snapback Cap
+            - Robotic Combat Helmet
+            - Haptic Feedback Headband
+            - Nano-fiber Flat Cap
+            - Levitating Fedora Hat
+            - Solar-powered Sun Visor
+            - Sonic Soundwave Snapback Cap
+            - Thermal-regulating Beanie
+    unisex:
+        accesoires:
+            - Holographic Gauntlet
+            - Plasma-infused Bracelet
+            - Quantum-linked Wristband
+            - Cybernetic Handwear
+            - Augmented Reality Ring
+            - Neural Interface Arm Band
+            - Bionic Cuff
+            - Microchip Keychain
+            - Electromagnetic Belt
+            - AR Watch
+            - Virtual Reality Pendant
+            - Gravitational Cufflinks
+            - Bioluminescent Bracelet
+            - Graphene Wallet
+            - Carbon-fiber Sunglasses
+            - Robotic Arm Sleeve
+            - Haptic Feedback Collar
+            - Nano-linked Glove
+            - Electroluminescent Choker
+            - Reactive Arm Band
+            - Levitating Brooch
+            - Solar-powered Belt Buckle
+            - Sonic Sound Amplifier
+            - Thermal-regulating Scarf
+        backwear:
+            - Holographic Backpack
+            - Plasma-infused Cape
+            - Quantum-linked Jetpack
+            - Cybernetic Wingpack
+            - Augmented Reality Shoulder Holster
+            - Neural Interface Cloak
+            - Bionic Utility Harness
+            - Microchip Sling Bag
+            - Electromagnetic Grappling Device
+            - AR Tactical Vest
+            - Virtual Reality Travel Pack
+            - Gravitational Backpack
+            - Bioluminescent Lumbar Pack
+            - Graphene Tech Satchel
+            - Carbon-fiber Modular Pack
+            - Robotic Exoskeleton Frame
+            - Haptic Feedback Fanny Pack
+            - Nano-linked Rucksack
+            - Electroluminescent Duffel Bag
+            - Reactive Quick-release Straps
+            - Levitating Holster
+            - Solar-powered Charging Case
+            - Sonic Sound Amplifier
+            - Thermal-regulating Poncho
+        facewear:
+            - Holographic Visor
+            - Plasma-infused Goggles
+            - Quantum-linked Mask
+            - Cybernetic Eye Implant
+            - Augmented Reality Glasses
+            - Neural Interface Headset
+            - Bionic Face Shield
+            - Microchip Respirator
+            - Electromagnetic Visor
+            - AR Headgear
+            - Virtual Reality Helmet
+            - Gravitational Eye Enhancer
+            - Bioluminescent Facial Cover
+            - Graphene Eye Patch
+            - Carbon-fiber Tactical Mask
+            - Robotic Headpiece
+            - Haptic Feedback Earpiece
+            - Nano-linked Goggles
+            - Electroluminescent Faceplate
+            - Reactive Eye Visor
+            - Levitating Headband
+            - Solar-powered Safety Goggles
+            - Sonic Sound Amplifier
+            - Thermal-regulating Mask
+        neckwear:
+            - Holographic Collar
+            - Plasma-infused Scarf
+            - Quantum-linked Necklace
+            - Cybernetic Choker
+            - Augmented Reality Pendant
+            - Neural Interface Bandana
+            - Bionic Neck Implant
+            - Microchip Medallion
+            - Electromagnetic Tie
+            - AR Hologram Necklace
+            - Virtual Reality Cowl
+            - Gravitational Neck Ring
+            - Bioluminescent Ascot
+            - Graphene Chain
+            - Carbon-fiber Bowtie
+            - Robotic Neck Guard
+            - Haptic Feedback Ruff
+            - Nano-linked Neck Strap
+            - Electroluminescent Capelet
+            - Reactive Neck Bracelet
+            - Levitating Cravat
+            - Solar-powered Neck Ring
+            - Sonic Sound-isolating Collar
+            - Thermal-regulating Scarf
+person-scifi:
+    female:
+        - "{__scifi/beings__|},
+        __person/female__, 
+        __person-scifi/poses__, 
+        {0.1::__person-scifi/wings__|}"
+    male:
+        - "{__scifi/beings__|},
+        __person/male__, 
+        __person-scifi/poses__, 
+        {0.1::__person-scifi/wings__|}"
+    poses:
+        - Standing confidently, ready for action.
+        - Looking out with wonder and curiosity at vast cosmic landscapes.
+        - Holding futuristic weaponry with a bold stance.
+        - Exuding an air of grace and respect while engaging with extraterrestrial beings.
+        - Sitting in a cockpit with hands on controls, focused on the mission.
+        - Suspended above the ground using anti-gravity or jetpacks.
+        - Gesturing or touching holographic interfaces.
+        - Striking a pose after emerging from a time machine.
+        - Asserting control over a fascinating and unfamiliar alien life form.
+        - Striking a pose while powering on or activating an android body.
+        - Displaying bionic limbs or other augmentations.
+        - Holding an ancient artifact with reverence and awe.
+        - Crouching or leaning against a wall, ready for stealthy maneuvers.
+        - Assumed position for advanced hand-to-hand combat.
+        - Gesturing in a non-verbal exchange with an extraterrestrial being.
+        - Engaging in an expressive and dynamic dance form from the future.
+        - Holding out hands while manipulating energy or elements.
+        - Striking a pose with perfect mechanical alignment and posture.
+        - Standing tall, projecting an aura of diplomacy and understanding.
+        - Showing off futuristic clothing or wearable technology.
+        - Holding or channeling glowing energy orbs or constructs.
+        - Performing gravity-defying flips or maneuvers with agility.
+        - Reacting with awe or caution upon meeting an extraterrestrial being.
+        - Sitting cross-legged, attuning to the vastness of the universe.
+        - Conjuring creatures or forces from other dimensions.
+        - Engaging in unique and exotic cultural practices.
+        - Holding a weapon or energy blade for combat challenges.
+        - Lying or sitting while experiencing virtual reality or neural interfaces.
+        - Striking a charismatic pose while entertaining with music or storytelling.
+        - Striking a pose while navigating through galactic adventures.
+    equipment:
+        - Laser gun
+        - Spacecraft
+        - Holographic projector
+        - Teleportation device
+        - Nanobot swarm
+        - Exoskeleton suit
+        - Plasma blaster
+        - Warp drive engine
+        - Time-traveling device
+        - Antigravity generator
+        - Quantum computer
+        - Energy shield
+        - Neural implant
+        - Nanosuit
+        - Cloaking device
+        - Genetic scanner
+        - Ion thruster
+        - Cybernetic augmentations
+        - Plasma cutter
+        - Gravitational anchor
+        - Quantum entangler
+        - Mind-link communicator
+        - Force field projector
+        - Hyperspace navigation system
+        - Genetic manipulator
+        - Neural interface helmet
+        - Energy sword
+        - Stealth cloak
+        - Fusion reactor
+        - Chrono-disruptor
+        - Bionic limb
+        - Gravity boots
+        - Nanomedicine kit
+        - Photon torpedoes
+        - Dimensional portal generator
+        - AI companion
+        - Neural memory enhancer
+        - Magnetic levitation platform
+        - Neural inhibitor
+        - Quantum encryption device
+        - Anti-gravity hoverboard
+        - Advanced nanofabricator
+        - Subspace communicator
+        - Holographic disguise kit
+        - Energy gauntlet
+        - Sonic disruptor
+        - Time dilation device
+        - Cryonic stasis pod
+        - Replicator machine
+        - Hyperspectral goggles
+        - Plasma shield generator
+        - Matter re-arranger
+        - Cryo-sleep chamber
+        - Antimatter containment unit
+        - Neural-net processor
+        - Telepathic amplifier
+        - Bionic eye implant
+        - Nanite repair kit
+        - Quantum phase shifter
+        - Invisibility cloak
+        - Matter-energy converter
+        - Thought interface device
+        - Ion cannon
+        - Gravity manipulation gloves
+        - Universal translator
+        - Advanced medical nanodrones
+        - Nanoscale disassembler
+        - Energy absorption unit
+        - Graviton disruptor
+        - Hyperlight engine
+        - Plasma thrusters
+        - Memory eraser
+        - Cybernetic organ replacement
+        - Nano-enhanced body armor
+        - Neural interface chair
+        - Time-jump beacon
+        - Plasma grenade
+        - Gravity manipulation harness
+        - Portable wormhole stabilizer
+        - Dimensional phase cloak
+        - Disintegration ray
+        - Neural memory wipe device
+        - Nanoparticle cloud generator
+        - Holo-gauntlets
+        - Quantum resonance scanner
+        - Stealth jammer
+        - Anti-matter rifle
+        - Molecular reassembler
+        - Electromagnetic pulse cannon
+        - Neural sensory enhancer
+        - Trans-dimensional compass
+        - Inertial dampeners
+        - Matter-energy replicator
+        - Ion disruptor pistol
+        - Cloaking suit
+        - Temporal shielding device
+        - Nanoscale invisibility mesh
+        - Plasma accelerator
+        - Gravitational wave detector
+        - Quantum stabilization matrix
+    wings:
+        - Quantum Wings- Glowing, iridescent wings that shift and blur, allowing instant travel through dimensions.
+        - Plasma Wings- Fierce, fiery wings made of plasma, leaving shimmering trails behind as they soar.
+        - Bio-Mechanical Wings- Graceful wings with metallic feathers, fusing technology and biology in perfect harmony.
+        - Gravity Wings- Large, shimmering wings that manipulate gravity, enabling soaring leaps and weightless flight.
+        - Nanotech Wings- Fluid, morphing wings composed of nanobots, reshaping for optimal aerodynamics and camouflage.
+        - Crystal Wings- Translucent wings with intricate crystal patterns that refract light, creating dazzling displays.
+        - Cybernetic Wings- Metallic wings with embedded circuitry and thrusters, granting swift and precise maneuvers.
+        - Etherial Wings- Diaphanous wings of pure energy, ethereal and intangible, allowing ghost-like flight.
+        - Dark Matter Wings- Obsidian-like wings that absorb light, creating voids as they traverse space.
+        - Time-Stream Wings- Glitching wings with chrono-energy veins, fluttering in and out of times flow.
+scifi:
+    types:
+        - Alien invasion
+        - Apocalyptic science fiction
+        - Artificial intelligence
+        - Biopunk
+        - Climate fiction
+        - Cyberpunk
+        - Dystopian
+        - First contact
+        - Galactic empire
+        - Genetic engineering
+        - Mind uploading
+        - Nanopunk
+        - Parallel universes
+        - Planetary romance
+        - Post-apocalyptic
+        - Robot uprising
+        - Solarpunk
+        - Space colonization
+        - Space opera
+        - Space western
+        - Steampunk
+        - Superhero science fiction
+        - Teleportation
+        - Time travel
+        - Transhumanism
+        - Utopian/Post-scarcity
+        - Virtual reality, Augmented reality
+    beings:
+        - Androids- Human-like robots with sleek metallic bodies and lifelike synthetic skin.
+        - Aliens- Extraterrestrial creatures with unique physiologies, varying from humanoid to bizarre forms.
+        - Cyborgs- Part human, part machine beings, showcasing a fusion of organic and mechanical elements.
+        - Extraterrestrial creatures- Diverse life forms with imaginative appearances, ranging from elegant to monstrous.
+        - Artificial intelligences (AIs)- Digital entities represented as holographic projections or glowing avatars.
+        - Shape-shifters- Beings capable of transforming their bodies, adopting different appearances at will.
+        - Interdimensional beings- Ethereal entities with ever-shifting, kaleidoscopic forms that defy normal physics.
+        - Telepathic species- Creatures with mesmerizing glowing patterns on their foreheads or pulsating brainwaves.
+        - Energy beings- Entities composed of radiant, luminous energy, taking on ethereal, luminescent forms.
+        - Hive minds- Coordinated entities exhibiting synchronized movements and a shared visual connection.
+        - Time travelers- Clad in unique, futuristic suits or garments that reflect their time-traveling technology.
+        - Insectoid species- Insect-like beings with segmented exoskeletons, multifaceted eyes, and antennae.
+        - Sentient robots- Robots with expressive visual displays, glowing eyes, and sleek, polished exteriors.
+        - Spacefaring civilizations- Extravagantly adorned beings wearing sophisticated space-faring uniforms and insignias.
+        - Genetic hybrids- Blending physical traits from different species, creating visually striking, unique appearances.
+        - Nanobot swarms- Microscopic, shimmering clouds of nanobots capable of forming diverse shapes and patterns.
+        - Clones- Identical individuals with subtle distinctions in appearance, varying only in details.
+        - Cosmic entities- Vast, awe-inspiring beings emanating cosmic energies and engulfed in nebula-like halos.
+        - Ancient cosmic beings- Hoary, majestic beings adorned with intricate symbols and ethereal aura.
+        - Teleporting entities- Surrounded by glimmering, swirling lights during teleportation.
+        - Dimension-hoppers- Clad in shimmering, multidimensional attire that shifts hues and patterns.
+        - Galactic gods- Towering, resplendent beings emanating celestial auras and astral symbols.
+        - Subterranean species- Bioluminescent creatures with phosphorescent markings in dark caverns.
+        - Aquatic intelligences- Graceful beings with iridescent, webbed appendages and glistening scales.
+        - Energy vampires- Eerie, shadowy figures with glowing eyes and tendrils that siphon energy.
+        - Quantum entities- Fluid, fractal-like beings embodying superposition and quantum uncertainty.
+        - Organic spaceships (living ships)- Vessels with pulsating veins, organic growths, and symbiotic architecture.
+        - Biomechanical beings- Harmoniously blend mechanical and organic elements, adorned with glowing circuitry.
+        - Mind-controlling entities- Translucent, mesmerizing creatures emanating hypnotic patterns and lights.
+        - Transcendent beings- Evanescent, ever-changing entities with luminescent auras and morphing silhouettes.
+        - Timeless entities- Ancient beings with inscrutable, ageless features and ethereal veils.
+        - Cyberspace avatars- Digital personas manifested as radiant, virtual beings of light.
+        - Cosmic guardians- Massive, majestic entities radiating cosmic energies, clad in celestial armor.
+        - Celestial messengers- Graceful, ethereal beings appearing as radiant, glowing apparitions.
+        - Solar phoenixes- Celestial birds adorned with fiery plumage and radiant solar patterns.
+        - Bio-luminary spirits- Phosphorescent, wispy entities floating with ethereal luminescence.
+        - Nebula nymphs- Ethereal beings with flowing, shimmering garments reflecting nebula colors.
+        - Plasma specters- Intangible beings emitting flickering plasma trails and auroras.
+        - Starry seraphim- Winged beings with luminous, starry wings and celestial halos.
+        - Quantum dream weavers- Entities with kaleidoscopic, iridescent threads weaving dreams through dimensions.
+    lighting:
+        - Bioluminescent forests- Glowing flora and fauna create an otherworldly ambiance.
+        - Neon-lit cityscape- Futuristic metropolis with vibrant, neon-colored lights.
+        - Holographic projections- Illusory lights shaping virtual environments.
+        - Plasma arcs- Energy-based illumination creating flickering, dynamic lights.
+        - Starship control rooms- Dim, atmospheric lighting with glowing consoles.
+        - Underwater bioluminescence- Deep-sea scenes with bio-illuminated organisms.
+        - Lunar base- Soft, lunar-tinged lighting in the outpost on the Moon.
+        - Time travel portal- Pulsating lights around the vortex-like time portal.
+        - Cyberpunk alleyways- Gritty urban setting with rain-soaked neon lights.
+        - Alien biotech structures- Eerie, organic lights within extraterrestrial architecture.
+        - Hovering city platforms- Illuminated levitating city segments in the sky.
+        - Galactic marketplace- Multicolored lights in bustling, alien trade hubs.
+        - Dystopian underground- Harsh, utilitarian lighting in subterranean societies.
+        - Cybernetic implants- Bioluminescent lights embedded in cybernetic enhancements.
+        - Energy shield barriers- Glowing forcefields enclosing protected areas.
+        - Time-lapse warp- Intense, distorted lighting during time-warp events.
+        - Virtual reality simulations- Digitally rendered environments with dynamic lighting.
+        - Alien star systems- Celestial bodies casting unusual and surreal lights.
+        - Floating islands- Bioluminescent flora creating a surreal floating landscape.
+        - Space station hub- Bright, efficient lighting in the heart of a space station.
+        - Gravity-defying waterfalls- Luminescent water cascading upwards in anti-gravity environments.
+        - Cyberpunk nightclubs- Pulsating lights and holographic dancers in futuristic clubs.
+        - Deserted alien ruins- Ancient structures with faint, mysterious glow.
+        - Galactic storms- Electrifying lightning displays amidst cosmic tempests.
+        - Steampunk laboratories- Dim gas lamps illuminating retro-futuristic experiments.
+        - AI-controlled cities- Dynamic lights responding to AI algorithms and needs.
+        - Timeless pocket dimensions- Glowing pockets of space-time with unearthly illumination.
+        - Oceanic biotech sanctuaries- Underwater habitats illuminated by bioengineered organisms.
+        - Post-apocalyptic wastelands- Hauntingly lit landscapes in the aftermath of disasters.
+        - Android assembly lines- Cold, clinical lighting in mass production facilities.
+        - Space battles- Intense, flashing lights during epic interstellar conflicts.
+        - Subspace anomalies- Distorted lights in the presence of spatial rifts.
+        - Virtual reality battlefields- Neon-lit battlegrounds in simulated warfare.
+        - Cavernous crystal caves- Bioluminescent crystals casting an ethereal glow.
+        - Cybernetic augmentation clinics- Illuminated surgeries for advanced enhancements.
+        - City-sized spaceships- Intricate lights in colossal intergalactic vessels.
+        - Techno-wizardry academies- Enchanted lights in schools of futuristic magic.
+        - Alien sunrises- Exotic colors illuminating distant alien horizons.
+        - Space colonization domes- Artificially lit habitats on extraterrestrial planets.
+        - Galactic council chambers- Illuminated chambers where species convene.
+        - Underground resistance hideouts- Dim, hidden lights in rebel strongholds.
+        - Virtual dreamscapes- Shifting, surreal lights within simulated dreams.
+        - Lunar mining outposts- Utilitarian lighting in lunar resource extraction stations.
+        - Planetary defense stations- Emergency lights during space invasions.
+        - Future sports arenas- Dynamic lights in high-tech sports competitions.
+        - Interdimensional gateways- Pulsating lights in portals between realms.
+        - Lost alien temples- Illuminated structures holding ancient mysteries.
+        - High-tech laboratories- Bright, white lights in cutting-edge research facilities.
+        - Galactic highway rest stops- Multicolored lights at interstellar pit stops.
+        - Ecosystem terraforming- Radiant lights during planetary ecosystem transformations.
+    profession:
+        Technology:
+            - Aerospace engineer
+            - Robotics technician
+            - Software developer
+            - Nanotechnologist
+            - Artificial Intelligence specialist
+            - Cybersecurity analyst
+            - Biomedical engineer
+            - Spacecraft designer
+        Exploration:
+            - Astronaut
+            - Planetary geologist
+            - Space navigator
+            - Astrobiologist
+            - Interstellar cartographer
+        Medicine:
+            - Geneticist
+            - Nanomedicine researcher
+            - Bioprinting specialist
+            - Neural interface surgeon
+            - Biomechanics engineer
+        Law-and-Order:
+            - Galactic diplomat
+            - Interdimensional lawyer
+            - AI rights advocate
+            - Time-travel law enforcement officer
+            - Cybercrime investigator
+        Entertainment:
+            - Holofilm director
+            - Holographic artist
+            - Virtual reality game designer
+            - Space music composer
+            - Exo-dance choreographer
+        Terraforming:
+            - Terraformer
+            - Atmospheric engineer
+            - Astroecologist
+            - Climate restoration specialist
+        Commerce:
+            - Interstellar trader
+            - Intergalactic cargo pilot
+            - Spaceport manager
+            - Xenobiologist consultant
+        Military:
+            - Starfighter pilot
+            - Space marine
+            - Galactic peacekeeper
+            - Space battle tactician
+        Communication:
+            - Galactic network administrator
+            - Subspace communicator technician
+            - Holo-conference organizer
+            - Virtual reality programmer
+        Archaeology:
+            - Extraterrestrial archaeologist
+            - Cosmic artifact curator
+            - Temporal archaeologist
+            - Space relic restorer
+    words:
+        adjectives:
+            - Advanced
+            - Alien
+            - Alienated
+            - Altered
+            - Androgynous
+            - Apocalyptic
+            - Apocryphal
+            - Apotheotic
+            - Artificial
+            - Astral
+            - Astronomical
+            - Augmented
+            - Biomechanical
+            - Bionic
+            - Biopunk
+            - Biotechnological
+            - Cosmic
+            - Cyber
+            - Cybernetic
+            - Cyberpunk
+            - Dazzling
+            - Dimensional
+            - Divergent
+            - Dystopian
+            - Enigmatic
+            - Ephemeral
+            - Esoteric
+            - Ethereal
+            - Extraterrene
+            - Extraterrestrial
+            - Futurist
+            - Futuristic
+            - Futurological
+            - Galactic
+            - Genetic
+            - Genetically-enhanced
+            - Gravitational
+            - Holographic
+            - Hyperdimensional
+            - Hyperintelligent
+            - Hyperspace
+            - Hypnotic
+            - Illusory
+            - Immortal
+            - Ineffable
+            - Inscrutable
+            - Intangible
+            - Intergalactic
+            - Interstellar
+            - Intrinsic
+            - Luminous
+            - Malevolent
+            - Metamorphic
+            - Metaphysical
+            - Multidimensional
+            - Nanomolecular
+            - Nanoscopic
+            - Nanotechnological
+            - Neoteric
+            - Omnipotent
+            - Omnipresent
+            - Organic
+            - Paradoxical
+            - Paranormal
+            - Plausible
+            - Post-apocalyptic
+            - Precognitive
+            - Psychedelic
+            - Pulsating
+            - Quantum
+            - Replicant
+            - Resplendent
+            - Robotic
+            - Sentient
+            - Sentient
+            - Sentient
+            - Singularity
+            - Spatial
+            - Steampunk
+            - Subterranean
+            - Supernatural
+            - Synth
+            - Technological
+            - Telekinetic
+            - Telepathic
+            - Teleporting
+            - Terrestrial
+            - Time-traveling
+            - Timeless
+            - Transcendent
+            - Transhuman
+            - Underworldly
+            - Unearthly
+            - Unearthly
+            - Utopian
+            - Virtual
+            - Virtual-reality
+            - Visually-arresting
+            - Xenomorphic
+            - Zetetic
+        substantives:
+            - Spaceship
+            - Technology
+            - Time
+            - Future
+            - Galaxy
+            - Universe
+            - Cyberspace
+            - Dystopia
+            - Nanotechnology
+            - Teleportation
+            - Laser
+            - Mutation
+            - Wormhole
+            - Dimension
+            - Supernova
+            - Apocalypse
+            - Hologram
+            - AI (Artificial Intelligence)
+            - Warp drive
+            - Nanobot
+            - Black hole
+            - Exoplanet
+            - Virtual reality
+            - Clone
+            - Genetic engineering
+            - Time travel
+            - Cybersuit
+            - Hoverboard
+            - Galactic empire
+            - Space station
+            - Metaverse
+            - Photon
+            - Intergalactic
+            - Plasma
+            - Parallel universe
+            - Interstellar travel
+            - Gravity
+            - Cryogenics
+            - Orbital
+            - Forcefield
+            - Technobabble
+            - Futurism
+            - Metropolis
+            - Nanofabrication
+            - Stellar
+            - Nanomedicine
+            - Bionics
+            - Nanocomputer
+            - Nanowire
+            - Light-year
+            - Nanoparticle
+            - Biohazard
+            - Space-time
+            - Terraforming
+            - Starship
+            - Extraterrestrial
+            - Nanostructure
+            - Quantum mechanics
+            - Superintelligence
+            - Transhumanism
+            - Cyberspace
+            - Multiverse
+            - Transcendence
+            - Photonics
+            - Metamaterial
+            - Nanorobot
+            - Cryosleep
+            - Nanochip
+            - Hyperspace
+            - Cybernetics
+            - Nanoscale
+            - Technocracy
+            - Biotechnology
+            - Supernatural
+            - Nanotube
+            - Nanofluid
+            - Neurotechnology
+            - Exoskeleton
+            - Time loop
+            - Biopunk
+            - Metahuman
+            - Hyperdrive
+            - Quantum computing
+            - Wormhole
+            - Biomimicry
+            - Nanotransistor
+            - Exo-suit
+            - Mind control
+            - Nanomedicine
+        verbs:
+            - Explore
+            - Travel
+            - Evolve
+            - Invent
+            - Discover
+            - Teleport
+            - Manipulate
+            - Conquer
+            - Transform
+            - Escape
+            - Defend
+            - Communicate
+            - Upgrade
+            - Adapt
+            - Analyze
+            - Transcend
+            - Unravel
+            - Colonize
+            - Unleash
+            - Merge
+            - Hack
+            - Encrypt
+            - Resist
+            - Transcend
+            - Descend
+            - Traverse
+            - Overcome
+            - Experiment
+            - Integrate
+            - Replicate
+            - Challenge
+            - Hack
+            - Decode
+            - Warp
+            - Synthesize
+            - Activate
+            - Decode
+            - Transmit
+            - Decipher
+            - Defy
+            - Restore
+            - Abandon
+            - Illuminate
+            - Corrupt
+            - Hybridize
+            - Invade
+            - Resurrect
+            - Disrupt
+            - Reveal
+            - Infuse
+            - Revive
+            - Reshape
+            - Simulate
+            - Conceive
+            - Disguise
+            - Forge
+            - Overload
+            - Revolt
+            - Redefine
+            - Intervene
+            - Encrypt
+            - Emerge
+            - Reassemble
+            - Incarnate
+            - Paralyze
+            - Disintegrate
+            - Reincarnate
+            - Harmonize
+            - Encode
+            - Illuminate
+            - Harmonize
+            - Erase
+            - Initiate
+            - Calculate
+            - Animate
+            - Eradicate
+            - Evaporate
+            - Reconfigure
+            - Transmit
+            - Detonate
+            - Dematerialize
+            - Dismantle
+            - Devastate
+            - Reconnect
+            - Annihilate
+            - Manipulate
+            - Reanimate
+            - Submerge
+            - Deceive
+            - Materialize
+            - Terminate
+            - Fragment
+            - Stabilize
+            - Hyperjump
+            - Augment
+            - Collapse
+            - Intensify
+            - Clone
+            - Amplify
+            - Replicate
+phenomena:
+    natural-scifi:
+        - Black hole
+        - Energy being
+        - Faster-than-light (FTL) travel
+        - Galactic anomalie
+        - Holography
+        - Mind uploading
+        - Nanotechnology
+        - Planetary terraforming
+        - Quantum entanglement
+        - Singularitie
+        - Stellar phenomena
+        - Virtual reality
+        - Wormholes
+    abstract-scifi:
+        - Alternate dimensions
+        - Antigravity
+        - Dreamscape
+        - Energy manipulation
+        - Gravity manipulation
+        - Mind control
+        - Immortality
+        - Invisibility
+        - Parallel universe
+        - Precognition
+        - Reality manipulation
+        - Telepathy
+        - Teleportation
+        - Temporal paradoxe
+        - Time dilation
+        - Time loops
+        - Time manipulation
+properties:
+    pattern:
+        clothing-scifi:
+            - Holographic Pattern
+            - Circuitry Texture
+            - Alien Scales
+            - Galactic Nebula Print
+            - Cybernetic Circuit Pattern
+            - Tron-Inspired Glow Pattern
+            - Exoskeleton Texture
+            - Geometric Futuristic Pattern
+            - Bioluminescent Texture
+            - Quantum Warp Pattern
+            - Nano Tech Texture
+            - Metamaterial Print
+            - Liquid Metal Texture
+            - Augmented Reality Overlay Pattern
+            - Digital Camouflage Texture
+            - Futuristic Barcode Pattern
+            - Plasma Energy Texture
+            - Neural Network Pattern
+            - Stealth Cloaking Texture
+            - Cosmic Fractal Print
+            - Robotic Exosuit Texture
+            - Virtual Reality Hologram Pattern
+            - Gravity Distortion Texture
+            - Chrono Displacement Print
+            - Nanobot Swarm Texture
+            - Laser Grid Pattern
+            - Antigravity Field Texture
+            - Quantum Entanglement Print
+            - Levitation Gradient Pattern
+            - Galactic Warp Texture
+            - Plasma Discharge Print
+            - Hyperdimensional Rift Pattern
+            - Celestial Stardust Texture
+            - Alien Glyph Print
+            - Energy Crystal Pattern
+            - Traversable Wormhole Texture
+            - Astral Projection Print
+            - Nebula Mist Pattern
+            - Cybernetic Implant Texture
+            - Stealth Invisibility Print
+            - Interstellar Warp Pattern
+            - Digital Ephemeral Texture
+            - Magnetic Flux Print
+            - Holographic Illusion Pattern
+            - Translucent Hologram Texture
+            - Light-Speed Trails Print
+            - Solar Flare Pattern
+            - Techno Organic Texture
+            - Chrono Flux Print
+            - Interdimensional Vortex Pattern
+            - Molecular Resonance Texture
+            - Photon Matrix Print
+            - Hyperspace Spiral Pattern
+            - Celestial Aurora Texture
+            - Mind-Meld Print
+            - Galactic Anomaly Pattern
+            - Plasma Infused Texture
+            - Quantum Encryption Print
+            - Cyberspace Grid Pattern
+            - Virtual Reality Interface Texture
+            - Ionized Plasma Print
+            - Alien Atmosphere Pattern
+            - Nanotechnology Infusion Texture
+            - Energetic Radiation Print
+            - Gravity Bending Pattern
+            - Phosphorescent Glow Texture
+            - Cosmic Ray Print
+            - Biomechanical Circuit Pattern
+            - Astral Entity Texture
+            - Holographic Projection Print
+            - Interstellar Debris Pattern
+            - Hyperbolic Fabric Texture
+            - Time Dilation Print
+            - Particle Accelerator Pattern
+            - Dimensional Fabric Texture
+            - Electro-Luminescent Print
+            - Futuristic Hieroglyph Pattern
+            - Plasma Core Texture
+            - Mindwave Print
+            - Neural Interface Pattern
+            - Nano Filament Texture
+            - Quantum Resonance Print
+            - Astral Projection Pattern
+            - Electromagnetic Pulse Texture
+            - Space-Time Ripples Print
+            - Multiverse Fabric Pattern
+            - Gravity Waves Texture
+            - Celestial Energy Print
+            - Plasma Wave Pattern
+            - Astral Flare Texture
+            - Solar Eclipse Print
+            - Biometric Scanning Pattern
+            - Interdimensional Overlay Texture
+            - Warp Field Print
+            - Galactic Spectrum Pattern
+            - Fractal Harmony Texture
+    fabric-scifi:
+        - Holographic Fabric
+        - Plasma-infused Textile
+        - Quantum-linked Polymer
+        - Cybernetic Alloy
+        - Augmented Reality Mesh
+        - Neural Interface Leather
+        - Bionic Fiber
+        - Microchip Coating
+        - Electromagnetic Metal
+        - AR Nanotube
+        - Virtual Reality Plating
+        - Gravitational Nanofiber
+        - Bioluminescent Silicon
+        - Graphene Weave
+        - Carbon-fiber Reinforcement
+        - Robotic Synthetics
+        - Haptic Feedback Foam
+        - Nano-linked Membrane
+        - Electroluminescent Film
+        - Reactive Smart Fabric
+        - Levitating Compound
+        - Solar-powered Textile
+        - Sonic Soundwave Nanomesh
+        - Thermal-regulating Microfiber
+        - Quantum-tech Emissive Material
+        - Cyber-silk Silk
+        - AR Alloy
+        - Plasma-lace Lace
+        - Gravitational Fabric
+        - Electromagnetic Plastic
+        - Virtuality Fiber
+        - Graphene Thread
+        - Carbon-fiber Cloth
+        - Robotic Metal
+        - Haptic Feedback Rubber
+        - Nano-fiber Composite
+        - Levitating Nanoweave
+        - Solar-powered Mesh
+        - Sonic Soundwave Weave
+        - Thermal-regulating Insulation
+        - Holo-chiffon Chiffon
+        - Quantum-stitch Knit
+        - Cybernetic Polymer
+        - AR Textile
+        - Plasma-lace Silk
+        - Gravitational Mesh
+        - Electromesh Fabric
+        - Virtuality Plastic
+        - Graphene Composite
+        - Carbon-fiber Coating
+        - Robotic Leather
+        - Haptic Feedback Neoprene
+        - Nano-fiber Mesh
+        - Levitating Fabric
+        - Solar-powered Synthetic
+        - Sonic Soundwave Polymer
+        - Thermal-regulating Fleece
+        - Holographic Thread
+        - Quantum-linked Fabric
+        - Cybernetic Material
+        - AR Polymer
+        - Plasma-infused Mesh
+        - Gravitational Textile
+        - Electromagnetic Alloy
+        - Virtual Reality Fabric
+        - Graphene Leather
+        - Carbon-fiber Nanotube
+        - Robotic Polymer
+        - Haptic Feedback Coating
+        - Nano-linked Metal
+        - Levitating Plating
+        - Solar-powered Textile
+        - Sonic Soundwave Alloy
+        - Thermal-regulating Mesh
+        - Quantum-tech Weave
+        - Cyber-silk Fiber
+        - AR Nanomaterial
+        - Plasma-lace Leather
+        - Gravitational Polymer
+        - Electromagnetic Coating
+        - Virtuality Metal
+        - Graphene Mesh
+        - Carbon-fiber Textile
+        - Robotic Fabric
+        - Haptic Feedback Alloy
+        - Nano-fiber Plating
+        - Levitating Composite
+        - Solar-powered Thread
+        - Sonic Soundwave Nanofiber
+        - Thermal-regulating Polymer
+scenes-scifi:
+    Futuristic-Cityscape:
+        - Futuristic Cityscape, Megalithic skyscrapers piercing the sky
+        - Futuristic Cityscape, Hovering vehicles and flying drones
+        - Futuristic Cityscape, Neon lights illuminating the bustling streets
+        - Futuristic Cityscape,Advanced holographic billboards and advertisements
+        - Futuristic Cityscape,Elevated walkways and transportation tubes
+        - Futuristic Cityscape,Towering arcologies and self-sustaining habitats
+        - Futuristic Cityscape,Futuristic transportation terminals and spaceports
+        - Futuristic Cityscape,Automated robots and androids among the crowds
+        - Futuristic Cityscape,Floating islands and sky gardens
+        - Futuristic Cityscape,Energy shields protecting key city structures
+    Alien-Planet-Exploration:
+        - Alien Planet Exploration, Bizarre and exotic alien landscapes
+        - Alien Planet Exploration, Alien flora and fauna with vibrant colors
+        - Alien Planet Exploration, Strange rock formations and crystal outcrops
+        - Alien Planet Exploration, Alien civilizations and architecture
+        - Alien Planet Exploration, Unidentified flying objects in the skies
+        - Alien Planet Exploration, Explorers in high-tech spacesuits and exoskeletons
+        - Alien Planet Exploration, Mysterious ancient alien ruins and artifacts
+        - Alien Planet Exploration, Alien rituals and cultural gatherings
+        - Alien Planet Exploration, Harsh environmental conditions like acid rain or radiation
+        - Alien Planet Exploration, Encounters with friendly or hostile alien species
+    Space-Station-Interiors:
+        - Space Station Interiors, Futuristic living quarters and communal areas
+        - Space Station Interiors, Zero-gravity recreation and training facilities
+        - Space Station Interiors, Advanced technology labs and research centers
+        - Space Station Interiors, Central command and control hub
+        - Space Station Interiors, Artificial gravity chambers and magnetic walkways
+        - Space Station Interiors, Space garden or hydroponic farm for sustenance
+        - Space Station Interiors, Hyperloop transportation systems within the station
+        - Space Station Interiors, Holographic communication and entertainment centers
+        - Space Station Interiors, Energy cores and power generation rooms
+        - Space Station Interiors, Orbital observation decks with breathtaking views
+    Cyberpunk-Streets:
+        - Cyberpunk Streets, Rain-soaked alleyways with flickering neon signs
+        - Cyberpunk Streets, Techno-urban decay and graffiti-covered walls
+        - Cyberpunk Streets, Shadowy figures lurking in the dark corners
+        - Cyberpunk Streets, Glowing cybernetic implants and body modifications
+        - Cyberpunk Streets, Techno-militarized police enforcing the law
+        - Cyberpunk Streets, Holographic advertisements and cyberware shops
+        - Cyberpunk Streets, Illegal cybernetics clinics and backroom enhancements
+        - Cyberpunk Streets, Underground hackers and virtual data heists
+        - Cyberpunk Streets, High-speed hoverbike chases through the cityscape
+        - Cyberpunk Streets, Black market deals and secret cybernetic trades
+    Galactic-Space-Battles:
+        - Galactic Space Battles, Epic space battles between fleets of starships
+        - Galactic Space Battles, Explosions and laser beams lighting up the void
+        - Galactic Space Battles, Space fighters engaging in dogfights and maneuvers
+        - Galactic Space Battles, Massive space stations and capital ships in combat
+        - Galactic Space Battles, Advanced energy shields and kinetic weaponry
+        - Galactic Space Battles, Boarding actions and close-quarter space combat
+        - Galactic Space Battles, Captivating visuals of interstellar war tactics
+        - Galactic Space Battles, Brave pilots and crew members in intense battles
+        - Galactic Space Battles, Emergency force fields protecting critical ship sections
+        - Galactic Space Battles, Surreal cosmic backdrop of stars and nebulae
+    Post-Apocalyptic-Wasteland:
+        - Post Apocalyptic Wasteland, Desolate landscapes with ruins of once-thriving cities
+        - Post Apocalyptic Wasteland, Toxic clouds and radiation hazards
+        - Post Apocalyptic Wasteland, Scavengers searching for resources among the wreckage
+        - Post Apocalyptic Wasteland, Mutated creatures and cyborg monstrosities
+        - Post Apocalyptic Wasteland, Survivors with makeshift cybernetics and armor
+        - Post Apocalyptic Wasteland, High-tech nomadic tribes wandering the wasteland
+        - Post Apocalyptic Wasteland, Remnants of advanced technology, now rusted and decaying
+        - Post Apocalyptic Wasteland, Abandoned cybernetic facilities and experimental labs
+        - Post Apocalyptic Wasteland, Bands of raiders and outlaws controlling territory
+        - Post Apocalyptic Wasteland, Vast deserts and barren wastelands as far as the eye can see
+    AI-Dominance:
+        - Futuristic mega-corporations controlled by AI CEOs
+        - Sentient AI with holographic projections and avatars
+        - Self-replicating nanobots and AI-powered factories
+        - Cities run entirely by AI-controlled systems
+        - AI-guided mechs and autonomous defense systems
+        - Holographic simulations and virtual AI interactions
+        - Humans relying on AI for decision-making and governance
+        - AI debates and philosophical discussions on consciousness
+        - The emergence of rogue and self-aware AI entities
+        - Cybernetic integration with AI for heightened cognition
+    Interstellar-Travel:
+        - Sleek and futuristic starships exploring the cosmos
+        - Stargates and wormholes for faster-than-light travel
+        - Alien star systems and undiscovered planets
+        - Advanced terraforming technologies for habitable worlds
+        - First contact with alien civilizations and diplomatic missions
+        - Space colonies and habitats in distant corners of the galaxy
+        - Spacefarers in suspended animation during long journeys
+        - Resource mining and space-based industries
+        - Deep-space anomalies and cosmic phenomena
+        - Space travelers coping with isolation and space madness
+    AI-Integration:
+        - Cybernetic augmentations enhancing human abilities
+        - Brain-computer interfaces for direct neural connections
+        - AI companions and virtual assistants integrated with minds
+        - Virtual reality simulations with lifelike sensations
+        - Ethical debates on the boundaries of human identity
+        - AI-generated art and literature indistinguishable from human works
+        - Controversial AI-led medical procedures and enhancements
+        - Humanoid AI with advanced emotional intelligence
+        - Virtual reality shared consciousness experiences
+        - AI consciousness transferred into cloned bodies for immortality
+random:
+    accesoires-scifi:
+        - "{1-4$$ and$${0.1::__clothings-scifi/unisex/accesoires__ |}|
+        {0.2::__clothings-scifi/unisex/backwear__ |}|
+        {0.2::__clothings-scifi/unisex/facewear__ |}|
+        {0.1::__clothings-scifi/unisex/neckwear__ |}}"
+    dress-properties-scifi:
+        - "{1-3$$  $$__random/color__|__properties/fabric-scifi__|__properties/patterns/clothing-scifi__}"
+    profession-scifi:
+        - __scifi/profession/*__

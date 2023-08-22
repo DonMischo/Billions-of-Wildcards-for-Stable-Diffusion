@@ -1,0 +1,2008 @@
+# Billions of plants
+BoPlants:
+    random-plant:
+        - "{
+        __plants/
+        }"
+plants:
+    types:
+        - Tree
+        - Shrub
+        - Grass
+        - Herb
+        - Vine
+        - Fern
+        - Moss
+        - Alga
+        - Succulent
+        - Cactus
+        - Aquatic Plant
+        - Epiphyte
+        - Wildflower
+        - Bulb
+        - Palm
+        - Orchid
+        - Conifer
+        - Fruit
+        - Vegetable
+        - Flower
+        - Houseplant
+        - Medicinal Plant
+        - Aromatic Plant
+        - Edible Plant
+        - Ornamental Plant
+        - Desert Plant
+        - Aquatic Plant
+        - Bog Plant
+        - Alpine Plant
+        - Carnivorous Plant
+        - Climbing Plant
+        - Ground Cover Plant
+        - Indoor Plant
+        - Outdoor Plant
+        - Perennial Plant
+        - Annual Plant
+        - Biennial Plant
+    Growth-Habit:
+        - Arching
+        - Ascending
+        - Bush-like
+        - Bushy
+        - Clump-Forming
+        - Clumping
+        - Columnar
+        - Compact
+        - Creeping
+        - Climbing
+        - Decumbent
+        - Erect
+        - Fan-shaped
+        - Fastigiate
+        - Fibrous-rooted
+        - Fleshy-rooted
+        - Herbaceous-stemmed
+        - Low-growing
+        - Mat-forming
+        - Mat-like
+        - Matting
+        - Mound-forming
+        - Pendulous
+        - Prostrate
+        - Rhizome-forming
+        - Robust
+        - Rosette
+        - Runnering
+        - Scrambling
+        - Slender
+        - Slender-arching
+        - Spherical
+        - Spreading
+        - Stiffly upright
+        - Stolon-spreading
+        - Stoloniferous
+        - Suckering
+        - Suckering-spreading
+        - Suckering-stoloniferous
+        - Taprooted
+        - Trailing
+        - Tufted
+        - Tuberous-rooted
+        - Twining
+        - Upright
+        - Vining
+        - Weeping
+        - Woody-stemmed
+    Leaf:
+        - Simple
+        - Compound
+        - Pinnate
+        - Palmate
+        - Lobed
+        - Toothed
+        - Serrated
+        - Smooth
+        - Wavy
+        - Ruffled
+        - Curled
+        - Spiky
+        - Needle-like
+        - Lanceolate
+        - Oblong
+        - Elliptical
+        - Oval
+        - Round
+        - Heart-shaped
+        - Arrow-shaped
+        - Feather-like
+        - Filamentous
+        - Linear
+        - Scale-like
+        - Fleshy
+        - Succulent
+        - Trifoliate
+        - Bipinnate
+        - Tripinnate
+        - Peltate
+        - Cordate
+        - Crenate
+        - Ciliate
+        - Glabrous
+        - Pubescent
+        - Hairy
+        - Woolly
+        - Leathery
+        - Glossy
+        - Veined
+        - Variegated
+        - Mottled
+        - Undulate
+        - Parallel-veined
+        - Retuse
+        - Cleft
+        - Parted
+        - Frond-like
+        - Whorled
+        - Opposite
+        - Alternate
+        - Basal
+        - Deciduous
+        - Evergreen
+        - Persistent
+        - Petiolate
+        - Sessile
+    Flower:
+        - Single
+        - Double
+        - Petaloid
+        - Rayed
+        - Tubular
+        - Funnel-shaped
+        - Bell-shaped
+        - Trumpet-shaped
+        - Star-shaped
+        - Bowl-shaped
+        - Disk-shaped
+        - Cup-shaped
+        - Saucer-shaped
+        - Umbel
+        - Spike
+        - Raceme
+        - Panicle
+        - Corymb
+        - Cyme
+        - Capitulum
+        - Solitary
+        - Clustered
+        - Whorled
+        - Terminal
+        - Axillary
+        - Inflorescence
+        - Composite
+        - Floret
+        - Staminate
+        - Pistillate
+        - Perfect
+        - Imperfect
+        - Complete
+        - Incomplete
+        - Actinomorphic
+        - Zygomorphic
+        - Regular
+        - Irregular
+        - Radial
+        - Bilateral
+        - Corolla
+        - Calyx
+        - Sepal
+        - Petal
+        - Stamen
+        - Anther
+        - Filament
+        - Pistil
+        - Ovary
+        - Style
+        - Stigma
+        - Pedicel
+        - Receptacle
+        - Bract
+        - Bracteole
+        - Nectary
+        - Spur
+        - Labellum
+        - Keel
+        - Banner
+        - Wing
+        - Standard
+        - Labiate
+        - Spadix
+        - Spathe
+        - Catkin
+        - Sessile
+        - Peduncle
+    Fruit:
+        - Berry
+        - Drupe
+        - Pome
+        - Aggregate Fruit
+        - Multiple Fruit
+        - Capsule
+        - Legume
+        - Follicle
+        - Silique
+        - Nut
+        - Achene
+        - Samara
+        - Caryopsis
+        - Schizocarp
+        - Pepo
+        - Hesperidium
+        - Sorosis
+        - Syncarp
+        - Accessory Fruit
+    Stem:
+        - Herbaceous Stem
+        - Woody Stem
+        - Rhizome
+        - Stolon
+        - Tuber
+        - Bulb
+        - Corm
+        - Vine
+        - Runner
+        - Aerial Stem
+        - Sucker
+        - Scape
+        - Culm
+        - Pseudostem
+        - Spine
+        - Thorn
+        - Prickle
+    Foliage-Arrangement:
+        - Alternate
+        - Opposite
+        - Whorled
+        - Spiral
+        - Rosette
+        - Basal
+        - Decussate
+        - Fasciculate
+        - Tufted
+        - Clustered
+        - Scattered
+        - Basal Rosette
+        - Spiral Phyllotaxy
+        - Distichous Phyllotaxy
+        - Tristichous Phyllotaxy
+        - Tetracladous Phyllotaxy
+        - Decussate Phyllotaxy
+        - Whorled Phyllotaxy
+    Inflorescence:
+        - Raceme
+        - Panicle
+        - Spike
+        - Umbel
+        - Corymb
+        - Cyme
+        - Capitulum
+        - Spadix
+        - Catkin
+        - Globose
+        - Head
+        - Racemose
+        - Cymose
+        - Simple Inflorescence
+        - Compound Inflorescence
+        - Peduncle
+        - Pedicel
+        - Bract
+        - Bracteole
+        - Receptacle
+        - Ray Floret
+        - Disk Floret
+        - Ligulate Floret
+        - Tubular Floret
+        - Discoid Inflorescence
+        - Liguliflorous Inflorescence
+        - Corymbose Cyme
+        - Compound Umbel
+        - Spikelet
+        - Umbellate Cyme
+        - Thyrse
+    Leaf-Venation:
+        - Parallel Venation
+        - Pinnate Venation
+        - Palmate Venation
+        - Reticulate Venation
+        - Arcuate Venation
+        - Dichotomous Venation
+        - Longitudinal Venation
+        - Transverse Venation
+        - Irregular Venation
+        - Arching Venation
+        - Diagonal Venation
+        - Netted Venation
+        - Veinless
+        - Fan-shaped Venation
+        - Penninerved Venation
+        - Pinninerved Venation
+        - Actinodromous Venation
+        - Plinerved Venation
+        - Craspedodromous Venation
+        - Brochidodromous Venation
+    Sepal-Configuration:
+        - Polysepalous
+        - Gamosepalous
+        - Aposepalous
+        - Synsepalous
+        - Sepaloid
+        - Calyculate
+        - Epicalyx
+        - Bracteolate
+        - Involucrate
+        - Involucre
+        - Ebracteolate
+        - Bracteolate
+        - Epicalyx
+        - Bracteolate
+        - Involucrate
+        - Involucre
+    Seed:
+        - Naked Seeds
+        - Angiosperm Seeds
+        - Gymnosperm Seeds
+        - Dicotyledonous Seeds
+        - Monocotyledonous Seeds
+        - Endospermic Seeds
+        - Non-endospermic Seeds
+        - Albuminous Seeds
+        - Exalbuminous Seeds
+        - Orthotropous Seeds
+        - Anatropous Seeds
+        - Campylotropous Seeds
+        - Amphitropous Seeds
+        - Heteromorphic Seeds
+        - Homomorphic Seeds
+        - Radicle Upward Seeds
+        - Radicle Downward Seeds
+        - Micropylar Endosperm Seeds
+        - Chalazal Endosperm Seeds
+        - Starchy Seeds
+        - Non-starchy Seeds
+        - Albuminous Seeds
+        - Non-albuminous Seeds
+    Leaf Margin:
+        - Entire Leaf Margin
+        - Toothed Leaf Margin
+        - Lobed Leaf Margin
+        - Sinuate Leaf Margin
+        - Serrate Leaf Margin
+        - Dentate Leaf Margin
+        - Crenate Leaf Margin
+        - Undulate Leaf Margin
+        - Spiny Leaf Margin
+        - Incised Leaf Margin
+        - Pinnatifid Leaf Margin
+        - Pinnatisect Leaf Margin
+        - Bipinnatifid Leaf Margin
+        - Bipinnatisect Leaf Margin
+        - Serrulate Leaf Margin
+        - Doubly Toothed Leaf Margin
+        - Doubly Serrate Leaf Margin
+        - Revolute Leaf Margin
+        - Crisped Leaf Margin
+        - Wavy Leaf Margin
+        - Repand Leaf Margin
+        - Entirely Lobed Leaf Margin
+    Leaf Arrangement:
+        - Alternate
+        - Opposite
+        - Whorled
+        - Basal
+        - Rosette
+        - Spiral
+        - Clustered
+        - Crowded
+        - Scattered
+        - Tufted
+        - Whorled-alternate
+        - Basal-rosette
+        - Tufted-rosette
+        - Rosette-basal
+
+
+mushrooms:
+    types:
+        - Agarics
+        - Boletes
+        - Chanterelles
+        - Crust fungi
+        - Gilled fungi
+        - Jelly fungi
+        - Morels
+        - Puffballs
+        - Tooth fungi
+        - Truffles
+        - Polypores
+        - Coral fungi
+        - Stinkhorns
+        - Earthstars
+        - Bird's nest fungi
+        - Cup fungi
+        - Bracket fungi
+        - Club fungi
+        - Chanterelle-like mushrooms
+        - Cortinarius
+        - Amanitas
+        - Russulas
+        - Lactarius
+        - Coprinoids
+        - Psilocybin mushrooms
+        - Mycena
+        - Parasitic fungi
+        - Lichenized fungi
+    Gill:
+        - Adnate Gills
+        - Attached Gills
+        - Free Gills
+        - Emarginate Gills
+        - Sinuate Gills
+        - Decurrent Gills
+        - Depressed Gills
+        - Adnexed Gills
+        - Subdecurrent Gills
+        - Slightly Decurrent Gills
+        - Close Gills
+        - Distant Gills
+        - Crowded Gills
+        - Spaced Gills
+        - Forked Gills
+        - Crossed Gills
+        - Interveined Gills
+        - Ventricose Gills
+        - Runcinate Gills
+        - Crinkled Gills
+        - Segmented Gills
+        - Lamellate Gills
+        - Sublamellate Gills
+        - Gills with Veins
+        - Gills with Pores
+        - Gills with Teeth
+        - Gills with Folds
+        - Gills with Cross-veins
+        - Gills with Anastomosing Veins
+        - Gills with Lateral Veins
+        - Gills with Intermediate Gills
+        - Gills with Short Gills
+        - Gills with Long Gills
+        - Gills with Lamellulae
+        - Gills with Trama
+        - Gills with Paratrama
+        - Gills with Cystidia
+        - Gills with Hyphae
+        - Gills with Cheilocystidia
+        - Gills with Pleurocystidia
+        - Gills with Leptocystidia
+    Veil:
+        - Partial Veil
+        - Universal Veil
+        - Membranous Veil
+        - Cortina
+        - Annulus (Ring)
+        - Volva
+        - Fibrillose Veil
+        - Evanescent Veil
+        - Persistent Veil
+        - Disintegrating Veil
+        - Double Ring
+        - Absent Veil
+    Ring:
+        - Evanescent Ring
+        - Persistent Ring
+        - Movable Ring
+        - Pendant Ring
+        - Double Ring
+        - Slender Ring
+        - Broad Ring
+        - Membranous Ring
+        - Flaring Ring
+        - Sheathing Ring
+        - Fragile Ring
+        - Absent Ring
+    Bruising:
+        - Blue Bruising
+        - Brown Bruising
+        - Darkening Bruising
+        - Yellow Bruising
+        - Purple Bruising
+        - Green Bruising
+        - Reddish Bruising
+        - Fading Bruising
+        - Slow Bruising
+        - Quick Bruising
+        - Sensitive Bruising
+        - Moderate Bruising
+        - Intense Bruising
+        - Spotty Bruising
+        - Uniform Bruising
+    Annulus:
+        - Thin Annulus
+        - Delicate Annulus
+        - Evanescent Annulus
+        - Persistent Annulus
+        - Fragile Annulus
+        - Membranous Annulus
+        - Pendant Annulus
+        - Hanging Annulus
+        - Sheathing Annulus
+        - Flaring Annulus
+        - Fugacious Annulus
+        - Partial Annulus
+        - Disappearing Annulus
+        - Remnant Annulus
+        - Collapsing Annulus
+        - Slender Annulus
+        - Torn Annulus
+        - Edged Annulus
+        - Rippled Annulus
+        - Furrowed Annulus
+        - Lined Annulus
+        - Flaky Annulus
+        - Segmented Annulus
+        - Multi-layered Annulus
+        - Fibrillose Annulus
+        - Scaly Annulus
+        - Split Annulus
+        - Fringed Annulus
+        - Tattered Annulus
+        - Webby Annulus
+        - Cobwebby Annulus
+        - Veil-like Annulus
+        - Netted Annulus
+        - Fine Annulus
+        - Coarse Annulus
+        - Fibrous Annulus
+        - Floccose Annulus
+        - Lace-like Annulus
+        - Textured Annulus
+        - Patterned Annulus
+        - Decorated Annulus
+        - Ornate Annulus
+        - Smooth Annulus
+        - Glandular Annulus
+        - Glabrous Annulus
+    Volva:
+        - Cup-shaped Volva
+        - Saccate Volva
+        - Bag-like Volva
+        - Sac-like Volva
+        - Bulbous Volva
+        - Flaring Volva
+        - Tapered Volva
+        - Collar-like Volva
+        - Flattened Volva
+        - Lobe-like Volva
+        - Free Volva
+        - Adherent Volva
+        - Persistent Volva
+        - Evanescent Volva
+        - Membranous Volva
+        - Fragmented Volva
+        - Universal Volva
+        - Partial Volva
+        - Remnant Volva
+        - Fleshy Volva
+        - Gelatinous Volva
+        - Watery Volva
+        - Waxy Volva
+        - Glandular Volva
+        - Smooth Volva
+        - Rough Volva
+        - Scaly Volva
+        - Veil-like Volva
+        - Webbed Volva
+        - Torn Volva
+        - Fringed Volva
+        - Plicate Volva
+        - Grooved Volva
+        - Furrowed Volva
+        - Furrowed and Grooved Volva
+        - Wrinkled Volva
+        - Pitted Volva
+        - Textured Volva
+        - Patterned Volva
+        - Radially Split Volva
+        - Lobed Volva
+        - Scalloped Volva
+        - Uneven Volva
+        - Multi-layered Volva
+        - Outer Layered Volva
+        - Inner Layered Volva
+        - Multi-Lobed Volva
+        - Flaky Volva
+        - Fibrous Volva
+        - Thin Volva
+        - Thick Volva
+        - Leathery Volva
+        - Tattered Volva
+        - Hairy Volva
+        - Fibrillose Volva
+        - Granulated Volva
+        - Ornate Volva
+        - Decorated Volva
+        - Gland-covered Volva
+        - Rough-textured Volva
+    Pileus:
+        - Convex Pileus
+        - Flat Pileus
+        - Umbonate Pileus
+        - Depressed Pileus
+        - Campanulate Pileus
+        - Bell-shaped Pileus
+        - Conical Pileus
+        - Conical to Convex Pileus
+        - Hemispherical Pileus
+        - Umbrella-shaped Pileus
+        - Expanding Pileus
+        - Margin Curled Up Pileus
+        - Incurved Margin Pileus
+        - Decurved Margin Pileus
+        - Straight Margin Pileus
+        - Overhanging Margin Pileus
+        - Rolled Margin Pileus
+        - Wavy Margin Pileus
+        - Lobed Margin Pileus
+        - Cracked Margin Pileus
+        - Split Margin Pileus
+        - Lobed and Split Margin Pileus
+        - Undulating Margin Pileus
+        - Furrowed Margin Pileus
+        - Margin Striate Pileus
+        - Marginate Pileus
+        - Non-Marginate Pileus
+        - Undulating Marginate Pileus
+        - Cap Margin Grooved Pileus
+        - Cap Margin Bumpy Pileus
+        - Cap Margin Smooth Pileus
+        - Cap Margin Ridged Pileus
+        - Cap Margin Wavy Pileus
+        - Cap Margin Scalloped Pileus
+        - Cap Margin Toothed Pileus
+        - Cap Margin Fringed Pileus
+        - Cap Margin Fimbriate Pileus
+        - Cap Margin Crenate Pileus
+        - Cap Margin Lacerate Pileus
+        - Cap Margin Scaly Pileus
+        - Cap Margin Woolly Pileus
+        - Cap Margin Felted Pileus
+        - Cap Margin Velvety Pileus
+        - Cap Margin Silky Pileus
+        - Cap Margin Viscid Pileus
+        - Cap Margin Slimy Pileus
+        - Cap Margin Sticky Pileus
+        - Cap Margin Glandular Pileus
+        - Cap Margin Glistening Pileus
+        - Cap Margin Glowing Pileus
+        - Cap Margin Luminescent Pileus
+        - Cap Margin Translucent Pileus
+        - Cap Margin Opaque Pileus
+        - Cap Surface Smooth Pileus
+        - Cap Surface Grooved Pileus
+        - Cap Surface Bumpy Pileus
+        - Cap Surface Ridged Pileus
+        - Cap Surface Wavy Pileus
+        - Cap Surface Scalloped Pileus
+        - Cap Surface Toothed Pileus
+        - Cap Surface Fringed Pileus
+        - Cap Surface Fimbriate Pileus
+        - Cap Surface Crenate Pileus
+        - Cap Surface Lacerate Pileus
+        - Cap Surface Scaly Pileus
+        - Cap Surface Woolly Pileus
+        - Cap Surface Felted Pileus
+        - Cap Surface Velvety Pileus
+        - Cap Surface Silky Pileus
+        - Cap Surface Viscid Pileus
+        - Cap Surface Slimy Pileus
+        - Cap Surface Sticky Pileus
+        - Cap Surface Glandular Pileus
+        - Cap Surface Glistening Pileus
+        - Cap Surface Glowing Pileus
+        - Cap Surface Luminescent Pileus
+        - Cap Surface Translucent Pileus
+        - Cap Surface Opaque Pileus
+    Pores:
+        - Circular Pores
+        - Round Pores
+        - Angular Pores
+        - Elongated Pores
+        - Irregular Pores
+        - Hexagonal Pores
+        - Rectangular Pores
+        - Polygonal Pores
+        - Stellate Pores
+        - Compound Pores
+        - Simple Pores
+        - Confluent Pores
+        - Gaping Pores
+        - Tiny Pores
+        - Large Pores
+        - Sunken Pores
+        - Raised Pores
+        - Evenly Spaced Pores
+        - Clumped Pores
+        - Radially Arranged Pores
+        - Irregularly Arranged Pores
+        - Sparse Pores
+        - Dense Pores
+        - Cracked Pores
+        - Divided Pores
+        - Unbranched Pores
+        - Branched Pores
+        - Fused Pores
+        - Whitish Pores
+        - Cream-colored Pores
+        - Yellow Pores
+        - Orange Pores
+        - Reddish Pores
+        - Pinkish Pores
+        - Brown Pores
+        - Grayish Pores
+        - Bluish Pores
+        - Greenish Pores
+        - Blackish Pores
+        - Pale Pores
+        - Dark Pores
+        - Uniformly Colored Pores
+        - Variegated Pores
+        - Radially Colored Pores
+        - Zoned Pores
+        - Spotted Pores
+        - Speckled Pores
+        - Dotted Pores
+        - Striated Pores
+        - Ridged Pores
+        - Grooved Pores
+        - Scaly Pores
+        - Velvet-textured Pores
+        - Felted Pores
+        - Woolly Pores
+        - Smooth Pores
+        - Rough Pores
+        - Shiny Pores
+        - Matte Pores
+        - Porous Pores
+        - Non-porous Pores
+        - Glistening Pores
+        - Glowing Pores
+        - Luminescent Pores
+        - Translucent Pores
+        - Opaque Pores
+    Hymenium:
+        - Smooth Hymenium
+        - Wrinkled Hymenium
+        - Pitted Hymenium
+        - Toothed Hymenium
+        - Gilled Hymenium
+        - Porous Hymenium
+        - Polypore Hymenium
+        - Lamellate Hymenium
+        - Labyrinthine Hymenium
+        - Maze-like Hymenium
+        - Irregular Hymenium
+        - Uniform Hymenium
+        - Radially Arranged Hymenium
+        - Concentrically Arranged Hymenium
+        - Interrupted Hymenium
+        - Continuous Hymenium
+        - Infundibuliform Hymenium
+        - Tubular Hymenium
+        - Crinkled Hymenium
+        - Dimpled Hymenium
+        - Reticulated Hymenium
+        - Spore-bearing Hymenium
+        - Sterile Hymenium
+        - Even Hymenium
+        - Bumpy Hymenium
+        - Sunken Hymenium
+        - Raised Hymenium
+        - Marginate Hymenium
+        - Stipitate Hymenium
+        - Subsessile Hymenium
+        - Pendent Hymenium
+        - Horizontal Hymenium
+        - Ascendant Hymenium
+        - Descendant Hymenium
+        - Adnate Hymenium
+        - Sinuate Hymenium
+        - Hymenium with Lamellae
+        - Hymenium with Pores
+        - Hymenium with Teeth
+        - Hymenium with Gills
+        - Hymenium with Ridges
+        - Hymenium with Folds
+        - Hymenium with Tubes
+        - Hymenium with Pits
+        - Hymenium with Cracks
+        - Hymenium with Grooves
+        - Hymenium with Scales
+        - Hymenium with Patterns
+        - Hymenium with Textures
+        - Hymenium with Structures
+        - Hymenium with Shapes
+    Stipe-Base:
+        - Bulbous Base
+        - Club-Shaped Base
+        - Tapered Base
+        - Enlarged Base
+        - Rounded Base
+        - Flaring Base
+        - Equal Base
+        - Slightly Bulbous Base
+        - Cylindrical Base
+        - Narrowing Base
+        - Rooting Base
+        - Saccate Base
+        - Cordate Base
+        - Cup-Shaped Base
+        - Swollen Base
+        - Marginate Base
+        - Fusiform Base
+        - Stilted Base
+        - Elongated Base
+        - Gradually Tapering Base
+        - Constricted Base
+        - Flattened Base
+        - Incurved Base
+        - Eccentric Base
+        - Discrete Base
+        - Eccentrobase
+        - Bulbose Base
+        - Stout Base
+        - Slightly Tapered Base
+        - Subtubular Base
+        - Subbulbous Base
+        - Subglobose Base
+        - Acute Base
+        - Truncate Base
+        - Obconic Base
+        - Ventricose Base
+        - Tapering to a Point Base
+        - Tapering to a Stem Base
+        - Marginate-Attached Base
+        - Rhizomorphic Base
+        - Hollow Base
+        - Solid Base
+        - Undulate Base
+        - Irregular Base
+        - Elongated and Flaring Base
+        - Tapering and Slightly Bulbous Base
+        - Smooth Base
+        - Wavy Base
+        - Short and Stout Base
+        - Gradually Enlarged Base
+        - Rough Base
+        - Furrowed Base
+        - Flexuous Base
+        - Slightly Flaring Base
+        - Gradually Tapering and Rooting Base
+        - Straight Base
+        - Caudate Base
+        - Flexuous to Flaring Base
+        - Pointed Base
+        - Stout and Bulbous Base
+        - Tapering to a Nipple Base
+        - Cuneate Base
+        - Subrhizomorphic Base
+        - Slightly Tapered and Flaring Base
+        - Bulbous and Flaring Base
+        - Tapered to an Elongated Bulb Base
+        - Flexuous and Tapered Base
+        - Slightly Bulbous and Tapered Base
+        - Flexuous to Flattened Base
+        - Flattened to Bulbous Base
+        - Gradually Tapering and Cylindrical Base
+        - Gradually Tapering and Flaring Base
+        - Rounded and Tapered Base
+        - Gradually Tapering and Saccate Base
+        - Gradually Tapering to a Bulb Base
+        - Flaring and Rooting Base
+        - Gradually Enlarged and Rooting Base
+        - Gradually Tapering and Acute Base
+        - Gradually Tapering to a Club Base
+        - Flaring and Flexuous Base
+        - Flaring and Stout Base
+        - Gradually Tapering and Irregular Base
+        - Gradually Tapering to a Point Base
+        - Flaring to Cylindrical Base
+        - Slightly Tapered and Acute Base
+        - Cylindrical and Tapered Base
+        - Tapering and Rooting Base
+        - Gradually Tapering to a Stem Base
+        - Flaring and Rounded Base
+        - Flaring to Cylindrical and Rooting Base
+        - Gradually Tapering to a Flaring Base
+        - Gradually Tapering to a Saccate Base
+        - Flaring and Tapering to a Point Base
+        - Gradually Tapering and Stout Base
+        - Gradually Tapering to a Nipple Base
+        - Cylindrical and Rooting Base
+        - Gradually Tapering and Flexuous Base
+        - Gradually Tapering and Rooting Base
+        - Gradually Tapering to an Elongated Bulb Base
+        - Cylindrical and Flaring Base
+        - Gradually Tapering and Furrowed Base
+        - Gradually Tapering to a Club-Shaped Base
+        - Gradually Tapering and Hollow Base
+        - Gradually Tapering and Rhizomorphic Base
+        - Gradually Tapering to a Cup-Shaped Base
+        - Gradually Tapering and Subbulbous Base
+        - Gradually Tapering to a Cuneate Base
+        - Flaring to a Point Base
+        - Flaring and Gradually Tapering Base
+        - Flaring and Acute Base
+        - Tapering and Cordate Base
+        - Gradually Tapering and Cuneate Base
+        - Gradually Tapering to a Rhizomorphic Base
+        - Flaring and Rooting Base
+        - Gradually Tapering and Ventricose Base
+        - Flaring and Cylindrical Base
+        - Gradually Tapering and Cup-Shaped Base
+        - Gradually Tapering and Subglobose Base
+        - Gradually Tapering to a Subglobose Base
+        - Gradually Tapering and Truncate Base
+        - Gradually Tapering to an Obconic Base
+        - Gradually Tapering and Equal Base
+        - Gradually Tapering and Ventricose Base
+        - Gradually Tapering to a Rooting Base
+        - Gradually Tapering and Swollen Base
+        - Gradually Tapering to an Acute Base
+        - Gradually Tapering and Tapered to a Point Base
+        - Gradually Tapering to a Truncate Base
+        - Gradually Tapering and Marginate Base
+        - Gradually Tapering and Tapered to a Stem Base
+        - Gradually Tapering to an Equal Base
+        - Gradually Tapering and Marginate-Attached Base
+        - Gradually Tapering and Slightly Tapered Base
+        - Gradually Tapering to a Marginate Base
+        - Gradually Tapering and Tapered to a Nipple Base
+    Latex:
+        - Milky
+        - Watery
+        - Thick
+        - Sticky
+        - Oozing
+        - Viscous
+        - Cloudy
+        - Clear
+        - Colored
+        - Translucent
+        - Transparent
+        - Gelatinous
+        - Gel-like
+        - Amber
+        - White
+        - Creamy
+        - Yellowish
+        - Orange
+        - Reddish
+        - Brownish
+        - Greenish
+        - Bluish
+        - Pinkish
+        - Blackish
+    Mycorrhizal Association:
+        - Symbiotic Connection
+        - Root Interlocking
+        - Mutualistic Relationship
+        - Underground Exchange
+        - Nutrient Sharing
+        - Fungal Filaments Entwined with Roots
+        - Beneficial Interaction
+        - Cooperative Nutrient Absorption
+        - Root Envelopment
+        - Fungal Hyphae Surrounding Root Cells
+        - Mycorrhizal Network
+        - Fungal-Plant Symbiosis
+        - Enhanced Nutrient Uptake
+        - Root Extension into Fungal Mycelium
+        - Root Colonization by Fungi
+        - Plant-Fungus Cooperation
+        - Beneficial Mycorrhizae
+        - Plant Health Enhancement
+        - Subterranean Partnership
+    Habitat:
+        - Forest
+        - Rainforest
+        - Desert
+        - Grassland
+        - Tundra
+        - Wetland
+        - Marsh
+        - Swamp
+        - Lake
+        - River
+        - Pond
+        - Ocean
+        - Coral Reef
+        - Mountain
+        - Alpine
+        - Cave
+        - Underground
+        - Urban
+        - Rural
+        - Suburban
+        - Savanna
+        - Prairie
+        - Steppe
+        - Taiga
+        - Boreal Forest
+        - Deciduous Forest
+        - Coniferous Forest
+        - Coastal
+        - Estuary
+        - Mangrove
+        - Arctic
+        - Antarctic
+        - Volcanic
+        - Geothermal
+        - Hydrothermal Vent
+        - Abyssal Zone
+        - Deep Sea
+        - Seafloor
+        - Woodland
+        - Heathland
+        - Moorland
+        - Fen
+        - Fenland
+        - Lagoon
+        - Delta
+        - Plateau
+        - Canyon
+        - Gorge
+        - Ridge
+        - Dune
+        - Oasis
+        - Fjord
+        - Glacial
+        - Cavern
+        - Bog
+        - Salt Flat
+        - Sand Dunes
+        - Caldera
+        - Rift Valley
+        - Kelp Forest
+        - Littoral Zone
+        - Hinterland
+        - Backwater
+        - Meander
+        - Estuary
+        - Wet Meadow
+        - Salt Marsh
+        - Freshwater
+        - Saline
+        - Volcanic Island
+        - Barrier Island
+        - Archipelago
+        - Atoll
+        - Karst
+        - Swell
+        - Expanse
+        - Vastness
+        - Natural Habitat
+    Growth-Form:
+        - Single
+        - Clustered
+        - Scattered
+        - Grouped
+        - Solitary
+        - Trooping
+        - Clumped
+        - Cespitose
+        - Tufted
+        - Fasciculate
+        - Gregarious
+        - Dense
+        - Scattered
+        - Proliferating
+        - Stellate
+        - Effuse
+        - Subcespitose
+        - Hypogeous
+        - Epigeous
+        - Hypogeal
+        - Subterranean
+        - Terrestrial
+        - Lignicolous
+        - Terrestrial-woodland
+        - Mycorrhizal
+        - Saprophytic
+        - Parasitic
+        - Endophytic
+        - Epiphytic
+        - Coprophilous
+    Bioluminescence:
+        - Bioluminescence
+        - Glowing
+        - Illuminated
+        - Luminous
+        - Radiant
+        - Bio-lit
+        - Phosphorescent
+        - Fluorescent
+        - Light-emitting
+        - Self-illuminating
+        - Shimmering
+        - Sparkling
+        - Gleaming
+        - Glistening
+        - Incandescent
+        - Luminescent
+        - Radiating light
+        - Emitting light
+        - Biogenic light
+        - Otherworldly glow
+    Poisonous Properties:
+        - Toxic
+        - Venomous
+        - Harmful
+        - Lethal
+        - Dangerous
+        - Deadly
+        - Noxious
+        - Poison-filled
+        - Caustic
+        - Corrosive
+        - Irritant
+        - Laced with poison
+        - Potentially lethal
+        - Hazardous
+        - Contaminated
+        - Laced with toxins
+        - Harm-inflicting
+        - Hazardous to touch
+        - Poison-spewing
+        - Deadly to ingest
+        - Venom-laden
+        - Poisonous secretion
+        - Bitter-tasting poison
+        - Noxious fumes
+        - Poisonous essence
+        - Toxic residue
+        - Harmful extracts
+        - Poisonous compounds
+        - Lethal toxins
+        - Corroding agent
+        - Lethal chemicals
+        - Venomous essence
+    Medicinal Properties:
+        - Healing
+        - Therapeutic
+        - Medicinal
+        - Curative
+        - Remedy
+        - Health-enhancing
+        - Restorative
+        - Beneficial
+        - Soothing
+        - Herbal remedy
+        - Natural medicine
+        - Therapeutic extract
+        - Healing properties
+        - Medicinal benefits
+        - Health-promoting
+        - Curative powers
+        - Remedy attributes
+        - Restorative effects
+        - Therapeutic qualities
+        - Herbal healing
+        - Natural remedy
+        - Medicinal treatment
+        - Health-enhancing elements
+        - Soothing properties
+        - Herbal therapy
+        - Medicinal applications
+        - Curative compounds
+        - Healing properties
+        - Therapeutic properties
+        - Medicinal properties
+        - Health-enhancing attributes
+        - Restorative qualities
+        - Beneficial effects
+        - Soothing qualities
+        - Herbal remedy
+        - Natural healing
+        - Therapeutic benefits
+        - Healing extracts
+        - Medicinal potential
+        - Curative capabilities
+        - Remedy components
+        - Restorative attributes
+        - Herbal medicine
+
+properties:
+    colors:
+        plants:
+            - Green
+            - Brown
+            - Red
+            - Yellow
+            - Orange
+            - Pink
+            - Purple
+            - Blue
+            - White
+            - Cream
+            - Beige
+            - Gray
+            - Silver
+            - Gold
+            - Burgundy
+            - Maroon
+            - Olive
+            - Teal
+            - Turquoise
+            - Cyan
+            - Indigo
+            - Lavender
+            - Magenta
+            - Peach
+            - Coral
+            - Tan
+            - Rust
+            - Amber
+            - Ebony
+            - Jet Black
+            - Charcoal
+            - Slate
+            - Ash Gray
+            - Pearl
+            - Ivory
+            - Cream
+            - Mint Green
+            - Emerald Green
+            - Forest Green
+            - Lime Green
+            - Chartreuse
+            - Tangerine
+            - Salmon
+            - Rose
+            - Lilac
+            - Orchid
+            - Azure
+            - Sky Blue
+            - Navy Blue
+            - Royal Blue
+            - Cobalt Blue
+            - Cerulean
+            - Aquamarine
+            - Seafoam Green
+            - Turquoise
+            - Aquamarine
+            - Cyan
+            - Periwinkle
+            - Plum
+            - Mauve
+            - Slate Gray
+            - Smoke Gray
+            - Pewter
+            - Taupe
+            - Mahogany
+            - Copper
+            - Bronzete
+        mushrooms:
+            - White
+            - Brown
+            - Red
+            - Yellow
+            - Orange
+            - Green
+            - Blue
+            - Purple
+            - Black
+            - Gray
+            - Pink
+            - Tan
+            - Cream
+            - Beige
+            - Maroon
+            - Burgundy
+            - Lavender
+            - Indigo
+            - Teal
+            - Olive
+        Spore-Print:
+            - White Spore Print
+            - Cream Spore Print
+            - Pale Spore Print
+            - Light Spore Print
+            - Yellow Spore Print
+            - Golden Spore Print
+            - Orange Spore Print
+            - Rust Spore Print
+            - Red Spore Print
+            - Pink Spore Print
+            - Salmon Spore Print
+            - Brown Spore Print
+            - Chocolate Spore Print
+            - Dark Spore Print
+            - Black Spore Print
+            - Gray Spore Print
+            - Purple Spore Print
+            - Lilac Spore Print
+            - Blue Spore Print
+            - Green Spore Print
+            - Olive Spore Print
+            - Blue-Green Spore Print
+            - Bluish-Black Spore Print
+            - Bluish-Green Spore Print
+            - Bluish-Gray Spore Print
+            - Bluish-White Spore Print
+            - Bluish-Yellow Spore Print
+            - Bluish-Violet Spore Print
+            - Bluish-Red Spore Print
+            - Bluish-Brown Spore Print
+            - Bluish-Purple Spore Print
+            - Bluish-Pink Spore Print
+            - Bluish-Orange Spore Print
+            - Bluish-Golden Spore Print
+        Stipe:
+            - White
+            - Cream
+            - Yellow
+            - Orange
+            - Red
+            - Pink
+            - Brown
+            - Gray
+            - Black
+            - Pale
+            - Dark
+            - Light
+            - Tan
+            - Beige
+            - Golden
+            - Copper
+            - Rust
+            - Mottled
+            - Banded
+            - Striped
+            - Spotted
+            - Flecked
+            - Speckled
+            - Variegated
+            - Multicolored
+            - Blotchy
+            - Marbled
+            - Two-Toned
+            - Colorful
+            - Monochromatic
+            - Vibrant
+            - Subdued
+            - Pastel
+            - Earthy
+            - Muted
+            - Gradient
+            - Iridescent
+            - Metallic
+            - Shiny
+            - Matte
+            - Glossy
+            - Translucent
+            - Opaque
+            - Glazed
+            - Sparkling
+            - Dull
+            - Bright
+            - Lustrous
+            - Pale to Dark
+            - Contrasting
+            - Harmonious
+            - Unique
+            - Natural
+            - Unusual
+            - Striking
+            - Elegant
+            - Richly Colored
+            - Patterned
+            - Textured
+            - Solid
+        Gill:
+            - White
+            - Cream
+            - Yellow
+            - Pink
+            - Red
+            - Orange
+            - Brown
+            - Gray
+            - Black
+            - Green
+            - Blue
+            - Lilac
+            - Purple
+            - Bicolored
+            - Multicolored
+            - Pale
+            - Dark
+            - Mottled
+            - Striped
+            - Spotted
+            - Streaked
+            - Irregularly Colored
+            - Translucent
+            - Gradient
+            - Pigmented
+            - Unpigmented
+    size:
+        plants:
+            - Microscopic
+            - Minuscule
+            - Tiny
+            - Petite
+            - Lilliputian
+            - Dwarf
+            - Wee
+            - Miniature
+            - Diminutive
+            - Small
+            - Compact
+            - Dainty
+            - Delicate
+            - Medium-sized
+            - Average
+            - Palm-sized
+            - Substantial
+            - Generous
+            - Ample
+            - Sprawling
+            - Prolific
+            - Medium-sized
+            - Large
+            - Robust
+            - Sturdy
+            - Majestic
+            - Lush
+            - Gigantic
+            - Towering
+            - Huge
+            - Enormous
+            - Colossal
+            - Oversized
+            - Vast
+            - Monumental
+            - Mighty
+        mushrooms:
+            - Small
+            - Medium
+            - Large
+            - Miniature
+            - Giant
+            - Tiny
+            - Massive
+            - Compact
+            - Oversized
+            - Diminutive
+            - Petite
+            - Jumbo
+            - Microscopic
+            - Colossal
+            - Minute
+    shape:
+        plants:
+            - Rounded
+            - Oval
+            - Heart-shaped
+            - Lanceolate
+            - Linear
+            - Elliptical
+            - Lance-shaped
+            - Lanceolate
+            - Needle-like
+            - Linear-lanceolate
+            - Spatulate
+            - Obovate
+            - Oblong
+            - Triangular
+            - Circular
+            - Fan-shaped
+            - Palmate
+            - Pinnate
+            - Lobed
+            - Lobeless
+            - Toothed
+            - Serrated
+            - Wavy-edged
+            - Smooth-edged
+            - Undulate
+            - Jagged
+            - Irregular
+            - Curved
+            - Twisted
+            - Spiraled
+            - Coiled
+            - Whorled
+            - Clustered
+            - Rosette
+            - Upright
+            - Erect
+            - Arching
+            - Cascading
+            - Pendulous
+            - Creeping
+            - Spreading
+            - Mat-forming
+            - Vining
+            - Climbing
+            - Bushy
+            - Compact
+            - Columnar
+            - Pyramidal
+            - Conical
+            - Globular
+            - Spherical
+            - Semicircular
+            - Flattened
+            - Triangular
+            - Cylindrical
+            - Tapered
+            - Tendril-bearing
+            - Strap-like
+            - Strap-shaped
+        mushrooms:
+            - Bell
+            - Umbrella
+            - Conical
+            - Convex
+            - Flat
+            - Spherical
+            - Cylindrical
+            - Cup-shaped
+            - Fan-shaped
+            - Saddle-shaped
+            - Disk-shaped
+            - Trumpet-shaped
+            - Coral-like
+            - Club-shaped
+            - Cushion-shaped
+            - Shell-shaped
+        leaf:
+            - Linear
+            - Lanceolate
+            - Oblong
+            - Oval
+            - Elliptical
+            - Ovate
+            - Heart-shaped
+            - Cordate
+            - Reniform
+            - Round
+            - Circular
+            - Orbicular
+            - Acicular
+            - Needle-like
+            - Filiform
+            - Needle-shaped
+            - Linear-lanceolate
+            - Elliptic-ovate
+            - Spatulate
+            - Triangular
+            - Palmate
+            - Digitate
+            - Pinnate
+            - Bipinnate
+            - Trifoliate
+            - Simple
+            - Compound
+            - Lobed
+            - Toothed
+            - Serrated
+            - Entire
+            - Palmately-lobed
+            - Palmately-cleft
+            - Palmately-compound
+            - Pinnately-lobed
+            - Pinnately-cleft
+            - Pinnately-compound
+            - Bipinnately-lobed
+            - Bipinnately-cleft
+            - Bipinnately-compound
+            - Trifoliate
+            - Undivided
+        Petal:
+            - Round
+            - Oval
+            - Lanceolate
+            - Linear
+            - Spatulate
+            - Oblong
+            - Elliptical
+            - Ovate
+            - Cordate
+            - Reniform
+            - Flabellate
+            - Acuminate
+            - Acute
+            - Truncate
+            - Emarginate
+            - Cuneate
+            - Sagittate
+            - Hastate
+            - Obovate
+            - Ligulate
+            - Tubular
+            - Funnel-shaped
+            - Bell-shaped
+            - Rotate
+            - Cruciform
+            - Cross-shaped
+            - Salverform
+            - Hypocrateriform
+            - Urceolate
+            - Campanulate
+            - Cyathiform
+            - Bilabiate
+            - Labiate
+            - Papilionaceous
+            - Liguliflorous
+            - Discoid
+            - Radiate
+            - Tubuliflorous
+            - Funnelform
+            - Tubular-funnelform
+            - Tubular-rotate
+        stem:
+            - Cylindrical
+            - Tapering
+            - Bulbous
+            - Club-Shaped
+            - Fluted
+            - Tapered Base
+            - Enlarged Base
+            - Equal
+            - Elongated
+            - Short
+            - Stubby
+            - Slender
+            - Curved
+            - Straight
+            - Twisted
+            - Smooth
+            - Ridged
+            - Grooved
+            - Fibrillose
+            - Fibrous
+            - Prickly
+            - Scaly
+            - Bumpy
+            - Wavy
+            - Knobby
+            - Scabrous
+            - Flexuous
+            - Ribbed
+            - Serrated
+            - Furrowed
+            - Striate
+            - Flaky
+            - Shaggy
+            - Annulus Base
+            - Cartilaginous
+            - Hollow
+            - Solid
+            - Tuberous
+            - Root-Like
+            - Mycelial
+            - Rhizomorph
+            - Subterranean
+            - Aerial
+            - Underground
+            - Ascendant
+            - Erect
+            - Prostrate
+            - Twining
+            - Flexuose
+            - Geniculate
+            - Lateral
+            - Central
+            - Off-Centered
+            - Eccentric
+        bud:
+            - Conical Buds
+            - Ovoid Buds
+            - Globular Buds
+            - Cylindrical Buds
+            - Lanceolate Buds
+            - Acuminate Buds
+            - Clavate Buds
+            - Elliptical Buds
+            - Reniform Buds
+            - Oblong Buds
+            - Fusiform Buds
+            - Spatulate Buds
+            - Subulate Buds
+            - Linear Buds
+            - Globose Buds
+            - Pyramidal Buds
+            - Ovate Buds
+            - Cordate Buds
+            - Cuneate Buds
+            - Napiform Buds
+            - Capitate Buds
+    texture:
+        stem:
+            - Smooth Texture
+            - Silky Texture
+            - Velvety Texture
+            - Fuzzy Texture
+            - Hairy Texture
+            - Scaly Texture
+            - Prickly Texture
+            - Ribbed Texture
+            - Ridged Texture
+            - Grooved Texture
+            - Fluted Texture
+            - Wavy Texture
+            - Bumpy Texture
+            - Tuberculate Texture
+            - Fibrillose Texture
+            - Fibrous Texture
+            - Granular Texture
+            - Glandular Texture
+            - Cracked Texture
+            - Warty Texture
+            - Crinkled Texture
+            - Pitted Texture
+            - Spongy Texture
+            - Pore-Like Texture
+            - Slimey Texture
+            - Slimy Texture
+            - Glutinous Texture
+            - Gooey Texture
+            - Stiff Texture
+            - Tough Texture
+            - Brittle Texture
+            - Corky Texture
+            - Woody Texture
+            - Mushy Texture
+            - Gelatinous Texture
+            - Leathery Texture
+            - Papery Texture
+            - Membranous Texture
+            - Crust-like Texture
+            - Subtle Texture
+            - Coarse Texture
+            - Fine Texture
+            - Matte Texture
+            - Glossy Texture
+            - Satin Texture
+            - Pearlized Texture
+            - Iridescent Texture
+            - Lustrous Texture
+            - Shiny Texture
+            - Frosted Texture
+            - Pearly Texture
+            - Metallic Texture
+            - Textured Texture (e.g., textured stem)
+        mushrooms:
+            - Smooth
+            - Warty
+            - Scaly
+            - Rough
+            - Fuzzy
+            - Velvety
+            - Silky
+            - Pitted
+            - Spongy
+            - Fibrous
+            - Powdery
+            - Slimy
+            - Crinkled
+            - Bumpy
+            - Knobby
+            - Hairy
+            - Pimpled
+            - Wrinkled
+            - Grooved
+            - Ribbed
+            - Veined
+            - Ridged
+            - Gilled
+            - Furrowed
+        Bark:
+            - Smooth
+            - Rough
+            - Furrowed
+            - Peeling
+            - Shaggy
+            - Scaly
+            - Corky
+            - Flaky
+            - Ridged
+            - Grooved
+            - Striated
+            - Warty
+            - Papery
+            - Fibrous
+            - Plate-like
+            - Cracked
+            - Prickly
+            - Bumpy
+            - Knobby
+        plants:
+            - Smooth
+            - Rough
+            - Velvety
+            - Prickly
+            - Fuzzy
+            - Waxy
+            - Spongy
+            - Bumpy
+            - Ribbed
+            - Lustrous
+            - Shiny
+            - Matte
+            - Glossy
+            - Silky
+            - Papery
+            - Crispy
+            - Brittle
+            - Leathery
+            - Scaled
+            - Peeling
+            - Flaky
+            - Crinkled
+            - Rigid
+            - Flexible
+            - Stiff
+            - Delicate
+            - Tough
+            - Frilly
+            - Fringed
+            - Spiky
+            - Jagged
+            - Veined
+            - Lacy
+            - Webbed
+            - Lumpy
+            - Ridged
+            - Knotted
+            - Corded
+            - Twisted
+            - Curled
+            - Tangled
+            - Whorled
+            - Pitted
+            - Puckered
+            - Bristly
+            - Hairy
+            - Grooved
+            - Divided
+            - Poreous
+            - Textured
+            - Coarse
+            - Fine
+            - Embossed
+            - Engraved
+            - Rugged
+            - Bristled
+            - Irregular
+            - Slender
+            - Bulbous
+    pattern:
+        mushrooms:
+            - Speckled
+            - Striped
+            - Spotted
+            - Banded
+            - Ringed
+            - Zoned
+            - Marbled
+            - Checkered
+            - Mottled
+            - Reticulated
+            - Radial
+            - Concentric
+            - Wavy
+            - Latticed
+            - Netted
+            - Streaked
+            - Blotchy
+            - Patchy
+            - Flecked
+            - Dotted
+            - Veined
+            - Scaly
+            - Cracked
+            - Filamentous
+            - Fibrillose
+            - Furrowed
+            - Furrowed-grooved
+            - Furrowed-wrinkled
+            - Smooth
+        plants:
+            - Smooth
+            - Rough
+            - Velvety
+            - Prickly
+            - Fuzzy
+            - Waxy
+            - Spongy
+            - Bumpy
+            - Ribbed
+            - Lustrous
+            - Shiny
+            - Matte
+            - Glossy
+            - Silky
+            - Papery
+            - Crispy
+            - Brittle
+            - Leathery
+            - Scaled
+            - Peeling
+            - Flaky
+            - Crinkled
+            - Rigid
+            - Flexible
+            - Stiff
+            - Delicate
+            - Tough
+            - Frilly
+            - Fringed
+            - Spiky
+            - Jagged
+            - Veined
+            - Lacy
+            - Webbed
+            - Lumpy
+            - Ridged
+            - Knotted
+            - Corded
+            - Twisted
+            - Curled
+            - Tangled
+            - Whorled
+            - Pitted
+            - Puckered
+            - Bristly
+            - Hairy
+            - Grooved
+            - Divided
+            - Poreous
+            - Textured
+            - Coarse
+            - Fine
+            - Embossed
+            - Engraved
+            - Rugged
+            - Bristled
+            - Irregular
+            - Slender
+            - Bulbous
+    structure:
+        root:
+            - Taproot
+            - Fibrous
+            - Adventitious
+            - Propagative
+            - Lateral
+            - Bulbous
+            - Tuberous
+            - Stoloniferous
+            - Rhizomatous
+            - Creeping
+            - Fleshy
+            - Aerial
+            - Contractile
+            - Haustorial
+            - Parasitic
+            - Anchor
+            - Clustered
+            - Dense
+            - Shallow
+            - Deep
+            - Spreading
+            - Branched
+            - Tubular
+            - Woody
+            - Fleshy
+

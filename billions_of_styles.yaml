@@ -1,0 +1,1366 @@
+# Billions of Styles
+BoStyles:
+    random-anything:
+        - "__styles/art-styles__, 
+        {__styles/punk-styles__|}, 
+        __styles/atmosphere/*__, 
+        __styles/rendering-techniques/*__, 
+        __styles/graphic-engines__, 
+        __styles/image-styles__, 
+        __styles/image-techniques/*__, 
+        __styles/depiction-styles/*__,
+        {__styles/animations__|},
+        {__styles/ambient-Effects__|},
+        __BoStyles/random-quality-prompts__,
+        __styles/resolutions__,
+        __styles/Creative-Concepts__,"
+        #__BoStyles/random-camera-settings__"
+# art Styles
+    random-artstyle:
+        - __styles/art-styles__
+# punk style
+    random-punk-styles:
+        - __styles/punk-styles__
+# atmosphere
+    random-atmosphere:
+        - __styles/atmosphere/*__
+    random-atmosphere-Light:
+        - __styles/atmosphere/Light__
+    random-atmosphere-Dark:
+        - __styles/atmosphere/Dark__
+    random-atmosphere-Colorful:
+        - __styles/atmosphere/Colorful__
+    random-atmosphere-Intense:
+        - __styles/atmosphere/Intense__
+    random-atmosphere-Serene:
+        - __styles/atmosphere/Serene__
+    random-atmosphere-Cozy:
+        - __styles/atmosphere/Cozy__
+    random-atmosphere-Mysterious:
+        - __styles/atmosphere/Mysterious__
+    random-atmosphere-Romantic:
+        - __styles/atmosphere/Romantic__
+    random-atmosphere-Melancholic:
+        - __styles/atmosphere/Melancholic__
+    random-atmosphere-Magical:
+        - __styles/atmosphere/Magical__
+    random-atmosphere-Rustic:
+        - __styles/atmosphere/Rustic__
+    random-atmosphere-Ethereal:
+        - __styles/atmosphere/Ethereal__
+    random-atmosphere-Dramatic:
+        - __styles/atmosphere/Dramatic__
+    random-atmosphere-Nostalgic:
+        - __styles/atmosphere/Nostalgic__
+    random-atmosphere-Festive:
+        - __styles/atmosphere/Festive__
+    random-atmosphere-Minimalist:
+        - __styles/atmosphere/Minimalist__
+    random-atmosphere-Majestic:
+        - __styles/atmosphere/Majestic__
+    random-atmosphere-Surreal:
+        - __styles/atmosphere/Surreal__
+    random-atmosphere-Urban:
+        - __styles/atmosphere/Urban__
+# rendering
+    random-rendering:
+        - __styles/rendering-techniques/*__
+    random-rendering-Ray-Tracing:
+        - __styles/rendering-techniques/Ray-Tracing__
+    random-rendering-Ambient-Effects:
+        - __styles/rendering-techniques/Ambient Effects__
+    random-rendering-Particles-and-Effects:
+        - __styles/rendering-techniques/Particles and Effects__
+    random-rendering-Lighting-Techniques:
+        - __styles/rendering-techniques/Lighting Techniques__
+    random-rendering-Shading-Techniques:
+        - __styles/rendering-techniques/Shading Techniques__
+    random-rendering-Mapping-Techniques:
+        - __styles/rendering-techniques/Mapping Techniques__
+    random-rendering-Post-Processing-Techniques:
+        - __styles/rendering-techniques/Post-Processing Techniques__
+    random-rendering-Optimization-Techniques:
+        - __styles/rendering-techniques/Optimization Techniques__
+    random-rendering-Artistic-Rendering:
+        - __styles/rendering-techniques/Artistic Rendering__
+# graphic engines
+    random-graphic-engines:
+        - __styles/graphic-engines__
+# image Styles
+    random-image-styles:
+        - __styles/image-styles__
+# image Techniques
+    random-image-techniques:
+        - __styles/image-techniques/*__
+    random-image-techniques-Traditional:
+        - __styles/image-techniques/Traditional__
+    random-image-techniques-Digital:
+        - __styles/image-techniques/Digital__
+    random-image-techniques-Photographic:
+        - __styles/image-techniques/Photographic__
+    random-image-techniques-Other:
+        - __styles/image-techniques/Other__
+# depiction styles
+    random-depiction-styles:
+        - __styles/depiction-styles/*__
+    random-depiction-styles-2D-Styles:
+        - __styles/depiction-styles/2D-Styles__
+    random-depiction-styles-3D-Styles:
+        - __styles/depiction-styles/3D-Styles__
+    random-depiction-styles-Historical:
+        - __styles/depiction-styles/Historical__
+    random-depiction-styles-Digital-Modern-Styles:
+        - __styles/depiction-styles/Digital-Modern-Styles__
+# Animation
+    random-animation-style:
+        - __styles/animation__
+# ambient Effects
+    random-ambient-effect:
+        - __styles/ambient-Effects__
+# quality
+    random-quality-prompts:
+        - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
+# resolution
+    random-resolution:
+        - __styles/resolution__
+# creative concepts
+    random-creative-concept:
+        - __styles/Creative-Concepts__
+# Camera
+    random-camera-settings:
+        - "{__styles/camera/camera__|}, 
+        __styles/camera/Aperture-Settings__, 
+        __styles/camera/Shutter-Speed__, 
+        __styles/camera/ISO-Settings__, 
+        __styles/camera/White-Balance__, 
+        __styles/camera/Exposure-Settings__, 
+        __styles/camera/Shooting-Modes__, 
+        __styles/camera/Composition-Techniques__,
+        __styles/camera/Focus__,
+        __styles/camera/Metering__"
+styles:
+    art-styles:
+        - Prehistoric Art
+        - Ancient Egyptian Art
+        - Ancient Greek Art
+        - Roman Art
+        - Byzantine Art
+        - Medieval Art
+        - Renaissance Art
+        - Baroque Art
+        - Rococo Art
+        - Neoclassical Art
+        - Romanticism
+        - Realism
+        - Impressionism
+        - Post - Impressionism
+        - Expressionism
+        - Cubism
+        - Surrealism
+        - Abstract Expressionism
+        - Pop Art
+        - Minimalism
+        - Conceptual Art
+        - Postmodernism
+        - Contemporary Art
+        - sci - fi
+        - Art Nouveau
+        - Gothic
+        - Fauvism
+        - Dadaism
+        - Pointillism
+        - Symbolism
+        - Photorealism
+        - Constructivism
+        - Abstract Art
+        - Op Art
+        - Futurism
+        - Art Deco
+        - Neoclassicism
+        - Indigenous Art
+        - Afrofuturism
+        - Street Art
+        - Land Art
+        - Installation Art
+        - Environmental Art
+        - Performance Art
+        - Video Art
+        - Outsider Art
+        - Naïve Art
+        - Folk Art
+        - Graffiti Art
+        - Art Brut
+        - Tonalism
+        - Suprematism
+        - Fluxus
+        - Ashcan School
+        - Precisionism
+        - Neue Sachlichkeit (New Objectivity)
+        - Magic Realism
+        - Video Installation
+        - Landscapes
+        - Portraiture
+        - Still Life
+        - Trompe - l'oeil
+        - Hyperrealism
+        - Kinetic Art
+        - Body Art
+        - Bio Art
+        - Chinese Ink Painting
+        - Japanese Ukiyo - e
+        - Persian Miniature
+        - Mosaic Art
+        - Mexican Muralism
+        - Social Realism
+        - Romantic Landscape
+        - Abstract Landscape
+        - Optical Art
+        - Kinetic Sculpture
+        - Photomontage
+        - Constructive Realism
+        - Neo - Expressionism
+        - Neue Wilde
+        - Street Photography
+        - Hyperpop Art
+        - Graffiti Writing
+        - Art Povera
+        - Happening
+        - Video Game Art
+        - Digital Painting
+        - Photographic Realism
+        - Postcolonial Art
+        - Installation Sculpture
+        - Geometric Abstraction
+        - Hard - Edge Painting
+        - Social Sculpture
+        - New Media Art
+        - Indigenous Australian Art
+        - Aboriginal Dot Painting
+        - Photocollage
+        - Art Informel
+        - Color Field Painting
+        - Assemblage Art
+        - Stuckism
+    punk-styles:
+        - Biopunk
+        - Dieselpunk
+        - Atompunk
+        - Clockpunk
+        - Solarpunk
+        - Post-Apocalyptic
+        - Retrofuturism
+        - Tech Noir
+        - Cyber-occultism
+        - Neo-Noir
+        - sci-fi
+        - cyberpunk
+        - steampunk
+        - Post-Cyberpunk
+        - Stonepunk
+        - Teslapunk
+        - Raypunk
+        - Decopunk
+        - Mythpunk
+        - Spacepunk
+        - Nanopunk
+        - Retro Cyberpunk
+        - Robotpunk
+        - Vaporwave
+        - Glitch Art
+        - Solarwave
+    atmosphere:
+        Light:
+            - light
+            - Radiant
+            - Luminous
+            - Cheerful
+            - Glowing
+            - Sparkling
+            - Shimmering
+            - Sunny
+            - Brilliant
+            - Beaming
+            - Glimmering
+            - Effulgent
+            - Gleaming
+            - Dazzling
+            - Resplendent
+            - Ethereal
+            - Glistering
+            - Incandescent
+            - Scintillating
+            - Twinkling
+            - Glistening
+        Dark:
+            - dark
+            - Gloomy
+            - Dusky
+            - Eerie
+            - Shadowy
+            - Murky
+            - Dim
+            - Shady
+            - Obscure
+            - Tenebrous
+            - Somber
+            - Dreary
+            - Cimmerian
+            - Twilight
+            - Funereal
+            - Stygian
+            - Umbral
+            - Crepuscular
+            - Sombre
+            - Penumbra
+            - Opaque
+        Colorful:
+            - colorful
+            - Vivid
+            - Chromatic
+            - Multicolored
+            - Polychromatic
+            - Prismatic
+            - Kaleidoscopic
+            - Variegated
+            - Rainbow-colored
+            - Technicolor
+            - Iridescent
+            - Vibrant
+            - Flamboyant
+            - Mottled
+            - Psychedelic
+            - Dappled
+            - Splashed
+            - Lustrous
+            - Opalescent
+            - Glittering
+            - Jazzy
+        Intense:
+            - intense
+            - Harsh
+            - Blinding
+            - Glaring
+            - Dazzling
+            - Brilliant
+            - Searing
+            - Fierce
+            - Flashing
+            - Blazing
+            - Piercing
+            - Radiating
+            - Glinting
+            - Flaming
+            - Scorching
+            - White-hot
+            - Flare
+            - Burnished
+            - Flaring
+            - Fiery
+        Serene:
+            - serene
+            - Tranquil
+            - Calm
+            - Peaceful
+            - Soothing
+            - Gentle
+            - Soft
+            - Mellow
+            - Subdued
+            - Hushed
+            - Tender
+            - Placid
+            - Quiet
+            - Still
+            - Balmy
+            - Serene
+            - Mild
+            - Ethereal
+            - Dreamy
+            - Pleasant
+            - Halcyo
+        Cozy:
+            - cozy
+            - Warm
+            - Soft
+            - Inviting
+            - Homely
+            - Comforting
+            - Intimate
+            - Snug
+            - Fuzzy
+            - Nestled
+            - Hygge
+            - Comfy
+            - Relaxed
+            - Pleasant
+            - Quaint
+            - Nurturing
+            - Safe
+            - Cuddly
+            - Content
+            - Pleasant
+            - Homey
+        Mysterious:
+            - Mysterious
+            - Cryptic
+            - Uncanny
+            - Puzzling
+            - Secretive
+            - Veiled
+            - Esoteric
+            - Unknown
+            - Concealed
+            - Shadowy
+            - Enigmatic
+            - Hidden
+            - Recondite
+            - Arcane
+            - Abstruse
+            - Unfathomable
+            - Inscrutable
+            - Evasive
+            - Occult
+            - Nebulous
+            - Clandestine
+        Romantic:
+            - Romantic
+            - Amorous
+            - Passionate
+            - Intimate
+            - Tender
+            - Affectionate
+            - Candlelit
+            - Dreamy
+            - Sentimental
+            - Charming
+            - Idyllic
+            - Love-struck
+            - Heartwarming
+            - Enchanting
+            - Flirtatious
+            - Amatory
+            - Sweet
+            - Lovable
+            - Alluring
+            - Euphoric
+            - Serenading
+        Melancholic:
+            - Melancholic
+            - Somber
+            - Sorrowful
+            - Melancholy
+            - Wistful
+            - Nostalgic
+            - Pensive
+            - Soulful
+            - Longing
+            - Tragic
+            - Reflective
+            - Poignant
+            - Lamenting
+            - Desolate
+            - Forlorn
+            - Weeping
+            - Mournful
+            - Doleful
+            - Sullen
+            - Depressing
+            - Dismal
+        Magical:
+            - magical
+            - Enchanted
+            - Mystical
+            - Spellbinding
+            - Whimsical
+            - Mesmerizing
+            - Otherworldly
+            - Ethereal
+            - Fairy-tale
+            - Bewitching
+            - Fantastical
+            - Supernatural
+            - Wonderous
+            - Enigmatic
+            - Illusory
+            - Charmed
+            - Miraculous
+            - Wizardly
+            - Sorcerous
+            - Enigmatic
+            - Enthralling
+        Rustic:
+            - rustic
+            - Vintage
+            - Old-fashioned
+            - Antique
+            - Weathered
+            - Aged
+            - Time-worn
+            - Faded
+            - Worn
+            - Classic
+            - Nostalgic
+            - Distressed
+            - Aged
+            - Coarse
+            - Weathered
+            - Tarnished
+            - Patina
+        Ethereal:
+            - ethereal
+            - Heavenly
+            - Transcendent
+            - Divine
+            - Angelic
+            - Otherworldly
+            - Celestial
+            - Spiritual
+            - Enchanted
+            - Sacred
+            - Supernatural
+            - Cosmic
+            - Esoteric
+            - Mystical
+            - Ephemeral
+            - Enigmatic
+            - Nebulous
+            - Mystifying
+            - Astral
+        Dramatic:
+            - dramatic
+            - Theatrical
+            - Striking
+            - Bold
+            - Grandiose
+            - Overwhelming
+            - Impressive
+            - Majestic
+            - Spectacular
+            - Monumental
+            - Dynamic
+            - Intense
+            - Showy
+            - Flamboyant
+            - Thrilling
+            - Forceful
+            - Gripping
+            - Compelling
+            - Arresting
+        Nostalgic:
+            - nostalgic
+            - Retro
+            - Sentimental
+            - Fond
+            - Sentimental
+            - Yearning
+            - Longing
+            - Bittersweet
+            - Reminiscent
+            - Evocative
+            - Vintage
+            - Melancholic
+            - Quaint
+            - Poignant
+            - Classic
+            - Romantic
+            - Historical
+            - Old-school
+            - Sigh-inducing
+            - Heartwarming
+        Festive:
+            - festive
+            - Joyful
+            - Merry
+            - Lively
+            - Celebratory
+            - Jolly
+            - Sparkling
+            - Joyous
+            - Vibrant
+            - Exuberant
+            - Gleeful
+            - Animated
+            - Festal
+            - Spirited
+            - Luminous
+            - Whimsical
+            - Colorful
+            - Playful
+            - Bubbly
+            - Energetic
+            - Joyful
+        Minimalist:
+            - Minimalist
+            - Clean
+            - Simple
+            - Subtle
+            - Understated
+            - Spare
+            - Streamlined
+            - Minimal
+            - Modest
+            - Uncluttered
+            - Sleek
+            - Refined
+            - Neat
+            - Frugal
+            - Bare
+            - Unadorned
+            - Effortless
+            - Elegant
+            - Tasteful
+            - Essential
+        Majestic:
+            - Majestic
+            - Regal
+            - Imperial
+            - Noble
+            - Stately
+            - Magnificent
+            - Dignified
+            - Proud
+            - Grand
+            - Royal
+            - Exalted
+            - Heroic
+            - Sovereign
+            - Glorious
+            - Empowering
+            - Monumental
+            - Resplendent
+            - August
+            - Commanding
+            - Empress/Empress
+        Surreal:
+            - Surreal
+            - Unreal
+            - Dreamlike
+            - Visionary
+            - Hallucinatory
+            - Unearthly
+            - Fanciful
+            - Unconventional
+            - Fantasy-like
+            - Illusory
+            - Outlandish
+            - Bizarre
+            - Extraordinary
+            - Unrealistic
+            - Phantasmagorical
+            - Grotesque
+            - Abstract
+            - Enigmatic
+            - Fanciful
+            - Whimsical
+        Urban:
+            - urban
+            - Cityscape
+            - Metropolitan
+            - Streetlights
+            - Skyscraper
+            - Contemporary
+            - Industrial
+            - Modern
+            - Urban
+            - Neon-lit
+            - Graffiti
+            - Futuristic
+            - Edgy
+            - Vibrant
+            - Dynamic
+            - Trendy
+            - Hip
+            - Cosmopolitan
+            - Streetwise
+            - Hipster
+            - Chic
+        Mystical:
+            - Mystical
+            - Enchanted
+            - Occult
+            - Esoteric
+            - Magical
+            - Transcendent
+            - Secretive
+            - Mystifying
+            - Mysterious
+            - Ethereal
+            - Supernatural
+            - Enigmatic
+            - Sorcerous
+            - Symbolic
+            - Witching
+            - Enchanted
+            - Arcane
+            - Uncanny
+            - Spiritual
+            - Mystic
+            - Haunting
+    rendering-techniques:
+        Ray-Tracing:
+            - ray tracing
+            - Raymarching
+            - Global Illumination
+            - Real-Time Ray Tracing
+        Ambient-Effects:
+            - God Rays / Crepuscular Rays
+            - Screen-Space Reflections
+            - Ambient Occlusion
+            - Depth of Field
+            - Motion Blur
+            - Anti-Aliasing
+            - Anisotropic Filtering
+            - Screen Space Ambient Occlusion
+            - Soft Particles
+            - Depth Peeling
+            - Real-Time Reflections
+            - Environment Occlusion
+            - Subsurface Reflections
+            - Transmittance
+            - Caustics Rendering
+            - Dispersion
+        Particles-and-Effects:
+            - Particle Systems
+            - Stochastic Sampling
+            - GPU Particle Systems
+        Lighting-Techniques:
+            - Global Illumination
+            - Photon Mapping
+            - Dynamic Lighting
+            - Light Attenuation
+            - Real-Time Global Illumination
+            - Real-Time Shadows
+            - Procedural Sky
+            - Environment Lighting
+            - Dynamic Weather Systems
+            - Real-Time GI Caching
+        Shading-Techniques:
+            - Deferred Rendering
+            - Physically-Based Rendering
+            - Anisotropic Specular
+            - Procedural Shading
+            - Vector Displacement Mapping
+            - NPR (Non-Photorealistic Rendering)
+            - Toon Shading
+            - Cel Shading
+            - Wireframe Rendering
+            - NPR Hatching
+        Mapping-Techniques:
+            - Normal Mapping
+            - Parallax Mapping
+            - Displacement Mapping
+            - Environment Mapping
+            - Procedural Texturing
+            - Procedural Generation
+            - Bump Mapping
+            - 3D Texture Mapping
+        Post-Processing-Techniques:
+            - Tone Mapping
+            - Post-Processing Effects
+            - Reprojection Techniques
+        Optimization-Techniques:
+            - Frustum Culling
+            - Level of Detail
+            - Virtual Texturing
+        Artistic-Rendering:
+            - Matte Painting
+            - Compositing
+            - Anamorphic Lens Flare
+            - Line Rendering
+        Advanced-Rendering:
+            - Bidirectional Path Tracing
+            - Metropolis Light Transport
+            - Radiosity
+            - Tessellation
+            - Voxel-Based Rendering
+            - octane rendering
+    graphic-engines:
+        - Unity engine
+        - CryEngine
+        - Godot Engine
+        - Source Engine
+        - Frostbite engine
+        - Anvil engine
+        - REDengine engine
+        - id Tech engine
+        - Creation Engine
+        - RenderWare engine
+        - Dunia Engine
+        - RE Engine
+        - Snowdrop engine
+        - Stingray engine
+        - HeroEngine engine
+        - COB Engine
+        - Decima Engine
+        - Fox Engine
+        - AnvilNext engine
+    image-styles:
+        - Abstract
+        - Abstract Expressionist
+        - Art Deco
+        - Art Nouveau
+        - Atmospheric
+        - Baroque
+        - Chaotic
+        - Constructivist
+        - Cubist
+        - Cyberpunk
+        - Dada
+        - Digital Art
+        - Dystopian
+        - Dynamic
+        - Eerie
+        - Eclectic
+        - Ethereal
+        - Fantasy
+        - Fauvist
+        - Futurist
+        - Geometric
+        - Graffiti
+        - Grungy
+        - Harmonious
+        - Impressionistic
+        - Kinetic
+        - Land Art
+        - Luminous
+        - Melancholic
+        - Minimalist
+        - Moody
+        - Monochromatic
+        - Mysterious
+        - Neo-Impressionist
+        - Noir
+        - Op Art
+        - Pastel
+        - Photorealistic
+        - Pointillist
+        - Pop Art
+        - Post-Impressionist
+        - Psychedelic
+        - Realist
+        - Renaissance
+        - Rococo
+        - Romanticist
+        - Serene
+        - Steampunk
+        - Stark
+        - Street Art
+        - Sublime
+        - Surreal
+        - Surrealist
+        - Symbolist
+        - Tranquil
+        - Urban
+        - Vibrant
+        - Vintage
+        - Whimsical
+    image-techniques:
+        Traditional:
+            - Acrylic Painting
+            - Charcoal Drawing
+            - Collage
+            - Cliché Verre
+            - Dry Brush
+            - Encaustic Painting
+            - Glazing
+            - Grisaille
+            - Gum Bichromate Printing
+            - Impasto
+            - Ink Drawing
+            - Oil Painting
+            - Pastel Drawing
+            - Pencil Drawing
+            - Photogravure
+            - Photograms
+            - Printmaking
+            - Scumbling
+            - Sgraffito
+        Digital:
+            - Digital Illustration
+            - Digital Painting
+            - Photo Manipulation
+            - Photo Retouching
+        Photographic:
+            - Airbrushing
+            - Chromogenic Prints
+            - Collodion Process
+            - Cyanotype Printing
+            - Dodging and Burning
+            - Double Exposure
+            - Double Exposure Photography
+            - High Dynamic Range
+            - High-Speed Photography
+            - Infrared Photography
+            - Long Exposure Photography
+            - Macro Photography
+            - Multiple Exposure Photography
+            - Pinhole Photography
+            - Polaroid Transfers
+            - Selective Color
+        Other:
+            - Color Grading
+            - Decalcomania
+            - Silkscreen Printing
+    depiction-styles:
+        2D-Styles:
+            - 2D
+            - Realistic
+            - Surreal
+            - Abstract
+            - Minimalist
+            - Cartoony
+            - Manga/Anime
+            - Comic Book Style
+            - Impressionistic
+            - Expressionistic
+            - Cubist
+            - Pointillist
+            - Fauvist
+            - Pop Art
+            - Art Nouveau
+            - Art Deco
+        3D-Styles:
+            - 3D
+            - Photorealistic
+            - Isometric
+            - Orthographic
+            - Perspective
+            - Top-Down
+            - Front View
+            - Side View
+            - Back View
+            - Oblique
+            - Bird's Eye View
+            - Worm's Eye View
+            - Aerial View
+            - Cutaway View
+            - Exploded View
+            - X-Ray View
+            - Cross-Section View
+            - Augmented Reality 
+            - Virtual Reality
+        Historical:
+            - Renaissance
+            - Baroque
+            - Rococo
+            - Gothic
+            - Prehistoric Art
+            - Medieval Art
+            - Romantic Art
+            - Realism Art
+            - Impressionism Art
+            - Expressionism Art
+            - Cubism Art
+            - Surrealism Art
+            - Abstract Expressionism
+            - Pop Art
+        Digital-Modern-Styles:
+            - Digital Art
+            - Pixel Art
+            - Vector Art
+            - Line Art
+            - Collage Art
+            - Hybrid Styles
+    animations:
+        - Ghibli
+        - Pixar
+        - Disney
+        - DreamWorks
+        - Stop Motion
+        - Traditional Hand-Drawn Animation
+        - 2D Animation
+        - 3D Animation
+        - Computer-Generated Imagery (CGI)
+        - Cutout Animation
+        - Silhouette Animation
+        - Puppet Animation
+        - Cutout Animation
+        - Rotoscoping
+        - Motion Graphics
+        - Anime
+        - Cartoon
+        - Realistic Animation
+        - Minimalist Animation
+        - Surreal Animation
+        - Experimental Animation
+        - Abstract Animation
+        - Flash Animation
+        - Stop Motion Puppetry
+        - Sand Animation
+        - Paint-on-Glass Animation
+        - Pixilation
+        - Digital Animation
+        - Clay Animation
+        - Cell Animation
+        - Watercolor Animation
+        - Paper Animation
+        - Oil Painting Animation
+        - Pencil Animation
+        - Digital Cutout Animation
+        - Sand Animation
+        - Motion Capture Animation
+        - CG Puppetry
+        - Rigid Body Animation
+        - Soft Body Animation
+        - Skeletal Animation
+        - Kinetic Typography Animation
+    Ambient-Effects:
+        - Bloom
+        - Color Grading
+        - Lens Flare
+        - Global Illumination
+        - Light Shaft 
+        - God Rays 
+        - Crepuscular Rays
+        - Screen-Space Reflections
+        - Screen Space Ambient Occlusion (SSAO)
+        - Depth of Field (DOF)
+        - Motion Blur
+        - Anti-Aliasing
+        - Anisotropic Filtering
+        - Depth Peeling
+        - Environment Occlusion
+        - Subsurface Scattering (SSS)
+        - Transmittance
+        - Caustics Rendering
+        - Dispersion (Chromatic Aberration)
+        - Glare Effects
+        - Fog
+        - Atmospheric Scattering
+        - Soft Particles
+        - Screen Space Shadows
+        - Volumetric Lighting
+        - Lens Distortion
+        - Screen Space Reflections (SSR)
+        - Light Attenuation
+        - Vignetting
+        - Distortion
+        - Aberration
+        - Procedural Sky
+        - Environment Lighting
+        - Rain 
+        - Snow
+        - Skybox / Skydome
+    quality:
+        details:
+            - RAW
+            - Detailed
+            - Intricate
+            - Elaborate
+            - Exquisite
+            - Meticulous
+            - Precise
+            - Refined
+            - Delicate
+            - Sophisticated
+            - Ornate
+            - Finely Crafted
+            - Impeccable
+            - Polished
+            - Masterful
+            - High-Quality
+            - Artistic
+            - Elegant
+            - Skillful
+            - Proficient
+            - Well-executed
+            - Expertly Made
+            - Carefully Designed
+            - Beautifully Rendered
+            - Flawless
+            - Virtuoso
+            - Perfectly Crafted
+            - Exceptional
+            - Sublime
+            - Superb
+            - Outstanding
+            - Magnificent
+            - Stunning
+            - Exemplary
+            - Splendid
+            - Remarkable
+            - Superior
+            - Unparalleled
+            - Unrivaled
+            - Extraordinary
+            - Unmatched
+            - Phenomenal
+            - Astounding
+            - Breathtaking
+            - Unsurpassed
+        styles:
+            - Magnum Opus
+            - Tour de Force
+            - Opus Magnum
+            - Work of Art
+            - Tour de Maître
+            - Crowning Achievement
+            - Stroke of Genius
+            - Culmination of Brilliance
+            - Artistic Triumph
+            - Pinnacle of Creativity
+            - Epitome of Craftsmanship
+            - Masterful Creation
+            - Extraordinary Work
+            - Sublime Achievement
+            - Exceptional Magnum
+            - Exemplary Masterwork
+            - Remarkable Opus
+            - Supreme Masterpiece
+            - Unsurpassed Masterwork
+            - Outstanding Magnum
+            - Marvelous Opus
+            - Unparalleled Masterwork
+            - Brilliant Tour de Force
+            - Exceptional Tour de Maître
+            - Flawless Magnum
+            - Stunning Opus Magnum
+            - Superb Work of Art
+            - Astounding Tour de Force
+            - Exquisite Masterpiece
+            - Unrivaled Opus
+            - Phenomenal Masterwork
+            - Breathtaking Magnum
+            - Unmatched Tour de Maître
+            - Sublime Opus Magnum
+            - Perfect Work of Art
+            - Inspiring Tour de Force
+            - Exceptional Artistic Triumph
+            - Superlative Pinnacle of Creativity
+            - Remarkable Stroke of Genius
+        sharp:
+            - Sharp Focus
+            - Clear Background
+            - Crisp Details
+            - Full Depth
+            - Evenly Focused
+            - High Depth of Field
+            - Distinct Foreground and Background
+            - Well-Defined Edges
+            - Precise Clarity
+            - Complete Sharpness
+            - No Blur
+            - All-in-Focus
+            - Clear Scene
+            - Uniform Focus
+            - Clear Visuals
+            - Crystalline Clarity
+            - Perfectly Focused
+            - Absolute Sharpness
+            - Total Clarity
+            - Clear Perception
+            - Entire Scene in Focus
+        blur:
+            - Depth of Field
+            - Lens Blur
+            - Focus Blur
+            - Shallow Depth
+            - Bokeh Effect
+            - Soft Focus
+            - Blurred Background
+            - Selective Focus
+            - Focal Blur
+            - Out-of-Focus Area
+            - Defocused Background
+            - Fuzzy Background
+            - Depth Blur
+            - Bokeh Shapes
+            - Background Blur
+            - Bokeh Lights
+            - Bokeh Circles
+            - Bokeh Patterns
+            - Bokeh
+    resolutions:
+        - HD
+        - UHD
+        - 2K
+        - 4K
+        - 8K
+        - 16K
+        - 32K
+        - absurdres
+        - ultra-high resolution
+    Creative-Concepts:
+        - Innovative
+        - Original
+        - Creative
+        - Inventive
+        - Unique
+        - Novel
+        - Imaginative
+        - Groundbreaking
+        - Trailblazing
+        - Visionary
+        - Avant-garde
+        - Revolutionary
+        - Experimental
+        - Cutting-edge
+        - Futuristic
+        - Unconventional
+        - Breakthrough
+        - Radical
+        - Inventive
+        - Inspired
+        - Unorthodox
+        - Imagery
+        - Daring
+        - Distinctive
+        - Resourceful
+        - Creative
+        - Unprecedented
+        - Artistic
+        - Original
+        - Pioneering
+        - Inventive
+        - Iconoclastic
+        - Innovative
+        - Out-of-the-box
+        - Newfangled
+        - Ingenious
+        - Trailblazing
+        - Imaginative
+        - Game-changing
+        - Visionary
+        - Experimental
+        - Revolutionary
+        - Progressive
+        - Inventive
+        - Unconventional
+        - Forward-thinking
+        - Bold
+    camera:
+        Camera:
+            - DSLR
+            - Full-Frame DSLR
+            - Fast Autofocus
+            - Dynamic Range
+        Aperture-Settings:
+            - f/1.4
+            - f/2.8
+            - f/4
+            - f/5.6
+            - f/8
+            - f/11
+            - f/16
+            - f/22
+        Shutter-Speed:
+            - Shutter Speed 1/8000 sec
+            - Shutter Speed 1/4000 sec
+            - Shutter Speed 1/2000 sec
+            - Shutter Speed 1/1000 sec
+            - Shutter Speed 1/500 sec
+            - Shutter Speed 1/250 sec
+            - Shutter Speed 1/125 sec
+            - Shutter Speed 1/60 sec
+            - Shutter Speed 1/30 sec
+            - Shutter Speed 1/15 sec
+            - Shutter Speed 1/8 sec
+            - Shutter Speed 1/4 sec
+            - Shutter Speed 1/2 sec
+            - Shutter Speed 1 sec
+        ISO-Settings:
+            - ISO100
+            - ISO200
+            - ISO400
+            - ISO800
+            - ISO1600
+            - ISO3200
+            - ISO6400
+            - ISO12800
+            - ISO25600
+        White-Balance:
+            - White Balance Auto
+            - White Balance Daylight
+            - White Balance Cloudy
+            - White Balance Tungsten
+            - White Balance Fluorescent
+            - White Balance Shade
+        Exposure-Settings:
+            - Exposure Compensation "-3.0 EV"
+            - Exposure Compensation  "-2.5 EV"
+            - Exposure Compensation  "-2.0 EV"
+            - Exposure Compensation  "-1.5 EV"
+            - Exposure Compensation  "-1.0 EV"
+            - Exposure Compensation  "-0.5 EV"
+            - Exposure Compensation  "0 EV"
+            - Exposure Compensation  "+0.5 EV"
+            - Exposure Compensation  "+1.0 EV"
+            - Exposure Compensation  "+1.5 EV"
+            - Exposure Compensation  "+2.0 EV"
+            - Exposure Compensation  "+2.5 EV"
+            - Exposure Compensation  "+3.0 EV"
+        Shooting-Modes:
+            - Manual Shooting Mode
+            - Aperture Priority Shooting Mode
+            - Shutter Priority Shooting Mode
+        Composition-Techniques:
+            - Rule of Thirds
+            - Leading Lines
+            - Framing
+            - Symmetry and Balance
+        Focus:
+            - focus Mode Single
+            - focus Mode Continuous
+            - focus Mode Manual
+        Metering:
+            - Evaluative Metering
+            - Center-weighted Metering
+            - Spot Metering 
+            - Partial Metering
+
+constructors:
+    - in style of
+    - composed of
+    - constructed from
+    - formed of
+    - fashioned out of
+    - created from
+    - built with
+    - crafted from
+    - constituted by
+    - shaped with
+    - produced from
+    - manufactured from
+    - fabricated with
+    - comprised of
+    - assembled from
+    - originating from
+    - derived from
+    - put together with
+    - produced using
+    - constructed out of
+shape-tracing:
+    - trace the shape and edges with
+    - outline with
+    - sketch the form and edges using
+    - follow the contour with
+    - draw the shape and edges using
+    - mark the outline with
+    - define the form and edges with
+    - delineate using
+    - follow the lines with
+    - draw along the contours using
+    - trace the silhouette with
+    - map out the shape and edges with
+    - chart the outline using
+    - trace along the contours with
+    - delimit the form and edges with
+    - depict the shape and edges using
+surface-swap:
+    - swap the surfaces for
+    - replace the surfaces with
+    - substitute the surfaces with
+    - exchange the surfaces with
+    - switch the surfaces for
+    - replace the surfaces using
+    - supplant the surfaces with
+    - put in place of the surfaces
+    - use alternate surfaces instead of
+    - change out the surfaces with
+    - install different surfaces in lieu of
+    - put new surfaces in the place of
+    - use replacement surfaces for
+    - sub in the surfaces with
+    - bring in new surfaces to replace
+    - implement alternative surfaces for
+    

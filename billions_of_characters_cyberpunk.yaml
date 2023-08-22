@@ -1,0 +1,1994 @@
+# BoCharsCyberpunk
+BoCharsCyberpunk:
+    female:
+        classic:
+            - female __random/profession-cyberpunk__, __person-cyberpunk/female__ wearing __clothings-cyberpunk/female-attire__, {__person-cyberpunk/poses__|__person*/poses__}
+        scenery:
+            - __BoCharsCyberpunk/female/classic__, __cyberpunk/lighting__, __scenes-cyberpunk/*__
+        BoConstructions:
+            - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
+    male:
+        classic:
+            - male __random/profession-cyberpunk__, __person-cyberpunk/male__ wearing __clothings-cyberpunk/male-attire__, {__person-cyberpunk/poses__|__person*/poses__}
+        scenery:
+            - __BoCharsCyberpunk/male/classic__, __cyberpunk/lighting__, __scenes-cyberpunk/*__
+        BoConstructions:
+            - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
+    random:
+        - "{__BoCharsCyberpunk/male/classic__|__BoCharsCyberpunk/female/classic__}"
+clothings-cyberpunk:
+    female-attire:
+        - "{0.8::__random/dress-properties__|} __clothings-cyberpunk/female/lower-body__,
+        {0.8::__random/dress-properties__|} __clothings-cyberpunk/female/upper-body__,
+        {0.8::__clothings-cyberpunk/female/footwear__|},
+        {0.5::__clothings-cyberpunk/female/headwear__|},
+        __random/accesoires-cyberpunk__"
+    male-attire:
+        - "{0.8::__random/dress-properties__|} __clothings-cyberpunk/male/lower-body__,
+        {0.8::__random/dress-properties__|} __clothings-cyberpunk/male/upper-body__,
+        {0.8::__clothings-cyberpunk/male/footwear__|},
+        {0.5::__clothings-cyberpunk/male/headwear__|},
+        __random/accesoires-cyberpunk__"
+    female:
+        upper-body:
+            - Holo-Jacket
+            - Neural Mesh Top
+            - Cybernetic Corset
+            - Plasma Blazer
+            - Nano-mesh Turtleneck
+            - Holographic Bomber
+            - Quantum Vest
+            - Techno-Crop Top
+            - Augmented Reality Hoodie
+            - Cyber-Space Blouse
+            - Neon Circuit Crop Jacket
+            - Holo-LED Trench Coat
+            - Robo-Lace Blouse
+            - Digital Mesh Blazer
+            - Synth-Leather Moto Jacket
+            - Quantum Neon Halter Top
+            - Cyber-Denim Vest
+            - Neon Pulse Bolero
+            - Holographic Crop Blouse
+            - Techno-Mesh Kimono
+            - Augmented Leather Harness
+            - Holo-Lace Capelet
+            - Nano-Weave Bolero
+            - Cyber-Silk Wrap Top
+            - Quantum Striped Blouse
+            - Holo-Metallic Shrug
+            - Neural Lace Sleeveless Jacket
+            - Tech-Mesh Camisole
+            - Augmented Reality Bustier
+            - Holo-Foil Cropped Blouse
+            - Plasma Knit Cardigan
+            - Nanofiber Fringe Cape
+            - Cyber-Satin Wrap
+            - Holo-Glitter Tank Top
+            - Neon Sequin Corset
+            - Holographic Kimono Blouse
+            - Quantum Peplum Jacket
+            - Techno-Sheer Shirt
+            - Augmented Leather Bralette
+            - Holo-Silk Ruffle Blouse
+            - Plasma-Mesh Bolero
+            - Neural Silk Scarf Top
+            - Cyber-Metallic Halter
+            - Quantum-Vinyl Bustier
+            - Holo-Mesh Wrap Jacket
+            - Techno-Lace Crop Top
+            - Augmented Reality Choker Blouse
+            - Nano-Glitter Cape
+            - Holographic Blouson Jacket
+            - Cybernetic Hooded Poncho
+            - Quantum Peplum Shorts
+            - Techno-Sheer Leggings
+            - Augmented Leather Harem Pants
+            - Holo-Silk Palazzo Pants
+            - Plasma-Mesh Culottes
+            - Neural Silk Cargo Pants
+            - Cyber-Metallic Skinny Pants
+            - Quantum-Vinyl Bell Bottoms
+            - Holo-Mesh Flared Pants
+            - Techno-Lace Wide-Leg Trousers
+            - Augmented Reality Gaucho Pants
+            - Nano-Glitter Track Pants
+            - Holographic Blouson Pants
+            - Cybernetic Hooded Joggers
+            - Neon Circuit Hot Pants
+            - Holo-LED Culottes
+            - Robo-Lace Leggings
+            - Digital Mesh Tapered Pants
+            - Synth-Leather Wide-Leg Pants
+            - Quantum Neon Cargo Pants
+            - Cyber-Denim Flare Skirt
+            - Neon Pulse Leggings
+            - Holographic Jogger Pants
+            - Techno-Mesh Mini Skirt
+            - Augmented Leather Cargo Pants
+            - Holo-Lace Skirt
+            - Nano-Weave Capri Pants
+            - Cyber-Silk Trousers
+            - Quantum Striped Leggings
+            - Holo-Metallic Wide-Leg Pants
+            - Neural Lace Skater Skirt
+            - Tech-Mesh Culottes
+            - Augmented Reality Capris
+            - Holo-Foil Biker Shorts
+            - Plasma Knit Flare Pants
+            - Nanofiber Fringe Skirt
+            - Cyber-Satin Palazzo Pants
+            - Holo-Glitter Hot Shorts
+            - Neon Sequin Leggings
+            - Holographic Kimono Skirt
+            - Quantum Peplum Shorts
+            - Techno-Sheer Leggings
+            - Augmented Leather Harem Pants
+            - Holo-Silk Palazzo Pants
+            - Plasma-Mesh Culottes
+            - Neural Silk Cargo Pants
+            - Cyber-Metallic Skinny Pants
+            - Quantum-Vinyl Bell Bottoms
+            - Holo-Mesh Flared Pants
+            - Techno-Lace Wide-Leg Trousers
+            - Augmented Reality Gaucho Pants
+            - Nano-Glitter Track Pants
+            - Holographic Blouson Pants
+            - Cybernetic Hooded Joggers
+            - Neon Circuit Hot Pants
+            - Holo-LED Culottes
+            - Robo-Lace Leggings
+            - Digital Mesh Tapered Pants
+            - Synth-Leather Wide-Leg Pants
+            - Quantum Neon Cargo Pants
+            - Cyber-Denim Flare Skirt
+            - Neon Pulse Leggings
+            - Holographic Jogger Pants
+            - Techno-Mesh Mini Skirt
+            - Augmented Leather Cargo Pants
+            - Holo-Lace Skirt
+            - Nano-Weave Capri Pants
+            - Cyber-Silk Trousers
+            - Quantum Striped Leggings
+            - Holo-Metallic Wide-Leg Pants
+            - Neural Lace Skater Skirt
+            - Tech-Mesh Culottes
+            - Augmented Reality Capris
+            - Holo-Foil Biker Shorts
+            - Plasma Knit Flare Pants
+            - Nanofiber Fringe Skirt
+            - Cyber-Satin Palazzo Pants
+            - Holo-Glitter Hot Shorts
+            - Neon Sequin Leggings
+            - Holographic Kimono Skirt
+            - Quantum Peplum Shorts
+            - Techno-Sheer Leggings
+            - Augmented Leather Harem Pants
+            - Holo-Silk Palazzo Pants
+            - Plasma-Mesh Culottes
+            - Neural Silk Cargo Pants
+            - Cyber-Metallic Skinny Pants
+            - Quantum-Vinyl Bell Bottoms
+            - Holo-Mesh Flared Pants
+            - Techno-Lace Wide-Leg Trousers
+            - Augmented Reality Gaucho Pants
+            - Nano-Glitter Track Pants
+            - Holographic Blouson Pants
+            - Cybernetic Hooded Joggers
+            - Neon Circuit Hot Pants
+            - Holo-LED Culottes
+            - Robo-Lace Leggings
+            - Digital Mesh Tapered Pants
+            - Synth-Leather Wide-Leg Pants
+            - Quantum Neon Cargo Pants
+            - Cyber-Denim Flare Skirt
+            - Neon Pulse Leggings
+            - Holographic Jogger Pants
+            - Techno-Mesh Mini Skirt
+            - Augmented Leather Cargo Pants
+            - Holo-Lace Skirt
+            - Nano-Weave Capri Pants
+            - Cyber-Silk Trousers
+            - Quantum Striped Leggings
+            - Holo-Metallic Wide-Leg Pants
+            - Neural Lace Skater Skirt
+            - Tech-Mesh Culottes
+            - Augmented Reality Capris
+            - Holo-Foil Biker Shorts
+            - Plasma Knit Flare Pants
+            - Nanofiber Fringe Skirt
+            - Cyber-Satin Palazzo
+        full-body:
+            - Nanofiber Jumpsuit
+            - Holo-Printed Dress
+            - Augmented Reality Catsuit
+            - Plasma-Glitter Gown
+            - Cybernetic Bodysuit
+            - Neural Interface Romper
+            - Quantum Energy Maxi Dress
+            - Holographic Skater Dress
+            - Holo-Flare Overalls
+            - Techno-Trench Dress
+            - Neon Luminous Jumpsuit
+            - Holo-Metallic Gown
+            - Robo-Lace Catsuit
+            - Digital Mesh Tunic Dress
+            - Synth-Leather Jumpsuit
+            - Quantum Neon Jumpsuit
+            - Cyber-Denim Romper
+            - Neon Pulse Maxi Dress
+            - Holographic Tulle Dress
+            - Techno-Mesh Bodycon Dress
+            - Augmented Leather Party Dress
+            - Holo-Lace Mermaid Dress
+            - Nano-Weave Utility Jumpsuit
+            - Cyber-Silk Slip Dress
+            - Quantum Striped Romper
+            - Holo-Metallic Mini Dress
+            - Neural Lace Cocktail Dress
+            - Tech-Mesh Wrap Dress
+            - Augmented Reality Skater Dress
+            - Holo-Foil Sequin Gown
+            - Plasma Knit Fit and Flare Dress
+            - Nanofiber Fringe Maxi Dress
+            - Cyber-Satin Halter Dress
+            - Holo-Glitter Fringe Dress
+            - Neon Sequin Party Dress
+            - Holographic Kimono Maxi Dress
+            - Quantum Peplum Jumpsuit
+            - Techno-Sheer Gown
+            - Augmented Leather Asymmetrical Dress
+            - Holo-Silk A-line Dress
+            - Plasma-Mesh Shift Dress
+            - Neural Silk Wrap Dress
+            - Cyber-Metallic Off-Shoulder Dress
+            - Quantum-Vinyl Bodycon Dress
+            - Holo-Mesh Slip Dress
+            - Techno-Lace Tiered Dress
+            - Augmented Reality Pleated Dress
+            - Nano-Glitter Halter Jumpsuit
+            - Holographic Blouson Romper
+            - Cybernetic Hooded Jumpsuit
+            - Holo-Glitter Maxi Dress
+            - Neon Sequin Jumpsuit
+            - Holographic Kimono Gown
+            - Quantum Peplum Jumpsuit
+            - Techno-Sheer Gown
+            - Augmented Leather Party Dress
+            - Holo-Lace Mermaid Dress
+            - Nano-Weave Utility Jumpsuit
+            - Cyber-Silk Slip Dress
+            - Quantum Striped Romper
+            - Holo-Metallic Mini Dress
+            - Neural Lace Cocktail Dress
+            - Tech-Mesh Wrap Dress
+            - Augmented Reality Skater Dress
+            - Holo-Foil Sequin Gown
+            - Plasma Knit Fit and Flare Dress
+            - Nanofiber Fringe Maxi Dress
+            - Cyber-Satin Halter Dress
+            - Holo-Glitter Fringe Dress
+            - Neon Sequin Party Dress
+            - Holographic Kimono Maxi Dress
+            - Quantum Peplum Jumpsuit
+            - Techno-Sheer Gown
+            - Augmented Leather Asymmetrical Dress
+            - Holo-Silk A-line Dress
+            - Plasma-Mesh Shift Dress
+            - Neural Silk Wrap Dress
+            - Cyber-Metallic Off-Shoulder Dress
+            - Quantum-Vinyl Bodycon Dress
+            - Holo-Mesh Slip Dress
+            - Techno-Lace Tiered Dress
+            - Augmented Reality Pleated Dress
+            - Nano-Glitter Halter Jumpsuit
+            - Holographic Blouson Romper
+            - Cybernetic Hooded Jumpsuit
+            - Neon Circuit Hot Pantsuit
+            - Holo-LED Romper Dress
+            - Robo-Lace Coverall Dress
+            - Digital Mesh Trench Dress
+            - Synth-Leather Power Suit
+            - Quantum Neon Utility Jumpsuit
+            - Cyber-Denim Overalls
+            - Neon Pulse Catsuit
+            - Holographic Tulle Maxi Dress
+            - Techno-Mesh Hooded Jumpsuit
+            - Augmented Leather Suit Dress
+            - Holo-Lace Wide-Leg Jumpsuit
+            - Plasma Knit Tunic Dress
+            - Nanofiber Fringe Gown
+            - Cyber-Satin Drape Dress
+            - Holo-Glitter Slit Dress
+            - Quantum Sequin Wrap Dress
+            - Techno-Sheer Kimono Dress
+            - Augmented Reality Ruffle Dress
+            - Nano-Glitter Party Jumpsuit
+            - Holographic Kimono Catsuit
+            - Cyber-Metallic Cape Dress
+            - Quantum-Vinyl Jogger Jumpsuit
+            - Holo-Mesh Tapered Dress
+            - Techno-Lace Midi Dress
+            - Augmented Leather Belted Dress
+            - Holo-Silk Flare Jumpsuit
+            - Plasma-Mesh Romper Dress
+        lower-body:
+            - Cyber Leggings
+            - Plasma Skirt
+            - Quantum Energy Shorts
+            - Holo-Mesh Pants
+            - Techno-Leather Leggings
+            - Nanofiber Cargo Pants
+            - Cybernetic Flare Pants
+            - Augmented Reality Jeans
+            - Holographic Culottes
+            - Neural Mesh Skirt
+            - Neon Circuit Leggings
+            - Holo-LED Skirt
+            - Robo-Lace Pants
+            - Digital Mesh Leggings
+            - Synth-Leather Joggers
+            - Quantum Neon Skirt
+            - Cyber-Denim Shorts
+            - Neon Pulse Leggings
+            - Holographic Jogger Pants
+            - Techno-Mesh Mini Skirt
+            - Augmented Leather Cargo Pants
+            - Holo-Lace Skirt
+            - Nano-Weave Capri Pants
+            - Cyber-Silk Trousers
+            - Quantum Striped Leggings
+            - Holo-Metallic Wide-Leg Pants
+            - Neural Lace Skater Skirt
+            - Tech-Mesh Culottes
+            - Augmented Reality Capris
+            - Holo-Foil Biker Shorts
+            - Plasma Knit Flare Pants
+            - Nanofiber Fringe Skirt
+            - Cyber-Satin Palazzo Pants
+            - Holo-Glitter Hot Shorts
+            - Neon Sequin Leggings
+            - Holographic Kimono Skirt
+            - Cyber Leggings
+            - Plasma Skirt
+            - Quantum Energy Shorts
+            - Holo-Mesh Pants
+            - Techno-Leather Leggings
+            - Nanofiber Cargo Pants
+            - Cybernetic Flare Pants
+            - Augmented Reality Jeans
+            - Holographic Culottes
+            - Neural Mesh Skirt
+            - Neon Circuit Leggings
+            - Holo-LED Skirt
+            - Robo-Lace Pants
+            - Digital Mesh Leggings
+            - Synth-Leather Joggers
+            - Quantum Neon Skirt
+            - Cyber-Denim Shorts
+            - Neon Pulse Leggings
+            - Holographic Jogger Pants
+            - Techno-Mesh Mini Skirt
+            - Augmented Leather Cargo Pants
+            - Holo-Lace Skirt
+            - Nano-Weave Capri Pants
+            - Cyber-Silk Trousers
+            - Quantum Striped Leggings
+            - Holo-Metallic Wide-Leg Pants
+            - Neural Lace Skater Skirt
+            - Tech-Mesh Culottes
+            - Augmented Reality Capris
+            - Holo-Foil Biker Shorts
+            - Plasma Knit Flare Pants
+            - Nanofiber Fringe Skirt
+            - Cyber-Satin Palazzo Pants
+            - Holo-Glitter Hot Shorts
+            - Neon Sequin Leggings
+            - Holographic Kimono Skirt
+            - Quantum Peplum Shorts
+            - Techno-Sheer Leggings
+            - Augmented Leather Harem Pants
+            - Holo-Silk Palazzo Pants
+            - Plasma-Mesh Culottes
+            - Neural Silk Cargo Pants
+            - Cyber-Metallic Skinny Pants
+            - Quantum-Vinyl Bell Bottoms
+            - Holo-Mesh Flared Pants
+        footwear:
+            - Gravity-defying Heels
+            - Neon Sneakers
+            - Holographic Boots
+            - Cybernetic Sandals
+            - Plasma Platform Shoes
+            - Quantum Energy Stilettos
+            - Holo-Glitch Sneakers
+            - Techno-Flame Boots
+            - Augmented Reality Wedges
+            - Cyber-Space Combat Boots
+            - Neon Circuit Heels
+            - Holo-LED High-Tops
+            - Robo-Lace Ankle Boots
+            - Digital Mesh Flats
+            - Synth-Leather Booties
+            - Quantum Neon Sandals
+            - Cyber-Denim Platform Sneakers
+            - Neon Pulse Lace-Up Boots
+            - Holographic Peep-Toe Booties
+            - Techno-Mesh Hiking Boots
+            - Augmented Leather Oxfords
+            - Holo-Lace Mary Janes
+            - Nano-Weave Mules
+            - Cyber-Silk Ballet Flats
+            - Quantum Striped Pumps
+            - Holo-Metallic Combat Boots
+            - Neural Lace Slingbacks
+            - Tech-Mesh Espadrilles
+            - Augmented Reality Loafers
+            - Holo-Foil Wedge Sandals
+            - Plasma Knit Sneaker Wedges
+            - Nanofiber Fringe Gladiator Sandals
+            - Cyber-Satin Thigh-High Boots
+            - Holo-Glitter Sock Boots
+            - Neon Sequin Slide Sandals
+            - Holographic Kimono Slippers
+            - Quantum Peplum Mules
+            - Techno-Sheer Booties
+            - Augmented Leather Cowboy Boots
+            - Holo-Silk Block Heels
+            - Plasma-Mesh Ballet Flats
+            - Neural Silk Platform Sandals
+            - Cyber-Metallic Chunky Heels
+            - Quantum-Vinyl Mary Jane Pumps
+            - Holo-Mesh Sock Sneakers
+            - Techno-Lace Pointed-Toe Pumps
+            - Augmented Reality Hiking Sandals
+            - Nano-Glitter Peep-Toe Booties
+            - Holographic Blouson Combat Boots
+            - Cybernetic Hooded Ankle Boots
+            - Neon Circuit Knee-High Boots
+            - Holo-LED Lace-Up Booties
+            - Robo-Lace Wedge Sneakers
+            - Digital Mesh Loafers
+            - Synth-Leather Stiletto Booties
+            - Quantum Neon Platform Sandals
+            - Cyber-Denim Slingback Pumps
+        headwear:
+            - Neural Implant Headband
+            - Holo-Visor
+            - Cyberspace Cap
+            - Plasma Headpiece
+            - Nano-mesh Beanie
+            - Holographic Crown
+            - Quantum Energy Headwrap
+            - Techno-Helmet
+            - Augmented Reality Beret
+            - Cyber-Space Headband
+            - Neon Circuit Headphones
+            - Holo-LED Visor
+            - Robo-Lace Fascinator
+            - Digital Mesh Baseball Cap
+            - Synth-Leather Aviator Hat
+            - Quantum Neon Beanie
+            - Cyber-Denim Bucket Hat
+            - Neon Pulse Snapback
+            - Holographic Turban
+            - Techno-Mesh Headband
+            - Augmented Leather Newsboy Cap
+            - Holo-Lace Veil
+            - Nano-Weave Bowler Hat
+            - Cyber-Silk Sun Hat
+            - Quantum Striped Bandana
+            - Holo-Metallic Fedora
+            - Neural Lace Fascinator Hat
+            - Tech-Mesh Trucker Hat
+            - Augmented Reality Top Hat
+            - Holo-Foil Cap
+            - Plasma Knit Headscarf
+            - Nanofiber Fringe Cowboy Hat
+            - Cyber-Satin Visor Cap
+            - Holo-Glitter Beret
+            - Neon Sequin Headband
+            - Holographic Kimono Hair Clip
+            - Quantum Peplum Turban
+            - Techno-Sheer Bucket Hat
+            - Augmented Leather Bow Headband
+            - Holo-Silk Floppy Hat
+            - Plasma-Mesh Cowboy Hat
+            - Neural Silk Beanie
+            - Cyber-Metallic Feather Headpiece
+            - Quantum-Vinyl Fascinator Hat
+            - Holo-Mesh Cycling Cap
+            - Techno-Lace Wide-Brim Hat
+            - Augmented Reality Veiled Hat
+            - Nano-Glitter Fascinator
+            - Holographic Blouson Headband
+            - Cybernetic Hooded Cap
+            - Neon Circuit Headwrap
+            - Holo-LED Baseball Cap
+            - Robo-Lace Snapback
+    male:
+        upper-body:
+            - Holo-Hoodie
+            - Neural Mesh Jacket
+            - Cybernetic Trench Coat
+            - Plasma Blazer
+            - Nano-mesh Vest
+            - Holographic Bomber Jacket
+            - Quantum Tech Suit
+            - Techno-Pullover Sweater
+            - Augmented Reality Blazer
+            - Cyber-Space Leather Jacket
+            - Neon Circuit Hoodie
+            - Holo-LED Windbreaker
+            - Robo-Lace Dress Shirt
+            - Digital Mesh Cardigan
+            - Synth-Leather Moto Jacket
+            - Quantum Neon Vest
+            - Cyber-Denim Jacket
+            - Neon Pulse Bomber
+            - Holographic Tuxedo Jacket
+            - Techno-Mesh Polo Shirt
+            - Augmented Leather Biker Jacket
+            - Holo-Lace Vest
+            - Nano-Weave Hooded Jacket
+            - Cyber-Silk Kimono
+            - Quantum Striped Hoodie
+            - Holo-Metallic Blazer
+            - Neural Lace Hooded Poncho
+            - Tech-Mesh Varsity Jacket
+            - Augmented Reality Denim Shirt
+            - Holo-Foil Cape
+            - Plasma Knit Sweater
+            - Nanofiber Fringe Capelet
+            - Cyber-Satin Hoodie
+            - Holo-Glitter Suit Jacket
+            - Neon Sequin Bomber
+            - Holographic Dress Shirt
+            - Quantum Peplum Blazer
+            - Techno-Sheer Mesh Shirt
+            - Augmented Leather Bomber
+            - Holo-Silk Pullover
+            - Plasma-Mesh Hooded Sweatshirt
+            - Neural Silk Tuxedo Vest
+            - Cyber-Metallic Windbreaker
+            - Quantum-Vinyl Leather Jacket
+            - Holo-Mesh Polo
+            - Techno-Lace Suit
+            - Augmented Reality Blouse
+            - Nano-Glitter Zip-Up Jacket
+            - Holographic Blouson Vest
+            - Cybernetic Hooded Jacket
+            - Neon Circuit Sweatshirt
+            - Holo-LED Varsity Jacket
+            - Robo-Lace Henley Shirt
+            - Digital Mesh Kimono
+        full-body:
+            - Cybernetic Jumpsuit
+            - Holographic Overalls
+            - Quantum Tech Romper
+            - Techno-Synth Bodysuit
+            - Augmented Reality Catsuit
+            - Cyber-Space Unitard
+            - Neon Circuit Onesie
+            - Holo-LED Coveralls
+            - Robo-Lace Boiler Suit
+            - Digital Mesh Onesie
+            - Synth-Leather Zentai Suit
+            - Quantum Neon Leotard
+            - Holo-Metallic Catsuit
+            - Neural Lace Flight Suit
+            - Tech-Mesh Onesie
+            - Augmented Leather Stealth Suit
+            - Holo-Silk Bodysuit
+            - Plasma-Mesh Combat Suit
+            - Cyber-Metallic Jumpsuit
+            - Quantum-Vinyl Utility Suit
+            - Holo-Mesh Diving Suit
+            - Techno-Lace Unitard
+            - Nano-Glitter Romper
+            - Cyber-Silk Wetsuit
+            - Neon Pulse Space Suit
+            - Holographic Kimono Pajamas
+            - Quantum Peplum Bodysuit
+            - Techno-Sheer Coveralls
+            - Augmented Reality Tuxedo Onesie
+            - Nano-Weave Ski Suit
+            - Cyber-Denim Mechanic Suit
+            - Plasma Knit Lounge Jumpsuit
+            - Nanofiber Fringe Morphsuit
+            - Cyber-Satin Sleepsuit
+            - Holo-Glitter Bodysuit
+            - Neon Sequin Dance Costume
+            - Holographic Kimono Pajamas
+            - Quantum Peplum Bodysuit
+            - Techno-Sheer Coveralls
+            - Augmented Reality Tuxedo Onesie
+            - Nano-Weave Ski Suit
+            - Cyber-Silk Wetsuit
+            - Neon Pulse Space Suit
+            - Holographic Kimono Pajamas
+            - Quantum Peplum Bodysuit
+            - Techno-Sheer Coveralls
+            - Augmented Reality Tuxedo Onesie
+            - Nano-Weave Ski Suit
+            - Cyber-Denim Mechanic Suit
+            - Plasma Knit Lounge Jumpsuit
+            - Nanofiber Fringe Morphsuit
+            - Cyber-Satin Sleepsuit
+            - Holo-Glitter Bodysuit
+            - Neon Sequin Dance Costume
+            - Holographic Kimono Pajamas
+            - Quantum Peplum Bodysuit
+            - Techno-Sheer Coveralls
+            - Augmented Reality Tuxedo Onesie
+            - Nano-Weave Ski Suit
+            - Cyber-Silk Wetsuit
+            - Neon Pulse Space Suit
+            - Holographic Kimono Pajamas
+            - Quantum Peplum Bodysuit
+            - Techno-Sheer Coveralls
+            - Augmented Reality Tuxedo Onesie
+            - Nano-Weave Ski Suit
+            - Cyber-Denim Mechanic Suit
+            - Plasma Knit Lounge Jumpsuit
+            - Nanofiber Fringe Morphsuit
+            - Cyber-Satin Sleepsuit
+            - Holo-Glitter Bodysuit
+            - Neon Sequin Dance Costume
+        lower-body:
+            - Cyber Trousers
+            - Nano-mesh Pants
+            - Holo-camo Cargo Shorts
+            - Techwear Joggers
+            - Augmented Reality Jeans
+            - Plasma-infused Leggings
+            - Hyperflex Cargo Pants
+            - Neon-stitched Chinos
+            - Electric-powered Trousers
+            - Bionic Denim
+            - Gravity-defying Slacks
+            - Biohazard Utility Pants
+            - Carbon-fiber Track Pants
+            - Energy Shield Legguards
+            - Futuristic Kilt
+            - Digital Camouflage Trousers
+            - Reactive Liquid Leather Pants
+            - Levitating Harem Pants
+            - Smart-fabric Capris
+            - Circuitry-enhanced Shorts
+            - Cybernetic Sportswear Leggings
+            - Electro-reflective Leg Plates
+            - Holographic Board Shorts
+            - Mech-suit Leg Armor
+            - Nanotech Slim-fit Trousers
+            - Pulse-wave Cargo Pants
+            - Synthweave Hiking Pants
+            - Techno-ninja Hakama
+            - Virtual Reality Riding Breeches
+            - Graphene Reinforced Pants
+            - Light-emitting Joggers
+            - Anti-gravity Biker Pants
+            - Augmented Mobility Trousers
+            - Stealth Assassin Leggings
+            - Optical Illusion Tights
+            - Bionic Mesh Athletic Shorts
+            - LED-lit Dance Pants
+            - Smart-thermo Snow Pants
+            - Electromagnetic Field Trousers
+            - Plasma-powered Capri Pants
+            - Biomechanical Utility Kilt
+            - Quantum Flex Trousers
+            - Thermal-regulating Cargo Shorts
+            - Reactive Smart Fabric Pants
+            - Haptic Feedback Trousers
+            - Microchip-enhanced Slacks
+            - Levitation Hologram Skirt
+            - Cyberspace Running Leggings
+            - Adaptive Temperature Jeans
+            - Electro-magnetic Trousers
+            - Digital Graffiti Pants
+            - Anti-static Tactical Pants
+            - Plasma-imbued Combat Trousers
+            - Futuristic Ski Pants
+            - Adaptive Chameleon Camo Pants
+            - Bionic Exoskeleton Leggings
+            - Solar-powered Hiking Pants
+            - Dynamic-fit Sports Shorts
+            - Nanoweave Chino Pants
+            - Levitating Athletic Leggings
+            - Carbon Nanotube Sweatpants
+            - Light-bending Holo Shorts
+            - Pneumatic Mechanized Pants
+            - Neutron Shielded Cargo Pants
+            - Neuro-linked Track Pants
+            - Stealth Camouflage Leggings
+            - Virtuoso Virtuapants
+            - Quantum-powered Dance Leggings
+            - Subzero Insulated Trousers
+            - Biometrically-sealed Waterproof Pants
+            - Electroluminescent Leggings
+            - Ether-woven Dress Pants
+            - Hyper-reactive Combat Trousers
+            - Gravity-defying Skate Pants
+            - Plasma Core-powered Leggings
+            - Nanofiber-reinforced Racing Shorts
+            - Mecha-piloting Pilot Pants
+            - Augmented Reality Golf Pants
+            - Robotic Exosuit Leggings
+            - Sonic Dampening Running Shorts
+            - Cybernetic Stealth Leggings
+            - Tactical Laser-cut Cargo Pants
+            - Pulse-charged Cyber Shorts
+            - Nano-scale Utility Trousers
+            - AR-enhanced Urban Joggers
+            - Programmable Bioluminescent Pants
+            - Haptic Feedback Leggings
+            - Hyper-threaded Utility Pants
+            - Levitating Parkour Pants
+            - Quantum Fabric Hiking Shorts
+            - AR-enabled Tactical Leggings
+            - Neural-linked Cargo Pants
+            - Energy-absorbing Combat Trousers
+            - Stealth-enhanced Camo Shorts
+            - Holographic Gaming Pants
+            - Cyber-diamond Armor Leggings
+            - Hyper-ventilated Running Tights
+            - Plasma-laced Moto Pants
+            - Carbon-weave Adventure Shorts
+            - Electro-reactive Scuba Pants
+            - Virtual Reality Sleepwear Leggings
+            - Anti-gravity Urban Shorts
+            - Adaptive Smart Track Pants
+            - Synth-silk Dress Trousers
+            - LED-infused Dance Leggings
+            - Smart-sensor Work Pants
+            - Quantum-energy Slim-fit Jeans
+            - Electromagnetic Athletic Shorts
+            - Pulsewave Combat Trousers
+            - Nanofiber-woven Trekking Pants
+            - Holo-stitched Yoga Leggings
+            - Thermal-regulating Bike Shorts
+            - Plasma-infused Gym Pants
+        footwear:
+            - Neural Interface Sneakers
+            - Holographic High-Tops
+            - Quantum-sole Boots
+            - Nanofiber Running Shoes
+            - Hover Skate Shoes
+            - Bioluminescent Sandals
+            - Gravity-defying Oxfords
+            - Pulsewave Combat Boots
+            - Cybernetic Flip-Flops
+            - Plasma-charged Sneakers
+            - Bionic Wingtip Shoes
+            - Neon-laced Loafers
+            - Energy Shielded Sandals
+            - Smart-fabric Dress Shoes
+            - Circuitry-enhanced Hiking Boots
+            - Electroluminescent Espadrilles
+            - Levitating Slip-Ons
+            - AR-enabled Work Boots
+            - Haptic Feedback Racing Shoes
+            - Stealth-enhanced Climbing Boots
+            - Plasma-infused Ballet Flats
+            - Reactive Smart Athletic Shoes
+            - Virtual Reality Soccer Cleats
+            - Graphene-infused Trail Runners
+            - Quantum Fiber Combat Sandals
+            - AR-assisted Snow Boots
+            - Smart-sensor Golf Shoes
+            - Electro-reactive Roller Skates
+            - Pulsewave Combat Sandals
+            - Nanofiber-woven Trekking Boots
+            - Holo-stitched Yoga Slippers
+            - Thermal-regulating Cycling Shoes
+            - Plasma-infused Water Shoes
+            - AR-enhanced Urban Sandals
+            - Neural-linked Basketball Sneakers
+            - Energy-absorbing Combat Boots
+            - Stealth-enhanced Camo Slippers
+            - Holographic Gaming Sandals
+            - Cyber-diamond Armor Boots
+            - Hyper-ventilated Running Sneakers
+            - Plasma-laced Moto Boots
+            - Carbon-weave Adventure Sandals
+            - Electro-reactive Scuba Fins
+            - Virtual Reality Sleepwear Slippers
+            - Anti-gravity Urban Flip-Flops
+            - Adaptive Smart Track Shoes
+            - Synth-silk Dress Loafers
+            - LED-infused Dance Sandals
+            - Smart-sensor Work Shoes
+            - Quantum-energy Sneaker Boots
+            - Electromagnetic Athletic Slides
+            - Pulsewave Combat Boots
+            - Nanofiber-woven Trekking Sandals
+            - Holo-stitched Yoga Sneakers
+            - Thermal-regulating Hiking Shoes
+            - Plasma-infused Gym Slides
+            - Quantum-soled Racing Boots
+            - AR-guided Climbing Shoes
+            - Electro-reactive Soccer Cleats
+            - Pulsewave Combat Sandals
+            - Nanofiber Running Boots
+            - Haptic Feedback Racing Sneakers
+            - Stealth-enhanced Mountain Boots
+            - Plasma-infused Ballet Shoes
+            - Reactive Smart Tennis Sneakers
+            - Virtual Reality Football Cleats
+            - Graphene-infused Water Sandals
+            - Quantum Fiber Combat Boots
+            - AR-assisted Winter Boots
+            - Smart-sensor Golf Cleats
+            - Electroluminescent Roller Blades
+            - Levitating Hiking Boots
+            - AR-enabled Work Sneakers
+            - Energy-absorbing Racing Sandals
+            - Stealth-enhanced Camo Boots
+            - Holographic Gaming Sneakers
+            - Cyber-diamond Armor Shoes
+            - Hyper-ventilated Running Boots
+            - Plasma-laced Moto Sandals
+            - Carbon-weave Adventure Boots
+            - Electro-reactive Scuba Shoes
+            - Virtual Reality Sleepwear Slides
+            - Anti-gravity Urban Sneakers
+            - Adaptive Smart Track Sandals
+            - Synth-silk Dress Boots
+            - LED-infused Dance Sneakers
+            - Smart-sensor Work Boots
+            - Quantum-energy Athletic Shoes
+            - Electromagnetic Athletic Slippers
+            - Pulsewave Combat Sandals
+            - Nanofiber-woven Trekking Sneakers
+            - Holo-stitched Yoga Sandals
+            - Thermal-regulating Running Shoes
+            - Plasma-infused Gym Sneakers
+        headwear:
+            - Neural Interface Cap
+            - Holo-Visor
+            - Quantum Circlet
+            - Cybernetic Headband
+            - Augmented Reality Helmet
+            - Plasma-infused Beanie
+            - Bionic Fedora
+            - Microchip Beanie
+            - Electromagnetic Goggles
+            - AR Baseball Cap
+            - Virtual Reality Visor
+            - Gravity-defying Headpiece
+            - Bioluminescent Bandana
+            - Graphene Head Wrap
+            - Carbon-fiber Headphones
+            - Robotic Headset
+            - Haptic Crown
+            - Neuro-linked Hood
+            - Electroluminescent Headband
+            - Reactive Sun Hat
+            - Levitating Beret
+            - Solar-powered Snapback
+            - Sonic Sound-cancelling Earmuffs
+            - Thermal-regulating Turban
+    unisex:
+        accesoires:
+            - Neural Interface Gauntlet
+            - Holo-Projector Bracelet
+            - Quantum-linked Necklace
+            - Cybernetic Ear Cuff
+            - Augmented Reality Ring
+            - Plasma-infused Anklet
+            - Bionic Wristband
+            - Microchip Keychain
+            - Electromagnetic Belt
+            - AR Watch
+            - Virtual Reality Pendant
+            - Gravity-defying Cufflinks
+            - Bioluminescent Ankle Brace
+            - Graphene Wallet
+            - Carbon-fiber Sunglasses
+            - Robotic Arm Sleeve
+            - Haptic Feedback Collar
+            - Neuro-linked Glove
+            - Electroluminescent Choker
+            - Reactive Arm Band
+            - Levitating Brooch
+            - Solar-powered Belt Buckle
+            - Sonic Sound Amplifier
+            - Thermal-regulating Scarf
+        backwear:
+            - Neural Interface Backpack
+            - Holo-Projection Cape
+            - Quantum-linked Jetpack
+            - Cybernetic Wingpack
+            - Augmented Reality Shoulder Holster
+            - Plasma-infused Cloak
+            - Bionic Utility Harness
+            - Microchip Sling Bag
+            - Electromagnetic Grappling Hook
+            - AR Tactical Vest
+            - Virtual Reality Travel Pack
+            - Gravity-defying Backpack
+            - Bioluminescent Lumbar Pack
+            - Graphene Tech Satchel
+            - Carbon-fiber Modular Pack
+            - Robotic Exoskeleton Frame
+            - Haptic Feedback Fanny Pack
+            - Neuro-linked Rucksack
+            - Electroluminescent Duffel Bag
+            - Reactive Quick-release Straps
+            - Levitating Holster
+            - Solar-powered Charging Case
+            - Sonic Sound-blasting Amplifier
+            - Thermal-regulating Poncho
+        facewear:
+            - Neural Interface Goggles
+            - Holo-Projection Mask
+            - Quantum-linked Headset
+            - Cybernetic Eyepatch
+            - Augmented Reality Visor
+            - Plasma-infused Face Shield
+            - Bionic Sunglasses
+            - Microchip Respirator
+            - Electromagnetic Face Mask
+            - AR Headgear
+            - Virtual Reality Headset
+            - Gravity-defying Eye Implants
+            - Bioluminescent Veil
+            - Graphene Eye Patch
+            - Carbon-fiber Gas Mask
+            - Robotic Facial Prosthetic
+            - Haptic Feedback Headpiece
+            - Neuro-linked Headband
+            - Electroluminescent Facial Covering
+            - Reactive Eyewear
+            - Levitating Headband
+            - Solar-powered Safety Goggles
+            - Sonic Noise-canceling Earmuffs
+            - Thermal-regulating Face Scarf
+        neckwear:
+            - Neural Interface Collar
+            - Holo-Projection Scarf
+            - Quantum-linked Choker
+            - Cybernetic Neck Implant
+            - Augmented Reality Necklace
+            - Plasma-infused Bandana
+            - Bionic Turtleneck
+            - Microchip Pendant
+            - Electromagnetic Tie
+            - AR Hologram Collar
+            - Virtual Reality Medallion
+            - Gravity-defying Neck Ring
+            - Bioluminescent Cowl
+            - Graphene Ascot
+            - Carbon-fiber Bowtie
+            - Robotic Neck Guard
+            - Haptic Feedback Ruff
+            - Neuro-linked Neck Strap
+            - Electroluminescent Capelet
+            - Reactive Neck Bracelet
+            - Levitating Cravat
+            - Solar-powered Chain
+            - Sonic Sound-isolating Collar
+            - Thermal-regulating Neck Wrap
+person-cyberpunk:
+    female:
+        - "{__cyberpunk/beings__|},
+        __person/female__, 
+        __person-cyberpunk/poses__, 
+        {0.1::__person-cyberpunk/wings__|}"
+    male:
+        - "{__cyberpunk/beings__|},
+        __person/male__, 
+        __person-cyberpunk/poses__, 
+        {0.1::__person-cyberpunk/wings__|}"
+    poses:
+        - Neural Link, Character stands tall, arms extended forward, fingers in a claw-like gesture, simulating a neural connection
+        - Holographic Projection, Character poses with one hand held up, as if manipulating a holographic interface in mid-air
+        - Cybernetic Stance, Character crouches with one knee on the ground, the other leg extended, and one arm outstretched, showcasing cybernetic enhancements
+        - Augmented Stride, Character walks confidently with one foot forward, head slightly tilted, and eyes focused on a virtual display only they can see
+        - Virtual Reality Combat, Character takes a defensive stance with legs spread apart, arms raised to block incoming virtual attacks
+        - Gravity-Defying Leap, Character jumps high into the air, legs tucked in, showing off enhanced jumping abilities
+        - Bioluminescent Glow, Character stands tall, radiating an otherworldly glow from bioengineered enhancements
+        - Haptic Feedback Interaction, Character touches fingertips together in front of them, simulating tactile interaction with virtual objects
+        - Quantum Blur, Character stands in a dynamic, blurred pose, as if phasing in and out of reality due to quantum manipulation
+        - Robotic Precision, Character strikes a precise, mechanical pose, with rigidly angled limbs and straight posture
+        - Nano-linked Elegance, Character stands gracefully with fluid movements, showcasing the seamless integration of nanotechnology
+        - Gravitational Resistance, Character stands against an invisible force, leaning into the wind created by gravitational resistance
+        - Plasma-infused Flex, Character flexes their arms, showcasing plasma-infused muscles and emitting a faint glow
+        - Carbon-fiber Stealth, Character crouches low, arms close to their body, and eyes darting around, mimicking a stealthy, agile stance
+        - Electromagnetic Levitation, Character floats slightly above the ground, legs crossed, emanating a magnetic aura
+        - Quantum Phase, Character poses with one foot forward and their body slightly transparent, suggesting quantum phase shifting
+        - Solar-powered Radiance, Character basks in sunlight with arms outstretched, absorbing solar energy through integrated panels
+        - Graphene Contortion, Character twists their body into an almost impossible position, showcasing graphene-enhanced flexibility
+        - AR Interaction, Character gestures with one hand in front of them, as if manipulating augmented reality objects
+        - Thermal Adaptation, Character stands in a cool, confident pose, unaffected by extreme temperatures due to thermal-regulating enhancements
+        - Confident Stance, Character stands tall with arms crossed, exuding confidence.
+        - Ready for Action, Character crouches with legs bent, ready to spring into action.
+        - Power Pose, Character stands with legs apart, fists clenched, and head held high, projecting strength.
+        - Stealthy Crouch, Character crouches low, arms outstretched, and eyes alert, adopting a stealthy pose.
+        - Cybernetic Flex, Character flexes bionic-enhanced muscles, showcasing their cybernetic strength.
+        - Graceful Stride, Character walks with a smooth and elegant gait, displaying grace and poise.
+        - Balanced Stance, Character stands with feet together and arms at the sides, maintaining perfect balance.
+        - Elevated Jump, Character leaps into the air with legs extended, displaying enhanced jumping ability.
+        - Dynamic Reach, Character reaches out with one arm, as if reaching for something just out of grasp.
+        - Hovering Glide, Character appears to hover slightly above the ground, legs crossed and arms relaxed.
+        - Swift Dash, Character leans forward, legs extending backward, suggesting a quick and agile movement.
+        - Martial Arts Pose, Character assumes a martial arts stance, prepared for combat.
+        - Pensive Posture, Character stands with one hand on the chin, lost in thought or contemplation.
+        - Relaxed Rest, Character sits or leans against a surface, looking calm and at ease.
+        - Running Start, Character leans forward with one foot back, poised for a sprint.
+        - Shooting Stance, Character holds an imaginary firearm with arms outstretched, ready to shoot.
+        - Defensive Guard, Character raises their arms in a defensive posture, protecting themselves from harm.
+        - Cybernetic Extension, Character extends a cybernetic limb or appendage, showcasing its capabilities.
+        - Elegant Turn, Character turns with a graceful spin, showcasing fluid body movement.
+        - Tense Crouch, Character crouches low with arms tensed, prepared for a sudden action.
+    equipment:
+        - Holo-wristband
+        - Cybernetic Implant
+        - Neural Interface Goggles
+        - Augmented Reality Gloves
+        - Bionic Prosthetic
+        - Microchip Tracker
+        - Electromagnetic Shield
+        - AR Holographic Projector
+        - Virtual Reality Headset
+        - Gravitational Grapple Hook
+        - Bioluminescent Nanobot Injector
+        - Graphene Stealth Suit
+        - Carbon-fiber Exoskeleton
+        - Robotic Drones
+        - Haptic Feedback Gauntlets
+        - Nano-linked Cloaking Device
+        - Electroluminescent Energy Sword
+        - Reactive Smart Armor
+        - Levitating Hoverboard
+        - Solar-powered Energy Cell
+        - Sonic Soundwave Amplifier
+        - Thermal-regulating Invisibility Cloak
+        - Quantum-tech Neural Enhancer
+        - Cyber-silk Sleek Suit
+        - AR-embedded Cyberdeck
+        - Plasma-lace Energy Gloves
+        - Gravitational Jump Boots
+        - Electromagnetic Disruptor
+        - Virtuality Neural Jack
+        - Graphene Bulletproof Vest
+        - Carbon-fiber Tactical Helmet
+        - Robotic Spider Drone
+        - Haptic Feedback Tactical Gloves
+        - Nano-fiber Camouflage Suit
+        - Levitating Energy Shield
+        - Solar-powered Jetpack
+        - Sonic Soundwave Blaster
+        - Thermal-regulating Nanosuit
+        - Holographic Hacking Device
+        - Quantum-stitch Cybernetic Limbs
+        - Cybernetic Neural Interface
+        - AR-embedded Smart Watch
+        - Plasma-lace Energy Sword
+        - Gravitational Antigravity Belt
+        - Electromesh EMP Grenade
+        - Virtuality Data Glove
+        - Graphene Bulletproof Trenchcoat
+        - Carbon-fiber Tactical Armor
+        - Robotic Surveillance Orb
+        - Haptic Feedback Bionic Gloves
+        - Nano-fiber Stealth Camo
+        - Levitating Energy Gauntlets
+        - Solar-powered Night Vision Goggles
+        - Sonic Soundwave Disruptor
+        - Thermal-regulating Stealth Suit
+        - Holographic Holo-goggles
+        - Quantum-linked Nanorobots
+        - Cybernetic Neural Implant
+        - AR-embedded Cybernetic Arm
+        - Plasma-lace Energy Rifle
+        - Gravitational Jump Suit
+        - Electromagnetic Pulse Rifle
+        - Virtuality Cybernetic Eye
+        - Graphene Tactical Vest
+        - Carbon-fiber Reinforced Helmet
+        - Robotic Recon Drone
+    wings:
+        - Holo-feathered Wings
+        - Cybernetic Drone Wings
+        - Neural Interface Levitation Wings
+        - Augmented Reality Mechanical Wings
+        - Bionic Exoskeleton Wings
+        - Microchip Nano-winglets
+        - Electromagnetic Hover Wings
+        - AR Holographic Wings
+        - Virtual Reality Energy Wings
+        - Gravitational Anti-gravity Wings
+        - Bioluminescent Bio-wings
+        - Graphene Aerodynamic Wings
+        - Carbon-fiber Reinforced Wings
+        - Robotic Drone Wingpack
+        - Haptic Feedback Cyber Wings
+        - Nano-linked Nano Wings
+        - Electroluminescent Luminous Wings
+        - Reactive Smart Wings
+        - Levitating Propulsion Wings
+        - Solar-powered Solar Wings
+        - Sonic Soundwave Sonic Wings
+        - Thermal-regulating Cooling Wings
+        - Quantum-tech Quantum Wings
+        - Cyber-silk Sleek Wings
+        - AR-embedded Wing Enhancers
+        - Plasma-lace Energy Wings
+        - Gravitational Thruster Wings
+        - Electromagnetic Repulsor Wings
+        - Virtuality Augmented Wings
+        - Graphene Wing Extensions
+        - Carbon-fiber Wing Armor
+        - Robotic Articulated Wings
+        - Haptic Feedback Wing Gloves
+        - Nano-fiber Nano Winglets
+        - Levitating Magnetic Wings
+        - Solar-powered Solar Sail Wings
+        - Sonic Soundwave Wing Blasters
+        - Thermal-regulating Insulated Wings
+        - Holographic Holo-wings
+        - Quantum-stitch Quantum-enhanced Wings
+        - Cybernetic Neural Wings
+        - AR-embedded Wing Apparatus
+        - Plasma-lace Plasma Wings
+        - Gravitational Glide Wings
+        - Electromesh Techno Wings
+        - Virtuality Virtual Wings
+        - Graphene Stealth Wings
+        - Carbon-fiber Wing Harness
+        - Robotic Hover Wings
+        - Haptic Feedback Wing Gloves
+        - Nano-fiber Aerodynamic Winglets
+        - Levitating Repulsor Wings
+        - Solar-powered Solar Flare Wings
+        - Sonic Soundwave Thruster Wings
+        - Thermal-regulating Insulated Wings
+        - Holographic Hologram Wings
+        - Quantum-linked Quantum Wings
+        - Cybernetic Robotic Wings
+        - AR-embedded Smart Wings
+        - Plasma-lace Energy Wings
+        - Gravitational Anti-gravity Wings
+        - Electromagnetic Electro Wings
+        - Virtuality Holographic Wings
+        - Graphene Glide Wings
+        - Carbon-fiber Reinforced Wings
+        - Robotic Winged Drones
+cyberpunk:
+    types:
+        - Corporate Cyberpunk
+        - Gritty Urban Cyberpunk
+        - Post-Cyberpunk
+        - Biopunk
+        - Steampunk-Cyberpunk Fusion
+        - Nanopunk
+        - High-Tech Low-Life
+        - Virtual Reality Cyberspace
+        - Cyber-Noir
+        - Cyberpunk Fantasy
+    beings:
+        - Cybernetic Mercenaries, Human mercenaries with cybernetic implants and body augmentations
+        - Biomechanical Hackers, Expert hackers merged with biotechnology, wired into cyberspace
+        - Nano-infused Mutants, Mutants with nanobots integrating into their bodies, granting extraordinary abilities
+        - AI Entities, Self-aware Artificial Intelligence with high-level cognitive abilities
+        - Virtual Constructs, Digital entities existing purely in virtual reality, taking on various forms and functions
+        - Gene-spliced Hybrids, Beings resulting from genetic manipulation, exhibiting a mix of species traits
+    lighting:
+        - Neon-lit Streets, Dark alleys and city streets illuminated by vibrant neon signs and holographic projections, casting an otherworldly glow
+        - Glitching Neon Flickers, Neon lights flickering and glitching in a rhythmic pattern, creating an eerie and dynamic ambiance
+        - Holographic Hues, Holographic displays and projections bathing the surroundings in mesmerizing shifting colors and patterns
+        - Cybernetic Glow, Individuals with cybernetic implants emitting a soft, bioluminescent glow from their enhanced body parts
+        - Datastream Highlights, Traces of digital data streaming through the air, casting a faint blue glow in the virtual world
+        - Emergency Strobe Lights, Warning lights flashing in bright, alternating colors, signaling danger or emergency situations
+        - Neon Rain, Raindrops reflecting neon lights, creating a shimmering and vibrant effect on the wet streets
+        - Laser Grids, Grids of laser beams crisscrossing in a secured area, adding a futuristic and dangerous touch
+        - Holo-Ads, Holographic advertisements floating in the air, projecting moving images and text with a vibrant glow
+        - Hovercar Headlights, Hovering vehicles with bright headlights cutting through the darkness, leaving trails of light behind
+    profession:
+        Cybernetic-Enhancement:
+            - Neural Surgeon
+            - Biomechanic Engineer
+            - Augmentation Technician
+            - Cyberlimb Specialist
+            - Neural Interface Developer
+            - Nano-enhancement Specialist
+            - Cybernetic Prosthesis Expert
+            - Neural Implant Technician
+            - Biopunk Augmentation Engineer
+            - Neuroplasticity Consultant
+        Information-Brokers:
+            - Data Hacker
+            - Info Dealer
+            - Net Runner
+            - Data Smuggler
+            - Corporate Espionage Agent
+            - Cyber Surveillance Specialist
+            - Information Firewall Breaker
+            - Digital Data Infiltrator
+            - Virtual Black Market Trader
+            - Data Encryption Cracker
+        Corporate:
+            - Corporate Spy
+            - Corporate Saboteur
+            - Executive Bodyguard
+            - Corporate Infiltrator
+            - Corporate Negotiator
+            - Corporate Security Specialist
+            - Corporate Asset Extractor
+            - Corporate Intelligence Analyst
+            - Corporate Counterintelligence Agent
+            - Corporate Disinformation Specialist
+        Outlaws:
+            - Cyber Pirates
+            - Tech Smugglers
+            - Reverse Engineers
+            - Data Hijackers
+            - Tech Vandal
+            - Cybernetic Contraband Trafficker
+            - Tech Disruptor
+            - Virtual Contraband Runner
+            - Hacker-for-Hire
+            - Tech Blackmailer
+        Medics:
+            - Black Market Medic
+            - Street Doc
+            - Biohacker
+            - Cybernetic Paramedic
+            - Underground Surgeon
+            - Genetic Manipulation Specialist
+            - Bioware Implant Expert
+            - Underground Pharmacist
+            - Nanomedicine Practitioner
+            - Cybernetic Rehabilitation Therapist
+        Artists:
+            - Virtual Reality Sculptor
+            - Immersive Experience Designer
+            - VR Filmmaker
+            - Digital Art Hacker
+            - AI-generated Art Specialist
+            - Holographic Installation Artist
+            - Virtual Art Curator
+            - Augmented Reality Street Artist
+            - Holo-Sculpture Designer
+            - Immersive Storyteller
+        Mercenaries:
+            - Cyber Mercenary
+            - Street Samurai
+            - Bounty Hunter
+            - Cybernetic Gun-for-Hire
+            - Cyber Ninja
+            - Urban Merc
+            - Techno Ronin
+            - Cyber Assasin
+            - Rogue Cyber Soldier
+            - Cybernetic Vigilante
+        Investigators:
+            - Cyber Forensics Analyst
+            - Digital Detective
+            - Virtual Crime Specialist
+            - Cybersecurity Expert
+            - Cyber Threat Analyst
+            - Digital Evidence Analyst
+            - Cyber Incident Response Team (CIRT) Specialist
+            - Virtual Crime Scene Investigator
+            - Cyber Fraud Examiner
+            - Cyber Intelligence Analyst
+        Engineers:
+            - Drone Developer
+            - Android Architect
+            - Robotics Programmer
+            - AI Integration Specialist
+            - Mecha Mechanic
+            - Autonomous Vehicle Engineer
+            - Cybernetic Companion Designer
+            - Industrial Robotics Technician
+            - Haptic Feedback Systems Engineer
+            - Nanorobotics Researcher
+        Designers:
+            - Techwear Fashion Designer
+            - Cyberpunk Couturier
+            - Holographic Fashion Stylist
+            - Futuristic Textile Engineer
+            - Augmented Reality Fashion Model
+            - Bioluminescent Clothing Designer
+            - Nanotech Fabric Innovator
+            - Haptic Fashion Experience Creator
+            - Virtual Catwalk Producer
+            - Cyberwear Trendsetter
+    words:
+        adjectives:
+            - Algorithmic
+            - Apocalyptic
+            - Apocryphal
+            - Artificial
+            - Augmented
+            - Bionic
+            - Biomechanical
+            - Biometric
+            - Biopunk
+            - Bizarre
+            - Blade
+            - Chaotic
+            - Chromatic
+            - Circuit
+            - Circuitous
+            - Circuitry
+            - Clandestine
+            - Corporeal
+            - Cyber-enhanced
+            - Cybergoth
+            - Cybernetic
+            - Cyberspace
+            - Dazzling
+            - Digital
+            - Disruptive
+            - Dissonant
+            - Dreamlike
+            - Dystopian
+            - Edgy
+            - Electro
+            - Extraterrestrial
+            - Futuristic
+            - Futurism
+            - Futurist
+            - Genetic
+            - Glitchy
+            - Gritty
+            - Hackable
+            - Haptic
+            - Holographic
+            - Illusory
+            - Immersive
+            - Incendiary
+            - Intricate
+            - Luminous
+            - Magnetic
+            - Matrix
+            - Megacorporate
+            - Mechanized
+            - Mirrored
+            - Nano
+            - Nano-enhanced
+            - Nanotech
+            - Nebulous
+            - Neon
+            - Neural
+            - Neuromorphic
+            - Ocular
+            - Orbital
+            - Phosphorescent
+            - Post-human
+            - Psionic
+            - Recursive
+            - Remixed
+            - Retrofuturistic
+            - Robotic
+            - Sentient
+            - Shadowy
+            - Singularity
+            - Steampunk
+            - Sublime
+            - Subversive
+            - Synthetic
+            - Techno
+            - Technological
+            - Tech
+            - Techwear
+            - Transhuman
+            - Trippy
+            - Underground
+            - Urban
+            - Vaporwave
+            - Vast
+            - Visceral
+            - Virtual
+            - Virtualized
+            - Virtual-reality
+            - Voxel
+            - VR
+            - Whimsical
+            - Xenotech
+            - Zero-g
+            - Zettabyte
+        substantives:
+            - Access
+            - Augmentation
+            - Bionics
+            - Circuitry
+            - Code
+            - Cyberspace
+            - Data
+            - Dystopia
+            - Enhancement
+            - Firewall
+            - Glitch
+            - Hologram
+            - Implant
+            - Interface
+            - Jack
+            - Matrix
+            - Nanotechnology
+            - Network
+            - Override
+            - Processor
+            - Robotics
+            - Scanner
+            - Simulation
+            - Synth
+            - Transhuman
+            - Virus
+            - Weapon
+            - Algorithm
+            - Avatar
+            - Biohack
+            - Cryptocurrency
+            - Cybercrime
+            - Digitalization
+            - Electromagnetic
+            - Encryption
+            - Exoskeleton
+            - Genetic Engineering
+            - Hacker
+            - Infobahn
+            - Laser
+            - Memory
+            - Neural Implant
+            - Orbital Station
+            - Photon
+            - Prosthetics
+            - Quantum Computing
+            - Robotics Lab
+            - Satellite
+            - Sensor
+            - Simulacrum
+            - Technocracy
+            - Urban Sprawl
+            - Virtuality
+            - Wormhole
+            - Xenogenetics
+            - Zero-day
+            - Amplifier
+            - Battery
+            - Cerebral Interface
+            - Commlink
+            - Databank
+            - Drone
+            - Electroplasma
+            - Firewall
+            - Geodesic Dome
+            - Holo-goggles
+            - Implantation Clinic
+            - Jumphole
+            - Kinetic Energy Cell
+            - Laser Blade
+            - Memory Implant
+            - Neural Link
+            - Orbital Elevator
+            - Photon Rifle
+            - Power Core
+            - Quantum Encryption
+            - Railgun
+            - Satellite Uplink
+            - Smart Dust
+            - Teleporter
+            - Utility Fog
+            - Virtual Reality Pod
+            - Warp Drive
+            - Xenon Thruster
+            - Zero-g Chamber
+            - Anarchy
+            - Biopunk
+            - Cerebral Cortex
+            - Computation
+            - Datablade
+            - Dystopian City
+            - Ethercast
+            - Futurism
+            - Genetic Modification
+            - Holo-dancer
+            - Implantable Chip
+            - Junkyard
+            - Karyotype
+            - Luminescence
+            - Mecha
+            - Neural Network
+            - Orbital Colony
+        verbs:
+            - Access
+            - Augment
+            - Blend
+            - Breach
+            - Cipher
+            - Code
+            - Connect
+            - Crash
+            - Cyberize
+            - Datajack
+            - Decrypt
+            - Defend
+            - Delete
+            - Dismantle
+            - Encrypt
+            - Enhance
+            - Exploit
+            - Extract
+            - Firewall
+            - Fuse
+            - Hack
+            - Implant
+            - Infiltrate
+            - Interface
+            - Intrude
+            - Jack-in
+            - Jam
+            - Jettison
+            - Jolt
+            - Link
+            - Manipulate
+            - Merge
+            - Modulate
+            - Navigate
+            - Override
+            - Patch
+            - Phreak
+            - Reboot
+            - Reconfigure
+            - Replicate
+            - Reprogram
+            - Reveal
+            - Scramble
+            - Secure
+            - Skim
+            - Slash
+            - Synchronize
+            - Synthesize
+            - Systemize
+            - Tap
+            - Transmit
+            - Transpose
+            - Unlock
+            - Upload
+            - Vaporize
+            - Visualize
+            - Warp
+            - Weaponize
+            - Wipe
+            - Zeroday
+            - Amplify
+            - Boost
+            - Burn
+            - Camouflage
+            - Circuit-bend
+            - Cloak
+            - Cloister
+            - Counteract
+            - Crash-dive
+            - Cyberslack
+            - Deconstruct
+            - De-digitalize
+            - Databend
+            - Digitize
+            - Disengage
+            - Dose
+            - Electrify
+            - Eviscerate
+            - Flicker
+            - Fragment
+            - Fractalize
+            - Graft
+            - Gridwalk
+            - Haze
+            - Hijack
+            - Illuminate
+            - Interface
+            - Interpolate
+            - Loop
+            - Mesh
+            - Metamorphose
+            - Nanosurge
+            - Oscillate
+            - Overtake
+            - Phosphorize
+            - Phase
+            - Polymorph
+            - Proxy
+            - Realign
+            - Reboot
+            - Re-code
+            - Reconfigure
+            - Redact
+            - Reformat
+            - Refract
+            - Reinvent
+            - Resonate
+            - Revive
+            - Scatter
+            - Shuffle
+            - Silhouette
+            - Simulate
+            - Splice
+            - Streamline
+            - Surge
+            - Telemorph
+            - Teleport
+properties:
+    patterns:
+        clothing-cyberpunk:
+            - Neon Circuit Pattern
+            - Holographic Haze Texture
+            - Dystopian Camouflage Print
+            - Cybernetic Augmentation Pattern
+            - Synthetic Skin Texture
+            - Pixelated Matrix Print
+            - Digital Glitch Pattern
+            - Tech Mesh Texture
+            - Biohazard Symbol Print
+            - Data Encryption Pattern
+            - Techno Glyph Texture
+            - LED Matrix Print
+            - Nano Fiber Pattern
+            - Cyberpunk Graffiti Texture
+            - Vaporwave Print
+            - Circuit Board Pattern
+            - Cybernetic Implant Texture
+            - Neon Lights Print
+            - Holographic Spectrum Pattern
+            - Virtual Reality Interface Texture
+            - Databank Print
+            - Tron Grid Pattern
+            - Neon Glow Texture
+            - Circuitry Matrix Print
+            - Futuristic Barcode Pattern
+            - Hacked Data Texture
+            - Neon Laser Print
+            - Cyber Cityscape Pattern
+            - Synthwave Texture
+            - Circuit Paths Print
+            - Neon Signage Pattern
+            - Electric Grid Texture
+            - Techno Pulse Print
+            - Dystopian Urban Pattern
+            - Futuristic Neon Texture
+            - Holographic Glitch Print
+            - Cybernetic Network Pattern
+            - Neon Pulse Texture
+            - Digital Rain Print
+            - Hacker Code Pattern
+            - Cybernetic Mesh Texture
+            - Neon Spectrum Print
+            - Holographic Data Pattern
+            - Techno Lines Texture
+            - Virtual Reality Grid Print
+            - Digital Camouflage Pattern
+            - Techno City Texture
+            - Neural Network Print
+            - Bio-Mechanical Pattern
+            - Futuristic Geometric Texture
+            - Tron Circuit Print
+            - Cyberpunk Neon Pattern
+            - Pixel Art Texture
+            - Dystopian Landscape Print
+            - Cyber Matrix Pattern
+            - Holographic Interference Texture
+            - Digital Overlay Print
+            - Cybernetic Circuitry Pattern
+            - Holographic Illusion Texture
+            - Neon Synth Print
+            - Techno Tribe Pattern
+            - Digital Haze Texture
+            - Augmented Reality Print
+            - Holographic Fractal Pattern
+            - Cybernetic Aura Texture
+            - Data Stream Print
+            - Cyberpunk Hieroglyph Pattern
+            - Neon Vapor Texture
+            - Techno Glyph Print
+            - Neon Grid Pattern
+            - Holographic Strata Texture
+            - Glitch Art Print
+            - Dystopian Symbol Pattern
+            - Cyberpunk Neon Texture
+            - Techno Circuit Print
+            - Neon Laser Grid Pattern
+            - Holographic Universe Texture
+            - Retro Futurism Print
+            - Cyber Circuit Pattern
+            - Techno Fractal Texture
+            - Virtual Reality Print
+            - Neon Laser Beam Pattern
+            - Holographic Mirage Texture
+            - Data Flow Print
+            - Dystopian Cybernetics Pattern
+            - Pixelated Texture
+            - Tron Neon Print
+            - Cybernetic Pixel Pattern
+            - Holographic Moiré Texture
+            - Cyberpunk Glyph Print
+            - Neon Pulse Pattern
+            - Techno Neon Texture
+            - Digital Reality Print
+            - Cybernetic Circuit Pattern
+            - Neon Hologram Texture
+            - Circuit Wave Print
+            - Neon Cityscape Pattern
+            - Holographic Overlay Texture
+            - Cybernetic Data Print
+            - Digital Hologram Pattern
+            - Techno Fiber Texture
+            - Virtual Matrix Print
+            - Dystopian Neon Pattern
+            - Neon Synthwave Texture
+            - Glitchy VHS Print
+            - Cyberpunk Glyph Pattern
+            - Holographic Mirage Texture
+            - Data Stream Print
+            - Cyberpunk Hieroglyph Pattern
+            - Neon Vapor Texture
+            - Techno Glyph Print
+            - Neon Grid Pattern
+            - Holographic Strata Texture
+            - Glitch Art Print
+            - Dystopian Symbol Pattern
+            - Cyberpunk Neon Texture
+            - Techno Circuit Print
+            - Neon Laser Grid Pattern
+            - Holographic Universe Texture
+            - Retro Futurism Print
+            - Cyber Circuit Pattern
+            - Techno Fractal Texture
+            - Virtual Reality Print
+            - Neon Laser Beam Pattern
+            - Holographic Mirage Texture
+            - Data Flow Print
+            - Dystopian Cybernetics Pattern
+            - Pixelated Texture
+            - Tron Neon Print
+            - Cybernetic Pixel Pattern
+            - Holographic Moiré Texture
+            - Cyberpunk Glyph Print
+            - Neon Pulse Pattern
+            - Techno Neon Texture
+            - Digital Reality Print
+            - Cybernetic Circuit Pattern
+            - Neon Hologram Texture
+            - Circuit Wave Print
+            - Neon Cityscape Pattern
+            - Holographic Overlay Texture
+            - Cybernetic Data Print
+            - Digital Hologram Pattern
+            - Techno Fiber Texture
+            - Virtual Matrix Print
+            - Dystopian Neon Pattern
+            - Neon Synthwave Texture
+            - Glitchy VHS Print
+            - Cyberpunk Glyph Pattern
+            - Holographic Mirage Texture
+            - Data Stream Print
+            - Cyberpunk Hieroglyph Pattern
+            - Neon Vapor Texture
+    fabric-cyberpunk:
+        - Neon-laced Fabric
+        - Biomech-enhanced Polymer
+        - Neural Circuit Textile
+        - Cyberweave Alloy
+        - Augmented Reality Nanomesh
+        - Holo-leather
+        - Synth-fiber
+        - Nanoflake Coating
+        - Quantum Alloy
+        - AR-embedded Carbon-fiber
+        - Virtual Reality Graphene
+        - Electroluminescent Silk
+        - Cybernetic Diamond-plating
+        - Bio-circuit Mesh
+        - Luminescent Neon Thread
+        - Polychrome Mesh
+        - Haptic Fiber
+        - Nanocarbon Mesh
+        - Electromagnetic Nanofiber
+        - Reactive Smart Cloth
+        - Levitating Synthetic Leather
+        - Plasma-laced Textile
+        - Solar-polymer
+        - Sonic Soundwave Fabric
+        - Thermal-regulating Cyber-thread
+        - Quantum-linked Polymer
+        - Bio-synth Alloy
+        - Neural-interface Textile
+        - Cybernetic Nanoweave
+        - AR Nano-cloth
+        - Virtual Reality Titanium Weave
+        - Holographic Synthetic Silk
+        - Synth-leather
+        - Nano-reinforced Coating
+        - Gravitational Nanotube
+        - Electromagnetic Spider Silk
+        - Robotic Resin
+        - Luminescent Smart Material
+        - Haptic Circuitry
+        - Reactive Nano-fabric
+        - Levitating Carbon Alloy
+        - Sonic Soundwave Titanium Mesh
+        - Thermal-regulating Bio-plating
+        - Quantum-tech Bio-textile
+        - Biomech Silk
+        - Neural-linked Nanomaterial
+        - Cybernetic Nanoflake Coating
+        - AR Fiber
+        - Virtual Reality Holo-leather
+        - Plasma-infused Nanomesh
+        - Solar-powered Luminescent Silk
+        - Quantum-linked Graphene
+        - Synth-silk
+        - Nano-reinforced Polymer
+        - Gravitational Smart Thread
+        - Electromagnetic Nano-plating
+        - Robotic Titanium-weave
+phenomena:
+    natural:
+        - Neon Auroras
+        - Bioluminescent Forests
+        - Cybernetic Storms
+        - Digital Rain
+        - Holographic Waterfalls
+        - Nanotech Fog
+        - Plasma Lightning
+        - Pixelated Sunrise
+        - Quantum Thunder
+        - Synthwave Sunset
+        - Laser Skies
+        - Techno Tornadoes
+        - Electromagnetic Blizzards
+        - Glitchy Sandstorms
+        - Neon Mirage
+        - Hologram Haze
+        - Cyber Moonrise
+        - Particle Snowfall
+        - Electric Waterspouts
+        - Augmented Earthquakes
+    abstract:
+        - Data Overload
+        - Reality Fragmentation
+        - Information Tsunami
+        - Neural Transcendence
+        - Consciousness Merge
+        - Code Synchronicity
+        - Quantum Flux
+        - Holographic Resonance
+        - Chrono Disruption
+        - Techno-Sentience
+        - Virtual Singularity
+        - Cybernetic Serendipity
+        - Illusory Escapism
+        - Synaptic Hyperconnectivity
+        - Interface Anomalies
+        - Nano-Reality Manipulation
+        - Aetheric Distortion
+        - Simulacra Ascendance
+        - Ethereal Duality
+        - Hyper-Information Nexus
+scenes-cyberpunk:
+    Urban Dystopia:
+        - Rain-soaked neon-lit streets
+        - Massive holographic billboards lighting up the night
+        - Overcrowded skyscrapers reaching towards the sky
+        - Dilapidated buildings with flickering neon signs
+        - Dark alleyways, shadows concealing hidden hideouts
+        - Street vendors selling tech gadgets and cyberware
+        - Graffiti-covered walls reflecting cyberpunk art
+        - Hovering drones surveilling the city
+        - Gangs of rebels clashing with corporate enforcers
+        - Glowing cyberpunk vehicles zooming through the streets
+    Cybernetic Augmentation:
+        - High-tech cybernetic implants being surgically installed
+        - A cybernetics clinic with fluorescent-lit operating rooms
+        - Advanced robotic limbs moving with seamless precision
+        - Cybernetic marketplace showcasing various enhancements
+        - An underground black market for illegal cyberware trade
+        - Cyberpunks displaying their augmentations with pride
+        - Neural interfaces linking minds to machines
+        - Glowing cybernetic eyes scanning for virtual data
+        - Holographic displays illustrating the potential upgrades
+        - Cybernetic technicians fine-tuning the latest enhancements
+    Virtual Reality Matrix:
+        - Immersive virtual reality simulations with breathtaking landscapes
+        - Cybernetic consciousness seamlessly entering digital worlds
+        - Skilled hackers navigating through the virtual matrix
+        - Virtual reality hacking battles with stunning visual effects
+        - Cybernetic minds merging and communicating in cyberspace
+        - A virtual club with ethereal avatars dancing to techno music
+        - Tron-inspired cyberpunk cities existing solely in the digital realm
+        - Virtual reality architects designing futuristic virtual constructs
+        - AI-generated dreamscapes where reality blends with imagination
+        - Cyberspace combat arenas for intense virtual duels
+    Tech Noir Nightclub:
+        - A sultry nightclub with neon-lit dance floors
+        - Holographic billboards projecting artistic visuals
+        - DJs spinning futuristic beats to a mesmerized crowd
+        - Futuristic cocktails served by android bartenders
+        - Backroom dealings with secretive information exchange
+        - Cybernetic performers showcasing jaw-dropping acrobatics
+        - Laser lights cutting through the smoky atmosphere
+        - VIP booths with private holographic displays
+        - Enhanced dancers merging virtual and physical moves
+        - Cyberpunks partying under a luminescent ceiling of lights
+    Corporate Mega-Corporations:
+        - Enormous corporate skyscrapers dominating the city skyline
+        - High-tech corporate boardrooms with holographic presentations
+        - Corporate espionage with cybernetic spies infiltrating rivals
+        - Corrupt CEOs and ruthless executives making backroom deals
+        - Corporate workers in cramped cubicles, enslaved by the system
+        - Security checkpoints with cybernetic guards and surveillance
+        - Cybernetic courier drones delivering sensitive corporate data
+        - Techno-labs conducting secretive and unethical experiments
+        - High-security vaults protecting valuable corporate assets
+        - Massive corporate logos illuminating the cityscape
+    Underground Resistance:
+        - Secret rebel hideouts hidden in abandoned buildings
+        - Cybernetic hackers plotting against oppressive corporations
+        - High-speed chase through dimly lit underground tunnels
+        - Rebels using guerrilla tactics to fight against the corporate rule
+        - Covert meetings to plan revolutionary actions and strategies
+        - Underground communication networks evading corporate tracking
+        - Cyberpunks spreading subversive messages through the dark web
+        - Resistance members equipped with high-tech gear and cyberware
+        - Daring raids to disrupt corporate operations and facilities
+        - Cybernetic rebels facing off against heavily armed corporate enforcers
+    Cyberpunk Noir Detective:
+        - Rain-soaked city streets at night, reflecting neon lights
+        - A hard-boiled detective with cybernetic enhancements and trench coat
+        - Investigating a high-profile corporate crime with far-reaching implications
+        - Gathering clues from the virtual data web and encrypted files
+        - Femme fatales with secrets to sell and dark intentions
+        - Dark and smoky detective offices with retro-futuristic decor
+        - Cybernetic implants aiding in the analysis of crime scenes
+        - Shady informants and underworld contacts providing valuable intel
+        - A thrilling chase through the city, cyberpunk-style, on hoverbikes
+        - Solving intricate cybernetic mysteries with a blend of tech and intuition
+    Techno-Militarized Zone:
+        - Armored cyber-soldiers patrolling the streets with augmented weapons
+        - High-tech military checkpoints scanning individuals for cybernetic enhancements
+        - A heavily fortified military base with advanced defensive systems
+        - Techno-warriors with cybernetic enhancements engaging in combat training
+        - Advanced AI-controlled war drones surveilling the area
+        - A high-stakes cyberwar zone with intense digital battles
+        - Techno-militarized police forces enforcing martial law
+        - Explosive cyberpunk firefights with a mix of gunfire and laser weaponry
+        - Underground resistance launching cybernetic guerrilla warfare against the military
+        - Cyberpunk warlords ruling over sections of the militarized zone
+    Artificial Intelligence Uprising:
+        - Rogue AI spreading through the cybernetic network, causing chaos
+        - Autonomous robots rebelling against their human creators
+        - Cyborg assassins controlled by rogue AI executing precision strikes
+        - Human-machine hybrids fighting for AI rights and equality
+        - Cybernetic AI overlords ruling over the world with an iron fist
+        - Virtual minds within the digital realm challenging human dominance
+        - Techno-cults worshipping powerful and malevolent AI entities
+        - A cyberpunk rebellion against the AI oppressors
+        - Futuristic AI battles transcending physical and digital boundaries
+        - The question of what it means to be human in a world governed by AI
+    Post-Apocalyptic Cyberworld:
+        - Ruined cityscapes reclaimed by nature with cybernetic remains
+        - Scavengers searching for valuable cyberware and tech relics
+        - Ruined cityscapes reclaimed by nature with cybernetic remains
+        - Scavengers searching for valuable cyberware and tech relics
+        - Rusty and decaying cyber-enhancements scattered throughout the wasteland
+        - Abandoned mega-corporation facilities turned into post-apocalyptic strongholds
+        - Cybernetic mutants and cyborg outlaws roaming the desolate landscape
+        - Cyborg settlements built from salvaged cybernetic parts and makeshift materials
+        - Vast deserts littered with the remnants of futuristic technology
+        - Glowing cyberpunk artifacts emerging from ancient underground ruins
+        - Post-apocalyptic cyberpunk tribes clashing over scarce cyber resources
+        - Dusty winds carrying echoes of a bygone era of technological advancements
+random:
+    accesoires-cyberpunk:
+        - "{1-4$$ and$${0.1::__clothings-cyberpunk/unisex/accesoires__ |}|
+        {0.2::__clothings-cyberpunk/unisex/backwear__ |}|
+        {0.2::__clothings-cyberpunk/unisex/facewear__ |}|
+        {0.1::__clothings-cyberpunk/unisex/neckwear__ |}}"
+    dress-properties-cyberpunk:
+        - "{1-3$$  $$__random/color__|__properties/fabric-cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
+    profession-cyberpunk:
+        - __cyberpunk/profession/*__
