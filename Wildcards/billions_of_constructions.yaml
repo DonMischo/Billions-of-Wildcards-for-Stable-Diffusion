@@ -1,0 +1,1760 @@
+# BoConstructions
+BoConstructions:
+    building-standard:
+        - __random/buildings__
+    building-cyberpunk:
+        - __random/buildings-cyberpunk__
+    building-scifi:
+        - __random/buildings-scifi__
+    building-magical:
+        - __random/buildings-magical__
+    room-standard:
+        - __random/rooms__
+    room-cyberpunk:
+        - __random/rooms-cyberpunk__
+    room-scifi:
+        - __random/rooms-scifi__
+    room-magical:
+        - __random/rooms-magical__
+    random-building:
+        - __random/buildings*__
+    random-room:
+        - __random/rooms*__
+    random:
+        - "{__BoConstructions/random-room__|__BoConstructions/random-building__}"
+    random-standard:
+        - "{__BoConstructions/room-standard__|__BoConstructions/building-standard__}"
+constructions:
+    types:
+        Residential-Buildings:
+            - Single-Family Homes
+            - Apartments
+            - Condominiums
+            - Townhouses
+            - Cottages
+            - Duplexes
+            - Mobile Homes
+        Commercial-Buildings:
+            - Office Buildings
+            - Shopping Centers
+            - Retail Stores
+            - Restaurants and Cafes
+            - Hotels and Motels
+            - Banks
+            - Warehouses
+            - Supermarkets
+        Educational-Buildings:
+            - Schools
+            - Colleges and Universities
+            - Libraries
+            - Research Facilities
+        Healthcare-Buildings:
+            - Hospitals
+            - Clinics
+            - Medical Offices
+            - Nursing Homes
+        Industrial-Buildings:
+            - Factories
+            - Manufacturing Plants
+            - Warehouses
+            - Distribution Centers
+        Recreational-Buildings:
+            - Sports Arenas and Stadiums
+            - Gyms and Fitness Centers
+            - Theaters and Cinemas
+            - Museums
+            - Amusement Parks
+        Government-Buildings:
+            - Courthouses
+            - City Halls
+            - Police Stations
+            - Fire Stations
+        Religious-Buildings:
+            - Churches
+            - Mosques
+            - Temples
+            - Synagogues
+        Transportation-Buildings:
+            - Airports
+            - Train Stations
+            - Bus Terminals
+        Special Purpose-Buildings:
+            - Prisons
+            - Power Plants
+            - Data Centers
+            - Exhibition Halls
+    types-fictional:
+        residential:
+            - cozy cottage
+            - futuristic apartment tower
+            - enchanted treehouse
+            - underwater dome residence
+            - floating sky palace
+        commercial:
+            - high-tech corporate headquarters
+            - intergalactic shopping mall
+            - time travelers inn
+            - holographic entertainment complex
+            - alien marketplace
+        governmental:
+            - utopian capitol building
+            - space command center
+            - mythical palace of kings
+            - parallel universe embassy
+            - interplanetary council chambers
+        educational:
+            - wizarding school of magic
+            - extraterrestrial university
+            - ancient library of knowledge
+            - virtual reality learning hub
+            - time bending academy
+        recreational:
+            - zero gravity amusement park
+            - underwater coral resort
+            - floating garden oasis
+            - celestial spa retreat
+            - infinite maze of wonders
+        industrial:
+            - steampunk factory complex
+            - robotic production plant
+            - mythical forge of legend
+            - interdimensional power plant
+            - ethereal energy refinery
+    types-cyberpunk:
+        Corporate-Megatowers:
+            - Shinohara Corp. Headquarters
+            - OmniTech Plaza
+            - Zephyr Industries Tower
+            - CyberSys Tower
+            - ZenithCorp Skyspire
+            - Nexus Dynamics Center
+            - StellarCorp Megatower
+            - AetherTech Headquarters
+            - Infinitron Tower
+            - MetaGlobal Tower
+        Underground-Cyber-Bunkers:
+            - Resistance Hideout
+            - Black Market Hub
+            - Cybercrime Syndicate Lair
+            - Techno-Anarchist Safehouse
+            - Rogue Hacker's Den
+            - ShadowOps Command Center
+            - Neon Underground Club
+            - Cyber Smuggler's Depot
+            - VR Illusionist's Hideaway
+            - Darknet Data Vault
+        Arcade-and-Entertainment-Complexes:
+            - NeoArcade Haven
+            - Cybernetic VR Arena
+            - Holographic Racing Emporium
+            - Holosuite Gaming Center
+            - Cyberpunk Amusement Park
+            - VR Combat Simulator Dome
+            - Immersive Gaming District
+            - Zero-G Dance and Music Hall
+            - Augmented Reality Casino
+            - Retro-Cyber Gaming Lounge
+        High-Tech-Medical-Facilities:
+            - Cybernetics Enhancement Clinic
+            - Virtual Reality Therapy Center
+            - Nanotech Medical Research Lab
+            - Holographic Surgery Theater
+            - Biohacking and Gene Editing Facility
+            - Neuroenhancement Institute
+            - Time Dilation Healing Spa
+            - Cryogenic Stasis Research Center
+            - Augmented Reality Rehabilitation Center
+            - Bionic Prosthetics Manufacturing
+        Mega-Marketplaces-and-Bazaars:
+            - NeoBazaar Central
+            - TechnoTrade Exchange
+            - Augmented Reality Mall
+            - CyberWare Emporium
+            - AI-driven Market Square
+            - HoloMarket Plaza
+            - Futuristic Black Market
+            - Underground Tech Bazaar
+            - Holographic Vendor Arcade
+            - Virtual Reality Auction House
+        Cyberpunk-Nightclubs:
+            - NeonSky Club and Lounge
+            - Holographic Dance Haven
+            - Virtual Reality Rave Nexus
+            - SynthBeat Electroclub
+            - Augmented Reality DJ Den
+            - TechnoCyber Discotheque
+            - Immersive Trance Theater
+            - VR Lightshow Emporium
+            - Cybernetic Dance Factory
+            - Time-warping Party Hangar
+        Cyberspace-Data-Towers:
+            - Augmented Reality Data Hub
+            - Virtual Reality Data Matrix
+            - Holographic Information Nexus
+            - Cybernetic Cloud Storage Facility
+            - AI Data Processing Center
+            - Quantum Computing Node
+            - Infinite Data Archive
+            - Neural Network Data Tower
+            - Darknet Intelligence Hub
+            - Time-looped Information Repository
+        Cyberpunk-Residential-Complexes:
+            - Futuristic Hi-Tech Apartments
+            - Neon-lit Skyscraper Residences
+            - VR-Integrated Smart Homes
+            - Holographic Co-living Spaces
+            - Augmented Reality Luxury Penthouses
+            - Techno-Modular Housing Units
+            - Immersive Augmented Apartments
+            - Timeless Retro-fitted Lofts
+            - Cyborg Co-op Living Community
+            - Futuristic Sustainable Eco-Domes
+        Cyberpunk-Street-Hangouts:
+            - Neon Alleyway Marketplace
+            - Holographic Street Performer's Corner
+            - VR Street Sports Arena
+            - Synthwave Street Art District
+            - Augmented Reality Graffiti Zone
+            - Techno Street Food Bazaar
+            - Immersive Cyber Cafes
+            - Time-warped Urban Plaza
+            - Futuristic Rooftop Gardens
+            - VR Skate Park and Playground
+        Cyberpunk-Factories-and-Assembly-Plants:
+            - Holographic Nanofactory
+            - VR Mass Production Line
+            - Immersive Robotic Assembly Hub
+            - Augmented Reality Automated Plant
+            - Quantum-powered Manufacturing Facility
+            - Time-distorted 3D Printing Workshop
+            - Futuristic Cybernetics Factory
+            - AI-driven Smart Factory
+            - Synthetics and Androids Production Plant
+            - Zero-waste Green Tech Manufacturing
+    types-scifi:
+        Spaceship-Bridges-and-Command-Centers:
+            - USS Enterprise Command Bridge
+            - Galactic Starcruiser Control Hub
+            - Intergalactic Exploration Vessel Bridge
+            - Cosmic Carrier Command Center
+            - Nebula-class Battleship Bridge
+            - Celestial Cruiser Control Deck
+            - Quantum-class Flagship Command Center
+            - Stellar Interceptor Bridge
+            - Warp-speed Frigate Command Hub
+            - AI-powered Starship Control Nexus
+        Interstellar-Research-and-Exploration:
+            - Astrobiology Research Facility
+            - Xenoplanet Exploration Center
+            - Galactic Archive and Data Repository
+            - Celestial Phenomenon Observatory
+            - Time Distortion Research Lab
+            - Exoplanetary Geology Laboratory
+            - Astronomical Observation Hub
+            - Quantum Entanglement Research Institute
+            - Extraterrestrial Archaeology Institute
+            - Galactic History and Civilization Studies
+        Extraterrestrial-Diplomacy-and-Relations:
+            - Intergalactic Diplomatic Embassy
+            - Alien Cultural Exchange Center
+            - Celestial Peace Treaty Council
+            - Interspecies Communication Hub
+            - Galactic Alliance Mediation Chamber
+            - Multinational Space Accord Assembly
+            - Cosmic Confederation Summit Hall
+            - Interplanetary Trade Negotiation Center
+            - Extraterrestrial Federation Embassy
+            - Galactic United Nations Headquarters
+        Futuristic-Cybernetic-Cities:
+            - Neon Metropolis Megacity
+            - Techno-Infused Urban Hub
+            - Holographic Skyline Complex
+            - Augmented Reality Smart City
+            - Cybernetic Skyscraper Cluster
+            - Immersive Megalopolis Center
+            - Time-Looped Futuristic Metropolis
+            - Quantum-powered City of Tomorrow
+            - Synthwave Utopian Cityscape
+            - AI-controlled Urban Civilization
+        Advanced-Extraterrestrial-Labs:
+            - Quantum Particle Accelerator Lab
+            - Nanotechnology Research Facility
+            - Plasma Fusion Energy Lab
+            - AI-controlled Biotechnology Lab
+            - Time-travel Experimentation Chamber
+            - Gravitational Wave Observatory
+            - Dark Matter and Antimatter Research Center
+            - Quantum Computing Complex
+            - Alien Genetic Engineering Institute
+            - Celestial Robotics and AI Lab
+        AI-Controlled-Planetary-Defense:
+            - Orbital Defense Satellite Network
+            - Planetary Shield Control Center
+            - AI-driven Laser Defense Array
+            - Interstellar Missile Defense Platform
+            - Quantum-based Force Field Nexus
+            - Celestial Antimatter Cannon
+            - Time-warping Tactical Command Center
+            - Nanobot-infused Nanodome Defense System
+            - Extraterrestrial Threat Monitoring Station
+            - Galactic Sentry Fleet Headquarters
+        Time-Travelling-Research-Facilities:
+            - ChronoLab Temporal Research Center
+            - Time-Looped Quantum Laboratory
+            - Celestial Time Anomaly Observatory
+            - Time-warp Accelerated Innovation Hub
+            - Temporal Paradox Investigation Unit
+            - Multiverse and Parallel Realities Lab
+            - Quantum Entanglement Time Travel Nexus
+            - Cosmic Temporal Preservation Archive
+            - Extraterrestrial Time Traveler's Rest Stop
+            - Stellar Temporal Navigation Complex
+        High-Tech-Cyber-Casinos:
+            - Futuristic HoloGamble Casino
+            - Quantum-based Slot Machine Arena
+            - Celestial Poker and Blackjack Lounge
+            - Virtual Reality Roulette Hall
+            - Time-distorted Card Game Parlor
+            - Synthwave High Roller Suite
+            - AI-controlled Sports Betting Arena
+            - Galactic Racing and Betting Track
+            - Immersive E-Sports Betting Hub
+            - Zero-Gravity Craps and Dice Den
+        Extraterrestrial-Artifact-Museums:
+            - Alien Relic Exhibition Hall
+            - Celestial Ancient Artifacts Gallery
+            - Holographic Extraterrestrial Art Center
+            - Quantum Art and Sculpture Gallery
+            - Timeless Extraterrestrial Archaeology Museum
+            - Intergalactic Historical Relics Showcase
+            - Cosmic Artifacts and Antiquities Archive
+            - AI-Interpreted Alien Art Collection
+            - Virtual Reality Time Capsule Exhibit
+            - Time-warping Mythical Artifact Hall
+        Interstellar-Transportation-Hubs:
+            - Celestial Spaceport Terminal
+            - Quantum Portal Gateway
+            - Interdimensional Stargate Port
+            - Hyperspace Jumping Junction
+            - Extraterrestrial Hyperloop Terminal
+            - Time-looped Wormhole Connector
+            - Galactic Transport Nexus
+            - AI-controlled Teleportation Hub
+            - Space-time Distorted Warp Gate
+            - Futuristic Intergalactic Transit Center
+    types-magical:
+        Enchanted-Schools-of-Magic:
+            - Hogwarts School of Witchcraft and Wizardry
+            - Celestia Academy of Sorcery
+            - Arcane Academy of Enchantment
+            - Lumos Academy of Elemental Magic
+            - Celestial College of Arcanum
+            - Mystica School of Magical Arts
+            - Enigma Institute of Spells and Potions
+            - Timeless Tower of Magecraft
+            - Ethereal Grove of Druidic Wisdom
+            - Fairy Academy of Enchantment
+        Celestial-Libraries-of-Knowledge:
+            - Astral Archive of Ancient Wisdom
+            - Cosmic Codex and Star Maps Repository
+            - Timeless Tome of Prophecies
+            - Enchanted Grimoire Hall
+            - Celestial Library of Astronomical Lore
+            - Mystical Records Hall of Spells
+            - Etherium Scrolls Sanctum
+            - Arcane Repository of Magical Tomes
+            - Ancient Mythical Chronicles Chamber
+            - Celestial Atlas of Mythos
+        Witch-Covens-and-Magical-Circles:
+            - Coven of the Silver Moon
+            - Mystic Circle of Elemental Witches
+            - Timeless Cauldron Gathering
+            - Ethereal Seance and Divination Room
+            - Celestial Moonlit Ritual Grove
+            - Mystical Crystal Ball Chamber
+            - Enchantress' Forest Retreat
+            - Arcane Pentacle and Rune Circle
+            - Celestial Starlit Sabbat Grounds
+            - Witch's Time-warping Apothecary
+        Fairy-Tale-Castles-and-Palaces:
+            - Enchanted Castle of Dreams
+            - Celestial Palace of Everlasting Light
+            - Timeless Citadel of Sorcery
+            - Ethereal Fortress of the Elven King
+            - Fairy Queen's Emerald Palace
+            - Mystical Crystal Cavern Castle
+            - Enchanted Rose Tower
+            - Celestial Unicorn Palace
+            - Magical Floating Island Citadel
+            - Fairy Godmother's Enchanted Chateau
+        Magical-Taverns-and-Inns:
+            - Celestial Moonlight Tavern
+            - Enchanted Inn of the Traveler
+            - Mystical Potions and Brews Pub
+            - Timeless Hearth of the Phoenix
+            - Ethereal Goblet and Mead Hall
+            - Celestial Hearthstone Tavern
+            - Enchanted Woodsman's Retreat
+            - Magical Inn at the Crossroads
+            - Fairy-Lit Forest Tea House
+            - Time-warping Wizard's Pub
+    rooms:
+        Service-Spaces:
+            - Kitchen
+            - Bathroom
+            - Laundry Room
+            - Pantry (In kitchen or separate)
+            - Mudroom
+            - Walk-In Closet
+        Entertainment-Leisure-Spaces:
+            - Dining Room
+            - Family Room
+            - Game/Entertainment Room
+            - Home Theater
+            - Music Room/Studio
+            - Gym/Exercise Room
+            - Library/Reading Room
+        Utility-Spaces:
+            - Garage
+            - Basement
+            - Attic
+            - Storage Room
+            - Workshop/Tool Room
+            - Server/Utility Room
+        Common-Spaces:
+            - Hallway/Corridor
+            - Staircase
+            - Balcony/Patio
+            - Porch/Veranda
+            - Sunroom
+        Public-Spaces:
+            - Conference Room
+            - Reception/Lobby
+            - Restroom/Washroom (Public or Private)
+        Living-Spaces:
+            - Living Room
+            - Bedroom
+            - Guest Room
+            - Children's Room/Nursery
+            - Master Suite
+        Utility-Spaces:
+            - Garage
+            - Basement
+            - Attic
+            - Storage Room
+            - Workshop/Tool Room
+            - Server/Utility Room
+        Public-Spaces:
+            - Conference Room
+            - Reception/Lobby
+            - Restroom/Washroom (Public or Private)
+        Work-Spaces:
+            - Study/Office
+            - Home Office
+            - Co-working Space
+            - Artist's Studio
+        Commercial-Spaces:
+            - Retail Space
+            - Showroom
+            - Restaurant Dining Area
+            - Bar/Lounge Area
+            - Hotel Room
+        Educational-Spaces:
+            - Classroom
+            - Lecture Hall
+            - Laboratory
+            - Library
+        Healthcare-Spaces:
+            - Hospital Patient Room
+            - Examination Room
+            - Operating Room
+            - Waiting Room
+        Recreational-Spaces:
+            - Swimming Pool Area
+            - Sauna/Spa Room
+            - Game Room/Playroom
+            - Indoor Play Area
+        Community-Spaces:
+            - Community Hall
+            - Clubhouse
+            - Meeting Room
+        Transit-Spaces:
+            - Waiting Area
+            - Ticket Counter
+        Outdoor-Spaces:
+            - Courtyard
+            - Garden
+            - Terrace
+            - Patio
+            - Roof Deck
+    rooms-fictional:
+        Magical-Spaces:
+            - Enchanted Room
+            - Wizard's Chamber
+            - Fairy Grotto
+            - Potion Brewing Room
+            - Library of Magical Tomes
+        Mystical-Spaces:
+            - Oracle's Chamber
+            - Sacred Temple
+            - Time Traveler's Nexus
+            - Astral Projection Room
+            - Room of Prophecies
+        Fantasy-Spaces:
+            - Dragon's Lair
+            - Elven Pavilion
+            - Dwarf's Forge
+            - Mermaid's Underwater Retreat
+            - Goblin's Hideout
+        Sci-Fi-Spaces:
+            - Spaceship Cockpit
+            - Holodeck Simulation Room
+            - Teleporter Room
+            - Cyberspace Virtual Room
+            - Alien Observation Chamber
+        Adventure-Spaces:
+            - Treasure Room
+            - Secret Passage
+            - Hidden Temple
+            - Pirate's Den
+            - Lost City's Crypt
+        Steampunk-Spaces:
+            - Steampunk Workshop
+            - Airship Control Room
+            - Clockwork Mechanism Room
+            - Brass and Gears Observatory
+            - Victorian Inventor's Study
+        Haunted-Spaces:
+            - Haunted Attic
+            - Creepy Cellar
+            - Ghostly Ballroom
+            - Spooky Library
+            - Cursed Chamber
+        Futuristic-Spaces:
+            - High-Tech Control Center
+            - Holographic Entertainment Room
+            - Nanotechnology Lab
+            - Artificial Intelligence Hub
+            - Solar-Powered Energy Room
+    rooms-scifi:
+        Living-Spaces:
+            - Futuristic Space Apartment
+            - AI-controlled Smart Home
+            - Zero-Gravity Living Module
+            - Holographic Entertainment Room
+            - Holodeck Virtual Reality Chamber
+            - Biosphere Living Quarters
+            - Time Dilation Sleep Pod
+            - Cryogenic Stasis Chamber
+            - Alien Bioluminescent Habitat
+            - Interstellar Traveler's Cabin
+        Workspaces:
+            - Space Station Command Center
+            - High-Tech Research Laboratory
+            - Holographic Conference Room
+            - Virtual Collaboration Hub
+            - AI-controlled Workstation
+            - Cybernetic Augmentation Lab
+            - Zero-Gravity Manufacturing Facility
+            - Teleportation Prototype Lab
+            - Nanotechnology Research Chamber
+            - Galactic Explorer's Bridge
+        Recreational:
+            - VR Gaming Arena
+            - Zero-Gravity Trampoline Park
+            - Interstellar Nightclub
+            - Holosuite Amusement Park
+            - Anti-Gravity Sports Arena
+            - Alien Art and Culture Gallery
+            - Intergalactic Spa Retreat
+            - Time-Travel Themed Escape Room
+            - Virtual Reality Concert Hall
+            - Space Simulator and Training Center
+        Security-and-Surveillance:
+            - Space Station Security Hub
+            - Biometric Identification Vault
+            - Force Field Control Center
+            - Holographic Surveillance Room
+            - Quantum Encryption Chamber
+            - Invisibility Shield Control Room
+            - Galactic Prison Facility
+            - Alien Intrusion Detection Center
+            - Hyper-Advanced Defense Bunker
+            - Time-Loop Secured Archive
+        Medbay-and-Bioengineering-Lab:
+            - Advanced Regenerative Medical Bay
+            - Genetic Engineering Facility
+            - Cybernetic Prosthetics Workshop
+            - Nanobot Infirmary
+            - Alien Biotechnology Research Lab
+            - Neuroenhancement Chamber
+            - Telemedicine Teleportation Center
+            - Virtual Reality Healing Retreat
+            - Bio-Printed Organ Production Lab
+            - Robotic Surgery Theater
+        Alien-Encounters:
+            - Extraterrestrial Embassy
+            - Alien Diplomatic Meeting Room
+            - Intergalactic Communication Center
+            - Alien Artifact Exhibition Hall
+            - Interspecies Cultural Exchange Zone
+            - Galactic Peace Negotiation Chamber
+            - Alien Linguistics and Translation Lab
+            - Alien Abduction Research Chamber
+            - Galactic Council Assembly Room
+            - Alien Species Genetic Study Lab
+        Astrobiology-and-Xenobiology:
+            - Xenobotany Research Greenhouse
+            - Alien Microbial Study Lab
+            - Astroecology Research Habitat
+            - Exobiology and Alien Anatomy Lab
+            - Alien Wildlife Observation Deck
+            - Galactic Specimen Collection Room
+            - Extraterrestrial Geology Lab
+            - Xenophysiognomy and Non-Humanoid Studies Lab
+            - Alien Planet Simulation Chamber
+            - Alien Astrozoology Exhibit
+        Interstellar-Travel:
+            - Spaceship Bridge and Command Center
+            - Hyperdrive Engine Room
+            - Cryogenic Stasis Chamber
+            - Warp Core Reactor Facility
+            - Wormhole Navigation Control Room
+            - Zero-Gravity G-Force Simulation Chamber
+            - Intergalactic Navigation Observatory
+            - Alien Technology-Infused Propulsion Lab
+            - Wormhole Entry and Exit Point Hangar
+            - Subspace Communications Array
+        Exoplanetary-Exploration:
+            - Exoplanet Discovery and Observation Center
+            - Alien Ruins Archaeology Dig Site
+            - Robotic Planetary Exploration Rover Hangar
+            - Advanced Terrain Mapping and Analysis Lab
+            - Exotic Climate Simulation Chamber
+            - Alien Flora and Fauna Study Enclosure
+            - Celestial Phenomenon Observation Deck
+            - Alien Civilization Artifacts Exhibit
+            - Exoplanetary Weather and Storm Prediction Room
+            - Microgravity Geological Excavation Site
+        Space-Colony-and-Habitat:
+            - Space Colony Command and Control Center
+            - Habitat Engineering and Life Support Room
+            - Hydroponics and Food Production Facility
+            - Intra-stellar Power Generation Chamber
+            - Zero-Gravity Recreation and Exercise Area
+            - Astronaut Training and Simulation Hub
+            - Extraterrestrial Defense Perimeter Control
+            - Space Colony Communal Living Quarters
+            - Orbital Viewing and Stargazing Lounge
+            - Space Colony Medical Bay and Quarantine
+    rooms-cyberpunk:
+        Living-Spaces:
+            - Neon-lit Loft Apartment
+            - Tech-Integrated Smart Home
+            - Augmented Reality Entertainment Room
+            - Holographic Virtual Reality Chamber
+            - Cluttered Hacker's Hideout
+            - Futuristic Capsule Hotel Room
+            - Vertically Stacked Living Pods
+            - Underground Cyberpunk Bunker
+            - Floating Skybox Residence
+            - Ultra-Modern Modular Living Unit
+        Workspaces:
+            - Cybernetic Office Space
+            - High-Tech Co-Working Hub
+            - Virtual Boardroom with Holo-conferencing
+            - Cyberdeck-Controlled Command Center
+            - Immersive VR Design Studio
+            - Underground Cybercrime Den
+            - AI-driven R&D Lab
+            - Holographic Projection Mapping Studio
+            - Techno-Alchemist's Workshop
+            - Neon-lit Cyberpunk Bar and Club
+        Recreational:
+            - VR Gaming Parlor
+            - Neon Arcade Wonderland
+            - Holographic Nightclub
+            - Futuristic Cyber Spa Retreat
+            - Holodeck-style Simulation Room
+            - Hacking Challenge Arena
+            - Cybernetic Gym and Training Facility
+            - Augmented Reality Escape Room
+            - Virtual Racing Simulator
+            - Immersive Cyberpunk Theater
+        Security-and-Surveillance:
+            - Futuristic Cybersecurity Operations Center (SOC)
+            - High-Tech Surveillance Control Room
+            - Biometric Access Control Chamber
+            - Holographic Retina Scanner Vault
+            - Intrusion Detection System Hub
+            - AI-Driven Threat Analysis Chamber
+            - Cyber Defense War Room
+            - Drone Command and Control Center
+            - Secure Data Storage Vault
+            - Surveillance Drone Launch Pad
+        Medbay-and-Cybernetics-Lab:
+            - Advanced Cybernetics Implant Lab
+            - Biopunk Genetic Enhancement Facility
+            - Futuristic Prosthetics Workshop
+            - Nanotech Medical Treatment Room
+            - Cyberware Repair and Maintenance Center
+            - Neural Implant Calibration Chamber
+            - Biometric Health Monitoring Lab
+            - Brain-Computer Interface Testing Room
+            - Virtual Reality Therapy Space
+            - Cybernetic Enhancements Showroom
+        Cybernetics-and-Augmentation:
+            - Cyberware Modification Lab
+            - Neural Interface Calibration Room
+            - Bionic Limb Manufacturing Facility
+            - Cybernetic Enhancement Clinic
+            - Virtual Reality Neural Training Chamber
+            - Nanotech Implant Injection Suite
+            - Augmented Reality Calibration Room
+            - Cybernetic Prosthetics Showroom
+            - Holographic Augmentation Visualization Chamber
+            - Brain-Computer Interface Testing Lab
+        Darknet-and-Underground:
+            - Cybercrime Hideout and Server Farm
+            - Virtual Black Market Trading Hub
+            - Illegal Tech and Weapon Manufacturing Lab
+            - Secret Resistance Headquarters
+            - Underground VR Gaming Arena
+            - Discreet Holographic Projection Club
+            - Rogue AI Hackers Den
+            - VR Fight Club and Arena
+            - Cryptocurrency Laundering Facility
+            - Stealthy Spy Network Operations Center
+        Cyberpunk-Street-Scene:
+            - Neon-lit Night Market
+            - Hovering Vehicle Repair Garage
+            - Cybernetics Street Clinic
+            - Futuristic Food Cart Alley
+            - Holographic Graffiti Art Gallery
+            - Underground Cyberpunk Bar
+            - Virtual Reality Arcade
+            - Bionic Body Modding Studio
+            - High-tech Cyber Street Food Truck
+            - Augmented Reality Fashion Boutique
+        AI-and-Robotics:
+            - Advanced AI Research Laboratory
+            - Robotics and Android Assembly Line
+            - AI-controlled Automation Center
+            - Drone Control Room
+            - Sentient Robot Design Studio
+            - Holographic AI Communication Nexus
+            - Virtual Reality Simulation for AI Training
+            - Cybernetic Animal Companion Lab
+            - Android Repair and Maintenance Shop
+            - AI Art and Creativity Showcase
+        Cyberspace-and-Virtual Worlds:
+            - Immersive Virtual Reality Hub
+            - Cybernetic Consciousness Upload Chamber
+            - Virtual Cyberspace Bar and Lounge
+            - Hacking and Data Breach Simulation Room
+            - Futuristic MMO Gaming Universe
+            - Cybernetic Astral Projection Deck
+            - Virtual Reality Architectural Visualization Studio
+            - AI-generated Dream World Experience
+            - Time-distorted Virtual Reality Sandbox
+            - Futuristic Cyberspace DJ Club
+    rooms-magical:
+        Living-Spaces:
+            - Enchanted Forest Cottage
+            - Magical Wizard's Tower
+            - Fairy Glade Sanctuary
+            - Underwater Mermaid Grotto
+            - Elven Treehome Haven
+            - Dragon's Lair Retreat
+            - Celestial Starlit Chamber
+            - Timeless Fairy Tale Castle
+            - Mystical Crystal Cave Dwelling
+            - Unicorn Meadow Cottage
+        Workspaces:
+            - Sorcerer's Alchemy Lab
+            - Enchanted Book-filled Study
+            - Potion Brewing Chamber
+            - Crystal Ball Divination Room
+            - Runes and Sigils Workshop
+            - Magical Artifact Museum
+            - Enchanting Spellcasting Room
+            - Time-Weaving Chronomancer's Den
+            - Elven Lore Archive
+            - Dragon Oracle's Lair
+        Recreational:
+            - Wizarding Dueling Arena
+            - Enchanted Enigma Maze
+            - Faerie Dance and Music Hall
+            - Mystical Labyrinth of Illusions
+            - Unicorn Riding Adventure Park
+            - Magical Creature Menagerie
+            - Sorcerer's Dueling Club
+            - Time Traveler's Chrono Fair
+            - Celestial Celebria Carnival
+            - Dragon Racing Circuit
+        Security-and-Surveillance:
+            - Ancient Guardian Chamber
+            - Spell-protected Vault
+            - Golem Guarded Sanctuary
+            - Magical Barrier Control Room
+            - Phoenix Flame Defense Station
+            - Elven Archers Watchtower
+            - Wyvern Aerial Surveillance Nest
+            - Enchanted Mirror Scrying Room
+            - Shielded Charm Warded Fortress
+            - Time-looped Protective Sanctum
+        Healing-and-Potions:
+            - Healing Springs Sanctuary
+            - Herbalist's Apothecary
+            - Healing Crystal Infirmary
+            - Fairy Healer's Grove
+            - Dragon's Breath Healing Chamber
+            - Potion Mixing Laboratory
+            - Timeless Fountain of Rejuvenation
+            - Celestial Astral Projection Room
+            - Unicorn Tears Elixir Dispensary
+            - Enchanted Garden of Restoration
+        Transportation-and-Portals:
+            - Time-traveling Portal Room
+            - Magic Carpet Hangar
+            - Teleportation Nexus
+            - Dragon-Drawn Carriage Garage
+            - Celestial Starship Docking Bay
+            - Enchanted Portal Gateways
+            - Fairy Wings Air Terminal
+            - Ancient Rune-activated Doorway
+            - Unicorn-ride Gateway Arch
+            - Time-warping Pathway
+        Artifacts-and-Relics:
+            - Hall of Ancient Artifacts
+            - Crystal Skull Chamber
+            - Timeless Magical Art Gallery
+            - Celestial Reliquary
+            - Enchanted Totem Shrine
+            - Dragon Hoard Treasury
+            - Faerie Crown Jewels Vault
+            - Mystical Rune Stones Chamber
+            - Unicorn Horn Collection Room
+            - Time-traveling Trinket Repository
+        Guardians-and-Companions:
+            - Phoenix Roost and Aviary
+            - Elven Spirit Animal Grove
+            - Dragon Hatchery
+            - Celestial Sentinel Shrine
+            - Enchanted Familiar's Lair
+            - Fairy Court Gathering Place
+            - Sorcerer's Elemental Chambers
+            - Time-guardian Chrono Beasts' Den
+            - Unicorn Herd Sanctuary
+            - Mystical Guardian Golems' Chamber
+        Celestial-Observatories:
+            - Cosmic Stargazing Terrace
+            - Astral Constellations Dome
+            - Planetary Alignment Observatory
+            - Enchanted Aurora Observatory
+            - Starship Landing Pad and Dock
+            - Celestial Skywalking Platform
+            - Time-warp Viewing Deck
+            - Comet Chasing Chamber
+            - Moon and Sun Watching Loft
+            - Celestial Navigation Room
+        Chambers-of-Prophecy:
+            - Oracle's Hall of Foresight
+            - Crystal Ball Divination Chamber
+            - Time-scrolls Archives
+            - Celestial Star Maps Room
+            - Enchanted Tarot Reading Parlor
+            - Dragon Divination Lair
+            - Astral Projection Chamber
+            - Fairy Fortune-telling Nook
+            - Sorcerer's Destiny Weaving Chamber
+            - Mystical Time-loop Library
+        Feywild-Gardens:
+            - Enchanted Blossom Arboretum
+            - Timeless Enchanted Labyrinth
+            - Celestial Moonlit Garden
+            - Dragon Enclave Courtyard
+            - Fairy Glow Gardens
+            - Mystical Rainbow Meadow
+            - Starlight Gazing Glade
+            - Sorcerer's Elemental Garden
+    interior-design:
+        Furniture:
+            - Bed
+            - Sofa
+            - Table
+            - Chairs
+            - Desk
+            - Dresser
+            - Wardrobe
+            - Bookshelf
+            - Nightstand
+            - Coffee Table
+        Appliances:
+            - Refrigerator
+            - Oven/Stove
+            - Microwave
+            - Washing Machine
+            - Dryer
+            - Dishwasher
+            - Television
+            - Air Conditioner
+            - Heater
+            - Fan
+        Lighting:
+            - Ceiling Light
+            - Table Lamp
+            - Floor Lamp
+            - Wall Sconce
+            - Pendant Light
+            - Chandelier
+        Bedding-Linens:
+            - Bedsheets
+            - Blankets/Comforters
+            - Pillows
+            - Pillowcases
+            - Mattress
+            - Curtains
+            - Rugs
+        Storage-Organization:
+            - Closet Organizers
+            - Shoe Rack
+            - Storage Bins
+            - Hangers
+            - Drawer Organizers
+            - Shelves
+        Decor:
+            - Wall Art/Paintings
+            - Picture Frames
+            - Mirrors
+            - Vases
+            - Indoor Plants
+            - Clocks
+            - Decorative Cushions/Pillows
+            - Candles
+        Electronics:
+            - Laptop/Computer
+            - Smartphone
+            - Speakers
+            - Charging Station
+            - Alarm Clock
+        Kitchenware:
+            - Plates
+            - Bowls
+            - Cups/Glasses
+            - Cutlery (Forks, Knives, Spoons)
+            - Pots and Pans
+            - Cooking Utensils (Spatula, Ladle, etc.)
+            - Cutting Board
+        Bathroom-Essentials:
+            - Towels
+            - Hand Soap
+            - Shampoo and Conditioner
+            - Shower Curtain
+            - Toilet Paper
+            - Toothbrush and Toothpaste
+            - Hairdryer
+        Cleaning-Supplies:
+            - Broom and Dustpan
+            - Vacuum Cleaner
+            - Mop and Bucket
+            - Cleaning Cloths
+    interior-design-fictional:
+        Furniture:
+            - Table
+            - Chair
+            - Bed
+            - Bookshelf
+            - Wardrobe
+            - Desk
+            - Chest
+            - Mirror
+            - Couch
+            - Fireplace
+        Magical Artifacts:
+            - Wand
+            - Spellbook
+            - Potion Vials
+            - Crystal Ball
+            - Enchanted Amulet
+            - Magic Cauldron
+            - Magic Mirror
+            - Flying Broomstick
+            - Time-Turner
+            - Fairy Dust
+        Treasures:
+            - Golden Chalice
+            - Jeweled Crown
+            - Precious Gemstones
+            - Ancient Scrolls
+            - Magic Rings
+            - Valuable Artwork
+            - Pot of Gold
+            - Exquisite Fabrics
+            - Magical Artifacts
+        Technology:
+            - Computer Terminal
+            - Advanced Control Panels
+            - Laser Gun
+            - Holographic Projector
+            - Teleportation Device
+            - Cybernetic Implants
+            - Nanotechnology Devices
+            - Futuristic Gadgets
+        Ancient Relics:
+            - Mysterious Artifact
+            - Ancient Statue
+            - Weathered Map
+            - Lost Scroll
+            - Sacred Talisman
+            - Crumbling Idol
+            - Magical Runes
+            - Enigmatic Hieroglyphs
+        Mystical Creatures:
+            - Dragon Egg
+            - Phoenix Feathers
+            - Unicorn Horn
+            - Mermaid Scales
+            - Fairy Wings
+            - Griffin Feather
+            - Elf Elixir
+            - Troll's Treasure
+        Tools and Gadgets:
+            - Multi-tool
+            - Compass
+            - Spyglass
+            - Mechanized Gears
+            - Energy Crystals
+            - Traps and Snares
+            - Invisibility Cloak
+            - Mind-reading Device
+    light-sources-indoor:
+        natural:
+            - Sunlight through Windows
+            - Sunlight through Skylights
+            - Moonlight
+        fire:
+            - Fireplace
+            - Fire Pit
+            - Fire Torch or Tiki Torch
+            - Ethanol or Bioethanol Fireplace
+            - Candlelight
+            - Oil Lamps
+            - Gas Lanterns
+            - Kerosene Lamps
+            - Campfire
+            - Bonfire 
+        artificial:
+            - LED Bulbs
+            - Compact Fluorescent Lamps
+            - Halogen Bulbs
+            - Incandescent Bulbs
+            - High-Intensity Discharge Lamps
+            - Fluorescent Tubes
+            - Track Lighting
+            - Recessed Ceiling Lights
+            - Wall Sconces
+            - Pendant Lights
+            - Chandeliers
+        biological:
+            - Bioluminescent Organisms
+            - Algae Bioreactors for Lighting
+            - Bio-luminescent Mushrooms
+            - Jellyfish Gene Insertion
+    light-sources-outdoor:
+        natural:
+            - Sunlight
+            - Moonlight
+            - Starlight
+            - Northern Lights
+            - Bioluminescent Ocean Waves
+            - Fireflies
+            - Glow-in-the-Dark Insects
+            - Reflective Moonlight on Snow
+            - Twilight
+        artificial:
+            - LED Outdoor Lights
+            - Solar-Powered Lights
+            - Halogen Floodlights
+            - Incandescent Outdoor Lamps
+            - Fluorescent Outdoor Fixtures
+            - Outdoor Chandeliers
+            - String Lights (Fairy Lights)
+            - Pathway Lights
+            - Wall-Mounted Sconces
+            - In-Ground Well Lights
+            - Bollard Lights
+        biological:
+            - Bioluminescent Organisms
+            - Bio-luminescent Algae
+            - Glow-in-the-Dark Plants
+            - Bioluminescent Jellyfish
+            - Bioluminescent Fungi
+            - Luminescent Deep-Sea Creatures
+            - Glow-in-the-Dark Insects
+            - Bioluminescent Phytoplankton
+        fire type:
+            - Outdoor Fire Pit
+            - Tiki Torches with Fire
+            - Outdoor Fireplace
+            - Gas Lanterns
+            - Oil Lamps
+            - Campfires
+            - Bonfires
+            - Torches (Traditional or Modern)
+            - Fire Bowls
+            - Chimineas
+            - Lanterns with Real Flames
+    lighting:
+        indoor:
+            - Ambient Lighting
+            - Task Lighting
+            - Accent Lighting
+            - Chandeliers
+            - Pendant Lights
+            - Wall Sconces
+            - Track Lighting
+            - Recessed Lighting
+            - Table Lamps
+            - Floor Lamps
+            - Under-Cabinet Lighting
+            - Cove Lighting
+            - Wall Washers
+            - Picture Lights
+            - Strip Lights (LED strips)
+            - Night Lights
+            - Fiber Optic Lighting
+            - Smart Lighting
+        outdoor:
+            - Pathway Lighting
+            - Landscape Lighting
+            - Floodlights
+            - Security Lighting
+            - Wall-Mounted Lanterns
+            - Bollard Lights
+            - Deck and Step Lights
+            - In-Ground Well Lights
+            - String Lights (Fairy Lights)
+            - Wall Washers (Exterior)
+            - Spotlights
+            - Garden Lighting
+            - Pond and Pool Lighting
+            - Patio Umbrella Lights
+            - Solar Garden Lights
+            - Motion Sensor Lights
+            - Lanterns (Traditional or Modern)
+            - Gas Lanterns (Outdoor)
+            - Flame Lights
+        specialized:
+            - Bar Lighting
+            - Rim Lighting
+            - Wall Grazing
+            - Wall Washing
+            - Downlighting
+            - Uplighting
+            - Footlighting
+            - Cove Lighting
+            - Neon Lights
+            - Rope Lights
+            - Black Lights
+            - Strobe Lights
+            - Gobo Lighting
+            - Moving Head Lights
+            - Pin Spot Lighting
+            - Laser Lights
+    features:
+        tiny:
+            - Compact and Colorful Facades
+            - Adorable Window Flower Boxes
+            - Rustic Wooden Shutters
+            - Quaint Gabled Roof
+            - Cute Front Porch or Veranda
+            - Charming Bay Windows
+            - Decorative Carved Doors
+            - Cozy Window Seats
+            - Slanted Skylights for More Headroom
+            - Unique Tiny Tower or Turret
+            - Lofts or Mezzanines
+            - Large Windows to Maximize Natural Light
+            - Sliding Glass Doors to Connect Indoor and Outdoor Spaces
+            - Cozy Fireplace or Wood-Burning Stove
+            - Charming Exterior Trim and Details
+        small:
+            - Architectural Recesses and Projections
+            - Elegant French Doors
+            - Stylish Sash Windows
+            - Tasteful Wrought Iron Balconies
+            - Artistic Glass Art Installations
+            - Intricate Fretwork or Lattice Work
+            - Beautifully Landscaped Entryways
+            - Classic Round or Octagonal Turrets
+            - Quirky Roof Cupolas
+            - Decorative Dormer Windows
+            - Contemporary Architectural Elements (e.g., Flat Roofs, Clean Lines)
+            - Floor-to-Ceiling Windows for Panoramic Views
+            - Rooftop Gardens or Green Spaces
+            - Juliet Balconies or Small Terraces
+            - Unique Façade Finishes (e.g., Wood Cladding, Stucco)
+        medium:
+            - Striking Glass Curtain Walls
+            - Impressive Rotundas or Domes
+            - Grand Staircases in Foyers
+            - Ornate Terracotta or Stone Carvings
+            - Decorative Roof Cresting or Finials
+            - Eye-catching Metal Cladding Patterns
+            - Multi-Pane Arched Windows
+            - Architectural Pediments or Porticos
+            - Beautifully Sculpted Columns
+            - Geometric Patterned Exterior Tiles
+            - Grand Entrance Foyers
+            - Atriums or Skylights for Natural Light in Common Areas
+            - Artistic Murals or Sculptures as Focal Points
+            - Glass-Walled Meeting or Conference Rooms
+            - Rooftop Bars or Restaurants
+        big:
+            - Iconic Arched or Cable-Stayed Bridges
+            - Towering Flagpoles or Flag Towers
+            - Elaborate Exterior Mosaics or Murals
+            - Magnificent Dome Roofs
+            - Decorative Metal Grilles on Facades
+            - Prominent Clock Faces or Clock Towers
+            - Graceful Flying Buttresses
+            - Striking Diagrid Facades
+            - Sculptural Wind Turbines (Sustainable Buildings)
+            - Unique Structural Cantilevers
+            - Impressive Lobby Areas with Water Features
+            - Striking Façade Cladding (e.g., Glass Curtain Walls)
+            - Landscaped Rooftop Gardens
+            - Dramatic Lighting Effects on Building Exteriors
+            - Unique Sculptures or Installations in Public Spaces
+        huge:
+            - Sky-High Observation Decks with Panoramic Views
+            - Glowing Illuminated Facades (Light Shows)
+            - Vast Roof Gardens with Recreational Spaces
+            - Artistic LED Screen Displays
+            - Massive Exterior Wall Murals
+            - Striking Cantilevered Sections
+            - Iconic Spire or Minaret
+            - Expansive Reflecting Pools or Water Features
+            - Architectural Helical Ramps
+            - Sculptural Solar Panels as Building Skin
+            - Iconic Crown or Spire as a Landmark
+            - Observatory Decks for Panoramic Views
+            - Large-scale Murals or Frescoes on Building Facades
+            - Elaborate Exterior Decorations (e.g., Carvings, Gargoyles)
+            - Architectural Lighting for Nighttime Illumination
+        large:
+            - Striking Suspension Bridges
+            - Massive Smokestacks or Chimneys (Industrial Complexes)
+            - Distinctive Roof Trusses or Arch Structures
+            - Unique Façade Textures (e.g., Corrugated Metal)
+            - Decorative Art Deco Facades
+            - Towering Communication Antennas
+            - Stately Entrance Gates or Portals
+            - Monumental Statues or Sculptures
+            - Impressive Barrel Vault Ceilings
+            - Historic Mosaics or Frescoes
+            - Majestic Arched Entryways (e.g., Bridge Tunnels)
+            - Large Smokestacks or Chimneys (Power Plants)
+            - Aesthetic Pedestrian Bridges (e.g., Skywalks)
+            - Striking Clock Towers or Bell Towers
+            - Unique Roofs (e.g., Geodesic Domes)
+        mega:
+            - Futuristic Sky Bridges Connecting Towers
+            - Immense Artistic LED Façade Displays
+            - Spectacular Atriums with Living Trees
+            - Gigantic Rooftop Helipads
+            - Landmark Central Waterfalls or Fountains
+            - Enormous Interactive Media Walls
+            - Floating Solar Farms (Megastructures)
+            - Striking Skyscraper Diagrids
+            - Iconic Eco-Friendly Green Roofs
+            - Avant-Garde 3D-Printed Architecture
+            - Futuristic and Avant-Garde Design Elements
+            - Massive Central Atrium Spaces
+            - Enormous Roof Gardens or Green Roofs
+            - Architectural Lighting for Dramatic Night Displays
+            - Immersive Interactive Façades (e.g., LED Screens)
+properties:
+    patterns:
+        tapestry:
+            - Plain Weave
+            - Soumak Weave
+            - Slit Weave
+            - Rya Knots
+            - Herringbone Weave
+            - Basket Weave
+            - Eccentric Wefts
+            - Inlay Weave
+            - Tapisserie Basse
+            - Tapestry Rosepath
+            - Tapestry Samitum
+            - Warp-Faced Technique
+            - Weft-Faced Technique
+            - Brocading
+            - Pick and Pick
+            - Tapestry Pile Weave
+            - Beiderwand
+            - Chenille Weave
+            - Cut Pile
+            - Dobby Weave
+            - Eccentric Wefts
+            - Felted Tapestry
+            - Ghiordes Knot
+            - Kilim Weave
+            - Loom-Controlled Shifting
+            - Manikin Technique
+            - PatteTissage
+            - Russian Tapestry Weave
+            - Slit & Interlock
+            - Shaft Switching Technique
+            - Soumak with Twinning
+            - Swedish Weave
+            - Tapestry on Opposite Warps
+            - Tied Rya Knots
+            - Triangular Tapestry
+            - Turned Taquete
+            - Woven and Embroidered Tapestries
+            - Warp Interlock
+            - Weft Interlock
+            - Egyptian Knots
+            - Bead Weaving
+            - Twill Weave
+            - Needle Weaving
+            - Leno Weave
+            - Tapestry with Gauze Overlay
+            - Double Weave
+            - Tapestry with Velvet Pile
+            - Tapestry with Cut and Drawn Work
+            - Moquette Weave
+            - Jacquard Weave
+            - Tapestry with Laid-in Yarns
+            - Warp Painting
+            - Pile Weave
+            - Tapestry with Slit Soumak
+            - Gothic Tapestry Weave
+            - Tapestry with Collage
+            - Tapestry with Felt Inlay
+            - Laid-in Weft Patterning
+            - Ecclesiastical Tapestry Weave
+            - Overshot Weave
+            - Tapestry with Wrapped Cords
+            - Tapestry with Metal Threads
+            - Stained Glass Tapestry Weave
+            - Hand-Dyed Tapestry
+            - Indian Tapestry Weave
+            - Pictorial Tapestry Weave
+    materials-construction:
+        stones:
+            - Granite
+            - Marble stone
+            - Limestone
+            - Sandstone
+            - Slate
+            - Basalt stone
+            - Travertine stone
+            - Gneiss
+            - Schist stone
+            - Quartzite stone
+            - Obsidian stone
+            - Pumice stone
+            - Soapstone stone
+            - Onyx stone
+            - Serpentine stone
+            - Dolomite stone
+            - Gabbro stone
+            - Rhyolite stone
+            - Andesite stone
+            - Diorite stone
+            - Conglomerate stone
+            - Breccia stone
+            - Lapis Lazuli
+            - Tuff stone
+            - Concrete
+            - Reinforced Concrete
+            - Precast Concrete
+            - Exposed Aggregate Concrete 
+        basic:
+            - Wood
+            - Steel
+            - Brick
+            - Glass
+            - Aluminum
+            - Plaster
+            - Gypsum Board
+            - Asphalt
+            - Terracotta
+            - Timber
+            - Cement Board
+            - Fiberglass
+            - Plywood
+            - Vinyl Siding
+            - Metal Cladding
+            - Ceramic Tiles
+            - Rubber Flooring
+            - Polycarbonate Panels
+            - Insulated Concrete Forms
+            - Composite Materials
+            - Plastic Lumber
+            - Fiber Cement Siding
+            - Metal Roofing Sheets
+            - Thatch
+            - Rammed Earth
+            - Cob
+            - Bamboo
+            - Prefabricated Materials
+        fictional:
+            - Starstone Bricks
+            - Moonlight Glass
+            - Dragon Scale Roofing
+            - Phoenix Feather Insulation
+            - Enchanted Wood Planks
+            - Unicorn Horn Beams
+            - Mermaid's Tears Tiles
+            - Fairy Dust Cement
+            - Time Crystal Facades
+            - Celestial Alloy Frames
+            - Warp Core Foundations
+            - Essence-infused Walls
+            - Elemental Gemstone Slabs
+            - Quantum Mesh Windows
+            - Wyvern Wing Shingles
+            - Leviathan Scale Siding
+            - Cosmic Energy Panels
+            - Dreamstone Pillars
+            - Elixir Stone Cladding
+            - Arcane Rune Flooring
+            - Galaxy Marble Columns
+            - Void Stone Foundations
+            - Nebula Fabric Roofs
+            - Luminous Pearl Pathways
+            - Stardust Bricks
+            - Crystal Prism Glass
+            - Phoenix Ember Roofing
+            - Enchanted Ironwood Planks
+            - Griffin Feather Insulation
+            - Mermaid Scale Tiles
+            - Faerie Silk Cement
+            - Celestial Steel Frames
+            - Timeless Stone Facades
+            - Seraphic Halo Beams
+            - Etherium Reinforcements
+            - Spectral Essence Walls
+            - Dragonfire Glass Panels
+            - Cosmic Veil Windows
+            - Moonstone Slabs
+            - Eldritch Timber Siding
+            - Starfall Cladding
+            - Enigma Stone Flooring
+            - Arcanite Gargoyle Pillars
+            - Ethereal Glowstone Lanterns
+            - Auroral Prism Roof Panels
+            - Wyrmstone Archways
+            - Celestium Reinforced Foundations
+            - Mithril Alloy Beams
+            - Celestial Crystal Pavers
+        cyberpunk:
+            - Carbon Nanotube Reinforced Concrete
+            - Graphene-infused Polymer Sheets
+            - Nanoceramic Building Panels
+            - Nanofiber-reinforced Plastics
+            - High-strength Nanotube Girders
+            - Bio-engineered Glow-in-the-dark Paints
+            - Bioluminescent Photoluminescent Pavers
+            - Illuminated Bioluminescent Signage
+            - Bioluminescent Fiber-optic Threads
+            - Quantum Nanowire Power Cables
+            - Quantum Nanowire Data Transmission Lines
+            - Electrochromic Smart Glass Windows
+            - Holographic Projector Walls
+            - Transparent OLED Screens
+            - Ferrofluid-based Building Foundation
+            - Magnetic Levitation Structural Support
+            - AR-enabled Building Facades
+            - Dynamic Augmented Reality Cladding
+            - Virtual Reality Construction Planning
+            - VR Architectural Design Visualization
+            - Self-healing Concrete
+            - Self-repairing Nanogels for Facades
+            - Electroactive Shape-changing Facades
+            - Smart Electroactive Building Skins
+            - Anti-gravity Building Platforms
+            - Hovering Elevators
+        scifi:
+            - Titanium-Lithium Matrix
+            - Carbon-Nanotube Infused Alloys
+            - Hypersteel Reinforcements
+            - Quantum-Metallic Composites
+            - Electromagnetic Reinforced Plastics
+            - Nanofiber-reinforced Polymer Sheets
+            - Self-assembling Nanobots
+            - Nanoceramic Coatings
+            - Programmable Smart Nanomaterials
+            - Self-repairing Nanite-infused Structures
+            - Bioluminescent Photoluminescent Pavers
+            - Bioregenerative Living Walls
+            - Bio-adaptable Shape-shifting Facades
+            - Genetically Enhanced Biomaterials
+            - Bio-organic Smart Glass
+            - Quantum Computing Building Brains
+            - Quantum Entangled Teleportation Hubs
+            - Quantum Encryption Infrastructure
+            - Quantum-controlled Smart Grids
+            - Quantum-Infused Artificial Intelligence
+            - Interactive Holographic Building Skins
+            - Holographic Solar Absorbers
+            - Hologram Projector Architectural Elements
+            - Holo-Integrated Communication Panels
+            - Holographic Simulation Construction Planning
+            - Plasma-Generated Force Fields
+            - Electromagnetic Pulse Resilient Structures
+            - Plasma-Reflective Exterior Coatings
+            - Magnetic Shielding Architecture
+            - Electromagnetic Disguise Camouflage
+            - Hyper-Responsive Tinting Windows
+            - Smart Glass with Adaptive Transparency
+            - Photovoltaic Solar-Collecting Surfaces
+            - Temperature Regulating Glass Coatings
+            - Dynamic Light Manipulation Panels
+            - Nanofluid-based Heat Exchange Coils
+            - Quantum-Cooled Supercomputing Rooms
+            - Self-adjusting Nanofluidic Climate Control
+            - Nano-enhanced Thermal Insulation
+            - Advanced Nanocoolant Infrastructure
+            - Antigravity Suspension Platforms
+            - Levitating Structural Support Systems
+            - Graviton Stabilized Buildings
+            - Levitation Assisted Elevators
+            - Magnetic Hoverpads and Walkways
+        roofing:
+            - Asphalt Shingles
+            - Metal Roofing
+            - Clay Tiles
+            - Slate Tiles
+            - Concrete Tiles
+            - Wood Shingles or Shake
+            - Rubber Roofing
+            - Polycarbonate Roofing
+            - Thatch Roofing
+            - Green Roofing
+        Insulation:
+            - Fiberglass Insulation
+            - Cellulose Insulation
+            - Mineral Wool Insulation
+            - Spray Foam Insulation
+            - Reflective Foil Insulation
+            - Expanded Polystyrene
+            - Extruded Polystyrene
+            - Polyurethane Insulation
+            - Cotton Insulation (Recycled Cotton)
+        Flooring:
+            - Hardwood
+            - Laminate
+            - Vinyl
+            - Ceramic Tiles
+            - Porcelain Tiles
+            - Natural Stone Tiles (excluding those mentioned before)
+            - Concrete Flooring
+            - Bamboo Flooring
+            - Cork Flooring
+            - Linoleum Flooring
+            - Rubber Flooring
+            - Carpet
+            - Terrazzo Flooring
+            - Engineered Wood Flooring
+            - Luxury Vinyl Tiles
+            - Epoxy Flooring
+styles:
+    art-styles:
+        - Prehistoric Art
+        - Ancient Egyptian Art
+        - Ancient Greek Art
+        - Roman Art
+        - Byzantine Art
+        - Medieval Art
+        - Renaissance Art
+        - Baroque Art
+        - Rococo Art
+        - Neoclassical Art
+        - Romanticism
+        - Realism
+        - Impressionism
+        - Post-Impressionism
+        - Expressionism
+        - Cubism
+        - Surrealism
+        - Abstract Expressionism
+        - Pop Art
+        - Minimalism
+        - Conceptual Art
+        - Postmodernism
+        - Contemporary Art
+        - sci-fi
+        - cyberpunk
+        - Realism
+        - Impressionism
+        - Post-Impressionism
+        - Cubism
+        - Surrealism
+        - Abstract Expressionism
+        - Pop Art
+        - Minimalism
+        - Art Nouveau
+        - Romanticism
+        - Baroque
+        - Rococo
+        - Renaissance
+        - Gothic
+        - Fauvism
+        - Dadaism
+        - Pointillism
+        - Symbolism
+        - Photorealism
+        - Constructivism
+        - Abstract Art
+        - Op Art
+        - Futurism
+        - Art Deco
+        - Expressionism
+        - Neoclassicism
+        - Indigenous Art
+        - Afrofuturism
+        - Digital Art
+        - Street Art
+        - Land Art
+        - Installation Art
+        - Conceptual Art
+        - Environmental Art
+        - Performance Art
+        - Video Art
+        - Outsider Art
+        - Naïve Art
+        - Folk Art
+        - Graffiti Art
+        - Art Brut
+        - Tonalism
+        - Suprematism
+        - Fluxus
+        - Ashcan School
+        - Precisionism
+        - Neue Sachlichkeit (New Objectivity)
+        - Magic Realism
+        - Postmodernism
+        - Contemporary Art
+        - Installation Art
+        - Video Installation
+        - Landscapes
+        - Portraiture
+        - Still Life
+        - Trompe-l'oeil
+        - Hyperrealism
+        - Kinetic Art
+        - Body Art
+        - Bio Art
+        - Indigenous Art
+        - Chinese Ink Painting
+        - Japanese Ukiyo-e
+        - Persian Miniature
+        - Byzantine Art
+        - Egyptian Art
+        - Prehistoric Art
+        - Mosaic Art
+        - Mexican Muralism
+        - Social Realism
+        - Romantic Landscape
+        - Abstract Landscape
+        - Optical Art
+        - Kinetic Sculpture
+        - Photomontage
+        - Constructive Realism
+        - Neo-Expressionism
+        - Neue Wilde
+        - Street Photography
+        - Hyperpop Art
+        - Graffiti Writing
+        - Art Povera
+        - Happening
+        - Video Game Art
+        - Digital Painting
+        - Photographic Realism
+        - Postcolonial Art
+        - Installation Sculpture
+        - Geometric Abstraction
+        - Hard-Edge Painting
+        - Social Sculpture
+        - New Media Art
+        - Indigenous Australian Art
+        - Aboriginal Dot Painting
+        - Photocollage
+        - Neo-Pop Art
+        - Art Informel
+        - Color Field Painting
+        - Assemblage Art
+        - Stuckism
+    punk-styles:
+        - Biopunk
+        - Dieselpunk
+        - Atompunk
+        - Clockpunk
+        - Solarpunk
+        - Post-Apocalyptic
+        - Retrofuturism
+        - Tech Noir
+        - Cyber-occultism
+        - Neo-Noir
+        - sci-fi
+        - cyberpunk
+        - steampunk
+        - Post-Cyberpunk
+        - Biopunk
+        - Stonepunk
+        - Teslapunk
+        - Raypunk
+        - Decopunk
+        - Mythpunk
+        - Spacepunk
+        - Nanopunk
+        - Retro Cyberpunk
+        - Robotpunk
+        - Vaporwave
+        - Glitch Art
+        - Post-Apocalyptic
+        - Tech Noir
+        - Solarwave
+random:
+    materials-indoor:
+        - "{1-3$$ and $$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
+    materials-outdoor:
+        - "{1-3$$ and $$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
+    light-source-indoor:
+        - __constructions/light-sources-indoor/*__
+    light-source-outdoor:
+        - __constructions/light-sources-outdoor/*__
+    lighting-indoor:
+        - "{1-2$$ and $$__random/light-source-indoor__}, {__constructions/lighting/indoor__|__constructions/lighting/specialized__}"
+    lighting-outdoor:
+        - "{1-2$$ and $$__random/light-source-outdoor__}, {__constructions/lighting/outdoor__|__constructions/lighting/specialized__}"
+    interior-design:
+        - "{1-5$$__constructions/interior-design/*__}"
+    interior-design-fictional:
+        - "{1-5$$__constructions/interior-design*/*__}"
+    rooms:
+        - __constructions/rooms/*__, __random/interior-design__, __random/materials-indoor__, __random/lighting-indoor__
+    rooms-fictional:
+        - __constructions/rooms*/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__
+    rooms-cyberpunk:
+        - __constructions/rooms-cyberpunk/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, cyberpunk, sci-fi
+    rooms-scifi:
+        - __constructions/rooms-scifi/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__, sci-fi
+    rooms-magical:
+        - __constructions/rooms-magical/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, fantasy
+    buildings:
+        - "__constructions/types/*__, {1-3$$__properties/materials-construction/basic__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+    buildings-fictional:
+        - "__constructions/types*/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+    buildings-cyberpunk:
+        - "__constructions/types-cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+    buildings-scifi:
+        - "__constructions/types-scifi/*__, {1-3$$__properties/materials-construction/scifi__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+    buildings-magical:
+        - "__constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
