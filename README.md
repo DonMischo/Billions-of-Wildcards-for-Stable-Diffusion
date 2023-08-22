@@ -1,3 +1,722 @@
-# Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
+### Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
 Checkout the Descriptions at civitai.
 Detailed readme coming soon
+
+
+## Content
+# Billions of Characters
+```
+BoChars:
+    female:
+        modern:
+        BoConstructions:
+    male:
+        modern:
+        BoConstructions:
+    div:
+    random:
+clothings:
+    female-attire:
+    male-attire:
+    female:
+        upper-body:
+        lower-body:
+        footwear:
+        headwear:
+    male:
+        upper-body:
+        lower-body:
+        footwear:
+        headwear:
+    unisex:
+        backwear:
+        facewear:
+        accesoires:
+        neckwear:
+person:
+    female:
+    male:
+    ages:
+    bodyshapes:
+    ears:
+    noses:
+    chin:
+    jaw:
+    cheek:
+    forehead:
+    face-shape:
+    body-feature:
+    expressions:
+    ethnics:
+    eyecolor:
+    haircolor:
+    haircolor-unconv:
+    facial-features:
+    haircuts-female:
+    haircuts-male:
+    makeup:
+    beard:
+    poses:
+properties:
+    colors:
+        common:
+        fashion:
+        special:
+    patterns:
+        2Dshapes:
+        3Dshapes:
+        lines:
+        clothing:
+    fabric:
+matter:
+    state:
+    movement1:
+    movement2:
+random:
+    color:
+    dress-properties:
+    accesoires:
+    haircolor:
+scenes:
+    dark:
+    gates_magical:
+    heaven:
+    hell:
+    light:
+    nature:
+    sky-space:
+    underground:
+    underwater:
+```
+
+# Billions of Characters - Magic extension
+```
+BoCharsMag:
+    female:
+        classic:
+        modern:
+        scenery:
+        BoConstructions:
+    male:
+        classic:
+        modern:
+        scenery:
+        BoConstructions:
+    div:
+    random:
+clothings-magical:
+    female-attire:
+    male-attire:
+    female:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    male:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    unisex:
+        accesoires:
+        backwear:
+        facewear:
+        neckwear:
+person-magical:
+    female:
+    male:
+    poses:
+    wings:
+magical:
+    magic:
+    types:
+        air:
+        dark:
+        divination:
+        dream:
+        earth:
+        elemental:
+        fire:
+        gravity:
+        ice:
+        illusion:
+        light:
+        lightning:
+        metal:
+        nature:
+        shadow:
+        tech:
+        time:
+        transmutation:
+        water:
+    beings:
+    elemental:
+    lighting:
+    profession:
+        crafter:
+        caster:
+        knowledge:
+        nature:
+        dark:
+        light:
+        illusion:
+        technomancy:
+    profession-magic-use:
+        crafter:
+        caster:
+        knowledge:
+        nature:
+        dark:
+        light:
+        illusion:
+        technomancy:
+    words:
+        adjectives:
+        substantives:
+        verbs:
+properties:
+    materials-magic:
+        ingredients:
+phenomena:
+    natural:
+    abstract:
+random:
+    accesoires-magical:
+    properties-magical:
+    profession-magic:
+```
+
+# Billions of Characters - SciFi extension
+```
+BoCharsScifi:
+    female:
+        classic:
+        scenery:
+        BoConstructions:
+    male:
+        classic:
+        scenery:
+        BoConstructions:
+    random:
+clothings-scifi:
+    female-attire:
+    male-attire:
+    female:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    male:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    unisex:
+        accesoires:
+        backwear:
+        facewear:
+        neckwear:
+person-scifi:
+    female:
+    male:
+    poses:
+    equipment:
+    wings:
+scifi:
+    types:
+    beings:
+    lighting:
+    profession:
+        Technology:
+        Exploration:
+        Medicine:
+        Law-and-Order:
+        Entertainment:
+        Terraforming:
+        Commerce:
+        Military:
+        Communication:
+        Archaeology:
+    words:
+        adjectives:
+        substantives:
+        verbs:
+phenomena:
+    natural-scifi:
+    abstract-scifi:
+properties:
+    pattern:
+        clothing-scifi:
+    fabric-scifi:
+scenes-scifi:
+    Futuristic-Cityscape:
+    Alien-Planet-Exploration:
+    Space-Station-Interiors:
+    Cyberpunk-Streets:
+    Galactic-Space-Battles:
+    Post-Apocalyptic-Wasteland:
+    AI-Dominance:
+    Interstellar-Travel:
+    AI-Integration:
+random:
+    accesoires-scifi:
+    dress-properties-scifi:
+    profession-scifi:
+```
+
+# Billions of Characters - Cyberpunk extension
+```
+BoCharsCyberpunk:
+    female:
+        classic:
+        scenery:
+        BoConstructions:
+    male:
+        classic:
+        scenery:
+        BoConstructions:
+    random:
+clothings-cyberpunk:
+    female-attire:
+    male-attire:
+    female:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    male:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    unisex:
+        accesoires:
+        backwear:
+        facewear:
+        neckwear:
+person-cyberpunk:
+    female:
+    male:
+    poses:
+    equipment:
+    wings:
+cyberpunk:
+    types:
+    beings:
+    lighting:
+    profession:
+        Cybernetic-Enhancement:
+        Information-Brokers:
+        Corporate:
+        Outlaws:
+        Medics:
+        Artists:
+        Mercenaries:
+        Investigators:
+        Engineers:
+        Designers:
+    words:
+        adjectives:
+        substantives:
+        verbs:
+properties:
+    patterns:
+        clothing-cyberpunk:
+    fabric-cyberpunk:
+phenomena:
+    natural:
+    abstract:
+scenes-cyberpunk:
+    Urban Dystopia:
+    Cybernetic Augmentation:
+    Virtual Reality Matrix:
+    Tech Noir Nightclub:
+    Corporate Mega-Corporations:
+    Underground Resistance:
+    Cyberpunk Noir Detective:
+    Techno-Militarized Zone:
+    Artificial Intelligence Uprising:
+    Post-Apocalyptic Cyberworld:
+random:
+    accesoires-cyberpunk:
+    dress-properties-cyberpunk:
+    profession-cyberpunk:
+```
+
+# Billions of Characters - NSFW clothing
+```
+clothings-nsfw:
+    female-attire:
+    male-attire:
+    female:
+        upper-body:
+        full-body:
+        lower-body:
+        underwear-upper:
+        underwear-lower:
+        footwear:
+        headwear:
+    male:
+        upper-body:
+        full-body:
+        lower-body:
+        footwear:
+        headwear:
+    unisex:
+        accesoires:
+        backwear:
+        facewear:
+        neckwear:
+person-nsfw:
+    poses:
+NSFW:
+    lighting:
+    materials:
+    words:
+        adjectives:
+        substantives:
+        verbs:
+properties:
+    patterns:
+        animal-print:
+random:
+    dress-properties-nsfw:
+    accesoires-nsfw:
+```
+
+# Billions of Styles
+```
+BoStyles:
+    random-anything:
+    random-artstyle:
+    random-punk-styles:
+    random-atmosphere:
+    random-atmosphere-Light:
+    random-atmosphere-Dark:
+    random-atmosphere-Colorful:
+    random-atmosphere-Intense:
+    random-atmosphere-Serene:
+    random-atmosphere-Cozy:
+    random-atmosphere-Mysterious:
+    random-atmosphere-Romantic:
+    random-atmosphere-Melancholic:
+    random-atmosphere-Magical:
+    random-atmosphere-Rustic:
+    random-atmosphere-Ethereal:
+    random-atmosphere-Dramatic:
+    random-atmosphere-Nostalgic:
+    random-atmosphere-Festive:
+    random-atmosphere-Minimalist:
+    random-atmosphere-Majestic:
+    random-atmosphere-Surreal:
+    random-atmosphere-Urban:
+    random-rendering:
+    random-rendering-Ray-Tracing:
+    random-rendering-Ambient-Effects:
+    random-rendering-Particles-and-Effects:
+    random-rendering-Lighting-Techniques:
+    random-rendering-Shading-Techniques:
+    random-rendering-Mapping-Techniques:
+    random-rendering-Post-Processing-Techniques:
+    random-rendering-Optimization-Techniques:
+    random-rendering-Artistic-Rendering:
+    random-graphic-engines:
+    random-image-styles:
+    random-image-techniques:
+    random-image-techniques-Traditional:
+    random-image-techniques-Digital:
+    random-image-techniques-Photographic:
+    random-image-techniques-Other:
+    random-depiction-styles:
+    random-depiction-styles-2D-Styles:
+    random-depiction-styles-3D-Styles:
+    random-depiction-styles-Historical:
+    random-depiction-styles-Digital-Modern-Styles:
+    random-animation-style:
+    random-ambient-effect:
+    random-quality-prompts:
+    random-resolution:
+    random-creative-concept:
+    random-camera-settings:
+styles:
+    art-styles:
+    punk-styles:
+    atmosphere:
+        Light:
+        Dark:
+        Colorful:
+        Intense:
+        Serene:
+        Cozy:
+        Mysterious:
+        Romantic:
+        Melancholic:
+        Magical:
+        Rustic:
+        Ethereal:
+        Dramatic:
+        Nostalgic:
+        Festive:
+        Minimalist:
+        Majestic:
+        Surreal:
+        Urban:
+        Mystical:
+    rendering-techniques:
+        Ray-Tracing:
+        Ambient-Effects:
+        Particles-and-Effects:
+        Lighting-Techniques:
+        Shading-Techniques:
+        Mapping-Techniques:
+        Post-Processing-Techniques:
+        Optimization-Techniques:
+        Artistic-Rendering:
+        Advanced-Rendering:
+    graphic-engines:
+    image-styles:
+    image-techniques:
+        Traditional:
+        Digital:
+        Photographic:
+        Other:
+    depiction-styles:
+        2D-Styles:
+        3D-Styles:
+        Historical:
+        Digital-Modern-Styles:
+    animations:
+    Ambient-Effects:
+    quality:
+        details:
+        styles:
+        sharp:
+        blur:
+    resolutions:
+    Creative-Concepts:
+    camera:
+        Camera:
+        Aperture-Settings:
+        Shutter-Speed:
+        ISO-Settings:
+        White-Balance:
+        Exposure-Settings:
+        Shooting-Modes:
+        Composition-Techniques:
+        Focus:
+        Metering:
+constructors:
+shape-tracing:
+surface-swap:
+```
+
+# Billions of Creatures
+```
+BoCreatures:
+    random:
+creatures:
+    size:
+    horns:
+    Mouth-Jaw:
+    traits:
+    descriptors:
+    Look-Feel:
+    nmbrlegs:
+    nmbrarms:
+    nmbrtails:
+    tails:
+    Appendages:
+    Body-Shapes:
+    Skin-Fur-Types:
+    Ear-Types:
+    wings:
+properties:
+    colors:
+        common:
+        animal-print:
+    Patterns:
+        unusual:
+```
+
+# Billions of Vehicles
+```
+# Billions of vehicles:
+BoVehicles:
+    random:
+    random-scifi:
+    random-notype:
+vehicles:
+    size:
+    types:
+        train:
+        space:
+        Cars:
+        Motorcycles:
+        Bicycles:
+        Heavy-Vehicles:
+        Public Transport:
+        Special-Purpose:
+        Fictional-Concept:
+        Airborne-Vehicles:
+        Flying-Car-Like-Vehicles:
+        Underwater-Vehicles:
+        Fictional-Underwater-Vehicles:
+        Underground-Vehicles:
+    exterior-features:
+    windows:
+    lights:
+    Accessories:
+    Customization:
+properties:
+    materials-vehicles:
+    Visual-Appearance:
+    paint-vehicle:
+    Texture-vehicles:
+```
+
+# Billions of Plants/Shrooms
+```
+BoPlants:
+    random-plant:
+    random-shroom:
+plants:
+    types:
+    Growth-Habit:
+    Leaf:
+    Flower:
+    Fruit:
+    Stem:
+    Foliage-Arrangement:
+    Inflorescence:
+    Leaf-Venation:
+    Sepal-Configuration:
+    Seed:
+    Leaf-Margin:
+    Leaf-Arrangement:
+mushrooms:
+    types:
+    Gill:
+    Veil:
+    Ring:
+    Bruising:
+    Annulus:
+    Volva:
+    Pileus:
+    Pores:
+    Hymenium:
+    Stipe-Base:
+    Latex:
+    Mycorrhizal-Association:
+    Habitat:
+    Growth-Form:
+    Bioluminescence:
+    Poisonous-Properties:
+    Medicinal-Properties:
+properties:
+    colors:
+        plants:
+        mushrooms:
+        Spore-Print:
+        Stipe:
+        Gill:
+    size:
+        plants:
+        mushrooms:
+    shape:
+        plants:
+        mushrooms:
+        leaf:
+        Petal:
+        stem:
+        bud:
+    texture:
+        stem:
+        mushrooms:
+        Bark:
+        plants:
+    pattern:
+        mushrooms:
+        plants:
+    structure:
+        root:
+```
+
+# Magic Only
+```
+magic:
+    magic:
+    words:
+        adjectives:
+        substantives:
+        verbs:
+        colors:
+            common:
+            fashion:
+            special:
+        patterns:
+            2Dshapes:
+            3Dshapes:
+            lines:
+        materials-magic:
+    phenomena:
+        natural:
+        abstract:
+        Phase-Changes:
+    matter:
+        state:
+        movement1:
+        movement2:
+```
+
+# Dr.Derp cards
+```
+dr.derp-hypernetworks:
+    front-shot:
+        full-body:
+        medium-shot:
+        cowboy-shot:
+        upper-body-shot:
+        close-up-shot:
+        extreme-close-up-shot:
+    side-shot:
+        full-body:
+        medium-shot:
+        cowboy-shot:
+        upper-body-shot:
+        close-up-shot:
+        extreme-close-up-shot:
+    profile-shot:
+        full-body:
+        medium-shot:
+        cowboy-shot:
+        upper-body-shot:
+        close-up-shot:
+        extreme-close-up-shot:
+    back-side-shot:
+        full-body:
+        medium-shot:
+        cowboy-shot:
+        upper-body-shot:
+        close-up-shot:
+        extreme-close-up-shot:
+    back-shot:
+        full-body:
+        medium-shot:
+        cowboy-shot:
+        upper-body-shot:
+        close-up-shot:
+        extreme-close-up-shot:
+weight:
+    strong:
+    moderate:
+    medium:
+    modest:
+    weak:
+```
+
