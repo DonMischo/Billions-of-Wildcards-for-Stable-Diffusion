@@ -2,9 +2,9 @@
 Checkout the Descriptions at civitai.
 Detailed readme coming soon
 
-
 ## Content
 ### Billions of Characters
+https://civitai.com/models/112041
 ```
 BoChars:
     female:
@@ -90,6 +90,7 @@ scenes:
 ```
 
 ### Billions of Characters - Magic extension
+https://civitai.com/models/111567
 ```
 BoCharsMag:
     female:
@@ -189,6 +190,7 @@ random:
 ```
 
 ### Billions of Characters - SciFi extension
+https://civitai.com/models/115270
 ```
 BoCharsScifi:
     female:
@@ -269,6 +271,7 @@ random:
 ```
 
 ### Billions of Characters - Cyberpunk extension
+https://civitai.com/models/115274
 ```
 BoCharsCyberpunk:
     female:
@@ -349,7 +352,208 @@ random:
     profession-cyberpunk:
 ```
 
+### Billions of Constructions
+https://civitai.com/models/115641
+```
+BoConstructions:
+    building-standard:
+    building-cyberpunk:
+    building-scifi:
+    building-magical:
+    room-standard:
+    room-cyberpunk:
+    room-scifi:
+    room-magical:
+    random-building:
+    random-room:
+    random:
+    random-standard:
+constructions:
+    types:
+        Residential-Buildings:
+        Commercial-Buildings:
+        Educational-Buildings:
+        Healthcare-Buildings:
+        Industrial-Buildings:
+        Recreational-Buildings:
+        Government-Buildings:
+        Religious-Buildings:
+        Transportation-Buildings:
+        Special Purpose-Buildings:
+    types-fictional:
+        residential:
+        commercial:
+        governmental:
+        educational:
+        recreational:
+        industrial:
+    types-cyberpunk:
+        Corporate-Megatowers:
+        Underground-Cyber-Bunkers:
+        Arcade-and-Entertainment-Complexes:
+        High-Tech-Medical-Facilities:
+        Mega-Marketplaces-and-Bazaars:
+        Cyberpunk-Nightclubs:
+        Cyberspace-Data-Towers:
+        Cyberpunk-Residential-Complexes:
+        Cyberpunk-Street-Hangouts:
+        Cyberpunk-Factories-and-Assembly-Plants:
+    types-scifi:
+        Spaceship-Bridges-and-Command-Centers:
+        Interstellar-Research-and-Exploration:
+        Extraterrestrial-Diplomacy-and-Relations:
+        Futuristic-Cybernetic-Cities:
+        Advanced-Extraterrestrial-Labs:
+        AI-Controlled-Planetary-Defense:
+        Time-Travelling-Research-Facilities:
+        High-Tech-Cyber-Casinos:
+        Extraterrestrial-Artifact-Museums:
+        Interstellar-Transportation-Hubs:
+    types-magical:
+        Enchanted-Schools-of-Magic:
+        Celestial-Libraries-of-Knowledge:
+        Witch-Covens-and-Magical-Circles:
+        Fairy-Tale-Castles-and-Palaces:
+        Magical-Taverns-and-Inns:
+    rooms:
+        Service-Spaces:
+        Entertainment-Leisure-Spaces:
+        Utility-Spaces:
+        Common-Spaces:
+        Public-Spaces:
+        Living-Spaces:
+        Utility-Spaces:
+        Public-Spaces:
+        Work-Spaces:
+        Commercial-Spaces:
+        Educational-Spaces:
+        Healthcare-Spaces:
+        Recreational-Spaces:
+        Community-Spaces:
+        Transit-Spaces:
+        Outdoor-Spaces:
+    rooms-fictional:
+        Magical-Spaces:
+        Mystical-Spaces:
+        Fantasy-Spaces:
+        Sci-Fi-Spaces:
+        Adventure-Spaces:
+        Steampunk-Spaces:
+        Haunted-Spaces:
+        Futuristic-Spaces:
+    rooms-scifi:
+        Living-Spaces:
+        Workspaces:
+        Recreational:
+        Security-and-Surveillance:
+        Medbay-and-Bioengineering-Lab:
+        Alien-Encounters:
+        Astrobiology-and-Xenobiology:
+        Interstellar-Travel:
+        Exoplanetary-Exploration:
+        Space-Colony-and-Habitat:
+    rooms-cyberpunk:
+        Living-Spaces:
+        Workspaces:
+        Recreational:
+        Security-and-Surveillance:
+        Medbay-and-Cybernetics-Lab:
+        Cybernetics-and-Augmentation:
+        Darknet-and-Underground:
+        Cyberpunk-Street-Scene:
+        AI-and-Robotics:
+        Cyberspace-and-Virtual Worlds:
+    rooms-magical:
+        Living-Spaces:
+        Workspaces:
+        Recreational:
+        Security-and-Surveillance:
+        Healing-and-Potions:
+        Transportation-and-Portals:
+        Artifacts-and-Relics:
+        Guardians-and-Companions:
+        Celestial-Observatories:
+        Chambers-of-Prophecy:
+        Feywild-Gardens:
+    interior-design:
+        Furniture:
+        Appliances:
+        Lighting:
+        Bedding-Linens:
+        Storage-Organization:
+        Decor:
+        Electronics:
+        Kitchenware:
+        Bathroom-Essentials:
+        Cleaning-Supplies:
+    interior-design-fictional:
+        Furniture:
+        Magical Artifacts:
+        Treasures:
+        Technology:
+        Ancient Relics:
+        Mystical Creatures:
+        Tools and Gadgets:
+    light-sources-indoor:
+        natural:
+        fire:
+        artificial:
+        biological:
+    light-sources-outdoor:
+        natural:
+        artificial:
+        biological:
+        fire type:
+    lighting:
+        indoor:
+        outdoor:
+        specialized:
+    features:
+        tiny:
+        small:
+        medium:
+        big:
+        huge:
+        large:
+        mega:
+properties:
+    patterns:
+        tapestry:
+    materials-construction:
+        stones:
+        basic:
+        fictional:
+        cyberpunk:
+        scifi:
+        roofing:
+        Insulation:
+        Flooring:
+styles:
+    art-styles:
+    punk-styles:
+random:
+    materials-indoor:
+    materials-outdoor:
+    light-source-indoor:
+    light-source-outdoor:
+    lighting-indoor:
+    lighting-outdoor:
+    interior-design:
+    interior-design-fictional:
+    rooms:
+    rooms-fictional:
+    rooms-cyberpunk:
+    rooms-scifi:
+    rooms-magical:
+    buildings:
+    buildings-fictional:
+    buildings-cyberpunk:
+    buildings-scifi:
+    buildings-magical:
+```
+
 ### Billions of Characters - NSFW clothing
+https://civitai.com/models/115256
 ```
 clothings-nsfw:
     female-attire:
@@ -391,6 +595,7 @@ random:
 ```
 
 ### Billions of Styles
+https://civitai.com/models/117222
 ```
 BoStyles:
     random-anything:
@@ -517,6 +722,7 @@ surface-swap:
 ```
 
 ### Billions of Creatures
+https://civitai.com/models/130497
 ```
 BoCreatures:
     random:
@@ -545,6 +751,7 @@ properties:
 ```
 
 ### Billions of Vehicles
+https://civitai.com/models/131367
 ```
 # Billions of vehicles:
 BoVehicles:
@@ -581,6 +788,7 @@ properties:
 ```
 
 ### Billions of Plants/Shrooms
+https://civitai.com/models/132782
 ```
 BoPlants:
     random-plant:
@@ -648,6 +856,7 @@ properties:
 ```
 
 ### Magic Only
+https://civitai.com/models/111464
 ```
 magic:
     magic:
@@ -675,6 +884,7 @@ magic:
 ```
 
 ### Dr.Derp cards
+
 ```
 dr.derp-hypernetworks:
     front-shot:
