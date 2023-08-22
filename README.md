@@ -1,10 +1,10 @@
-### Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
+# Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
 Checkout the Descriptions at civitai.
 Detailed readme coming soon
 
 
 ## Content
-# Billions of Characters
+### Billions of Characters
 ```
 BoChars:
     female:
@@ -89,7 +89,7 @@ scenes:
     underwater:
 ```
 
-# Billions of Characters - Magic extension
+### Billions of Characters - Magic extension
 ```
 BoCharsMag:
     female:
@@ -188,7 +188,7 @@ random:
     profession-magic:
 ```
 
-# Billions of Characters - SciFi extension
+### Billions of Characters - SciFi extension
 ```
 BoCharsScifi:
     female:
@@ -268,7 +268,7 @@ random:
     profession-scifi:
 ```
 
-# Billions of Characters - Cyberpunk extension
+### Billions of Characters - Cyberpunk extension
 ```
 BoCharsCyberpunk:
     female:
@@ -349,7 +349,7 @@ random:
     profession-cyberpunk:
 ```
 
-# Billions of Characters - NSFW clothing
+### Billions of Characters - NSFW clothing
 ```
 clothings-nsfw:
     female-attire:
@@ -390,7 +390,7 @@ random:
     accesoires-nsfw:
 ```
 
-# Billions of Styles
+### Billions of Styles
 ```
 BoStyles:
     random-anything:
@@ -516,7 +516,7 @@ shape-tracing:
 surface-swap:
 ```
 
-# Billions of Creatures
+### Billions of Creatures
 ```
 BoCreatures:
     random:
@@ -544,7 +544,7 @@ properties:
         unusual:
 ```
 
-# Billions of Vehicles
+### Billions of Vehicles
 ```
 # Billions of vehicles:
 BoVehicles:
@@ -580,7 +580,7 @@ properties:
     Texture-vehicles:
 ```
 
-# Billions of Plants/Shrooms
+### Billions of Plants/Shrooms
 ```
 BoPlants:
     random-plant:
@@ -647,7 +647,7 @@ properties:
         root:
 ```
 
-# Magic Only
+### Magic Only
 ```
 magic:
     magic:
@@ -674,7 +674,7 @@ magic:
         movement2:
 ```
 
-# Dr.Derp cards
+### Dr.Derp cards
 ```
 dr.derp-hypernetworks:
     front-shot:
