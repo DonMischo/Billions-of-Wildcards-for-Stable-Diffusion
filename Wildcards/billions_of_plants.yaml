@@ -2,7 +2,11 @@
 BoPlants:
     random-plant:
         - "{
-        __plants/
+        __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ __plants/types__, 
+        __properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,
+        __properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,
+        __properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, __properties/pattern/*__,
+        __plants/Sepal-Configuration__, __plants/Foliage-Arrangement__
         }"
 plants:
     types:
@@ -370,7 +374,7 @@ plants:
         - Non-starchy Seeds
         - Albuminous Seeds
         - Non-albuminous Seeds
-    Leaf Margin:
+    Leaf-Margin:
         - Entire Leaf Margin
         - Toothed Leaf Margin
         - Lobed Leaf Margin
@@ -393,7 +397,7 @@ plants:
         - Wavy Leaf Margin
         - Repand Leaf Margin
         - Entirely Lobed Leaf Margin
-    Leaf Arrangement:
+    Leaf-Arrangement:
         - Alternate
         - Opposite
         - Whorled
