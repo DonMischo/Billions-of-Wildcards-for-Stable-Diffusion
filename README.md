@@ -1,3 +1,3 @@
-# Billions_of_Wildcards_Stable_Diffusion
+# Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
 Checkout the Descriptions at civitai.
 Detailed readme will follow
