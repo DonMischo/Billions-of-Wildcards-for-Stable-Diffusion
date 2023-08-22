@@ -2,11 +2,25 @@
 BoPlants:
     random-plant:
         - "{
-        __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ __plants/types__, 
-        __properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,
-        __properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,
-        __properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, __properties/pattern/*__,
-        __plants/Sepal-Configuration__, __plants/Foliage-Arrangement__
+        __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
+        {__properties/texture/stem__ __properties/shape/stem__ __plants/stem__, __properties/texture/bark__,|}
+        {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
+        {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
+        {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/pattern/plants__,|__properties/pattern/mushrooms__,}|}
+        {__plants/Sepal-Configuration__, __plants/Foliage-Arrangement__,|}
+        {__properties/structure/root__ root|}
+        }"
+    random-shroom:
+        - "{
+        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/texture/mushrooms__ mushroom,
+        __properties/texture/*__, __properties/pattern/*__, __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
+        {__mushrooms/Bioluminescence__,|}
+        {__properties/colors/*__ __mushrooms/gill__,|}
+            {1-2&&__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
+                __mushrooms/Hymenium__,| __mushrooms/Latex__
+            }
+        {__properties/colors/*__ __mushrooms/stipe__,|}
+        {{__mushrooms/Poisonous-Properties,|}|{__mushrooms/Medicinal-Properties,|}}
         }"
 plants:
     types:
@@ -994,7 +1008,7 @@ mushrooms:
         - Bluish
         - Pinkish
         - Blackish
-    Mycorrhizal Association:
+    Mycorrhizal-Association:
         - Symbiotic Connection
         - Root Interlocking
         - Mutualistic Relationship
@@ -1145,7 +1159,7 @@ mushrooms:
         - Emitting light
         - Biogenic light
         - Otherworldly glow
-    Poisonous Properties:
+    Poisonous-Properties:
         - Toxic
         - Venomous
         - Harmful
@@ -1178,7 +1192,7 @@ mushrooms:
         - Corroding agent
         - Lethal chemicals
         - Venomous essence
-    Medicinal Properties:
+    Medicinal-Properties:
         - Healing
         - Therapeutic
         - Medicinal
