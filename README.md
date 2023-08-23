@@ -1,7 +1,7 @@
 # Billions of Wildcards for Stable Diffusion Dynamic Prompts Extension
 Checkout the Descriptions at civitai.
 
-##Usage
+## Usage
 
 Unleash the full power:
 
