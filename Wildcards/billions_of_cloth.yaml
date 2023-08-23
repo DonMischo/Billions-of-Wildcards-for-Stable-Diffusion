@@ -1,297 +1,268 @@
 # billions of clothings
 BoCloth:
-    random-dress:
-        - "dress, __dress-features/Neckline-Styles__, 
-        __dress-features/Sleeve-Styles__ , 
-        {__dress-features/Dress-Lengths__ ,|__dress-features/Skirt-Styles__ ,} 
-        __dress-features/Waistlines__ , 
-        {__dress-features/Back-Designs__,|} 
-        __dress-features/Embellishments__ , 
-        {__dress-features/Neckline-Accessories__ ,|}
-        {__dress-features/Waist-Accessories__ ,|}
-        {__dress-features/Sleeve-Accessories__ ,|}
-        {__dress-features/Hemline-Accessories__ ,|}
-        {__dress-features/Dress-Accents__ ,|}
-        {__dress-features/Unique-Features__ ,|}
-        {__dress-features/Closure-Styles__,|}
-        {__properties/patterns/clothing__,|__properties/patterns/animal-print__,|}
-        {__properties/fabric__,|}
-        {__properties/color/*__,|}"
-    random-trousers:
-        - "trousers, __trousers-features/waistband-closure__, 
-        __trousers-features/pockets__, 
-        __trousers-features/legs-fit__,
-        __trousers-features/wash__
-        __trousers-features/details-design__,
-        __trousers-features/functional-features__,
-        {__properties/patterns/clothing__,|__properties/patterns/animal-print__,|}
-        {__properties/fabric__,|}
-        {__properties/color/*__,|}"
-    random-tshirt:
-        - "T-shirt, __t-shirt-features/fit-length__,
-        __t-shirt-features/collar-style__,
-        __t-shirt-features/neckline__,
-        __t-shirt-features/sleeve__,
-        __t-shirt-features/design-style__,
-        {__t-shirt-features/embellishments__,|}
-        {__t-shirt-features/special-features__,|}
-        {__properties/patterns/clothing__,|__properties/patterns/animal-print__,|}
-        {__properties/fabric__,|}
-        {__properties/color/*__,|}"
-Dress-Features:
-    Neckline-Styles:
-        - V-Neck
-        - Round Neck
-        - Scoop Neck
-        - Square Neck
-        - Off-Shoulder Neckline
-        - Boat Neck
-        - Halter Neck
-        - High Neck
-        - Plunging Neckline
-        - Sweetheart Neckline
-    Sleeve-Styles:
-        - Sleeveless
-        - Short Sleeves
-        - Cap Sleeves
-        - Three-Quarter Sleeves
-        - Bell Sleeves
-        - Puff Sleeves
-        - Flutter Sleeves
-        - Batwing Sleeves
-        - Spaghetti Straps
-        - Long Sleeves
-    Dress-Lengths:
-        - Mini Length
-        - Knee Length
-        - Tea Length
-        - Midi Length
-        - Maxi Length
-        - High-Low Hemline
-        - Asymmetrical Hemline
-        - Floor-Length
-    Waistlines:
-        - Natural Waist
-        - Empire Waist
-        - Drop Waist
-        - High Waist
-    Skirt-Styles:
-        - A-Line Skirt
-        - Flared Skirt
-        - Pleated Skirt
-        - Pencil Skirt
-        - Mermaid Skirt
-        - Ball Gown Skirt
-    Back-Designs:
-        - Open Back
-        - Lace-Up Back
-        - Keyhole Back
-        - Illusion Back
-        - Cross-Back
-        - Low Back
-    Embellishments:
-        - Sequin Embellishments
-        - Beaded Accents
-        - Embroidery Details
-        - Lace Trims
-        - Ruffle Details
-        - Bow Accents
-        - Appliqué Work
-    Neckline-Accessories:
-        - Statement Necklace
-        - Choker
-        - Scarf
-        - Collar
-    Waist-Accessories:
-        - Belt
-        - Sash
-        - Waist Chain
-    Sleeve-Accessories:
-        - Cuff Bracelet
-        - Arm Cuff
-    Hemline-Accessories:
-        - Leg Chain
-        - Anklet
-    Dress-Accents:
-        - Pockets
-        - Slit Details
-        - Train
-    Unique-Features:
-        - Convertible Dress
-        - Two-Piece Set
-        - High Slit
-        - Detachable Train
-        - Sheer Panels
-        - Cutout Details
-    Closure-Styles:
-        - Zipper Closure
-        - Button Closure
-        - Tie Closure
-        - Corset Closure
-trousers-features:
-    Waistband-Closure:
-        - Waistband
-        - Belt Loops
-        - Zipper Fly 
-        - Button Fly
-        - Closure Type
-        - Belt Included
-        - Adjustable Waist
-        - Elastic Waistband
-        - Drawstring Waist
-    Pockets:
-        - Front Pockets 
-        - Back pockets
-        - Side pockets
-        - Cargo Pockets
-        - Coin Pockets
-    Legs-Fit:
-        - Pleats
-        - Cuffs
-        - Hem
-        - Seams
-        - low Rise
-        - Mid rise
-        - High rise
-        - slim Fit 
-        - Regular fit
-        - Relaxed fit
-        - Tapered Legs
-        - Straight Legs
-        - Bootcut
-        - Flare
-        - Culottes
-        - Cropped Length
-        - Ankle Zippers
-    Wash:
-        - Vintage Wash
-        - Stone Wash
-        - Acid Wash
-        - Bleached Wash
-        - Vintage Wash
-        - Enzyme Wash
-        - Distressed Wash
-        - Dark Wash
-        - Light Wash
-        - Indigo Wash
-        - Faded Wash
-        - Whiskering
-        - Sandblasted Wash
-        - Hand Sanding
-        - Tinted Wash
-        - Ombre Wash
-        - Dip Dye Wash
-        - Resin Wash
-        - Oil Wash
-        - Raw Wash
-        - Overdyed Wash
-        - Muted Wash
-        - Ice Wash  
-    Details-Design:
-        - Embellishments
-        - Stitching Details
-        - Paneling
-        - Ventilation
-        - Reinforced Knees
-        - Tonal Stitching
-        - Pocket Flaps
-        - Utility Loops
-        - Suspender Buttons
-        - Back Darts
-        - Knee Pads
-        - Cargo Straps
-        - D-Rings
-    Functional-Features:
-        - Cargo Pockets
-        - Utility Loops
-        - Suspender Buttons
-        - Cargo Straps
-        - D-Rings
-        - Reinforced Knees
-        - Knee Pads
+    random-fullbody:
+        - "full body clothing,
+        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
+        __properties/fabric*__, {__properties/pattern/*,|}, {__properties/materials*/*__,|}
+        __styles/clothing/Sleeve__,
+        __styles/clothing/dress-Length__,
+        __styles/clothing/Waistlines__,
+        __styles/clothing/skirt__,
+        __BoCloth/random-extras__
+        "
+    random-combination:
+        - __BoCloth/random-upperbody__, __BoCloth/random-lowerbody__
+    random-upperbody:
+        - "upper body clothing,
+        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
+        __properties/fabric*__, {__properties/pattern/*,|}, {__properties/materials*/*__,|}
+        __styles/clothing/Sleeve__,
+        __styles/clothing/dress-Length__,
+        __styles/clothing/Waistlines__,
+        __BoCloth/random-extras__
+        "
+    random-lowerbody:
+        - "lower body clothing,
+        __properties/fabric*__, {__properties/pattern/*,|}, {__properties/materials*/*__,|}
+        __styles/clothing/fit-Length__,
+        __styles/clothing/Waistlines__,
+        __BoCloth/random-extras__
+        "
+    random-extras:
+        - "
+        {1-6$$__styles/clothing/Embellishments__,|__styles/clothing/Special-Features__,|__styles/clothing/Functional-Features__,|
+        __styles/clothing/Waistband-Closure__,|__styles/clothing/pockets__,|__styles/clothing/wash__,|__styles/clothing/Back-Designs__,|
+        __styles/clothing/Dress-Accents__,|__styles/clothing/Unique-Features__, __styles/clothing/Closure__,|__styles/clothing/Design__}
+        "
+styles:
+    clothing:
+        Collar:
+            - Ribbed
+            - Mock Neck
+            - Crew Neck
+            - V-neck
+            - Scoop Neck
+            - Henley Neck
+            - Boat Neck
+            - Off-the-Shoulder Neckline
+            - Halter Neck
+            - Cowl Neck
+        Neckline:
+            - Boat Neck
+            - Crew Neck
+            - Cowl Neck
+            - Halter Neck
+            - Henley Neck
+            - High Neck
+            - Mock Neck
+            - Off-Shoulder Neckline
+            - Plunging Neckline
+            - Round Neck
+            - Scoop Neck
+            - Square Neck
+            - Sweetheart Neckline
+            - V-Neck
+        Sleeve:
+            - Batwing Sleeves
+            - Bell Sleeves
+            - Cap Sleeves
+            - Cuffed Sleeves
+            - Cutout Sleeves
+            - Dolman Sleeves
+            - Flutter Sleeves
+            - Long Sleeves
+            - Puff Sleeves
+            - Raglan Sleeves
+            - Rolled Sleeves
+            - Short Sleeves
+            - Sleeveless
+            - Spaghetti Straps
+            - Three-Quarter Sleeves  
+        Embellishments:
+            - Embroidery
+            - Appliqué
+            - Sequins
+            - Beads
+            - Studs
+            - Rhinestones
+            - Patches
+            - Prints
+            - Lace Trim
+            - Ruffles
+            - Ribbons
+            - Tassels
+            - Fringe
+            - Metallic Accents
+            - Sequin Embellishments
+            - Beaded Accents
+            - Embroidery Details
+            - Lace Trims
+            - Ruffle Details
+            - Bow Accents
+            - Appliqué Work
+        Special-Features:
+            - Cold Shoulder Design
+            - Asymmetric Hem
+            - Hi-Lo Hem
+            - Peplum Hem
+            - chest pockets
+            - patch
+            - Side Seam Slits
+            - Belt
+            - Sash
+            - Waist Chain
+            - Statement Necklace
+            - Choker
+            - Scarf
+            - Collar
+        Fit-Length:
+            - Slim Fit
+            - Regular Fit
+            - Relaxed Fit
+            - Oversized Fit
+            - Cropped Length
+            - High-Low Hem
+            - Tunic Length
+        Functional-Features:
+            - Cargo Pockets
+            - Utility Loops
+            - Suspender Buttons
+            - Cargo Straps
+            - D-Rings
+            - Reinforced Knees
+            - Knee Pads
+            - Embellishments
+            - Stitching Details
+            - Paneling
+            - Ventilation
+            - Reinforced Knees
+            - Tonal Stitching
+            - Pocket Flaps
+            - Utility Loops
+            - Suspender Buttons
+            - Back Darts
+            - Knee Pads
+            - Cargo Straps
+            - D-Rings
+        Wash:
+            - Vintage Wash
+            - Stone Wash
+            - Acid Wash
+            - Bleached Wash
+            - Vintage Wash
+            - Enzyme Wash
+            - Distressed Wash
+            - Dark Wash
+            - Light Wash
+            - Indigo Wash
+            - Faded Wash
+            - Whiskering
+            - Sandblasted Wash
+            - Hand Sanding
+            - Tinted Wash
+            - Ombre Wash
+            - Dip Dye Wash
+            - Resin Wash
+            - Oil Wash
+            - Raw Wash
+            - Overdyed Wash
+            - Muted Wash
+            - Ice Wash  
+        Waistband-Closure:
+            - Waistband
+            - Belt Loops
+            - Zipper Fly 
+            - Button Fly
+            - Closure Type
+            - Belt Included
+            - Adjustable Waist
+            - Elastic Waistband
+            - Drawstring Waist
+        Pockets:
+            - Front Pockets 
+            - Back pockets
+            - Side pockets
+            - Cargo Pockets
+            - Coin Pockets
+        Legs-Fit:
+            - Pleats
+            - Cuffs
+            - Hem
+            - Seams
+            - low Rise
+            - Mid rise
+            - High rise
+            - slim Fit 
+            - Regular fit
+            - Relaxed fit
+            - Tapered Legs
+            - Straight Legs
+            - Bootcut
+            - Flare
+            - Culottes
+            - Cropped Length
+            - Ankle Zippers
 
-t-shirt-features:
-    Collar-style:
-        - Ribbed
-        - Mock Neck
-        - Crew Neck
-        - V-neck
-        - Scoop Neck
-        - Henley Neck
-        - Boat Neck
-        - Off-the-Shoulder Neckline
-        - Halter Neck
-        - Cowl Neck
-    Design-Style:
-        - Typography
-        - Illustration
-        - Color Palette
-        - Placement Print
-        - Allover Print
-        - Logo Placement
-        - Tie-Dye
-        - Distressed Details
-        - Contrast Stitching
-        - Patchwork
-        - Layered Look
-        - Vintage Design
-        - Color Blocking
-        - Cutout Details
-        - Ripped or Distressed Look
-    Neckline:
-        - Crew Neck
-        - V-neck
-        - Scoop Neck
-        - Henley Neck
-        - Mock Neck
-        - Boat Neck
-        - Off-the-Shoulder Neckline
-        - Halter Neck
-        - Cowl Neck
-    Sleeve:
-        - Short Sleeves
-        - Long Sleeves
-        - 3/4 Sleeves
-        - Cap Sleeves
-        - Rolled Sleeves
-        - Cuffed Sleeves
-        - Dolman Sleeves
-        - Raglan Sleeves
-        - Cutout Sleeves
-    Fit-Length:
-        - Slim Fit
-        - Regular Fit
-        - Relaxed Fit
-        - Oversized Fit
-        - Cropped Length
-        - High-Low Hem
-        - Tunic Length
-    Embellishments:
-        - Embroidery
-        - Appliqué
-        - Sequins
-        - Beads
-        - Studs
-        - Rhinestones
-        - Patches
-        - Prints
-        - Lace Trim
-        - Ruffles
-        - Ribbons
-        - Tassels
-        - Fringe
-        - Metallic Accents
-    Special-Features:
-        - Cold Shoulder Design
-        - Asymmetric Hem
-        - Hi-Lo Hem
-        - Peplum Hem
-        - chest pockets
-        - patch
-        - Side Seam Slits
+        Dress-Length:
+            - Mini Length
+            - Knee Length
+            - Tea Length
+            - Midi Length
+            - Maxi Length
+            - High-Low Hemline
+            - Asymmetrical Hemline
+            - Floor-Length
 
-#blouse-features:
 
-#shirt-features:
+        Waistlines:
+            - Natural Waist
+            - Empire Waist
+            - Drop Waist
+            - High Waist
+        Skirt:
+            - A-Line Skirt
+            - Flared Skirt
+            - Pleated Skirt
+            - Pencil Skirt
+            - Mermaid Skirt
+            - Ball Gown Skirt     
+        Back-Designs:
+            - Open Back
+            - Lace-Up Back
+            - Keyhole Back
+            - Illusion Back
+            - Cross-Back
+            - Low Back
+        Dress-Accents:
+            - Pockets
+            - Slit Details
+            - Train
+        Unique-Features:
+            - Convertible Dress
+            - Two-Piece Set
+            - High Slit
+            - Detachable Train
+            - Sheer Panels
+            - Cutout Details
+        Closure:
+            - Zipper Closure
+            - Button Closure
+            - Tie Closure
+            - Corset Closure
 
-#skirt-features:
+        Design:
+            - Typography
+            - Illustration
+            - Color Palette
+            - Placement Print
+            - Allover Print
+            - Logo Placement
+            - Tie-Dye
+            - Distressed Details
+            - Contrast Stitching
+            - Patchwork
+            - Layered Look
+            - Vintage Design
+            - Color Blocking
+            - Cutout Details
+            - Ripped or Distressed Look
