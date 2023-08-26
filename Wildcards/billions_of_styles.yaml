@@ -696,6 +696,804 @@ styles:
             - Spiritual
             - Mystic
             - Haunting
+        Winding:
+            - Winding
+            - Twisting
+            - Serpentine
+            - Circuitous
+            - Meandering
+            - Labyrinthine
+            - Confusing
+            - Intricate
+            - Tortuous
+            - Sinuous
+            - Convolute
+            - Zigzagging
+            - Tangled
+            - Complicated
+            - Baffling
+            - Entangled
+            - Interwoven
+            - Snakelike
+            - Curving
+            - Networked
+        reading:
+            - Tranquil
+            - Engaging
+            - Immersive
+            - Quiet
+            - Reflective
+            - Enveloping
+            - Captivating
+            - Thoughtful
+            - Intimate
+            - Absorbing
+            - Comforting
+            - Inspiring
+            - Focused
+            - Intellectual
+            - Relaxing
+            - Imaginative
+            - Invigorating
+            - Evocative
+        work:
+            - Job
+            - Career
+            - Employment
+            - Occupation
+            - Profession
+            - Labor
+            - Office
+            - Workplace
+            - Colleagues
+            - Task
+            - Responsibility
+            - Project
+            - Deadline
+            - Productivity
+            - Efficiency
+            - Collaboration
+            - Teamwork
+            - Achievement
+            - Progress
+            - Success
+            - Innovation
+            - Workload
+            - Commitment
+            - Dedication
+            - Performance
+            - Skills
+            - Development
+            - Growth
+            - Balance
+            - Challenge
+        teaching:
+            - Inspiring
+            - Supportive
+            - Engaging
+            - Encouraging
+            - Collaborative
+            - Interactive
+            - Enriching
+            - Stimulating
+            - Nurturing
+            - Empowering
+            - Positive
+            - Dynamic
+            - Respectful
+            - Inclusive
+            - Educational
+            - Constructive
+            - Thought-provoking
+            - Motivating
+            - Knowledge-sharing
+            - Transformative
+            - Open-minded
+            - Patient
+            - Creative
+            - Welcoming
+            - Focused
+            - Reflective
+            - Adaptable
+            - Socratic
+            - Inspirational
+            - Enthusiastic
+        uncomfortable:
+            - Oppressive
+            - Suffocating
+            - Confining
+            - Restrictive
+            - Claustrophobic
+            - Unsettling
+            - Unbearable
+            - Isolating
+            - Repressive
+            - Stifling
+            - Dismal
+            - Hostile
+            - Tense
+            - Constrained
+            - Harrowing
+            - Chilling
+            - Unwelcoming
+            - Depressing
+            - Inhospitable
+            - Grim
+            - Desolate
+            - Forsaken
+            - Desperate
+            - Unfree
+            - Discomforting
+            - Distressing
+            - Suffocating
+            - Uninviting
+            - Miserable
+            - Harsh
+        productive:
+            - Focused
+            - Collaborative
+            - Energetic
+            - Efficient
+            - Goal-oriented
+            - Innovative
+            - Inspiring
+            - Motivated
+            - Organized
+            - Dynamic
+            - Positive
+            - Engaging
+            - Synergistic
+            - Resourceful
+            - Proactive
+            - Creative
+            - Empowering
+            - Results-driven
+            - Effective
+            - Teamwork
+            - Solutions-oriented
+            - Supportive
+            - High-performance
+            - Ambitious
+            - Adaptable
+            - Time-efficient
+            - Streamlined
+            - Visionary
+            - Goal-driven
+            - Progress-oriented
+        artistic:
+            - Innovative
+            - Imaginative
+            - Inspiring
+            - Expressive
+            - Inventive
+            - Collaborative
+            - Artistic
+            - Playful
+            - Open-minded
+            - Experimental
+            - Unconventional
+            - Stimulating
+            - Curious
+            - Diverse
+            - Dynamic
+            - Original
+            - Free-thinking
+            - Visionary
+            - Transformative
+            - Eclectic
+            - Energizing
+            - Thought-provoking
+            - Risk-taking
+            - Adaptive
+            - Unrestrained
+            - Colorful
+            - Unique
+            - Breakthrough
+            - Inspirational
+            - Fertile
+        natural:
+            - Tranquil
+            - Peaceful
+            - Calming
+            - Refreshing
+            - Organic
+            - Rustic
+            - Bucolic
+            - Harmonious
+            - Verdant
+            - Idyllic
+            - Unspoiled
+            - Earthy
+            - Invigorating
+            - Scenic
+            - Pure
+            - Wild
+            - Breathtaking
+            - Nurturing
+            - Open
+            - Pristine
+            - Balanced
+            - Ecosystem
+            - Sustainable
+            - Wildlife
+            - Outdoor
+            - Fresh
+            - Uninhibited
+            - Renewing
+            - Resplendent
+        synthetic:
+            - Synthetic
+            - Manufactured
+            - Controlled
+            - Engineered
+            - Simulated
+            - Constructed
+            - Digital
+            - Virtual
+            - Artificially enhanced
+            - Replicated
+            - Designed
+            - Imposed
+            - Technical
+            - Generated
+            - Programmed
+            - Synthetic intelligence
+            - Reproduced
+            - Customized
+            - Virtual reality
+            - Augmented
+            - Mechanized
+            - Imitated
+            - Automated
+            - Man-made
+            - Faux
+            - Unnatural
+            - Inorganic
+            - Reconstructed
+            - Simulacrum
+            - Processed
+        mechanical:
+            - Technical
+            - Precise
+            - Industrial
+            - Engineered
+            - Functional
+            - Efficient
+            - Automated
+            - Mechanical
+            - Robotic
+            - Systematic
+            - Organized
+            - Gear-driven
+            - Structural
+            - Repetitive
+            - Machined
+            - Assembly line
+            - Controlled
+            - Lubricated
+            - Maintenance
+            - Tools
+            - Components
+            - Gears
+            - Motors
+            - Hydraulics
+            - Machinery
+            - Gritty
+            - Gearbox
+            - Factory
+            - Manufacturing
+        body-functional:
+            - Vital
+            - Energetic
+            - Active
+            - Dynamic
+            - Adaptive
+            - Healthy
+            - Well-functioning
+            - Harmonious
+            - Responsive
+            - Efficient
+            - Balanced
+            - Coordinated
+            - Nurturing
+            - Resilient
+            - Restorative
+            - Strong
+            - Vibrant
+            - Self-regulating
+            - Holistic
+            - Integrative
+            - Rejuvenating
+            - Homeostatic
+            - Empowered
+            - Synchronized
+            - Agile
+            - Robust
+            - Reenergizing
+            - Innate
+            - Flourishing
+        decaying:
+            - Deteriorating
+            - Decomposing
+            - Degenerating
+            - Disintegrating
+            - Rotten
+            - Decaying
+            - Putrid
+            - Decrepit
+            - Eroding
+            - Corroding
+            - Withering
+            - Fading
+            - Wasting
+            - Collapsing
+            - Crumbling
+            - Dying
+            - Ruined
+            - Abandoned
+            - Neglected
+            - Desolate
+            - Dilapidated
+            - Moldy
+            - Infested
+            - Rancid
+            - Neglected
+            - Desolate
+            - Stagnant
+            - Despairing
+            - Worn-out
+            - Ephemeral
+        emotional:
+            - Joyful
+            - Tense
+            - Exciting
+            - Comforting
+            - Nostalgic
+            - Uplifting
+            - Relaxed
+            - Intense
+            - Hopeful
+            - Reflective
+            - Empathetic
+            - Enthusiastic
+            - Empowering
+            - Heartwarming
+            - Bittersweet
+            - Dramatic
+            - Inspiring
+            - Energizing
+            - Tranquil
+            - Sentimental
+            - Touching
+            - Frenetic
+            - Thoughtful
+            - Nervous
+            - Content
+            - Poignant
+        Deteriorating:
+            - Decaying
+            - Deteriorating
+            - Degenerating
+            - Disintegrating
+            - Rotten
+            - Neglected
+            - Abandoned
+            - Crumbling
+            - Withering
+            - Corroding
+            - Eroding
+            - Fading
+            - Collapsing
+            - Desolate
+            - Dilapidated
+            - Worn-out
+            - Weakened
+            - Fraying
+            - Fragile
+            - Breakdown
+            - Desperation
+            - Dismal
+            - Forsaken
+            - Ruined
+        Shopping:
+            - Retail Therapy
+            - Consumer Experience
+            - Variety
+            - Trendy
+            - Window Shopping
+            - Bargain Hunting
+            - Boutique
+            - Upscale
+            - Crowded
+            - Modern
+            - Convenience
+            - Discounts
+            - Branding
+            - Exclusive
+            - Spacious
+            - Checkout Lines
+            - Department Store
+            - Customer Service
+            - Window Displays
+            - Fashionable
+            - Aisles
+            - Sale
+            - Shopping Carts
+            - Virtual Shopping
+        dining:
+            - Culinary Experience
+            - Ambiance
+            - Intimate
+            - Fine Dining
+            - Casual
+            - Cozy
+            - Elegant
+            - Rustic
+            - Upscale
+            - Family-Friendly
+            - Romantic
+            - Outdoor Dining
+            - Dim Lighting
+            - Modern Decor
+            - Authentic
+            - Vibrant
+            - Trendy
+            - Comfortable Seating
+            - Open Kitchen
+            - Sophisticated
+            - Communal Tables
+            - Ethnic Flavors
+            - Gourmet
+            - Fusion Cuisine
+            - Relaxed
+            - Wine Pairing
+            - Farm-to-Table
+            - Live Music
+        recreational:
+            - Leisurely
+            - Playful
+            - Active
+            - Relaxing
+            - Energetic
+            - Fun-filled
+            - Enjoyable
+            - Social
+            - Amusing
+            - Entertaining
+            - Adventurous
+            - Lively
+            - Invigorating
+            - Playgrounds
+            - Parks
+            - Games
+            - Outdoor Activities
+            - Fitness
+            - Sports
+            - Open Spaces
+            - Teamwork
+            - Picnics
+            - Group Activities
+            - Refreshing
+            - Play Zones
+            - Playgrounds
+            - Water Activities
+            - Creative Pursuits
+        VR:
+            - Immersive
+            - Digital World
+            - Interactive
+            - Artificial Environment
+            - Simulated Reality
+            - Virtual Experience
+            - 3D Graphics
+            - VR Technology
+            - Alternate Reality
+            - Cyber Space
+            - Headsets
+            - Gaming
+            - Futuristic
+            - Avatars
+            - Exploration
+            - Holographic
+            - Virtual Worlds
+            - Teleportation
+            - Experiential
+            - Augmented Reality
+            - Simulated Environments
+            - Embodied Presence
+            - Sensory Feedback
+            - Digital Simulations
+        hospital:
+            - Clinical
+            - Medical Care
+            - Healing Environment
+            - Healthcare
+            - Caring Staff
+            - Hygiene
+            - Sterile
+            - Patient-Centric
+            - Diagnostic
+            - Treatment
+            - Recovery
+            - Compassionate
+            - Technology-Driven
+            - Emergency Services
+            - Waiting Areas
+            - Surgical Suites
+            - Specialized Units
+            - Healing Art
+            - Privacy
+            - Medical Equipment
+            - Nurses
+            - Doctor-Patient Interaction
+            - Supportive
+            - Wellness
+            - Rehabilitation
+            - Calm
+            - Monitoring
+        Metropolitan:
+            - Urban Lifestyle
+            - Bustling
+            - Skyscrapers
+            - Diversity
+            - Cultural Hub
+            - Vibrant Energy
+            - City Lights
+            - Modern Architecture
+            - Business Districts
+            - Entertainment Centers
+            - Diverse Communities
+            - Nightlife
+            - Traffic
+            - Public Transportation
+            - Cultural Events
+            - Shopping Centers
+            - Restaurants
+            - Theatres
+            - Museums
+            - High-Paced
+            - Opportunities
+            - Networking
+            - Fashionable
+            - Trendsetting
+            - Cosmopolitan
+            - Diversity
+            - Global Influences
+        Rural:
+            - Countryside
+            - Tranquil
+            - Scenic Beauty
+            - Open Spaces
+            - Serenity
+            - Agricultural
+            - Close-knit Communities
+            - Peaceful
+            - Natural Surroundings
+            - Farming
+            - Homesteads
+            - Fresh Air
+            - Slow-Paced
+            - Relaxed
+            - Pastoral
+            - Idyllic
+            - Wide Skies
+            - Rustic Charm
+            - Local Traditions
+            - Quiet Living
+            - Nature Reserves
+            - Traditional Crafts
+            - Simple Life
+            - Away from the City
+            - Close to Nature
+        Robotic:
+            - Futuristic
+            - Automated
+            - Mechanized
+            - Precision
+            - Artificial Intelligence
+            - Technological
+            - Machine-driven
+            - High-tech
+            - Efficient
+            - Industrial
+            - Programmable
+            - Cyborg
+            - Autonomous
+            - Humanoid
+            - Synthetic
+            - Advanced Robotics
+            - AI Interaction
+            - Machine Learning
+            - Robotics Labs
+            - Mechanical Efficiency
+            - Integrated Systems
+            - Smart Automation
+            - Digital Sensors
+            - Precision Engineering
+            - Seamless Operations
+        Engineering:
+            - Innovative
+            - Problem-solving
+            - Technical
+            - Design-driven
+            - Creative Solutions
+            - Analytical
+            - Collaborative
+            - Research-oriented
+            - Cutting-edge
+            - Prototyping
+            - Experimentation
+            - Precision
+            - Scientific Methods
+            - Systematic
+            - Mathematical
+            - Practical Application
+            - Teamwork
+            - Technical Challenges
+            - Technological Advancements
+            - Engineering Labs
+            - Optimizing
+            - Designing
+            - Conceptualization
+            - Product Development
+            - Engineering Ethics
+            - Quality Assurance
+        Desert:
+            - Arid
+            - Barren
+            - Vastness
+            - Hot
+            - Dunes
+            - Solitude
+            - Harsh
+            - Stark Beauty
+            - Sandstorms
+            - Unforgiving
+            - Dry
+            - Sunbaked
+            - Extreme Temperatures
+            - Endless Horizon
+            - Serene Silence
+            - Survival
+            - Minimal Vegetation
+            - Oasis
+            - Uninhabited
+            - Ancient Landscapes
+            - Golden Sands
+            - Nomadic Life
+            - Celestial Skies
+            - Tranquility
+        Mountain:
+            - Majestic
+            - High Altitudes
+            - Alpine Beauty
+            - Crisp Air
+            - Panoramic Views
+            - Tranquil Escapes
+            - Adventure
+            - Steep Slopes
+            - Snow-capped Peaks
+            - Natural Wonders
+            - Alpine Meadows
+            - Challenging Terrain
+            - Remote Wilderness
+            - Freshness
+            - Hiking Trails
+            - Rocky Terrain
+            - Serenity
+            - Breathtaking Landscapes
+            - Alpine Lakes
+            - Vertical Ascents
+            - Rocky Silence
+            - Wildlife Habitat
+            - Spiritual Serenity
+            - Elevation
+            - Exploration
+        Oceanic:
+            - Maritime
+            - Aquatic
+            - Vastness
+            - Tranquil Waves
+            - Seafaring
+            - Nautical
+            - Salt Breeze
+            - Coastal Beauty
+            - Endless Horizons
+            - Seaside Living
+            - Marine Life
+            - Deep Blue
+            - Tidal Rhythms
+            - Exploring Waters
+            - Submerged World
+            - Shoreline Views
+            - Relaxing
+            - Saline Aroma
+            - Beaches
+            - Maritime Activities
+            - Ocean Currents
+            - Navigational
+            - Coral Reefs
+            - Ocean Adventures
+            - Nautical Traditions
+        Forest:
+            - Wooded
+            - Lush Greenery
+            - Tranquil
+            - Rustling Leaves
+            - Natural Sounds
+            - Wilderness
+            - Scent of Earth
+            - Canopy
+            - Biodiversity
+            - Wildlife
+            - Sunlight Filtering
+            - Adventure
+            - Hiking Trails
+            - Mossy Ground
+            - Nature's Cathedral
+            - Dappled Light
+            - Tall Trees
+            - Ancient Growth
+            - Oxygen-rich Air
+            - Calming Ambience
+            - Sheltered
+            - Ecosystem
+            - Earthy Fragrance
+        Cultural:
+            - Diversity
+            - Heritage
+            - Ethnic Traditions
+            - Multicultural
+            - Artistic Expression
+            - Languages
+            - Festivals
+            - Cultural Exchange
+            - Ethnic Cuisine
+            - Historical Sites
+            - Customs
+            - Traditional Arts
+            - Celebrations
+            - Folklore
+            - Creative Vibrancy
+            - Cultural Identity
+            - Local Crafts
+            - Music and Dance
+            - Rituals
+            - Intercultural Dialogue
+            - Art Galleries
+            - Cultural Heritage
+            - Cultural Fusion
+            - Cultural Awareness
+            - Shared History
+            - Museums
+            - Cultural Preservation
+        Physical:
+            - Earth's Atmosphere
+            - Martian Atmosphere
+            - Lunar Atmosphere
+            - Venusian Atmosphere
+            - Atmospheric Layers
+            - Gaseous Composition
+            - Air Pressure
+            - Weather Patterns
+            - Ozone Layer
+            - Climate Zones
+            - Atmospheric Phenomena
+            - Auroras
+            - Atmospheric Pressure
+            - Thermosphere
+            - Troposphere
+            - Stratosphere
+            - Mesosphere
+            - Ionosphere
+            - Exosphere
+            - Atmospheric Sciences
+            - Atmospheric Chemistry
+            - Meteorology
+            - Air Quality
+            - Atmospheric Effects
+            - Climate Change
+
     rendering-techniques:
         Ray-Tracing:
             - ray tracing
