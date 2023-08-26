@@ -62,6 +62,63 @@ BoStyles:
         - __styles/atmosphere/Surreal__
     random-atmosphere-Urban:
         - __styles/atmosphere/Urban__
+    random-atmosphere-Winding:
+        - __styles/atmosphere/Winding__
+    random-atmosphere-reading:
+        - __styles/atmosphere/reading__
+    random-atmosphere-work:
+        - __styles/atmosphere/work__
+    random-atmosphere-teaching:
+        - __styles/atmosphere/teaching__
+    random-atmosphere-uncomfortable:
+        - __styles/atmosphere/uncomfortable__
+    random-atmosphere-productive:
+        - __styles/atmosphere/productive__
+    random-atmosphere-artistic:
+        - __styles/atmosphere/artistic__
+    random-atmosphere-natural:
+        - __styles/atmosphere/natural__
+    random-atmosphere-synthetic:
+        - __styles/atmosphere/synthetic__
+    random-atmosphere-mechanical:
+        - __styles/atmosphere/mechanical__
+    random-atmosphere-body-functional:
+        - __styles/atmosphere/body-functional__
+    random-atmosphere-decaying:
+        - __styles/atmosphere/decaying__
+    random-atmosphere-emotional:
+        - __styles/atmosphere/emotional__
+    random-atmosphere-Deteriorating:
+        - __styles/atmosphere/Deteriorating__
+    random-atmosphere-Shopping:
+        - __styles/atmosphere/Shopping__
+    random-atmosphere-dining:
+        - __styles/atmosphere/dining__
+    random-atmosphere-recreational:
+        - __styles/atmosphere/recreational__
+    random-atmosphere-VR:
+        - __styles/atmosphere/VR__
+    random-atmosphere-hospital:
+        - __styles/atmosphere/hospital__
+    random-atmosphere-Metropolitan:
+        - __styles/atmosphere/Metropolitan__
+    random-atmosphere-Rural:
+        - __styles/atmosphere/Rural__
+    random-atmosphere-Robotic:
+        - __styles/atmosphere/Robotic__
+    random-atmosphere-Engineering:
+        - __styles/atmosphere/Engineering__
+    random-atmosphere-Desert:
+        - __styles/atmosphere/Desert__
+    random-atmosphere-Mountain:
+        - __styles/atmosphere/Mountain__
+    random-atmosphere-Oceanic:
+        - __styles/atmosphere/Oceanic__
+    random-atmosphere-Forest:
+        - __styles/atmosphere/Forest__
+    random-atmosphere-Cultural:
+        - __styles/atmosphere/Cultural__
+
 # rendering
     random-rendering:
         - __styles/rendering-techniques/*__
