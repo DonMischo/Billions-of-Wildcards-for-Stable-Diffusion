@@ -1,5 +1,5 @@
 # billions of clothings
-BoCloth:
+BoCloths:
     random-fullbody:
         - "full body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
@@ -8,10 +8,10 @@ BoCloth:
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
         __styles/clothing/skirt__,
-        __BoCloth/random-extras__
+        __BoCloths/random-extras__
         "
     random-combination:
-        - "__BoCloth/random-upperbody__, __BoCloth/random-lowerbody__"
+        - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
     random-upperbody:
         - "upper body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
@@ -19,14 +19,14 @@ BoCloth:
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
-        __BoCloth/random-extras__
+        __BoCloths/random-extras__
         "
     random-lowerbody:
         - "lower body clothing,
         __properties/fabric*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/fit-Length__,
         __styles/clothing/Waistlines__,
-        __BoCloth/random-extras__
+        __BoCloths/random-extras__
         "
     random-extras:
         - "
