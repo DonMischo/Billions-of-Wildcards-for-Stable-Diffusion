@@ -3,6 +3,12 @@ BoScenes:
     random:
         - "__scenes/settings/*__
         {1-4$$__scenes/features*__}"
+    random-Landscape:
+        - "__scenes/settings/Landscapes__
+        {1-4$$__scenes/features*__}"
+    random-city:
+        - "__scenes/settings/UrbanBuiltEnvironments__
+        {1-4$$__scenes/features*__}"
 scenes:
     settings:
         Landscapes:
