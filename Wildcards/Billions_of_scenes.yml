@@ -1,0 +1,766 @@
+# BoScenes
+BoScenes:
+    random:
+    
+scenes:
+    settings:
+        - Forest
+        - Woodland
+        - Jungle
+        - Rainforest
+        - Desert
+        - Oasis
+        - Dunes
+        - Canyon
+        - Mountains
+        - Valleys
+        - Glaciers
+        - Waterfalls
+        - Volcano
+        - Caves
+        - Plains
+        - Prairie
+        - Tundra
+        - Wetland
+        - Marsh
+        - Swamp
+        - Ocean
+        - Beach
+        - Coastline
+        - Underwater
+        - Coral Reef
+        - Deep Sea
+        - Cliffs
+        - Islands
+        - Archipelago
+        - Plateau
+        - Crater Lake
+        - Meadows
+        - Fields
+        - Vineyard
+        - Farmland
+        - Rural Landscape
+        - Urban Landscape
+        - Skyscrapers
+        - City Park
+        - Alleyway
+        - Suburbia
+        - Village
+        - Town
+        - Marketplace
+        - Harbor
+        - Port
+        - Space Station
+        - Alien Planet
+        - Lunar Landscape
+        - Spaceport
+        - Futuristic City
+        - Post-apocalyptic Wasteland
+        - Steampunk City
+        - Cyberpunk Metropolis
+        - Floating Islands
+        - Crystal Caves
+        - Enchanted Forest
+        - Wonderland
+        - Hidden Valley
+        - Lost City
+        - Magical Realm
+        - Underworld
+        - Celestial Landscape
+        - Dream World
+        - Night Sky
+        - Star Cluster
+        - Nebula
+        - Supernova
+        - Aurora Borealis
+        - Dystopian Cityscape
+        - Mythical Landscapes
+        - Alternate Dimensions
+        - Time-Travel Scenarios
+        - Utopian City
+        - Ruined Kingdom
+        - Gothic Architecture
+        - Haunted Forest
+        - Cloud City
+        - Rainbow Valley
+        - Crystal Canyon
+    features-nature:
+        - Mountain
+        - Hill
+        - Valley
+        - River
+        - Lake
+        - Waterfall
+        - Forest
+        - Woodland
+        - Jungle
+        - Desert
+        - Oasis
+        - Dune
+        - Canyon
+        - Meadow
+        - Field
+        - Prairie
+        - Marsh
+        - Swamp
+        - Wetland
+        - Island
+        - Coral Reef
+        - Underwater Cave
+        - Volcano
+        - Geyser
+        - Glacier
+        - Rock Formation
+        - Sand Dune
+        - Tundra
+        - Iceberg
+        - Fjord
+        - Lagoon
+        - Oasis
+        - Hot Spring
+        - Gorge
+        - Ravine
+        - Plateau
+        - Bog
+        - Flora and Fauna
+        - Sunrise
+        - Sunset
+        - Moonlit Night
+        - Starry Sky
+        - Rainbow
+        - Cloud Formation
+        - Wind-swept Landscape
+        - Reflection on Water
+        - Mist
+        - Fog
+        - Bird in Flight
+        - Animal Track
+        - Changing Season
+        - Blossoming Flower
+        - Falling Leaf
+        - Snow-covered Scene
+        - Rustling Leaf
+        - Babbling Brook
+        - Serene Pond
+        - Roaring Waterfall
+        - Whispering Breeze
+        - Rustling Grass
+        - Lush Vegetation
+        - Diversity of Insect
+        - Wildlife Camouflage
+        - Echoing Mountain
+        - Serene Tranquility
+        - Cacophony of Birdsong
+        - Gentle Ripple on Water
+        - Dancing Firefly
+        - Majestic Forest Canopy
+        - Play of Light and Shadow
+        - Vibrant Coral Ecosystem
+        - Dramatic Cliffs
+        - Verdant Valley
+
+    features-urban:
+        - Skyscraper
+        - Office Building
+        - Residential Tower
+        - City Park
+        - Shopping District
+        - Pedestrian Walkway
+        - Sidewalk
+        - Bridge
+        - Overpass
+        - Underground Tunnel
+        - Street
+        - Avenue
+        - Boulevard
+        - Alleyway
+        - Plaza
+        - Town Square
+        - Public Transit Station
+        - Bus Stop
+        - Subway Entrance
+        - Train Station
+        - Airport
+        - Highway
+        - Freeway
+        - Street Sign
+        - Traffic Light
+        - Pedestrian Crossing
+        - Public Bench
+        - Street Art
+        - Mural
+        - Graffiti
+        - Building Facade
+        - Neon Sign
+        - Billboard
+        - Storefront
+        - Restaurant
+        - Cafe
+        - Bar
+        - Theatre
+        - Museum
+        - Gallery
+        - Skyscraper Window
+        - Rooftop Garden
+        - Outdoor Seating Area
+        - Water Fountain
+        - Public Art Installation
+        - Historical Landmark
+        - City Hall
+        - Civic Center
+        - Urban Landscaping
+        - Pedestrian-friendly Zone
+        - Bike Lane
+        - Public Transportation
+        - Pedestrian Bridge
+        - Cultural Festival
+        - Urban Murmur
+        - City Light
+        - Commuter
+        - Traffic Jam
+        - Noise Pollution
+        - City Siren
+        - Skyline View
+        - Reflection on Glass
+        - Hectic Street Life
+        - Nighttime Illumination
+        - Urban Wildlife
+        - Alley Cat
+        - Reflection on Puddle
+        - Modern Architecture
+        - Mixed-use Building
+        - Rooftop Bar
+        - Waterfront Promenade
+    features-nautic:
+        - Ocean
+        - Beach
+        - Coastline
+        - Coral Reef
+        - Seabed
+        - Tidal Pool
+        - Seashell
+        - Tide
+        - Wave
+        - Current
+        - Seagull
+        - Pelican
+        - Dolphin
+        - Shark
+        - Whale
+        - Jellyfish
+        - Octopus
+        - Seagrass
+        - Kelp
+        - Algae
+        - Tidepool
+        - Tide
+        - Undertow
+        - Buoy
+        - Lighthouse
+        - Sailboat
+        - Shipwreck
+        - Submarine
+        - Deep
+        - Abyss
+        - Bioluminescence
+        - Underwater Cave
+        - Sunken Treasure
+        - Shipwreck
+        - Seafloor
+        - Sand Dollar
+        - Starfish
+        - Coral Polyp
+        - Manta Ray
+        - Anemone
+        - Tidal Flat
+        - Tsunami
+        - Marine Life
+        - Reef Fish
+        - Trench
+        - Diving Suit
+        - Snorkel
+        - Scuba Gear
+        - Sea Turtle
+        - Seahorse
+        - School of Fish
+        - Underwater Volcano
+        - Mariana Trench
+        - Abyssal Plain
+        - Oceanic Rift
+        - Sunlight Penetration
+        - Coral Bleaching
+        - Saltwater
+        - Ocean Breeze
+        - Marine Conservation
+        - Tide Cycle
+        - Submersible
+        - Biome
+        - Plankton
+        - Microorganism
+        - Coral Atoll
+        - Pufferfish
+        - Manatee
+        - Angelfish
+        - Lionfish
+        - Eel
+        - Ship's Hull
+        - Captain's Quarters
+        - Seaside Cliffs
+        - Marine Sanctuary
+        - Sea Cucumber
+        - Sea Anemone
+        - Sea Slug
+        - Salt Marsh
+        - Tidal Estuary
+        - Oceanographer
+        - Sea Salt
+    features-mountain:
+        - Mountain
+        - Summit
+        - Peak
+        - Slope
+        - Ridge
+        - Valley
+        - Pass
+        - Glacier
+        - Waterfall
+        - Stream
+        - Brook
+        - River
+        - Lake
+        - Forest
+        - Meadow
+        - Alpine Flower
+        - Boulder
+        - Rock Formation
+        - Cliff
+        - Ledge
+        - Trail
+        - Hiking Path
+        - Mountain Goat
+        - Marmot
+        - Eagle
+        - Hawk
+        - Condor
+        - Avalanche
+        - Crevasse
+        - Icefall
+        - Snowfield
+        - Scree
+        - Mountain Hut
+        - Alpine Plant
+        - Mountain Range
+        - Geological Formation
+        - Snowcapped Peak
+        - Crater Lake
+        - Volcanic Mountain
+        - Alpine Tundra
+        - Mountain Breeze
+        - Mountain Stream
+        - Mountain Pass
+        - Hiker
+        - Climber
+        - Mountaineer
+        - Summit View
+        - Pine Forest
+        - Mountain Silence
+        - Mountain Erosion
+        - Subalpine Zone
+        - Mountain Pine
+        - Mountain Larch
+        - Mountain Cedar
+        - Mountain Ash
+        - Mountain Ecosystem
+        - Mountain Air
+        - Mountain Sunset
+        - Mountain Sunrise
+        - Mountain Adventure
+        - Mountain Expedition
+    features-Architecture:
+        - Column
+        - Pillar
+        - Arch
+        - Dome
+        - Vault
+        - Buttress
+        - Balcony
+        - Terrace
+        - Atrium
+        - Portico
+        - Porte-Cochère
+        - Spire
+        - Minaret
+        - Tower
+        - Turret
+        - Parapet
+        - Gargoyle
+        - Cupola
+        - Cornice
+        - Sill
+        - Eave
+        - Pediment
+        - Keystone
+        - Facade
+        - Portico
+        - Porch
+        - Entryway
+        - Foyer
+        - Rotunda
+        - Niche
+        - Staircase
+        - Ramp
+        - Elevator
+        - Escalator
+        - Corridor
+        - Hallway
+        - Corbel
+        - Corbel
+        - Belfry
+        - Bell Tower
+        - Finial
+        - Mansard Roof
+        - Gambrel Roof
+        - A-Frame Roof
+        - Skylight
+        - Window
+        - Door
+        - Sash Window
+        - Bay Window
+        - Dormer Window
+        - Casement Window
+        - Transom Window
+        - Sliding Window
+        - Fixed Window
+        - French Window
+        - Louvered Window
+        - Stained Glass Window
+        - Oriel Window
+        - Mullion Window
+        - Soffit
+        - Balustrade
+        - Railing
+        - Newel Post
+        - Baluster
+        - Spindle
+        - Fascia
+        - Corbel
+        - Corbel
+        - Wainscoting
+        - Crown Molding
+        - Chair Rail
+        - Baseboard
+        - Casing
+        - Pedestal
+        - Foundation
+        - Pilaster
+        - Stanchion
+        - Transom
+        - Jamb
+        - Niche
+        - Cupboard
+        - Hearth
+        - Chimney
+        - Mantel
+        - Fireplace
+        - Mantelshelf
+        - Chimney Flue
+        - Chimney Pot
+        - Flue Pipe
+        - Roof Vent
+        - Dado
+        - Skylight
+    features-cave:
+        - Cave
+        - Entrance
+        - Stalactite
+        - Stalagmite
+        - Column
+        - Rock Formation
+        - Chamber
+        - Passage
+        - Gallery
+        - Grotto
+        - Underground Stream
+        - Pictograph
+        - Petroglyph
+        - Speleothem
+        - Dripstone
+        - Flowstone
+        - Cave Pearl
+        - Helictite
+        - Drapery
+        - Soda Straw
+        - Bacon Strip
+        - Rimstone Pool
+        - Cave Coral
+        - Cave Pool
+        - Cave Bacon
+        - Cave Ribbon
+        - Moonmilk
+        - Curtain
+        - Shield
+        - Cave Spider
+        - Cave Cricket
+        - Cave Beetle
+        - Cave Fish
+        - Troglodyte
+        - Guano
+        - Subterranean Lake
+        - Underground River
+        - Chandelier
+        - Fossil
+        - Concretion
+        - Sinter
+        - Travertine
+        - Trogloxene
+        - Stalagnate
+        - Darkness
+        - Echo
+        - Cavern
+        - Abyss
+        - Alcove
+        - Rimstone Dam
+        - Subterranean Gallery
+        - Underground Landscape
+        - Nocturnal Creatures
+        - Calcite Deposit
+        - Rock Ceiling
+        - Bat Colony
+        - Dripping Water
+        - Underground World
+        - Speleology
+        - Caving
+        - Subterranean Ecosystem
+        - Cave Air
+        - Cave Exploration
+        - Caving Helmet
+        - Cave Passage
+        - Cave Resonance
+        - Cave Diver
+        - Underground Crystals
+        - Chert
+        - Chalk
+        - Karst Landscape
+        - Sump
+        - Underground Cavern
+        - Tectonic Caves
+        - Hydrothermal Caves
+        - Lava Tube Caves
+        - Solution Caves
+        - Ice Caves
+        - Sea Caves
+        - Wind Cave
+        - Limestone Cave
+    features-fictional:
+        - Magic
+        - Enchantment
+        - Teleportation
+        - Time Travel
+        - Elemental Control
+        - Flight
+        - Super Strength
+        - Regeneration
+        - Immortality
+        - Force Field
+        - Energy Beam
+        - Warp Drive
+        - Hyperspace
+        - Wormhole
+        - Laser Sword
+        - Force Lightning
+        - Mind Control
+        - Holodeck
+        - Hologram
+        - Cyberspace
+        - Virtual Reality
+        - Nanobots
+        - Genetic Engineering
+        - Galactic Empire
+        - Rebel Alliance
+        - Dark Matter
+        - Alternate Reality
+        - Dystopia
+        - Utopia
+        - Parallel Universe
+        - Apocalyptic Event
+        - Alternate History
+        - Magical Artefact
+        - Prophecy
+        - Secret Society
+        - Hidden Treasure
+        - Mythical Artefact
+        - Sorcerer's Tower
+        - Forbidden Knowledge
+        - Multiverse
+        - Quantum Entanglement
+        - Exoplanet
+        - Interdimensional Portal
+        - Cosmic Forces
+        - Warp Gate
+        - Dark Magic
+        - Lost Civilization
+        - Time Paradox
+        - Biohazard Outbreak
+        - Post-Apocalyptic Ruins
+    features-swamp:
+        - Swamp
+        - Marshland
+        - Wetland
+        - Bog
+        - Mire
+        - Fen
+        - Quagmire
+        - Slough
+        - Bayou
+        - Lagoon
+        - Algae
+        - Reed
+        - Cattail
+        - Water Lily
+        - Mangrove
+        - Cypress
+        - Mosquito
+        - Alligator
+        - Crocodile
+        - Frog
+        - Toad
+        - Turtle
+        - Snail
+        - Marsh Grass
+        - Peat
+        - Silt
+        - Plankton
+        - Waterfowl
+        - Heron
+        - Egret
+        - Frog Croak
+        - Mud Suction
+        - Amphibian
+        - Insect Chorus
+        - Muddy Waters
+        - Waterlogged Soil
+        - Tangle of Roots
+        - Shallow Water
+        - Decomposing Matter
+        - Quicksand
+        - Aquatic Plants
+        - Swamp Gas
+        - Misty Air
+        - Wet Mud
+        - Murky Waters
+        - Dragonfly
+        - Bog Flowers
+        - Blackwater
+        - Muddy Trails
+        - Quicksand Pits
+        - Waterlogged Vegetation
+        - Reflective Surface
+        - Hidden Pools
+        - Marsh Birds
+        - Canopy of Trees
+        - Moss-Covered Logs
+        - Reptilian Eyes
+        - Placid Waters
+        - Cypress Knees
+        - Muddy Footprints
+        - Frog Eggs
+        - Biofilm
+        - Miasma
+        - Submerged Roots
+        - Murmuring Streams
+        - Frogs Croaking
+        - Wetland Wildlife
+        - Waterlogged Path
+        - Bubbling Mud
+        - Marsh Mists
+        - Decomposition
+        - Quagmire
+        - Bog Orchids
+        - Wetland Ecosystem
+        - Leeches
+        - Water Snakes
+        - Murky Reflections
+        - Frogs Leaping
+        - Heron's Call
+        - Ducklings
+    features-sky:
+        - Sky
+        - Night Sky
+        - Cloud
+        - Star
+        - Moon
+        - Sun
+        - Planet
+        - Constellation
+        - Nebula
+        - Galaxy
+        - Aurora
+        - Shooting Star
+        - Comet
+        - Meteor
+        - Celestial Body
+        - Twilight
+        - Horizon
+        - Dusk
+        - Dawn
+        - Crescent Moon
+        - Full Moon
+        - New Moon
+        - Blue Sky
+        - Clear Sky
+        - Overcast Sky
+        - Rainbow
+        - Solar Eclipse
+        - Lunar Eclipse
+        - Milky Way
+        - Stargazing
+        - Astronomer
+        - Astronomy
+        - Telescope
+        - Observatory
+        - Nightfall
+        - Astral Plane
+        - Celestial Event
+        - Night Owl
+        - Moonlight
+        - Starlight
+        - Planetary Alignment
+        - Celestial Phenomenon
+        - Dark Sky Reserve
+        - Astronomical Observatory
+        - Stellar Cluster
+        - Space Dust
+        - Celestial Navigation
+        - Night Vision
+        - Twinkling Stars
+        - Shooting Star Trail
+        - Crescent Moon Phase
+        - Starry Sky
+        - Perseid Meteor Shower
+        - Solar Flare
+        - Lunar Crater
+        - Venusian Evening Star
+        - Auroral Display
+        - Zodiac
+        - Celestial Sphere
+        - Astral Projection
+        - Cosmic Rays
+        - Meteor Shower Peak
+        - Celestial Bodies
+        - Nocturnal Beauty
+        - Lunar Surface
+        - Solar Wind
+        - Celestial Mechanics
+        - Nighttime Wonder
+        - Nighttime Silence
+        - Lunar Landscape
+        - Sky Watcher
+        - Star Formation
+        - Space Exploration
+        - Celestial Harmony
+        - Astronomical Phenomenon
+        - Celestial Harmony
+        - Celestial Orbits
+        - Moon Phases
+        - Starry Canopy
+        - Cosmic Mysteries
