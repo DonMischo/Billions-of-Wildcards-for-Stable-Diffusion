@@ -5,7 +5,7 @@ BoMachines:
         {2-6$$__styles/*/*__}        
         "
     random-machine:
-        - "__properties/size/*__ machine,
+        - "__properties/size/*__ __machines/types-synonyms__,
         {2-6$$__styles/*/*__}        
         "
 machines:
@@ -214,6 +214,39 @@ machines:
             - Mind Uploading Device
             - Psionic Amplifier
             - Reality Distortion Field Generator
+    types-synonyms:
+        - Apparatus
+        - Device
+        - Appliance
+        - Contraption
+        - Engine
+        - Mechanism
+        - Gadget
+        - Tool
+        - Instrument
+        - Implement
+        - Equipment
+        - System
+        - Instrumentality
+        - Apparatus
+        - Contrivance
+        - Rig
+        - Mechanism
+        - Contraption
+        - Setup
+        - Contrivance
+        - Gimmick
+        - Invention
+        - Creation
+        - Innovation
+        - Widget
+        - Automaton
+        - Robot
+        - Android
+        - Cyborg
+        - Contrivance
+        - Rube Goldberg
+        - Rube Goldberg Device
 
 styles:
     textures:
