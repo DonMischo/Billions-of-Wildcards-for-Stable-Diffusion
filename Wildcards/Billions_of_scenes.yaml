@@ -1,89 +1,94 @@
 # BoScenes
 BoScenes:
     random:
-    
+        - "__scenes/settings/*__
+        {1-4$$__scenes/features*__}"
 scenes:
     settings:
-        - Forest
-        - Woodland
-        - Jungle
-        - Rainforest
-        - Desert
-        - Oasis
-        - Dunes
-        - Canyon
-        - Mountains
-        - Valleys
-        - Glaciers
-        - Waterfalls
-        - Volcano
-        - Caves
-        - Plains
-        - Prairie
-        - Tundra
-        - Wetland
-        - Marsh
-        - Swamp
-        - Ocean
-        - Beach
-        - Coastline
-        - Underwater
-        - Coral Reef
-        - Deep Sea
-        - Cliffs
-        - Islands
-        - Archipelago
-        - Plateau
-        - Crater Lake
-        - Meadows
-        - Fields
-        - Vineyard
-        - Farmland
-        - Rural Landscape
-        - Urban Landscape
-        - Skyscrapers
-        - City Park
-        - Alleyway
-        - Suburbia
-        - Village
-        - Town
-        - Marketplace
-        - Harbor
-        - Port
-        - Space Station
-        - Alien Planet
-        - Lunar Landscape
-        - Spaceport
-        - Futuristic City
-        - Post-apocalyptic Wasteland
-        - Steampunk City
-        - Cyberpunk Metropolis
-        - Floating Islands
-        - Crystal Caves
-        - Enchanted Forest
-        - Wonderland
-        - Hidden Valley
-        - Lost City
-        - Magical Realm
-        - Underworld
-        - Celestial Landscape
-        - Dream World
-        - Night Sky
-        - Star Cluster
-        - Nebula
-        - Supernova
-        - Aurora Borealis
-        - Dystopian Cityscape
-        - Mythical Landscapes
-        - Alternate Dimensions
-        - Time-Travel Scenarios
-        - Utopian City
-        - Ruined Kingdom
-        - Gothic Architecture
-        - Haunted Forest
-        - Cloud City
-        - Rainbow Valley
-        - Crystal Canyon
+        Landscapes:
+            - Forest
+            - Woodland
+            - Jungle
+            - Rainforest
+            - Desert
+            - Oasis
+            - Dunes
+            - Canyon
+            - Mountains
+            - Valleys
+            - Glaciers
+            - Waterfalls
+            - Volcano
+            - Caves
+            - Plains
+            - Prairie
+            - Tundra
+            - Wetland
+            - Marsh
+            - Swamp
+            - Ocean
+            - Beach
+            - Coastline
+            - Underwater
+            - Coral Reef
+            - Deep Sea
+            - Cliffs
+            - Islands
+            - Archipelago
+            - Plateau
+            - Crater Lake
+            - Meadows
+            - Fields
+            - Vineyard
+            - Farmland
+
+        UrbanBuiltEnvironments:
+            - Rural Landscape
+            - Urban Landscape
+            - Skyscrapers
+            - City Park
+            - Alleyway
+            - Suburbia
+            - Village
+            - Town
+            - Marketplace
+            - Harbor
+            - Port
+            - Space Station
+            - Alien Planet
+            - Lunar Landscape
+            - Spaceport
+            - Futuristic City
+            - Post-apocalyptic Wasteland
+            - Steampunk City
+            - Cyberpunk Metropolis
+            - Floating Islands
+            - Crystal Caves
+            - Enchanted Forest
+            - Wonderland
+            - Hidden Valley
+            - Lost City
+            - Magical Realm
+            - Underworld
+            - Celestial Landscape
+            - Dream World
+            - Night Sky
+            - Star Cluster
+            - Nebula
+            - Supernova
+            - Aurora Borealis
+            - Dystopian Cityscape
+            - Mythical Landscapes
+            - Alternate Dimensions
+            - Time-Travel Scenarios
+            - Utopian City
+            - Ruined Kingdom
+            - Gothic Architecture
+            - Haunted Forest
+            - Cloud City
+            - Rainbow Valley
+            - Crystal Canyon
+
     features-nature:
         - Mountain
         - Hill
