@@ -7,7 +7,7 @@ BoScenes:
         - "__scenes/settings/Landscapes__
         {1-4$$__scenes/features*__}"
     random-city:
-        - "__scenes/settings/UrbanBuiltEnvironments__
+        - "{0.4::__styles/*__ architecture|} __scenes/settings/UrbanBuiltEnvironments__
         {1-4$$__scenes/features*__}"
 scenes:
     settings:
@@ -775,3 +775,286 @@ scenes:
         - Moon Phases
         - Starry Canopy
         - Cosmic Mysteries
+
+lighting:
+    Natural:
+        - Daylight
+        - Sunrise
+        - Sunset
+        - Golden Hour
+        - Blue Hour
+        - Overcast Sky
+        - Clear Sky
+        - Soft Natural Light
+        - Golden Hour Light
+        - Blue Hour Light
+        - Overcast Lighting
+        - Natural Sun Flare
+    Atmospheric:
+        - Misty
+        - Foggy
+        - Hazy
+        - Smoggy
+        - Rainy
+        - Snowy
+        - Stormy
+        - Thunderstorm
+        - Lightning
+        - Aurora Borealis
+    Ambient:
+        - Moonlight
+        - Starlight
+        - Twinkling Stars
+        - City Lights
+        - Campfire
+        - Candlelight
+        - Lantern
+    Artificial:
+        - Streetlights
+        - Lampposts
+        - Neon Lights
+        - Signage Lights
+        - Car Headlights
+        - Building Illumination
+        - Lampshades
+        - Chandeliers
+        - Torchlight
+        - Flashlight
+    Dramatic:
+        - Backlit
+        - Silhouette
+        - Rim Lighting
+        - Spotlit
+        - Shadow Play
+        - High Contrast
+        - Low Key
+        - High Key
+        - Mysterious Glow
+    Reflection-Refraction:
+        - Water Reflection
+        - Mirror Reflection
+        - Glass Reflection
+        - Prism Refraction
+        - Raindrop Refraction
+        - Reflected Sunset
+    Magical:
+        - Glowing Runes
+        - Ethereal Light
+        - Radiant Aura
+        - Halo
+        - Otherworldly Glow
+        - Enchanted Moonlight
+    Underwater:
+        - Bioluminescence
+        - Sunlight Through Water
+        - Muted Colors
+        - Deep Sea Darkness
+    Futuristic:
+        - Neon Hues
+        - Holographic Projections
+        - LED Displays
+        - Tron-like Glow
+    Firelight:
+        - Campfire
+        - Bonfire
+        - Torchlight
+        - Fireplace
+        - Lantern
+    Studio-Lighting:
+        - Key Light
+        - Fill Light
+        - Hair Light
+        - Background Light
+    Portrait-Lighting:
+        - Rembrandt Lighting
+        - Butterfly Lighting
+        - Split Lighting
+        - Clamshell Lighting
+    Outdoor-Lighting:
+        - Backlighting
+        - Rim Lighting
+        - Window Light
+        - Hard Lighting
+        - Umbrella Lighting
+    Artificial-Lighting:
+        - Softbox Lighting
+        - Beauty Dish Lighting
+        - Ring Light
+        - Strobe Lighting
+        - Continuous Lighting
+        - LED Panel Lighting
+    Color-Effects:
+        - Gelled Lighting
+        - Colored Gel Lighting
+        - Fantasy Colors with Gels
+    Special-Effects:
+        - Lens Flare
+        - Bokeh Lights
+        - Prism Lighting Effects
+        - Sparkler Light Trails
+        - Light Painting
+    Ambient-and-Low-Key:
+        - Low-Key Lighting
+        - Ambient Lighting
+        - High-Contrast Lighting
+        - Subdued Lighting
+        - Film Noir Lighting
+        - Chiaroscuro Lighting
+    Dramatic-Effects:
+        - Dramatic Shadows
+        - Silhouette Lighting
+        - High-Key Lighting
+        - Cross Lighting
+        - Spotlight
+        - Shadow Play
+        - Fantasy Lighting
+    Background-Lighting:
+        - Bokeh Background Lights
+    Unique-Lighting:
+        - Firelight
+        - Candlelight
+        - Neon Light Effects
+        - Soft Fill Light
+        - Light Through Foliage
+        - Dreamy Backlight
+        - Prism Lighting Effects
+        - Fantasy Colors with Gels
+        - Minimalist Lighting
+    others:
+        - Ambient Lighting
+        - Backlighting
+        - Background Light
+        - Beauty Dish Lighting
+        - Bokeh Background Lights
+        - Bokeh Lights
+        - Butterfly Lighting
+        - Candlelight
+        - Chiaroscuro Lighting
+        - Clamshell Lighting
+        - Colored Gel Lighting
+        - Continuous Lighting
+        - Cross Lighting
+        - Dramatic Shadows
+        - Dreamy Backlight
+        - Fantasy Colors with Gels
+        - Fantasy Lighting
+        - Fill Light
+        - Film Noir Lighting
+        - Firelight
+        - Golden Hour Light
+        - Gelled Lighting
+        - Hard Lighting
+        - Hair Light
+        - High-Contrast Lighting
+        - High-Key Lighting
+        - Key Light
+        - LED Panel Lighting
+        - Lens Flare
+        - Light Painting
+        - Low-Key Lighting
+        - Natural Sun Flare
+        - Overcast Lighting
+        - Prism Lighting Effects
+        - Rembrandt Lighting
+        - Ring Light
+        - Rim Lighting
+        - Silhouette Lighting
+        - Soft Fill Light
+        - Soft Natural Light
+        - Softbox Lighting
+        - Sparkler Light Trails
+        - Split Lighting
+        - Spotlight
+        - Strobe Lighting
+        - Subdued Lighting
+        - Umbrella Lighting
+        - Window Light
+
+
+styles:
+    architectural:
+        - Ancient Egyptian
+        - Ancient Greek
+        - Roman
+        - Byzantine
+        - Gothic
+        - Renaissance
+        - Baroque
+        - Rococo
+        - Neoclassical
+        - Victorian
+        - Art Nouveau
+        - Art Deco
+        - Bauhaus
+        - International Style
+        - Brutalism
+        - Postmodernism
+        - Deconstructivism
+        - Contemporary
+        - Gothic Revival
+        - Colonial Revival
+        - Tudor Revival
+        - Spanish Revival
+        - Moorish Revival
+        - Beaux-Arts
+        - Federal
+        - Greek Revival
+        - Italianate
+        - Queen Anne
+        - Shingle Style
+        - Prairie School
+        - Craftsman
+        - Streamline Moderne
+        - Pueblo Revival
+        - Mid-century Modern
+        - Ranch
+        - Modernist
+        - Post-and-Beam
+        - A-frame
+        - Sustainably Designed
+    Indigenous:
+        - Native American
+        - Inuit
+        - Maori
+        - Aboriginal
+    Asian:
+        - Chinese
+        - Japanese
+        - Korean
+        - Indian
+        - Thai
+        - Indonesian
+        - Persian
+    Middle-Eastern:
+        - Islamic
+        - Ottoman
+        - Moorish
+        - Moroccan
+    European:
+        - French
+        - Italian
+        - Spanish
+        - English
+        - German
+        - Dutch
+        - Nordic
+    African:
+        - Nubian
+        - Berber
+        - Zulu
+        - Swahili
+    South- American:
+        - Incan
+        - Mayan
+        - Colonial Spanish
+        - Brazilian
+    North-American:
+        - Native American
+        - Colonial
+        - Georgian
+        - Federal
+        - Victorian
+        - Craftsman
+        - Pueblo Revival
+        - Contemporary
+        - Postmodern

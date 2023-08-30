@@ -5,11 +5,15 @@ BoChars:
             - female __person/female__ wearing __clothings/female-attire__, __person/poses__
         BoConstructions:
             - __BoChars/female/modern__, __BoConstructions/random-standard__
+        BoCloths:
+            - __BoChars/female/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
     male:
         modern:
             - male __person/male__ wearing __clothings/male-attire__, __person/poses__
         BoConstructions:
             - __BoChars/male/modern__, __BoConstructions/random-standard__
+        BoCloths:
+            - __BoChars/male/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
     div:
         - male __BoChars/female/modern__
         - female __BoChars/male/modern__ 

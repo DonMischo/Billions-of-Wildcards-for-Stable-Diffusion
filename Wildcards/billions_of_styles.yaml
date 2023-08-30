@@ -1550,6 +1550,54 @@ styles:
             - Air Quality
             - Atmospheric Effects
             - Climate Change
+        toxic:
+            - Hazardous
+            - Poisonous
+            - Contaminated
+            - Corrosive
+            - Harmful
+            - Pollutant
+            - Toxicant
+            - Noxious
+            - Dangerous
+            - Irritant
+            - Radioactive
+            - Venomous
+            - Lethal
+            - Unhealthy
+            - Caustic
+            - Pesticidal
+            - Carcinogenic
+            - Flammable
+            - Volatile
+            - Explosive
+            - Reactive
+            - Harmful
+            - Irritating
+            - Allergenic
+            - Mutagenic
+            - Biotoxic
+            - Pollutive
+            - Oxidizing
+            - Destructive
+            - Acrid
+            - Emanation
+            - Fumigant
+            - Leaching
+            - Foul
+            - Putrid
+            - Repellent
+            - Injurious
+            - Cytotoxic
+            - Neurotoxic
+            - Endocrine-disrupting
+            - Hazardous waste
+            - Synthetic
+            - Petrochemical
+            - Emission
+            - Vaporized
+            - Residue
+            - Waste byproduct
 
     rendering-techniques:
         Ray-Tracing:

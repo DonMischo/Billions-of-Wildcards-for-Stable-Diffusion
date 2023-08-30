@@ -4,14 +4,14 @@ BoCharsScifi:
         classic:
             - female __random/profession-scifi__, __person-scifi/female__ wearing __clothings-scifi/female-attire__, __person-scifi/poses__
         scenery:
-            - __BoCharsScifi/female/classic__, __scifi/lighting__, __scenes-scifi/*__
+            - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes-scifi/*__
         BoConstructions:
             - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
     male:
         classic:
-            - male __random/profession-scifi__, __person-scifi/male__ wearing __clothings-scifi/male-attire__, __person-scifi/poses__, __scifi/lighting__, __scenes-scifi/*__
+            - male __random/profession-scifi__, __person-scifi/male__ wearing __clothings-scifi/male-attire__, __person-scifi/poses__, __lighting/scifi__, __scenes-scifi/*__
         scenery:
-            - __BoCharsScifi/male/classic__, __scifi/lighting__, __scenes-scifi/*__
+            - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes-scifi/*__
         BoConstructions:
             - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
     random:
@@ -1045,57 +1045,6 @@ scifi:
         - Plasma specters- Intangible beings emitting flickering plasma trails and auroras.
         - Starry seraphim- Winged beings with luminous, starry wings and celestial halos.
         - Quantum dream weavers- Entities with kaleidoscopic, iridescent threads weaving dreams through dimensions.
-    lighting:
-        - Bioluminescent forests- Glowing flora and fauna create an otherworldly ambiance.
-        - Neon-lit cityscape- Futuristic metropolis with vibrant, neon-colored lights.
-        - Holographic projections- Illusory lights shaping virtual environments.
-        - Plasma arcs- Energy-based illumination creating flickering, dynamic lights.
-        - Starship control rooms- Dim, atmospheric lighting with glowing consoles.
-        - Underwater bioluminescence- Deep-sea scenes with bio-illuminated organisms.
-        - Lunar base- Soft, lunar-tinged lighting in the outpost on the Moon.
-        - Time travel portal- Pulsating lights around the vortex-like time portal.
-        - Cyberpunk alleyways- Gritty urban setting with rain-soaked neon lights.
-        - Alien biotech structures- Eerie, organic lights within extraterrestrial architecture.
-        - Hovering city platforms- Illuminated levitating city segments in the sky.
-        - Galactic marketplace- Multicolored lights in bustling, alien trade hubs.
-        - Dystopian underground- Harsh, utilitarian lighting in subterranean societies.
-        - Cybernetic implants- Bioluminescent lights embedded in cybernetic enhancements.
-        - Energy shield barriers- Glowing forcefields enclosing protected areas.
-        - Time-lapse warp- Intense, distorted lighting during time-warp events.
-        - Virtual reality simulations- Digitally rendered environments with dynamic lighting.
-        - Alien star systems- Celestial bodies casting unusual and surreal lights.
-        - Floating islands- Bioluminescent flora creating a surreal floating landscape.
-        - Space station hub- Bright, efficient lighting in the heart of a space station.
-        - Gravity-defying waterfalls- Luminescent water cascading upwards in anti-gravity environments.
-        - Cyberpunk nightclubs- Pulsating lights and holographic dancers in futuristic clubs.
-        - Deserted alien ruins- Ancient structures with faint, mysterious glow.
-        - Galactic storms- Electrifying lightning displays amidst cosmic tempests.
-        - Steampunk laboratories- Dim gas lamps illuminating retro-futuristic experiments.
-        - AI-controlled cities- Dynamic lights responding to AI algorithms and needs.
-        - Timeless pocket dimensions- Glowing pockets of space-time with unearthly illumination.
-        - Oceanic biotech sanctuaries- Underwater habitats illuminated by bioengineered organisms.
-        - Post-apocalyptic wastelands- Hauntingly lit landscapes in the aftermath of disasters.
-        - Android assembly lines- Cold, clinical lighting in mass production facilities.
-        - Space battles- Intense, flashing lights during epic interstellar conflicts.
-        - Subspace anomalies- Distorted lights in the presence of spatial rifts.
-        - Virtual reality battlefields- Neon-lit battlegrounds in simulated warfare.
-        - Cavernous crystal caves- Bioluminescent crystals casting an ethereal glow.
-        - Cybernetic augmentation clinics- Illuminated surgeries for advanced enhancements.
-        - City-sized spaceships- Intricate lights in colossal intergalactic vessels.
-        - Techno-wizardry academies- Enchanted lights in schools of futuristic magic.
-        - Alien sunrises- Exotic colors illuminating distant alien horizons.
-        - Space colonization domes- Artificially lit habitats on extraterrestrial planets.
-        - Galactic council chambers- Illuminated chambers where species convene.
-        - Underground resistance hideouts- Dim, hidden lights in rebel strongholds.
-        - Virtual dreamscapes- Shifting, surreal lights within simulated dreams.
-        - Lunar mining outposts- Utilitarian lighting in lunar resource extraction stations.
-        - Planetary defense stations- Emergency lights during space invasions.
-        - Future sports arenas- Dynamic lights in high-tech sports competitions.
-        - Interdimensional gateways- Pulsating lights in portals between realms.
-        - Lost alien temples- Illuminated structures holding ancient mysteries.
-        - High-tech laboratories- Bright, white lights in cutting-edge research facilities.
-        - Galactic highway rest stops- Multicolored lights at interstellar pit stops.
-        - Ecosystem terraforming- Radiant lights during planetary ecosystem transformations.
     profession:
         Technology:
             - Aerospace engineer
@@ -1448,6 +1397,59 @@ scifi:
             - Clone
             - Amplify
             - Replicate
+lighting:
+    scifi:
+        - Neon Hues
+        - Holographic Projections
+        - LED Displays
+        - Tron-like Glow
+        - Cyberpunk Neon
+        - Synthwave Colors
+        - Techno Luminescence
+        - Futuristic Cityscape
+        - Bioluminescent Pathways
+        - Glowing Circuitry
+        - Neon Grid
+        - Quantum Lights
+        - Laser Beams
+        - Antigravity Lighting
+        - Sci-Fi Panels
+        - Artificial Starlight
+        - Plasma Lamps
+        - Light Trails
+        - Electroluminescent Strips
+        - Future Skylines
+        - Futuristic Interiors
+        - Advanced Illumination
+        - Neon Architecture
+        - Holo-screens
+        - Galactic Illumination
+        - Spaceport Lights
+        - Cosmic Glow
+        - Spacecraft Lighting
+        - Alien Technology Glow
+        - Futuristic Landscapes
+        - Astral Lights
+        - Dystopian Gloom with Neon Pops
+        - Biometric Lighting
+        - Neon Shadows
+        - Extraterrestrial Lighting
+        - Neon City Nights
+        - Spaceship Corridor Lighting
+        - Cyberspace Illumination
+        - Futuristic Light Beams
+        - Hovering Lights
+        - Futuristic Neon Runways
+        - Sci-Fi Moonlight
+        - Space Elevator Lights
+        - Hyperspace Glow
+        - Traversable Wormhole Lighting
+        - Virtual Reality Lighting
+        - Futuristic Energy Crystals
+        - Alien Bioluminescence
+        - Futuristic Transport Lighting
+        - Android Eyes Glow
+
 phenomena:
     natural-scifi:
         - Black hole

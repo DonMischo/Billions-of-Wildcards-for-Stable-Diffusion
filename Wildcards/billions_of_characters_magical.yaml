@@ -7,16 +7,16 @@ BoCharsMag:
             wearing __clothings-magical/female-attire__ 
             __magical/words/verbs__ __magical/magic__|
             __random/profession-magic__
-            }, __person-magical/poses__, __magical/lighting__"
+            }, __person-magical/poses__, __lighting/magical__"
         modern:
             - "female __person-magical/female__ 
             {
             wearing __clothings/female-attire__ 
             __magical/words/verbs__ __magical/magic__|
             __random/profession-magic__
-            }, __person-magical/poses__, __magical/lighting__"
+            }, __person-magical/poses__, __lighting/magical__"
         scenery:
-            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __magical/lighting__, __scenes/*__"
+            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/*__"
         BoConstructions:
             - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
     male:
@@ -26,16 +26,16 @@ BoCharsMag:
             wearing __clothings-magical/male-attire__ 
             __magical/words/verbs__ __magical/magic__|
             __random/profession-magic__
-            }, __person-magical/poses__, __magical/lighting__"
+            }, __person-magical/poses__, __lighting/magical__"
         modern:
             - "male __person-magical/male__ 
             {
             wearing __clothings/male-attire__ 
             __magical/words/verbs__ __magical/magic__|
             __random/profession-magic__
-            }, __person-magical/poses__, __magical/lighting__"
+            }, __person-magical/poses__, __lighting/magical__"
         scenery:
-            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __magical/lighting__, __scenes/*__"
+            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/*__"
         BoConstructions:
             - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
     div:
@@ -782,43 +782,6 @@ magical:
         - Yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains, 
     elemental:
         - "{fire|water|air|earth|elemental}"
-    lighting:
-        - Astral Gleam
-        - Celestial Glimmer
-        - Celestial Radiance
-        - Crystal Luminance
-        - Dazzling Radiance
-        - Dreamshine
-        - Elemental Glow
-        - Emanating Luminescence
-        - Enchanted Luminosity
-        - Enchanted Radiance
-        - Enchanting Luminescence
-        - Enchantment Aura
-        - Enigma Ray
-        - Ethereal Glow
-        - Ethereal Luminescence
-        - Everglow
-        - Faerie Glow
-        - Faerie Lights
-        - Glowstone
-        - Incandescent Brilliance
-        - Lumina Veil
-        - Luminescent Auras
-        - Magical Radiance
-        - Moonbeam
-        - Mystic Ember
-        - Mystical Radiance
-        - Prismatic Illumination
-        - Radiant Halo
-        - Solar Flare
-        - Sorcerer's Brilliance
-        - Spectral Radiant
-        - Starfire
-        - Transcendent Glow
-        - Twilight Spark
-        - Wispfire
-
     profession:
         crafter:
             - Alchemist
@@ -1060,6 +1023,43 @@ magical:
             - Twinkle
             - Unleash
             - Vivify
+lighting:
+    magical:
+        - Astral Gleam
+        - Celestial Glimmer
+        - Celestial Radiance
+        - Crystal Luminance
+        - Dazzling Radiance
+        - Dreamshine
+        - Elemental Glow
+        - Emanating Luminescence
+        - Enchanted Luminosity
+        - Enchanted Radiance
+        - Enchanting Luminescence
+        - Enchantment Aura
+        - Enigma Ray
+        - Ethereal Glow
+        - Ethereal Luminescence
+        - Everglow
+        - Faerie Glow
+        - Faerie Lights
+        - Glowstone
+        - Incandescent Brilliance
+        - Lumina Veil
+        - Luminescent Auras
+        - Magical Radiance
+        - Moonbeam
+        - Mystic Ember
+        - Mystical Radiance
+        - Prismatic Illumination
+        - Radiant Halo
+        - Solar Flare
+        - Sorcerer's Brilliance
+        - Spectral Radiant
+        - Starfire
+        - Transcendent Glow
+        - Twilight Spark
+        - Wispfire
 properties:
     materials-magic:
         ingredients:
@@ -1175,7 +1175,7 @@ random:
         {-2$$__magical/words/substantives__}|
         {-2$$__magical/words/verbs__}|
         {-2$$__properties/materials-magic/*__}|
-        __magical/lighting__}"
+        __lighting/magical__}"
     profession-magic:
         - __magical/profession/crafter__, __magical/magic__ __magical/profession-magic-use/crafter__
         - __magical/profession/caster__, __magical/magic__ __magical/profession-magic-use/caster__

@@ -2,11 +2,13 @@
 BoMachines:
     random:
         - "__machines/types/*__,
-        {2-6$$__styles/*/*__}        
+        {2-6$$__machines/parts/*__},
+        {__styles/*/*__}
         "
     random-machine:
         - "__properties/size/*__ __machines/types-synonyms__,
-        {2-6$$__styles/*/*__}        
+        {2-6$$__machines/parts/*__},
+        {__styles/*/*__}
         "
 machines:
     types:
@@ -247,121 +249,7 @@ machines:
         - Contrivance
         - Rube Goldberg
         - Rube Goldberg Device
-
-styles:
-    textures:
-        machines:
-            - Smooth
-            - Rough
-            - Textured
-            - Grainy
-            - Wavy
-            - Bumpy
-            - Prickly
-            - Slick
-            - Soft
-            - Hard
-            - Metallic
-            - Glassy
-            - Porous
-            - Cracked
-            - Fuzzy
-            - Velvety
-            - Silky
-            - Coarse
-            - Gritty
-            - Embossed
-            - Ribbed
-            - Knitted
-            - Rugged
-            - Sandy
-            - Lustrous
-            - Iridescent
-            - Frosted
-            - Matte
-            - Satin
-            - Leather
-            - Woolen
-            - Chiseled
-            - Polished
-            - Pitted
-            - Corrugated
-            - Pebbled
-            - Plush
-            - Tiled
-            - Grooved
-            - Spongy
-            - Wrinkled
-            - Pockmarked
-            - Tacky
-            - Slimy
-            - Crystalline
-            - Serrated
-            - Pebbly
-            - Spiky
-            - Pliable
-            - Papery
-            - Studded
-            - Hairy
-            - Meshed
-            - Fluffy
-            - Honeycombed
-            - Gauzy
-            - Sandy
-            - Webbed
-    patterns:
-        machines:
-            - Striped
-            - Checked
-            - Polka Dot
-            - Herringbone
-            - Chevron
-            - Plaid
-            - Paisley
-            - Geometric
-            - Floral
-            - Abstract
-            - Camouflage
-            - Houndstooth
-            - Mottled
-            - Marbled
-            - Speckled
-            - Zigzag
-            - Tartan
-            - Lattice
-            - Quilted
-            - Basketweave
-            - Honeycomb
-            - Moiré
-            - Ripple
-            - Crosshatch
-            - Stippled
-            - Lined
-            - Spiral
-            - Interlocking
-            - Patchwork
-            - Scales
-            - Swirl
-            - Maze
-            - Barcode
-            - Morse Code
-            - Binary Code
-            - QR Code
-            - Circuit Pattern
-            - Wave
-            - Grid
-            - Web
-            - Lace
-            - Gingham
-            - Plisse
-            - Tiled
-            - Woven
-            - Embroidered
-            - Stitched
-            - Braided
-            - Crisscross
-            - Latticework
-    machines:
+    parts:
         embellishments:
             - Engravings
             - Decorative Trim
@@ -949,3 +837,117 @@ styles:
             - Reduce Neck Strain
             - Optimal Viewing Angles
             - Neutral Typing Position
+
+styles:
+    textures:
+        machines:
+            - Smooth
+            - Rough
+            - Textured
+            - Grainy
+            - Wavy
+            - Bumpy
+            - Prickly
+            - Slick
+            - Soft
+            - Hard
+            - Metallic
+            - Glassy
+            - Porous
+            - Cracked
+            - Fuzzy
+            - Velvety
+            - Silky
+            - Coarse
+            - Gritty
+            - Embossed
+            - Ribbed
+            - Knitted
+            - Rugged
+            - Sandy
+            - Lustrous
+            - Iridescent
+            - Frosted
+            - Matte
+            - Satin
+            - Leather
+            - Woolen
+            - Chiseled
+            - Polished
+            - Pitted
+            - Corrugated
+            - Pebbled
+            - Plush
+            - Tiled
+            - Grooved
+            - Spongy
+            - Wrinkled
+            - Pockmarked
+            - Tacky
+            - Slimy
+            - Crystalline
+            - Serrated
+            - Pebbly
+            - Spiky
+            - Pliable
+            - Papery
+            - Studded
+            - Hairy
+            - Meshed
+            - Fluffy
+            - Honeycombed
+            - Gauzy
+            - Sandy
+            - Webbed
+    patterns:
+        machines:
+            - Striped
+            - Checked
+            - Polka Dot
+            - Herringbone
+            - Chevron
+            - Plaid
+            - Paisley
+            - Geometric
+            - Floral
+            - Abstract
+            - Camouflage
+            - Houndstooth
+            - Mottled
+            - Marbled
+            - Speckled
+            - Zigzag
+            - Tartan
+            - Lattice
+            - Quilted
+            - Basketweave
+            - Honeycomb
+            - Moiré
+            - Ripple
+            - Crosshatch
+            - Stippled
+            - Lined
+            - Spiral
+            - Interlocking
+            - Patchwork
+            - Scales
+            - Swirl
+            - Maze
+            - Barcode
+            - Morse Code
+            - Binary Code
+            - QR Code
+            - Circuit Pattern
+            - Wave
+            - Grid
+            - Web
+            - Lace
+            - Gingham
+            - Plisse
+            - Tiled
+            - Woven
+            - Embroidered
+            - Stitched
+            - Braided
+            - Crisscross
+            - Latticework

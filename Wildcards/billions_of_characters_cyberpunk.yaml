@@ -1175,17 +1175,6 @@ cyberpunk:
         - AI Entities, Self-aware Artificial Intelligence with high-level cognitive abilities
         - Virtual Constructs, Digital entities existing purely in virtual reality, taking on various forms and functions
         - Gene-spliced Hybrids, Beings resulting from genetic manipulation, exhibiting a mix of species traits
-    lighting:
-        - Neon-lit Streets, Dark alleys and city streets illuminated by vibrant neon signs and holographic projections, casting an otherworldly glow
-        - Glitching Neon Flickers, Neon lights flickering and glitching in a rhythmic pattern, creating an eerie and dynamic ambiance
-        - Holographic Hues, Holographic displays and projections bathing the surroundings in mesmerizing shifting colors and patterns
-        - Cybernetic Glow, Individuals with cybernetic implants emitting a soft, bioluminescent glow from their enhanced body parts
-        - Datastream Highlights, Traces of digital data streaming through the air, casting a faint blue glow in the virtual world
-        - Emergency Strobe Lights, Warning lights flashing in bright, alternating colors, signaling danger or emergency situations
-        - Neon Rain, Raindrops reflecting neon lights, creating a shimmering and vibrant effect on the wet streets
-        - Laser Grids, Grids of laser beams crisscrossing in a secured area, adding a futuristic and dangerous touch
-        - Holo-Ads, Holographic advertisements floating in the air, projecting moving images and text with a vibrant glow
-        - Hovercar Headlights, Hovering vehicles with bright headlights cutting through the darkness, leaving trails of light behind
     profession:
         Cybernetic-Enhancement:
             - Neural Surgeon
@@ -1613,6 +1602,56 @@ cyberpunk:
             - Surge
             - Telemorph
             - Teleport
+lighting:
+    cyberpunk:
+        - Neon Hues
+        - Holographic Projections
+        - LED Displays
+        - Tron-like Glow
+        - Cyberpunk Neon
+        - Synthwave Colors
+        - Techno Luminescence
+        - Futuristic Cityscape
+        - Glowing Circuitry
+        - Neon Grid
+        - Augmented Reality Overlays
+        - Data Streams of Light
+        - Urban Neon Signs
+        - Rain-soaked Streets with Neon Reflections
+        - Nighttime Glow of High-Tech Advertisements
+        - Glitchy Illumination
+        - Neon Typography
+        - Dystopian Gloom with Neon Pops
+        - Surveillance Camera Glare
+        - Vehicular Light Trails
+        - Underground Club Lighting
+        - Holo-screens
+        - Hazy Atmospheric Glow
+        - Neon Architecture
+        - Neon-lit Alleyways
+        - Retro-futuristic Lighting
+        - Urban Pollution with Neon Highlights
+        - Neon Street Market
+        - Futuristic Interiors
+        - Futuristic Street Lighting
+        - Digital Rain Glow
+        - Cybernetic Implant Glow
+        - Futuristic Landscapes with Neon Skies
+        - High-tech Nightlife Lighting
+        - Urban Decay with Neon Accents
+        - Blurred Lights through Rainy Windows
+        - Futuristic Energy Signatures
+        - Virtual Reality Lighting
+        - Glowing Drones and Hovering Vehicles
+        - Gritty Cyberpunk Luminance
+        - Neon City Nights
+        - Neon Reflections on Wet Surfaces
+        - Glowing Tattoos and Implants
+        - Neon-lit Skyscrapers
+        - Urban Reflections in Puddles
+        - Neon-glowing Street Fashion
+        - Futuristic Transport Terminal Lighting
+        - Hacked Visual Interfaces
 properties:
     patterns:
         clothing-cyberpunk:
