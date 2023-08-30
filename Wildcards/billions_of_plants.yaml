@@ -3,7 +3,7 @@ BoPlants:
     random-plant:
         - "{
         __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
-        {__properties/texture/stem__ __properties/shape/stem__ __plants/stem__, __properties/texture/bark__,|}
+        {__properties/textures/stem__ __properties/shape/stem__ __plants/stem__, __properties/textures/bark__,|}
         {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
         {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
         {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/pattern/plants__,|__properties/pattern/mushrooms__,}|}
@@ -12,8 +12,8 @@ BoPlants:
         }"
     random-shroom:
         - "{
-        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/texture/mushrooms__ mushroom,
-        __properties/texture/*__, {__properties/pattern/plants__,|__properties/pattern/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
+        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/textures/mushrooms__ mushroom,
+        __properties/textures/*__, {__properties/pattern/plants__,|__properties/pattern/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
         {__mushrooms/Bioluminescence__,|}
         {__properties/colors/*__ __mushrooms/gill__,|}
         {1-3$$__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
@@ -1744,7 +1744,7 @@ properties:
             - Cuneate Buds
             - Napiform Buds
             - Capitate Buds
-    texture:
+    textures:
         stem:
             - Smooth Texture
             - Silky Texture

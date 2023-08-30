@@ -1105,63 +1105,6 @@ constructions:
             - Fire Bowls
             - Chimineas
             - Lanterns with Real Flames
-    lighting:
-        indoor:
-            - Ambient Lighting
-            - Task Lighting
-            - Accent Lighting
-            - Chandeliers
-            - Pendant Lights
-            - Wall Sconces
-            - Track Lighting
-            - Recessed Lighting
-            - Table Lamps
-            - Floor Lamps
-            - Under-Cabinet Lighting
-            - Cove Lighting
-            - Wall Washers
-            - Picture Lights
-            - Strip Lights (LED strips)
-            - Night Lights
-            - Fiber Optic Lighting
-            - Smart Lighting
-        outdoor:
-            - Pathway Lighting
-            - Landscape Lighting
-            - Floodlights
-            - Security Lighting
-            - Wall-Mounted Lanterns
-            - Bollard Lights
-            - Deck and Step Lights
-            - In-Ground Well Lights
-            - String Lights (Fairy Lights)
-            - Wall Washers (Exterior)
-            - Spotlights
-            - Garden Lighting
-            - Pond and Pool Lighting
-            - Patio Umbrella Lights
-            - Solar Garden Lights
-            - Motion Sensor Lights
-            - Lanterns (Traditional or Modern)
-            - Gas Lanterns (Outdoor)
-            - Flame Lights
-        specialized:
-            - Bar Lighting
-            - Rim Lighting
-            - Wall Grazing
-            - Wall Washing
-            - Downlighting
-            - Uplighting
-            - Footlighting
-            - Cove Lighting
-            - Neon Lights
-            - Rope Lights
-            - Black Lights
-            - Strobe Lights
-            - Gobo Lighting
-            - Moving Head Lights
-            - Pin Spot Lighting
-            - Laser Lights
     features:
         tiny:
             - Compact and Colorful Facades
@@ -1721,6 +1664,65 @@ styles:
         - Post-Apocalyptic
         - Tech Noir
         - Solarwave
+lighting:
+    constructions:
+        indoor:
+            - Ambient Lighting
+            - Task Lighting
+            - Accent Lighting
+            - Chandeliers
+            - Pendant Lights
+            - Wall Sconces
+            - Track Lighting
+            - Recessed Lighting
+            - Table Lamps
+            - Floor Lamps
+            - Under-Cabinet Lighting
+            - Cove Lighting
+            - Wall Washers
+            - Picture Lights
+            - Strip Lights (LED strips)
+            - Night Lights
+            - Fiber Optic Lighting
+            - Smart Lighting
+        outdoor:
+            - Pathway Lighting
+            - Landscape Lighting
+            - Floodlights
+            - Security Lighting
+            - Wall-Mounted Lanterns
+            - Bollard Lights
+            - Deck and Step Lights
+            - In-Ground Well Lights
+            - String Lights (Fairy Lights)
+            - Wall Washers (Exterior)
+            - Spotlights
+            - Garden Lighting
+            - Pond and Pool Lighting
+            - Patio Umbrella Lights
+            - Solar Garden Lights
+            - Motion Sensor Lights
+            - Lanterns (Traditional or Modern)
+            - Gas Lanterns (Outdoor)
+            - Flame Lights
+        specialized:
+            - Bar Lighting
+            - Rim Lighting
+            - Wall Grazing
+            - Wall Washing
+            - Downlighting
+            - Uplighting
+            - Footlighting
+            - Cove Lighting
+            - Neon Lights
+            - Rope Lights
+            - Black Lights
+            - Strobe Lights
+            - Gobo Lighting
+            - Moving Head Lights
+            - Pin Spot Lighting
+            - Laser Lights
+
 random:
     materials-indoor:
         - "{1-3$$ and $$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
@@ -1731,9 +1733,9 @@ random:
     light-source-outdoor:
         - __constructions/light-sources-outdoor/*__
     lighting-indoor:
-        - "{1-2$$ and $$__random/light-source-indoor__}, {__constructions/lighting/indoor__|__constructions/lighting/specialized__}"
+        - "{1-2$$ and $$__random/light-source-indoor__}, {__lighting/constructions/indoor__|__lighting/constructions/specialized__}"
     lighting-outdoor:
-        - "{1-2$$ and $$__random/light-source-outdoor__}, {__constructions/lighting/outdoor__|__constructions/lighting/specialized__}"
+        - "{1-2$$ and $$__random/light-source-outdoor__}, {__lighting/constructions/outdoor__|__lighting/constructions/specialized__}"
     interior-design:
         - "{1-5$$__constructions/interior-design/*__}"
     interior-design-fictional:
