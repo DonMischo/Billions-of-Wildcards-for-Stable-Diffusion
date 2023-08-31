@@ -26,14 +26,14 @@ BoCharsCyberpunk:
         classic:
             - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
         scenery:
-            - __BoCharsCyberpunk/female/classic__, __cyberpunk/lighting__, __scenes/cyberpunk/*__
+            - __BoCharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
         BoConstructions:
             - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
     male:
         classic:
             - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
         scenery:
-            - __BoCharsCyberpunk/male/classic__, __cyberpunk/lighting__, __scenes/cyberpunk/*__
+            - __BoCharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
         BoConstructions:
             - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
     random:
@@ -109,7 +109,7 @@ BoCloths:
     random-fullbody:
         - "full body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabric7*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
@@ -121,7 +121,7 @@ BoCloths:
     random-upperbody:
         - "upper body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabric7*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
@@ -129,7 +129,7 @@ BoCloths:
         "
     random-lowerbody:
         - "lower body clothing,
-        __properties/fabric/*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/fit-Length__,
         __styles/clothing/Waistlines__,
         __BoCloths/random-extras__
@@ -172,13 +172,13 @@ BoCreatures:
         - "__creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/Look-Feel__ __creatures/Body-Shapes__, 
         {__creatures/nmbrlegs__ __creatures/nmbrarms__,|}
         __creatures/Appendages__, 
-        {__creatures/nmbrtails__|} __creatures/tails__, 
+        {__creatures/nmbrtails__,|} __creatures/tails__, 
         __creatures/Skin-Fur-Types__,
         {__creatures/ear-Types__,|}
         {__creatures/wings__,|}
-        {__creatures/horns__|}
-        {__creatures/Mouth-Jaw__|}
-        {__properties/colors/*__|__properties/patterns/unusual__|}"
+        # {__creatures/horns__,|}
+        # {__creatures/Mouth-Jaw__,|}
+        {__properties/colors/*__,|__properties/patterns/unusual__,|}"
 # BoMachines
 BoMachines:
     random:
@@ -198,17 +198,17 @@ BoPlants:
     random-plant:
         - "{
         __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
-        {__properties/texture/stem__ __properties/shape/stem__ __plants/stem__, __properties/texture/bark__,|}
+        {__properties/textures/stem__ __properties/shape/stem__ __plants/stem__, __properties/textures/bark__,|}
         {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
         {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
-        {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/pattern/plants__,|__properties/pattern/mushrooms__,}|}
+        {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,}|}
         {__plants/Sepal-Configuration__, __plants/Foliage-Arrangement__,|}
         {__properties/structure/root__ root|}
         }"
     random-shroom:
         - "{
-        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/texture/mushrooms__ mushroom,
-        __properties/texture/*__, {__properties/pattern/plants__,|__properties/pattern/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
+        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/textures/mushrooms__ mushroom,
+        __properties/textures/*__, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
         {__mushrooms/Bioluminescence__,|}
         {__properties/colors/*__ __mushrooms/gill__,|}
         {1-3$$__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
@@ -354,21 +354,21 @@ BoStyles:
     random-rendering-Ray-Tracing:
         - __styles/rendering-techniques/Ray-Tracing__
     random-rendering-Ambient-Effects:
-        - __styles/rendering-techniques/Ambient Effects__
+        - __styles/rendering-techniques/Ambient-Effects__
     random-rendering-Particles-and-Effects:
-        - __styles/rendering-techniques/Particles and Effects__
+        - __styles/rendering-techniques/Particles-and-Effects__
     random-rendering-Lighting-Techniques:
-        - __styles/rendering-techniques/Lighting Techniques__
+        - __styles/rendering-techniques/Lighting-Techniques__
     random-rendering-Shading-Techniques:
-        - __styles/rendering-techniques/Shading Techniques__
+        - __styles/rendering-techniques/Shading-Techniques__
     random-rendering-Mapping-Techniques:
-        - __styles/rendering-techniques/Mapping Techniques__
+        - __styles/rendering-techniques/Mapping-Techniques__
     random-rendering-Post-Processing-Techniques:
-        - __styles/rendering-techniques/Post-Processing Techniques__
+        - __styles/rendering-techniques/Post-Processing-Techniques__
     random-rendering-Optimization-Techniques:
-        - __styles/rendering-techniques/Optimization Techniques__
+        - __styles/rendering-techniques/Optimization-Techniques__
     random-rendering-Artistic-Rendering:
-        - __styles/rendering-techniques/Artistic Rendering__
+        - __styles/rendering-techniques/Artistic-Rendering__
 # graphic engines
     random-graphic-engines:
         - __styles/graphic-engines__
@@ -399,7 +399,7 @@ BoStyles:
         - __styles/depiction-styles/Digital-Modern-Styles__
 # Animation
     random-animation-style:
-        - __styles/animation__
+        - __styles/animations__
 # ambient Effects
     random-ambient-effect:
         - __styles/ambient-Effects__
@@ -408,7 +408,7 @@ BoStyles:
         - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
 # resolution
     random-resolution:
-        - __styles/resolution__
+        - __styles/resolutions__
 # creative concepts
     random-creative-concept:
         - __styles/Creative-Concepts__
@@ -434,7 +434,7 @@ BoVehicles:
         {__vehicles/lights__,|}
         {__vehicles/Accessories__,|}
         {__vehicles/Customization__,|}
-        __properties/materials-vehicles__,
+        __properties/materials-vehicles/*__,
         __properties/Visual-Appearance__,
         {__properties/paint-vehicle__,|}
         {__properties/Textures/vehicles__,|}"
@@ -445,7 +445,7 @@ BoVehicles:
         {__vehicles/lights__,|}
         {__vehicles/Accessories__,|}
         {__vehicles/Customization__,|}
-        __properties/materials-vehicles__,
+        __properties/materials-vehicles/*__,
         __properties/Visual-Appearance__,
         {__properties/paint-vehicle__,|}
         {__properties/Textures/vehicles__,|}"
@@ -456,12 +456,10 @@ BoVehicles:
         {__vehicles/lights__,|}
         {__vehicles/Accessories__,|}
         {__vehicles/Customization__,|}
-        __properties/materials-vehicles__,
+        __properties/materials-vehicles/*__,
         __properties/Visual-Appearance__,
         {__properties/paint-vehicle__,|}
         {__properties/Textures/vehicles__,|}"
-
-
 
 clothings:
     regular:
@@ -2239,7 +2237,7 @@ clothings:
                },
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __random/accesoires__"
+            __random/accesoires-magical__"
         male-attire:
             - "{
                 {0.8::__random/properties-magical__|} __clothings/magical/male/lower-body__,
@@ -2248,7 +2246,7 @@ clothings:
                },
             {0.8::__clothings/magical/male/footwear__|},
             {0.5::__clothings/magical/male/headwear__|},
-            __random/accesoires__"
+            __random/accesoires-magical__"
         female:
             upper-body:
                 - Celestial Boleros
@@ -4678,43 +4676,43 @@ clothings:
 person:
     regular:
         female:
-            - "__person/ages__,
-            __person/bodyshapes__,
-            __person/ethnics__,
-            __person/eyecolor__,
-            {__person/ears__,|}
-            {__person/noses__,|}
-            {__person/chin__,|}
-            {__person/jaw__,|}
-            {__person/cheek__,|}
-            {__person/forehead__,|}
-            {__person/face-shape__,|}
-            {__person/body-feature__,|}
+            - "__person/regular/ages__,
+            __person/regular/bodyshapes__,
+            __person/regular/ethnics__,
+            __person/regular/eyecolor__,
+            {__person/regular/ears__,|}
+            {__person/regular/noses__,|}
+            {__person/regular/chin__,|}
+            {__person/regular/jaw__,|}
+            {__person/regular/cheek__,|}
+            {__person/regular/forehead__,|}
+            {__person/regular/face-shape__,|}
+            {__person/regular/body-feature__,|}
             {
-                {0.7::__person/facial-features__|}|
-                {0.5::__person/makeup__|}
+                {0.7::__person/regular/facial-features__|}|
+                {0.5::__person/regular/makeup__|}
             }, 
-            __random/haircolor__ __person/haircuts-female__ hair, 
-            __person/expressions__"
+            __random/haircolor__ __person/regular/haircuts-female__ hair, 
+            __person/regular/expressions__"
         male:
-            - "__person/ages__
-            __person/bodyshapes__,
-            __person/ethnics__,
-            __person/eyecolor__,
-            {__person/ears__,|}
-            {__person/noses__,|}
-            {__person/chin__,|}
-            {__person/jaw__,|}
-            {__person/cheek__,|}
-            {__person/forehead__,|}
-            {__person/face-shape__,|}
-            {__person/body-feature__,|}
+            - "__person/regular/ages__
+            __person/regular/bodyshapes__,
+            __person/regular/ethnics__,
+            __person/regular/eyecolor__,
+            {__person/regular/ears__,|}
+            {__person/regular/noses__,|}
+            {__person/regular/chin__,|}
+            {__person/regular/jaw__,|}
+            {__person/regular/cheek__,|}
+            {__person/regular/forehead__,|}
+            {__person/regular/face-shape__,|}
+            {__person/regular/body-feature__,|}
             {
-                {0.7::__person/facial-features__|}|
-                {0.5::__person/beard__|}
+                {0.7::__person/regular/facial-features__|}|
+                {0.5::__person/regular/beard__|}
             }, 
-            __random/haircolor__ __person/haircuts-male__ hair, 
-            __person/expressions__,"
+            __random/haircolor__ __person/regular/haircuts-male__ hair, 
+            __person/regular/expressions__,"
         ages:
             - Adolescence
             - Ageless
@@ -6391,18 +6389,18 @@ cyberpunk:
             - Teleport
 magical:
     magic:
-        - "({6-10$${-3$$__magic/words/adjectives__}|
-        {-2$$__magic/properties/colors/*__}
-        {-3$$__magic/words/*__} |
-        {-2$$__magic/properties/materials-magic__}
-        {-2$$__magic/matter/movement1__}|
-        {-1$$__magic/matter/movement2__}|
-        0.1::{-1$$__magic/phenomena/natural__}|
-        {-1$$__magic/phenomena/abstract__}|
-        {-2$$__magic/properties/patterns/lines__}|
-        0.1::{-1$$__magic/properties/patterns/2Dshapes__}
-        |0.1::{-1$$__magic/properties/patterns/3Dshapes__}|
-        {-1$$__magic/matter/state__}} 
+        - "({6-10$${-3$$__magical/words/adjectives__}|
+        {-2$$__properties/colors/*__}
+        {-3$$__magical/words/*__} |
+        {-2$$__properties/materials*/*__}
+        {-2$$__matter/movement1__}|
+        {-1$$__matter/movement2__}|
+        0.1::{-1$$__phenomena/*/natural__}|
+        {-1$$__phenomena/*/abstract__}|
+        {-2$$__properties/patterns/lines__}|
+        0.1::{-1$$__properties/patterns/2Dshapes__}
+        |0.1::{-1$$__properties/patterns/3Dshapes__}|
+        {-1$$__matter/state__}}
         magic:1.0)"
     types:
         air:
@@ -8838,7 +8836,6 @@ creatures:
         - Extensible Jaw
         - Proboscis
         - Parrot-Like Beak
-
     traits:
         - Agile
         - Alien
@@ -9109,7 +9106,7 @@ creatures:
         - Pegasus Wings
         - Griffin Wings
         - Wyvern Wings
-        - __magical/elemental__ Wings
+        - "__magical/elemental__ Wings"
         - Crystal Wings
         - Celestial Wings
         - Dark Wings
@@ -15083,7 +15080,7 @@ properties:
             - Slender
             - Bulbous
 
-    fabric:
+    fabrics:
         regular:
             - Cotton
             - Silk
@@ -17003,21 +17000,21 @@ random:
     color:
         - "{__properties/colors/common__|__properties/colors/fashion__|__properties/colors/special__}"
     dress-properties:
-        - "{1-3$$  $$__random/color__|__properties/fabric/regular__|__properties/patterns/clothing__}"
+        - "{1-3$$  $$__random/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}"
     accesoires:
         - "{1-4$$ and$${0.1::__clothings/regular/unisex/accesoires__ |}|
         {0.2::__clothings/regular/unisex/backwear__ |}|
         {0.2::__clothings/regular/unisex/facewear__ |}|
         {0.1::__clothings/regular/unisex/neckwear__ |}}"
     haircolor:
-        - "{0.7::__person/haircolor__|0.3::__person/haircolor-unconv__}"
+        - "{0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}"
     accesoires-cyberpunk:
         - "{1-4$$ and$${0.1::__clothings/cyberpunk/unisex/accesoires__ |}|
         {0.2::__clothings/cyberpunk/unisex/backwear__ |}|
         {0.2::__clothings/cyberpunk/unisex/facewear__ |}|
         {0.1::__clothings/cyberpunk/unisex/neckwear__ |}}"
     dress-properties-cyberpunk:
-        - "{1-3$$  $$__random/color__|__properties/fabric/cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
+        - "{1-3$$  $$__random/color__|__properties/fabrics/cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
     profession-cyberpunk:
         - __cyberpunk/profession/*__
     accesoires-magical:
@@ -17041,7 +17038,7 @@ random:
         - __magical/profession/illusion__, __magical/magic__ __magical/profession-magic-use/illusion__
         - __magical/profession/technomancy__, __magical/magic__ __magical/profession-magic-use/technomancy__
     dress-properties-nsfw:
-        - "{1-4$$  $$__random/color__|{__properties/fabric/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
+        - "{1-4$$  $$__random/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
     accesoires-nsfw:
         - "{1-4$$ and$${0.1::__clothings/nsfw/unisex/accesoires__ |}|
         {0.2::__clothings/nsfw/unisex/backwear__ |}|
@@ -17053,7 +17050,7 @@ random:
         {0.2::__clothings/scifi/unisex/facewear__ |}|
         {0.1::__clothings/scifi/unisex/neckwear__ |}}"
     dress-properties-scifi:
-        - "{1-3$$  $$__random/color__|__properties/fabric/scifi__|__properties/patterns/clothing-scifi__}"
+        - "{1-3$$  $$__random/color__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}"
     profession-scifi:
         - __scifi/profession/*__
     materials-indoor:
@@ -17065,9 +17062,9 @@ random:
     light-source-outdoor:
         - __constructions/light-sources-outdoor/*__
     lighting-indoor:
-        - "{1-2$$ and $$__random/light-source-indoor__}, {__lighting/constructions/indoor__|__lighting/constructions/specialized__}"
+        - "{1-2$$ and $$__random/light-source-indoor__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
     lighting-outdoor:
-        - "{1-2$$ and $$__random/light-source-outdoor__}, {__lighting/constructions/outdoor__|__lighting/constructions/specialized__}"
+        - "{1-2$$ and $$__random/light-source-outdoor__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
     interior-design:
         - "{1-5$$__constructions/interior-design/*__}"
     interior-design-fictional:
