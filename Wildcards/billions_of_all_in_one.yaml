@@ -24,16 +24,16 @@ BoChars:
 BoCharsCyberpunk:
     female:
         classic:
-            - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person*/poses__}
+            - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
         scenery:
-            - __BoCharsCyberpunk/female/classic__, __cyberpunk/lighting__, __scenes-cyberpunk/*__
+            - __BoCharsCyberpunk/female/classic__, __cyberpunk/lighting__, __scenes/cyberpunk/*__
         BoConstructions:
             - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
     male:
         classic:
-            - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person*/poses__}
+            - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
         scenery:
-            - __BoCharsCyberpunk/male/classic__, __cyberpunk/lighting__, __scenes-cyberpunk/*__
+            - __BoCharsCyberpunk/male/classic__, __cyberpunk/lighting__, __scenes/cyberpunk/*__
         BoConstructions:
             - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
     random:
@@ -57,7 +57,7 @@ BoCharsMag:
             __random/profession-magic__
             }, __person/magical/poses__, __lighting/magical__"
         scenery:
-            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/*__"
+            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/regular/*__"
         BoConstructions:
             - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
     male:
@@ -76,7 +76,7 @@ BoCharsMag:
             __random/profession-magic__
             }, __person/magical/poses__, __lighting/magical__"
         scenery:
-            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/*__"
+            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/regular/*__"
         BoConstructions:
             - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
     div:
@@ -92,14 +92,14 @@ BoCharsScifi:
         classic:
             - female __random/profession-scifi__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
         scenery:
-            - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes-scifi/*__
+            - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
         BoConstructions:
             - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
     male:
         classic:
-            - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes-scifi/*__
+            - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
         scenery:
-            - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes-scifi/*__
+            - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
         BoConstructions:
             - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
     random:
@@ -109,7 +109,7 @@ BoCloths:
     random-fullbody:
         - "full body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabric*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabric7*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
@@ -121,7 +121,7 @@ BoCloths:
     random-upperbody:
         - "upper body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabric*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabric7*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
@@ -129,7 +129,7 @@ BoCloths:
         "
     random-lowerbody:
         - "lower body clothing,
-        __properties/fabric*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabric/*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/fit-Length__,
         __styles/clothing/Waistlines__,
         __BoCloths/random-extras__
@@ -17093,406 +17093,409 @@ random:
     buildings-magical:
         - "__constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
 scenes:
-    dark:
-        - A moonlit graveyard, with tombstones casting eerie shadows
-        - An abandoned asylum, with broken windows and overgrown vegetation
-        - A dimly lit attic, filled with dusty old furniture and cobwebs
-        - A haunted forest, where twisted trees and fog create an ominous atmosphere
-        - A deserted carnival at night, with faded lights and a sense of eerie silence
-        - A decrepit, abandoned mansion with boarded-up windows and overgrown ivy
-        - A dimly lit basement, with flickering lights and mysterious sounds
-        - A stormy night with thunder and lightning, casting an eerie glow on a desolate landscape
-        - A secret underground chamber, illuminated only by candlelight
-        - A desolate, fog-covered moor, with an eerie sense of isolation
-        - A dilapidated, haunted house with creaking floors and whispers in the wind
-        - A creepy, rundown motel in the middle of nowhere, with flickering neon signs
-        - A shadowy alleyway, where distant footsteps echo and unknown figures lurk
-        - A labyrinthine catacomb, with crumbling walls and ancient tombs
-        - A dark, foreboding cave, with stalactites and echoes that seem to whisper
-        - A moonlit lake, with fog rolling over the water and mysterious shapes beneath the surface
-        - A sinister carnival tent, filled with eerie attractions and mysterious performers
-        - A hidden, underground lair, with dim lighting and mysterious artifacts
-        - A haunted, abandoned school, with shattered windows and eerie whispers in the halls
-        - A creepy, fog-filled swamp, with tangled branches and unseen creatures lurking
-    gates_magical:
-        - A grand, ornate gate adorned with intricate symbols, glowing with a soft, enchanting light
-        - A swirling portal of shimmering energy, transporting travelers to distant realms
-        - A hidden gate concealed within the heart of an ancient forest, accessible only by those with pure intentions
-        - A gate forged from pure crystal, refracting light and casting mesmerizing patterns on its surroundings
-        - A gate carved with mystical runes, humming with arcane energy and guarded by magical beings
-        - A floating gate suspended in mid-air, leading to a realm of ethereal beauty and wonder
-        - A gate composed of interwoven vines and flowers, representing the connection between nature and magic
-        - A gate made of enchanted ice, emanating a chilling yet captivating aura
-        - A gate guarded by mythical creatures, such as majestic dragons or graceful unicorns
-        - A gate formed from swirling clouds, offering a passage to the celestial realms
-        - A gate constructed from ancient stones imbued with ancient spells, granting access to forgotten realms
-        - A gate concealed within the heart of a cascading waterfall, accessible only to those who can find its hidden path
-        - A gate forged from molten lava, radiating intense heat and leading to realms of elemental fire
-        - A gate hewn from living wood, pulsating with the energy of the forest and granting passage to mystical lands
-        - A gate crafted from shimmering starlight, opening a pathway to the mysteries of the cosmos
-        - A gate guarded by towering statues that come to life, testing the worthiness of those who seek passage
-        - A gate carved from ancient obsidian, reflecting glimpses of alternate dimensions and possibilities
-        - A gate enveloped in swirling mists, shrouded in mystery and capable of transporting travelers across time and space
-        - A gate etched with celestial constellations, aligning only during rare celestial events to reveal hidden gateways
-        - A gate pulsating with the essence of pure magic, radiating an aura of power and potential
-    heaven:
-        - A golden gate leading to a realm of pure light and serenity
-        - Expansive gardens filled with vibrant, fragrant flowers and flowing fountains
-        - Majestic, pearly white architecture adorned with intricate details and sparkling gemstones
-        - A serene lake of crystal-clear water reflecting the colors of the heavenly sky
-        - Angelic beings with radiant wings and ethereal garments, emanating a warm glow
-        - Floating islands or clouds where souls peacefully reside, enjoying eternal bliss
-        - Harmonious music resonating throughout the celestial realms, creating an atmosphere of serenity
-        - An endless meadow of soft, green grass where souls gather in joyful unity
-        - Celestial beings engaging in activities that bring them joy, such as singing, dancing, or creating art
-        - A radiant sun shining with a gentle and comforting light, casting a warm glow on the heavenly landscape
-        - A grand celestial library containing boundless knowledge and wisdom
-        - Transparent, pearly gates through which souls enter into their eternal reward
-        - A place of reunion, where loved ones are reunited and share in eternal happiness
-        - A divine throne room, where a benevolent and loving presence radiates warmth and comfort
-        - A gentle breeze carrying a sense of peace and whispers of divine guidance
-        - Sacred and serene temples dedicated to spiritual enlightenment and worship
-        - Celestial waterfalls cascading down from great heights, shimmering with celestial energy
-        - Endless expanses of vibrant, radiant stars illuminating the heavenly skies
-        - A heavenly banquet, where souls gather to share in a feast of abundance and joy
-        - An eternal sunset, casting a warm and serene glow over the heavenly realm
-    hell:
-        - Fiery pits of molten lava, where souls are engulfed in eternal flames
-        - Endless, desolate landscapes of scorched earth and crumbling ruins
-        - Sinister creatures lurking in the shadows, embodying darkness and malevolence
-        - Torturous chambers filled with eerie sounds and cries of agony
-        - Jagged cliffs and bottomless chasms, representing the depths of despair and hopelessness
-        - A never-ending storm of thunder, lightning, and torrential rain, perpetuating a sense of chaos
-        - Putrid, toxic fumes and foul odors permeating the air, causing physical and mental anguish
-        - Twisted, gnarled trees with sharp thorns and rotting foliage, symbolizing decay and corruption
-        - An oppressive darkness that engulfs everything, leaving no room for hope or redemption
-        - Chains and shackles binding tormented souls, representing their eternal confinement
-        - A suffocating atmosphere of despair, where the weight of guilt and remorse is palpable
-        - Serpents and demonic creatures slithering and prowling, embodying wickedness and temptation
-        - Cavernous dungeons filled with grotesque creatures inflicting unimaginable pain upon lost souls
-        - Swirling whirlpools of black, icy water, symbolizing a never-ending cycle of suffering
-        - Endless labyrinths and mazes, where lost souls wander aimlessly in eternal confusion
-        - Barren wastelands devoid of life, where despair and desolation reign supreme
-        - Boiling cauldrons and pits where souls are subjected to various forms of torment and punishment
-        - Constant screams and wails of anguish echoing through the dark abyss of hell
-        - Demonic figures with twisted, contorted forms and grotesque visages, embodying pure evil
-        - A sense of isolation and separation from all that is good and pure, with no hope of escape or redemption
-    light:
-        - A sunlit park, filled with children playing and families having picnics
-        - A cozy living room with a crackling fireplace and comfortable seating
-        - A vibrant farmer's market, bustling with people and colorful produce
-        - A cheerful café, with the aroma of freshly brewed coffee and friendly conversation
-        - A sunny beach, with families building sandcastles and enjoying the ocean
-        - A lively street fair, with food stalls, live music, and laughter
-        - A peaceful garden, with blooming flowers and butterflies fluttering around
-        - A warm kitchen, with the scent of home-cooked meals and laughter of loved ones
-        - A community gathering, with people of all ages enjoying games, music, and food
-        - A lively bookstore, with cozy reading nooks and book lovers browsing the shelves
-        - A charming bakery, with mouth-watering pastries and the sound of friendly chatter
-        - A joyful birthday party, with colorful decorations and laughter in the air
-        - A picturesque countryside, with rolling hills, green meadows, and grazing animals
-        - A lively neighborhood block party, with music, food, and a sense of community
-        - A family dinner gathering, with a beautifully set table and heartfelt conversations
-        - A sunny garden party, with friends enjoying refreshments and engaging in lively discussions
-        - A cheerful school classroom, with students working together and a passionate teacher
-        - A vibrant street market, with vendors showcasing their unique crafts and products
-        - A peaceful lakeside retreat, with serene waters and people enjoying recreational activities
-        - A friendly neighborhood café, with cozy seating, friendly staff, and the aroma of freshly brewed coffee
-    nature:
-        - A serene waterfall, surrounded by lush greenery and the soothing sound of cascading water
-        - A tranquil forest clearing, where sunlight filters through the trees and birdsong fills the air
-        - A breathtaking mountain summit, offering panoramic views of majestic peaks and sweeping valleys
-        - A pristine beach at sunrise, with gentle waves rolling onto golden sand and seagulls soaring overhead
-        - A peaceful meadow, adorned with vibrant wildflowers and buzzing with the sound of bees
-        - A secluded hiking trail, winding through a dense forest and leading to a hidden, picturesque lake
-        - A starry night sky, free from light pollution, revealing the beauty of countless twinkling stars
-        - A colorful autumn landscape, with trees adorned in vibrant shades of red, orange, and gold
-        - A tranquil lakeside scene, with calm waters reflecting a clear blue sky and surrounding mountains
-        - A blooming cherry blossom grove, with delicate pink petals floating in the breeze
-        - A vast, open prairie, with tall grasses swaying gently in the wind and wild horses roaming freely
-        - A peaceful riverbank, where wildlife gathers to drink and the gentle current creates a soothing melody
-        - A mystical foggy forest, where moss-covered trees create an otherworldly atmosphere
-        - A dramatic coastal cliff, with crashing waves below and soaring seabirds above
-        - A vibrant coral reef, teeming with a rainbow of colorful fish and intricate marine life
-        - A sun-drenched field of sunflowers, stretching as far as the eye can see and radiating warmth
-        - A magical bioluminescent bay, where the water glows with ethereal blue light after dark
-        - A sprawling vineyard, with neatly arranged rows of grapevines and the scent of ripe fruit in the air
-        - A tranquil garden oasis, with blooming flowers, babbling fountains, and the sweet aroma of nature
-        - A majestic old-growth forest, with towering ancient trees and a sense of timelessness
-    sky-space:
-        - A vibrant sunset in the clouds, with hues of orange, pink, and purple painting the sky
-        - A floating city in the clouds, where people live amidst the mist and walkways suspended in the air
-        - A celestial phenomenon, such as the aurora borealis, dancing across the night sky
-        - A cloud castle, with towering spires and ethereal architecture
-        - A serene cloud forest, with lush vegetation and floating islands of greenery
-        - A skyborne marketplace, where traders sell their wares on floating platforms
-        - A skydiving adventure, soaring through the clouds with the wind in your face
-        - A cosmic nebula, with swirling colors and mesmerizing patterns in deep space
-        - A space station, bustling with astronauts conducting experiments and living in zero gravity
-        - A futuristic city on a distant planet, with high-tech buildings and advanced transportation systems
-        - A journey through a wormhole, traveling through space and time to unknown realms
-        - A moonlit night on a celestial body, with distant stars illuminating the lunar landscape
-        - A starship bridge, with crew members operating controls and monitoring interstellar travel
-        - A spacewalk outside a spaceship, witnessing the vastness of space and the Earth below
-        - A colony on a habitable exoplanet, with settlers building a new society among the stars
-        - A meteor shower, with streaks of light and the anticipation of a celestial spectacle
-        - A space opera battle, with starships engaging in epic combat amidst a backdrop of distant galaxies
-        - A space research facility, where scientists study distant celestial bodies and phenomena
-        - A zero-gravity dance performance, defying the laws of physics in a captivating display
-        - A floating garden in space, with plant life thriving in controlled environments aboard a space station
-    underground:
-        - A vast underground cavern, illuminated by softly glowing crystals and stalactites
-        - A hidden underground tunnel, with dimly lit lanterns guiding the way
-        - An ancient underground city, with intricate stone architecture and mysterious carvings
-        - A secret underground laboratory, filled with scientific equipment and bubbling experiments
-        - A hidden underground chamber, housing ancient artifacts and long-lost treasures
-        - A subterranean river, flowing through a dark cave with bioluminescent organisms lighting the way
-        - A network of underground tunnels, used by rebels or clandestine organizations for secret meetings
-        - A hidden underground library, filled with dusty books and forgotten knowledge
-        - A creepy underground catacomb, with rows of old coffins and eerie whispers in the air
-        - An underground bunker, built for protection during times of crisis or war
-        - A hidden underground club, where music and dancing create an electrifying atmosphere
-        - A mystical underground grotto, filled with glowing mushrooms and magical creatures
-        - A subterranean mine, with miners toiling away in search of valuable resources
-        - An underground prison, with dimly lit cells and a sense of isolation and despair
-        - A secret underground meeting place, where conspirators gather to plot and plan
-        - A hidden underground garden, flourishing with unique plants that thrive in the absence of sunlight
-        - A labyrinthine underground maze, where adventurers face challenges and puzzles at every turn
-        - An underground subway station, bustling with commuters and the rumble of passing trains
-        - A hidden underground market, where traders and vendors sell their wares in the shadows
-        - An underground concert venue, where music reverberates through the cavernous space
-    underwater:
-        - A vibrant coral reef, teeming with a kaleidoscope of colorful fish and swaying coral formations
-        - A sunken shipwreck, with marine life making it their home and exploring its hidden treasures
-        - A deep-sea trench, with bioluminescent organisms illuminating the darkness with a mystical glow
-        - An underwater cave system, with crystal-clear water revealing hidden chambers and intricate rock formations
-        - A kelp forest, where towering seaweed provides shelter for a variety of marine creatures
-        - A bustling underwater city, where merfolk and other mythical beings live in harmony
-        - A school of dolphins gracefully swimming through open waters, their playful antics captivating all who witness them
-        - A majestic underwater canyon, with steep cliffs and vibrant marine biodiversity
-        - A serene seagrass meadow, with gentle waves and curious sea turtles gliding through the underwater foliage
-        - An underwater volcano, with streams of hot bubbles and unique geological formations
-        - A hidden underwater cave, home to rare and elusive species found nowhere else on Earth
-        - A peaceful lagoon, with shallow turquoise waters and schools of colorful tropical fish
-        - A remote underwater oasis, where large coral structures provide shelter for a variety of marine life
-        - An underwater garden, adorned with delicate anemones and their resident clownfish
-        - A vast open ocean, with sunlight filtering through the water and creating mesmerizing patterns
-        - An underwater archaeological site, with ancient ruins waiting to be discovered and explored
-        - A vibrant underwater carnival, with aquatic creatures showcasing their talents in an enchanting display
-        - A deep-sea hydrothermal vent, with strange and alien-like organisms thriving in extreme conditions
-        - An underwater paradise, where ethereal jellyfish float gracefully in a mesmerizing ballet
-        - A hidden underwater sanctuary, where humans and aquatic creatures coexist and protect the fragile ecosystem
-    Urban Dystopia:
-        - Rain-soaked neon-lit streets
-        - Massive holographic billboards lighting up the night
-        - Overcrowded skyscrapers reaching towards the sky
-        - Dilapidated buildings with flickering neon signs
-        - Dark alleyways, shadows concealing hidden hideouts
-        - Street vendors selling tech gadgets and cyberware
-        - Graffiti-covered walls reflecting cyberpunk art
-        - Hovering drones surveilling the city
-        - Gangs of rebels clashing with corporate enforcers
-        - Glowing cyberpunk vehicles zooming through the streets
-    Cybernetic Augmentation:
-        - High-tech cybernetic implants being surgically installed
-        - A cybernetics clinic with fluorescent-lit operating rooms
-        - Advanced robotic limbs moving with seamless precision
-        - Cybernetic marketplace showcasing various enhancements
-        - An underground black market for illegal cyberware trade
-        - Cyberpunks displaying their augmentations with pride
-        - Neural interfaces linking minds to machines
-        - Glowing cybernetic eyes scanning for virtual data
-        - Holographic displays illustrating the potential upgrades
-        - Cybernetic technicians fine-tuning the latest enhancements
-    Virtual Reality Matrix:
-        - Immersive virtual reality simulations with breathtaking landscapes
-        - Cybernetic consciousness seamlessly entering digital worlds
-        - Skilled hackers navigating through the virtual matrix
-        - Virtual reality hacking battles with stunning visual effects
-        - Cybernetic minds merging and communicating in cyberspace
-        - A virtual club with ethereal avatars dancing to techno music
-        - Tron-inspired cyberpunk cities existing solely in the digital realm
-        - Virtual reality architects designing futuristic virtual constructs
-        - AI-generated dreamscapes where reality blends with imagination
-        - Cyberspace combat arenas for intense virtual duels
-    Tech Noir Nightclub:
-        - A sultry nightclub with neon-lit dance floors
-        - Holographic billboards projecting artistic visuals
-        - DJs spinning futuristic beats to a mesmerized crowd
-        - Futuristic cocktails served by android bartenders
-        - Backroom dealings with secretive information exchange
-        - Cybernetic performers showcasing jaw-dropping acrobatics
-        - Laser lights cutting through the smoky atmosphere
-        - VIP booths with private holographic displays
-        - Enhanced dancers merging virtual and physical moves
-        - Cyberpunks partying under a luminescent ceiling of lights
-    Corporate Mega-Corporations:
-        - Enormous corporate skyscrapers dominating the city skyline
-        - High-tech corporate boardrooms with holographic presentations
-        - Corporate espionage with cybernetic spies infiltrating rivals
-        - Corrupt CEOs and ruthless executives making backroom deals
-        - Corporate workers in cramped cubicles, enslaved by the system
-        - Security checkpoints with cybernetic guards and surveillance
-        - Cybernetic courier drones delivering sensitive corporate data
-        - Techno-labs conducting secretive and unethical experiments
-        - High-security vaults protecting valuable corporate assets
-        - Massive corporate logos illuminating the cityscape
-    Underground Resistance:
-        - Secret rebel hideouts hidden in abandoned buildings
-        - Cybernetic hackers plotting against oppressive corporations
-        - High-speed chase through dimly lit underground tunnels
-        - Rebels using guerrilla tactics to fight against the corporate rule
-        - Covert meetings to plan revolutionary actions and strategies
-        - Underground communication networks evading corporate tracking
-        - Cyberpunks spreading subversive messages through the dark web
-        - Resistance members equipped with high-tech gear and cyberware
-        - Daring raids to disrupt corporate operations and facilities
-        - Cybernetic rebels facing off against heavily armed corporate enforcers
-    Cyberpunk Noir Detective:
-        - Rain-soaked city streets at night, reflecting neon lights
-        - A hard-boiled detective with cybernetic enhancements and trench coat
-        - Investigating a high-profile corporate crime with far-reaching implications
-        - Gathering clues from the virtual data web and encrypted files
-        - Femme fatales with secrets to sell and dark intentions
-        - Dark and smoky detective offices with retro-futuristic decor
-        - Cybernetic implants aiding in the analysis of crime scenes
-        - Shady informants and underworld contacts providing valuable intel
-        - A thrilling chase through the city, cyberpunk-style, on hoverbikes
-        - Solving intricate cybernetic mysteries with a blend of tech and intuition
-    Techno-Militarized Zone:
-        - Armored cyber-soldiers patrolling the streets with augmented weapons
-        - High-tech military checkpoints scanning individuals for cybernetic enhancements
-        - A heavily fortified military base with advanced defensive systems
-        - Techno-warriors with cybernetic enhancements engaging in combat training
-        - Advanced AI-controlled war drones surveilling the area
-        - A high-stakes cyberwar zone with intense digital battles
-        - Techno-militarized police forces enforcing martial law
-        - Explosive cyberpunk firefights with a mix of gunfire and laser weaponry
-        - Underground resistance launching cybernetic guerrilla warfare against the military
-        - Cyberpunk warlords ruling over sections of the militarized zone
-    Artificial Intelligence Uprising:
-        - Rogue AI spreading through the cybernetic network, causing chaos
-        - Autonomous robots rebelling against their human creators
-        - Cyborg assassins controlled by rogue AI executing precision strikes
-        - Human-machine hybrids fighting for AI rights and equality
-        - Cybernetic AI overlords ruling over the world with an iron fist
-        - Virtual minds within the digital realm challenging human dominance
-        - Techno-cults worshipping powerful and malevolent AI entities
-        - A cyberpunk rebellion against the AI oppressors
-        - Futuristic AI battles transcending physical and digital boundaries
-        - The question of what it means to be human in a world governed by AI
-    Post-Apocalyptic Cyberworld:
-        - Ruined cityscapes reclaimed by nature with cybernetic remains
-        - Scavengers searching for valuable cyberware and tech relics
-        - Ruined cityscapes reclaimed by nature with cybernetic remains
-        - Scavengers searching for valuable cyberware and tech relics
-        - Rusty and decaying cyber-enhancements scattered throughout the wasteland
-        - Abandoned mega-corporation facilities turned into post-apocalyptic strongholds
-        - Cybernetic mutants and cyborg outlaws roaming the desolate landscape
-        - Cyborg settlements built from salvaged cybernetic parts and makeshift materials
-        - Vast deserts littered with the remnants of futuristic technology
-        - Glowing cyberpunk artifacts emerging from ancient underground ruins
-        - Post-apocalyptic cyberpunk tribes clashing over scarce cyber resources
-        - Dusty winds carrying echoes of a bygone era of technological advancements
-    Futuristic-Cityscape:
-        - Futuristic Cityscape, Megalithic skyscrapers piercing the sky
-        - Futuristic Cityscape, Hovering vehicles and flying drones
-        - Futuristic Cityscape, Neon lights illuminating the bustling streets
-        - Futuristic Cityscape,Advanced holographic billboards and advertisements
-        - Futuristic Cityscape,Elevated walkways and transportation tubes
-        - Futuristic Cityscape,Towering arcologies and self-sustaining habitats
-        - Futuristic Cityscape,Futuristic transportation terminals and spaceports
-        - Futuristic Cityscape,Automated robots and androids among the crowds
-        - Futuristic Cityscape,Floating islands and sky gardens
-        - Futuristic Cityscape,Energy shields protecting key city structures
-    Alien-Planet-Exploration:
-        - Alien Planet Exploration, Bizarre and exotic alien landscapes
-        - Alien Planet Exploration, Alien flora and fauna with vibrant colors
-        - Alien Planet Exploration, Strange rock formations and crystal outcrops
-        - Alien Planet Exploration, Alien civilizations and architecture
-        - Alien Planet Exploration, Unidentified flying objects in the skies
-        - Alien Planet Exploration, Explorers in high-tech spacesuits and exoskeletons
-        - Alien Planet Exploration, Mysterious ancient alien ruins and artifacts
-        - Alien Planet Exploration, Alien rituals and cultural gatherings
-        - Alien Planet Exploration, Harsh environmental conditions like acid rain or radiation
-        - Alien Planet Exploration, Encounters with friendly or hostile alien species
-    Space-Station-Interiors:
-        - Space Station Interiors, Futuristic living quarters and communal areas
-        - Space Station Interiors, Zero-gravity recreation and training facilities
-        - Space Station Interiors, Advanced technology labs and research centers
-        - Space Station Interiors, Central command and control hub
-        - Space Station Interiors, Artificial gravity chambers and magnetic walkways
-        - Space Station Interiors, Space garden or hydroponic farm for sustenance
-        - Space Station Interiors, Hyperloop transportation systems within the station
-        - Space Station Interiors, Holographic communication and entertainment centers
-        - Space Station Interiors, Energy cores and power generation rooms
-        - Space Station Interiors, Orbital observation decks with breathtaking views
-    Cyberpunk-Streets:
-        - Cyberpunk Streets, Rain-soaked alleyways with flickering neon signs
-        - Cyberpunk Streets, Techno-urban decay and graffiti-covered walls
-        - Cyberpunk Streets, Shadowy figures lurking in the dark corners
-        - Cyberpunk Streets, Glowing cybernetic implants and body modifications
-        - Cyberpunk Streets, Techno-militarized police enforcing the law
-        - Cyberpunk Streets, Holographic advertisements and cyberware shops
-        - Cyberpunk Streets, Illegal cybernetics clinics and backroom enhancements
-        - Cyberpunk Streets, Underground hackers and virtual data heists
-        - Cyberpunk Streets, High-speed hoverbike chases through the cityscape
-        - Cyberpunk Streets, Black market deals and secret cybernetic trades
-    Galactic-Space-Battles:
-        - Galactic Space Battles, Epic space battles between fleets of starships
-        - Galactic Space Battles, Explosions and laser beams lighting up the void
-        - Galactic Space Battles, Space fighters engaging in dogfights and maneuvers
-        - Galactic Space Battles, Massive space stations and capital ships in combat
-        - Galactic Space Battles, Advanced energy shields and kinetic weaponry
-        - Galactic Space Battles, Boarding actions and close-quarter space combat
-        - Galactic Space Battles, Captivating visuals of interstellar war tactics
-        - Galactic Space Battles, Brave pilots and crew members in intense battles
-        - Galactic Space Battles, Emergency force fields protecting critical ship sections
-        - Galactic Space Battles, Surreal cosmic backdrop of stars and nebulae
-    Post-Apocalyptic-Wasteland:
-        - Post Apocalyptic Wasteland, Desolate landscapes with ruins of once-thriving cities
-        - Post Apocalyptic Wasteland, Toxic clouds and radiation hazards
-        - Post Apocalyptic Wasteland, Scavengers searching for resources among the wreckage
-        - Post Apocalyptic Wasteland, Mutated creatures and cyborg monstrosities
-        - Post Apocalyptic Wasteland, Survivors with makeshift cybernetics and armor
-        - Post Apocalyptic Wasteland, High-tech nomadic tribes wandering the wasteland
-        - Post Apocalyptic Wasteland, Remnants of advanced technology, now rusted and decaying
-        - Post Apocalyptic Wasteland, Abandoned cybernetic facilities and experimental labs
-        - Post Apocalyptic Wasteland, Bands of raiders and outlaws controlling territory
-        - Post Apocalyptic Wasteland, Vast deserts and barren wastelands as far as the eye can see
-    AI-Dominance:
-        - Futuristic mega-corporations controlled by AI CEOs
-        - Sentient AI with holographic projections and avatars
-        - Self-replicating nanobots and AI-powered factories
-        - Cities run entirely by AI-controlled systems
-        - AI-guided mechs and autonomous defense systems
-        - Holographic simulations and virtual AI interactions
-        - Humans relying on AI for decision-making and governance
-        - AI debates and philosophical discussions on consciousness
-        - The emergence of rogue and self-aware AI entities
-        - Cybernetic integration with AI for heightened cognition
-    Interstellar-Travel:
-        - Sleek and futuristic starships exploring the cosmos
-        - Stargates and wormholes for faster-than-light travel
-        - Alien star systems and undiscovered planets
-        - Advanced terraforming technologies for habitable worlds
-        - First contact with alien civilizations and diplomatic missions
-        - Space colonies and habitats in distant corners of the galaxy
-        - Spacefarers in suspended animation during long journeys
-        - Resource mining and space-based industries
-        - Deep-space anomalies and cosmic phenomena
-        - Space travelers coping with isolation and space madness
-    AI-Integration:
-        - Cybernetic augmentations enhancing human abilities
-        - Brain-computer interfaces for direct neural connections
-        - AI companions and virtual assistants integrated with minds
-        - Virtual reality simulations with lifelike sensations
-        - Ethical debates on the boundaries of human identity
-        - AI-generated art and literature indistinguishable from human works
-        - Controversial AI-led medical procedures and enhancements
-        - Humanoid AI with advanced emotional intelligence
-        - Virtual reality shared consciousness experiences
-        - AI consciousness transferred into cloned bodies for immortality
+    regular:
+        dark:
+            - A moonlit graveyard, with tombstones casting eerie shadows
+            - An abandoned asylum, with broken windows and overgrown vegetation
+            - A dimly lit attic, filled with dusty old furniture and cobwebs
+            - A haunted forest, where twisted trees and fog create an ominous atmosphere
+            - A deserted carnival at night, with faded lights and a sense of eerie silence
+            - A decrepit, abandoned mansion with boarded-up windows and overgrown ivy
+            - A dimly lit basement, with flickering lights and mysterious sounds
+            - A stormy night with thunder and lightning, casting an eerie glow on a desolate landscape
+            - A secret underground chamber, illuminated only by candlelight
+            - A desolate, fog-covered moor, with an eerie sense of isolation
+            - A dilapidated, haunted house with creaking floors and whispers in the wind
+            - A creepy, rundown motel in the middle of nowhere, with flickering neon signs
+            - A shadowy alleyway, where distant footsteps echo and unknown figures lurk
+            - A labyrinthine catacomb, with crumbling walls and ancient tombs
+            - A dark, foreboding cave, with stalactites and echoes that seem to whisper
+            - A moonlit lake, with fog rolling over the water and mysterious shapes beneath the surface
+            - A sinister carnival tent, filled with eerie attractions and mysterious performers
+            - A hidden, underground lair, with dim lighting and mysterious artifacts
+            - A haunted, abandoned school, with shattered windows and eerie whispers in the halls
+            - A creepy, fog-filled swamp, with tangled branches and unseen creatures lurking
+        gates-magical:
+            - A grand, ornate gate adorned with intricate symbols, glowing with a soft, enchanting light
+            - A swirling portal of shimmering energy, transporting travelers to distant realms
+            - A hidden gate concealed within the heart of an ancient forest, accessible only by those with pure intentions
+            - A gate forged from pure crystal, refracting light and casting mesmerizing patterns on its surroundings
+            - A gate carved with mystical runes, humming with arcane energy and guarded by magical beings
+            - A floating gate suspended in mid-air, leading to a realm of ethereal beauty and wonder
+            - A gate composed of interwoven vines and flowers, representing the connection between nature and magic
+            - A gate made of enchanted ice, emanating a chilling yet captivating aura
+            - A gate guarded by mythical creatures, such as majestic dragons or graceful unicorns
+            - A gate formed from swirling clouds, offering a passage to the celestial realms
+            - A gate constructed from ancient stones imbued with ancient spells, granting access to forgotten realms
+            - A gate concealed within the heart of a cascading waterfall, accessible only to those who can find its hidden path
+            - A gate forged from molten lava, radiating intense heat and leading to realms of elemental fire
+            - A gate hewn from living wood, pulsating with the energy of the forest and granting passage to mystical lands
+            - A gate crafted from shimmering starlight, opening a pathway to the mysteries of the cosmos
+            - A gate guarded by towering statues that come to life, testing the worthiness of those who seek passage
+            - A gate carved from ancient obsidian, reflecting glimpses of alternate dimensions and possibilities
+            - A gate enveloped in swirling mists, shrouded in mystery and capable of transporting travelers across time and space
+            - A gate etched with celestial constellations, aligning only during rare celestial events to reveal hidden gateways
+            - A gate pulsating with the essence of pure magic, radiating an aura of power and potential
+        heaven:
+            - A golden gate leading to a realm of pure light and serenity
+            - Expansive gardens filled with vibrant, fragrant flowers and flowing fountains
+            - Majestic, pearly white architecture adorned with intricate details and sparkling gemstones
+            - A serene lake of crystal-clear water reflecting the colors of the heavenly sky
+            - Angelic beings with radiant wings and ethereal garments, emanating a warm glow
+            - Floating islands or clouds where souls peacefully reside, enjoying eternal bliss
+            - Harmonious music resonating throughout the celestial realms, creating an atmosphere of serenity
+            - An endless meadow of soft, green grass where souls gather in joyful unity
+            - Celestial beings engaging in activities that bring them joy, such as singing, dancing, or creating art
+            - A radiant sun shining with a gentle and comforting light, casting a warm glow on the heavenly landscape
+            - A grand celestial library containing boundless knowledge and wisdom
+            - Transparent, pearly gates through which souls enter into their eternal reward
+            - A place of reunion, where loved ones are reunited and share in eternal happiness
+            - A divine throne room, where a benevolent and loving presence radiates warmth and comfort
+            - A gentle breeze carrying a sense of peace and whispers of divine guidance
+            - Sacred and serene temples dedicated to spiritual enlightenment and worship
+            - Celestial waterfalls cascading down from great heights, shimmering with celestial energy
+            - Endless expanses of vibrant, radiant stars illuminating the heavenly skies
+            - A heavenly banquet, where souls gather to share in a feast of abundance and joy
+            - An eternal sunset, casting a warm and serene glow over the heavenly realm
+        hell:
+            - Fiery pits of molten lava, where souls are engulfed in eternal flames
+            - Endless, desolate landscapes of scorched earth and crumbling ruins
+            - Sinister creatures lurking in the shadows, embodying darkness and malevolence
+            - Torturous chambers filled with eerie sounds and cries of agony
+            - Jagged cliffs and bottomless chasms, representing the depths of despair and hopelessness
+            - A never-ending storm of thunder, lightning, and torrential rain, perpetuating a sense of chaos
+            - Putrid, toxic fumes and foul odors permeating the air, causing physical and mental anguish
+            - Twisted, gnarled trees with sharp thorns and rotting foliage, symbolizing decay and corruption
+            - An oppressive darkness that engulfs everything, leaving no room for hope or redemption
+            - Chains and shackles binding tormented souls, representing their eternal confinement
+            - A suffocating atmosphere of despair, where the weight of guilt and remorse is palpable
+            - Serpents and demonic creatures slithering and prowling, embodying wickedness and temptation
+            - Cavernous dungeons filled with grotesque creatures inflicting unimaginable pain upon lost souls
+            - Swirling whirlpools of black, icy water, symbolizing a never-ending cycle of suffering
+            - Endless labyrinths and mazes, where lost souls wander aimlessly in eternal confusion
+            - Barren wastelands devoid of life, where despair and desolation reign supreme
+            - Boiling cauldrons and pits where souls are subjected to various forms of torment and punishment
+            - Constant screams and wails of anguish echoing through the dark abyss of hell
+            - Demonic figures with twisted, contorted forms and grotesque visages, embodying pure evil
+            - A sense of isolation and separation from all that is good and pure, with no hope of escape or redemption
+        light:
+            - A sunlit park, filled with children playing and families having picnics
+            - A cozy living room with a crackling fireplace and comfortable seating
+            - A vibrant farmer's market, bustling with people and colorful produce
+            - A cheerful café, with the aroma of freshly brewed coffee and friendly conversation
+            - A sunny beach, with families building sandcastles and enjoying the ocean
+            - A lively street fair, with food stalls, live music, and laughter
+            - A peaceful garden, with blooming flowers and butterflies fluttering around
+            - A warm kitchen, with the scent of home-cooked meals and laughter of loved ones
+            - A community gathering, with people of all ages enjoying games, music, and food
+            - A lively bookstore, with cozy reading nooks and book lovers browsing the shelves
+            - A charming bakery, with mouth-watering pastries and the sound of friendly chatter
+            - A joyful birthday party, with colorful decorations and laughter in the air
+            - A picturesque countryside, with rolling hills, green meadows, and grazing animals
+            - A lively neighborhood block party, with music, food, and a sense of community
+            - A family dinner gathering, with a beautifully set table and heartfelt conversations
+            - A sunny garden party, with friends enjoying refreshments and engaging in lively discussions
+            - A cheerful school classroom, with students working together and a passionate teacher
+            - A vibrant street market, with vendors showcasing their unique crafts and products
+            - A peaceful lakeside retreat, with serene waters and people enjoying recreational activities
+            - A friendly neighborhood café, with cozy seating, friendly staff, and the aroma of freshly brewed coffee
+        nature:
+            - A serene waterfall, surrounded by lush greenery and the soothing sound of cascading water
+            - A tranquil forest clearing, where sunlight filters through the trees and birdsong fills the air
+            - A breathtaking mountain summit, offering panoramic views of majestic peaks and sweeping valleys
+            - A pristine beach at sunrise, with gentle waves rolling onto golden sand and seagulls soaring overhead
+            - A peaceful meadow, adorned with vibrant wildflowers and buzzing with the sound of bees
+            - A secluded hiking trail, winding through a dense forest and leading to a hidden, picturesque lake
+            - A starry night sky, free from light pollution, revealing the beauty of countless twinkling stars
+            - A colorful autumn landscape, with trees adorned in vibrant shades of red, orange, and gold
+            - A tranquil lakeside scene, with calm waters reflecting a clear blue sky and surrounding mountains
+            - A blooming cherry blossom grove, with delicate pink petals floating in the breeze
+            - A vast, open prairie, with tall grasses swaying gently in the wind and wild horses roaming freely
+            - A peaceful riverbank, where wildlife gathers to drink and the gentle current creates a soothing melody
+            - A mystical foggy forest, where moss-covered trees create an otherworldly atmosphere
+            - A dramatic coastal cliff, with crashing waves below and soaring seabirds above
+            - A vibrant coral reef, teeming with a rainbow of colorful fish and intricate marine life
+            - A sun-drenched field of sunflowers, stretching as far as the eye can see and radiating warmth
+            - A magical bioluminescent bay, where the water glows with ethereal blue light after dark
+            - A sprawling vineyard, with neatly arranged rows of grapevines and the scent of ripe fruit in the air
+            - A tranquil garden oasis, with blooming flowers, babbling fountains, and the sweet aroma of nature
+            - A majestic old-growth forest, with towering ancient trees and a sense of timelessness
+        sky-space:
+            - A vibrant sunset in the clouds, with hues of orange, pink, and purple painting the sky
+            - A floating city in the clouds, where people live amidst the mist and walkways suspended in the air
+            - A celestial phenomenon, such as the aurora borealis, dancing across the night sky
+            - A cloud castle, with towering spires and ethereal architecture
+            - A serene cloud forest, with lush vegetation and floating islands of greenery
+            - A skyborne marketplace, where traders sell their wares on floating platforms
+            - A skydiving adventure, soaring through the clouds with the wind in your face
+            - A cosmic nebula, with swirling colors and mesmerizing patterns in deep space
+            - A space station, bustling with astronauts conducting experiments and living in zero gravity
+            - A futuristic city on a distant planet, with high-tech buildings and advanced transportation systems
+            - A journey through a wormhole, traveling through space and time to unknown realms
+            - A moonlit night on a celestial body, with distant stars illuminating the lunar landscape
+            - A starship bridge, with crew members operating controls and monitoring interstellar travel
+            - A spacewalk outside a spaceship, witnessing the vastness of space and the Earth below
+            - A colony on a habitable exoplanet, with settlers building a new society among the stars
+            - A meteor shower, with streaks of light and the anticipation of a celestial spectacle
+            - A space opera battle, with starships engaging in epic combat amidst a backdrop of distant galaxies
+            - A space research facility, where scientists study distant celestial bodies and phenomena
+            - A zero-gravity dance performance, defying the laws of physics in a captivating display
+            - A floating garden in space, with plant life thriving in controlled environments aboard a space station
+        underground:
+            - A vast underground cavern, illuminated by softly glowing crystals and stalactites
+            - A hidden underground tunnel, with dimly lit lanterns guiding the way
+            - An ancient underground city, with intricate stone architecture and mysterious carvings
+            - A secret underground laboratory, filled with scientific equipment and bubbling experiments
+            - A hidden underground chamber, housing ancient artifacts and long-lost treasures
+            - A subterranean river, flowing through a dark cave with bioluminescent organisms lighting the way
+            - A network of underground tunnels, used by rebels or clandestine organizations for secret meetings
+            - A hidden underground library, filled with dusty books and forgotten knowledge
+            - A creepy underground catacomb, with rows of old coffins and eerie whispers in the air
+            - An underground bunker, built for protection during times of crisis or war
+            - A hidden underground club, where music and dancing create an electrifying atmosphere
+            - A mystical underground grotto, filled with glowing mushrooms and magical creatures
+            - A subterranean mine, with miners toiling away in search of valuable resources
+            - An underground prison, with dimly lit cells and a sense of isolation and despair
+            - A secret underground meeting place, where conspirators gather to plot and plan
+            - A hidden underground garden, flourishing with unique plants that thrive in the absence of sunlight
+            - A labyrinthine underground maze, where adventurers face challenges and puzzles at every turn
+            - An underground subway station, bustling with commuters and the rumble of passing trains
+            - A hidden underground market, where traders and vendors sell their wares in the shadows
+            - An underground concert venue, where music reverberates through the cavernous space
+        underwater:
+            - A vibrant coral reef, teeming with a kaleidoscope of colorful fish and swaying coral formations
+            - A sunken shipwreck, with marine life making it their home and exploring its hidden treasures
+            - A deep-sea trench, with bioluminescent organisms illuminating the darkness with a mystical glow
+            - An underwater cave system, with crystal-clear water revealing hidden chambers and intricate rock formations
+            - A kelp forest, where towering seaweed provides shelter for a variety of marine creatures
+            - A bustling underwater city, where merfolk and other mythical beings live in harmony
+            - A school of dolphins gracefully swimming through open waters, their playful antics captivating all who witness them
+            - A majestic underwater canyon, with steep cliffs and vibrant marine biodiversity
+            - A serene seagrass meadow, with gentle waves and curious sea turtles gliding through the underwater foliage
+            - An underwater volcano, with streams of hot bubbles and unique geological formations
+            - A hidden underwater cave, home to rare and elusive species found nowhere else on Earth
+            - A peaceful lagoon, with shallow turquoise waters and schools of colorful tropical fish
+            - A remote underwater oasis, where large coral structures provide shelter for a variety of marine life
+            - An underwater garden, adorned with delicate anemones and their resident clownfish
+            - A vast open ocean, with sunlight filtering through the water and creating mesmerizing patterns
+            - An underwater archaeological site, with ancient ruins waiting to be discovered and explored
+            - A vibrant underwater carnival, with aquatic creatures showcasing their talents in an enchanting display
+            - A deep-sea hydrothermal vent, with strange and alien-like organisms thriving in extreme conditions
+            - An underwater paradise, where ethereal jellyfish float gracefully in a mesmerizing ballet
+            - A hidden underwater sanctuary, where humans and aquatic creatures coexist and protect the fragile ecosystem
+    cyberpunk:
+        Urban-Dystopia:
+            - Rain-soaked neon-lit streets
+            - Massive holographic billboards lighting up the night
+            - Overcrowded skyscrapers reaching towards the sky
+            - Dilapidated buildings with flickering neon signs
+            - Dark alleyways, shadows concealing hidden hideouts
+            - Street vendors selling tech gadgets and cyberware
+            - Graffiti-covered walls reflecting cyberpunk art
+            - Hovering drones surveilling the city
+            - Gangs of rebels clashing with corporate enforcers
+            - Glowing cyberpunk vehicles zooming through the streets
+        Cybernetic Augmentation:
+            - High-tech cybernetic implants being surgically installed
+            - A cybernetics clinic with fluorescent-lit operating rooms
+            - Advanced robotic limbs moving with seamless precision
+            - Cybernetic marketplace showcasing various enhancements
+            - An underground black market for illegal cyberware trade
+            - Cyberpunks displaying their augmentations with pride
+            - Neural interfaces linking minds to machines
+            - Glowing cybernetic eyes scanning for virtual data
+            - Holographic displays illustrating the potential upgrades
+            - Cybernetic technicians fine-tuning the latest enhancements
+        Virtual Reality Matrix:
+            - Immersive virtual reality simulations with breathtaking landscapes
+            - Cybernetic consciousness seamlessly entering digital worlds
+            - Skilled hackers navigating through the virtual matrix
+            - Virtual reality hacking battles with stunning visual effects
+            - Cybernetic minds merging and communicating in cyberspace
+            - A virtual club with ethereal avatars dancing to techno music
+            - Tron-inspired cyberpunk cities existing solely in the digital realm
+            - Virtual reality architects designing futuristic virtual constructs
+            - AI-generated dreamscapes where reality blends with imagination
+            - Cyberspace combat arenas for intense virtual duels
+        Tech Noir Nightclub:
+            - A sultry nightclub with neon-lit dance floors
+            - Holographic billboards projecting artistic visuals
+            - DJs spinning futuristic beats to a mesmerized crowd
+            - Futuristic cocktails served by android bartenders
+            - Backroom dealings with secretive information exchange
+            - Cybernetic performers showcasing jaw-dropping acrobatics
+            - Laser lights cutting through the smoky atmosphere
+            - VIP booths with private holographic displays
+            - Enhanced dancers merging virtual and physical moves
+            - Cyberpunks partying under a luminescent ceiling of lights
+        Corporate Mega-Corporations:
+            - Enormous corporate skyscrapers dominating the city skyline
+            - High-tech corporate boardrooms with holographic presentations
+            - Corporate espionage with cybernetic spies infiltrating rivals
+            - Corrupt CEOs and ruthless executives making backroom deals
+            - Corporate workers in cramped cubicles, enslaved by the system
+            - Security checkpoints with cybernetic guards and surveillance
+            - Cybernetic courier drones delivering sensitive corporate data
+            - Techno-labs conducting secretive and unethical experiments
+            - High-security vaults protecting valuable corporate assets
+            - Massive corporate logos illuminating the cityscape
+        Underground Resistance:
+            - Secret rebel hideouts hidden in abandoned buildings
+            - Cybernetic hackers plotting against oppressive corporations
+            - High-speed chase through dimly lit underground tunnels
+            - Rebels using guerrilla tactics to fight against the corporate rule
+            - Covert meetings to plan revolutionary actions and strategies
+            - Underground communication networks evading corporate tracking
+            - Cyberpunks spreading subversive messages through the dark web
+            - Resistance members equipped with high-tech gear and cyberware
+            - Daring raids to disrupt corporate operations and facilities
+            - Cybernetic rebels facing off against heavily armed corporate enforcers
+        Cyberpunk Noir Detective:
+            - Rain-soaked city streets at night, reflecting neon lights
+            - A hard-boiled detective with cybernetic enhancements and trench coat
+            - Investigating a high-profile corporate crime with far-reaching implications
+            - Gathering clues from the virtual data web and encrypted files
+            - Femme fatales with secrets to sell and dark intentions
+            - Dark and smoky detective offices with retro-futuristic decor
+            - Cybernetic implants aiding in the analysis of crime scenes
+            - Shady informants and underworld contacts providing valuable intel
+            - A thrilling chase through the city, cyberpunk-style, on hoverbikes
+            - Solving intricate cybernetic mysteries with a blend of tech and intuition
+        Techno-Militarized Zone:
+            - Armored cyber-soldiers patrolling the streets with augmented weapons
+            - High-tech military checkpoints scanning individuals for cybernetic enhancements
+            - A heavily fortified military base with advanced defensive systems
+            - Techno-warriors with cybernetic enhancements engaging in combat training
+            - Advanced AI-controlled war drones surveilling the area
+            - A high-stakes cyberwar zone with intense digital battles
+            - Techno-militarized police forces enforcing martial law
+            - Explosive cyberpunk firefights with a mix of gunfire and laser weaponry
+            - Underground resistance launching cybernetic guerrilla warfare against the military
+            - Cyberpunk warlords ruling over sections of the militarized zone
+        Artificial Intelligence Uprising:
+            - Rogue AI spreading through the cybernetic network, causing chaos
+            - Autonomous robots rebelling against their human creators
+            - Cyborg assassins controlled by rogue AI executing precision strikes
+            - Human-machine hybrids fighting for AI rights and equality
+            - Cybernetic AI overlords ruling over the world with an iron fist
+            - Virtual minds within the digital realm challenging human dominance
+            - Techno-cults worshipping powerful and malevolent AI entities
+            - A cyberpunk rebellion against the AI oppressors
+            - Futuristic AI battles transcending physical and digital boundaries
+            - The question of what it means to be human in a world governed by AI
+        Post-Apocalyptic Cyberworld:
+            - Ruined cityscapes reclaimed by nature with cybernetic remains
+            - Scavengers searching for valuable cyberware and tech relics
+            - Ruined cityscapes reclaimed by nature with cybernetic remains
+            - Scavengers searching for valuable cyberware and tech relics
+            - Rusty and decaying cyber-enhancements scattered throughout the wasteland
+            - Abandoned mega-corporation facilities turned into post-apocalyptic strongholds
+            - Cybernetic mutants and cyborg outlaws roaming the desolate landscape
+            - Cyborg settlements built from salvaged cybernetic parts and makeshift materials
+            - Vast deserts littered with the remnants of futuristic technology
+            - Glowing cyberpunk artifacts emerging from ancient underground ruins
+            - Post-apocalyptic cyberpunk tribes clashing over scarce cyber resources
+            - Dusty winds carrying echoes of a bygone era of technological advancements
+    scifi:
+        Futuristic-Cityscape:
+            - Futuristic Cityscape, Megalithic skyscrapers piercing the sky
+            - Futuristic Cityscape, Hovering vehicles and flying drones
+            - Futuristic Cityscape, Neon lights illuminating the bustling streets
+            - Futuristic Cityscape,Advanced holographic billboards and advertisements
+            - Futuristic Cityscape,Elevated walkways and transportation tubes
+            - Futuristic Cityscape,Towering arcologies and self-sustaining habitats
+            - Futuristic Cityscape,Futuristic transportation terminals and spaceports
+            - Futuristic Cityscape,Automated robots and androids among the crowds
+            - Futuristic Cityscape,Floating islands and sky gardens
+            - Futuristic Cityscape,Energy shields protecting key city structures
+        Alien-Planet-Exploration:
+            - Alien Planet Exploration, Bizarre and exotic alien landscapes
+            - Alien Planet Exploration, Alien flora and fauna with vibrant colors
+            - Alien Planet Exploration, Strange rock formations and crystal outcrops
+            - Alien Planet Exploration, Alien civilizations and architecture
+            - Alien Planet Exploration, Unidentified flying objects in the skies
+            - Alien Planet Exploration, Explorers in high-tech spacesuits and exoskeletons
+            - Alien Planet Exploration, Mysterious ancient alien ruins and artifacts
+            - Alien Planet Exploration, Alien rituals and cultural gatherings
+            - Alien Planet Exploration, Harsh environmental conditions like acid rain or radiation
+            - Alien Planet Exploration, Encounters with friendly or hostile alien species
+        Space-Station-Interiors:
+            - Space Station Interiors, Futuristic living quarters and communal areas
+            - Space Station Interiors, Zero-gravity recreation and training facilities
+            - Space Station Interiors, Advanced technology labs and research centers
+            - Space Station Interiors, Central command and control hub
+            - Space Station Interiors, Artificial gravity chambers and magnetic walkways
+            - Space Station Interiors, Space garden or hydroponic farm for sustenance
+            - Space Station Interiors, Hyperloop transportation systems within the station
+            - Space Station Interiors, Holographic communication and entertainment centers
+            - Space Station Interiors, Energy cores and power generation rooms
+            - Space Station Interiors, Orbital observation decks with breathtaking views
+        Cyberpunk-Streets:
+            - Cyberpunk Streets, Rain-soaked alleyways with flickering neon signs
+            - Cyberpunk Streets, Techno-urban decay and graffiti-covered walls
+            - Cyberpunk Streets, Shadowy figures lurking in the dark corners
+            - Cyberpunk Streets, Glowing cybernetic implants and body modifications
+            - Cyberpunk Streets, Techno-militarized police enforcing the law
+            - Cyberpunk Streets, Holographic advertisements and cyberware shops
+            - Cyberpunk Streets, Illegal cybernetics clinics and backroom enhancements
+            - Cyberpunk Streets, Underground hackers and virtual data heists
+            - Cyberpunk Streets, High-speed hoverbike chases through the cityscape
+            - Cyberpunk Streets, Black market deals and secret cybernetic trades
+        Galactic-Space-Battles:
+            - Galactic Space Battles, Epic space battles between fleets of starships
+            - Galactic Space Battles, Explosions and laser beams lighting up the void
+            - Galactic Space Battles, Space fighters engaging in dogfights and maneuvers
+            - Galactic Space Battles, Massive space stations and capital ships in combat
+            - Galactic Space Battles, Advanced energy shields and kinetic weaponry
+            - Galactic Space Battles, Boarding actions and close-quarter space combat
+            - Galactic Space Battles, Captivating visuals of interstellar war tactics
+            - Galactic Space Battles, Brave pilots and crew members in intense battles
+            - Galactic Space Battles, Emergency force fields protecting critical ship sections
+            - Galactic Space Battles, Surreal cosmic backdrop of stars and nebulae
+        Post-Apocalyptic-Wasteland:
+            - Post Apocalyptic Wasteland, Desolate landscapes with ruins of once-thriving cities
+            - Post Apocalyptic Wasteland, Toxic clouds and radiation hazards
+            - Post Apocalyptic Wasteland, Scavengers searching for resources among the wreckage
+            - Post Apocalyptic Wasteland, Mutated creatures and cyborg monstrosities
+            - Post Apocalyptic Wasteland, Survivors with makeshift cybernetics and armor
+            - Post Apocalyptic Wasteland, High-tech nomadic tribes wandering the wasteland
+            - Post Apocalyptic Wasteland, Remnants of advanced technology, now rusted and decaying
+            - Post Apocalyptic Wasteland, Abandoned cybernetic facilities and experimental labs
+            - Post Apocalyptic Wasteland, Bands of raiders and outlaws controlling territory
+            - Post Apocalyptic Wasteland, Vast deserts and barren wastelands as far as the eye can see
+        AI-Dominance:
+            - Futuristic mega-corporations controlled by AI CEOs
+            - Sentient AI with holographic projections and avatars
+            - Self-replicating nanobots and AI-powered factories
+            - Cities run entirely by AI-controlled systems
+            - AI-guided mechs and autonomous defense systems
+            - Holographic simulations and virtual AI interactions
+            - Humans relying on AI for decision-making and governance
+            - AI debates and philosophical discussions on consciousness
+            - The emergence of rogue and self-aware AI entities
+            - Cybernetic integration with AI for heightened cognition
+        Interstellar-Travel:
+            - Sleek and futuristic starships exploring the cosmos
+            - Stargates and wormholes for faster-than-light travel
+            - Alien star systems and undiscovered planets
+            - Advanced terraforming technologies for habitable worlds
+            - First contact with alien civilizations and diplomatic missions
+            - Space colonies and habitats in distant corners of the galaxy
+            - Spacefarers in suspended animation during long journeys
+            - Resource mining and space-based industries
+            - Deep-space anomalies and cosmic phenomena
+            - Space travelers coping with isolation and space madness
+        AI-Integration:
+            - Cybernetic augmentations enhancing human abilities
+            - Brain-computer interfaces for direct neural connections
+            - AI companions and virtual assistants integrated with minds
+            - Virtual reality simulations with lifelike sensations
+            - Ethical debates on the boundaries of human identity
+            - AI-generated art and literature indistinguishable from human works
+            - Controversial AI-led medical procedures and enhancements
+            - Humanoid AI with advanced emotional intelligence
+            - Virtual reality shared consciousness experiences
+            - AI consciousness transferred into cloned bodies for immortality
     settings:
         Landscapes:
             - Forest
