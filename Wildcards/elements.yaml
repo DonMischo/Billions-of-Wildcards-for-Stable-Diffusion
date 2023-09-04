@@ -1,0 +1,722 @@
+#BoElements
+
+chemistry:
+    elements:
+        - Hydrogen
+        - Helium
+        - Lithium
+        - Beryllium
+        - Boron
+        - Carbon
+        - Nitrogen
+        - Oxygen
+        - Fluorine
+        - Neon
+        - Sodium
+        - Magnesium
+        - Aluminum
+        - Silicon
+        - Phosphorus
+        - Sulfur
+        - Chlorine
+        - Argon
+        - Potassium
+        - Calcium
+        - Scandium
+        - Titanium
+        - Vanadium
+        - Chromium
+        - Manganese
+        - Iron
+        - Cobalt
+        - Nickel
+        - Copper
+        - Zinc
+        - Gallium
+        - Germanium
+        - Arsenic
+        - Selenium
+        - Bromine
+        - Krypton
+        - Rubidium
+        - Strontium
+        - Yttrium
+        - Zirconium
+        - Niobium
+        - Molybdenum
+        - Technetium
+        - Ruthenium
+        - Rhodium
+        - Palladium
+        - Silver
+        - Cadmium
+        - Indium
+        - Tin
+        - Antimony
+        - Tellurium
+        - Iodine
+        - Xenon
+        - Cesium
+        - Barium
+        - Lanthanum
+        - Cerium
+        - Praseodymium
+        - Neodymium
+        - Promethium
+        - Samarium
+        - Europium
+        - Gadolinium
+        - Terbium
+        - Dysprosium
+        - Holmium
+        - Erbium
+        - Thulium
+        - Ytterbium
+        - Lutetium
+        - Hafnium
+        - Tantalum
+        - Tungsten
+        - Rhenium
+        - Osmium
+        - Iridium
+        - Platinum
+        - Gold
+        - Mercury
+        - Thallium
+        - Lead
+        - Bismuth
+        - Polonium
+        - Astatine
+        - Radon
+        - Francium
+        - Radium
+        - Actinium
+        - Thorium
+        - Protactinium
+        - Uranium
+        - Neptunium
+        - Plutonium
+        - Americium
+        - Curium
+        - Berkelium
+        - Californium
+        - Einsteinium
+        - Fermium
+        - Mendelevium
+        - Nobelium
+        - Lawrencium
+        - Rutherfordium
+        - Dubnium
+        - Seaborgium
+        - Bohrium
+        - Hassium
+        - Meitnerium
+        - Darmstadtium
+        - Roentgenium
+        - Copernicium
+        - Nihonium
+        - Flerovium
+        - Moscovium
+        - Livermorium
+        - Tennessine
+        - Oganesson
+    
+    Minerals:
+        - Quartz
+        - Feldspar
+        - Mica
+        - Calcite
+        - Gypsum
+        - Talc
+        - Halite
+        - Magnetite
+        - Pyrite
+        - Fluorite
+        - Biotite
+        - Hematite
+        - Olivine
+        - Amphibole
+        - Garnet
+        - Apatite
+        - Topaz
+        - Corundum
+        - Orthoclase
+        - Muscovite
+        - Sulfur
+        - Galena
+        - Azurite
+        - Malachite
+        - Selenite
+        - Celestite
+    Gems:
+        - Diamond
+        - Ruby
+        - Sapphire
+        - Emerald
+        - Amethyst
+        - Opal
+        - Aquamarine
+        - Citrine
+        - Peridot
+        - Jade
+        - Garnet (also a mineral)
+        - Turquoise
+        - Tourmaline
+        - Tanzanite
+        - Lapis Lazuli
+        - Moonstone
+        - Amber
+        - Agate
+        - Onyx
+        - Pearl
+        - Jasper
+        - Chrysoberyl
+        - Zircon
+        - Spinel
+        - Kunzite
+        - Morganite
+        - Rhodochrosite
+        - Alexandrite
+
+colors:
+    Natural:
+        - Ultramarine Blue
+        - Cadmium Yellow
+        - Burnt Sienna
+        - Raw Umber
+        - Ochre
+        - Indian Red
+        - Prussian Blue
+        - Alizarin Crimson
+        - Cobalt Blue
+        - Viridian Green
+        - Yellow Ochre
+        - Burnt Umber
+        - Gamboge
+        - Sepia
+        - Ivory Black
+        - Chrome Yellow
+        - Red Ochre
+        - Venetian Red
+        - Indigo
+        - Sap Green
+        - Rose Madder
+        - Hooker's Green
+        - Vandyke Brown
+        - Naples Yellow
+        - Vermilion
+        - Manganese Violet
+        - Cerulean Blue
+        - Terre Verte
+        - Cinnabar
+        - Tyrian Purple
+        - Malachite Green
+        - Carmine
+        - Gamboge
+        - Quinacridone Magenta
+        - Phthalo Green
+        - Caput Mortuum
+        - Lapis Lazuli
+        - Yellow Ochre
+        - Sienna
+        - Ultramarine Violet
+
+    Chemical:
+        - Cadmium Red
+        - Titanium White
+        - Cadmium Orange
+        - Cobalt Violet
+        - Phthalocyanine Blue
+        - Quinacridone Red
+        - Hansa Yellow
+        - Phthalo Blue
+        - Cobalt Green
+        - Permanent Rose
+        - Nickel Yellow
+        - Dioxazine Purple
+        - Phthalo Turquoise
+        - Quinacridone Gold
+        - Naphthol Red
+        - Diarylide Yellow
+        - Benzimidazolone Orange
+        - Phthalo Green
+        - Pyrrole Red
+        - Quinacridone Burnt Orange
+        - Quinacridone Pink
+        - Cobalt Teal
+        - Quinacridone Violet
+        - Quinacridone Sienna
+        - Quinacridone Nickel Azo Gold
+        - Napthol Scarlet
+        - Pyrrole Orange
+        - Phthalo Turquoise
+        - Quinacridone Coral
+        - Indanthrone Blue
+        - Yellow Ochre
+        - Mars Black
+        - Cadmium Purple
+        - Cobalt Blue Green Shade
+        - Diarylide Brown
+        - Permanent Alizarin Crimson
+        - Permanent Sap Green
+        - Anthraquinone Blue
+        - Phthalo Yellow Green
+        - Cobalt Blue Red Shade
+        - Quinacridone Red Orange
+
+materials:
+    art:
+        substances:
+            - Pigments
+            - oil
+            - acrylic
+            - watercolor mediums
+            - Canvas
+            - Wood
+            - Stone
+            - Clay
+            - gold leaf
+            - Ink
+            - Papyrus
+            - Glass
+            - Enamel
+            - Paper
+            - Pastels
+            - Charcoal
+            - Natural Dyes
+            - Linen
+            - Silk
+            - Fresco (for wall paintings)
+            - Gesso (for priming surfaces)
+            - Tempera (egg-based paint)
+            - Mosaic Tiles
+            - Marble
+            - Bronze
+            - Ivory
+            - Batik (wax resist dyeing)
+            - Collage Materials
+            - Photography Chemicals
+            - Digital Art Software
+            - Found Objects
+            - Plaster
+            - Resins
+            - Wire
+            - Beads
+            - Fabric
+            - Glazes (for ceramics)
+            - Pottery Clay
+            - Adobe
+            - Neon Lights
+            - Plastics
+            - Concrete
+            - Spray Paint
+            - Graffiti Materials
+            - Performance Art Props
+            - Sound Installations
+            - Video Art Equipment
+            - Virtual Reality Tools
+            - Bioart Materials (biological organisms)
+            - Kinetic Art Components
+            - LED Lights
+            - Holography Equipment
+            - 3D Printing Materials
+            - Projection Mapping Technology
+            - Interactive Art Sensors
+            - Artificial Intelligence Algorithms
+            - Virtual Augmented Reality (VAR) Tools
+        tools:
+            - Paintbrush
+            - Palette Knife
+            - Easel
+            - Canvas
+            - Sketchbook
+            - Pencil
+            - Eraser
+            - Charcoal
+            - Pastel
+            - Watercolor Brush
+            - Watercolor Paper
+            - Oil Paint
+            - Acrylic Paint
+            - Watercolor Paint
+            - Oil Pastel
+            - Acrylic Medium
+            - Gouache Paint
+            - Ink Pen
+            - Calligraphy Brush
+            - Linoleum Cutting Tool
+            - Printing Press
+            - Sculpting Tool
+            - Pottery Wheel
+            - Kiln
+            - Clay
+            - Wood Carving Tool
+            - Glassblowing Tool
+            - Screen Printing Frame
+            - Fabric Dyeing Supply
+            - Photography Equipment
+            - Darkroom Tool
+            - Printmaking Tool
+            - Engraving Tool
+            - Airbrush
+            - Graphic Tablet
+            - Computer Software for Digital Art
+            - 3D Printer
+            - Sculpting Clay
+            - Chisel
+            - Ruler
+            - Compass
+            - Protractor
+            - T-Square
+            - Palette (for mixing paint)
+            - Stencil
+            - Cutting Mat
+            - Glue and Adhesive
+            - Canvas Stretcher
+            - Sponge
+            - Needle and Thread (for textile art)
+            - Knitting Needle and Crochet Hook
+            - Soldering Iron (for metalwork)
+            - Safety Gear (gloves, goggles, apron)
+            - Color Wheel
+            - Lighting Equipment (for studio lighting)
+            - Art Storage and Organization (cabinet, drawer)
+            - Tripod (for photography and videography)
+            - Computer Hardware (for digital art)
+            - Color Calibration Tool (for digital art)
+            - Animation Tool (light table, animation software)
+            - Sound Recording Equipment (for multimedia art)
+            - Virtual Reality Headset (for VR art)
+            - Augmented Reality Device (for AR art)
+            - Bioart Tool (lab equipment for bioart)
+            - Kinetic Art Mechanism
+            - Holography Equipment
+            - Projector (for projection art)
+            - Interactive Sensor (for interactive art)
+            - CNC Machine (for precision cutting and engraving)
+            - Laser Cutter (for laser engraving and cutting)
+            - Vinyl Cutter (for vinyl art)
+
+astronomy:
+    Celestial-Bodies:
+        - Star
+        - Planet
+        - Moon
+        - Asteroid
+        - Comet
+        - Meteoroid
+        - Meteor
+        - Black Hole
+        - Nebula
+        - Galaxy
+        - Quasar
+        - Pulsar
+        - Solar System
+        - Cluster
+        - Exoplanet
+        - Brown Dwarf
+        - White Dwarf
+        - Red Giant
+        - Supergiant
+        - Neutron Star
+        - Binary Star
+        - Variable Star
+        - Tertiary Star
+        - Rogue Planet
+        - Kuiper Belt Object
+        - Oort Cloud Object
+        - Cosmic Dust
+        - Interstellar Gas
+        - Cosmic Ray
+        - Dark Matter
+        - Dark Energy
+        - Cosmic Background Radiation
+        - Celestial Object
+    Spacecrafts:
+        - Satellite
+        - Lunar Module
+        - Spacecraft
+        - Astronomical Observatory
+        - Astral Projection
+        - Celestial Navigation
+        - Astrolabe
+        - Telescopic
+        - Celestial Map
+        - Celestial Object
+    relations:
+        - Interstellar
+        - Extraterrestrial
+        - Astral
+        - Interplanetary
+    Celestial-Anything:
+        - Astronomical Unit
+        - Zenith
+        - Nadir
+        - Zenithal Hour Angle
+        - Celestial Mechanics
+        - Celestial Navigation
+        - Celestial Meridian
+        - Celestial Hemisphere
+        - Celestial Latitude
+        - Celestial Longitude
+        - Celestial Altitude
+        - Celestial Azimuth
+        - Celestial Transit
+        - Celestial Parallax
+        - Celestial Mechanics
+        - Celestial Navigation
+        - Celestial Motion
+
+Phenomena:
+    astronomy:
+        Abstract:
+            - Zenithal Hour Angle
+            - Heliocentric
+            - Geocentric
+            - Aphelion
+            - Perihelion
+            - Solstice
+            - Equinox
+            - Parallax
+            - Redshift
+            - Blueshift
+            - Astronomer
+            - Astrophysics
+            - Cosmology
+            - Cosmic Microwave Background
+            - Supermassive
+            - Stellar Evolution
+            - Nebular Hypothesis
+            - Cosmic Web
+            - Celestial Event
+            - Cosmic Radiation
+            - Cosmic Inflation
+        Natural:
+            - Supernova
+            - Nebula
+            - Quasar
+            - Solar Flare
+            - Cosmic Ray
+            - Aurora
+            - Lunar Eclipse
+            - Solar Eclipse
+            - Meteor Shower
+            - Cosmic Dust
+            - Celestial Sphere
+
+
+textures:
+    surface:
+    Fabric:
+      - Corduroy
+      - Corky
+      - Corked
+      - Felted
+      - Fluffy
+      - Fuzzy
+      - Gossamer
+      - Hairy
+      - Lacey
+      - Linen
+      - Marbled
+      - Ribbed
+      - Velvet
+      - Woolly
+
+    Metal:
+      - Chiseled
+      - Corky
+      - Corked
+      - Cracked
+      - Granular
+      - Lustrous
+      - Polished
+      - Ridged
+      - Rippled
+      - Rough
+      - Serrated
+      - Smooth
+      - Textured
+
+    Stone:
+      - Cracked
+      - Granular
+      - Lustrous
+      - Polished
+      - Ridged
+      - Rippled
+      - Rough
+      - Serrated
+      - Smooth
+      - Textured
+
+    Paper:
+      - Corky
+      - Corked
+      - Crinkled
+      - Fuzzy
+      - Irregular
+      - Matte
+      - Ridged
+      - Rough
+      - Serrated
+      - Smooth
+      - Textured
+
+    Abstract:
+        - Braided
+        - Chalky
+        - Checkered
+        - Crosshatched
+        - Damask
+        - Dappled
+        - Dotted
+        - Etched
+        - Filigreed
+        - Geometric
+        - Gritty
+        - Holographic
+        - Intertwined
+        - Meshed
+        - Overlapping
+        - Patterned
+        - Perforated
+        - Smeared
+        - Stippled
+        - Studded
+        - Tangled
+        - Tarnished
+        - Tiled
+        - Veined
+    Natural:
+        - Beaded
+        - Bumpy
+        - Gritty
+        - Pitted
+        - Scaly
+        - Speckled
+        - Spongy
+        - Tumbled
+        - Wavy
+    Smooth:
+        - Smooth
+        - Silky
+        - Satin
+        - Velvet
+        - Glassy
+        - Glossy
+        - Lustrous
+        - Metallic
+        - Slick
+        - Polished
+    Rough:
+        - Rough
+        - Grainy
+        - Bumpy
+        - Coarse
+        - Gritty
+        - Prickly
+        - Gravelly
+        - Pebbled
+        - Hairy
+        - Pitted
+    Textured:
+        - Textured
+        - Knobbly
+        - Embossed
+        - Grooved
+        - Crinkled
+        - Fluted
+        - Ridged
+        - Waffle
+        - Quilted
+        - Checkered
+    Wavy:
+        - Wavy
+        - Rippled
+        - Crinkled
+        - Rippled
+        - Wavy
+        - Jagged
+        - Jaggy
+        - Uneven
+        - Irregular
+        - Twisted
+    Porous:
+        - Porous
+        - Honeycomb
+        - Pockmarked
+        - Perforated
+        - Meshed
+        - Latticed
+        - Crenulated
+        - Veined
+        - Pitted
+        - Holey
+    Patterned:
+        - Patterned
+        - Corduroy
+        - Linen
+        - Jacquard
+        - Marbled
+        - Corrugated
+        - Tiled
+        - Woven
+        - Braided
+        - Mosaic
+    Iridescent:
+        - Iridescent
+        - Opalescent
+        - Holographic
+        - Prismatic
+        - Corrugated
+        - Frosted
+        - Metallic
+        - Glassy
+        - Reflective
+        - Gleaming
+    Other:
+        - Spongy
+        - Crumbly
+        - Fuzzy
+        - Corky
+        - Tactile
+        - Ribbed
+        - Chalky
+        - Sanded
+        - Scratched
+        - Etched
+        - Filigreed
+        - Crystallized
+        - Serrated
+        - Smeared
+        - Damask
+        - Plastered
+        - Tangled
+        - Synchronized
+        - Slanted
+        - Beaded
+        - Overlapping
+        - Gauzy
+        - Wicker
+        - Corded
+        - Lacey
+        - Intertwined
+        - Matted
+        - Tarnished
+        - Dappled
+        - Speckled
+        - Stippled
+        - Studded
+        - Grooved
+        - Striated
+        - Polka-dotted
+        - Striped
+        - Camouflage
+        - Dotted
+        - Geometric
+        - Corrugated
+        - Frosted
+        - Waxy
+        - Napped
+        - Serrated
