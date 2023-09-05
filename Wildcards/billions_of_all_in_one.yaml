@@ -6409,9 +6409,9 @@ magical:
         magic:1.0)"
     magic2:
         - "({6-10$${-3$$__magical/words/adjectives__}|
-        {-2$$__properties/colors/*__}
+        {-2$$__properties/colors/*__}|
         {-3$$__magical/words/*__} |
-        {-2$$__properties/materials*/*__}
+        {-2$$__properties/materials*/*__}|
         0.34::{-1$$__phenomena/*/natural__}|
         {-2$$__phenomena/*/abstract__}|
         {-2$$__properties/patterns/*__}|
