@@ -466,6 +466,18 @@ BoCosmic:
     random:
         - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__}"
 
+# BoJewelry
+BoJewelry:
+    random-properties:
+        - "__jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__, __jewelry/carat__, __jewelry/fire__, 
+        __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/hardness__, __jewelry/durability__, __jewelry/treatments__, __jewelry/setting__,
+        __jewelry/origin__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
+    random-properties-reduced:
+        - "__jewelry/brilliance__ __jewelry/fire__ __chemistry/gems__, __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/durability__, __jewelry/treatments__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
+    random:
+        - __jewelry/types__, __BoJewelry/random-properties__
+
+
 clothings:
     regular:
         female-attire:
@@ -12003,6 +12015,593 @@ vehicles:
             - Custom Badges
 
 
+
+
+jewelry:
+    clarities:
+        - Flawless
+        - Internally Flawless
+        - Very, Very Slightly Included (VVS1)
+        - Very, Very Slightly Included (VVS2)
+        - Very Slightly Included (VS1)
+        - Very Slightly Included (VS2)
+        - Slightly Included (SI1)
+        - Slightly Included (SI2)
+        - Included (I1)
+        - Included (I2)
+        - Included (I3)
+        - Eye Clean
+        - Loupe Clean
+        - Visible Inclusions
+        - Numerous Inclusions
+        - Surface Blemishes
+    carat:
+        - 0.25 Carat
+        - 0.50 Carat
+        - 0.75 Carat
+        - 1.00 Carat
+        - 1.25 Carat
+        - 1.50 Carat
+        - 1.75 Carat
+        - 2.00 Carat
+        - 2.50 Carat
+        - 3.00 Carat
+        - 4.00 Carat
+        - 5.00 Carat
+        - 6.00 Carat
+        - 7.00 Carat
+        - 8.00 Carat
+        - 9.00 Carat
+        - 10.00 Carat
+        - 15.00 Carat
+        - 20.00 Carat
+        - 25.00 Carat
+        - 30.00 Carat
+        - 40.00 Carat
+        - 50.00 Carat
+    brilliance:
+        - Sparkling
+        - Shimmering
+        - Radiant
+        - Dazzling
+        - Glittering
+        - Luminous
+        - Scintillating
+        - Resplendent
+        - Glowing
+        - Bright
+        - Vivid
+        - Brilliant
+        - Flashing
+        - Glistening
+        - Twinkling
+        - Gleaming
+        - Opalescent
+        - Polished
+        - Shining
+        - Reflective
+        - Intense
+        - Captivating
+        - Exquisite
+        - Mesmerizing
+        - Eclipsing
+        - Gorgeous
+        - Flamboyant
+        - Prismatic
+        - Spectacular
+        - Stunning
+        - Glanceable
+        - Gleeful
+        - Incandescent
+    fire:
+        - Spectral
+        - Multicolored
+        - Playful
+        - Rainbow-like
+        - Prismatic
+        - Iridescent
+        - Chromatic
+        - Lively
+        - Colorful
+        - Vivacious
+        - Glowing
+        - Dazzling
+        - Sparkling
+        - Radiant
+        - Luminous
+        - Scintillating
+        - Brilliant
+        - Flaming
+        - Glittering
+        - Flashing
+        - Twinkling
+        - Intense
+        - Mesmerizing
+        - Exquisite
+        - Flamboyant
+        - Captivating
+        - Resplendent
+        - Gorgeous
+        - Astonishing
+        - Enchanting
+        - Alluring
+        - Hypnotic
+        - Fascinating
+        - Spellbinding
+        - Bewitching
+        - Entrancing
+    luster:
+        - Metallic
+        - Silky
+        - Glassy
+        - Pearly
+        - Adamantine
+        - Greasy
+        - Resinous
+        - Dull
+        - Waxy
+        - Vitreous
+        - Submetallic
+        - Brilliant
+        - Shiny
+        - Sparkling
+        - Satiny
+        - Oily
+        - Luminous
+        - Glowing
+        - Opalescent
+        - Lustrous
+        - Matte
+        - Radiant
+        - Gleaming
+        - Brilliant
+        - Dazzling
+        - Polished
+        - Glossy
+        - Sheen
+        - Glistening
+        - Scintillating
+        - Shimmering
+        - Effervescent
+        - Eclat
+        - Glistering
+        - Gleamy
+        - Glimmery
+        - Glinting
+        - Glistened
+        - Glittered
+        - Sparkled
+    transparency:
+        - Transparent
+        - Translucent
+        - Opaque
+        - Cloudy
+        - Murky
+        - Hazy
+        - Frosted
+        - Clear
+        - Crystalline
+        - Gemmy
+        - Lucid
+        - Glass-like
+        - Sheer
+        - See-through
+        - Diaphanous
+        - Pellucid
+        - Semitransparent
+        - Water-clear
+        - Vitreous
+        - Shiny
+        - Glossy
+        - Reflective
+        - Gleaming
+        - Polished
+        - Brilliant
+        - Sparkling
+        - Pristine
+        - Unclouded
+        - Pure
+        - Prismatic
+        - Glistering
+        - Gleamy
+        - Glimmery
+        - Glinting
+        - Glistened
+        - Glittered
+        - Sparkled
+    hardness:
+        - Mohs Scale
+        - Scratch-Resistant
+        - Durable
+        - Tough
+        - Resilient
+        - Sturdy
+        - Robust
+        - Solid
+        - Firm
+        - Rigid
+        - Unyielding
+        - Inflexible
+        - Indestructible
+        - Rock-Hard
+        - Toughness
+        - Strength
+        - Durability
+        - Wear Resistance
+        - Surface Hardness
+        - Scratch Protection
+
+    durability:
+        - Resilience
+        - Longevity
+        - Robustness
+        - Strength
+        - Toughness
+        - Sturdiness
+        - Wear Resistance
+        - Scratch Resistance
+        - Impact Resistance
+        - Hard-Wearing
+        - Endurance
+        - Solidity
+        - Reliability
+        - Sustained Quality
+        - Stalwart
+        - Tenacity
+        - Prolonged Lifespan
+        - Vigor
+        - Hardy
+        - Ruggedness
+    treatments:
+        - Enhancement
+        - Modification
+        - Treatment Process
+        - Enhancement Method
+        - Gemstone Treatment
+        - Surface Treatment
+        - Heat Treatment
+        - Irradiation
+        - Oil Treatment
+        - Filling
+        - Coating
+        - Dyeing
+        - Clarity Enhancement
+        - Color Enhancement
+        - Fracture Filling
+        - Stabilization
+        - Bleaching
+        - Impregnation
+        - Diffusion
+        - Surface Coating
+    origin:
+        - Natural
+        - Synthetic
+        - Lab-Grown
+        - Mined
+        - Artisan-Crafted
+        - Vintage
+        - Antique
+        - Estate
+        - Handmade
+        - Indigenous
+        - Ethically Sourced
+        - Fair Trade
+        - Conflict-Free
+        - Sustainable
+        - Local
+        - Rare
+        - Cultured
+    rarity:
+        - Rare
+        - Common
+        - Limited Edition
+        - One-of-a-Kind
+        - Scarce
+        - Uncommon
+        - Exclusive
+        - Hard to Find
+        - Collectible
+        - Unique
+        - Antique
+        - Vintage
+        - Limited Supply
+        - Precious
+        - Semi-Precious
+        - Exquisite
+        - Exceptional
+        - Extraordinary
+        - Unusual
+        - Rare Find
+    cut:
+        - Brilliant Cut
+        - Princess Cut
+        - Emerald Cut
+        - Pear Cut
+        - Marquise Cut
+        - Oval Cut
+        - Cushion Cut
+        - Radiant Cut
+        - Heart Cut
+        - Baguette Cut
+        - Round Cut
+        - Trillion Cut
+        - Asscher Cut
+        - Rose Cut
+        - Step Cut
+        - Mixed Cut
+        - Cabochon Cut
+        - Checkerboard Cut
+        - Star Cut
+        - Barion Cut
+        - Portguese Cut
+        - Old European Cut
+        - French Cut
+        - Single Cut
+        - Full Cut
+        - Round Brilliant Cut
+        - Radiant Cut
+        - Pear Cut
+        - Cushion Cut
+        - Trilliant Cut
+        - Briolette Cut
+        - Modified Brilliant Cut
+        - Old Mine Cut
+    facets:
+        - Step Cut Facets
+        - Brilliant Cut Facets
+        - Mixed Cut Facets
+        - Rose Cut Facets
+        - Checkerboard Cut Facets
+        - Pavilion Facets
+        - Crown Facets
+        - Girdle Facets
+        - Table Facets
+        - Culet Facets
+        - Facet Arrangement
+        - Facet Pattern
+    setting:
+        - Prong Setting
+        - Bezel Setting
+        - Channel Setting
+        - Pave Setting
+        - Tension Setting
+        - Halo Setting
+        - Solitaire Setting
+        - Bar Setting
+        - Flush Setting
+        - Gypsy Setting
+        - Illusion Setting
+        - Split Shank Setting
+        - Cathedral Setting
+        - Trellis Setting
+        - Basket Setting
+        - Cluster Setting
+        - Baroque Setting
+        - Art Deco Setting
+        - Modern Setting
+        - Vintage Setting
+        - Antique Setting
+        - Three-Stone Setting
+        - Four-Prong Setting
+        - Six-Prong Setting
+        - Eight-Prong Setting
+        - Double Prong Setting
+        - Micro Setting
+        - Tapered Setting
+        - Tension-Style Setting
+        - Hammered Setting
+        - Twist Setting
+        - Bypass Setting
+        - T-Bar Setting
+        - Cross-Over Setting
+        - Contemporary Setting
+        - Classic Setting
+        - Traditional Setting
+        - Unique Setting
+        - Custom Setting
+
+    style:
+        - Vintage
+        - Antique
+        - Art Deco
+        - Art Nouveau
+        - Retro
+        - Modern
+        - Contemporary
+        - Minimalist
+        - Classic
+        - Bohemian
+        - Gothic
+        - Victorian
+        - Baroque
+        - Renaissance
+        - Ethnic
+        - Tribal
+        - Boho Chic
+        - Romantic
+        - Industrial
+        - High Fashion
+        - Custom
+        - Handcrafted
+        - Filigree
+        - Engraved
+        - Intricate
+        - Geometric
+        - Organic
+        - Abstract
+        - Nature-Inspired
+        - Symbolic
+        - Minimalist
+        - Timeless
+        - Luxurious
+        - Delicate
+        - Bold
+        - Avant-Garde
+        - Contemporary
+        - Vintage Revival
+        - Geometric
+        - Eclectic
+        - Whimsical
+        - Steampunk
+        - Gothic Revival
+        - Ethereal
+        - Futuristic
+        - Boho
+        - Tribal
+        - Nautical
+        - Space Age
+        - Celestial
+        - Futuristic
+        - Fantasy
+        - Artisanal
+        - Rustic
+        - Glamorous
+        - Eclectic
+        - Edgy
+        - Timeless
+        - Organic
+
+    age:
+        - Antique
+        - Vintage
+        - Art Deco
+        - Art Nouveau
+        - Victorian
+        - Edwardian
+        - Georgian
+        - Retro
+        - Modern
+        - Contemporary
+        - Renaissance
+        - Baroque
+        - Regency
+        - Rococo
+        - Gothic Revival
+        - Mid-Century
+        - Ancient
+        - Prehistoric
+        - Retro
+        - Retro Modern
+        - Industrial
+        - Artisanal
+        - Timeless
+        - Old World
+        - New Age
+    symbolism:
+        - Birthstones
+        - Zodiac Signs
+        - Religious Symbols
+        - Cultural Symbols
+        - Love and Romance
+        - Protection and Luck
+        - Healing and Wellness
+        - Spiritual and Meditation
+        - Personal Growth
+        - Achievement and Success
+        - Memorial and Remembrance
+        - Custom and Tradition
+        - Nature and Animals
+        - Geometric Patterns
+        - Artistic Expression
+        - Celestial Symbols
+        - Mythological Figures
+        - Talisman and Amulets
+        - Mystical and Occult
+        - Gender and Identity
+
+
+    types:
+        - Necklace
+        - Earrings
+        - Bracelet
+        - Ring
+        - Brooch
+        - Pendant
+        - Anklet
+        - Cufflinks
+        - Choker
+        - Tiara
+        - Crown
+        - Bangle
+        - Charm Bracelet
+        - Stud Earrings
+        - Hoop Earrings
+        - Nose Ring
+        - Belly Button Ring
+        - Ear Cuff
+        - Lapel Pin
+        - Watch
+        - Pocket Watch
+        - Wristwatch
+        - Toe Ring
+        - Hairpin
+        - Hair Clip
+        - Hair Comb
+        - Headband
+        - Cameo
+        - Locket
+        - Medallion
+        - Chatelaine
+        - Slave Bracelet
+        - Torc
+        - Armlet
+        - Nose Chain
+        - Ear Chains
+        - Cartilage Earrings
+        - Septum Ring
+        - Body Chain
+        - Keychain
+        - Rosary
+        - Prayer Beads
+        - Crown Jewels
+        - Diadem
+        - Scepter
+        - Signet Ring
+        - Mourning Jewelry
+        - Friendship Bracelet
+        - Solitaire Ring
+        - Tennis Bracelet
+        - Collar Necklace
+        - Pocket Square
+
+
+habitats:
+    Types:
+        - Village
+        - Town
+        - City
+        - Metropolis
+        - Hamlet
+        - Suburb
+        - Island
+        - Forest
+        - Desert Oasis
+        - Mountain Village
+        - Coastal Town
+        - Industrial City
+        - Seaside Resort
+        - Ski Resort Town
+        - Space Station
+        - Underwater Base
+    housing:
+        - dwelling
+        - residence
+        - abode
+        - domicile
+        - home
+        - habitation
+        - dwelling place
+        - mansion
+        - manor
+        - estate
+        - cottage
+        - bungalow
+        - cabin
+        - villa
+        - house
+        - residence
+
+
 styles:
     clothing:
         Collar:
@@ -14812,6 +15411,46 @@ properties:
             - Phthalo Yellow Green
             - Cobalt Blue Red Shade
             - Quinacridone Red Orange
+        gems:
+            - Red
+            - Pink
+            - Orange
+            - Yellow
+            - Green
+            - Blue
+            - Purple
+            - Violet
+            - Lavender
+            - Brown
+            - Black
+            - White
+            - Gray
+            - Clear
+            - Multi-color
+            - Colorless
+            - Champagne
+            - Olive
+            - Teal
+            - Turquoise
+            - Aqua
+            - Coral
+            - Amber
+            - Topaz
+            - Sapphire Blue
+            - Emerald Green
+            - Ruby Red
+            - Diamond White
+            - Citrine Yellow
+            - Amethyst Purple
+            - Aquamarine Blue
+            - Peridot Green
+            - Opal Multi-color
+            - Tanzanite Blue-Purple
+            - Morganite Pink
+            - Garnet Red
+            - Pearl White
+            - Onyx Black
+            - Moonstone White
 
     patterns:
         2Dshapes:
@@ -16111,6 +16750,41 @@ properties:
             - Laser Cutter (for laser engraving and cutting)
             - Vinyl Cutter (for vinyl art)
 
+    materials-jewelry:
+        metal-type:
+            - Gold
+            - Silver
+            - Rose Gold
+            - White Gold
+            - Yellow Gold
+            - Platinum
+            - Copper
+            - Brass
+            - Bronze
+            - Stainless Steel
+            - Titanium
+            - Tungsten
+            - Wood
+            - Leather
+            - Fabric
+            - Enamel
+            - Mixed Metals
+            - Sterling Silver
+            - Palladium
+            - Vermeil (Gold over Sterling Silver)
+            - Rhodium-Plated
+            - Aluminum
+            - Pewter
+            - Niobium
+            - Zinc
+            - Iron
+            - Cobalt
+            - Acrylic
+            - Resin
+            - Ceramic
+            - Carbon Fiber
+            - Silicone
+
     shape:
         plants:
             - Rounded
@@ -16351,7 +17025,51 @@ properties:
             - Cuneate Buds
             - Napiform Buds
             - Capitate Buds
-
+        Jewelry:
+            - Round
+            - Oval
+            - Pear
+            - Marquise
+            - Princess
+            - Emerald
+            - Heart
+            - Cushion
+            - Asscher
+            - Baguette
+            - Trillion
+            - Radiant
+            - Square
+            - Rectangle
+            - Triangle
+            - Hexagon
+            - Octagon
+            - Cabochon
+            - Drop
+            - Cross
+            - Star
+            - Teardrop
+            - Fancy
+            - Freeform
+            - Flower
+            - Butterfly
+            - Swirl
+            - Infinity
+            - Solitaire
+            - Cluster
+            - Halo
+            - Bar
+            - Horseshoe
+            - Key
+            - Locket
+            - Moon
+            - Sun
+            - Cross
+            - Star of David
+            - Zodiac Sign
+            - Animal Shape
+            - Geometric Shape
+            - Abstract Shape
+            - Custom Shape
     size:
         plants:
             - Microscopic
@@ -16808,6 +17526,9 @@ properties:
             - Metallic
             - Slick
             - Polished
+            - Sleek
+            - Polished
+            - Velvet
         Rough:
             - Rough
             - Grainy
@@ -16819,6 +17540,11 @@ properties:
             - Pebbled
             - Hairy
             - Pitted
+            - Coarse
+            - Knobbly
+            - Pitted
+            - Cracked
+            - Rugged
         Textured:
             - Textured
             - Knobbly
@@ -16863,17 +17589,89 @@ properties:
             - Woven
             - Braided
             - Mosaic
-        Iridescent:
+            - Embossed
+            - Grooved
+            - Crinkled
+            - Prismatic
+            - Granular
+            - Irregular
+            - Crystalline
+
+        Soft Textures:
+            - Soft
+            - Fluffy
+            - Woolly
+            - Hairy
+            - Nubby
+            - Corky
+            - Furrowed
+            - Spongy
+            - Fuzzy
+            - Felted
+
+        Hard Textures:
+            - Hard
+            - Slippery
+            - Slick
+            - Prismatic
+            - Granular
+            - Chiseled
+            - Tactile
+            - Pocked
+            - Patterned
+            - Crystalline
+
+        Irregular Textures:
+            - Irregular
+            - Wavy
+            - Rippled
+            - Crumbly
+            - Porous
+            - Worn
+            - Brittle
+            - Ropy
+            - Serrated
+            - Smeared
+
+        Shiny Textures:
+            - Shiny
+            - Glossy
+            - Lustrous
+            - Glassy
+            - Metallic
             - Iridescent
             - Opalescent
+            - Iridescent
             - Holographic
             - Prismatic
             - Corrugated
             - Frosted
-            - Metallic
-            - Glassy
             - Reflective
             - Gleaming
+        Fabric Textures:
+            - Velvet
+            - Linen
+            - Jacquard
+            - Corduroy
+            - Satin
+            - Woolen
+            - Suede-like
+            - Cashmere-like
+            - Velvet-lined
+            - Flanneled
+
+        Natural Textures:
+            - Woolly
+            - Hairy
+            - Corky
+            - Furrowed
+            - Wavy
+            - Rippled
+            - Crumbly
+            - Porous
+            - Brittle
+            - Ropy
+
         Other:
             - Spongy
             - Crumbly
@@ -17092,6 +17890,7 @@ properties:
         - Cherry Blossom Pink
     
 
+    
 
 lighting:
     cyberpunk:
@@ -17731,6 +18530,7 @@ matter:
         - Convection
         - Whipping
         - Drifting
+ 
 random:
     color:
         - "{__properties/colors/common__|__properties/colors/fashion__|__properties/colors/special__}"
@@ -18993,6 +19793,625 @@ scenes:
         - Moon Phases
         - Starry Canopy
         - Cosmic Mysteries
+
+# Big thanks go to @OneViolentGentleman who let me add his wildcards to this Set
+# Background: Hitchhiker's guide to the Galaxy
+# Vogon poetry is a variety of poetry, often considered to be one of the worst. 
+# It is sometimes used by the Vogons as a torture method, as it causes physical pain to the hearer. 
+# A notable example of this was when they tortured Ford Prefect and Arthur Dent after the Dentrassis let them hitchhike onto the ship. 
+# Note: Stable Diffusion tries to make sense of the gibberish. However vogonic can be really heavy on your maschine. 
+# @OneViolentGentleman even reported: "I have never had my pc crash or freeze since I got it over a year ago, but when I generated the vogon gibberish images, it froze for the first time ever."
+# Have fun including those into your prompts to get real randomness!
+vogonic-guide:
+    words:
+        adjectives:
+            - anderfull
+            - apdreaperely
+            - aprexified
+            - assimplumized
+            - astargled
+            - avessational
+            - blampfchoddering
+            - blongspivelled
+            - bogscrubbled
+            - boondiversed
+            - bordyleggered
+            - burglybonked
+            - cinderblurted
+            - climfrypowered
+            - comportupined
+            - confrectioned
+            - coundrilsized
+            - counterblurbled
+            - crunfocated
+            - derpsurilized
+            - devurlified
+            - diggerbranded
+            - dimarified
+            - dimensiflored
+            - dorxed
+            - downhippered
+            - dreggering
+            - eccentoblimeyd
+            - eciationed
+            - eglorpified
+            - elminstered
+            - embordygored
+            - enforbled
+            - engifronged
+            - exibilliarouted
+            - florbyflunked
+            - fluity
+            - flurbguzzled
+            - forbled
+            - foxylorbled
+            - garbonified
+            - globbershmoggled
+            - glurbguzzled
+            - gozing
+            - grumschorbled
+            - gunderpoured
+            - handiflanked
+            - hazzarblinked
+            - helviported
+            - hizzled
+            - icorbounding
+            - inflornicated
+            - interjingled
+            - izzled
+            - jetcurbled
+            - jiggered
+            - jinxflagranti
+            - joribified
+            - joxybommled
+            - juxtaflurged
+            - karvyturbled
+            - keneytoring
+            - konflagranting
+            - lampremblative
+            - lifturbining
+            - ligerflonging
+            - lingernering
+            - lizzartorving
+            - lurbled
+            - mancfrubbled
+            - monkiflonged
+            - nadderish
+            - norbsemblic
+            - oblivering
+            - obviatoric
+            - opsablopsiated
+            - ostonfering
+            - owgelwarbly
+            - paffling
+            - pearlimortaled
+            - perlyfumed
+            - pizzled
+            - planciated
+            - pongfruddled
+            - problamtimating
+            - psionitoring
+            - psorbified
+            - puffalorpled
+            - pugmodering
+            - punglyflorbed
+            - quadderbonused
+            - quaysled
+            - recoddermented
+            - refloractive
+            - regoddled
+            - regorbified
+            - resiliforged
+            - rimflongled
+            - ripturbined
+            - sassled
+            - serxaturbled
+            - shmoggled
+            - shmutzified
+            - slabbered
+            - slormspiggled
+            - sorbsarbled
+            - spoxified
+            - swallorfluxed
+            - sylvified
+            - thoggled
+            - thurgicided
+            - thwindered
+            - tingspurdlesectioned
+            - tourmentored
+            - tragulified
+            - tranzicated
+            - trobberdaffled
+            - underflipted
+            - urgled
+            - vabbling
+            - varpstered
+            - vassled
+            - vorbly
+            - vorblyborked
+            - wakthurbled
+            - watterlined
+            - webcycled
+            - whammled
+            - whippletorbig
+            - worbleflanked
+            - xorbled
+            - yamboozled
+            - yarbled
+            - youbled
+            - zibzorbled
+            - zighty
+            - zorbified
+            - zothy
+            - zurbled
+            - zwengled
+            - zymgroggled
+        adjectives-cons:
+            - blampfchoddering
+            - blongspivelled
+            - bogscrubbled
+            - boondiversed
+            - bordyleggered
+            - burglybonked
+            - cinderblurted
+            - climfrypowered
+            - comportupined
+            - confrectioned
+            - coundrilsized
+            - counterblurbled
+            - crunfocated
+            - derpsurilized
+            - devurlified
+            - diggerbranded
+            - dimarified
+            - dimensiflored
+            - dorxed
+            - downhippered
+            - dreggering
+            - florbyflunked
+            - fluity
+            - flurbguzzled
+            - forbled
+            - foxylorbled
+            - garbonified
+            - globbershmoggled
+            - glurbguzzled
+            - gozing
+            - grumschorbled
+            - gunderpoured
+            - handiflanked
+            - hazzarblinked
+            - helviported
+            - hizzled
+            - jetcurbled
+            - jiggered
+            - jinxflagranti
+            - joribified
+            - joxybommled
+            - juxtaflurged
+            - karvyturbled
+            - keneytoring
+            - konflagranting
+            - lampremblative
+            - lifturbining
+            - ligerflonging
+            - lingernering
+            - lizzartorving
+            - lurbled
+            - mancfrubbled
+            - monkiflonged
+            - nadderish
+            - norbsemblic
+            - paffling
+            - pearlimortaled
+            - perlyfumed
+            - pizzled
+            - planciated
+            - pongfruddled
+            - problamtimating
+            - psionitoring
+            - psorbified
+            - puffalorpled
+            - pugmodering
+            - punglyflorbed
+            - quadderbonused
+            - quaysled
+            - recoddermented
+            - refloractive
+            - regoddled
+            - regorbified
+            - resiliforged
+            - rimflongled
+            - ripturbined
+            - sassled
+            - serxaturbled
+            - shmoggled
+            - shmutzified
+            - slabbered
+            - slormspiggled
+            - sorbsarbled
+            - spoxified
+            - swallorfluxed
+            - sylvified
+            - thoggled
+            - thurgicided
+            - thwindered
+            - tingspurdlesectioned
+            - tourmentored
+            - tragulified
+            - tranzicated
+            - trobberdaffled
+            - vabbling
+            - varpstered
+            - vassled
+            - vorbly
+            - vorblyborked
+            - wakthurbled
+            - watterlined
+            - webcycled
+            - whammled
+            - whippletorbig
+            - worbleflanked
+            - xorbled
+            - yamboozled
+            - yarbled
+            - youbled
+            - zibzorbled
+            - zighty
+            - zorbified
+            - zothy
+            - zurbled
+            - zwengled
+            - zymgroggled
+        nouns:
+            - aelgerbratz
+            - agglefreck
+            - blackshmitz
+            - blampf
+            - blibberblab
+            - blortze
+            - blunderquack
+            - bumblewhisk
+            - crankleplumb
+            - crumbletide
+            - curbletwist
+            - danglefuzz
+            - dazzlefluff
+            - dooderquack
+            - doodleplunk
+            - doover
+            - dunkfizzle
+            - eggerfroggle
+            - erbelgunk
+            - fizzledyme
+            - flibberjib
+            - flimjorgle
+            - floink
+            - fluffernook
+            - frotzgobbler
+            - fruitshnorble
+            - gibberflame
+            - glimmerglop
+            - glowshmiggler
+            - gnifflewhammer
+            - gnipfe
+            - gobberbloom
+            - gobblefunk
+            - gonzer
+            - gugger
+            - gurbleblarze
+            - hobblegrompf
+            - hompf
+            - horgsmuffler
+            - hurlydurl
+            - indorgeffle
+            - jibberquill
+            - jubshmurgler
+            - klorftwizzle
+            - lormshmog
+            - lubberlorf
+            - luminorbler
+            - mogglesnap
+            - murglewhammer
+            - noodlequark
+            - noodlewump
+            - nopfdriggle
+            - nurblflam
+            - orbshnodder
+            - plingzockle
+            - plumbus
+            - plumsnarfler
+            - pudderquack
+            - quibberflitz
+            - quibblesnatch
+            - quizzleflarp
+            - robgoffler
+            - rofflegobler
+            - ronf
+            - shmagger
+            - shnorbsabbler
+            - skruffleplink
+            - skrunkleboop
+            - snarfladoodle
+            - snickerwhirl
+            - snigglefritz
+            - snizzleplume
+            - snodderwirl
+            - snoiler
+            - snufflepuff
+            - snugglequark
+            - tangflurb
+            - thorgl
+            - tocker
+            - torbishmodder
+            - turdible
+            - uddershlurp
+            - ufflemuff
+            - ufti
+            - underfrazzler
+            - vilderbloom
+            - vlorm
+            - vrangboodle
+            - warbletwirl
+            - whifflequark
+            - wibbledyme
+            - wobbleflorp
+            - xivturb
+            - xodder
+            - xygger
+            - zibberzang
+            - zibberzoom
+            - zofti
+            - zoodlecrisp
+            - zoodlecrunch
+        verbs:
+            - arrgdurdle
+            - blartifiy
+            - blorts
+            - blunderworble
+            - briscmeggle
+            - crunkle
+            - drezzle
+            - eggbreggle
+            - flarbify
+            - flinchtorble
+            - flunk
+            - frozzle
+            - glorb
+            - glurfle
+            - gorble
+            - grimmzle
+            - grunkle
+            - horflunk
+            - horguble
+            - infroggle
+            - jibberflange
+            - joggle
+            - juxtafondle
+            - lorbsladder
+            - molbouder
+            - noodleplink
+            - orblebuffer
+            - plinkify
+            - plortifie
+            - poggle
+            - prankle
+            - quibble
+            - quizzgobble
+            - quorble
+            - raftiflog
+            - ramshmorgle
+            - shmuggle
+            - skriffle
+            - smirkle
+            - snarblify
+            - snarg
+            - snarkle
+            - snigger
+            - snitchify
+            - snorple
+            - snurfle
+            - splogbongle
+            - splort
+            - splunge
+            - sprindle
+            - squabble
+            - squishify
+            - thwarp
+            - trungle
+            - worbgobble
+            - zoggle
+            - zorbgaffle
+            - zorgbaffle
+            
+        verbs2:
+            - arrgdurdles
+            - blartifies
+            - blorfs
+            - blunderworbles
+            - briscmeggles
+            - crunkles
+            - drezzles
+            - eggbreggles
+            - flarbifies
+            - flinchtorbles
+            - flunks
+            - frozzles
+            - glorbs
+            - glurfles
+            - gorbles
+            - grimmzles
+            - grunkles
+            - horflunks
+            - horgubles
+            - infroggles
+            - jibberflanges
+            - joggles
+            - juxtafondles
+            - lorbsladders
+            - molbouders
+            - noodleplinks
+            - orblebuffers
+            - plinkifies
+            - plortifies
+            - poggles
+            - prankles
+            - quibbles
+            - quizzgobbeles
+            - quorbles
+            - raftiflogs
+            - ramshmorgles
+            - shmuggles
+            - skriffles
+            - smirkles
+            - snarblifies
+            - snargs
+            - snarkles
+            - sniggers
+            - snitchifies
+            - snorples
+            - snurfles
+            - splogbongles
+            - splorts
+            - splunges
+            - sprindles
+            - squabbles
+            - squishifies
+            - thwarps
+            - trungles
+            - worbgobbles
+            - zoggles
+            - zorbgaffles
+            - zorgbaffles
+        verbs-gerund:
+            - argeling
+            - arrgdurdling
+            - blartifying
+            - blerbing
+            - blibbering
+            - blobbering
+            - blorbshmeckeling
+            - blorfing
+            - blunderworbling
+            - briscmeggling
+            - crankfuddeling
+            - crinkbubbling
+            - crunkeling
+            - doodleflorping
+            - drezzling
+            - dribdoddeling
+            - drizzlespattering
+            - eggbreggeling
+            - erbelforing
+            - flarbifying
+            - flibbering
+            - flinchtorbling
+            - flingboudeling
+            - florbdoodeling
+            - florbshmuddering
+            - flumbering
+            - flunking
+            - frondling
+            - frozzling
+            - glimpering
+            - glorbing
+            - glurfeling
+            - glymfuddeling
+            - gnampfing
+            - gnampfuddering
+            - gnarzgaffeling
+            - gorbeling
+            - grimegobbering
+            - grimzeling
+            - gromfing
+            - grunkeling
+            - horgubeling
+            - infroggeling
+            - juxtafondling
+            - kerfudelgoring
+            - lamshmarfeling
+            - lorbsladdering
+            - molboudering
+            - noodleplinking
+            - orblebuffering
+            - plinkifying
+            - plortifying
+            - quibbeling
+            - quizzgobbeling
+            - quorbeling
+            - raftifloging
+            - ramshmorgeling
+            - shmodding
+            - shmuggling
+            - slurpflapping
+            - snarblifying
+            - snorpeling
+            - splindering
+            - splogbongeling
+            - squibbering
+            - swizzleplunking
+            - thumbling
+            - thwabbling
+            - voltrifying
+            - wobblefjording
+            - ziggleboring
+            - zoggling
+            - zonkpluffering
+            - zorbgaffeling
+            - zorgbaffling
+        planets:
+            - achooblessyou
+            - alderwaran
+            - auroma duplex ii
+            - bimpleheim prime
+            - blerflam alpha
+            - blumsnorf iv
+            - blunderbunny beta
+            - carefuleverythingwantstoeatyouhere
+            - chuckleberry iii
+            - dorfshnupf zeta
+            - eastittyworld formerly known as ittyworld
+            - feebleflorm alpha
+            - flarnshingle
+            - füm
+            - gigglesphere prime
+            - glamfurble
+            - gonfishin
+            - grobshnuggler
+            - gullible prime
+            - hellshminger, the third
+            - huhaggerblom
+            - ickyflorm ii
+            - jorkeltorb i
+            - kraktus prime
+            - larmspeggel alpha
+            - laugternova vi
+            - mancwizzle gamma
+            - marvin's world
+            - maximalington
+            - monktmurk delta
+            - new flimflam
+            - new grinflob
+            - new ogelbeard
+            - niceone ii
+            - niflhalla
+            - nomturf vii
+            - obershlorm gamma
+            - quirklebrock x
+            - quizznof viii
+            - ramsnuggle
+            - rayboldwashere
+            - shmergelheim
+            - slormslug ix
+            - slurmsphere delta
+            - stirpculb
+            - thisoneisminenow
+            - underkraut
+            - westittyworld formerly known as ittyworld
+            - xinderdousen
+            - you'renotwelcomegoaway
+            - zofflebob
+            - zorf
 
 constructors:
     - in style of
