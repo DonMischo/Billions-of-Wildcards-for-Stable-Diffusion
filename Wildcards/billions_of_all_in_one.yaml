@@ -554,6 +554,487 @@ astronomy:
         - Celestial Navigation
         - Celestial Motion
 
+brain-psychology:
+    Terms:
+        - Behavior
+        - Brain chemistry
+        - Brain development
+        - Brain disorder
+        - Brain function
+        - Brain injury
+        - Brain mapping
+        - Brain plasticity
+        - Brain research
+        - Brain scan
+        - Brain structure
+        - Brain tumor
+        - Brainwave
+        - Cognition
+        - Cognitive development
+        - Cognitive dissonance
+        - Cognitive impairment
+        - Cognitive load
+        - Cognitive neuroscience
+        - Cognitive psychology
+        - Cognitive therapy
+        - Consciousness
+        - Emotion
+        - Intelligence
+        - Memory
+        - Mental health
+        - Mental illness
+        - Mindfulness
+        - Neurology
+        - Neuropsychology
+        - Neurotransmitter
+        - Perception
+        - Phrenology
+        - Psychiatry
+        - Psychiatrist
+        - Psychological assessment
+        - Psychological testing
+        - Psychologist
+        - Psychopathology
+        - Psychosocial
+        - Psychosomatic
+        - Psychotherapy
+        - Thought process
+
+    Practices-Fields:
+        - Behavioral economics
+        - Behavioral genetics
+        - Behavioral modification
+        - Behavioral therapy
+        - Neuropsychiatry
+        - Psychiatric disorder
+        - Psychopharmacology
+        - Psychosis
+        - Psychosomatic
+
+    Concepts-Phenomena:
+        - Cognitive-behavioral therapy
+        - Defense mechanism
+        - Freudian psychology
+        - Group dynamics
+        - Id, ego, and superego
+        - Nature vs. nurture
+        - Placebo effect
+        - Self-esteem
+        - Social psychology
+        - Stockholm syndrome
+        - Subconscious mind
+
+    Neural Circuit Patterns:
+        - Feedforward Circuit
+        - Feedback Circuit
+        - Recurrent Circuit
+        - Parallel Processing
+        - Hierarchical Processing
+        - Distributed Processing
+        - Central Pattern Generator
+        - Hub-and-Spoke Network
+        - Cortical Column
+        - Neural Network
+        - Oscillatory Network
+        - Selective Attention
+        - Synchronous Firing
+        - Asynchronous Firing
+        - Winner-Takes-All
+        - Inhibitory Network
+        - Excitatory Network
+        - Place Cell Network
+        - Grid Cell Network
+        - Hub Neurons
+        - Small-World Network
+        - Associative Memory
+        - Long-Term Potentiation (LTP)
+        - Hebbian Learning
+        - Synaptic Plasticity
+        - Sparse Coding
+        - Rate Coding
+
+    words:
+        Mind-Mental-States:
+            - Analytical
+            - Creative
+            - Critical
+            - Curious
+            - Confused
+            - Clarity
+            - Concentrated
+            - Conscious
+            - Delusional
+            - Determined
+            - Disoriented
+            - Enlightened
+            - Focused
+            - Forgetful
+            - Imaginative
+            - Inquisitive
+            - Intuitive
+            - Lucid
+            - Meditative
+            - Mindful
+            - Obsessive
+            - Perceptive
+            - Pensive
+            - Rational
+            - Reflective
+            - Repressed
+            - Thoughtful
+            - Unconscious
+            - Unsettled
+            - Vivid
+
+        Brain-Cognitive-Characteristics:
+            - Adaptive
+            - Complex
+            - Efficient
+            - Elastic
+            - Evolving
+            - Flexible
+            - Impaired
+            - Logical
+            - Multifaceted
+            - Plastic
+            - Resilient
+            - Synaptic
+            - Neurological
+            - Computational
+            - Impulsive
+            - Responsive
+            - Elastic
+            - Neuroplastic
+            - Cognitive
+            - Synaptic
+            - Emotional
+            - Rational
+            - Impaired
+
+        Psychological-States-Emotions:
+            - Anxious
+            - Depressed
+            - Emotional
+            - Hysterical
+            - Irrational
+            - Neurotic
+            - Paranoid
+            - Schizophrenic
+            - Stressed
+            - Traumatized
+            - Happy
+            - Sad
+            - Angry
+            - Confident
+            - Insecure
+            - Joyful
+            - Fearful
+            - Guilty
+            - Content
+            - Hopeful
+            - Apathetic
+            - Resilient
+            - Empathetic
+            - Impulsive
+
+
+characters:
+    professions:
+        fantasy:
+            - Alchemist
+            - Bard
+            - Druid
+            - Enchanter
+            - Knight
+            - Mage
+            - Necromancer
+            - Paladin
+            - Ranger
+            - Sorcerer
+            - Thief
+            - Witch
+            - Wizard
+            - Cleric
+            - Beastmaster
+            - Illusionist
+            - Summoner
+            - Oracle
+            - Warlock
+            - Archmage
+            - Potion Master
+            - Apothecary
+            - Battle Mage
+            - Dragon Rider
+            - Elemental Wizard
+            - Enchanted Armor Smith
+            - Fortune Teller
+            - Gryphon Tamer
+            - Mystic Healer
+            - Shadow Assassin
+            - Spellbinder
+            - Witch Hunter
+            - Werewolf Hunter
+            - Fey Diplomat
+            - Golem Artificer
+            - Time Traveler
+            - Arcane Scholar
+            - Dreamweaver
+            - Potion Brewer
+            - Sky Pirate
+            - Treasure Hunter
+
+        sci-fi:
+            - Astronaut
+            - Cyborg
+            - Engineer
+            - Explorer
+            - Geneticist
+            - Pilot
+            - Robot Technician
+            - Space Marine
+            - Starship Captain
+            - Xenobiologist
+            - Data Analyst
+            - Quantum Physicist
+            - Terraformer
+            - Teleporter Operator
+            - AI Programmer
+            - Cybernetic Engineer
+            - Quantum Physicist
+            - Space Navigator
+            - Exobotanist
+            - Nano-Technician
+            - Interstellar Archaeologist
+            - Galactic Ambassador
+            - Telepathic Communicator
+            - Robot Psychologist
+            - Zero-Gravity Choreographer
+            - Warp Drive Mechanic
+            - Holographic Architect
+            - Neural Hacker
+            - Galactic Historian
+            - Starship Captain
+            - Exoplanetary Geologist
+            - Alien Linguist
+            - Quantum Biologist
+            - Zero-Point Energy Researcher
+            - Virtual Reality Designer
+
+            These additional scifi professions should help you build a more vibrant and diverse science fiction universe.
+
+        historical:
+            - Blacksmith
+            - Court Jester
+            - Knight
+            - Minstrel
+            - Navigator
+            - Scholar
+            - Scribe
+            - Ship Captain
+            - Viking Warrior
+            - Viking Shieldmaiden
+            - Gladiator
+            - Apothecary
+            - Musketeer
+            - Royal Falconer
+            - Samurai
+            - Silk Merchant
+            - Town Crier
+            - Blacksmith
+            - Knight
+            - Scribe
+            - Apothecary
+            - Viking Warrior
+            - Gladiator
+            - Alchemist
+            - Court Jester
+            - Samurai
+            - Royal Falconer
+            - Lighthouse Keeper
+            - Silk Road Trader
+            - Explorer
+            - Roman Legionnaire
+            - Medieval Minstrel
+            - Court Astrologer
+            - Shipwright
+            - Town Crier
+            - Farrier
+            - Town Watchman
+            
+        modern:
+            - Accountant
+            - Detective
+            - Electrician
+            - Firefighter
+            - Nurse
+            - Police Officer
+            - Programmer
+            - Scientist
+            - Teacher
+            - Web Developer
+            - Architect
+            - Chef
+            - Journalist
+            - Librarian
+            - Psychologist
+            - Veterinarian
+            - Yoga Instructor
+            - Tattoo Artist
+            - Barista
+            - Software Developer
+            - Data Scientist
+            - Nurse Practitioner
+            - Financial Analyst
+            - Graphic Designer
+            - Marketing Manager
+            - Teacher
+            - Chef
+            - Police Officer
+            - Firefighter
+            - Paramedic
+            - Dentist
+            - Pharmacist
+            - Electrician
+            - Plumber
+            - Real Estate Agent
+            - Social Media Manager
+            - Yoga Instructor
+            - Fitness Trainer
+            - Event Planner
+        Adventurer:
+            - Adventurer
+            - Warrior
+            - Mage
+            - Rogue
+            - Cleric
+
+        Craftsman:
+            - Craftsman
+            - Blacksmith
+            - Tailor
+            - Alchemist
+            - Enchanter
+
+        Scholar:
+            - Scholar
+            - Wizard
+            - Historian
+            - Archaeologist
+            - Scribe
+
+        Healer:
+            - Healer
+            - Medic
+            - Apothecary
+            - Druid
+            - Shaman
+
+        Bard:
+            - Bard
+            - Minstrel
+            - Troubadour
+            - Jester
+            - Skald
+
+        Ranger:
+            - Ranger
+            - Hunter
+            - Tracker
+            - Beastmaster
+            - Pathfinder
+
+        Noble:
+            - Noble
+            - King/Queen
+            - Lord/Lady
+            - Duke/Duchess
+            - Baron/Baroness
+
+        Thief:
+            - Thief
+            - Burglar
+            - Assassin
+            - Spy
+            - Swindler
+
+        Pirate:
+            - Pirate
+            - Captain
+            - Swashbuckler
+            - Navigator
+            - Gunner
+
+        Mercenary:
+            - Mercenary
+            - Soldier
+            - Mercenary Captain
+            - Mercenary Archer
+            - Mercenary Mage
+
+        Monk:
+            - Monk
+            - Martial Artist
+            - Zen Master
+            - Ascetic
+            - Mystic
+
+        Necromancer:
+            - Necromancer
+            - Lich
+            - Death Knight
+            - Gravecaller
+            - Soul Binder
+
+        Druid:
+            - Druid
+            - Shape Shifter
+            - Herbalist
+            - Nature's Guardian
+            - Elemental Adept
+
+        Engineer:
+            - Engineer
+            - Tinkerer
+            - Inventor
+            - Mechanist
+            - Gadgeteer
+
+        Knight:
+            - Knight
+            - Squire
+            - Cavalier
+            - Templar
+            - Paladin
+
+        Barbarian:
+            - Barbarian
+            - Berserker
+            - Tribal Leader
+            - Totem Warrior
+            - Savage
+
+    classes:
+        - Warrior
+        - Mage
+        - Archer
+        - Thief
+        - Cleric
+        - Paladin
+        - Ranger
+        - Bard
+        - Druid
+        - Sorcerer
+        - Warlock
+        - Barbarian
+        - Monk
+        - Necromancer
+        - Alchemist
+        - Assassin
+        - Knight
+        - Priest
+        - Summoner
+        - Gunslinger
+
 chemistry:
     elements:
         - Hydrogen
@@ -10576,6 +11057,61 @@ NSFW:
             - Writh
             - Yearn
 
+Onomatopoeia:
+    - Bang
+    - Boom
+    - Buzz
+    - Chirp
+    - Clang
+    - Clap
+    - Click
+    - Creak
+    - Crackle
+    - Crash
+    - Cuckoo
+    - Ding
+    - Hiss
+    - Honk
+    - Meow
+    - Moo
+    - Neigh
+    - Oink
+    - Quack
+    - Ribbit
+    - Roar
+    - Sizzle
+    - Snap
+    - Thud
+    - Tick-tock
+    - Tweet
+    - Whir
+    - Woof
+    - Zoom
+    - Beep
+    - Bleep
+    - Boing
+    - Bump
+    - Ding-dong
+    - Fizz
+    - Flutter
+    - Gobble
+    - Grumble
+    - Jingle
+    - Knock
+    - Mumble
+    - Purr
+    - Rattle
+    - Rip
+    - Rustle
+    - Screech
+    - Squeak
+    - Thump
+    - Toot
+    - Twang
+    - Whistle
+    - Yawn
+    - Yodel
+
 person:
     regular:
         female:
@@ -12441,88 +12977,6 @@ plants:
         - Basal-rosette
         - Tufted-rosette
         - Rosette-basal
-
-professions:
-    fantasy:
-        - Alchemist
-        - Bard
-        - Druid
-        - Enchanter
-        - Knight
-        - Mage
-        - Necromancer
-        - Paladin
-        - Ranger
-        - Sorcerer
-        - Thief
-        - Witch
-        - Wizard
-        - Cleric
-        - Beastmaster
-        - Illusionist
-        - Summoner
-        - Oracle
-        - Warlock
-        - Archmage
-        - Potion Master
-
-    sci-fi:
-        - Astronaut
-        - Cyborg
-        - Engineer
-        - Explorer
-        - Geneticist
-        - Pilot
-        - Robot Technician
-        - Space Marine
-        - Starship Captain
-        - Xenobiologist
-        - Data Analyst
-        - Quantum Physicist
-        - Terraformer
-        - Teleporter Operator
-        - AI Programmer
-
-    historical:
-        - Blacksmith
-        - Court Jester
-        - Knight
-        - Minstrel
-        - Navigator
-        - Scholar
-        - Scribe
-        - Ship Captain
-        - Viking Warrior
-        - Viking Shieldmaiden
-        - Gladiator
-        - Apothecary
-        - Musketeer
-        - Royal Falconer
-        - Samurai
-        - Silk Merchant
-        - Town Crier
-
-    modern:
-        - Accountant
-        - Detective
-        - Electrician
-        - Firefighter
-        - Nurse
-        - Police Officer
-        - Programmer
-        - Scientist
-        - Teacher
-        - Web Developer
-        - Architect
-        - Chef
-        - Journalist
-        - Librarian
-        - Psychologist
-        - Veterinarian
-        - Yoga Instructor
-        - Tattoo Artist
-        - Barista
-
 
 properties:
     colors:
@@ -18936,6 +19390,9 @@ styles:
             - Color Grading
             - Decalcomania
             - Silkscreen Printing
+            - drip paint
+            - T-shirt design
+            - Graffiti
     depiction-styles:
         2D-Styles:
             - 2D
@@ -18954,6 +19411,9 @@ styles:
             - Pop Art
             - Art Nouveau
             - Art Deco
+            - Stickers
+            - Logo
+            - Icon
         3D-Styles:
             - 3D
             - Photorealistic
