@@ -9144,6 +9144,211 @@ creatures:
         - Icarus Wings (enchanted wings made from wax and feathers)
         - Gargoyle Wings
         - Mechanical Wings made of gears and cogs and clockwork
+    species:
+        fantastic:
+            - Ahuizotl
+            - Basilisk
+            - Bunyip
+            - Centaur
+            - Cerberus
+            - Chimera
+            - Chupacabra
+            - Cockatrice
+            - Cthulhu
+            - Cyclops
+            - Dragon
+            - Faun
+            - Griffin
+            - Gryphon
+            - Harpy
+            - Hippocampus
+            - Hippogriff
+            - Hydra
+            - Jabberwock
+            - Jersey Devil
+            - Kitsune
+            - Kraken
+            - Lamassu
+            - Leprechaun
+            - Leviathan
+            - Manticore
+            - Mermaid
+            - Minotaur
+            - Mothman
+            - Naga
+            - Nuckelavee
+            - Nymph
+            - Pegasus
+            - Phoenix
+            - Qilin
+            - Rainbow Serpent
+            - Roc
+            - Simurgh
+            - Siren
+            - Skinwalker
+            - Sleipnir
+            - Sphinx
+            - Tengu
+            - Thunderbird
+            - Unicorn
+            - Wendigo
+            - Werewolf
+            - Yeti
+
+        fantasy:
+            - Baba Yaga
+            - Domovoi
+            - Erlking
+            - Fachan
+            - Grootslang
+            - Hodag
+            - Karura
+            - Kitsune
+            - Kokogiak
+            - Leshy
+            - Loveland Frog
+            - Manananggal
+            - Mapinguari
+            - Mongolian Death Worm
+            - Nalusa Falaya
+            - Popobawa
+            - Rusalka
+            - Sarimanok
+            - Teju Jagua
+            - Tikoloshe
+            - Tizheruk
+            - Wendigo
+            - Yara-ma-yha-who
+
+        sci-fi:
+            - Ahool
+            - Camazotz
+            - Devil Bird
+            - Drop Bear
+            - Kongamato
+            - Mapinguari
+            - Ropen
+            - Tsuchinoko
+
+        mythological:
+            - Aatxe
+            - Adze
+            - Agogwe
+            - Agogwe
+            - Alkonost
+            - Alp-luachra
+            - Anansi
+            - Bagiennik
+            - Bakeneko
+            - Barometz
+            - Bicéfalo
+            - Bonnacon
+            - Ceffyl Dŵr
+            - Cipactli
+            - Crinoid
+            - Dip
+            - El Brujo
+            - Fachen
+            - Grootslang
+            - Hodag
+            - Ijiraq
+            - Isonade
+            - Keres
+            - Kumiho
+            - Leshy
+            - Loveland Frog
+            - Mapinguari
+            - Mbielu-Mbielu-Mbielu
+            - Mokele-Mbembe
+            - Nalusa Falaya
+            - Noppera-bo
+            - Ouroboros
+            - Owlbear
+            - Popobawa
+            - Rat King
+            - Rusalka
+            - Sarimanok
+            - Sigbin
+            - Skinwalker
+            - Teju Jagua
+            - Tikoloshe
+            - Tizheruk
+            - Wendigo
+            - Yara-ma-yha-who
+            - Yowie
+            - Ziphius
+
+        Hantu:
+            - Hantu Air
+            - Hantu Akar
+            - Hantu Api
+            - Hantu Balik
+            - Hantu Bantu
+            - Hantu Barong
+            - Hantu Belang
+            - Hantu Belulang
+            - Hantu Berang-berang
+            - Hantu Bukit
+            - Hantu Bunting
+            - Hantu Cina
+            - Hantu Daun
+            - Hantu Daun Pisang
+            - Hantu Dinding
+            - Hantu Ekor
+            - Hantu Garam
+            - Hantu Garpu
+            - Hantu Gigi
+            - Hantu Iban
+            - Hantu India
+            - Hantu Jepun
+            - Hantu Kaki
+            - Hantu Kepala
+            - Hantu Kerbau
+            - Hantu Kereta
+            - Hantu Kucing
+            - Hantu Kubur
+            - Hantu Laut
+            - Hantu Lembu
+            - Hantu Melayu
+            - Hantu Minyak
+            - Hantu Orang Asli
+            - Hantu Pantai
+            - Hantu Peluk
+            - Hantu Penunggu
+            - Hantu Pisau
+            - Hantu Pukau
+            - Hantu Puaka
+            - Hantu Puntianak
+            - Hantu Putera
+            - Hantu Putih
+            - Hantu Raya
+            - Hantu Salam
+            - Hantu Seram
+            - Hantu Seru
+            - Hantu Singa
+            - Hantu Sunda
+            - Hantu Tengkorak
+            - Hantu Timun
+            - Hantu Tinggi
+            - Hantu Ujang
+            - Hantu Udang
+            - Hantu Udin
+            - Hantu Ulat
+            - Hantu Ular
+            - Hantu Ulat Bulu
+            - Hantu Ulat Sutera
+            - Hantu Ulat Sutra
+            - Hantu Ulat Ulat
+            - Hantu Ulta Bulu
+            - Hantu Ulta Sutera
+            - Hantu Ulta Sutra
+            - Hantu Ulta Ulat
+            - Hantu Ulatulat
+            - Hantu Ulatulat Bulu
+            - Hantu Ulatulat Sutera
+            - Hantu Ulatulat Sutra
+            - Hantu Ulatulat Ulat
+
 machines:
     types:
         Small-Machines:
@@ -10627,6 +10832,89 @@ plants:
         - Basal-rosette
         - Tufted-rosette
         - Rosette-basal
+
+
+
+professions:
+    fantasy:
+        - Alchemist
+        - Bard
+        - Druid
+        - Enchanter
+        - Knight
+        - Mage
+        - Necromancer
+        - Paladin
+        - Ranger
+        - Sorcerer
+        - Thief
+        - Witch
+        - Wizard
+        - Cleric
+        - Beastmaster
+        - Illusionist
+        - Summoner
+        - Oracle
+        - Warlock
+        - Archmage
+        - Potion Master
+
+    sci-fi:
+        - Astronaut
+        - Cyborg
+        - Engineer
+        - Explorer
+        - Geneticist
+        - Pilot
+        - Robot Technician
+        - Space Marine
+        - Starship Captain
+        - Xenobiologist
+        - Data Analyst
+        - Quantum Physicist
+        - Terraformer
+        - Teleporter Operator
+        - AI Programmer
+
+    historical:
+        - Blacksmith
+        - Court Jester
+        - Knight
+        - Minstrel
+        - Navigator
+        - Scholar
+        - Scribe
+        - Ship Captain
+        - Viking Warrior
+        - Viking Shieldmaiden
+        - Gladiator
+        - Apothecary
+        - Musketeer
+        - Royal Falconer
+        - Samurai
+        - Silk Merchant
+        - Town Crier
+
+    modern:
+        - Accountant
+        - Detective
+        - Electrician
+        - Firefighter
+        - Nurse
+        - Police Officer
+        - Programmer
+        - Scientist
+        - Teacher
+        - Web Developer
+        - Architect
+        - Chef
+        - Journalist
+        - Librarian
+        - Psychologist
+        - Veterinarian
+        - Yoga Instructor
+        - Tattoo Artist
+        - Barista
 
 
 mushrooms:
@@ -13005,6 +13293,38 @@ styles:
             - Sombre
             - Penumbra
             - Opaque
+        sinister:
+            - Foreboding
+            - Chilling
+            - Eerie
+            - Gloomy
+            - Sinister
+            - Cursed
+            - Spectral
+            - Shadowy
+            - Haunting
+            - Macabre
+            - Mysterious
+            - Otherworldly
+            - Surreal
+            - Cacophonous
+            - Desolate
+            - Apocalyptic
+            - Tenebrous
+            - Uncanny
+            - Supernatural
+            - Grim
+            - Whispering
+            - Dreadful
+            - Maleficent
+            - Suffocating
+            - Nocturnal
+            - Decrepit
+            - Imposing
+            - Mournful
+            - Stygian
+            - Cataclysmic
+
         Colorful:
             - colorful
             - Vivid
