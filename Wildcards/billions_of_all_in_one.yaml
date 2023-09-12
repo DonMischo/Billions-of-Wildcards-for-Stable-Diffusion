@@ -109,7 +109,7 @@ BoCloths:
     random-fullbody:
         - "full body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
@@ -12770,7 +12770,6 @@ styles:
             - Culottes
             - Cropped Length
             - Ankle Zippers
-
         Dress-Length:
             - Mini Length
             - Knee Length
@@ -12780,8 +12779,6 @@ styles:
             - High-Low Hemline
             - Asymmetrical Hemline
             - Floor-Length
-
-
         Waistlines:
             - Natural Waist
             - Empire Waist
@@ -12817,7 +12814,6 @@ styles:
             - Button Closure
             - Tie Closure
             - Corset Closure
-
         Design:
             - Typography
             - Illustration
