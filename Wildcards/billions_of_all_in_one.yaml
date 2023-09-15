@@ -19799,6 +19799,83 @@ styles:
             - Center-weighted Metering
             - Spot Metering 
             - Partial Metering
+    Types of Views:
+        - Blueprint
+        - Floor Plan
+        - Elevation View
+        - Cross-Section View
+        - Site Plan
+        - Top-Down View
+        - Isometric View
+        - Perspective View
+        - Orthographic View
+        - Exploded View
+        - Cutaway View
+        - 3D Model
+        - Wireframe View
+        - Schematic Diagram
+        - Flowchart
+        - Bird's-eye View
+        - Street Map
+        - Satellite View
+        - Aerial View
+        - Circuit Diagram
+        - Mind Map
+        - Organizational Chart
+        - Network Topology Diagram
+        - Fishbone Diagram (Ishikawa)
+        - Gantt Chart
+        - Timeline
+        - Scatter Plot
+        - Bar Chart
+        - Pie Chart
+    Color-settings:
+        - Hue
+        - Saturation
+        - Brightness
+        - Contrast
+        - Color Temperature
+        - Color Depth
+        - Color Space
+        - Color Gamut
+        - Color Profile
+        - HSL
+        - HSV
+        - Pantone Color
+        - Web-safe Colors
+        - Color Grading
+        - Color Correction
+        - Color Blindness
+        - Tint
+        - Shade
+        - Tone
+        - Color Model
+        - Grayscale
+        - Color Harmony
+        - Color Rendering
+        - Color Blindness Simulator
+        - Color Theory
+        - Color Palette
+        - Primary Colors
+        - Secondary Colors
+        - Complementary Colors
+        - Analogous Colors
+        - Monochromatic Colors
+        - Warm Colors
+        - Cool Colors
+        - Pastel Colors
+        - Vibrant Colors
+        - Desaturated Colors
+        - Color Gradient
+        - Color Swatch
+        - Color Saturation
+        - Color Luminance
+        - Color Temperature
+        - Color Scheme
+        - Color Psychology
+        - Color Meaning
+        - Color Association
+        - Color Harmony
 
 styles-architectural:
     architectural:
