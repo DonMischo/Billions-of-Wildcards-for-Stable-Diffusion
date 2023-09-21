@@ -1,489 +1,12 @@
 ######################################
 # Billions of Wildcards - all in one #
 ######################################
-# BoChars
-BoChars:
-    female:
-        modern:
-            - female __person/regular/female__ wearing __clothings/regular/female-attire__, __person/regular/poses__
-        BoConstructions:
-            - __BoChars/female/modern__, __BoConstructions/random-standard__
-        BoCloths:
-            - __BoChars/female/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
-    male:
-        modern:
-            - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
-        BoConstructions:
-            - __BoChars/male/modern__, __BoConstructions/random-standard__
-        BoCloths:
-            - __BoChars/male/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
-    div:
-        - male __BoChars/female/modern__
-        - female __BoChars/male/modern__ 
-    random:
-        - "{0.45::__BoChars/female/modern__|0.45::__BoChars/male/modern__|0.1::__BoChars/div__}"
-# BoCharsCyberpunk
-BoCharsCyberpunk:
-    female:
-        classic:
-            - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
-        scenery:
-            - __BoCharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
-        BoConstructions:
-            - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
-    male:
-        classic:
-            - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
-        scenery:
-            - __BoCharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
-        BoConstructions:
-            - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
-    random:
-        - "{__BoCharsCyberpunk/male/classic__|__BoCharsCyberpunk/female/classic__}"
-
-# BoCharsMag
-BoCharsMag:
-    female:
-        classic:
-            - "female __person/magical/female__ 
-            {
-            wearing __clothings/magical/female-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        modern:
-            - "female __person/magical/female__ 
-            {
-            wearing __clothings/regular/female-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        scenery:
-            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/regular/*__"
-        BoConstructions:
-            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
-    male:
-        classic:
-            - "male __person/magical/male__ 
-            {
-            wearing __clothings/magical/male-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        modern:
-            - "male __person/magical/male__ 
-            {
-            wearing __clothings/regular/male-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        scenery:
-            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/regular/*__"
-        BoConstructions:
-            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
-    div:
-        - "female {__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}"
-        - "male {__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}"
-    random:
-        - "{0.45::{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}|
-        0.45::{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}|
-        0.1::__BoCharsMag/div__}"
-# BoCharsSciFi
-BoCharsScifi:
-    female:
-        classic:
-            - female __random/profession-scifi__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
-        scenery:
-            - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
-        BoConstructions:
-            - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
-    male:
-        classic:
-            - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
-        scenery:
-            - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
-        BoConstructions:
-            - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
-    random:
-        - "{__BoCharsScifi/male/classic__|__BoCharsScifi/female/classic__}"
-# billions of clothings
-BoCloths:
-    random-fullbody:
-        - "full body clothing,
-        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
-        __styles/clothing/Sleeve__,
-        __styles/clothing/dress-Length__,
-        __styles/clothing/Waistlines__,
-        __styles/clothing/skirt__,
-        __BoCloths/random-extras__
-        "
-    random-combination:
-        - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
-    random-upperbody:
-        - "upper body clothing,
-        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
-        __styles/clothing/Sleeve__,
-        __styles/clothing/dress-Length__,
-        __styles/clothing/Waistlines__,
-        __BoCloths/random-extras__
-        "
-    random-lowerbody:
-        - "lower body clothing,
-        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
-        __styles/clothing/fit-Length__,
-        __styles/clothing/Waistlines__,
-        __BoCloths/random-extras__
-        "
-    random-extras:
-        - "
-        {1-6$$__styles/clothing/Embellishments__,|__styles/clothing/Special-Features__,|__styles/clothing/Functional-Features__,|
-        __styles/clothing/Waistband-Closure__,|__styles/clothing/pockets__,|__styles/clothing/wash__,|__styles/clothing/Back-Designs__,|
-        __styles/clothing/Dress-Accents__,|__styles/clothing/Unique-Features__, __styles/clothing/Closure__,|__styles/clothing/Design__}
-        "
-# BoConstructions
-BoConstructions:
-    building-standard:
-        - __random/buildings__
-    building-cyberpunk:
-        - __random/buildings-cyberpunk__
-    building-scifi:
-        - __random/buildings-scifi__
-    building-magical:
-        - __random/buildings-magical__
-    room-standard:
-        - __random/rooms__
-    room-cyberpunk:
-        - __random/rooms-cyberpunk__
-    room-scifi:
-        - __random/rooms-scifi__
-    room-magical:
-        - __random/rooms-magical__
-    random-building:
-        - __random/buildings*__
-    random-room:
-        - __random/rooms*__
-    random:
-        - "{__BoConstructions/random-room__|__BoConstructions/random-building__}"
-    random-standard:
-        - "{__BoConstructions/room-standard__|__BoConstructions/building-standard__}"
-# BoCreatures
-BoCreatures:
-    random:
-        - "__creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/Look-Feel__ __creatures/Body-Shapes__, 
-        {__creatures/nmbrlegs__ __creatures/nmbrarms__,|}
-        __creatures/Appendages__, 
-        {__creatures/nmbrtails__,|} __creatures/tails__, 
-        __creatures/Skin-Fur-Types__,
-        {__creatures/ear-Types__,|}
-        {__creatures/wings__,|}
-        # {__creatures/horns__,|}
-        # {__creatures/Mouth-Jaw__,|}
-        {__properties/colors/*__,|__properties/patterns/unusual__,|}"
-# BoMachines
-BoMachines:
-    random:
-        - "__machines/types/*__,
-        {2-6$$__machines/parts/*__},
-        {__properties/patterns/machines__},
-        {__properties/textures/machines__},
-        "
-    random-machine:
-        - "__properties/size/*__ __machines/types-synonyms__,
-        {2-6$$__machines/parts/*__},
-        {__properties/patterns/machines__},
-        {__properties/textures/machines__},
-        "
-# Billions of plants
-BoPlants:
-    random-plant:
-        - "{
-        __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
-        {__properties/textures/stem__ __properties/shape/stem__ __plants/stem__, __properties/textures/bark__,|}
-        {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
-        {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
-        {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,}|}
-        {__plants/Sepal-Configuration__, __plants/Foliage-Arrangement__,|}
-        {__properties/structure/root__ root|}
-        }"
-    random-shroom:
-        - "{
-        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/textures/mushrooms__ mushroom,
-        __properties/textures/*__, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
-        {__mushrooms/Bioluminescence__,|}
-        {__properties/colors/*__ __mushrooms/gill__,|}
-        {1-3$$__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
-        __mushrooms/Hymenium__,| __mushrooms/Latex__ Latex,|}
-        {__properties/colors/*__ __mushrooms/stipe-base__,|}
-        {__mushrooms/Poisonous-Properties__,|__mushrooms/Medicinal-Properties__,|}
-        }"
-# BoScenes
-BoScenes:
-    random:
-        - "__scenes/settings/*__
-        {1-4$$__scenes/features*__}"
-    random-Landscape:
-        - "__scenes/settings/Landscapes__
-        {1-4$$__scenes/features*__}"
-    random-city:
-        - "{0.4::__styles/*__ architecture|} __scenes/settings/UrbanBuiltEnvironments__
-        {1-4$$__scenes/features*__}"
-# Billions of Styles
-BoStyles:
-    random-anything:
-        - "__styles/art-styles__, 
-        {__styles/punk-styles__|}, 
-        __styles/atmosphere/*__, 
-        __styles/rendering-techniques/*__, 
-        __styles/graphic-engines__, 
-        __styles/image-styles__, 
-        __styles/image-techniques/*__, 
-        __styles/depiction-styles/*__,
-        {__styles/animations__|},
-        {__styles/ambient-Effects__|},
-        __BoStyles/random-quality-prompts__,
-        __styles/resolutions__,
-        __styles/Creative-Concepts__,"
-        #__BoStyles/random-camera-settings__"
-# art Styles
-    random-artstyle:
-        - __styles/art-styles__
-# punk style
-    random-punk-styles:
-        - __styles/punk-styles__
-# atmosphere
-    random-atmosphere:
-        - __styles/atmosphere/*__
-    random-atmosphere-Light:
-        - __styles/atmosphere/Light__
-    random-atmosphere-Dark:
-        - __styles/atmosphere/Dark__
-    random-atmosphere-Colorful:
-        - __styles/atmosphere/Colorful__
-    random-atmosphere-Intense:
-        - __styles/atmosphere/Intense__
-    random-atmosphere-Serene:
-        - __styles/atmosphere/Serene__
-    random-atmosphere-Cozy:
-        - __styles/atmosphere/Cozy__
-    random-atmosphere-Mysterious:
-        - __styles/atmosphere/Mysterious__
-    random-atmosphere-Romantic:
-        - __styles/atmosphere/Romantic__
-    random-atmosphere-Melancholic:
-        - __styles/atmosphere/Melancholic__
-    random-atmosphere-Magical:
-        - __styles/atmosphere/Magical__
-    random-atmosphere-Rustic:
-        - __styles/atmosphere/Rustic__
-    random-atmosphere-Ethereal:
-        - __styles/atmosphere/Ethereal__
-    random-atmosphere-Dramatic:
-        - __styles/atmosphere/Dramatic__
-    random-atmosphere-Nostalgic:
-        - __styles/atmosphere/Nostalgic__
-    random-atmosphere-Festive:
-        - __styles/atmosphere/Festive__
-    random-atmosphere-Minimalist:
-        - __styles/atmosphere/Minimalist__
-    random-atmosphere-Majestic:
-        - __styles/atmosphere/Majestic__
-    random-atmosphere-Surreal:
-        - __styles/atmosphere/Surreal__
-    random-atmosphere-Urban:
-        - __styles/atmosphere/Urban__
-    random-atmosphere-Winding:
-        - __styles/atmosphere/Winding__
-    random-atmosphere-reading:
-        - __styles/atmosphere/reading__
-    random-atmosphere-work:
-        - __styles/atmosphere/work__
-    random-atmosphere-teaching:
-        - __styles/atmosphere/teaching__
-    random-atmosphere-uncomfortable:
-        - __styles/atmosphere/uncomfortable__
-    random-atmosphere-productive:
-        - __styles/atmosphere/productive__
-    random-atmosphere-artistic:
-        - __styles/atmosphere/artistic__
-    random-atmosphere-natural:
-        - __styles/atmosphere/natural__
-    random-atmosphere-synthetic:
-        - __styles/atmosphere/synthetic__
-    random-atmosphere-mechanical:
-        - __styles/atmosphere/mechanical__
-    random-atmosphere-body-functional:
-        - __styles/atmosphere/body-functional__
-    random-atmosphere-decaying:
-        - __styles/atmosphere/decaying__
-    random-atmosphere-emotional:
-        - __styles/atmosphere/emotional__
-    random-atmosphere-Deteriorating:
-        - __styles/atmosphere/Deteriorating__
-    random-atmosphere-Shopping:
-        - __styles/atmosphere/Shopping__
-    random-atmosphere-dining:
-        - __styles/atmosphere/dining__
-    random-atmosphere-recreational:
-        - __styles/atmosphere/recreational__
-    random-atmosphere-VR:
-        - __styles/atmosphere/VR__
-    random-atmosphere-hospital:
-        - __styles/atmosphere/hospital__
-    random-atmosphere-Metropolitan:
-        - __styles/atmosphere/Metropolitan__
-    random-atmosphere-Rural:
-        - __styles/atmosphere/Rural__
-    random-atmosphere-Robotic:
-        - __styles/atmosphere/Robotic__
-    random-atmosphere-Engineering:
-        - __styles/atmosphere/Engineering__
-    random-atmosphere-Desert:
-        - __styles/atmosphere/Desert__
-    random-atmosphere-Mountain:
-        - __styles/atmosphere/Mountain__
-    random-atmosphere-Oceanic:
-        - __styles/atmosphere/Oceanic__
-    random-atmosphere-Forest:
-        - __styles/atmosphere/Forest__
-    random-atmosphere-Cultural:
-        - __styles/atmosphere/Cultural__
-
-# rendering
-    random-rendering:
-        - __styles/rendering-techniques/*__
-    random-rendering-Ray-Tracing:
-        - __styles/rendering-techniques/Ray-Tracing__
-    random-rendering-Ambient-Effects:
-        - __styles/rendering-techniques/Ambient-Effects__
-    random-rendering-Particles-and-Effects:
-        - __styles/rendering-techniques/Particles-and-Effects__
-    random-rendering-Lighting-Techniques:
-        - __styles/rendering-techniques/Lighting-Techniques__
-    random-rendering-Shading-Techniques:
-        - __styles/rendering-techniques/Shading-Techniques__
-    random-rendering-Mapping-Techniques:
-        - __styles/rendering-techniques/Mapping-Techniques__
-    random-rendering-Post-Processing-Techniques:
-        - __styles/rendering-techniques/Post-Processing-Techniques__
-    random-rendering-Optimization-Techniques:
-        - __styles/rendering-techniques/Optimization-Techniques__
-    random-rendering-Artistic-Rendering:
-        - __styles/rendering-techniques/Artistic-Rendering__
-# graphic engines
-    random-graphic-engines:
-        - __styles/graphic-engines__
-# image Styles
-    random-image-styles:
-        - __styles/image-styles__
-# image Techniques
-    random-image-techniques:
-        - __styles/image-techniques/*__
-    random-image-techniques-Traditional:
-        - __styles/image-techniques/Traditional__
-    random-image-techniques-Digital:
-        - __styles/image-techniques/Digital__
-    random-image-techniques-Photographic:
-        - __styles/image-techniques/Photographic__
-    random-image-techniques-Other:
-        - __styles/image-techniques/Other__
-# depiction styles
-    random-depiction-styles:
-        - __styles/depiction-styles/*__
-    random-depiction-styles-2D-Styles:
-        - __styles/depiction-styles/2D-Styles__
-    random-depiction-styles-3D-Styles:
-        - __styles/depiction-styles/3D-Styles__
-    random-depiction-styles-Historical:
-        - __styles/depiction-styles/Historical__
-    random-depiction-styles-Digital-Modern-Styles:
-        - __styles/depiction-styles/Digital-Modern-Styles__
-# Animation
-    random-animation-style:
-        - __styles/animations__
-# ambient Effects
-    random-ambient-effect:
-        - __styles/ambient-Effects__
-# quality
-    random-quality-prompts:
-        - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
-# resolution
-    random-resolution:
-        - __styles/resolutions__
-# creative concepts
-    random-creative-concept:
-        - __styles/Creative-Concepts__
-# Camera
-    random-camera-settings:
-        - "{__styles/camera/camera__|}, 
-        __styles/camera/Aperture-Settings__, 
-        __styles/camera/Shutter-Speed__, 
-        __styles/camera/ISO-Settings__, 
-        __styles/camera/White-Balance__, 
-        __styles/camera/Exposure-Settings__, 
-        __styles/camera/Shooting-Modes__, 
-        __styles/camera/Composition-Techniques__,
-        __styles/camera/Focus__,
-        __styles/camera/Metering__"
-
-# Billions of vehicles:
-BoVehicles:
-    random:
-        - "{__vehicles/size__|} __vehicles/types/*__,
-        {__vehicles/exterior-features__,|}
-        {__vehicles/windows__,|}
-        {__vehicles/lights__,|}
-        {__vehicles/Accessories__,|}
-        {__vehicles/Customization__,|}
-        __properties/materials-vehicles/*__,
-        __properties/Visual-Appearance__,
-        {__properties/paint-vehicle__,|}
-        {__properties/Textures/vehicles__,|}"
-    random-scifi:
-        - "{__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|__vehicles/types/Flying-Car-Like-Vehicles__|__vehicles/types/Underground-Vehicles__},
-        {__vehicles/exterior-features__,|}
-        {__vehicles/windows__,|}
-        {__vehicles/lights__,|}
-        {__vehicles/Accessories__,|}
-        {__vehicles/Customization__,|}
-        __properties/materials-vehicles/*__,
-        __properties/Visual-Appearance__,
-        {__properties/paint-vehicle__,|}
-        {__properties/Textures/vehicles__,|}"
-    random-notype:
-        - "{__vehicles/size__|} Conveyance,
-        {__vehicles/exterior-features__,|}
-        {__vehicles/windows__,|}
-        {__vehicles/lights__,|}
-        {__vehicles/Accessories__,|}
-        {__vehicles/Customization__,|}
-        __properties/materials-vehicles/*__,
-        __properties/Visual-Appearance__,
-        {__properties/paint-vehicle__,|}
-        {__properties/Textures/vehicles__,|}"
 
 # Billions of cosmics
 BoCosmic:
     random:
         - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__}"
 
-# BoJewelry
-BoJewelry:
-    random-properties:
-        - "__jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__, __jewelry/carat__, __jewelry/fire__, 
-        __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/hardness__, __jewelry/durability__, __jewelry/treatments__, __jewelry/setting__,
-        __jewelry/origin__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
-    random-properties-reduced:
-        - "__jewelry/brilliance__ __jewelry/fire__ __chemistry/gems__, __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/durability__, __jewelry/treatments__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
-    random:
-        - __jewelry/types__, __BoJewelry/random-properties__
-
-
-
-########################
-# categories and items #
-########################
 astronomy:
     Celestial-Bodies:
         - Star
@@ -737,6 +260,28 @@ brain-psychology:
             - Empathetic
             - Impulsive
 
+
+# BoChars
+BoChars:
+    female:
+        modern:
+            - female __person/regular/female__ wearing __clothings/regular/female-attire__, __person/regular/poses__
+        BoConstructions:
+            - __BoChars/female/modern__, __BoConstructions/random-standard__
+        BoCloths:
+            - __BoChars/female/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
+    male:
+        modern:
+            - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
+        BoConstructions:
+            - __BoChars/male/modern__, __BoConstructions/random-standard__
+        BoCloths:
+            - __BoChars/male/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
+    div:
+        - male __BoChars/female/modern__
+        - female __BoChars/male/modern__ 
+    random:
+        - "{0.45::__BoChars/female/modern__|0.45::__BoChars/male/modern__|0.1::__BoChars/div__}"
 
 characters:
     professions:
@@ -1032,6 +577,7 @@ characters:
         - Summoner
         - Gunslinger
 
+
 chemistry:
     elements:
         - Hydrogen
@@ -1209,6 +755,43 @@ chemistry:
         - Morganite
         - Rhodochrosite
         - Alexandrite
+
+# BoClothings
+BoCloths:
+    random-fullbody:
+        - "full body clothing,
+        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
+        __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
+        __styles/clothing/Sleeve__,
+        __styles/clothing/dress-Length__,
+        __styles/clothing/Waistlines__,
+        __styles/clothing/skirt__,
+        __BoCloths/random-extras__
+        "
+    random-combination:
+        - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
+    random-upperbody:
+        - "upper body clothing,
+        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
+        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
+        __styles/clothing/Sleeve__,
+        __styles/clothing/dress-Length__,
+        __styles/clothing/Waistlines__,
+        __BoCloths/random-extras__
+        "
+    random-lowerbody:
+        - "lower body clothing,
+        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
+        __styles/clothing/fit-Length__,
+        __styles/clothing/Waistlines__,
+        __BoCloths/random-extras__
+        "
+    random-extras:
+        - "
+        {1-6$$__styles/clothing/Embellishments__,|__styles/clothing/Special-Features__,|__styles/clothing/Functional-Features__,|
+        __styles/clothing/Waistband-Closure__,|__styles/clothing/pockets__,|__styles/clothing/wash__,|__styles/clothing/Back-Designs__,|
+        __styles/clothing/Dress-Accents__,|__styles/clothing/Unique-Features__, __styles/clothing/Closure__,|__styles/clothing/Design__}
+        "
 
 clothings:
     regular:
@@ -5422,6 +5005,309 @@ clothings:
                 - Sonic Sound-isolating Collar
                 - Thermal-regulating Scarf
 
+components:
+    Electronic:
+        - Resistor
+        - Capacitor
+        - Transistor
+        - Diode
+        - Integrated Circuit (IC)
+        - Microcontroller
+        - LED (Light-Emitting Diode)
+        - Sensor
+        - Relay
+        - Battery
+        - Connector
+        - Switch
+        - Fuse
+        - Oscillator
+        - Inductor
+        - Potentiometer
+        - Transformer
+        - Printed Circuit Board (PCB)
+        - Microchip
+        - Voltage Regulator
+        - Crystal Oscillator
+        - Thermistor
+        - Varistor
+
+    Mechanical:
+        - Gear
+        - Bearing
+        - Shaft
+        - Spring
+        - Screw
+        - Nut
+        - Bolt
+        - Washer
+        - Pulley
+        - Belt
+        - Chain
+        - Valve
+        - Cam
+        - Clutch
+        - Brake
+        - Cylinder
+        - Piston
+        - Hinge
+        - Lever
+        - Wheel
+        - Axle
+        - Roller
+        - Latch
+        - Coupling
+        - Sprocket
+        - Bushing
+        - Collar
+        - Crankshaft
+        - Flywheel
+
+    Fasteners:
+        - Rivet
+        - Pin
+        - Clip
+        - Snap Ring
+        - Cotter Key
+        - Nail
+        - Staple
+        - Hook and Loop Fastener (Velcro)
+        - Zip Tie
+        - Bolt
+        - Nut
+        - Screw
+        - Washer
+        - Anchor Bolt
+        - Dowel Pin
+        - Threaded Rod
+        - Toggle Bolt
+        - Expansion Anchor
+
+    Seals-Gaskets:
+        - O-Ring
+        - Oil Seal
+        - Gasket
+        - Grommet
+        - Washer Seal
+        - V-Ring Seal
+        - Radial Shaft Seal
+        - Lip Seal
+        - Spiral Wound Gasket
+        - Teflon Tape
+        - Cork Gasket
+        - Rubber Gasket
+
+    Bearings-Bushings:
+        - Ball Bearing
+        - Roller Bearing
+        - Needle Bearing
+        - Thrust Bearing
+        - Tapered Roller Bearing
+        - Sleeve Bearing
+        - Flanged Bearing
+        - Pillow Block Bearing
+        - Spherical Plain Bearing
+        - Journal Bearing
+        - Split Bushing
+        - Solid Bushing
+
+    Springs-Coils:
+        - Compression Spring
+        - Extension Spring
+        - Torsion Spring
+        - Leaf Spring
+        - Coil Spring
+        - Clock Spring
+        - Constant Force Spring
+        - Hairpin Spring
+        - Conical Spring
+        - Disc Spring
+        - Wave Spring
+        - Belleville Washer
+        - Solenoid Coil
+
+    Electrical-Connectors:
+        - Terminal Block
+        - Wire Connector
+        - Cable Connector
+        - Plug
+        - Socket
+        - Terminal Lug
+        - Splice Connector
+        - Terminal Strip
+        - Banana Plug
+        - XLR Connector
+        - USB Connector
+        - HDMI Connector
+        - RJ45 Connector
+        - BNC Connector
+        - DIN Connector
+        - Circular Connector
+        - Blade Connector
+
+    Motors-Actuators:
+        - Electric Motor
+        - DC Motor
+        - AC Motor
+        - Stepper Motor
+        - Servo Motor
+        - Linear Actuator
+        - Rotary Actuator
+        - Solenoid Actuator
+        - Piezoelectric Actuator
+        - Pneumatic Actuator
+        - Hydraulic Actuator
+        - Gear Motor
+
+    Screws-Fasteners:
+        - Wood Screw
+        - Machine Screw
+        - Self-Tapping Screw
+        - Threaded Rod
+        - Set Screw
+        - Anchor Bolt
+        - Eye Bolt
+        - Toggle Bolt
+        - U-Bolt
+        - Hex Bolt
+        - Hex Nut
+        - Wing Nut
+        - Lock Nut
+        - Square Nut
+        - T-Nut
+        - Rivet Nut
+        - Clevis Pin
+
+    Structural:
+        - Beam
+        - Column
+        - Truss
+        - Bracket
+        - Angle Iron
+        - I-Beam
+        - Channel
+        - L-Bracket
+        - Hinge Plate
+        - Flange
+        - Gusset Plate
+        - Girder
+        - Frame
+        - Support Rod
+
+    Fluid-Handling:
+        - Pipe
+        - Hose
+        - Valve
+        - Fitting
+        - Pump
+        - Nozzle
+        - Coupling
+        - Elbow
+        - Check Valve
+        - Strainer
+        - Flowmeter
+        - Pressure Regulator
+        - Expansion Joint
+        - Union
+
+    Control-Automation:
+        - Relay
+        - Sensor
+        - Actuator
+        - Controller
+        - Programmable Logic Controller (PLC)
+        - Switch
+        - Timer
+        - Encoder
+        - Potentiometer
+        - Limit Switch
+        - Proximity Sensor
+        - Pressure Switch
+        - Temperature Sensor
+        - Flow Sensor
+        - Level Sensor
+
+    Power-Transmission:
+        - Gear
+        - Belt
+        - Chain
+        - Shaft
+        - Sprocket
+        - Pulley
+        - Clutch
+        - Brake
+        - Coupling
+        - Cam
+        - Worm Gear
+        - Bevel Gear
+        - Timing Belt
+        - V-Belt
+        - Chain Drive
+
+    Pneumatic:
+        - Air Cylinder
+        - Solenoid Valve
+        - Air Compressor
+        - Pressure Regulator
+        - Air Filter
+        - Air Hose
+        - Quick Coupler
+        - FRL Unit (Filter-Regulator-Lubricator)
+
+    Hydraulic:
+        - Hydraulic Cylinder
+        - Hydraulic Pump
+        - Hydraulic Valve
+        - Hydraulic Hose
+        - Hydraulic Fitting
+        - Hydraulic Accumulator
+        - Hydraulic Filter
+
+    Thermal:
+        - Heat Sink
+        - Thermocouple
+        - Thermal Insulation
+        - Heating Element
+        - Radiator
+        - Heat Exchanger
+
+    Optical:
+        - Lens
+        - Mirror
+        - Prism
+        - Beam Splitter
+        - Polarizer
+        - Filter
+        - Fiber Optic Cable
+        - Photodetector
+        - Laser Diode
+
+# BoConstructions
+BoConstructions:
+    building-standard:
+        - __random/buildings__
+    building-cyberpunk:
+        - __random/buildings-cyberpunk__
+    building-scifi:
+        - __random/buildings-scifi__
+    building-magical:
+        - __random/buildings-magical__
+    room-standard:
+        - __random/rooms__
+    room-cyberpunk:
+        - __random/rooms-cyberpunk__
+    room-scifi:
+        - __random/rooms-scifi__
+    room-magical:
+        - __random/rooms-magical__
+    random-building:
+        - __random/buildings*__
+    random-room:
+        - __random/rooms*__
+    random:
+        - "{__BoConstructions/random-room__|__BoConstructions/random-building__}"
+    random-standard:
+        - "{__BoConstructions/room-standard__|__BoConstructions/building-standard__}"
+
 constructions:
     types:
         Residential-Buildings:
@@ -6618,6 +6504,20 @@ constructions:
             - Immersive Interactive Façades (e.g., LED Screens)
 
 
+# BoCreatures
+BoCreatures:
+    random:
+        - "__creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/Look-Feel__ __creatures/Body-Shapes__, 
+        {__creatures/nmbrlegs__ __creatures/nmbrarms__,|}
+        __creatures/Appendages__, 
+        {__creatures/nmbrtails__,|} __creatures/tails__, 
+        __creatures/Skin-Fur-Types__,
+        {__creatures/ear-Types__,|}
+        {__creatures/wings__,|}
+        # {__creatures/horns__,|}
+        # {__creatures/Mouth-Jaw__,|}
+        {__properties/colors/*__,|__properties/patterns/unusual__,|}"
+
 creatures:
     size:
         - Tiny
@@ -7148,6 +7048,26 @@ creatures:
             - Hantu Ulatulat Sutra
             - Hantu Ulatulat Ulat
 
+# BoCharsCyberpunk
+BoCharsCyberpunk:
+    female:
+        classic:
+            - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
+        scenery:
+            - __BoCharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+        BoConstructions:
+            - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
+    male:
+        classic:
+            - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
+        scenery:
+            - __BoCharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+        BoConstructions:
+            - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
+    random:
+        - "{__BoCharsCyberpunk/male/classic__|__BoCharsCyberpunk/female/classic__}"
+
+
 cyberpunk:
     types:
         - Corporate Cyberpunk
@@ -7629,6 +7549,42 @@ habitats:
         - villa
         - house
         - residence
+    Biomes:
+        - Tundra
+        - Taiga
+        - Boreal Forest
+        - Temperate Deciduous Forest
+        - Grassland
+        - Prairie 
+        - Savanna
+        - Desert
+        - Tropical Rainforest
+        - Tropical Seasonal Forest 
+        - Dry Tropical Forest
+        - Chaparral
+        - Mediterranean
+        - Alpine
+        - Wetland
+        - Swamp
+        - Marsh
+        - Coral Reef
+        - Estuary
+        - Mangrove Forest
+        - Polar Ice Cap
+        - Mountain
+        - Cave
+        - Urban
+
+# BoJewelry
+BoJewelry:
+    random-properties:
+        - "__jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__, __jewelry/carat__, __jewelry/fire__, 
+        __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/hardness__, __jewelry/durability__, __jewelry/treatments__, __jewelry/setting__,
+        __jewelry/origin__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
+    random-properties-reduced:
+        - "__jewelry/brilliance__ __jewelry/fire__ __chemistry/gems__, __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/durability__, __jewelry/treatments__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
+    random:
+        - __jewelry/types__, __BoJewelry/random-properties__
 
 jewelry:
     clarities:
@@ -8588,449 +8544,21 @@ lighting:
         - Umbrella Lighting
         - Window Light
 
-magical:
-    magic:
-        - "({6-10$${-3$$__magical/words/adjectives__}|
-        {-2$$__properties/colors/*__}
-        {-3$$__magical/words/*__} |
-        {-2$$__properties/materials*/*__}
-        {-2$$__matter/movement1__}|
-        {-1$$__matter/movement2__}|
-        0.1::{-1$$__phenomena/*/natural__}|
-        {-1$$__phenomena/*/abstract__}|
-        {-2$$__properties/patterns/lines__}|
-        0.1::{-1$$__properties/patterns/2Dshapes__}
-        |0.1::{-1$$__properties/patterns/3Dshapes__}|
-        {-1$$__matter/state__}}
-        magic:1.0)"
-    magic2:
-        - "({6-10$${-3$$__magical/words/adjectives__}|
-        {-2$$__properties/colors/*__}|
-        {-3$$__magical/words/*__} |
-        {-2$$__properties/materials*/*__}|
-        0.34::{-1$$__phenomena/*/natural__}|
-        {-2$$__phenomena/*/abstract__}|
-        {-2$$__properties/patterns/*__}|
-        {-2$$__properties/textures/*__}|
-        {-2$$__astronomy/*__}|
-        {-2$$__chemistry/*__}|
-        {-1$$__matter/state__}}
-        magic:1.0)"
-    types:
-        air:
-            - air magic
-            - Air Manipulation (controlling wind and air currents)
-            - Aerokinesis
-            - Flight (levitating or flying)
-            - Weather Control (manipulating weather patterns)
-        dark:
-            - dark magic
-            - entropy magic
-            - void magic
-            - Unpredictable Magic
-            - Disorder Manipulation
-            - Necromancy
-            - Curses
-            - Hexes
-            - Black Magic
-            - Dark Rituals
-            - Summoning volent Entities
-        divination:
-            - Divination magic
-            - Psychic Magic
-            - Fortune-telling
-            - Clairvoyance
-            - Precognition
-            - Telepathy
-            - Scrying
-        dream:
-            - dream magic
-            - Entering Dream Worlds
-            - Manipulating Dreams
-            - Creating Illusions on a Larger Scale
-        earth:
-            - earth magic
-            - Earth Manipulation (shaping and moving the ground)
-            - Terrakinesis
-            - Plant Manipulation (controlling plant life)
-            - Crystal Manipulation
-        elemental:
-            - __magical/types/air__
-            - __magical/types/earth__
-            - __magical/types/fire__
-            - __magical/types/ice__
-            - __magical/types/lightning__
-            - __magical/types/metal__
-            - __magical/types/water__
-        fire:
-            - fire magic
-            - Fireballs
-            - Fire Manipulation (creating and controlling flames)
-            - Fire Breathing
-            - Pyrokinesis
-            - Flame Projection
-        gravity:
-            - gravity magic
-            - Gravitational Manipulation (controlling gravity fields)
-            - Levitation and Floating
-            - Black Hole Creation (controlled, fictional application)
-        ice:
-            - ice magic
-            - Cryokinesis (mind over ice and cold)
-            - Frost Manipulation (creating and controlling frost)
-            - Snow Manipulation (creating and controlling snow)
-        illusion:
-            - Illusion Magic
-            - Enchantment
-            - Creating Illusions
-            - Enchanting Objects
-            - Shape-shifting
-        light:
-            - light magic
-            - Healing Magic
-            - Illusion Magic
-            - Using Music or Sound for Magic
-            - Harmonious or Discordant Effects
-            - Star-based Spells
-            - Cosmic Energy Manipulation
-            - Harnessing Celestial Bodies
-            - Healing Magic
-            - Purification Spells
-            - Light Manipulation
-            - Protection Charm
-        lightning:
-            - lightning magic
-            - Electrokinesis
-            - Lightning Bolts
-            - Electrical Manipulation (creating and controlling electrical currents)
-        metal:
-            - metal magic
-            - Metal Manipulation (controlling metal objects)
-            - Ferrokinesis
-            - Magnetism Manipulation
-            - Shaping and forging metal with magic
-        nature:
-            - nature magic
-            - Plant Growth Manipulation
-            - Vine Manipulation (controlling and animating vines)
-            - Photosynthesis Magic (creating energy from light)
-            - Plant Manipulation
-            - Controlling Animals
-            - Weather Manipulation
-            - Communicating with Nature Spirits
-        shadow:
-            - shadow magic
-            - Shadow Manipulation (creating and controlling shadows)
-            - Darkness Magic
-            - Invisibility and Concealment
-        tech:
-            - Technology manipulation
-            - Psychic powers
-            - Fusion of magic and cybernetics
-            - Nanotechnology manipulation
-            - Control over energy forms
-            - Time manipulation
-            - Space-warping abilities
-            - Genetic and biotechnology manipulation
-            - Creation and control of holographic illusions
-            - Control over quantum particles and reality
-        time:
-            - time magic
-            - Chronokinesis (mind over time)
-            - Time Bending (manipulating the flow of time)
-            - Time Loops and Time Travel
-            - Time Manipulation
-            - Time Travel
-            - Time Alteration
-        transmutation:
-            - Transmutation
-            - Alchemy
-            - Substance Transformation
-            - Magical Potions and Elixirs
-        water:
-            - water magic
-            - Water Manipulation (controlling water flow and shape)
-            - Hydrokinesis
-            - Healing Waters
-            - Ice Manipulation
-    beings:
-        - Amazon, Fearless warrior, Skilled archer, Formidable strength, Independent and self-reliant, Tall and muscular stature, Battle-hardened, Warriors of ancient myths, Honor and bravery, fantasy
-        - android, Human-like appearance, Anthropomorphic design, Synthetic skin and hair, Futuristic and sleek aesthetics, Elegance and sophistication in design, Enhanced with advanced technology, sci-fi
-        - Angel, Radiant aura, Heavenly grace, Harbingers of good news, Guardians of the divine realm, Symbolize purity and innocence, Emanate ethereal light, fantasy
-        - Centaur, Half-human, half-horse, Mythological creatures, Powerful and agile, Equine lower body, Human upper body,Guardians of the wild, fantasy
-        - cyborg, Human-machine hybrids, Part organic and part artificial, Advanced bionic enhancements, Futuristic technology, Cybernetic implants, Blend of biology and robotics, Enhanced physical capabilities, Integrated electronics, Neural interfaces, sci-fi, magical
-        - CyclopeOne-eyed giants, Mythological creatures, Enormous and powerful, Singular eye in the middle of the forehead, Fierce and intimidating appearance, Known for strength and brutality, fantasy, greek mythology
-        - Demon, Malevolent supernatural being, evil, chaos, infernal, powerful entity, corrupt,harm full, fantasy
-        - Devil, embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
-        - Djinn, supernatural beings, Middle Eastern folklore, humanoid created from smokeless fire, fantasy
-        - Dragon (in humanoid form),  immense power, wisdom, and connection to fire, draconic features,scales, wings, wise, ancient being, knowledge , fantasy
-        - Dwarf, short-statured humanoid beings, 3 to 4 feet tall, skilled craftsmen,expertise in mining and blacksmithing, resilience, determination, fantasy
-        - Elf, graceful and long-lived beings, 6 to 7 feet tall, beautiful,elegant,youthful appearance, graceful, ethereal, magical, fantasy
-        - Fairy,enchanting, ethereal creature, beauty, nature, protectors creatures, sacred places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
-        - Giant, humanoid, enormous and powerful beings, 20 to 40 feet tall, benevolent and wise, force of nature, legendary strength, fantasy
-        - Gnome, 1 feet small, humanoid, earth-dwelling humanoid being, affinity with the earth and nature, gardening and craftsmanship, fantasy
-        - Goblin,imaginative and mischievous goblin character with a hunched posture, glowing beady eyes, and a malevolent grin. Use earthy green and brown tones for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small in stature, around 2 to 3 feet tall, fantasy
-        - Harpie,mythical creature, upper body of a woman,  wings and lower body of a bird, vicious and malevolent, fantasy
-        - Human
-        - Kitsune,mythical creature, Japanese folklore, intelligent, humanform with multiple foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
-        - Leprechaun, mischievous, solitary,old men wearing green coats and buckled shoes, 3-4 feet tall, crafty and elusive, fantasy
-        - Merfolk, upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
-        - Minotaur, mythical creature with the head of a bull and the body of a man, Greek mythology, fierce and monstrous, chaos, primal instinct, fantasy
-        - Minotaurin, mythical creature, body of a woman, cow tail, bull horns, cow spots, gentle, friendly, large breasts , Greek mythology
-        - Naga, mythical serpent humanoid being, serpentine lower bodies, human upper body, "{devine, wisdom, knowledge|dangerous, unpredictable}", fantasy
-        - Nymph, Ethereal beauty, Nature's guardian, Alluring grace, Youthful appearance, Connected to the environment, Magical presence, Nature spirits, Reside in forests and water bodies, fantasy
-        - Orc, fictional humanoid creatures, brutish, fearsome, strength, muscular,rough rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray} skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated noses, and wide, powerful jaws, {sharp teeth|} fantasy
-        - Pixie, tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows}, playful, curious, delicate wings, flitting throught the air, fanatasy
-        - Satyr, mythological creature, upper body human, lower body goat, revelry, music, wine, dance, skilled musician and dancer, horns, fantasy
-        - Siren, seductive and alluring creatures, Greek mythology,beautiful,danger, temptation
-        - Sylph, humanoid elemental being, delicate and ethereal beings with gossamer wings, guardians of the air, {sky|mountain top},weather
-        - Troll, mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep forests}, Thick Warty {grey|green|brown} Skin, large nose, pointy ears, jutting jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy, stooped posture
-        - Vampire, legendary creature, force, power, blood, undead, beautyful, alluring, night, moon, fangs, fantasy
-        - Werewolf, lycanthropes,  mythical creature, humanoid wolf-like form, full moon, hairy furry skin, fangs, wolf ears, wolf-like face
-        - Yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains, 
-    elemental:
-        - "{fire|water|air|earth|elemental}"
-    profession:
-        crafter:
-            - Alchemist
-            - Conjurer
-            - Enchanter
-        caster:
-            - caster 
-            - Mage
-            - Magician
-            - Magus
-            - Sorcerer
-            - Spellcaster
-        knowledge:
-            - Arcanist
-            - Wizard
-        nature:
-            - Druid
-            - Shaman
-        dark:
-            - Necromancer
-            - Occultist
-            - Thaumaturge
-            - Warlock
-            - Witch
-        light:
-            - High Priest
-            - Priest
-            - Mystic
-        illusion:
-            - Clairvoyant
-            - Enigma
-            - Illusionist
-            - Seer
-        technomancy:
-            - Technomancer
-            - Psion
-            - Cyberwizard
-            - Nanomancer
-            - Energy Manipulator
-            - Chronomancer
-            - Space Mage
-            - Biowitch
-            - Hologrammancer
-            - Quantum Sorcerer
-    profession-magic-use:
-        crafter:
-            - __magical/types/transmutation__
-            - __magical/types/metal__
-            - __magical/types/tech__, __styles/punk-styles__
-        caster:
-            - __magical/types/air__
-            - __magical/types/fire__
-            - __magical/types/earth__
-            - __magical/types/lightning__
-            - __magical/types/ice__
-            - __magical/types/light__
-            - __magical/types/metal__
-            - __magical/types/water__
-            - __magical/types/elemental__
-        knowledge:
-            - __magical/types/time__
-            - __magical/types/gravity__
-            - __magical/types/illusion__
-            - __magical/types/light__
-        nature:
-            - __magical/types/nature__
-            - __magical/types/water__
-            - __magical/types/elemental__
-        dark:
-            - __magical/types/dark__
-            - __magical/types/tech__, __styles/punk-styles__
-            - __magical/types/shadow__
-            - __magical/types/elemental__
-        light:
-            - __magical/types/light__
-            - __magical/types/dream__
-            - __magical/types/nature__
-            - __magical/types/water__
-        illusion:
-            - __magical/types/divination__
-            - __magical/types/illusion__
-            - __magical/types/dream__
-            - __magical/types/light__
-            - __magical/types/elemental__
-            - __magical/types/shadow__
-        technomancy:
-            - __magical/types/tech__, __styles/punk-styles__
-    words:
-        adjectives:
-            - Alluring
-            - Astral
-            - Beguiling
-            - Bewildering
-            - Bewitching
-            - Captivating
-            - Celestial
-            - Charmed
-            - Elysian
-            - Enchanted
-            - Enchanting
-            - Enigmatic
-            - Enlivening
-            - Enrapturing
-            - Enthralling
-            - Enveloping
-            - Ephemeral
-            - Ethereal
-            - Fantasmagoric
-            - Fantastical
-            - Glamorous
-            - Glowing
-            - Hypnotic
-            - Hypnotizing
-            - Illuminating
-            - Illusionary
-            - Illustrious
-            - Intriguing
-            - Luminescent
-            - Magical
-            - Mesmerizing
-            - Mysterious
-            - Mystical
-            - Mystifying
-            - Ornate
-            - Otherworldly
-            - Pulsating
-            - Radiant
-            - Radiating
-            - Resonant
-            - Resonating
-            - Resplendent
-            - Seraphic
-            - Shimmering
-            - Sorcerous
-            - Spectral
-            - Spellbinding
-            - Spellbound
-            - Supernatural
-            - Transcendent
-            - Transcending
-            - Transfiguring
-            - Unearthly
-            - Unfathomable
-            - Veiled
-            - Vibrant
-            - Whimsical
-            - Whirling
-        substantives:
-            - Alchemy
-            - Amulet
-            - Arcane
-            - Arcanist
-            - Arcanum
-            - Astral
-            - Aura
-            - Cauldron
-            - Celestial
-            - Charm
-            - Conjuration
-            - Conjuring
-            - Coven
-            - Crystal
-            - Divination
-            - Enchanter
-            - Enchantment
-            - Enigma
-            - Enigmatic
-            - Enthrallment
-            - Familiar
-            - Glamour
-            - Glyph
-            - Grimoire
-            - Illusion
-            - Incantation
-            - Invocation
-            - Mage
-            - Magician
-            - Mysticism
-            - Oracle
-            - Parchment
-            - Pentacle
-            - Potion
-            - Prophecy
-            - Ritual
-            - Rune
-            - Runestone
-            - Scroll
-            - Sorcery
-            - Spellcasting
-            - Talisman
-            - Thaumaturgy
-            - Wand
-            - Warlock
-            - Witchcraft
-            - Wizardry
-        verbs:
-            - Beam
-            - Bedazzle
-            - Bewitch
-            - Captivate
-            - Cast
-            - Channel
-            - Charm
-            - Conjure
-            - Dazzle
-            - Emit
-            - Enchant
-            - Enflame
-            - Enkindle
-            - Enliven
-            - Enrapture
-            - Enshroud
-            - Enthrall
-            - Envelop
-            - Evolve
-            - Fascinate
-            - Flicker
-            - Flourish
-            - Gleam
-            - Glimmer
-            - Glitter
-            - Glow
-            - Hypnotize
-            - Illuminate
-            - Infuse
-            - Inspire
-            - Manifest
-            - Mesmerize
-            - Pulse
-            - Radiate
-            - Resonate
-            - Shine
-            - Spark
-            - Sparkle
-            - Stun
-            - Summon
-            - Transcend
-            - Transfigure
-            - Twinkle
-            - Unleash
-            - Vivify
+# BoMachines
+BoMachines:
+    random:
+        - "__machines/types/*__,
+        {2-6$$__machines/parts/*__},
+        {__properties/patterns/machines__},
+        {__properties/textures/machines__},
+        "
+    random-machine:
+        - "__properties/size/*__ __machines/types-synonyms__,
+        {2-6$$__machines/parts/*__},
+        {__properties/patterns/machines__},
+        {__properties/textures/machines__},
+        "
+
 machines:
     types:
         Small-Machines:
@@ -9858,6 +9386,498 @@ machines:
             - Reduce Neck Strain
             - Optimal Viewing Angles
             - Neutral Typing Position
+
+# BoCharsMag
+BoCharsMag:
+    female:
+        classic:
+            - "female __person/magical/female__ 
+            {
+            wearing __clothings/magical/female-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person/magical/poses__, __lighting/magical__"
+        modern:
+            - "female __person/magical/female__ 
+            {
+            wearing __clothings/regular/female-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person/magical/poses__, __lighting/magical__"
+        scenery:
+            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/regular/*__"
+        BoConstructions:
+            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
+    male:
+        classic:
+            - "male __person/magical/male__ 
+            {
+            wearing __clothings/magical/male-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person/magical/poses__, __lighting/magical__"
+        modern:
+            - "male __person/magical/male__ 
+            {
+            wearing __clothings/regular/male-attire__ 
+            __magical/words/verbs__ __magical/magic__|
+            __random/profession-magic__
+            }, __person/magical/poses__, __lighting/magical__"
+        scenery:
+            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/regular/*__"
+        BoConstructions:
+            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
+    div:
+        - "female {__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}"
+        - "male {__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}"
+    random:
+        - "{0.45::{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}|
+        0.45::{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}|
+        0.1::__BoCharsMag/div__}"
+
+magical:
+    magic:
+        - "({6-10$${-3$$__magical/words/adjectives__}|
+        {-2$$__properties/colors/*__}
+        {-3$$__magical/words/*__} |
+        {-2$$__properties/materials*/*__}
+        {-2$$__matter/movement1__}|
+        {-1$$__matter/movement2__}|
+        0.1::{-1$$__phenomena/*/natural__}|
+        {-1$$__phenomena/*/abstract__}|
+        {-2$$__properties/patterns/lines__}|
+        0.1::{-1$$__properties/patterns/2Dshapes__}
+        |0.1::{-1$$__properties/patterns/3Dshapes__}|
+        {-1$$__matter/state__}}
+        magic:1.0)"
+    magic2:
+        - "({6-10$${-3$$__magical/words/adjectives__}|
+        {-2$$__properties/colors/*__}|
+        {-3$$__magical/words/*__} |
+        {-2$$__properties/materials*/*__}|
+        0.34::{-1$$__phenomena/*/natural__}|
+        {-2$$__phenomena/*/abstract__}|
+        {-2$$__properties/patterns/*__}|
+        {-2$$__properties/textures/*__}|
+        {-2$$__astronomy/*__}|
+        {-2$$__chemistry/*__}|
+        {-1$$__matter/state__}}
+        magic:1.0)"
+    types:
+        air:
+            - air magic
+            - Air Manipulation (controlling wind and air currents)
+            - Aerokinesis
+            - Flight (levitating or flying)
+            - Weather Control (manipulating weather patterns)
+        dark:
+            - dark magic
+            - entropy magic
+            - void magic
+            - Unpredictable Magic
+            - Disorder Manipulation
+            - Necromancy
+            - Curses
+            - Hexes
+            - Black Magic
+            - Dark Rituals
+            - Summoning volent Entities
+        divination:
+            - Divination magic
+            - Psychic Magic
+            - Fortune-telling
+            - Clairvoyance
+            - Precognition
+            - Telepathy
+            - Scrying
+        dream:
+            - dream magic
+            - Entering Dream Worlds
+            - Manipulating Dreams
+            - Creating Illusions on a Larger Scale
+        earth:
+            - earth magic
+            - Earth Manipulation (shaping and moving the ground)
+            - Terrakinesis
+            - Plant Manipulation (controlling plant life)
+            - Crystal Manipulation
+        elemental:
+            - __magical/types/air__
+            - __magical/types/earth__
+            - __magical/types/fire__
+            - __magical/types/ice__
+            - __magical/types/lightning__
+            - __magical/types/metal__
+            - __magical/types/water__
+        fire:
+            - fire magic
+            - Fireballs
+            - Fire Manipulation (creating and controlling flames)
+            - Fire Breathing
+            - Pyrokinesis
+            - Flame Projection
+        gravity:
+            - gravity magic
+            - Gravitational Manipulation (controlling gravity fields)
+            - Levitation and Floating
+            - Black Hole Creation (controlled, fictional application)
+        ice:
+            - ice magic
+            - Cryokinesis (mind over ice and cold)
+            - Frost Manipulation (creating and controlling frost)
+            - Snow Manipulation (creating and controlling snow)
+        illusion:
+            - Illusion Magic
+            - Enchantment
+            - Creating Illusions
+            - Enchanting Objects
+            - Shape-shifting
+        light:
+            - light magic
+            - Healing Magic
+            - Illusion Magic
+            - Using Music or Sound for Magic
+            - Harmonious or Discordant Effects
+            - Star-based Spells
+            - Cosmic Energy Manipulation
+            - Harnessing Celestial Bodies
+            - Healing Magic
+            - Purification Spells
+            - Light Manipulation
+            - Protection Charm
+        lightning:
+            - lightning magic
+            - Electrokinesis
+            - Lightning Bolts
+            - Electrical Manipulation (creating and controlling electrical currents)
+        metal:
+            - metal magic
+            - Metal Manipulation (controlling metal objects)
+            - Ferrokinesis
+            - Magnetism Manipulation
+            - Shaping and forging metal with magic
+        nature:
+            - nature magic
+            - Plant Growth Manipulation
+            - Vine Manipulation (controlling and animating vines)
+            - Photosynthesis Magic (creating energy from light)
+            - Plant Manipulation
+            - Controlling Animals
+            - Weather Manipulation
+            - Communicating with Nature Spirits
+        shadow:
+            - shadow magic
+            - Shadow Manipulation (creating and controlling shadows)
+            - Darkness Magic
+            - Invisibility and Concealment
+        tech:
+            - Technology manipulation
+            - Psychic powers
+            - Fusion of magic and cybernetics
+            - Nanotechnology manipulation
+            - Control over energy forms
+            - Time manipulation
+            - Space-warping abilities
+            - Genetic and biotechnology manipulation
+            - Creation and control of holographic illusions
+            - Control over quantum particles and reality
+        time:
+            - time magic
+            - Chronokinesis (mind over time)
+            - Time Bending (manipulating the flow of time)
+            - Time Loops and Time Travel
+            - Time Manipulation
+            - Time Travel
+            - Time Alteration
+        transmutation:
+            - Transmutation
+            - Alchemy
+            - Substance Transformation
+            - Magical Potions and Elixirs
+        water:
+            - water magic
+            - Water Manipulation (controlling water flow and shape)
+            - Hydrokinesis
+            - Healing Waters
+            - Ice Manipulation
+    beings:
+        - Amazon, Fearless warrior, Skilled archer, Formidable strength, Independent and self-reliant, Tall and muscular stature, Battle-hardened, Warriors of ancient myths, Honor and bravery, fantasy
+        - android, Human-like appearance, Anthropomorphic design, Synthetic skin and hair, Futuristic and sleek aesthetics, Elegance and sophistication in design, Enhanced with advanced technology, sci-fi
+        - Angel, Radiant aura, Heavenly grace, Harbingers of good news, Guardians of the divine realm, Symbolize purity and innocence, Emanate ethereal light, fantasy
+        - Centaur, Half-human, half-horse, Mythological creatures, Powerful and agile, Equine lower body, Human upper body,Guardians of the wild, fantasy
+        - cyborg, Human-machine hybrids, Part organic and part artificial, Advanced bionic enhancements, Futuristic technology, Cybernetic implants, Blend of biology and robotics, Enhanced physical capabilities, Integrated electronics, Neural interfaces, sci-fi, magical
+        - CyclopeOne-eyed giants, Mythological creatures, Enormous and powerful, Singular eye in the middle of the forehead, Fierce and intimidating appearance, Known for strength and brutality, fantasy, greek mythology
+        - Demon, Malevolent supernatural being, evil, chaos, infernal, powerful entity, corrupt,harm full, fantasy
+        - Devil, embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
+        - Djinn, supernatural beings, Middle Eastern folklore, humanoid created from smokeless fire, fantasy
+        - Dragon (in humanoid form),  immense power, wisdom, and connection to fire, draconic features,scales, wings, wise, ancient being, knowledge , fantasy
+        - Dwarf, short-statured humanoid beings, 3 to 4 feet tall, skilled craftsmen,expertise in mining and blacksmithing, resilience, determination, fantasy
+        - Elf, graceful and long-lived beings, 6 to 7 feet tall, beautiful,elegant,youthful appearance, graceful, ethereal, magical, fantasy
+        - Fairy,enchanting, ethereal creature, beauty, nature, protectors creatures, sacred places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
+        - Giant, humanoid, enormous and powerful beings, 20 to 40 feet tall, benevolent and wise, force of nature, legendary strength, fantasy
+        - Gnome, 1 feet small, humanoid, earth-dwelling humanoid being, affinity with the earth and nature, gardening and craftsmanship, fantasy
+        - Goblin,imaginative and mischievous goblin character with a hunched posture, glowing beady eyes, and a malevolent grin. Use earthy green and brown tones for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small in stature, around 2 to 3 feet tall, fantasy
+        - Harpie,mythical creature, upper body of a woman,  wings and lower body of a bird, vicious and malevolent, fantasy
+        - Human
+        - Kitsune,mythical creature, Japanese folklore, intelligent, humanform with multiple foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
+        - Leprechaun, mischievous, solitary,old men wearing green coats and buckled shoes, 3-4 feet tall, crafty and elusive, fantasy
+        - Merfolk, upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
+        - Minotaur, mythical creature with the head of a bull and the body of a man, Greek mythology, fierce and monstrous, chaos, primal instinct, fantasy
+        - Minotaurin, mythical creature, body of a woman, cow tail, bull horns, cow spots, gentle, friendly, large breasts , Greek mythology
+        - Naga, mythical serpent humanoid being, serpentine lower bodies, human upper body, "{devine, wisdom, knowledge|dangerous, unpredictable}", fantasy
+        - Nymph, Ethereal beauty, Nature's guardian, Alluring grace, Youthful appearance, Connected to the environment, Magical presence, Nature spirits, Reside in forests and water bodies, fantasy
+        - Orc, fictional humanoid creatures, brutish, fearsome, strength, muscular,rough rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray} skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated noses, and wide, powerful jaws, {sharp teeth|} fantasy
+        - Pixie, tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows}, playful, curious, delicate wings, flitting throught the air, fanatasy
+        - Satyr, mythological creature, upper body human, lower body goat, revelry, music, wine, dance, skilled musician and dancer, horns, fantasy
+        - Siren, seductive and alluring creatures, Greek mythology,beautiful,danger, temptation
+        - Sylph, humanoid elemental being, delicate and ethereal beings with gossamer wings, guardians of the air, {sky|mountain top},weather
+        - Troll, mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep forests}, Thick Warty {grey|green|brown} Skin, large nose, pointy ears, jutting jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy, stooped posture
+        - Vampire, legendary creature, force, power, blood, undead, beautyful, alluring, night, moon, fangs, fantasy
+        - Werewolf, lycanthropes,  mythical creature, humanoid wolf-like form, full moon, hairy furry skin, fangs, wolf ears, wolf-like face
+        - Yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains, 
+    elemental:
+        - "{fire|water|air|earth|elemental}"
+    profession:
+        crafter:
+            - Alchemist
+            - Conjurer
+            - Enchanter
+        caster:
+            - caster 
+            - Mage
+            - Magician
+            - Magus
+            - Sorcerer
+            - Spellcaster
+        knowledge:
+            - Arcanist
+            - Wizard
+        nature:
+            - Druid
+            - Shaman
+        dark:
+            - Necromancer
+            - Occultist
+            - Thaumaturge
+            - Warlock
+            - Witch
+        light:
+            - High Priest
+            - Priest
+            - Mystic
+        illusion:
+            - Clairvoyant
+            - Enigma
+            - Illusionist
+            - Seer
+        technomancy:
+            - Technomancer
+            - Psion
+            - Cyberwizard
+            - Nanomancer
+            - Energy Manipulator
+            - Chronomancer
+            - Space Mage
+            - Biowitch
+            - Hologrammancer
+            - Quantum Sorcerer
+    profession-magic-use:
+        crafter:
+            - __magical/types/transmutation__
+            - __magical/types/metal__
+            - __magical/types/tech__, __styles/punk-styles__
+        caster:
+            - __magical/types/air__
+            - __magical/types/fire__
+            - __magical/types/earth__
+            - __magical/types/lightning__
+            - __magical/types/ice__
+            - __magical/types/light__
+            - __magical/types/metal__
+            - __magical/types/water__
+            - __magical/types/elemental__
+        knowledge:
+            - __magical/types/time__
+            - __magical/types/gravity__
+            - __magical/types/illusion__
+            - __magical/types/light__
+        nature:
+            - __magical/types/nature__
+            - __magical/types/water__
+            - __magical/types/elemental__
+        dark:
+            - __magical/types/dark__
+            - __magical/types/tech__, __styles/punk-styles__
+            - __magical/types/shadow__
+            - __magical/types/elemental__
+        light:
+            - __magical/types/light__
+            - __magical/types/dream__
+            - __magical/types/nature__
+            - __magical/types/water__
+        illusion:
+            - __magical/types/divination__
+            - __magical/types/illusion__
+            - __magical/types/dream__
+            - __magical/types/light__
+            - __magical/types/elemental__
+            - __magical/types/shadow__
+        technomancy:
+            - __magical/types/tech__, __styles/punk-styles__
+    words:
+        adjectives:
+            - Alluring
+            - Astral
+            - Beguiling
+            - Bewildering
+            - Bewitching
+            - Captivating
+            - Celestial
+            - Charmed
+            - Elysian
+            - Enchanted
+            - Enchanting
+            - Enigmatic
+            - Enlivening
+            - Enrapturing
+            - Enthralling
+            - Enveloping
+            - Ephemeral
+            - Ethereal
+            - Fantasmagoric
+            - Fantastical
+            - Glamorous
+            - Glowing
+            - Hypnotic
+            - Hypnotizing
+            - Illuminating
+            - Illusionary
+            - Illustrious
+            - Intriguing
+            - Luminescent
+            - Magical
+            - Mesmerizing
+            - Mysterious
+            - Mystical
+            - Mystifying
+            - Ornate
+            - Otherworldly
+            - Pulsating
+            - Radiant
+            - Radiating
+            - Resonant
+            - Resonating
+            - Resplendent
+            - Seraphic
+            - Shimmering
+            - Sorcerous
+            - Spectral
+            - Spellbinding
+            - Spellbound
+            - Supernatural
+            - Transcendent
+            - Transcending
+            - Transfiguring
+            - Unearthly
+            - Unfathomable
+            - Veiled
+            - Vibrant
+            - Whimsical
+            - Whirling
+        substantives:
+            - Alchemy
+            - Amulet
+            - Arcane
+            - Arcanist
+            - Arcanum
+            - Astral
+            - Aura
+            - Cauldron
+            - Celestial
+            - Charm
+            - Conjuration
+            - Conjuring
+            - Coven
+            - Crystal
+            - Divination
+            - Enchanter
+            - Enchantment
+            - Enigma
+            - Enigmatic
+            - Enthrallment
+            - Familiar
+            - Glamour
+            - Glyph
+            - Grimoire
+            - Illusion
+            - Incantation
+            - Invocation
+            - Mage
+            - Magician
+            - Mysticism
+            - Oracle
+            - Parchment
+            - Pentacle
+            - Potion
+            - Prophecy
+            - Ritual
+            - Rune
+            - Runestone
+            - Scroll
+            - Sorcery
+            - Spellcasting
+            - Talisman
+            - Thaumaturgy
+            - Wand
+            - Warlock
+            - Witchcraft
+            - Wizardry
+        verbs:
+            - Beam
+            - Bedazzle
+            - Bewitch
+            - Captivate
+            - Cast
+            - Channel
+            - Charm
+            - Conjure
+            - Dazzle
+            - Emit
+            - Enchant
+            - Enflame
+            - Enkindle
+            - Enliven
+            - Enrapture
+            - Enshroud
+            - Enthrall
+            - Envelop
+            - Evolve
+            - Fascinate
+            - Flicker
+            - Flourish
+            - Gleam
+            - Glimmer
+            - Glitter
+            - Glow
+            - Hypnotize
+            - Illuminate
+            - Infuse
+            - Inspire
+            - Manifest
+            - Mesmerize
+            - Pulse
+            - Radiate
+            - Resonate
+            - Shine
+            - Spark
+            - Sparkle
+            - Stun
+            - Summon
+            - Transcend
+            - Transfigure
+            - Twinkle
+            - Unleash
+            - Vivify
 
 matter:
     state:
@@ -12570,6 +12590,30 @@ phenomena:
             - Cosmic Dust
             - Celestial Sphere
 
+# Billions of plants
+BoPlants:
+    random-plant:
+        - "{
+        __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
+        {__properties/textures/stem__ __properties/shape/stem__ __plants/stem__, __properties/textures/bark__,|}
+        {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
+        {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
+        {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,}|}
+        {__plants/Sepal-Configuration__, __plants/Foliage-Arrangement__,|}
+        {__properties/structure/root__ root|}
+        }"
+    random-shroom:
+        - "{
+        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/textures/mushrooms__ mushroom,
+        __properties/textures/*__, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
+        {__mushrooms/Bioluminescence__,|}
+        {__properties/colors/*__ __mushrooms/gill__,|}
+        {1-3$$__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
+        __mushrooms/Hymenium__,| __mushrooms/Latex__ Latex,|}
+        {__properties/colors/*__ __mushrooms/stipe-base__,|}
+        {__mushrooms/Poisonous-Properties__,|__mushrooms/Medicinal-Properties__,|}
+        }"
+
 plants:
     types:
         - Tree
@@ -12975,6 +13019,7 @@ plants:
         - Tufted-rosette
         - Rosette-basal
 
+# PROPERTIES
 properties:
     colors:
         common:
@@ -14309,6 +14354,27 @@ properties:
             - Solar-powered Thread
             - Sonic Soundwave Nanofiber
             - Thermal-regulating Polymer
+        SciFi-organic:
+            - Bioluminescent Fabric
+            - Nano-Mesh Textile
+            - Syntho-Silk
+            - Biofiber Cloth
+            - Mycelium Fabric
+            - Microalgae Weave
+            - Hyper-Resilient Biomaterial
+            - Carbon Nanotube Textile
+            - Radiant Crystal Cloth
+            - Neural Fiber Fabric
+            - Quantum Lace
+            - Living Fabric
+            - Hydrophobic Nanoweave
+            - Smart Symbiotic Textile
+            - Biodegradable Smart Fabric
+            - Alien Microorganism Fiber
+            - Resonant Bio-Silk
+            - Synaptic Webbing
+            - Ethereal Mesh
+            - Xenofiber Fabric
 
     materials-magic:
         ingredients:
@@ -15754,176 +15820,190 @@ properties:
             - Napped
             - Serrated
 
-    Visual-Appearance:
-        - Aerodynamic
-        - Alien
-        - Angular
-        - Asymmetrical
-        - Bold
-        - Box-shaped
-        - Bulky
-        - Camouflaged
-        - Chromed
-        - Clunky
-        - Curved
-        - Cutting-edge
-        - Dynamic
-        - Eccentric
-        - Elaborate
-        - Elegant
-        - Ethereal
-        - Extravagant
-        - Familiar
-        - Flashing
-        - Fluid
-        - Futuristic
-        - Geometric
-        - Glassy
-        - Glowing
-        - Glossy
-        - Graceful
-        - High-tech
-        - Illuminated
-        - Imposing
-        - Industrial
-        - Intricate
-        - Luminous
-        - Low-tech
-        - Matte
-        - Mechanical
-        - Metallic
-        - Minimalist
-        - Monochrome
-        - Monstrous
-        - Multicolored
-        - Multifunctional
-        - Muted
-        - Neon-lit
-        - Opaque
-        - Organic
-        - Ornate
-        - Patterned
-        - Polished
-        - Pristine
-        - Rugged
-        - Rusty
-        - Sleek
-        - Smooth
-        - Streamlined
-        - Striped
-        - Subtle
-        - Symmetrical
-        - Textured
-        - Tinted
-        - Timeless
-        - Translucent
-        - Transparent
-        - Two-toned
-        - Unconventional
-        - Utilitarian
-        - Vibrant
-        - Vintage
-        - Weathered
-        - Whimsical
-        - Xeno
-    paint-vehicle:
-        - Glossy Finish
-        - Matte Coating
-        - Metallic Paint
-        - Pearl Effect
-        - Satin Sheen
-        - Shimmering Coat
-        - Chrome Plating
-        - Reflective Surface
-        - Candy Color
-        - Two-Tone Paint
-        - Glossy Varnish
-        - Iridescent Hue
-        - High-Gloss Polish
-        - UV-resistant Paint
-        - Textured Finish
-        - Weathered Patina
-        - Distressed Look
-        - Flaked Paint
-        - Chameleon Paint
-        - Color-Shifting Coat
-        - Vintage Paintjob
-        - Classic Livery
-        - Custom Artwork
-        - Racing Stripes
-        - Tribal Designs
-        - Airbrushed Patterns
-        - Matte Black
-        - Sleek Silver
-        - Vibrant Red
-        - Deep Blue
-        - Pearl White
-        - Midnight Black
-        - Electric Green
-        - Ruby Red
-        - Sapphire Blue
-        - Champagne Gold
-        - Graphite Gray
-        - Candy Apple Red
-        - Jet Black
-        - Arctic White
-        - Gunmetal Gray
-        - Desert Sand
-        - Ocean Blue
-        - Emerald Green
-        - Amber Yellow
-        - Sunset Orange
-        - Plum Purple
-        - Mocha Brown
-        - Rose Pink
-        - Neon Glow
-        - Fluorescent Paint
-        - Rustic Patina
-        - Faded Colors
-        - Brushed Finish
-        - Polished Metal
-        - Pearlized Paint
-        - Weathered Texture
-        - Glossy Enamel
-        - Matte Velvet
-        - Textured Surface
-        - Polychromatic Paint
-        - Candy Flake Paint
-        - Chrome Accents
-        - High-Gloss Shine
-        - Glossy Pearl
-        - Metallic Flakes
-        - Glossy Clear Coat
-        - Mirror-Like Reflectivity
-        - Antique Finish
-        - Distinctive Hues
-        - Contrasting Colors
-        - Gradient Effect
-        - Iridescent Sparkle
-        - Prismatic Coating
-        - Deep Gloss
-        - Smooth Sheen
-        - Glittering Highlights
-        - Color-Shifting Pigments
-        - Airbrushed Art
-        - Retro-inspired Livery
-        - Racing Decals
-        - Tribal Patterns
-        - Abstract Designs
-        - Vintage Graphics
-        - Carbon Fiber Texture
-        - Glossy Deep Black
-        - Classic Cream
-        - Royal Blue
-        - Candy Green
-        - Goldenrod
-        - Steel Gray
-        - Burgundy Wine
-        - Ocean Teal
-        - Poppy Red
-        - Mellow Yellow
-        - Lavender Mist
-        - Cherry Blossom Pink
+    Visual:
+        Appearance:
+            - Aerodynamic
+            - Alien
+            - Angular
+            - Asymmetrical
+            - Bold
+            - Box-shaped
+            - Bulky
+            - Camouflaged
+            - Chromed
+            - Clunky
+            - Curved
+            - Cutting-edge
+            - Dynamic
+            - Eccentric
+            - Elaborate
+            - Elegant
+            - Ethereal
+            - Extravagant
+            - Familiar
+            - Flashing
+            - Fluid
+            - Futuristic
+            - Geometric
+            - Glassy
+            - Glowing
+            - Glossy
+            - Graceful
+            - High-tech
+            - Illuminated
+            - Imposing
+            - Industrial
+            - Intricate
+            - Luminous
+            - Low-tech
+            - Matte
+            - Mechanical
+            - Metallic
+            - Minimalist
+            - Monochrome
+            - Monstrous
+            - Multicolored
+            - Multifunctional
+            - Muted
+            - Neon-lit
+            - Opaque
+            - Organic
+            - Ornate
+            - Patterned
+            - Polished
+            - Pristine
+            - Rugged
+            - Rusty
+            - Sleek
+            - Smooth
+            - Streamlined
+            - Striped
+            - Subtle
+            - Symmetrical
+            - Textured
+            - Tinted
+            - Timeless
+            - Translucent
+            - Transparent
+            - Two-toned
+            - Unconventional
+            - Utilitarian
+            - Vibrant
+            - Vintage
+            - Weathered
+            - Whimsical
+            - Xeno
+    paint:
+        vehicle:
+            - Glossy Finish
+            - Matte Coating
+            - Metallic Paint
+            - Pearl Effect
+            - Satin Sheen
+            - Shimmering Coat
+            - Chrome Plating
+            - Reflective Surface
+            - Candy Color
+            - Two-Tone Paint
+            - Glossy Varnish
+            - Iridescent Hue
+            - High-Gloss Polish
+            - UV-resistant Paint
+            - Textured Finish
+            - Weathered Patina
+            - Distressed Look
+            - Flaked Paint
+            - Chameleon Paint
+            - Color-Shifting Coat
+            - Vintage Paintjob
+            - Classic Livery
+            - Custom Artwork
+            - Racing Stripes
+            - Tribal Designs
+            - Airbrushed Patterns
+            - Matte Black
+            - Sleek Silver
+            - Vibrant Red
+            - Deep Blue
+            - Pearl White
+            - Midnight Black
+            - Electric Green
+            - Ruby Red
+            - Sapphire Blue
+            - Champagne Gold
+            - Graphite Gray
+            - Candy Apple Red
+            - Jet Black
+            - Arctic White
+            - Gunmetal Gray
+            - Desert Sand
+            - Ocean Blue
+            - Emerald Green
+            - Amber Yellow
+            - Sunset Orange
+            - Plum Purple
+            - Mocha Brown
+            - Rose Pink
+            - Neon Glow
+            - Fluorescent Paint
+            - Rustic Patina
+            - Faded Colors
+            - Brushed Finish
+            - Polished Metal
+            - Pearlized Paint
+            - Weathered Texture
+            - Glossy Enamel
+            - Matte Velvet
+            - Textured Surface
+            - Polychromatic Paint
+            - Candy Flake Paint
+            - Chrome Accents
+            - High-Gloss Shine
+            - Glossy Pearl
+            - Metallic Flakes
+            - Glossy Clear Coat
+            - Mirror-Like Reflectivity
+            - Antique Finish
+            - Distinctive Hues
+            - Contrasting Colors
+            - Gradient Effect
+            - Iridescent Sparkle
+            - Prismatic Coating
+            - Deep Gloss
+            - Smooth Sheen
+            - Glittering Highlights
+            - Color-Shifting Pigments
+            - Airbrushed Art
+            - Retro-inspired Livery
+            - Racing Decals
+            - Tribal Patterns
+            - Abstract Designs
+            - Vintage Graphics
+            - Carbon Fiber Texture
+            - Glossy Deep Black
+            - Classic Cream
+            - Royal Blue
+            - Candy Green
+            - Goldenrod
+            - Steel Gray
+            - Burgundy Wine
+            - Ocean Teal
+            - Poppy Red
+            - Mellow Yellow
+            - Lavender Mist
+            - Cherry Blossom Pink
+
+# BoScenes
+BoScenes:
+    random:
+        - "__scenes/settings/*__
+        {1-4$$__scenes/features*__}"
+    random-Landscape:
+        - "__scenes/settings/Landscapes__
+        {1-4$$__scenes/features*__}"
+    random-city:
+        - "{0.4::__styles/*__ architecture|} __scenes/settings/UrbanBuiltEnvironments__
+        {1-4$$__scenes/features*__}"
 
 scenes:
     regular:
@@ -17095,6 +17175,25 @@ scenes:
         - Starry Canopy
         - Cosmic Mysteries
 
+# BoCharsSciFi
+BoCharsScifi:
+    female:
+        classic:
+            - female __random/profession-scifi__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
+        scenery:
+            - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
+        BoConstructions:
+            - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
+    male:
+        classic:
+            - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
+        scenery:
+            - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
+        BoConstructions:
+            - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
+    random:
+        - "{__BoCharsScifi/male/classic__|__BoCharsScifi/female/classic__}"
+
 scifi:
     types:
         - Alien invasion
@@ -17518,6 +17617,204 @@ scifi:
             - Amplify
             - Replicate
 
+# Billions of Styles
+BoStyles:
+    random-anything:
+        - "__styles/art-styles__, 
+        {__styles/punk-styles__|}, 
+        __styles/atmosphere/*__, 
+        __styles/rendering-techniques/*__, 
+        __styles/graphic-engines__, 
+        __styles/image-styles__, 
+        __styles/image-techniques/*__, 
+        __styles/depiction-styles/*__,
+        {__styles/animations__|},
+        {__styles/ambient-Effects__|},
+        __BoStyles/random-quality-prompts__,
+        __styles/resolutions__,
+        __styles/Creative-Concepts__,"
+        #__BoStyles/random-camera-settings__"
+# art Styles
+    random-artstyle:
+        - __styles/art-styles__
+# punk style
+    random-punk-styles:
+        - __styles/punk-styles__
+# atmosphere
+    random-atmosphere:
+        - __styles/atmosphere/*__
+    random-atmosphere-Light:
+        - __styles/atmosphere/Light__
+    random-atmosphere-Dark:
+        - __styles/atmosphere/Dark__
+    random-atmosphere-Colorful:
+        - __styles/atmosphere/Colorful__
+    random-atmosphere-Intense:
+        - __styles/atmosphere/Intense__
+    random-atmosphere-Serene:
+        - __styles/atmosphere/Serene__
+    random-atmosphere-Cozy:
+        - __styles/atmosphere/Cozy__
+    random-atmosphere-Mysterious:
+        - __styles/atmosphere/Mysterious__
+    random-atmosphere-Romantic:
+        - __styles/atmosphere/Romantic__
+    random-atmosphere-Melancholic:
+        - __styles/atmosphere/Melancholic__
+    random-atmosphere-Magical:
+        - __styles/atmosphere/Magical__
+    random-atmosphere-Rustic:
+        - __styles/atmosphere/Rustic__
+    random-atmosphere-Ethereal:
+        - __styles/atmosphere/Ethereal__
+    random-atmosphere-Dramatic:
+        - __styles/atmosphere/Dramatic__
+    random-atmosphere-Nostalgic:
+        - __styles/atmosphere/Nostalgic__
+    random-atmosphere-Festive:
+        - __styles/atmosphere/Festive__
+    random-atmosphere-Minimalist:
+        - __styles/atmosphere/Minimalist__
+    random-atmosphere-Majestic:
+        - __styles/atmosphere/Majestic__
+    random-atmosphere-Surreal:
+        - __styles/atmosphere/Surreal__
+    random-atmosphere-Urban:
+        - __styles/atmosphere/Urban__
+    random-atmosphere-Winding:
+        - __styles/atmosphere/Winding__
+    random-atmosphere-reading:
+        - __styles/atmosphere/reading__
+    random-atmosphere-work:
+        - __styles/atmosphere/work__
+    random-atmosphere-teaching:
+        - __styles/atmosphere/teaching__
+    random-atmosphere-uncomfortable:
+        - __styles/atmosphere/uncomfortable__
+    random-atmosphere-productive:
+        - __styles/atmosphere/productive__
+    random-atmosphere-artistic:
+        - __styles/atmosphere/artistic__
+    random-atmosphere-natural:
+        - __styles/atmosphere/natural__
+    random-atmosphere-synthetic:
+        - __styles/atmosphere/synthetic__
+    random-atmosphere-mechanical:
+        - __styles/atmosphere/mechanical__
+    random-atmosphere-body-functional:
+        - __styles/atmosphere/body-functional__
+    random-atmosphere-decaying:
+        - __styles/atmosphere/decaying__
+    random-atmosphere-emotional:
+        - __styles/atmosphere/emotional__
+    random-atmosphere-Deteriorating:
+        - __styles/atmosphere/Deteriorating__
+    random-atmosphere-Shopping:
+        - __styles/atmosphere/Shopping__
+    random-atmosphere-dining:
+        - __styles/atmosphere/dining__
+    random-atmosphere-recreational:
+        - __styles/atmosphere/recreational__
+    random-atmosphere-VR:
+        - __styles/atmosphere/VR__
+    random-atmosphere-hospital:
+        - __styles/atmosphere/hospital__
+    random-atmosphere-Metropolitan:
+        - __styles/atmosphere/Metropolitan__
+    random-atmosphere-Rural:
+        - __styles/atmosphere/Rural__
+    random-atmosphere-Robotic:
+        - __styles/atmosphere/Robotic__
+    random-atmosphere-Engineering:
+        - __styles/atmosphere/Engineering__
+    random-atmosphere-Desert:
+        - __styles/atmosphere/Desert__
+    random-atmosphere-Mountain:
+        - __styles/atmosphere/Mountain__
+    random-atmosphere-Oceanic:
+        - __styles/atmosphere/Oceanic__
+    random-atmosphere-Forest:
+        - __styles/atmosphere/Forest__
+    random-atmosphere-Cultural:
+        - __styles/atmosphere/Cultural__
+
+# rendering
+    random-rendering:
+        - __styles/rendering-techniques/*__
+    random-rendering-Ray-Tracing:
+        - __styles/rendering-techniques/Ray-Tracing__
+    random-rendering-Ambient-Effects:
+        - __styles/rendering-techniques/Ambient-Effects__
+    random-rendering-Particles-and-Effects:
+        - __styles/rendering-techniques/Particles-and-Effects__
+    random-rendering-Lighting-Techniques:
+        - __styles/rendering-techniques/Lighting-Techniques__
+    random-rendering-Shading-Techniques:
+        - __styles/rendering-techniques/Shading-Techniques__
+    random-rendering-Mapping-Techniques:
+        - __styles/rendering-techniques/Mapping-Techniques__
+    random-rendering-Post-Processing-Techniques:
+        - __styles/rendering-techniques/Post-Processing-Techniques__
+    random-rendering-Optimization-Techniques:
+        - __styles/rendering-techniques/Optimization-Techniques__
+    random-rendering-Artistic-Rendering:
+        - __styles/rendering-techniques/Artistic-Rendering__
+# graphic engines
+    random-graphic-engines:
+        - __styles/graphic-engines__
+# image Styles
+    random-image-styles:
+        - __styles/image-styles__
+# image Techniques
+    random-image-techniques:
+        - __styles/image-techniques/*__
+    random-image-techniques-Traditional:
+        - __styles/image-techniques/Traditional__
+    random-image-techniques-Digital:
+        - __styles/image-techniques/Digital__
+    random-image-techniques-Photographic:
+        - __styles/image-techniques/Photographic__
+    random-image-techniques-Other:
+        - __styles/image-techniques/Other__
+# depiction styles
+    random-depiction-styles:
+        - __styles/depiction-styles/*__
+    random-depiction-styles-2D-Styles:
+        - __styles/depiction-styles/2D-Styles__
+    random-depiction-styles-3D-Styles:
+        - __styles/depiction-styles/3D-Styles__
+    random-depiction-styles-Historical:
+        - __styles/depiction-styles/Historical__
+    random-depiction-styles-Digital-Modern-Styles:
+        - __styles/depiction-styles/Digital-Modern-Styles__
+# Animation
+    random-animation-style:
+        - __styles/animations__
+# ambient Effects
+    random-ambient-effect:
+        - __styles/ambient-Effects__
+# quality
+    random-quality-prompts:
+        - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
+# resolution
+    random-resolution:
+        - __styles/resolutions__
+# creative concepts
+    random-creative-concept:
+        - __styles/Creative-Concepts__
+# Camera
+    random-camera-settings:
+        - "{__styles/camera/camera__|}, 
+        __styles/camera/Aperture-Settings__, 
+        __styles/camera/Shutter-Speed__, 
+        __styles/camera/ISO-Settings__, 
+        __styles/camera/White-Balance__, 
+        __styles/camera/Exposure-Settings__, 
+        __styles/camera/Shooting-Modes__, 
+        __styles/camera/Composition-Techniques__,
+        __styles/camera/Focus__,
+        __styles/camera/Metering__"
+
 styles:
     clothing:
         Collar:
@@ -17921,6 +18218,50 @@ styles:
             - Sombre
             - Penumbra
             - Opaque
+        Ghostly:
+            - Apparitional
+            - Chilling
+            - Creepy
+            - Cursed
+            - Deathly
+            - Disembodied
+            - Eerie
+            - Ephemeral
+            - Ethereal
+            - Frightening
+            - Gelid
+            - Ghastly
+            - Ghostly
+            - Grim
+            - Haunting
+            - Hollow
+            - Inexplicable
+            - Invisible
+            - Macabre
+            - Malevolent
+            - Mysterious
+            - Other-dimensional
+            - Otherworldly
+            - Phantasmal
+            - Phantom
+            - Restless
+            - Shrouded
+            - Silent
+            - Soulful
+            - Spectral
+            - Spooky
+            - Supernatural
+            - Tormented
+            - Translucent
+            - Transparent
+            - Uncanny
+            - Unearthly
+            - Vengeful
+            - Wailing
+            - Whisplike
+            - Wispish
+            - Wraithlike
+
         sinister:
             - Foreboding
             - Chilling
@@ -19181,6 +19522,85 @@ styles:
             - Vaporized
             - Residue
             - Waste byproduct
+        liquid:
+            - Flowing
+            - Cascading
+            - Liquid
+            - Fluid
+            - Rippling
+            - Streaming
+            - Gushing
+            - Babbling
+            - Trickling
+            - Rushing
+            - Dripping
+            - Pouring
+            - Splashing
+            - Squirting
+            - Spurting
+            - Meandering
+            - Turbulent
+            - Tranquil
+            - Crystal-clear
+            - Muddy
+            - Murky
+            - Frothy
+            - Bubbling
+            - Boiling
+            - Freezing
+            - Icy
+            - Steamy
+            - Misty
+            - Vaporizing
+            - Condensing
+            - Whirling
+            - Swirling
+            - Vortex
+            - Torrential
+            - Submerged
+            - Submerging
+            - Submersion
+            - Parched (for describing the absence of water)
+            - Quenched (for describing the satisfaction of thirst)
+            - Refreshing
+            - Cleansing
+            - Life-giving
+            - Elemental
+            - Precious (in a symbolic sense)
+            - Aquatic
+            - H2O (chemical symbol)
+        Organic:
+            - Abundant
+            - Alive
+            - Biomorphic
+            - Biomimetic
+            - Botanical
+            - Curved
+            - Eco-friendly
+            - Evolving
+            - Flowing
+            - Flourishing
+            - Fluid
+            - Fertile
+            - Green
+            - Growing
+            - Harmonious
+            - Irregular
+            - Lush
+            - Natural
+            - Plentiful
+            - Rounded
+            - Serene
+            - Soft
+            - Softened
+            - Teeming
+            - Textured
+            - Undulating
+            - Unpredictable
+            - Vibrant
+            - Verdant
+            - Vital
+            - Wild
 
     rendering-techniques:
         Ray-Tracing:
@@ -19964,6 +20384,42 @@ styles-architectural:
         - Pueblo Revival
         - Contemporary
         - Postmodern
+
+# Billions of vehicles:
+BoVehicles:
+    random:
+        - "{__vehicles/size__|} __vehicles/types/*__,
+        {__vehicles/exterior-features__,|}
+        {__vehicles/windows__,|}
+        {__vehicles/lights__,|}
+        {__vehicles/Accessories__,|}
+        {__vehicles/Customization__,|}
+        __properties/materials-vehicles/*__,
+        __properties/Visual/Appearance__,
+        {__properties/paint/vehicle__,|}
+        {__properties/Textures/vehicles__,|}"
+    random-scifi:
+        - "{__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|__vehicles/types/Flying-Car-Like-Vehicles__|__vehicles/types/Underground-Vehicles__},
+        {__vehicles/exterior-features__,|}
+        {__vehicles/windows__,|}
+        {__vehicles/lights__,|}
+        {__vehicles/Accessories__,|}
+        {__vehicles/Customization__,|}
+        __properties/materials-vehicles/*__,
+        __properties/Visual-Appearance__,
+        {__properties/paint-vehicle__,|}
+        {__properties/Textures/vehicles__,|}"
+    random-notype:
+        - "{__vehicles/size__|} Conveyance,
+        {__vehicles/exterior-features__,|}
+        {__vehicles/windows__,|}
+        {__vehicles/lights__,|}
+        {__vehicles/Accessories__,|}
+        {__vehicles/Customization__,|}
+        __properties/materials-vehicles/*__,
+        __properties/Visual-Appearance__,
+        {__properties/paint-vehicle__,|}
+        {__properties/Textures/vehicles__,|}"
 
 vehicles:
     size:
