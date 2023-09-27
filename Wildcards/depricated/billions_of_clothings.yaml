@@ -3,7 +3,7 @@ BoCloths:
     random-fullbody:
         - "full body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabric*__, {__properties/pattern/*__,|}, {__properties/materials*/*__,|}
+        __properties/fabric*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
         __styles/clothing/dress-Length__,
         __styles/clothing/Waistlines__,
