@@ -19601,6 +19601,36 @@ styles:
             - Verdant
             - Vital
             - Wild
+        Time:
+            - Age-defying
+            - Age-old
+            - Ageless
+            - Ancient
+            - Antiquated
+            - Archaic
+            - Atomic Age
+            - Backward
+            - Bygone
+            - Chronological
+            - Classical
+            - Contemporary
+            - Current
+            - Ephemeral
+            - Epochal
+            - Everlasting
+            - Forward-looking
+            - Futuristic
+            - Future-proof
+            - Historic
+            - Medieval
+            - Modern
+            - Outdated
+            - Periodic
+            - Postmodern
+            - Prehistoric
+            - Primitive
+            - Renaissance
+
 
     rendering-techniques:
         Ray-Tracing:
