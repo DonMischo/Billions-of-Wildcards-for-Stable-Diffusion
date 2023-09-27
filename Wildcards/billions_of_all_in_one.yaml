@@ -7574,7 +7574,8 @@ habitats:
         - Mountain
         - Cave
         - Urban
-
+    places:
+    
 # BoJewelry
 BoJewelry:
     random-properties:
@@ -21039,14 +21040,14 @@ random:
     dress-properties:
         - "{1-3$$  $$__random/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}"
     accesoires:
-        - "{1-4$$ and$${0.1::__clothings/regular/unisex/accesoires__ |}|
+        - "{1-4$${0.1::__clothings/regular/unisex/accesoires__ |}|
         {0.2::__clothings/regular/unisex/backwear__ |}|
         {0.2::__clothings/regular/unisex/facewear__ |}|
         {0.1::__clothings/regular/unisex/neckwear__ |}}"
     haircolor:
         - "{0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}"
     accesoires-cyberpunk:
-        - "{1-4$$ and$${0.1::__clothings/cyberpunk/unisex/accesoires__ |}|
+        - "{1-4$${0.1::__clothings/cyberpunk/unisex/accesoires__ |}|
         {0.2::__clothings/cyberpunk/unisex/backwear__ |}|
         {0.2::__clothings/cyberpunk/unisex/facewear__ |}|
         {0.1::__clothings/cyberpunk/unisex/neckwear__ |}}"
@@ -21055,12 +21056,12 @@ random:
     profession-cyberpunk:
         - __cyberpunk/profession/*__
     accesoires-magical:
-        - "{1-4$$ and$${0.1::__clothings/regular/unisex/accesoires__ |}|
+        - "{1-4$${0.1::__clothings/regular/unisex/accesoires__ |}|
         {0.2::__clothings/regular/unisex/backwear__ |}|
         {0.2::__clothings/regular/unisex/facewear__ |}|
         {0.1::__clothings/regular/unisex/neckwear__ |}}"
     properties-magical:
-        - "{0-5$$ and $${-2$$__magical/words/adjectives__}|
+        - "{0-5$${-2$$__magical/words/adjectives__}|
         {-2$$__magical/words/substantives__}|
         {-2$$__magical/words/verbs__}|
         {-2$$__properties/materials-magic/*__}|
@@ -21077,12 +21078,12 @@ random:
     dress-properties-nsfw:
         - "{1-4$$  $$__random/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
     accesoires-nsfw:
-        - "{1-4$$ and$${0.1::__clothings/nsfw/unisex/accesoires__ |}|
+        - "{1-4$${0.1::__clothings/nsfw/unisex/accesoires__ |}|
         {0.2::__clothings/nsfw/unisex/backwear__ |}|
         {0.2::__clothings/nsfw/unisex/facewear__ |}|
         {0.1::__clothings/nsfw/unisex/neckwear__ |}}"
     accesoires-scifi:
-        - "{1-4$$ and$${0.1::__clothings/scifi/unisex/accesoires__ |}|
+        - "{1-4$${0.1::__clothings/scifi/unisex/accesoires__ |}|
         {0.2::__clothings/scifi/unisex/backwear__ |}|
         {0.2::__clothings/scifi/unisex/facewear__ |}|
         {0.1::__clothings/scifi/unisex/neckwear__ |}}"
@@ -21091,17 +21092,17 @@ random:
     profession-scifi:
         - __scifi/profession/*__
     materials-indoor:
-        - "{1-3$$ and $$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
+        - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
     materials-outdoor:
-        - "{1-3$$ and $$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
+        - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
     light-source-indoor:
         - __constructions/light-sources-indoor/*__
     light-source-outdoor:
         - __constructions/light-sources-outdoor/*__
     lighting-indoor:
-        - "{1-2$$ and $$__random/light-source-indoor__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
+        - "{1-2$$__random/light-source-indoor__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
     lighting-outdoor:
-        - "{1-2$$ and $$__random/light-source-outdoor__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
+        - "{1-2$$__random/light-source-outdoor__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
     interior-design:
         - "{1-5$$__constructions/interior-design/*__}"
     interior-design-fictional:
