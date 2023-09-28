@@ -20437,8 +20437,8 @@ BoVehicles:
         {__vehicles/Accessories__,|}
         {__vehicles/Customization__,|}
         __properties/materials-vehicles/*__,
-        __properties/Visual-Appearance__,
-        {__properties/paint-vehicle__,|}
+        __properties/Visual/Appearance__,
+        {__properties/paint/vehicle__,|}
         {__properties/Textures/vehicles__,|}"
     random-notype:
         - "{__vehicles/size__|} Conveyance,
