@@ -1,0 +1,580 @@
+# BoHalloween
+BoHalloween:
+    random-location:
+        - __halloween/Places-Sceneries__, __halloween/Atmosphere__, __halloween/Decorations__, __halloween/Symbols-Icons__,
+        __halloween/Lighting__, __halloween/ArtStyles__
+    random-ppl:
+        - "__halloween/Costumes__, __halloween/Atmosphere__, __halloween/Food-Treats__, __halloween/Lighting__,
+        {__halloween/Symbols-Icons__,|__halloween/Grimaces__,|__halloween/Symbols-Icons__,|__halloween/Traditions__,|}"
+    random-anything:
+        - __halloween/Atmosphere__ __halloween/ArtStyles__ __halloween/Costumes__ __halloween/Places-Sceneries__ 
+        __halloween/Food-Treats__ __halloween/Decorations__ __halloween/Grimaces__ __halloween/Lighting__ __halloween/Symbols-Icons__
+        __halloween/Traditions__
+        
+halloween:
+    Atmosphere:
+        - Bewildering
+        - Bewitched
+        - Bloodcurdling
+        - Bone-chilling
+        - Chilling
+        - Creepy
+        - Cryptic
+        - Cursed
+        - Demonic
+        - Eerie
+        - Enchanting
+        - Enigmatic
+        - Ephemeral
+        - Esoteric
+        - Frightening
+        - Ghostly
+        - Grim
+        - Haunted
+        - Macabre
+        - Misty
+        - Mysterious
+        - Mystical
+        - Nightmarish
+        - Ominous
+        - Otherworldly
+        - Petrifying
+        - Phantasmal
+        - Shadowy
+        - Sinister
+        - Skeletal
+        - Spectral
+        - Spellbinding
+        - Spellbound
+        - Spooky
+        - Supernatural
+        - Suspenseful
+        - Uncanny
+        - Unearthly
+        - Voodoo
+        - Whimsical
+        - Whispering
+        - Witching Hour
+        - Witchy
+
+    Decorations:
+        - Bats
+        - Black Cats
+        - Candelabras
+        - Cauldrons
+        - Cobwebs
+        - Coffin Props
+        - Crystal Balls
+        - Creepy Crawlers
+        - Eyeballs
+        - Fake Blood
+        - Faux Chains
+        - Flickering Candles
+        - Fog Machines
+        - Ghosts
+        - Ghostly Apparitions
+        - Gargoyles
+        - Graveyards
+        - Haunted Dolls
+        - Haunted Mirrors
+        - Haunted Paintings
+        - Haunted Portals
+        - Headless Horseman
+        - Howling Wolves
+        - Jack-o'-Lanterns
+        - Lanterns
+        - Mad Scientist Lab
+        - Mummy Wraps
+        - Ouija Boards
+        - Rats and Rodents
+        - Scarecrows
+        - Shrunken Heads
+        - Skeletons
+        - Sinister Shadows
+        - Skulls
+        - Spider Webs
+        - Spiders in Webs
+        - Spooky Soundtracks
+        - Tombstones
+        - Vampire Fangs
+        - Voodoo Dolls
+        - Witches' Brooms
+        - Witch Hats
+        - Zombie Appliance
+        - Zombie Hands
+        - Haunted Trees
+        - Glowing Eyes
+        - Worn Books
+        - Worn Curtains
+        - Haunted
+    Costumes:
+        - Animals
+        - Bat
+        - Black Cat
+        - Clown
+        - Devil
+        - Fairy
+        - Pirate
+        - Princess
+        - Skeleton
+        - Spider
+        - Witch
+        - Zombie
+        - Vampire
+        - Mummy
+        - Ghost
+        - Werewolf
+        - Superhero
+        - Wizard
+        - Robot
+        - Scarecrow
+        - Mermaid
+        - Unicorn
+        - Alien
+        - Monster
+        - Ninja
+        - Cowboy
+        - Vampire Hunter
+        - Zombie Nurse
+        - Pirate Captain
+        - Skeleton Bride
+        - Wicked Witch
+        - Dracula
+        - Gothic Vampire
+        - Classic Monster
+        - Headless Horseman
+        - Phantom of the Opera
+        - Zombie Prom Queen
+        - Werewolf Hunter
+        - Dark Sorceress
+        - Grim Reaper
+        - Creepy Clown
+        - Zombie Pirate
+        - Mad Scientist
+        - Vampire Countess
+        - Classic Witch
+    Traditions:
+        - Apple Bobbing
+        - Costume Contests
+        - Corn Mazes
+        - Ghost Tours
+        - Halloween Crafts
+        - Haunted Houses
+        - Horror Movie Marathons
+        - Pumpkin Carving
+        - Scary Movie Night
+        - Scavenger Hunts
+        - Trick-or-Treating
+        - Bonfires
+        - Masquerade Parties
+        - Monster Mash Dance
+        - Fortune Telling
+        - Face Painting
+        - Carving Jack-o'-Lanterns
+        - Visiting Cemeteries
+        - Reading Scary Stories
+        - Lighting Candles
+        - Visiting Haunted Locations
+        - Hosting Halloween Parties
+        - Making DIY Costumes
+        - Collecting Candy
+        - Visiting Pumpkin Patches
+        - Decorating Homes and Yards
+        - Participating in Costume Parades
+        - Playing Halloween-Themed Games
+        - Watching Classic Horror Films
+        - Donating to Food Drives
+    Food-Treats:
+        - Bat-shaped Cookies
+        - Caramel Apples
+        - Candy
+        - Candy Corn
+        - Chocolate
+        - Gummy Worms
+        - Popcorn Balls
+        - Pumpkin Pie
+        - Witches' Brew
+        - Mummy Dogs
+        - Eyeball Cupcakes
+        - Spiderweb Cupcakes
+        - Halloween-themed Cookies
+        - Caramel Popcorn
+        - Pumpkin Seeds
+        - Candy Apples
+        - Witch's Fingers Cookies
+        - Rice Krispie Treats
+        - Halloween-themed Cake
+        - Candy Bars
+        - Wormy Jello Cups
+        - Candy Corn Cookies
+        - Ghoulish Punch
+        - Blood-Red Velvet Cake
+        - Monster Brownies
+        - Witch Hat Cupcakes
+        - Cider Donuts
+        - Mini Pumpkin Pies
+        - Candy Corn Cheesecake
+        - Spiderweb Dip
+        - Chocolate Covered Pretzels
+        - Ghost-shaped Marshmallows
+        - Zombie Brain Cake
+        - Witches' Cauldron Soup
+        - Monster Eye Pops
+        - Poison Apple Punch
+        - Ghostly Pancakes
+        - Mummy Meatloaf
+        - Dracula's Dentures
+        - Swamp Water Punch
+        - Goblin Grapes
+        - Spooky Mac 'n' Cheese
+        - Vampire Bat Wings
+        - Witch Hat Pizza
+        - Worms in Dirt
+        - Swamp Monster Slime
+        - Monster Mash Punch
+        - Pumpkin-shaped Sandwiches
+        - Spider Dogs
+    Symbols-Icons:
+        - Bat Silhouettes
+        - Black Cats
+        - Broomsticks
+        - Cauldrons
+        - Full Moon
+        - Jack-o'-Lanterns
+        - Pumpkins
+        - Skulls
+        - Spider Silhouettes
+        - Spiders
+        - Witch's Hat
+        - Coffins
+        - Candles
+        - Vampire Fangs
+        - Tombstones
+        - Scarecrows
+        - Gargoyles
+        - Haunted House
+        - Ouija Board
+        - Voodoo Doll
+        - Ghostly Apparitions
+        - Candelabras
+        - Graveyard
+        - Werewolf
+        - Zombie
+        - Witch's Broom
+        - Crystal Ball
+        - Moonlit Night
+        - Vampire Bat
+        - Poison Apple
+        - Tarantula
+        - Skeleton Key
+        - Full Moon
+        - Cauldron
+        - Bats in Flight
+        - Witch's Cauldron
+        - Haunted Mirror
+        - Spiderweb
+        - Cursed Treasure
+        - Grave Digger's Shovel
+        - Raven
+        - Goblins
+        - Creepy Doll
+        - Spellbook
+    Places-Sceneries:
+        - Abandoned Asylum
+        - Cemetery
+        - Cornfield Maze
+        - Creepy Forest
+        - Haunted House
+        - Moonlit Graveyard
+        - Spooky Castle
+        - Witches' Lair
+        - Eerie Swamp
+        - Pumpkin Patch
+        - Abandoned Mansion
+        - Dark Alley
+        - Foggy Marsh
+        - Ghostly Shipwreck
+        - Sinister Carnival
+        - Vampire's Crypt
+        - Misty Lake
+        - Witch's Cottage
+        - Forgotten Cemetery
+        - Haunted Carnival
+        - Zombie-infested Town
+        - Werewolf Den
+        - Mysterious Woods
+        - Spine-tingling Mansion
+        - Moonlit Castle
+        - Shadowy Dungeon
+        - Cursed Castle
+        - Abandoned Orphanage
+        - Ghoulish Graveyard
+        - Eerie Moors
+        - Forgotten Chapel
+        - Phantom Opera House
+        - Wicked Village
+        - Abandoned Factory
+        - Haunted Hotel
+        - Sinister Laboratory
+        - Desolate Ruins
+        - Cursed Woods
+        - Ghost Ship
+        - Skeleton Cemetery
+        - Fog-shrouded Swamp
+        - Creepy Cornfield
+        - Spooky Lighthouse
+        - Haunted School
+        - Vampire's Castle
+        - Witch's Garden
+        - Phantom Ship
+        - Dark Forest Clearing
+    Lighting:
+        - Candlelit
+        - Eerie Glow
+        - Flickering Candles
+        - Ghoulish Glow
+        - Haunting Lanterns
+        - Moonlight
+        - Spooky Shadows
+        - Sinister Illumination
+        - Ghostly Flames
+        - Jack-o'-Lantern Light
+        - Candelabras
+        - Phantom Glow
+        - Witch's Cauldron Glow
+        - Fiery Torchlight
+        - Haunted Chandeliers
+        - Graveyard Lanterns
+        - Bat Signal
+        - Blood-Red Lighting
+        - Creepy Candlelight
+        - Ominous Moonlight
+        - Lantern-lit Pathways
+        - Sinister Spotlights
+        - Vampire's Lair Lighting
+        - Cryptic Candlelight
+        - Phantom Lanterns
+        - Zombie Ambiance Lighting
+        - Witches' Brew Glow
+        - Skull-shaped Candles
+        - Spiderweb Lights
+        - Cursed Candelabras
+        - Ghostly Goblet Candles
+        - Bats in Flight
+        - Haunted Sconces
+        - Eerie Sconces
+        - Coffin Lights
+        - Moonlit Castle
+        - Witch's Hat Lights
+        - Spellbound Chandeliers
+        - Cursed Torchlight
+        - Gargoyle Lamps
+        - Haunted Streetlamps
+        - Tombstone Spotlight
+        - Flickering Firelight
+        - Gloom and Doom Lighting
+        - Ephemeral Glow
+        - Phantom Flames
+    ArtStyles:
+        - Gothic
+        - Surreal
+        - Dark Fantasy
+        - Spooky
+        - Horror
+        - Macabre
+        - Gothic Horror
+        - Eerie
+        - Pop Surrealism
+        - Lowbrow
+        - Vintage Horror
+        - Retro Halloween
+        - Tim Burtonesque
+        - Haunted Mansion
+        - Monster Mash
+        - Dark Fairytale
+        - Grimdark
+        - Victorian Gothic
+        - Creepy Cute
+        - Fantasy Horror
+        - Wicked
+        - Witchy
+        - Steampunk Gothic
+        - Lovecraftian
+        - Zombie Apocalypse
+        - Ghostly
+        - Pumpkin Carving Art
+        - Skull Art
+        - Day of the Dead
+        - Tarot Card Art
+        - Spooky Illustration
+        - Witches and Wizards
+        - Gothic Architecture
+        - Dark Surrealism
+        - Halloween Folk Art
+        - Scary Portraits
+        - Dark Impressionism
+        - Witchcraft and Sorcery
+        - Gothic Calligraphy
+        - Horror Comics
+        - Dark Romanticism
+        - Haunted Landscape
+        - Bone Art
+        - Creepy Doll Art
+        - Dark Watercolor
+        - Occult Art
+        - Blacklight Art
+        - Phantom Photography
+        - Pumpkin Sculpture
+        - Monster Portraits
+    Grimaces:
+        - Sinister Grin
+        - Malevolent Smile
+        - Creepy Smirk
+        - Wicked Grin
+        - Maleficent Grin
+        - Spooky Sneer
+        - Sinister Smirk
+        - Ghastly Grin
+        - Devilish Smile
+        - Eerie Chuckle
+        - Chilling Laugh
+        - Haunting Gaze
+        - Malevolent Chuckle
+        - Sinister Laughter
+        - Eerie Smirk
+        - Wicked Chuckle
+        - Sinister Chuckle
+        - Spine-tingling Grin
+        - Maleficent Smirk
+        - Grinning Skull
+        - Ghostly Grimace
+        - Vampire's Grin
+        - Witch's Cackle
+        - Joker's Smile
+        - Zombie's Snarl
+        - Jack-o'-Lantern Grin
+        - Sinister Gaze
+        - Malevolent Gaze
+        - Creepy Chuckle
+        - Wicked Sneer
+        - Haunting Grin
+        - Maleficent Chuckle
+        - Sinister Sneer
+        - Ghastly Smile
+        - Devilish Grin
+        - Eerie Grin
+        - Chilling Smirk
+        - Haunting Smile
+        - Malevolent Laugh
+        - Creepy Laugh
+        - Sinister Laugh
+        - Wicked Laugh
+        - Maleficent Laugh
+        - Spooky Chuckle
+        - Ghostly Chuckle
+        - Witch's Grin
+        - Joker's Chuckle
+    Fruits:
+        - Apple
+        - Banana
+        - Orange
+        - Grape
+        - Strawberry
+        - Blueberry
+        - Pineapple
+        - Watermelon
+        - Kiwi
+        - Mango
+        - Lemon
+        - Lime
+        - Peach
+        - Cherry
+        - Raspberry
+        - Blackberry
+        - Plum
+        - Apricot
+        - Papaya
+        - Coconut
+        - Grapefruit
+        - Pomegranate
+        - Cranberry
+        - Fig
+        - Guava
+        - Passion Fruit
+        - Cantaloupe
+        - Avocado
+        - Pear
+        - Nectarine
+        - Tangerine
+        - Dragon Fruit
+        - Lychee
+        - Kiwifruit
+        - Starfruit
+        - Persimmon
+        - Boysenberry
+        - Elderberry
+        - Huckleberry
+        - Mulberry
+        - Gooseberry
+        - Plantain
+        - Olive
+        - Date
+        - Prickly Pear
+        - Kumquat
+        - Quince
+        - Rambutan
+        - Jabuticaba
+        - Acerola
+        - Horned Melon
+    Vegetables:
+        - Tomato
+        - Potato
+        - Carrot
+        - Broccoli
+        - Spinach
+        - Cucumber
+        - Bell Pepper
+        - Onion
+        - Garlic
+        - Cauliflower
+        - Zucchini
+        - Eggplant
+        - Peas
+        - Green Beans
+        - Asparagus
+        - Brussels Sprouts
+        - Celery
+        - Sweet Potato
+        - Kale
+        - Radish
+        - Cabbage
+        - Leek
+        - Corn
+        - Artichoke
+        - Beetroot
+        - Butternut Squash
+        - Mushroom
+        - Avocado
+        - Okra
+        - Turnip
+        - Pumpkin
+        - Rutabaga
+        - Swiss Chard
+        - Bok Choy
+        - Fennel
+        - Parsnip
+        - Collard Greens
+        - Watercress
+        - Shallot
+        - Radicchio
+        - Jicama
+        - Daikon
+        - Bamboo Shoot
+        - Escarole
+        - Kohlrabi
+        - Dandelion Greens
+        - Chayote
+        - Sorrel
+        - Hubbard Squash
+        - Mustard Greens
+
