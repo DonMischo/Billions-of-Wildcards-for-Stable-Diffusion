@@ -7575,7 +7575,37 @@ habitats:
         - Cave
         - Urban
     places:
-    
+        - Atlantis
+        - Valhalla
+        - Coruscant
+        - Camelot
+        - Shangri-La
+        - El Dorado
+        - Middle-earth
+        - Hogwarts
+        - Rivendell
+        - Gotham City
+        - Metropolis
+        - Wakanda
+        - Neverland
+        - Narnia
+        - Asgard
+        - Mount Olympus
+        - Minas Tirith
+        - Diagon Alley
+        - Mordor
+        - Oz
+        - Gondor
+        - Thebes
+        - Tír na nÓg
+        - King's Landing
+        - Winterfell
+        - Themyscira
+        - Arrakis
+        - Riviera
+        - Rapture
+        - Columbia
+        
 # BoJewelry
 BoJewelry:
     random-properties:
@@ -17644,123 +17674,10 @@ BoStyles:
 # atmosphere
     random-atmosphere:
         - __styles/atmosphere/*__
-    random-atmosphere-Light:
-        - __styles/atmosphere/Light__
-    random-atmosphere-Dark:
-        - __styles/atmosphere/Dark__
-    random-atmosphere-Colorful:
-        - __styles/atmosphere/Colorful__
-    random-atmosphere-Intense:
-        - __styles/atmosphere/Intense__
-    random-atmosphere-Serene:
-        - __styles/atmosphere/Serene__
-    random-atmosphere-Cozy:
-        - __styles/atmosphere/Cozy__
-    random-atmosphere-Mysterious:
-        - __styles/atmosphere/Mysterious__
-    random-atmosphere-Romantic:
-        - __styles/atmosphere/Romantic__
-    random-atmosphere-Melancholic:
-        - __styles/atmosphere/Melancholic__
-    random-atmosphere-Magical:
-        - __styles/atmosphere/Magical__
-    random-atmosphere-Rustic:
-        - __styles/atmosphere/Rustic__
-    random-atmosphere-Ethereal:
-        - __styles/atmosphere/Ethereal__
-    random-atmosphere-Dramatic:
-        - __styles/atmosphere/Dramatic__
-    random-atmosphere-Nostalgic:
-        - __styles/atmosphere/Nostalgic__
-    random-atmosphere-Festive:
-        - __styles/atmosphere/Festive__
-    random-atmosphere-Minimalist:
-        - __styles/atmosphere/Minimalist__
-    random-atmosphere-Majestic:
-        - __styles/atmosphere/Majestic__
-    random-atmosphere-Surreal:
-        - __styles/atmosphere/Surreal__
-    random-atmosphere-Urban:
-        - __styles/atmosphere/Urban__
-    random-atmosphere-Winding:
-        - __styles/atmosphere/Winding__
-    random-atmosphere-reading:
-        - __styles/atmosphere/reading__
-    random-atmosphere-work:
-        - __styles/atmosphere/work__
-    random-atmosphere-teaching:
-        - __styles/atmosphere/teaching__
-    random-atmosphere-uncomfortable:
-        - __styles/atmosphere/uncomfortable__
-    random-atmosphere-productive:
-        - __styles/atmosphere/productive__
-    random-atmosphere-artistic:
-        - __styles/atmosphere/artistic__
-    random-atmosphere-natural:
-        - __styles/atmosphere/natural__
-    random-atmosphere-synthetic:
-        - __styles/atmosphere/synthetic__
-    random-atmosphere-mechanical:
-        - __styles/atmosphere/mechanical__
-    random-atmosphere-body-functional:
-        - __styles/atmosphere/body-functional__
-    random-atmosphere-decaying:
-        - __styles/atmosphere/decaying__
-    random-atmosphere-emotional:
-        - __styles/atmosphere/emotional__
-    random-atmosphere-Deteriorating:
-        - __styles/atmosphere/Deteriorating__
-    random-atmosphere-Shopping:
-        - __styles/atmosphere/Shopping__
-    random-atmosphere-dining:
-        - __styles/atmosphere/dining__
-    random-atmosphere-recreational:
-        - __styles/atmosphere/recreational__
-    random-atmosphere-VR:
-        - __styles/atmosphere/VR__
-    random-atmosphere-hospital:
-        - __styles/atmosphere/hospital__
-    random-atmosphere-Metropolitan:
-        - __styles/atmosphere/Metropolitan__
-    random-atmosphere-Rural:
-        - __styles/atmosphere/Rural__
-    random-atmosphere-Robotic:
-        - __styles/atmosphere/Robotic__
-    random-atmosphere-Engineering:
-        - __styles/atmosphere/Engineering__
-    random-atmosphere-Desert:
-        - __styles/atmosphere/Desert__
-    random-atmosphere-Mountain:
-        - __styles/atmosphere/Mountain__
-    random-atmosphere-Oceanic:
-        - __styles/atmosphere/Oceanic__
-    random-atmosphere-Forest:
-        - __styles/atmosphere/Forest__
-    random-atmosphere-Cultural:
-        - __styles/atmosphere/Cultural__
-
 # rendering
     random-rendering:
         - __styles/rendering-techniques/*__
-    random-rendering-Ray-Tracing:
-        - __styles/rendering-techniques/Ray-Tracing__
-    random-rendering-Ambient-Effects:
-        - __styles/rendering-techniques/Ambient-Effects__
-    random-rendering-Particles-and-Effects:
-        - __styles/rendering-techniques/Particles-and-Effects__
-    random-rendering-Lighting-Techniques:
-        - __styles/rendering-techniques/Lighting-Techniques__
-    random-rendering-Shading-Techniques:
-        - __styles/rendering-techniques/Shading-Techniques__
-    random-rendering-Mapping-Techniques:
-        - __styles/rendering-techniques/Mapping-Techniques__
-    random-rendering-Post-Processing-Techniques:
-        - __styles/rendering-techniques/Post-Processing-Techniques__
-    random-rendering-Optimization-Techniques:
-        - __styles/rendering-techniques/Optimization-Techniques__
-    random-rendering-Artistic-Rendering:
-        - __styles/rendering-techniques/Artistic-Rendering__
-# graphic engines
+ # graphic engines
     random-graphic-engines:
         - __styles/graphic-engines__
 # image Styles
@@ -17769,25 +17686,9 @@ BoStyles:
 # image Techniques
     random-image-techniques:
         - __styles/image-techniques/*__
-    random-image-techniques-Traditional:
-        - __styles/image-techniques/Traditional__
-    random-image-techniques-Digital:
-        - __styles/image-techniques/Digital__
-    random-image-techniques-Photographic:
-        - __styles/image-techniques/Photographic__
-    random-image-techniques-Other:
-        - __styles/image-techniques/Other__
 # depiction styles
     random-depiction-styles:
         - __styles/depiction-styles/*__
-    random-depiction-styles-2D-Styles:
-        - __styles/depiction-styles/2D-Styles__
-    random-depiction-styles-3D-Styles:
-        - __styles/depiction-styles/3D-Styles__
-    random-depiction-styles-Historical:
-        - __styles/depiction-styles/Historical__
-    random-depiction-styles-Digital-Modern-Styles:
-        - __styles/depiction-styles/Digital-Modern-Styles__
 # Animation
     random-animation-style:
         - __styles/animations__
@@ -19841,6 +19742,7 @@ styles:
             - drip paint
             - T-shirt design
             - Graffiti
+            - splitscreen
     depiction-styles:
         2D-Styles:
             - 2D
@@ -20448,8 +20350,8 @@ BoVehicles:
         {__vehicles/Accessories__,|}
         {__vehicles/Customization__,|}
         __properties/materials-vehicles/*__,
-        __properties/Visual-Appearance__,
-        {__properties/paint-vehicle__,|}
+        __properties/Visual/Appearance__,
+        {__properties/paint/vehicle__,|}
         {__properties/Textures/vehicles__,|}"
 
 vehicles:
