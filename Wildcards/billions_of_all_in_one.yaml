@@ -80,8 +80,8 @@ astronomy:
 # BoBooks
 BoBooks:
     random:
-        - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
-           {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/books__, 
+        - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography__, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
+           {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/materials__, 
            {__books/Places-books__|__books/Book-Accessories__|}"
 
 books:
@@ -205,13 +205,12 @@ books:
         - Dust jacket protectors
         - Reading lights
         - Book stands
-      
 
 # BoPsycho
 BoPsycho:
     random:
-        - __brain-psychology/terms__, __brain-psychology/Practices-Fields, __brain-psychology/Concepts-Phenomena__, 
-        __brain-psychology/Neural-Circuit-Patterns__, {1-3$$__brain-psychology/words/*__}
+        - "__brain-psychology/terms__, __brain-psychology/Practices-Fields__, __brain-psychology/Concepts-Phenomena__, 
+        __brain-psychology/Neural-Circuit-Patterns__, {1-3$$__brain-psychology/words/*__}"
 
 brain-psychology:
     Terms:
@@ -7183,6 +7182,45 @@ creatures:
             - Hantu Ulatulat Sutera
             - Hantu Ulatulat Sutra
             - Hantu Ulatulat Ulat
+        moers:
+            - Humans
+            - Minipirates
+            - Gelatine Bones
+            - Shark Grubs
+            - Nocturnomaths
+            - Crat
+            - Zamonian Giants
+            - Lindworms
+            - Sklorno
+            - Demonocles
+            - Anagatogs
+            - Invisibooks
+            - Hel
+            - Bluddums
+            - Wolpertings
+            - Gourmet Mermaids
+            - Cacophones
+            - Leaf Men
+            - Dwellers of Twilight
+            - Prodigy Parasites
+            - Smeltings
+            - Bolloggans
+            - Malaise
+            - Veil of Slumber
+            - Brain-o-mats
+            - Kobolds
+            - Echo Elves
+            - Crails
+            - Abominable Snowmen
+            - Lethargarians
+            - Bambuzzleds
+            - Zamoniants
+            - Shark Grubs
+            - Tonsil-lectomized Grizzlies
+            - Murkmercs
+            - Subterranean Jellyfish
+            - Malaise
+            - Hemadict
 
 # BoCharsCyberpunk
 BoCharsCyberpunk:
@@ -15081,6 +15119,57 @@ properties:
             - Ceramic
             - Carbon Fiber
             - Silicone
+
+    materials-books:
+        materials:
+            - Paper
+            - Papyrus
+            - Vellum
+            - Leather
+            - Cloth
+            - Wood
+            - Stone
+            - Metal
+            - Bamboo
+            - Polymer
+            - Zamonium (a fictional element)
+            - Dreamwood (a fictional material)
+            - Star Stuff (a fictional substance)
+            - Lachrymotion (a fictional liquid)
+            - Zypheron (a mysterious substance)
+            - Essenzia (a potent fictional liquid)
+    materials-moers:
+        materials:
+            - Wolpertinger Fur
+            - Zamonium (a fictional element)
+            - Crat Snot
+            - Rumo's Rubber
+            - Helixium
+            - Concentrated Sputum of Veil of Slumber
+            - Corpse Powder
+            - Prodigy Parasite Larvae
+            - Cacophonic Copper
+            - Bluebear Fat
+            - Zamonian Sapphire
+            - Indigo Rubber
+            - Gelatine
+            - Nocturnal Juice
+            - Dementia Metal
+            - Star Stuff
+            - Snow White (a crystalline substance)
+            - Tonsil-Diamonds
+            - Dreamwood
+            - Scriptorium-Fluid
+            - Echo-Oil
+            - Dandelion Milk
+            - Plethora (a legendary metal)
+            - Echo Moss
+            - Dream Milk
+            - Heliotrope (a precious stone)
+            - Talamisium (a rare material)
+            - Lachrymotion (a liquid)
+            - Zypheron (a mysterious substance)
+            - Essenzia (a potent liquid)
 
     shape:
         plants:
