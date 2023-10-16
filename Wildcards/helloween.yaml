@@ -10,7 +10,9 @@ BoHalloween:
         - __halloween/Atmosphere__ __halloween/ArtStyles__ __halloween/Costumes__ __halloween/Places-Sceneries__ 
         __halloween/Food-Treats__ __halloween/Decorations__ __halloween/Grimaces__ __halloween/Lighting__ __halloween/Symbols-Icons__
         __halloween/Traditions__
-        
+    random-pumpkin:
+        - pumpkin carving, __halloween/Pumpkin-Carving/Techniques__, __halloween/Pumpkin-Carving/Styles__, __halloween/Pumpkin-Carving/Expressions__
+
 halloween:
     Atmosphere:
         - Bewildering
@@ -577,4 +579,59 @@ halloween:
         - Sorrel
         - Hubbard Squash
         - Mustard Greens
+
+    Pumpkin-Carving:
+        Techniques:
+            - Traditional
+            - Stencil
+            - Freehand
+            - 3D Sculpting
+            - Etching
+            - Dremel Carving
+            - Painted Pumpkins
+            - Multi-Layered Carving
+            - Silhouette Carving
+            - Shadow Carving
+            - Glow-in-the-Dark Carving
+        Styles:
+            - Classic Jack-o'-Lantern
+            - Scary Face
+            - Funny Face
+            - Fantasy Creature
+            - Horror Movie Icon
+            - Superheroe
+            - Animal
+            - Floral Pattern
+            - Abstract Design
+            - Geometric Pattern
+            - Themed Pumpkin
+            - Pop Culture Reference
+            - Video Game Character
+            - Mythical Beast
+        Expressions:
+            - Grinning
+            - Sinister
+            - Spooky
+            - Evil
+            - Happy
+            - Sad
+            - Surprised
+            - Winking
+            - Mischievous
+            - Skeptical
+            - Laughing
+            - Frowning
+            - Screaming
+            - Crying
+            - Smirking
+            - Tongue Sticking Out
+            - Toothless
+            - Goofy
+            - Silly
+            - Scowling
+            - Puzzled
+            - Devilish
+            - Zombie-like
+            - Alien
+
 
