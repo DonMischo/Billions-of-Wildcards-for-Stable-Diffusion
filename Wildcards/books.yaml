@@ -1,0 +1,149 @@
+# BoBooks
+BoBooks:
+    random:
+        - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
+           {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/books__, 
+           {__books/Places-books__|__books/Book-Accessories__|}"
+
+books:
+    Genres:
+        - Fiction
+        - Non-fiction
+        - Mystery
+        - Science fiction
+        - Fantasy
+        - Romance
+        - Biography
+        - History
+        - Poetry
+        - Self-help
+        - Travel
+        - Horror
+        - Cookbook
+        - Graphic Novel
+        - Children's Literature
+    Fictional-Types:
+        - Grimoires
+        - Spellbooks
+        - Tomes of Forbidden Knowledge
+        - Necronomicons
+        - Codices of Arcane Secrets
+        - Enchanted Scrolls
+        - Lost Journals
+        - Mystic Manuscripts
+        - Scroll of Prophecies
+        - Eldritch Tomes
+    Ornaments-Platings:
+        - Gilded edges
+        - Foil accents
+        - Embellished covers
+        - Ornamental corners
+        - Inlays and onlays
+        - Tooling and stamping
+        - Raised bands
+        - Decorative endpapers
+        - Metal clasps
+        - Jeweled bindings
+        - Gilt lettering
+
+    Book-Sizes:
+        - Hardcover
+        - Paperback
+        - Pocket-sized
+        - Large print
+        - Coffee table book
+        - Miniature book
+
+    Typography:
+        - Fonts
+        - Serif
+        - Sans-serif
+        - Typography styles
+        - Line spacing
+        - Kerning
+
+    Illustration:
+        - Illustration styles
+        - Watercolor
+        - Pen and ink
+        - Digital art
+        - Photography
+        - Collage
+
+    Bookbinding-Styles:
+        - Perfect binding
+        - Saddle-stitch binding
+        - Sewn binding
+        - Case binding
+        - Coptic binding
+        - Japanese stab binding
+        - Wire binding
+        - Spiral binding
+
+    Printing-Techniques:
+        - Offset printing
+        - Digital printing
+        - Letterpress
+        - Screen printing
+        - Gravure printing
+        - Inkjet printing
+    Places-books:
+        - Ancient Monastery
+        - Archive
+        - Attic
+        - Basement
+        - Bibliotheca
+        - Book Cave
+        - Book Nook
+        - Bookshelf
+        - Digital Library
+        - Home Library
+        - Library
+        - Literary Cafe
+        - Public Library
+        - Rare Book Room
+        - Reading Corner
+        - Reading Room
+        - Special Collection
+        - Study Room
+        - University Library
+        - E-Book Reader
+        - Literarium
+
+    Book-Covers:
+        - Dust jacket
+        - Leatherbound
+        - Clothbound
+        - Foil stamping
+        - Embossing
+        - Debossing
+
+    Book-Accessories:
+        - Bookmarks
+        - Bookplates
+        - Slipcases
+        - Bookends
+        - Dust jacket protectors
+        - Reading lights
+        - Book stands
+        
+properties:
+    Materials-books:
+        books:
+            - Paper
+            - Papyrus
+            - Vellum
+            - Leather
+            - Cloth
+            - Wood
+            - Stone
+            - Metal
+            - Bamboo
+            - Polymer
+            - Zamonium (a fictional element)
+            - Dreamwood (a fictional material)
+            - Star Stuff (a fictional substance)
+            - Lachrymotion (a fictional liquid)
+            - Zypheron (a mysterious substance)
+            - Essenzia (a potent fictional liquid)
+

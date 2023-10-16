@@ -77,6 +77,142 @@ astronomy:
         - Celestial Navigation
         - Celestial Motion
 
+# BoBooks
+BoBooks:
+    random:
+        - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
+           {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/books__, 
+           {__books/Places-books__|__books/Book-Accessories__|}"
+
+books:
+    Genres:
+        - Fiction
+        - Non-fiction
+        - Mystery
+        - Science fiction
+        - Fantasy
+        - Romance
+        - Biography
+        - History
+        - Poetry
+        - Self-help
+        - Travel
+        - Horror
+        - Cookbook
+        - Graphic Novel
+        - Children's Literature
+    Fictional-Types:
+        - Grimoires
+        - Spellbooks
+        - Tomes of Forbidden Knowledge
+        - Necronomicons
+        - Codices of Arcane Secrets
+        - Enchanted Scrolls
+        - Lost Journals
+        - Mystic Manuscripts
+        - Scroll of Prophecies
+        - Eldritch Tomes
+    Ornaments-Platings:
+        - Gilded edges
+        - Foil accents
+        - Embellished covers
+        - Ornamental corners
+        - Inlays and onlays
+        - Tooling and stamping
+        - Raised bands
+        - Decorative endpapers
+        - Metal clasps
+        - Jeweled bindings
+        - Gilt lettering
+
+    Book-Sizes:
+        - Hardcover
+        - Paperback
+        - Pocket-sized
+        - Large print
+        - Coffee table book
+        - Miniature book
+
+    Typography:
+        - Fonts
+        - Serif
+        - Sans-serif
+        - Typography styles
+        - Line spacing
+        - Kerning
+
+    Illustration:
+        - Illustration styles
+        - Watercolor
+        - Pen and ink
+        - Digital art
+        - Photography
+        - Collage
+
+    Bookbinding-Styles:
+        - Perfect binding
+        - Saddle-stitch binding
+        - Sewn binding
+        - Case binding
+        - Coptic binding
+        - Japanese stab binding
+        - Wire binding
+        - Spiral binding
+
+    Printing-Techniques:
+        - Offset printing
+        - Digital printing
+        - Letterpress
+        - Screen printing
+        - Gravure printing
+        - Inkjet printing
+    Places-books:
+        - Ancient Monastery
+        - Archive
+        - Attic
+        - Basement
+        - Bibliotheca
+        - Book Cave
+        - Book Nook
+        - Bookshelf
+        - Digital Library
+        - Home Library
+        - Library
+        - Literary Cafe
+        - Public Library
+        - Rare Book Room
+        - Reading Corner
+        - Reading Room
+        - Special Collection
+        - Study Room
+        - University Library
+        - E-Book Reader
+        - Literarium
+
+    Book-Covers:
+        - Dust jacket
+        - Leatherbound
+        - Clothbound
+        - Foil stamping
+        - Embossing
+        - Debossing
+
+    Book-Accessories:
+        - Bookmarks
+        - Bookplates
+        - Slipcases
+        - Bookends
+        - Dust jacket protectors
+        - Reading lights
+        - Book stands
+      
+
+# BoPsycho
+BoPsycho:
+    random:
+        - __brain-psychology/terms__, __brain-psychology/Practices-Fields, __brain-psychology/Concepts-Phenomena__, 
+        __brain-psychology/Neural-Circuit-Patterns__, {1-3$$__brain-psychology/words/*__}
+
 brain-psychology:
     Terms:
         - Behavior
@@ -147,7 +283,7 @@ brain-psychology:
         - Stockholm syndrome
         - Subconscious mind
 
-    Neural Circuit Patterns:
+    Neural-Circuit-Patterns:
         - Feedforward Circuit
         - Feedback Circuit
         - Recurrent Circuit
@@ -7605,7 +7741,35 @@ habitats:
         - Riviera
         - Rapture
         - Columbia
-        
+    places-moers:
+        - The Nocturnal Academy
+        - The Mugg Memorial Library
+        - The Great Forest of Zamonia
+        - The City of Atlantis
+        - The Un-Forrest
+        - The Enchanted Dominion
+        - Wolperting
+        - Hel
+        - Gourmet Isles
+        - Skullop
+        - Bookholm
+        - The Catacombs of Dreaming Books
+        - The Great Library
+        - The Chamber of Supernostalgics
+        - Shadowhouse
+        - Malaisea
+        - Malaiseaberg
+        - Chalcedony
+        - Crat
+        - Blast Furnace Square
+        - Bookholm
+        - Old Ab's Bookstore
+        - The Book Eaters' Catacomb
+        - The Castle of Dreaming Books
+        - Lindworm Castle
+        - Bookholm
+        - Bookholm Station
+
 # BoJewelry
 BoJewelry:
     random-properties:
