@@ -891,6 +891,79 @@ chemistry:
         - Rhodochrosite
         - Alexandrite
 
+computer:
+    errors:
+        - 0xC0FFEE: Java Overflow
+        - 0xDEADLOCK: Fatal Exception
+        - 0xDEADBEEF: Fatal Error
+        - 0xFA1LSAFE: Exception
+        - 0xBADA55E5: Unknown Error
+        - 0x4F7A12C: Error Code
+        - 0xC7E309B: Exception
+        - 0x8F94D1A7: ERR_UNKNOWN
+        - 0x5P1R17: Error Code
+        - 0xC0FFEE00: Exception
+        - 42: Abnormal Termination
+        - 13: Cosmic Misalignment
+        - 404: Dimension Not Found
+        - 666: Demon Summoned
+        - 500 Internal Server Error (HTTP)
+        - 502 Bad Gateway: Network Error
+        - 404 Error: Reality Not Found
+        - 500 Internal Server Error (HTTP)
+        - Application Crash (e.g., "This program has stopped working")
+        - Blue Screen of Death (BSOD)
+        - Buffer Overflow
+        - Code 13: Cosmic Misalignment
+        - Code 42: Abnormal Termination
+        - Connection Timeout Error
+        - Critical Security Breach
+        - Critical Service Failure
+        - Data Corruption Detected
+        - Data Loss in Progress
+        - Database Connection Failure
+        - Device Not Ready
+        - Disk Boot Failure
+        - Disk Failure Imminent
+        - Disk Full Error
+        - DNS Resolution Failure
+        - Division by Zero
+        - Error 404: Reality Not Found
+        - Error Code 0x4F7A12C
+        - Error Code 42: Answer to the Ultimate Question
+        - ERROR: Universe Unraveling
+        - Excessive Memory Usage
+        - Fatal Exception Error
+        - File I/O Error
+        - Firewall Breach
+        - General Protection Fault (GPF)
+        - Hardware Failure (e.g., "Disk Read Error Occurred")
+        - Hexadecimal C0SM1C
+        - Hexadecimal F00B4R
+        - Infiltration of Critical Services
+        - Input/Output Error
+        - Invalid Opcode
+        - Invalid System Disk
+        - Kernel Panic
+        - Network Error (e.g., 502 Bad Gateway)
+        - Non-System Disk or Disk Error
+        - Out of Memory Error
+        - Page Fault in Nonpaged Area
+        - Permission Denied
+        - Ransomware Attack Detected
+        - Resource Exhaustion
+        - Root Access Compromised
+        - Runtime Error
+        - Segmentation Fault
+        - Server Crash
+        - Server Overload
+        - Syntax Error
+        - Unauthorized Access
+        - Unidentified Code Injection
+        - Unrecoverable File Deletion
+        - Unresponsive Web Server
+
+
 # BoClothings
 BoCloths:
     random-fullbody:
@@ -19786,6 +19859,21 @@ styles:
             - Primitive
             - Renaissance
 
+        Fire:
+            - Blaze
+            - Inferno
+            - Conflagration
+            - Flames
+            - Combustion
+            - Pyre
+            - Ignition
+            - Scorch
+            - Incineration
+            - Kindle
+            - Wildfire
+            - Ember
+            - Arson
+            - Flare
 
     rendering-techniques:
         Ray-Tracing:
