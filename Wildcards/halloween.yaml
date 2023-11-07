@@ -1,15 +1,15 @@
 # BoHalloween
 BoHalloween:
     random-location:
-        - __halloween/Places-Sceneries__, __halloween/Atmosphere__, __halloween/Decorations__, __halloween/Symbols-Icons__,
-        __halloween/Lighting__, __halloween/ArtStyles__
+        - "__halloween/Places-Sceneries__, __halloween/Atmosphere__, __halloween/Decorations__, __halloween/Symbols-Icons__,
+        __halloween/Lighting__, __halloween/ArtStyles__"
     random-ppl:
         - "__halloween/Costumes__, __halloween/Atmosphere__, __halloween/Food-Treats__, __halloween/Lighting__,
         {__halloween/Symbols-Icons__,|__halloween/Grimaces__,|__halloween/Symbols-Icons__,|__halloween/Traditions__,|}"
     random-anything:
-        - __halloween/Atmosphere__ __halloween/ArtStyles__ __halloween/Costumes__ __halloween/Places-Sceneries__ 
+        - "__halloween/Atmosphere__ __halloween/ArtStyles__ __halloween/Costumes__ __halloween/Places-Sceneries__ 
         __halloween/Food-Treats__ __halloween/Decorations__ __halloween/Grimaces__ __halloween/Lighting__ __halloween/Symbols-Icons__
-        __halloween/Traditions__
+        __halloween/Traditions__"
     random-pumpkin:
         - pumpkin carving, __halloween/Pumpkin-Carving/Techniques__, __halloween/Pumpkin-Carving/Styles__, __halloween/Pumpkin-Carving/Expressions__
 
