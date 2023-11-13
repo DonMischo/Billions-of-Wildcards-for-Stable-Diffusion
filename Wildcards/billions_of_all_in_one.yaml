@@ -20585,7 +20585,7 @@ styles:
             - Ember
             - Arson
             - Flare
-        Poorly Lit:
+        Poorly-Lit:
             - dimly lit
             - poorly illuminated
             - low-light
@@ -20618,6 +20618,63 @@ styles:
             - sullen
             - overcast
             - cloudy
+        Delusion:
+            - Delusional
+            - Illusory
+            - Hallucinatory
+            - Miraculous
+            - Fantastical
+            - Misconceived
+            - Deceptive
+            - Confused
+            - Fallacious
+
+        Fanaticism:
+            - fanatic
+            - Zealous
+            - Extreme
+            - Fervent
+            - Radical
+            - Obsessive
+            - Intolerant
+            - Dogmatic
+            - Fundamentalist
+            - Blind
+
+        Duality:
+            - duality
+            - Dichotomous
+            - Paradoxical
+            - Contrasting
+            - Opposing
+            - Bifurcated
+            - Ambivalent
+            - Two-sided
+            - Dualistic
+            - Yin and Yang
+
+        Halo:
+            - halo
+            - Auric
+            - Glowing
+            - Radiant
+            - Nimbused
+            - Divine
+            - Celestial
+            - Sanctified
+            - Haloed
+
+        Split:
+            - splitt screen
+            - Divided
+            - Separated
+            - Schismatic
+            - Broken
+            - Disunited
+            - Fragmented
+            - Splitting
+            - Discordant
+            - Parted
 
     rendering-techniques:
         Ray-Tracing:
