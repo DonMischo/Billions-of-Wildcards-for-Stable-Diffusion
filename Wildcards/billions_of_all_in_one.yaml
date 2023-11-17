@@ -42,6 +42,16 @@ astronomy:
         - Dark Energy
         - Cosmic Background Radiation
         - Celestial Object
+        - Wormhole
+        - Interstellar Cloud
+        - Magnetar
+        - Cosmic Dust
+        - Space-Time
+        - Gravity
+        - Vacuum
+        - Microgravity
+        - Space Junk
+        - Space Weather
     Spacecrafts:
         - Satellite
         - Lunar Module
@@ -53,6 +63,11 @@ astronomy:
         - Telescopic
         - Celestial Map
         - Celestial Object
+        - Space Probe
+        - Space Station
+        - Spaceship
+        - Satellite
+        - Space Debris
     relations:
         - Interstellar
         - Extraterrestrial
@@ -76,6 +91,350 @@ astronomy:
         - Celestial Mechanics
         - Celestial Navigation
         - Celestial Motion
+
+# Billions of Audio
+BoAudio:
+    random:
+        - __audio/music/*__, {1-2$$__audio/sound/*__|__audio/melody/*__|__audio/notes/*__|__audio/Notation/*__}, __audio/Genre/*__
+    album-cover:
+        - __audio/Genre/*__ Album Cover, __audio/AlbumCover/MainImage__, __audio/AlbumCover/TitleText__, {__audio/AlbumCover/DesignElements__|__audio/AlbumCover/Background__|__audio/AlbumCover/Style__|}
+audio:
+    music:
+        Classic-Features:
+            - Sonata
+            - Symphony
+            - Concerto
+            - Minuet
+            - Rondo
+            - Aria
+            - Chorale
+            - Waltz
+            - Opera
+            - String Quartet
+
+        Modern-Features:
+            - Syncopation
+            - Polyrhythm
+            - Extended Technique
+            - Aleatoric Music
+            - Microtonal Music
+            - Electronic Sound Effects
+            - Sampling
+            - Remix
+            - Looping
+            - Beatboxing
+
+        Sci-Fi/Fantasy-Features:
+            - Ostinato
+            - Tritone
+            - Glissando
+            - Portamento
+            - Sforzando
+            - Cadenza
+            - Fermata
+            - Leitmotif
+            - Through-Composed
+            - Ground Bass
+            - Fugue
+            - Canon
+
+        Additional-Features:
+            - Homophony
+            - Heterophony
+            - Monophony
+            - Polyphony
+            - Form
+            - Call and Response
+            - Interlude
+            - Fanfare
+            - Overature
+            - Prelude
+            - Postlude
+            - Intermezzo
+
+    sound:
+        Classic-Features:
+            - Echo
+            - Reverberation
+            - Crescendo
+            - Decrescendo
+            - Staccato
+            - Legato
+            - Arpeggio
+            - Pizzicato
+            - Glissando
+            - Trill
+
+        Modern-Features:
+            - Distortion
+            - Feedback
+            - Reverb
+            - Synthesis
+            - Sampler
+            - Equalization
+            - Modulation
+            - Wah-wah
+            - Tremolo
+            - Flanger
+
+        Sci-Fi/Fantasy-Features:
+            - Phaser
+            - Doppler Effect
+            - Pitch Shift
+            - Resonance
+            - Alien Language Sounds
+            - Sonic Boom
+            - Time Warp
+            - Laser Sounds
+            - Teleportation Sounds
+            - Holographic Sounds
+
+        Additional-Features:
+            - Foley
+            - Ambient Sounds
+            - Diegetic Sounds
+            - Non-diegetic Sounds
+            - Sound Effects
+            - Atonality
+            - Noise
+            - White Noise
+            - Pink Noise
+            - Brown Noise
+            - Soundtrack
+            - Sound Design
+    melody:
+        Melody-Features:
+            - Theme
+            - Motif
+            - Harmony
+            - Counterpoint
+            - Tonality
+            - Modality
+            - Key Signature
+            - Chord Progression
+            - Scale
+            - Ornamentation
+            - Riff
+            - Ostinato
+            - Leitmotif
+            - Phrase
+            - Cadence
+            - Melodic Contour
+            - Melodic Interval
+            - Arpeggio
+            - Portamento
+            - Legato Melody
+            - Staccato Melody
+            - Climax
+            - Resolution
+            - Development
+            - Variation
+            - Repetition
+            - Transposition
+            - Improvisation
+            - Hook
+    notes:
+        Note-Features:
+            - Pitch
+            - Duration
+            - Dynamics
+            - Articulation
+            - Tone
+            - Timbre
+            - Attack
+            - Release
+            - Vibrato
+            - Tremolo
+            - Glissando
+            - Trill
+            - Mordent
+            - Turn
+            - Grace Note
+            - Appoggiatura
+            - Acciaccatura
+            - Fermata
+            - Legato
+            - Staccato
+            - Marcato
+            - Tenuto
+            - Sforzando
+            - Pizzicato
+            - Harmonics
+            - Flutter-Tonguing
+            - Growling
+            - Multiphonic
+            - Portamento
+            - Sul Tasto
+     
+    Notation:
+        Clefs:
+            - Treble Clef
+            - Bass Clef
+            - Alto Clef
+            - Tenor Clef
+            - C Clef
+
+        Note Names:
+            - Whole Note
+            - Half Note
+            - Quarter Note
+            - Eighth Note
+            - Sixteenth Note
+            - Thirty-Second Note
+            - Sixty-Fourth Note
+
+        Accidentals:
+            - Sharp
+            - Flat
+            - Natural
+            - Double Sharp
+            - Double Flat
+
+        Rests:
+            - Whole Rest
+            - Half Rest
+            - Quarter Rest
+            - Eighth Rest
+            - Sixteenth Rest
+            - Thirty-Second Rest
+            - Sixty-Fourth Rest
+
+        Time Signatures:
+            - 4/4 Time
+            - 3/4 Time
+            - 2/4 Time
+            - 6/8 Time
+            - 9/8 Time
+            - 12/8 Time
+
+        Dynamics:
+            - Piano (p)
+            - Forte (f)
+            - Mezzo Piano (mp)
+            - Mezzo Forte (mf)
+            - Pianissimo (pp)
+            - Fortissimo (ff)
+            - Crescendo
+            - Decrescendo
+
+        Articulation:
+            - Legato
+            - Staccato
+            - Marcato
+            - Tenuto
+
+        Symbols:
+            - Fermata
+            - Repeat Sign
+            - Segno
+            - Coda
+            - Dal Segno
+            - Fine
+            - D.C. al Fine
+            - D.S. al Fine
+            - D.C. al Coda
+            - D.S. al Coda
+    Genre:
+        Classical:
+            - Baroque
+            - Classical
+            - Romantic
+            - Contemporary
+
+        Jazz:
+            - Dixieland
+            - Swing
+            - Bebop
+            - Cool Jazz
+            - Free Jazz
+            - Fusion
+
+        Rock:
+            - Classic Rock
+            - Punk Rock
+            - Alternative Rock
+            - Hard Rock
+            - Progressive Rock
+            - Indie Rock
+
+        Pop:
+            - Pop
+            - Synth-pop
+            - Electropop
+            - Indie Pop
+
+        Electronic:
+            - House
+            - Techno
+            - Trance
+            - Dubstep
+            - Drum and Bass
+            - Ambient
+
+        Hip-Hop/Rap:
+            - Hip-Hop
+            - Rap
+            - Trap
+            - R&B
+
+        Country:
+            - Traditional Country
+            - Country Pop
+            - Country Rock
+
+        Blues:
+            - Delta Blues
+            - Chicago Blues
+            - Electric Blues
+
+        Folk:
+            - Traditional Folk
+            - Contemporary Folk
+
+        World:
+            - Reggae
+            - Salsa
+            - Afrobeat
+            - Flamenco
+            - Bollywood
+            - K-Pop
+
+        Metal:
+            - Heavy Metal
+            - Thrash Metal
+            - Death Metal
+            - Black Metal
+            - Power Metal
+            - Doom Metal
+            - Progressive Metal
+            - Metalcore
+            - Symphonic Metal
+            - Folk Metal
+    AlbumCover:
+        MainImage:
+            - Artwork
+            - Band/Artist Photo
+            - Illustration
+        TitleText:
+            - Album Title
+            - Band/Artist Name
+        DesignElements:
+            - Borders
+            - Frames
+            - Logo
+            - Typography
+            - Symbols
+        Background:
+            - Color Palette
+            - Texture
+            - Pattern
+            - image
+            - Photo
+            - scenery
+        Style:
+            - Artistic Style
+            - Theme
+            - Concept
 
 # BoBooks
 BoBooks:
@@ -417,6 +776,12 @@ BoChars:
         - female __BoChars/male/modern__ 
     random:
         - "{0.45::__BoChars/female/modern__|0.45::__BoChars/male/modern__|0.1::__BoChars/div__}"
+    class-profession:
+        - "{male|female} __characters/species/*__, {__characters/professions/*__|},{__characters/classes/*__|}"
+    class-profession-weapon:
+        - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/weapons/*__ "
+    class-profession-itemslots:
+        - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/itemslots/*__ "
 
 characters:
     professions:
@@ -691,28 +1056,1131 @@ characters:
             - Savage
 
     classes:
-        - Warrior
-        - Mage
-        - Archer
-        - Thief
-        - Cleric
-        - Paladin
-        - Ranger
-        - Bard
-        - Druid
-        - Sorcerer
-        - Warlock
-        - Barbarian
-        - Monk
-        - Necromancer
-        - Alchemist
-        - Assassin
-        - Knight
-        - Priest
-        - Summoner
-        - Gunslinger
+        Tank:
+            - Paladin
+            - Guardian
+            - Knight
+            - Juggernaut
+            - Templar
+            - Crusader
+            - Bulwark
+            - Warden
+            - Sentinel
+            - Brute
+            - Dreadnought
+            - Ironclad
+            - Shieldbearer
+            - Bunker
+            - Colossus
+            - Fortress
+            - Defender
+            - Armiger
+            - Behemoth
+            - Conqueror
+
+        caster:
+            - Adept
+            - Alchemist
+            - Arcane Warrior
+            - Archmage
+            - Battlemage
+            - Blood Mage
+            - Chronomancer
+            - Cleric
+            - Cryomancer
+            - Death Knight
+            - Druid
+            - Elemental Shaman
+            - Elementalist
+            - Enchantress
+            - Enchanter
+            - Fey Sorcerer
+            - Force Adept
+            - Geomancer
+            - Holy Mage
+            - Illusionist
+            - Mage
+            - Mindflayer
+            - Mystic
+            - Necrolyte
+            - Necromancer
+            - Nightblade
+            - Psion
+            - Pyromancer
+            - Rune Mage
+            - Shadowmancer
+            - Sorcerer
+            - Sorceress
+            - Spellblade
+            - Spellslinger
+            - Spiritweaver
+            - Starcaller
+            - Star Mage
+            - Stormcaller
+            - Summoner
+            - Sun Priest
+            - Technomancer
+            - Thaumaturge
+            - Voidcaller
+            - Warlock
+            - War Mage
+            - Warlock
+            - Witch Doctor
+            - Wizard
+            - Wizardess
+
+        melee:
+            - Assassin
+            - Barbarian
+            - Bard
+            - Blademaster
+            - Beastmaster
+            - Crusader
+            - Dark Knight
+            - Dark Templar
+            - Death Knight
+            - Demon Hunter
+            - Dragonknight
+            - Duelist
+            - Fighter
+            - Gladiator
+            - Inquisitor
+            - Jedi Knight
+            - Knight
+            - Marauder
+            - Monk
+            - Paladin
+            - Ranger
+            - Reaver
+            - Rogue
+            - Ronin
+            - Samurai
+            - Shadowblade
+            - Sith Juggernaut
+            - Sith Marauder
+            - Sith Warrior
+            - Slayer
+            - Templar
+            - Thief
+            - Warrior
+            - Weaponmaster
+            - Witch Hunter
+
+        range:
+            - Adept
+            - Archer
+            - Assassin
+            - Blademaster
+            - Demon Hunter
+            - Hunter
+            - Jedi Consular
+            - Marksman
+            - Ranger
+            - Rogue
+            - Sith Inquisitor
+            - Sith Sorcerer
+            - Sniper
+            - Summoner
+            - Gunslinger
+            - Musketeer
+            - Sharpshooter
+            - Infiltrator
+            - Scout
+            - Skirmisher
+            - Gunner    
+        support:
+            - Support
+            - Healer
+            - Medic
+            - Bard
+            - Buffer
+            - Debuffer
+            - Cleric
+            - Priest
+            - Shaman
+            - Oracle
+            - Engineer
+            - Trickster
+            - Technomancer
+            - Psychic
+            - Spirit Walker
+            - Mentalist
+            - Paragon
+            - Tinkerer
+            - Artificer
+    species:
+        humanoid:
+            - Human
+            - Elf
+            - Dwarf
+            - Orc
+            - Undead
+            - Gnome
+            - Draenei
+            - Worgen
+            - Night Elf
+            - Blood Elf
+            - Tauren
+            - Troll
+            - Goblin
+            - Pandaren
+            - Human
+            - Elf
+            - Dwarf
+            - Gnome
+            - Half-Elf
+            - Halfling
+            - Tiefling
+            - Dragonborn
+            - Githyanki
+            - Githzerai
+            - Aasimar
+            - Genasi
+        starwars:
+            - Abyssin
+            - Aqualish
+            - Arkanian
+            - Barabel
+            - Bimm
+            - Bith
+            - Bothan
+            - Cathar
+            - Chadra-Fan
+            - Chiss
+            - Dashade
+            - Devaronian
+            - Defel
+            - Dressellian
+            - Drall
+            - Droid
+            - Duros
+            - Echani
+            - Ewok
+            - Falleen
+            - Feeorin
+            - Fosh
+            - Gand
+            - Gamorrean
+            - Geonosian
+            - Gossam
+            - Gran
+            - Hapan
+            - Hutt
+            - Houk
+            - Human
+            - Iktotchi
+            - Ithorian
+            - Jawa
+            - Kaminoan
+            - Kel Dor
+            - Kitonak
+            - Klatooinian
+            - Kubaz
+            - Kyuzo
+            - Lannik
+            - Mirialan
+            - Mon Calamari
+            - Muun
+            - Nautolan
+            - Neimoidian
+            - Nikto
+            - Ortolan
+            - Pau'an
+            - Polis Massan
+            - Quarren
+            - Rodian
+            - Selkath
+            - Snivvian
+            - Sullustan
+            - Talz
+            - Tarro
+            - Theelin
+            - Toydarian
+            - Trandoshan
+            - Twi'lek
+            - Tusken Raider
+            - Twi'lek
+            - Voss
+            - Weequay
+            - Whiphid
+            - Wookiee
+            - Xexto
+            - Yarkora
+            - Yoda's species
+            - Yuuzhan Vong
+            - Zabrak
+            - Zeltron
 
 
+
+        starwars-droids:
+            - 2-1B surgical droid
+            - 3PO-series protocol droid
+            - 4-LOM
+            - 4A-7
+            - 8t88
+            - A-LT Utility Droid
+            - A4 laboratory assistant
+            - ASP-7 labor droid
+            - AZI-3
+            - B1-series battle droid
+            - B1-series worker droid
+            - B2 super battle droid
+            - B2-HA series super battle droid
+            - B3-series rocket battle droid
+            - BX-series droid commando
+            - C-3PX
+            - C-B3 Cortosis battle droid
+            - C2-B5
+            - CZ-series communications/business droid
+            - D5-Mantis patrol droid
+            - DUM-series pit droid
+            - EV-series supervisor droid
+            - FX-series medical assistant droid
+            - GNK power droid
+            - IG-100 MagnaGuard
+            - IG-86 sentinel droid
+            - IG-88 assassin droid
+            - JN-66 analysis droid
+            - K-X12 probe droid
+            - LEP servant droid
+            - MSE-series
+            - OOM command battle droid
+            - OOM pilot battle droid
+            - Pistoeka sabotage droid
+            - PK-series worker droid
+            - PROXY
+            - PZ-7 labor droid
+            - RA-7 protocol droid
+            - R-1 series astromech droid
+            - R2-series astromech droid
+            - R3-series astromech droid
+            - R4-series agromech droid
+            - R5-series astromech droid
+            - R6-series astromech droid
+            - RA-7 protocol droid
+            - S4 lab assistant
+            - SC-X2 bipedal walker
+            - SD-K4 assassin droid
+            - Security droid
+            - T-series military strategic analysis and tactics droid
+            - TC-series protocol droid
+            - Treadwell repair droid
+            - Viper probe droid
+            - WED Treadwell repair droid
+            - X-1 Viper probe droid
+            - Z-6 rotary blaster cannon
+        
+        startrek:
+            - Andorian
+            - Bajoran
+            - Benzite
+            - Betazoid
+            - Bolian
+            - Borg
+            - Breen
+            - Cardassian
+            - Changeling
+            - Denobulan
+            - El-Aurian
+            - Ferengi
+            - Gorn
+            - Hirogen
+            - Horta
+            - Human
+            - Jem'Hadar
+            - Kazon
+            - Klingon
+            - Kobali
+            - Ocampa
+            - Orion
+            - Pakled
+            - Q Continuum
+            - Reman
+            - Romulan
+            - Suliban
+            - Tellarite
+            - Tholian
+            - Trill
+            - Vidiian
+            - Vulcan
+            - Xindi
+        warhammer:
+            - Empire Soldier
+            - Dwarf Warrior
+            - High Elf Mage
+            - Dark Elf Assassin
+            - Wood Elf Waywatcher
+            - Bretonnian Knight
+            - Lizardmen Saurus Warrior
+            - Skaven Gutter Runner
+            - Greenskin Orc
+            - Chaos Warrior
+            - Beastmen Minotaur
+            - Vampire Counts Necromancer
+            - Tomb Kings Skeleton
+            - Ogre Kingdoms Irongut
+            - Daemons of Chaos Bloodletter
+            - Warriors of Chaos Chosen
+            - High Elves Swordmaster
+            - Dark Elves Sorceress
+            - Wood Elves Wild Rider
+            - Bretonnian Grail Knight
+            - Lizardmen Kroxigor
+            - Skaven Stormvermin
+            - Greenskin Goblin
+            - Chaos Marauder
+            - Beastmen Bestigor
+            - Vampire Counts Crypt Ghoul
+            - Tomb Kings Tomb Guard
+            - Ogre Kingdoms Tyrant
+            - Daemons of Chaos Daemonette
+        doctor-who:
+            - Abzorbaloff
+            - Adipose
+            - Alpha Centauri
+            - Androgum
+            - Atraxi
+            - Auton
+            - Axon
+            - Bandrils
+            - Bambuzzled
+            - Bannerman
+            - Beast
+            - Beastman
+            - Black Guardian
+            - Bluddum
+            - Brontosaurus
+            - Calapine
+            - Carrionite
+            - Catkind
+            - Celestial Toymaker
+            - Chalonian
+            - Chimeron
+            - Cheetah Person
+            - Chumbley
+            - Clockwork Droid
+            - Cold Blood
+            - Cybermat
+            - Cyberman
+            - Daft Wullie
+            - Dalek
+            - Dalek Human
+            - Damaged Dalek
+            - Dandy
+            - Darnell
+            - Deathworm Morphant
+            - DeFlores
+            - Degradation
+            - Devil
+            - DivaDroid
+            - Dogon
+            - Drahvin
+            - Draconian
+            - Drone
+            - Drornidian
+            - Dryad
+            - Dæmon
+            - Eknodine
+            - Elder
+            - Elemental
+            - Epsilon 4
+            - Eternals
+            - Face of Boe
+            - Family of Blood
+            - Father
+            - Feratu
+            - Firestone
+            - Floof
+            - Forest of Cheem
+            - Fungoid
+            - Futurekind
+            - Gallifreyan
+            - Gas Mask Zombie
+            - Gelth
+            - Gorgon
+            - Graske
+            - Green Alien
+            - Grel
+            - Gremlin
+            - Grund
+            - Grunglet
+            - Guardian
+            - Gump
+            - Half Face Man
+            - Hath
+            - Haemovore
+            - Heavenly Host
+            - High Priest
+            - Hoix
+            - Hologram
+            - Human
+            - Human Colonist
+            - Human Dalek
+            - Human Dinosaur
+            - Human Mutant
+            - Human Robot
+            - Humanoid Cheetah Person
+            - Humanoid
+            - Humanoid Alien
+            - Humanoid Cyberman
+            - Humanoid Dalek
+            - Humanoid Dalek
+            - Humanoid Monster
+            - Humanoid Ogron
+            - Humanoid Reptile
+            - Humanoid Robot
+            - Humanoid Salt Vampire
+            - Humanoid Silurian
+            - Humanoid Zygon
+            - Hush
+            - Hymetusite
+            - Hypermethylen
+            - Ice Lord
+            - Ice Warrior
+            - Ice Widow
+            - Ignis
+            - Iment
+            - Insectoid
+            - Invisible Creature
+            - Jixen
+            - Judoon
+            - Jupiterian
+            - Kaled
+            - Karnasaur
+            - Kaveetch
+            - Keratinite
+            - Key
+            - Killer Cat
+            - Killer Doll
+            - Killer Whale
+            - Kinda
+            - Kirith
+            - Klade
+            - Krafayis
+            - Krarg
+            - Krillitanes
+            - Krynoid
+            - Kuiju
+            - Lady in the Water
+            - Leaf
+            - Leef
+            - Lighthouse Keeper
+            - Lighthouse Worker
+            - Living Doll
+            - Living Plastic
+            - Lurconis
+            - Macra
+            - Magma Creature
+            - Magna Carta
+            - Malakh
+            - Mandrake
+            - Mandrel
+            - Manussan
+            - Marshman
+            - Martian
+            - Martus
+            - Mavran
+            - Mawdryn
+            - Meddling Monk
+            - Mentiad
+            - Metatraxi
+            - Migou
+            - Mire
+            - Monk
+            - Mordee
+            - Morok
+            - Mummy
+            - Muto
+            - Muton
+            - Mutters Spiral
+            - Mutt
+            - Nephew
+            - Nestene Consciousness
+            - Nestene Duplicates
+            - Nimon
+            - Noble
+            - Nucleus
+            - Nucleus Monster
+            - Nudge
+            - Oculoid
+            - Ogron
+            - Ogron Humanoid
+            - Ood
+            - Oracle
+            - Osiran
+            - Osterhagen Key
+            - Ottomon
+            - Pangor
+            - Pandora
+            - Paramor
+            - Parvo
+            - Pescatons
+            - Peter's Zombie
+            - Phuton
+            - Pig Pilot
+            - Pilot Fish
+            - Pilot Fish Humanoid
+            - Plasmaton
+            - Pleiades
+            - Plod
+            - Pod People
+            - Pool
+            - Portreeve
+            - Pranavore
+            - Psychic
+            - Pyrovile
+            - Quill
+            - Raccoon
+            - Racnoss
+            - Racnoss Children
+            - Radzilla
+            - Rani
+            - Reaver
+            - Reaper
+            - Reconnaissance Dalek
+            - Reptile
+            - Rill
+            - Roboform
+            - Robot
+            - Romulan
+            - Rost
+            - Rutan
+            - Rutan
+            - Ryrad
+            - Sandman
+            - Satarian
+            - Satellite
+            - Satsuma
+            - Saurian
+            - Savage
+            - Savar
+            - Scalpod
+            - Scorby
+            - Sea Devil
+            - Sea Devil
+            - Seal
+            - Sensorite
+            - Shadow Kin
+            - Shark
+            - Sharaz Jek
+            - Shrieve
+            - Sil
+            - Silas
+            - Silent
+            - Silicate
+            - Silurian
+            - Siren
+            - Sirian
+            - Sizou
+            - Skeletal Scarab
+            - Skithra
+            - Skorr
+            - Skrak
+            - Skrull
+            - Slab
+            - Slab
+            - Slitheen
+            - Soggoth
+            - Sontaran
+            - Sontaran Humanoid
+            - Sot'm
+            - Space Dragon
+            - Spaniard
+            - Spaniard Zombie
+            - Spider
+            - Spiridon
+            - Squire
+            - Ssarg
+            - Steed
+            - Stenza
+            - Stigorax
+            - Stone Dalek
+            - Strangeling
+            - Ssorg
+            - Stigorax
+            - Stone Dalek
+            - Strangeling
+            - Strezan
+            - Suckfish
+            - Sybil
+            - Sycon
+            - Sykarian
+            - Synth
+            - Syrox
+            - S’Selcet
+            - Teller
+            - Terileptil
+            - Terileptil Bat
+            - Terradonian
+            - Tetrap
+            - Thal
+            - The Five
+            - The Morpheus Pod
+            - The Veil
+            - The Wire
+            - The Xeraphin
+            - Theofrax
+            - Tho
+            - Thoros-Beta
+            - Time Beetle
+            - Time Zombie
+            - Uxariean
+            - Vampires
+            - Venusian
+            - Vervoid
+            - Vespiform
+            - Vogon
+            - Wirrn
+            - Zygon
+            - Zolfa-Thuran
+            - Zyndaal
+        Mass-Effect:
+            - Asari
+            - Turian
+            - Salarian
+            - Krogan
+            - Quarian
+            - Drell
+            - Hanar
+            - Volus
+            - Elcor
+            - Vorcha
+            - Prothean
+            - Collector
+            - Reaper (ancient sentient machines)
+            - Rachni
+            - Geth
+            - Keepers
+        Halo Species:
+            - Human
+            - Covenant
+            - Sangheili (Elites)
+            - Jiralhanae (Brutes)
+            - Unggoy (Grunts)
+            - Kig-Yar (Jackals)
+            - Mgalekgolo (Hunters)
+            - San'Shyuum (Prophets)
+            - Yanme'e (Drones)
+            - Huragok (Engineers)
+            - Forerunners (extinct)
+            - Flood
+            - Promethean
+            - Created (AI uprising led by Cortana)
+            - Banished (splinter faction of the Covenant)
+        Elder Scrolls Races:
+            - Nords
+            - Imperials
+            - Bretons
+            - Redguards
+            - High Elves (Altmer)
+            - Wood Elves (Bosmer)
+            - Dark Elves (Dunmer)
+            - Orcs (Orsimer)
+            - Khajiit
+            - Argonians
+            - Dwemer (Dwarves, extinct)
+            - Falmer
+            - Maormer
+            - Ayleids (Wild Elves, extinct)
+            - Akaviri
+            - Sload
+            - Tsaesci
+            - Hist (Argonian sentient trees)
+        Stargate:
+            - Ancients (Alterans)
+            - Asgard
+            - Goa'uld
+            - Jaffa
+            - Tok'ra
+            - Wraith
+            - Replicators
+            - Nox
+            - Furlings (mentioned but unseen)
+            - Unas
+            - Lucian Alliance
+            - Ori
+            - Aschen
+            - Genii
+        Marvel:
+            - Asgardian
+            - Human
+            - Mutant
+            - Inhuman
+            - Kree
+            - Skrull
+            - Celestial
+            - Eternal
+            - Deviant
+            - Chitauri
+            - Frost Giant
+            - Dark Elve
+            - Sakaaran
+            - Watcher
+            - Brood
+            - Shi'ar
+            - Dire Wraith
+            - Klyntar (Symbiotes)
+            - Nova Corps
+            - Xandarian
+            - Insectoid
+            - Beyonder
+            - Builder
+            - Rigellian
+            - Mindless One
+        HitchhikersGuide:
+            - Humans
+            - Vogons
+            - Zaphod Beeblebrox (Two-headed humanoid)
+            - Betelgeusian
+            - Marvin the Paranoid Android
+            - Slartibartfast (Magrathean)
+            - Trillian
+            - Deep Thought (Supercomputer)
+            - Zarniwoop 
+            - Agrajag
+            - Eddie (Shipboard Computer)
+            - Wowbagger the Infinitely Prolonged
+            - Thor (God of Thunder)
+            - Hooloovoo (Superintelligent shades of the color blue)
+            - Lintilla
+            - The Ravenous Bugblatter Beast of Traal (Alien beast)
+            - Hrung
+            - Hooloovoo (Hyperintelligent shade of the color blue)
+            - Grebulons
+            - Poghril
+            - Vroomfondel and Majikthise (Philosophers)
+            - Viltvodle VI
+            - Blagulon Kappa
+        cthulu-mythos:
+            - Cthulhu
+            - Nyarlathotep
+            - Yog-Sothoth
+            - Azathoth
+            - Shub-Niggurath
+            - Dagon
+            - Deep Ones
+            - Great Race of Yith
+            - Mi-go
+            - Elder Things
+            - Shoggoths
+            - Byakhee
+            - Night Gaunts
+            - Ghoul
+            - Innsmouth residents
+            - Hastur
+            - Ithaqua
+            - The King in Yellow
+            - Wilbur Whateley
+            - Wilbur's twin
+            - Yig
+            - Tsathoggua
+            - Gla'aki
+            - Nyogtha
+            - Atlach-Nacha
+            - Chaugnar Faugn
+            - Cthugha
+            - Rhan-Tegoth
+            - Y'golonac
+            - Dhole
+            - Dark Young of Shub-Niggurath
+            - Hounds of Tindalos
+            - H.P. Lovecraft (Author, cameo in some mythos)
+            - Randolph Carter
+            - The Dunwich Horror
+            - The Shadow Over Innsmouth
+            - The Whisperer in Darkness
+            - The Call of Cthulhu
+            - At the Mountains of Madness
+            - The Shadow Out of Time
+
+        monster-hunter:
+            - Rathalos
+            - Rathian
+            - Diablos
+            - Nargacuga
+            - Tigrex
+            - Zinogre
+            - Brachydios
+            - Anjanath
+            - Odogaron
+            - Legiana
+            - Paolumu
+            - Tobi-Kadachi
+            - Radobaan
+            - Great Jagras
+            - Barroth
+            - Kirin
+            - Kushala Daora
+            - Teostra
+            - Vaal Hazak
+            - Lunastra
+            - Deviljho
+            - Nergigante
+            - Xeno'jiiva
+            - Kulve Taroth
+            - Safi'jiiva
+            - Alatreon
+            - Fatalis
+            - Magnamalo
+            - Mizutsune
+            - Goss Harag
+            - Aknosom
+            - Somnacanth
+            - Bishaten
+            - Tetranadon
+            - Great Izuchi
+            - Lagombi
+            - Arzuros
+            - Royal Ludroth
+            - Volvidon
+            - Barioth
+            - Khezu
+            - Kulu-Ya-Ku
+            - Pukei-Pukei
+            - Barroth
+            - Jyuratodus
+            - Tetsucabra
+            - Kecha Wacha
+            - Yian Kut-Ku
+            - Gypceros
+            - Congalala
+            - Bulldrome
+            - Rajang
+            - Chameleos
+            - Kushala Daora
+            - Teostra
+            - Kushala Daora
+            - Teostra
+            - Kirin
+            - Vaal Hazak
+            - Namielle
+            - Velkhana
+            - Shara Ishvalda
+            - Safi'jiiva
+            - Zorah Magdaros
+            - Xeno'jiiva
+            - Kulve Taroth
+
+        monster-hunter-friendly:
+            - Poogie
+            - Grimalkyne Tribe
+            - Palicoes
+            - Gajalaka Tribe
+            - Lynians
+            - Felynes
+            - Melynx
+            - Wulg
+            - Endemic Life
+            - Aptonoth
+            - Apceros
+            - Kelbi
+            - Shamos
+            - Girros
+            - Gastodon
+            - Anteka
+            - Popo
+            - Cortos
+            - Jagras
+            - Slagtoth
+            - Raphinos
+            - Barnos
+            - Noios
+            - Mernos
+            - Grimalkyne Palicoes
+            - Meowscular Chef
+            - Felyne Comrades
+            - Gajalaka Palicoes
+            - Tailraiders
+            - Kestodon
+            - Mosswine
+            - Felyne Watchers
+            - Wulg
+            - Noios
+            - Cortos
+            - Fluffy Moly
+            - Hoarcry Tobi-Kadachi
+            - Bomb Beetle
+            - Gold Hercudrome
+            - Prism Hercudrome
+            - Steel Meldspar
+            - Spiritcore Ore
+            - Firecell Stone
+            - Ice Crystal
+            - Thunderbug
+            - Great Thunderbug
+            - Rock Lizard
+            - Moonlight Gecko
+            - Scalebat
+            - Godbug
+            - Bismuth Prism
+            - Sinister Cloth
+            - Tsuchinoko
+            - Goldspring Macaque
+
+    weapons:
+        Classic:
+            - Sword
+            - Dagger
+            - Spear
+            - Bow and Arrow
+            - Crossbow
+            - Mace
+            - Battle Axe
+            - Longbow
+            - Halberd
+            - Flail
+            - War Hammer
+            - Javelin
+            - Club
+            - War Scythe
+            - Morning Star
+            - Quarterstaff
+            - Polearm
+            - Gladius
+            - Rapier
+            - War Pick
+
+        Modern:
+            - Assault Rifle
+            - Sniper Rifle
+            - Shotgun
+            - Submachine Gun
+            - Pistol
+            - Revolver
+            - Grenade Launcher
+            - Rocket Launcher
+            - Flamethrower
+            - Combat Knife
+            - Tactical Shotgun
+            - Machine Gun
+            - Hand Grenade
+            - Stun Gun
+            - Riot Shield
+            - Taser
+            - Silenced Pistol
+            - Compound Bow
+            - Tactical Tomahawk
+            - Boomerang
+
+        Sci-Fi:
+            - Phaser
+            - Blaster
+            - Lightsaber
+            - Plasma Rifle
+            - Railgun
+            - Ion Cannon
+            - Pulse Rifle
+            - Neuralyzer
+            - Sonic Screwdriver
+            - Disruptor
+            - Energy Sword
+            - Gravity Gun
+            - Plasma Pistol
+            - Laser Cannon
+            - Quantum Blade
+            - EMP Grenade
+            - Plasma Grenade
+            - Neural Disruptor
+            - Vibroblade
+            - Particle Beam
+
+        Fantasy:
+            - Staff of Wizardry
+            - Wand
+            - Elven Bow
+            - Dwarven War Axe
+            - Crystal Sword
+            - Enchanted Dagger
+            - Runeblade
+            - Staff of Healing
+            - Dragonbone Greatsword
+            - Warlock's Staff
+            - Faerie Bow
+            - Necromancer's Scythe
+            - Holy Avenger
+            - Druidic Staff
+            - Scepter of the Mage-King
+            - Feyblade
+            - Shadow Dagger
+            - Celestial Hammer
+            - Infernal Trident
+            - Unicorn Horn
+        Primal:
+            - Stone Club
+            - Obsidian Blade
+            - Wooden Spear
+            - Flint Dagger
+            - Bone Axe
+            - Chieftain's Totem
+            - Tribal Sling
+            - Animal Bone Bow
+            - Spirit-infused Staff
+            - Primitive Slingshot
+            - Thorned Whip
+            - Feral Fang Dagger
+            - Stone-tipped Javelin
+            - Beastmaster's Crook
+            - Tribal Drum
+            - Shamanic Rattle
+            - Ember Torch
+            - Rustic War Horn
+            - Ancient Tribal Shield
+            - Elemental Stone Mace
+
+    itemslots:
+        Clothing:
+            - Headgear
+            - Chest Armor
+            - Bracers
+            - Gloves
+            - Belt
+            - Pants/Leggings
+            - Boots
+            - Gauntlets
+            - Greaves
+            - Tunic
+            - Robe
+            - Crown
+            - Helm
+            - Mask
+            - Cape
+
+        Accessories:
+            - Necklace
+            - Amulet
+            - Earring
+            - Ring
+            - Shoulderpad
+            - Cloak
+            - Quiver (for archers)
+            - Sash
+            - Pauldron
+            - Vambrace
+            - Girdle
+            - Chausse
+            - Sabaton
+            - Shield
+            - Wand
+            - Staff
+            - Grimoire
+            - Spellbook
+            - Talisman
+            - Relic
+            - Medallion
+            - Brimstone Pendant
+            - Locket
+            - Diadem
+            - Anklet
+            - Circlet
+            - Armlet
+            - Medal
+            - Brooch
+            - Choker
+
+
+    
+    
 chemistry:
     elements:
         - Hydrogen
@@ -894,7 +2362,7 @@ chemistry:
 # BoClothings
 BoCloths:
     random-fullbody:
-        - "full body clothing,
+        - "__clothings/fit__ full body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
         __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
@@ -906,7 +2374,7 @@ BoCloths:
     random-combination:
         - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
     random-upperbody:
-        - "upper body clothing,
+        - "__clothings/fit__ upper body clothing,
         {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
         __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/Sleeve__,
@@ -915,7 +2383,7 @@ BoCloths:
         __BoCloths/random-extras__
         "
     random-lowerbody:
-        - "lower body clothing,
+        - "__clothings/fit__ lower body clothing,
         __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
         __styles/clothing/fit-Length__,
         __styles/clothing/Waistlines__,
@@ -5139,6 +6607,27 @@ clothings:
                 - Solar-powered Neck Ring
                 - Sonic Sound-isolating Collar
                 - Thermal-regulating Scarf
+    fit:
+        - Tight
+        - Loose
+        - Snug
+        - Baggy
+        - Form-fitting
+        - Oversized
+        - Slim
+        - Roomy
+        - Comfy
+        - Relaxed
+        - Fitted
+        - Loose-fitting
+        - Tailored
+        - Draped
+        - Flowy
+        - Bulky
+        - Skin-tight
+        - Hugging
+        - Constricting
+
 
 components:
     Electronic:
@@ -6652,7 +8141,9 @@ BoCreatures:
         # {__creatures/horns__,|}
         # {__creatures/Mouth-Jaw__,|}
         {__properties/colors/*__,|__properties/patterns/unusual__,|}"
-
+    animalfusion:
+        - "fusion of {2-5$$__creatures/animals/*__}"
+    
 creatures:
     size:
         - Tiny
@@ -7221,6 +8712,248 @@ creatures:
             - Subterranean Jellyfish
             - Malaise
             - Hemadict
+    animals:
+        Insects:
+            - Ant
+            - Bee
+            - Beetle
+            - Butterfly
+            - Dragonfly
+            - Firefly
+            - Flea
+            - Fly
+            - Grasshopper
+            - Ladybug
+            - Mosquito
+            - Moth
+            - Praying Mantis
+            - Spider
+            - Wasp
+            - Caterpillar
+            - Centipede
+            - Cricket
+            - Cockroach
+            - Mantis
+            - Aphid
+            - Hornet
+            - Termite
+            - Silverfish
+            - Cicada
+            - June Bug
+            - Assassin Bug
+            - Stink Bug
+            - Walking Stick
+        Mammals:
+            - Elephant
+            - Lion
+            - Tiger
+            - Giraffe
+            - Cheetah
+            - Zebra
+            - Gorilla
+            - Chimpanzee
+            - Orangutan
+            - Koala
+            - Kangaroo
+            - Platypus
+            - Dolphin
+            - Whale
+            - Bat
+            - Squirrel
+            - Rabbit
+            - Deer
+            - Fox
+            - Wolf
+            - Bear
+            - Panda
+            - Red Panda
+            - Raccoon
+            - Horse
+            - Cow
+            - Dog
+            - Cat
+            - Mouse
+            - Elephant Seal
+            - Otter
+            - Hedgehog
+            - Shrew
+            - Platypus
+            - Monkey
+            - Lemur
+            - Bat
+            - Camel
+            - Hippopotamus
+            - Rhinoceros
+            - Anteater
+            - Armadillo
+            - Ocelot
+            - Cougar
+            - Lynx
+            - Panther
+            - Jaguar
+            - Snow Leopard
+            - Sloth
+            - Mole
+            - Beaver
+            - Porcupine
+            - Muskox
+            - Bison
+            - Walrus
+            - Sealion
+            - Polar Bear
+            - Grizzly Bear
+            - Black Bear
+            - Lemming
+            - Weasel
+            - Wolverine
+            - Skink
+            - Aardvark
+            - Pangolin
+            - Hyena
+            - Meerkat
+            - Lemming
+            - Jerboa
+            - Cavy
+            - Capybara
+            - Porpoise
+            - Manatee
+            - Armadillo
+            - Kinkajou
+            - Ferret
+            - Hamster
+            - Gerbil
+            - Chipmunk
+        Reptiles:
+            - Snake
+            - Turtle
+            - Crocodile
+            - Alligator
+            - Lizard
+            - Gecko
+            - Iguana
+            - Chameleon
+            - Komodo Dragon
+            - Monitor Lizard
+            - Anaconda
+            - Boa Constrictor
+            - Python
+            - Gila Monster
+            - Tuatara
+            - Green Sea Turtle
+            - Leatherback Sea Turtle
+            - Galapagos Tortoise
+            - Bearded Dragon
+            - Frilled Lizard
+
+        Amphibians:
+            - Frog
+            - Toad
+            - Salamander
+            - Newt
+            - Axolotl
+            - Caecilian
+            - Tree Frog
+            - Poison Dart Frog
+            - Bullfrog
+            - Fire Salamander
+            - Tiger Salamander
+            - Alpine Newt
+            - Golden Mantella
+            - Marbled Salamander
+            - American Toad
+            - European Toad
+            - Cane Toad
+            - Surinam Toad
+            - Glass Frog
+            - Wood Frog
+            - Oriental Fire-bellied Toad
+            - Spadefoot Toad
+            - Mantella Frog
+            - Blue Poison Dart Frog
+        Birds:
+            - Eagle
+            - Hawk
+            - Falcon
+            - Owl
+            - Osprey
+            - Vulture
+            - Crow
+            - Raven
+            - Magpie
+            - Jay
+            - Sparrow
+            - Robin
+            - Blue Jay
+            - Cardinal
+            - Woodpecker
+            - Pigeon
+            - Dove
+            - Seagull
+            - Albatross
+            - Pelican
+            - Flamingo
+            - Swan
+            - Goose
+            - Duck
+            - Hummingbird
+            - Parrot
+            - Cockatoo
+            - Toucan
+            - Penguin
+            - Ostrich
+            - Emu
+            - Kiwi
+            - Puffin
+            - Kingfisher
+            - Hornbill
+            - Peacock
+            - Eagle Owl
+            - Secretary Bird
+            - Condor
+            - Harpy Eagle
+            - Kookaburra
+        Aquatic Animals:
+            - Fish
+            - Shark
+            - Whale
+            - Dolphin
+            - Seal
+            - Sea Lion
+            - Walrus
+            - Manatee
+            - Penguin
+            - Octopus
+            - Squid
+            - Jellyfish
+            - Sea Anemone
+            - Coral
+            - Clownfish
+            - Angelfish
+            - Surgeonfish
+            - Pufferfish
+            - Seahorse
+            - Starfish
+            - Sea Turtle
+            - Crocodile
+            - Alligator
+            - Frog
+            - Toad
+            - Salamander
+            - Newt
+            - Turtle
+            - Terrapin
+        Microorganisms:
+            - Bacteria
+            - Virus
+            - Fungus
+            - Protozoa
+            - Amoeba
+            - Paramecium
+            - Euglena
+            - Diatom
+            - Algae
+            - Plankton
+            - Microbe
 
 # BoCharsCyberpunk
 BoCharsCyberpunk:
@@ -11589,6 +13322,7 @@ mushrooms:
         - Restorative attributes
         - Herbal medicine
 
+
 NSFW:
     words:
         adjectives:
@@ -12020,6 +13754,18 @@ person:
             }, 
             __random/haircolor__ __person/regular/haircuts-female__ hair, 
             __person/regular/expressions__"
+        female_simple:
+            - "__person/regular/ages__,
+            __person/regular/bodyshapes__,
+            __person/regular/ethnics__,
+            __person/regular/eyecolor__,
+            {__person/regular/ears__,|}
+            {
+                {0.7::__person/regular/facial-features__|}|
+                {0.5::__person/regular/makeup__|}
+            }, 
+            __random/haircolor__ __person/regular/haircuts-female__ hair, 
+            __person/regular/expressions__"
         male:
             - "__person/regular/ages__
             __person/regular/bodyshapes__,
@@ -12033,6 +13779,18 @@ person:
             {__person/regular/forehead__,|}
             {__person/regular/face-shape__,|}
             {__person/regular/body-feature__,|}
+            {
+                {0.7::__person/regular/facial-features__|}|
+                {0.5::__person/regular/beard__|}
+            }, 
+            __random/haircolor__ __person/regular/haircuts-male__ hair, 
+            __person/regular/expressions__,"
+        male_simple:
+            - "__person/regular/ages__
+            __person/regular/bodyshapes__,
+            __person/regular/ethnics__,
+            __person/regular/eyecolor__,
+            {__person/regular/ears__,|}
             {
                 {0.7::__person/regular/facial-features__|}|
                 {0.5::__person/regular/beard__|}
