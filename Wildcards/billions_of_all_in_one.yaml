@@ -8128,6 +8128,1388 @@ constructions:
             - Immersive Interactive Façades (e.g., LED Screens)
 
 
+# BoCreative
+BoCreative:
+    random:
+        - __creative/*__
+creative:
+    Surreal-Things:
+        - Dreamscapes
+        - Time Warps
+        - Quantum Realities
+        - Thought Clouds
+        - Hallucinations
+        - Surreal Art
+        - Escheresque Architecture
+        - Impossible Geometries
+        - Living Statues
+        - Shape-shifting Objects
+        - Floating Islands
+        - Gravity-Defying Waterfalls
+        - Mirror Worlds
+        - Sentient Shadows
+        - Talking Animals
+        - Non-Euclidean Landscapes
+        - Cyclopean Structures
+        - Eldritch Horrors
+        - Invisible Mazes
+        - Anomalous Zones
+        - Psychic Phenomena
+        - Time Loops
+        - Disembodied Voices
+        - Levitating Furniture
+        - Melting Clocks
+        - Rainbow Waterfalls
+        - Celestial Gardens
+        - Sentient Clouds
+        - Dancing Aurora Borealis
+        - Chromatic Fog
+        - Whimsical Portals
+        - Metamorphic Trees
+        - Cosmic Libraries
+        - Living Constellations
+        - Floating Books
+        - Sentient Paintings
+        - Echoing Whispers
+        - Bioluminescent Fauna
+        - Telepathic Communication
+        - Time-Traveling Objects
+        - Anachronistic Technology
+        - Thought-Provoking Riddles
+        - Reality-Bending Illusions
+        - Abstract Concepts Materialized
+    Dream:
+        - Lucid Dreams
+        - Flying without Wings
+        - Talking Animals
+        - Timeless Moments
+        - Surreal Landscapes
+        - Shape-shifting Characters
+        - Teleportation
+        - Unusual Color Schemes
+        - Meeting Deceased Loved Ones
+        - Miraculous Transformations
+        - Nonsensical Plotlines
+        - Telekinesis
+        - Unexplored Territories
+        - Time Travel
+        - Morphing Objects
+        - Gravity-Defying Actions
+        - Talking Inanimate Objects
+        - Mind-Blowing Architecture
+        - Emotional Intensity
+        - Alternate Realities
+        - Unexplained Phenomena
+        - Impossible Physics
+        - Inception-like Layers
+        - Empathetic Experiences
+        - Symbolic Imagery
+        - Metaphorical Narratives
+        - Ephemeral Beauty
+        - Vivid Colors
+        - Eerie Silence
+        - Chaotic Scenarios
+        - Unseen Forces
+        - Unattainable Goals
+        - Hidden Meanings
+        - Ethereal Music
+        - Unpredictable Twists
+        - Seamless Transitions
+        - Vanishing Paths
+        - Collective Dreams
+        - Reflections of Reality
+    Dreamscapes:
+        - Celestial Gardens
+        - Floating Islands of Serenity
+        - Crystal Labyrinths
+        - Cosmic Waterfalls
+        - Gardens of Eternal Twilight
+        - Radiant Meadows
+        - Sapphire Skies
+        - Luminous Underwater Realms
+        - Timeless Clockwork Cities
+        - Infinite Staircases
+        - Surreal Forests of Whimsy
+        - Ethereal Mountainscapes
+        - Whispering Deserts
+        - Enchanted Ice Palaces
+        - Mirage-filled Deserts
+        - Velvet Cloudscapes
+        - Neon Aurora Borealis
+        - Illusionary Coral Reefs
+        - Morphing Sand Dunes
+        - Blossoming Nebulae
+        - Liquid Starlight Pools
+        - Elusive Butterfly Valleys
+        - Translucent Crystal Caves
+        - Undulating Fields of Harmony
+        - Radiant Lotus Ponds
+        - Eternal Flame Gardens
+        - Shimmering Echo Chambers
+        - Celestial Spires
+        - Quantum Halls of Mirrors
+    Haunting:
+        - Ghostly Whispers
+        - Eerie Shadows
+        - Creaking Floorboards
+        - Flickering Candlelight
+        - Phantom Footsteps
+        - Wisps of Mist
+        - Haunted Hallways
+        - Distant Mourning
+        - Spectral Echoes
+        - Lurking Shadows
+        - Chilling Apparitions
+        - Unsettling Silence
+        - Phantom Chills
+        - Macabre Portraits
+        - Cryptic Symbols
+        - Spine-tingling Murmurs
+        - Shivering Isolation
+        - Wraith-like Presence
+        - Foreboding Darkness
+        - Mournful Melodies
+        - Unearthly Moans
+        - Ghoulish Whispers
+        - Shadowy Figures
+        - Haunted Memories
+        - Creeping Despair
+        - Veiled Moonlight
+        - Restless Spirits
+        - Dismal Corridors
+        - Ghostly Visages
+        - Lamenting Souls
+    Cosmic:
+        - Celestial Harmony
+        - Galactic Wonders
+        - Astral Symphony
+        - Cosmic Radiance
+        - Nebulous Dreams
+        - Stellar Serenity
+        - Interstellar Journeys
+        - Cosmic Tapestry
+        - Ethereal Galaxy
+        - Infinite Horizons
+        - Astral Whispers
+        - Galactic Euphoria
+        - Celestial Embrace
+        - Cosmic Pulsations
+        - Nebulaic Reflections
+        - Interplanetary Quests
+        - Starlit Reverie
+        - Cosmic Echoes
+        - Nebulaic Splendor
+        - Astral Illumination
+        - Stellar Vibrations
+        - Celestial Odyssey
+        - Infinite Cosmos
+        - Galactic Spectacle
+        - Astral Ascent
+        - Cosmic Enlightenment
+        - Nebular Tranquility
+        - Celestial Tapestry
+        - Interstellar Symphony
+        - Ethereal Exploration
+    Heavenly:
+        - Seraphic Bliss
+        - Celestial Harmony
+        - Angelic Radiance
+        - Divine Serenity
+        - Celestial Choir
+        - Heavenly Grace
+        - Ethereal Light
+        - Angelic Whispers
+        - Divine Aura
+        - Serene Paradigm
+        - Celestial Haven
+        - Angelic Presence
+        - Divine Illumination
+        - Ethereal Sanctum
+        - Heavenly Embrace
+        - Seraphic Resonance
+        - Celestial Symphony
+        - Angelic Reverie
+        - Divine Majesty
+        - Ethereal Dreams
+        - Heavenly Ascension
+        - Seraphic Euphony
+        - Celestial Tranquility
+        - Angelic Splendor
+        - Divine Luminance
+        - Ethereal Bliss
+        - Heavenly Choir
+        - Seraphic Radiance
+        - Celestial Luminescence
+        - Angelic Harmony
+    Hellish:
+        - Infernal Abyss
+        - Demonic Torment
+        - Hellfire Inferno
+        - Malevolent Darkness
+        - Diabolical Chaos
+        - Netherworld Agony
+        - Hades' Wrath
+        - Sinister Abyss
+        - Fiery Perdition
+        - Demonic Havoc
+        - Stygian Desolation
+        - Maleficent Flames
+        - Inferno's Fury
+        - Tartarean Anguish
+        - Abyssal Conflagration
+        - Malevolent Void
+        - Gehennan Blight
+        - Demonic Despair
+        - Hellish Abyss
+        - Fiendish Cataclysm
+        - Stygian Inferno
+        - Infernal Turmoil
+        - Netherworld Damnation
+        - Maleficent Hellscape
+        - Abyssal Torture
+        - Diabolical Flames
+        - Hellfire Pandemonium
+        - Demonic Ravage
+        - Tartarean Onslaught
+        - Inferno's Desolation
+    Serene:
+        - Tranquil Oasis
+        - Peaceful Meadows
+        - Calm Waters
+        - Gentle Breeze
+        - Serene Sunset
+        - Harmony Haven
+        - Soothing Moonlight
+        - Quietude Retreat
+        - Blissful Gardens
+        - Placid Reflections
+        - Tranquility Falls
+        - Ethereal Serenity
+        - Celestial Harmony
+        - Utopian Serenade
+        - Seraphic Haven
+        - Zenith of Peace
+        - Elysian Meadows
+        - Serene Oasis
+        - Heavenly Calm
+        - Tranquil Lagoon
+        - Idyllic Shores
+        - Halcyon Fields
+        - Hushed Haven
+        - Blissful Horizon
+        - Ethereal Waters
+        - Celestial Tranquility
+        - Arcadian Retreat
+        - Gentle Zephyr
+        - Serene Summit
+        - Harmony's Embrace
+	Majestic:
+        - Regal Peaks
+        - Royal Symphony
+        - Majestic Citadel
+        - Sovereign Realm
+        - Imperial Crest
+        - Grandeur Valley
+        - Magnificent Horizon
+        - Noble Enclave
+        - Stately Summit
+        - Monarch's Haven
+        - Opulent Skies
+        - Supreme Panorama
+        - Dignified Plateau
+        - August Ascent
+        - Majestic Pinnacle
+        - Grandiose Cascades
+        - Kingly Respite
+        - Illustrious Vista
+        - Imperial Uplands
+        - Noble Vantage
+        - Resplendent Heights
+        - Baronial Outlook
+        - Elevated Majesty
+        - Monarchical View
+        - Majestic Overlook
+        - Royal Crest
+        - Grand Dominion
+        - Stately Elevation
+        - Imperial Zenith
+        - Majestic Crest
+        - Sovereign Haven
+        - Regal Ascent
+        - Grand Monolith
+	Magical:
+        - Enchanted Grove
+        - Mystical Whispers
+        - Arcane Sanctuary
+        - Sorcerer's Haven
+        - Enigmatic Veil
+        - Bewitched Meadows
+        - Charmed Oasis
+        - Wizard's Labyrinth
+        - Mystic Altar
+        - Enchanted Cascade
+        - Otherworldly Nexus
+        - Supernatural Oasis
+        - Spellbound Garden
+        - Mystic Echoes
+        - Etherial Glade
+        - Enchanted Grove
+        - Mystical Arboretum
+        - Sorcerer's Refuge
+        - Enigmatic Hollow
+        - Arcane Respite
+        - Charmed Glade
+        - Enchanted Retreat
+        - Sorcery Springs
+        - Magical Canopy
+        - Mystical Refuge
+        - Enchanted Isles
+        - Wizard's Retreat
+        - Etherial Haven
+        - Otherworldly Grove
+        - Enchanted Copse
+        - Mystic Retreat
+        - Arcane Grotto
+        - Sorcerer's Retreat
+	Otherworldly:
+        - Celestial Expanse
+        - Abyssal Depths
+        - Ethereal Wonders
+        - Alien Horizons
+        - Astral Realm
+        - Unknown Realms
+        - Dimensional Abyss
+        - Cosmic Vortex
+        - Transcendent Void
+        - Otherdimensional Nexus
+        - Celestial Phenomena
+        - Uncharted Cosmos
+        - Cosmic Gateway
+        - Interstellar Enigma
+        - Exoplanetary Mysteries
+        - Nebulous Realms
+        - Supernatural Spheres
+        - Galactic Enigma
+        - Extragalactic Wonders
+        - Quasar Realms
+        - Interdimensional Portal
+        - Celestial Anomalies
+        - Unexplored Dimensions
+        - Parallel Existence
+        - Ancestral Cosmos
+        - Cosmic Mirage
+        - Hyperspace Odyssey
+        - Stellar Enigma
+        - Alien Frontiers
+        - Transcendent Horizons
+        - Unknown Constellations
+        - Multiversal Mysteries
+        - Hyperdimensional Phenomena
+        - Anomalous Nebulae
+        - Beyond the Veil
+        - Nebulous Gateway
+        - Intergalactic Portal
+	Melancholic:
+        - Solitude
+        - Echoes of Sorrow
+        - Fading Memories
+        - Haunting Melodies
+        - Tears of Twilight
+        - Wistful Whispers
+        - Forgotten Dreams
+        - Lingering Sadness
+        - Mournful Reflections
+        - Shadows of Regret
+        - Bittersweet Reminiscence
+        - Veiled Longing
+        - Dusk's Embrace
+        - Nostalgic Echo
+        - Lament of the Moon
+        - Shattered Serenity
+        - Elegy of Solitude
+        - Whispering Pines
+        - Sullen Serenade
+        - Drifting Desolation
+        - Fading Embers
+        - Ephemeral Grief
+        - Vanishing Hopes
+        - Ethereal Lament
+        - Fading Starlight
+        - Enigmatic Sorrows
+        - Lonesome Horizon
+        - Shadowed Echo
+        - Twilight Reverie
+        - Misty Solace
+        - Muffled Sobs
+        - Echoing Heartache
+        - Desolate Whispers
+        - Dissonant Echo
+        - Shrouded Sorrow
+        - Lamentation of Ages
+        - Twilight Elegy
+        - Haunted Memories
+        - Resonant Sighs
+        - Fading Echoes
+	Artistic:
+        - Canvas of Dreams
+        - Palette of Imagination
+        - Brushstrokes of Inspiration
+        - Symphony of Colors
+        - Mosaic of Creativity
+        - Ethereal Masterpiece
+        - Harmonious Euphony
+        - Sculpted Whimsy
+        - Expressive Fusion
+        - Celestial Artistry
+        - Kaleidoscope of Ideas
+        - Melodic Vision
+        - Sublime Creations
+        - Poetic Enchantment
+        - Radiant Aesthetics
+        - Whirling Dervish of Art
+        - Vivid Tapestry
+        - Enigmatic Expression
+        - Fluid Imagination
+        - Abstract Harmony
+        - Pantomime of Emotion
+        - Luminescent Splendor
+        - Visual Symphony
+        - Artisan's Reverie
+        - Sonic Brushstrokes
+        - Rhythmic Palette
+        - Pinnacle of Expression
+        - Artful Resonance
+        - Chromatic Elegance
+        - Dreamscape Impression
+        - Aesthetic Alchemy
+        - Transcendent Vision
+        - Illustrious Realms
+        - Imaginative Odyssey
+        - Arcane Artistry
+        - Whispers of Creation
+        - Vibrant Emanations
+        - Surreal Visions
+        - Artisan's Muse
+        - Inspirational Symphony
+        - Resplendent Imagination
+        - Infinite Perspectives
+        - Reverberating Colors
+        - Ethereal Ingenuity
+	Dark:
+        - Abyssal Shadows
+        - Nocturnal Enigma
+        - Veil of Midnight
+        - Obsidian Silence
+        - Sinister Echoes
+        - Cimmerian Depths
+        - Stygian Veil
+        - Umbral Whispers
+        - Ebon Shroud
+        - Cryptic Gloom
+        - Shadowed Realm
+        - Midnight Reverie
+        - Phantom Silence
+        - Tenebrous Ambiance
+        - Eclipse of Souls
+        - Murmurs of the Abyss
+        - Enigmatic Shadows
+        - Twilight Whispers
+        - Sinister Shades
+        - Velvet Darkness
+        - Ominous Obscurity
+        - Haunting Murk
+        - Macabre Melancholy
+        - Chiaroscuro of Despair
+        - Eerie Nocturne
+        - Gothic Twilight
+        - Abyssal Hues
+        - Obscure Labyrinth
+        - Shrouded Secrets
+        - Crepuscular Veil
+        - Enshrouded Desolation
+        - Cryptic Despair
+        - Darkened Dreamscape
+        - Unseen Depths
+        - Silent Nightfall
+        - Mysterious Abyss
+        - Shadowed Solitude
+        - Enveloping Shadows
+        - Lunar Eclipse
+        - Whispering Shadows
+        - Sinuous Shadows
+        - Nefarious Nightfall
+        - Cryptic Void
+        - Clandestine Darkness
+        - Whispered Secrets
+	Light:
+        - Luminous Radiance
+        - Ethereal Glow
+        - Radiant Luminescence
+        - Celestial Brilliance
+        - Dazzling Effulgence
+        - Resplendent Aura
+        - Golden Radiance
+        - Glittering Illumination
+        - Prismatic Gleam
+        - Shimmering Halo
+        - Eclipsing Radiance
+        - Divine Luster
+        - Lucent Sparkle
+        - Astral Glow
+        - Glimmering Beacon
+        - Vivid Radiance
+        - Gleaming Spectra
+        - Heavenly Brilliance
+        - Incandescent Luminescence
+        - Radiant Halo
+        - Solar Illumination
+        - Lustrous Glow
+        - Dazzling Spark
+        - Glinting Sunbeam
+        - Shining Mirage
+        - Sparkling Radiance
+        - Ethereal Luminescence
+        - Brilliant Aura
+        - Scintillating Light
+        - Glorious Radiance
+        - Phosphorescent Shine
+        - Splendid Gleam
+        - Lustrous Halo
+        - Astral Brilliance
+        - Prism of Light
+        - Effervescent Glow
+        - Gleaming Resonance
+        - Dazzling Flash
+        - Mesmerizing Luminance
+        - Glistening Splendor
+        - Enchanting Radiance
+        - Radiant Spectrum
+        - Gleaming Starlight
+        - Illuminated Serenity
+
+	Synthetic:
+        - Artificial Construct
+        - Manufactured Replica
+        - Simulated Creation
+        - Engineered Entity
+        - Synthetic Intelligence
+        - Fabricated Apparatus
+        - Constructed Facsimile
+        - Virtual Creation
+        - Simulacrum
+        - Fabricated Simulation
+        - Technological Replication
+        - Engineered Contrivance
+        - Synthetic Being
+        - Computer-Generated Construct
+        - Manufactured Facade
+        - Virtual Reality
+        - Machine-Made Illusion
+        - Simulated Existence
+        - Constructed Surrogate
+        - Artificial Replica
+        - Cybernetic Apparition
+        - Engineered Simulation
+        - Synthetic Facsimile
+        - Created Artifact
+        - Virtual Construct
+        - Artificial Facade
+        - Man-Made Reproduction
+        - Fabricated Representation
+        - Simulated Entity
+        - Constructed Avatar
+        - Engineered Creation
+        - Synthetic Doppelgänger
+        - Artificial Reproduction
+        - Simulated Reality
+        - Manufactured Illusion
+        - Technological Construct
+        - Fabricated Phenomenon
+        - Synthetic Imitation
+        - Engineered Apparition
+        - Artificial Apparatus
+        - Simulated Apparition
+        - Constructed Phenomenon
+        - Virtual Facade
+        - Engineered Representation
+        - Simulated Construct
+        - Synthetic Illusion
+        - Artificial Creation
+	Swampy:
+        - Murky Marshland
+        - Mysterious Swamp
+        - Boggy Expanse
+        - Wetland Wilderness
+        - Marshy Landscape
+        - Damp Swamp Scene
+        - Quagmire Panorama
+        - Soggy Wetland
+        - Oozing Swamp Vista
+        - Mossy Marshland
+        - Dreary Bog
+        - Saturated Wetland
+        - Creaking Swamp Scene
+        - Glistening Quagmire
+        - Swampy Wilderness
+        - Squelchy Marsh
+        - Shadowy Bog
+        - Murmuring Wetland
+        - Enigmatic Swamp
+        - Drenched Quagmire
+        - Eerie Marshland
+        - Silent Swamp Scene
+        - Shrouded Wetland
+        - Spongy Bog
+        - Misty Swamp Vista
+        - Whispering Marsh
+        - Dusky Quagmire
+        - Vague Wetland
+        - Dark Swamp Landscape
+        - Serene Bog Scene
+        - Swampy Panorama
+        - Hushed Wetland
+        - Gloomy Marshland
+        - Lush Quagmire
+        - Hazy Swamp Vista
+        - Swampy Horizon
+        - Dampened Wetland
+        - Forsaken Marsh
+        - Dense Bog Scene
+        - Swampy Wilderness
+        - Hazy Quagmire
+        - Whispering Swamp
+        - Ominous Wetland
+        - Overgrown Marsh
+        - Shadowy Bog Vista
+        - Swampy Twilight
+        - Muddy Quagmire
+
+	Ocean:
+        - Vast Seascape
+        - Boundless Ocean
+        - Expansive Waters
+        - Infinite Aquascape
+        - Endless Maritime Scene
+        - Bottomless Blue
+        - Abyssal Depths
+        - Nautical Panorama
+        - Seafaring Horizon
+        - Coastal Expanse
+        - Aquatic Realm
+        - Maritime Vista
+        - Coastal Seascape
+        - Seaside Panorama
+        - Briny Landscape
+        - Deep Blue Horizon
+        - Coastal Waters
+        - Aquatic Wonderland
+        - Oceanic Scene
+        - Seafront View
+        - Submerged Panorama
+        - Marine Landscape
+        - Ocean Floor Vista
+        - Nautical Horizon
+        - Seabed Panorama
+        - Tidal Waters
+        - Underwater Expanse
+        - Subaquatic Realm
+        - Coastal Horizon
+        - Marine Vista
+        - Seafloor Scene
+        - Blue Seascape
+        - Open Ocean View
+        - Saltwater Panorama
+        - Coastal Waterscape
+        - Maritime Seascape
+        - Oceanic Horizon
+        - Tidal Wave Scene
+        - Deep Blue Seascape
+        - Submerged Seascape
+        - Vast Aquatic Realm
+        - Expansive Seaside
+        - Marine Waterscape
+        - Open Water Panorama
+        - Boundless Maritime Scene
+        - Aquatic Wonderland
+        - Ocean Floor Vista
+
+	Toxic:
+        - Poisoned Landscape
+        - Venomous Wilderness
+        - Hazardous Terrain
+        - Contaminated Environment
+        - Polluted Realm
+        - Noxious Surroundings
+        - Lethal Domain
+        - Harmful Outskirts
+        - Corrosive Wasteland
+        - Radioactive Zone
+        - Irradiated Expanse
+        - Dangerous Habitat
+        - Unhealthy Setting
+        - Deadly Territory
+        - Virulent District
+        - Acrid Scene
+        - Pungent Locale
+        - Malevolent Area
+        - Cursed Realm
+        - Ominous Landscape
+        - Sinister Terrain
+        - Miasmic Wilderness
+        - Fetid Outdoors
+        - Vile Surroundings
+        - Baneful Realm
+        - Unwholesome Space
+        - Nefarious Zone
+        - Baleful Landscape
+        - Maleficent Territory
+        - Putrid Domain
+        - Nocuous Expanse
+        - Pestilent Terrain
+        - Malignant Wilderness
+        - Malefic Area
+        - Dire Outskirts
+        - Grim Environment
+        - Apocalyptic Scene
+        - Catastrophic Zone
+        - Apocalyptical Setting
+        - Ruinous Landscape
+        - Destructive Territory
+        - Devastating Realm
+        - Terrible Expanse
+        - Fateful District
+        - Damaging Area
+        - Injurious Landscape
+        - Deleterious Wilderness
+        - Ruinous Terrain
+	Wonderland:
+        - Whimsical Wonderland
+        - Enchanted Forest
+        - Curious Meadow
+        - Mad Hatter's Tea Party
+        - Queen's Rose Garden
+        - Cheshire Cat's Grin
+        - Wonderland Labyrinth
+        - Tweedledee and Tweedledum
+        - Card Soldiers Parade
+        - Mushroom Grove
+        - Caterpillar's Corner
+        - White Rabbit's Clock Tower
+        - Jubilant Croquet Game
+        - Tea Cups Spin
+        - Red Queen's Castle
+        - Jabberwocky's Lair
+        - Queen of Hearts' Throne
+        - Curiouser and Curiouser
+        - Chesire Cat's Disappear
+        - Wonderland Dreamscape
+        - Unbirthday Celebration
+        - Whirling Dervish Daisies
+        - Hatter's Madcap Millinery
+        - Deck of Cards
+        - Grinning Chessboard
+        - Nonsensical Nook
+        - Time-Traveling Pocket Watch
+        - Dormouse's Siesta Spot
+        - Wonderland Portal
+        - Mome Rath Menagerie
+        - Croquet Mallet Mayhem
+        - Dormouse's Drowsy Den
+        - Hatter's Hat Shop
+        - Jubjub Bird's Nest
+        - Enigmatic Elixir
+        - Vorpal Blade's Edge
+        - Wonderland Whirlpool
+        - Mock Turtle's Melancholy
+        - Dreamy Wonderland
+        - Frabjous Day
+        - Wonderland Welkin
+        - Peculiar Pocket Dimension
+        - Wonderland Wonderscape
+        - Fantastic Folly
+        - Wonderland Whimsy
+        - Nonsensical Netherworld
+	Wondrous-Landscapes:
+        - Enchanted Grove
+        - Mystical Meadow
+        - Serene Seashore
+        - Celestial Citadel
+        - Ethereal Expanse
+        - Nebulous Netherworld
+        - Sublime Summit
+        - Tranquil Treetops
+        - Luminous Lagoon
+        - Radiant Ravine
+        - Elysian Ecliptic
+        - Whimsical Waterfall
+        - Astral Abyss
+        - Ethereal Eon
+        - Celestial Canopy
+        - Enigmatic Eden
+        - Sublime Sanctum
+        - Majestic Mirage
+        - Tranquil Terrarium
+        - Cosmic Corners
+        - Paradisiacal Panorama
+        - Arcane Archipelago
+        - Enchanted Everglade
+        - Radiant Realm
+        - Lustrous Landscape
+        - Ethereal Enclave
+        - Celestial Corridor
+        - Astral Alcove
+        - Divine Domain
+        - Harmonious Horizon
+        - Enigmatic Expanse
+        - Seraphic Scenery
+        - Arcadian Asylum
+        - Wondrous Wilderness
+        - Mystical Montage
+        - Paradisal Perspective
+        - Celestial Crescendo
+        - Tranquil Tapestry
+        - Ethereal Escape
+        - Lustrous Labyrinth
+        - Enchanted Euphoria
+        - Astral Atelier
+        - Radiant Refuge
+        - Sublime Spectacle
+        - Divine Delight
+        - Harmonious Haven
+        - Celestial Canvas
+	Alien:
+        - Extraterrestrial Expanse
+        - Alien Atmosphere
+        - Otherworldly Outcrop
+        - Intergalactic Interface
+        - Cosmic Chasm
+        - Nebulous Nook
+        - Astropodal Abyss
+        - Galactic Gorge
+        - Celestial Citadel
+        - Stellar Scape
+        - Interstellar Islet
+        - Lunar Labyrinth
+        - Cosmic Crater
+        - Astral Anomaly
+        - Ecliptic Enigma
+        - Planetary Pinnacle
+        - Exoplanetary Expanse
+        - Galactic Gateway
+        - Starborne Sanctuary
+        - Nebula Nexus
+        - Celestial Conclave
+        - Extraterrestrial Edifice
+        - Alien Array
+        - Cosmic Cluster
+        - Intergalactic Isthmus
+        - Nebular Netherworld
+        - Stellar Stronghold
+        - Celestial Circlet
+        - Galactic Garden
+        - Astral Assemblage
+        - Celestial Chorus
+        - Exoplanetary Eden
+        - Nebula Nook
+        - Cosmic Canopy
+        - Alien Aerie
+        - Interstellar Interlude
+        - Celestial Confluence
+        - Planetary Pantheon
+        - Galactic Grove
+        - Nebular Nook
+        - Ecliptic Enclave
+        - Starry Sanctuary
+        - Celestial Chasm
+        - Astral Altar
+        - Cosmic Courtyard
+        - Otherworldly Oasis
+        - Intergalactic Impression
+        - Nebular Nirvana
+	Fiery:
+        - Infernal Inferno
+        - Blazing Bluff
+        - Embered Expanse
+        - Scorching Summit
+        - Volcanic Vista
+        - Pyroclastic Plateau
+        - Molten Maelstrom
+        - Incandescent Islet
+        - Firestorm Frontier
+        - Flame-Kissed Knoll
+        - Charred Canyon
+        - Blaze-Borne Bluff
+        - Searing Spire
+        - Incendiary Inlet
+        - Scorched Silhouette
+        - Ember Enclave
+        - Conflagration Cove
+        - Radiant Ravine
+        - Lava-Forged Foothills
+        - Molten Mirage
+        - Pyro Peak
+        - Flare-Fueled Flatlands
+        - Furnace Fields
+        - Radiant Ridge
+        - Blistering Bluff
+        - Volcanic Vortex
+        - Inferno Inlet
+        - Scalding Summit
+        - Flame-Emblazoned Expanse
+        - Sulfurous Spire
+        - Torrid Terrace
+        - Incendiary Impression
+        - Embered Enclave
+        - Charred Chasm
+        - Radiant Riff
+        - Molten Meadow
+        - Pyroclasmic Plateau
+        - Blazing Blight
+        - Scorched Sanctuary
+        - Lava-Soaked Scenery
+        - Firebrand Flatlands
+        - Incendiary Impression
+        - Embered Escarpment
+        - Infernal Impasse
+        - Flame-Forged Foothills
+        - Volcanic Vale
+	Fanatic:
+        - Zealous Zealots
+        - Devout Devotees
+        - Ardent Adherents
+        - Fervent Followers
+        - Radical Radicals
+        - Extreme Extremists
+        - Manic Missionaries
+        - Intense Initiates
+        - Obsessive Obsessives
+        - Fiery Fanatics
+        - Dedicated Disciples
+        - Passionate Partisans
+        - Unyielding Ultraists
+        - Zeal-Driven Zealots
+        - Tenacious True Believers
+        - Frenzied Fanatics
+        - Single-Minded Sectarians
+        - Unrelenting Ultranationalists
+        - Enthusiastic Extremists
+        - Zealotry Zealots
+        - Committed Crusaders
+        - Insistent Idealists
+        - Radicalized Radicals
+        - Maniacal Militants
+        - Zealotical Zealots
+        - Pious Purists
+        - Obsessively Obsessed
+        - Eccentric Enthusiasts
+        - Dogmatic Devotees
+        - Immoderate Idealists
+        - Fixated Fanatics
+        - Radicalized Revolutionaries
+        - Monomaniacal Monomaniacs
+        - Intransigent Insurgents
+        - Zealotical Zealots
+        - Avid Advocates
+        - Unshakeable Ultraists
+        - Irrepressible Ideologues
+        - Zealous Zelots
+        - Overzealous Overzealots
+        - Passionate Proselytizers
+        - Uncompromising Ultraists
+        - Enthusiastic Extremists
+        - Obsessive Obsessives
+	Breathtaking:
+        - Majestic Mountainscapes
+        - Serene Seascapes
+        - Enchanting Environments
+        - Ethereal Edens
+        - Picturesque Paradises
+        - Mesmerizing Moonscapes
+        - Heavenly Horizons
+        - Radiant Rainbows
+        - Astonishing Atmospheres
+        - Sublime Skylines
+        - Captivating Cloudscapes
+        - Whimsical Wonderlands
+        - Awe-Inspiring Auroras
+        - Spellbinding Starfields
+        - Enigmatic Edifices
+        - Mystical Meadows
+        - Tranquil Terrains
+        - Luminous Landscapes
+        - Breathtaking Backdrops
+        - Resplendent Realms
+        - Alluring Abyss
+        - Celestial Canvases
+        - Sublime Sunsets
+        - Dazzling Dreamscapes
+        - Radiant Realities
+        - Transcendent Tableaus
+        - Gorgeous Galaxies
+        - Phenomenal Panoramas
+        - Stunning Settings
+        - Otherworldly Oases
+        - Seraphic Spectacles
+        - Harmonious Horizons
+        - Picturesque Pinnacles
+        - Blissful Backdrops
+        - Enrapturing Enclaves
+        - Mesmeric Murmurations
+        - Aesthetic Aspects
+        - Spectacular Scenes
+        - Unbelievable Utopias
+        - Transcendent Tableaux
+        - Hypnotic Hues
+        - Marvelous Mosaics
+        - Radiant Realities
+        - Sublime Sightings
+        - Transcendent Tableaus
+	Unsettling:
+        - Eerie Abyss
+        - Creepy Catacombs
+        - Haunting Hallways
+        - Spooky Swamps
+        - Cryptic Caverns
+        - Menacing Mists
+        - Sinister Shadows
+        - Ghastly Graveyards
+        - Ominous Oceans
+        - Bewitched Burrows
+        - Paranormal Plains
+        - Cursed Corners
+        - Dreadful Desolation
+        - Chilling Chambers
+        - Macabre Meadows
+        - Petrifying Plateaus
+        - Disquieting Depths
+        - Ghostly Gardens
+        - Wicked Wastelands
+        - Foreboding Forests
+        - Unearthly Underworld
+        - Phantom Phases
+        - Fearful Fogs
+        - Bewildering Barrens
+        - Menacing Moors
+        - Terrifying Territories
+        - Aberrant Abyss
+        - Diabolical Dens
+        - Harrowing Halls
+        - Ephemeral Eclipses
+        - Bizarre Backdrops
+        - Spine-chilling Settings
+        - Macabre Marvels
+        - Cursed Corners
+        - Uncanny Uplands
+        - Enigmatic Enclaves
+        - Petrifying Plateaus
+        - Bewitched Barriers
+        - Otherworldly Oases
+        - Apparitional Arenas
+        - Paranormal Panoramas
+        - Unearthly Upheaval
+        - Unnerving Utopias
+        - Mysterious Maelstroms
+        - Frightful Fields
+        - Strange Sanctuaries
+        - Unworldly Wastelands
+	Fairytale:
+        - Enchanted Forest
+        - Magical Meadows
+        - Whimsical Woods
+        - Enchanting Gardens
+        - Bewitched Castles
+        - Mystical Mountains
+        - Wondrous Waterfalls
+        - Fairyland Fields
+        - Ethereal Edens
+        - Pixie-lit Pastures
+        - Wonderland
+        - Elfin Enclaves
+        - Gnomish Glades
+        - Nymph Nooks
+        - Mermaid Havens
+        - Unicorn Utopias
+        - Dragon Dales
+        - Centaur Sanctuaries
+        - Sorcerer's Sanctums
+        - Enigmatic Elms
+        - Fabled Fountains
+        - Enchanted Isles
+        - Spellbound Springs
+        - Magical Mazes
+        - Leprechaun Lairs
+        - Mythical Meadows
+        - Fairy Rings
+        - Talebound Temples
+        - Goblet Gardens
+        - Wonderland
+        - Enchanted Elysium
+        - Mystic Moats
+        - Wizardry Wonders
+        - Fairytale Fountains
+        - Elusive Eldorados
+        - Faerie Fields
+        - Enchanting Elevations
+        - Luminous Labyrinths
+        - Unicorn Universes
+        - Glistening Glens
+        - Storybook Sanctuaries
+        - Enchanted Expanse
+        - Fantasy Fiefs
+        - Whimsical Wonders
+        - Enigmatic Enchiladas
+        - Mythical Meadows
+	Desolate Scenarios:
+        - Barren Wasteland
+        - Lifeless Plains
+        - Empty Abyss
+        - Abandoned Ruins
+        - Apocalyptic Abyss
+        - Voided Vistas
+        - Bleak Badlands
+        - Forlorn Fields
+        - Eerie Expanse
+        - Silent Sands
+        - Desolate Deserts
+        - Gloomy Graveyards
+        - Haunting Hinterlands
+        - Ruined Realms
+        - Solemn Spires
+        - Vast Vacancy
+        - Arid Abyss
+        - Solitary Summit
+        - Abandoned Asylum
+        - Silent Sea
+        - Hollow Haven
+        - Forsaken Forest
+        - Ruined Realm
+        - Ghostly Grotto
+        - Dreary Depths
+        - Isolated Isle
+        - Desperate Domain
+        - Somber Sanctuary
+        - Derelict Domain
+        - Voided Valley
+        - Diminished Dominion
+        - Lost Labyrinth
+        - Abandoned Atoll
+        - Vacant Valleys
+        - Solitude Springs
+        - Lonesome Lagoon
+        - Uninhabited Uplands
+        - Voided Vortex
+        - Silent Summit
+        - Bleak Basin
+        - Wretched Wilderness
+        - Empty Echoes
+        - Despondent Dale
+        - Haunted Halls
+        - Ruined Ramparts
+        - Abandoned Arena
+	Stygian:
+        - Stygian Abyss
+        - Cimmerian Crypts
+        - Erebus Enclave
+        - Abyssal Asylum
+        - Stygian Shadows
+        - Tenebrous Tombs
+        - Umbral Underworld
+        - Netherworld Nexus
+        - Erebus Expanse
+        - Shadowed Sanctum
+        - Stygian Stronghold
+        - Hades Halls
+        - Abyssal Abyss
+        - Cimmerian Citadel
+        - Erebus Enigma
+        - Nether Nexus
+        - Stygian Stronghold
+        - Abyssal Abyss
+        - Tenebrous Temple
+        - Umbral Undergrowth
+        - Erebus Expanse
+        - Stygian Stronghold
+        - Abyssal Abyss
+        - Stygian Sanctuary
+        - Erebus Enigma
+        - Nether Nexus
+        - Cimmerian Catacomb
+        - Stygian Stronghold
+        - Abyssal Abyss
+        - Tenebrous Temple
+        - Erebus Expanse
+        - Nether Nexus
+        - Stygian Stronghold
+        - Abyssal Abyss
+        - Tenebrous Temple
+        - Erebus Expanse
+        - Nether Nexus
+        - Stygian Stronghold
+        - Abyssal Abyss
+        - Tenebrous Temple
+        - Erebus Expanse
+        - Nether Nexus
+        - Stygian Stronghold
+        - Abyssal Abyss
+        - Tenebrous Temple
+        - Erebus Expanse
+        - Nether Nexus
+	Macabre:
+        - Macabre Masquerade
+        - Ghastly Graveyard
+        - Morbid Mansion
+        - Eerie Elegy
+        - Cadaverous Carnival
+        - Ominous Ossuary
+        - Petrifying Phantasmagoria
+        - Spine-chilling Spectacle
+        - Grim Ghoulery
+        - Sinister Séance
+        - Ghostly Gala
+        - Diabolical Dirge
+        - Grisly Gathering
+        - Haunting Hearse
+        - Creepy Catacomb
+        - Wicked Wraithwalk
+        - Bizarre Burial
+        - Mysterious Morgue
+        - Chilling Crypt
+        - Unearthly Undertaking
+        - Nefarious Necropolis
+        - Bone-chilling Banquet
+        - Otherworldly Obituary
+        - Menacing Mausoleum
+        - Shadowy Sepulcher
+        - Macabre Monolith
+        - Ectoplasmic Epitaph
+        - Cursed Crypt
+        - Phantom Fête
+        - Vengeful Vigil
+        - Macabre Menagerie
+        - Deathly Dalliance
+        - Apparitional Affair
+        - Demonic Debauchery
+        - Gruesome Gala
+        - Creepy Communion
+        - Dreadful Deluge
+        - Ominous Occultation
+        - Eerie Embrace
+        - Monstrous Mourning
+        - Malevolent Masked Ball
+        - Spooky Soirée
+        - Terrifying Teaparty
+        - Ghostly Gathering
+        - Chilling Ceremony
+        - Direful Duet
+        - Sinister Symposium
+        - Petrifying Pageant
+	Cacophonous:
+        - Dissonant Discord
+        - Jarring Jamboree
+        - Clashing Chorus
+        - Chaotic Concerto
+        - Tumultuous Tune
+        - Raucous Rhapsody
+        - Unharmonious Harmony
+        - Pandemonium Prelude
+        - Bedlam Ballad
+        - Clamorous Cantata
+        - Discordant Duet
+        - Strident Sonata
+        - Boisterous Ballet
+        - Turbulent Serenade
+        - Rambunctious Rondo
+        - Uproarious Undertone
+        - Noisy Nocturne
+        - Blaring Ballade
+        - Cacophonic Cadence
+        - Unmelodious Melody
+        - Disruptive Dirge
+        - Discordant Divertimento
+        - Turmoil Tone
+        - Clattering Concertina
+        - Unruly Refrain
+        - Harsh Hymn
+        - Unsettling Symphony
+        - Racketous Requiem
+        - Rowdy Reverie
+        - Clangorous Crescendo
+        - Pandemonium Partita
+        - Tumultuous Theme
+        - Jangling Jingle
+        - Unmelodic Motif
+        - Unholy Harmony
+        - Discordant Ditty
+        - Unruly Riff
+        - Chaotic Cadence
+        - Unpleasant Prelude
+        - Disruptive Doxology
+        - Booming Ballet
+        - Unharmonious Hallelujah
+        - Strident Sermon
+        - Raucous Requiem
+        - Cacophonous Carillon
+        - Bedlam Bellow
+        - Clattering Canticle
+        - Dissonant Devotion
+        - Unsettling Sonata
+        - Harsh Harmony
+        - Noisy Nuptials
+	Nocturnal Nomenclature:
+        - Midnight Murmurs
+        - Shadowy Soliloquy
+        - Moonlit Monologue
+        - Starlit Serenade
+        - Darkened Discourse
+        - Astral Address
+        - Nightfall Narrative
+        - Celestial Conversation
+        - Dusky Dialogue
+        - Lunar Lament
+        - Twilight Tale
+        - Shadowplay Speech
+        - Nebulous Narration
+        - Eventide Eloquence
+        - Obsidian Oratory
+        - Stellar Story
+        - Ebon Exposition
+        - Nightshade Natter
+        - Starry Soiree
+        - Blackened Banter
+        - Velvet Verbiage
+        - Nocturne Notation
+        - Cosmic Conversation
+        - Umbral Utterance
+        - Hushed Harmony
+        - Enigmatic Elocution
+        - Silent Symposium
+        - Mysterious Monody
+        - Shadow Sermon
+        - Moonshadow Musings
+        - Whispered Wordplay
+        - Midnight Musing
+        - Dark Discourse
+        - Star-Studded Soliloquy
+        - Lunar Lexicon
+        - Nebula News
+        - Constellation Communication
+        - Stellar Symposium
+        - Astral Announcements
+        - Nightfall Notions
+        - Shadowy Speech
+        - Celestial Cipher
+        - Eclipsed Exposition
+        - Twilight Talk
+        - Moonbeam Banter
+        - Starry Storytelling
+        - Obscure Oration
+        - Eventide Enigma
+        - Lunar Lullaby
+        - Nebula Narrative
+        - Duskened Dialogue
+
+
+
 # BoCreatures
 BoCreatures:
     random:
@@ -23129,6 +24511,7 @@ styles:
         - Color Meaning
         - Color Association
         - Color Harmony
+    
 
 styles-architectural:
     architectural:
