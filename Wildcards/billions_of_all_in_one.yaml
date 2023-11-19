@@ -9604,7 +9604,319 @@ creative:
         - Esoteric Temples
         - Haunted Isles
         - Incomprehensible Skies
-
+    Metaphoric:
+        - Sea of Possibilities
+        - Mountain of Challenges
+        - Forest of Opportunities
+        - Valley of Reflection
+        - Desert of Uncertainty
+        - Garden of Creativity
+        - River of Imagination
+        - Plateau of Wisdom
+        - Canyon of Decision
+        - Oasis of Tranquility
+        - Cave of Introspection
+        - Bridge of Connections
+        - Meadow of Growth
+        - Volcano of Passion
+        - Harbor of Resilience
+        - Archipelago of Choices
+        - Observatory of Insight
+        - Citadel of Ambition
+        - Fen of Transition
+        - Harbor of Serenity
+        - Quicksand of Doubt
+        - Summit of Clarity
+        - Marsh of Complexity
+        - Mosaic of Perspectives
+        - Mirage of Illusions
+        - Scaffold of Progress
+        - Crossroads of Destiny
+        - Echo Chamber of Thoughts
+        - Tangle of Emotions
+        - Elysium of Fulfillment
+        - Infinity Pool of Ideas
+        - Labyrinth of Challenges
+        - Aurora of Enlightenment
+        - Tundra of Solitude
+        - Bazaar of Possibilities
+        - Ephemeral Meadow of Dreams
+        - Abyss of Uncertainty
+        - Whirlpool of Change
+        - Spires of Potential
+        - Harbor of Dreams
+        - Peninsula of Innovation
+        - Echoing Canyons of Legacy
+        - Radiant Core of Ambition
+        - Iceberg of Stability
+        - Vortex of Transformation
+        - Alcove of Silence
+        - Spiral Staircase of Progress
+        - Reservoir of Resilience
+        - Observatory of Destiny
+        - Haven of Harmony
+        - Nexus of Exploration
+        - Echoing Caves of Experience
+        - Treetop Canopy of Growth
+        - Bamboo Grove of Adaptability
+        - Nebula of Imagination
+        - Fjord of Reflection
+        - Celestial Archipelago of Ideas
+        - Cascade of Enlightenment
+        - Rainbow Bridge of Connection
+        - Tapestry of Wisdom
+        - Grove of Innovation
+        - Vault of Discovery
+        - Pinnacle of Creativity
+        - Mirage of Illusions
+        - Expanse of Echoes
+        - Summit of Imagination
+        - Cavern of Curiosity
+        - Cradle of Wisdom
+        - Fortress of Insight
+        - Sanctuary of Epiphanies
+        - Matrix of Enlightenment
+        - Frontier of Invention
+        - Bastion of Vision
+        - Serenity of Insight
+        - Oracle of Reflection
+        - Repository of Revelations
+        - Pavilion of Visionaries
+        - Nexus of Wisdom
+        - Zenith of Revelation
+        - Eden of Ideas
+        - Mirage of Imagination
+        - Conclave of Contemplation
+        - Sanctuary of Revelation
+        - Outpost of Epiphany
+        - Panorama of Visions
+        - Domain of Dreams
+        - Grove of Realization
+        - Matrix of Insights
+        - Arcadia of Aspirations
+        - Asylum of Awe
+        - Frontier of Fantasia
+        - Expanse of Epiphany
+        - Passage of Perception
+        - Sanctuary of Serenity
+        - Oasis of Occasion
+        - Crucible of Concepts
+        - Summit of Synthesis
+        - Gaia of Genesis
+        - Apex of Artistry
+        - Utopia of Understanding
+        - Infinity Vault of Ideation
+        - Echo Chamber of Enlightenment
+        - Pantheon of Perspective
+        - Prodigy Pavilion
+        - Zenith of Zeal
+        - Twilight Terrace of Thought
+        - Oasis of Originality
+        - Paradigm Plaza
+        - Atelier of Aspiration
+        - Zen Garden of Vision
+        - Paradiso of Imagination
+        - Empyrean Essence
+        - Thicket of Thought
+    Undone Scapes:
+        - Unfinished Symphony
+        - Abandoned Dreams
+        - Fragmented Reality
+        - Shattered Illusions
+        - Fading Echoes
+        - Unwritten Stories
+        - Disintegrating Hopes
+        - Dissolving Horizons
+        - Broken Mirrors
+        - Lost Souls
+        - Vanishing Vistas
+        - Echoes of Regret
+        - Silent Screams
+        - Unraveling Threads
+        - Phantom Shadows
+        - Eclipsed Futures
+        - Ghostly Footprints
+        - Hollow Whispers
+        - Forgotten Auras
+        - Elusive Dreams
+        - Melting Horizons
+        - Flickering Realities
+        - Dimming Stars
+        - Dying Embers
+        - Unspoken Words
+        - Withering Roses
+        - Timeless Void
+        - Echoes of Oblivion
+        - Shifting Sands
+        - Collapsing Cathedrals
+        - Disappearing Act
+        - Unseen Wonders
+        - Unheard Melodies
+        - Fading Silhouettes
+        - Vanishing Act
+        - Fragmented Memories
+        - Dissolving Illusions
+        - Silent Oceans
+        - Ephemeral Whispers
+        - Nebulous Dreams
+        - Undone Canvases
+        - Disappearing Horizons
+        - Fading Echoes
+        - Eclipsed Sunsets
+        - Whispering Pines
+        - Subdued Flames
+        - Unfinished Masterpiece
+        - Lost Constellations
+        - Dimming Echoes
+        - Uncharted Territories
+        - Fading Vignettes
+        - Disintegrating Echoes
+    Otherworldly Scapes:
+        - Celestial City
+        - Nebula Haven
+        - Ethereal Enclave
+        - Mystic Meadows
+        - Astral Archipelago
+        - Divine Desert
+        - Fantasia Fields
+        - Enchanted Abyss
+        - Ethereal Gardens
+        - Celestial Citadel
+        - Otherworld Oasis
+        - Ether Echo Valley
+        - Supernatural Summit
+        - Enigmatic Expanse
+        - Mythic Mirage
+        - Cosmic Canyon
+        - Unearthly Utopia
+        - Phantasmal Plateau
+        - Mirage Moonbase
+        - Celestial Castle
+        - Galactic Grove
+        - Spectral Sanctuary
+        - Dreamland Dominion
+        - Wonder Warp Wilderness
+        - Uncharted Utopia
+        - Peculiar Paradigm
+        - Elysian Ecliptic
+        - Quixotic Quasar Quarters
+        - Enchanted Equator
+        - Ethereal Elevation
+        - Surreal Stratosphere
+        - Other-Dimensional Oasis
+        - Mythical Microcosm
+        - Illusory Islands
+        - Unseen Universe
+        - Esoteric Estuary
+        - Whimsical Wasteland
+        - Unexplored Eden
+        - Beyond-the-Boundary Bluff
+        - Nebulous Netherworld
+        - Far-out Frontier
+        - Unworldly Uprising
+        - Alien Arcadia
+        - Exoplanetary Eden
+        - Outlandish Observatory
+        - Cosmic Constellation
+        - Illusive Interstellar Isles
+    Magical Scapes:
+        - Enchanted Enclave
+        - Mystic Meadows
+        - Mystical Moonlight
+        - Spellbound Springs
+        - Sorcerer's Sanctum
+        - Enchanted Ember Expanse
+        - Enigmatic Eldritch Escarpment
+        - Wizard's Whimsical Wonders
+        - Mystifying Misty Mountains
+        - Fantastical Fae Forest
+        - Charm-laden Chalice Chasm
+        - Wondrous Willow Woods
+        - Enchanted Elven Enclave
+        - Mystical Mermaid Mirage
+        - Magical Menagerie Mound
+        - Ethereal Elusion Escarpment
+        - Spellbinding Sprite Springs
+        - Mystical Minotaur's Maze
+        - Charmed Centaur Citadel
+        - Enchanted Elemental Elevation
+        - Bewitched Butterfly Bog
+        - Illusionary Imp Island
+        - Mystic Manticore Mountain
+        - Whimsical Witch's Way
+        - Enchanted Elf Enclave
+        - Enigmatic Enchanter's End
+        - Wizarding Wonderland
+        - Magical Maelstrom Meadow
+        - Mystical Mirage Marsh
+        - Sorcery-laden Starlight Stream
+        - Spellcraft Summit
+        - Enchanted Euphoria Expanse
+        - Fantastical Fairy Folly
+        - Illusionary Illithid Isle
+        - Mystical Mirthful Meadow
+        - Wizardry-laced Whispering Woods
+        - Enchanted Elemental Echoes
+        - Charm-filled Celestial Chalice
+        - Otherworldly Oracle Oasis
+        - Mystical Mermaid's Lagoon
+        - Sorcerer's Starlit Sanctuary
+        - Magical Monolith Mound
+        - Enchanted Effervescent Elysium
+        - Illusionary Iridescent Islet
+        - Bewitched Beast's Bane
+        - Mystic Maelstrom Mountain
+        - Charmed Celestial Chasm
+    Enigmatic Scapes:
+        - Cryptic Canyon
+        - Nebulous Netherworld
+        - Conundrum Cove
+        - Veiled Valley
+        - Riddle Ridge
+        - Puzzle Plateau
+        - Obscure Oasis
+        - Enigma Enclave
+        - Secretive Summit
+        - Esoteric Estuary
+        - Covert Citadel
+        - Hidden Hollow
+        - Ambiguous Abyss
+        - Mysterious Mirage
+        - Arcane Archipelago
+        - Uncanny Utopia
+        - Cryptic Chalice Chasm
+        - Mystic Monolith Meadow
+        - Inscrutable Illusion Isle
+        - Enigma Echoes
+        - Puzzling Plains
+        - Veiled Vista
+        - Clandestine Cascade
+        - Unknown Uplands
+        - Perplexing Peaks
+        - Abstruse Aerie
+        - Nebula Nook
+        - Elusive Eldritch Elevation
+        - Stealthy Starlight Stream
+        - Shadowy Shroud
+        - Convoluted Cradle
+        - Baffling Butterfly Bog
+        - Cryptic Celestial Chalice
+        - Unfathomable Unicorn Upland
+        - Enigmatic Elemental Echo
+        - Veiled Vale
+        - Nebulous Nymph Niche
+        - Mysterious Meridian Mound
+        - Covert Celestial Citadel
+        - Obscure Oracle Oasis
+        - Cryptic Cove
+        - Ambiguous Arboretum
+        - Puzzle-laden Pixie Plateau
+        - Secretive Starlit Sanctuary
+        - Riddle-laden Rainbow Ridge
+        - Unknown Unicorn Utopia
+        - Uncanny Unicorn Uplands
+        - Insidious Illusion Isle
+        - Enigma-laden Elf Enclave
 
 # BoCreatures
 BoCreatures:
@@ -21987,7 +22299,8 @@ BoStyles:
         {__styles/ambient-Effects__|},
         __BoStyles/random-quality-prompts__,
         __styles/resolutions__,
-        __styles/Creative-Concepts__,"
+        __styles/Creative-Concepts__,
+        __styles/StyleElementsText__"
         #__BoStyles/random-camera-settings__"
 # art Styles
     random-artstyle:
@@ -23962,6 +24275,68 @@ styles:
             - Splitting
             - Discordant
             - Parted
+        Surreal:
+            - Otherworldly
+            - Dreamlike
+            - Fantastical
+            - Unearthly
+            - Phantasmagoric
+            - Bizarre
+            - Supernatural
+            - Enigmatic
+            - Ethereal
+            - Peculiar
+            - Eccentric
+            - Uncanny
+            - Illusory
+            - Mystical
+            - Whimsical
+            - Imaginary
+            - Quixotic
+            - Alien
+            - Magical
+            - Unconventional
+            - Fanciful
+            - Curious
+            - Absurd
+            - Mysterious
+            - Surrealistic
+            - Far-out
+            - Outlandish
+            - Dreamy
+            - Unusual
+            - Nonsensical
+            - Nonrealistic
+            - Unbelievable
+            - Visionary
+            - Kafkaesque
+            - Extravagant
+            - Psychedelic
+            - Grotesque
+            - Unworldly
+            - Hallucinatory
+            - Uncommon
+            - Quizzical
+            - Unthinkable
+            - Inexplicable
+            - Inconceivable
+            - Mind-bending
+            - Utopian
+            - Mind-boggling
+            - Fictional
+            - Fantastic
+            - Whimsical
+            - Mythical
+            - Impossible
+            - Enchanting
+            - Incomprehensible
+            - Unimaginable
+            - Supernormal
+            - Preposterous
+            - Unfathomable
+            - Unearthly
+            - Unanticipated
+            - Out of this world
 
     rendering-techniques:
         Ray-Tracing:
@@ -24659,6 +25034,77 @@ styles:
         - Color Association
         - Color Harmony
     
+    StyleElementsText:
+        - Metaphor
+        - Hyperbole
+        - Simile
+        - Personification
+        - Alliteration
+        - Assonance
+        - Consonance
+        - Onomatopoeia
+        - Oxymoron
+        - Paradox
+        - Irony
+        - Symbolism
+        - Allegory
+        - Foreshadowing
+        - Flashback
+        - Juxtaposition
+        - Anaphora
+        - Epiphora
+        - Chiasmus
+        - Euphemism
+        - Pun
+        - Sarcasm
+        - Satire
+        - Allusion
+        - Imagery
+        - Tone
+        - Mood
+        - Repetition
+        - Rhetorical Question
+        - Enjambment
+        - Caesura
+        - Symbol
+        - Motif
+        - Theme
+        - Archetype
+        - Diction
+        - Syntax
+        - Parallelism
+        - Antithesis
+        - Climax
+        - Anti-climax
+        - Aphorism
+        - Epigram
+        - Allegory
+        - Parable
+        - Proverb
+        - Anecdote
+        - Idiom
+        - Colloquialism
+        - Malapropism
+        - Syllepsis
+        - Zeugma
+        - Polyptoton
+        - Litotes
+        - Meiosis
+        - Epanalepsis
+        - Anastrophe
+        - Polyphemus
+        - Aposiopesis
+        - Anthimeria
+        - Paralipsis
+        - Cacophony
+        - Euphony
+        - Sibilance
+        - Anadiplosis
+        - Epistrophe
+        - Isocolon
+        - Polysyndeton
+        - Asyndeton
+
 
 styles-architectural:
     architectural:
