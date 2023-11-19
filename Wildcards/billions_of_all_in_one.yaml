@@ -8403,7 +8403,8 @@ creative:
         - Gentle Zephyr
         - Serene Summit
         - Harmony's Embrace
-	Majestic:
+
+    Majestic:
         - Regal Peaks
         - Royal Symphony
         - Majestic Citadel
@@ -8437,7 +8438,7 @@ creative:
         - Sovereign Haven
         - Regal Ascent
         - Grand Monolith
-	Magical:
+    Magical:
         - Enchanted Grove
         - Mystical Whispers
         - Arcane Sanctuary
@@ -8471,7 +8472,7 @@ creative:
         - Mystic Retreat
         - Arcane Grotto
         - Sorcerer's Retreat
-	Otherworldly:
+    Otherworldly:
         - Celestial Expanse
         - Abyssal Depths
         - Ethereal Wonders
@@ -8509,7 +8510,7 @@ creative:
         - Beyond the Veil
         - Nebulous Gateway
         - Intergalactic Portal
-	Melancholic:
+    Melancholic:
         - Solitude
         - Echoes of Sorrow
         - Fading Memories
@@ -8550,7 +8551,7 @@ creative:
         - Haunted Memories
         - Resonant Sighs
         - Fading Echoes
-	Artistic:
+    Artistic:
         - Canvas of Dreams
         - Palette of Imagination
         - Brushstrokes of Inspiration
@@ -8595,7 +8596,7 @@ creative:
         - Infinite Perspectives
         - Reverberating Colors
         - Ethereal Ingenuity
-	Dark:
+    Dark:
         - Abyssal Shadows
         - Nocturnal Enigma
         - Veil of Midnight
@@ -8641,7 +8642,7 @@ creative:
         - Cryptic Void
         - Clandestine Darkness
         - Whispered Secrets
-	Light:
+    Light:
         - Luminous Radiance
         - Ethereal Glow
         - Radiant Luminescence
@@ -8687,7 +8688,7 @@ creative:
         - Gleaming Starlight
         - Illuminated Serenity
 
-	Synthetic:
+    Synthetic:
         - Artificial Construct
         - Manufactured Replica
         - Simulated Creation
@@ -8735,7 +8736,7 @@ creative:
         - Simulated Construct
         - Synthetic Illusion
         - Artificial Creation
-	Swampy:
+    Swampy:
         - Murky Marshland
         - Mysterious Swamp
         - Boggy Expanse
@@ -8784,7 +8785,7 @@ creative:
         - Swampy Twilight
         - Muddy Quagmire
 
-	Ocean:
+    Ocean:
         - Vast Seascape
         - Boundless Ocean
         - Expansive Waters
@@ -8833,7 +8834,7 @@ creative:
         - Aquatic Wonderland
         - Ocean Floor Vista
 
-	Toxic:
+    Toxic:
         - Poisoned Landscape
         - Venomous Wilderness
         - Hazardous Terrain
@@ -8882,7 +8883,7 @@ creative:
         - Injurious Landscape
         - Deleterious Wilderness
         - Ruinous Terrain
-	Wonderland:
+    Wonderland:
         - Whimsical Wonderland
         - Enchanted Forest
         - Curious Meadow
@@ -8929,7 +8930,7 @@ creative:
         - Fantastic Folly
         - Wonderland Whimsy
         - Nonsensical Netherworld
-	Wondrous-Landscapes:
+    Wondrous-Landscapes:
         - Enchanted Grove
         - Mystical Meadow
         - Serene Seashore
@@ -8977,7 +8978,7 @@ creative:
         - Divine Delight
         - Harmonious Haven
         - Celestial Canvas
-	Alien:
+    Alien:
         - Extraterrestrial Expanse
         - Alien Atmosphere
         - Otherworldly Outcrop
@@ -9026,7 +9027,7 @@ creative:
         - Otherworldly Oasis
         - Intergalactic Impression
         - Nebular Nirvana
-	Fiery:
+    Fiery:
         - Infernal Inferno
         - Blazing Bluff
         - Embered Expanse
@@ -9073,7 +9074,7 @@ creative:
         - Infernal Impasse
         - Flame-Forged Foothills
         - Volcanic Vale
-	Fanatic:
+    Fanatic:
         - Zealous Zealots
         - Devout Devotees
         - Ardent Adherents
@@ -9118,7 +9119,7 @@ creative:
         - Uncompromising Ultraists
         - Enthusiastic Extremists
         - Obsessive Obsessives
-	Breathtaking:
+    Breathtaking:
         - Majestic Mountainscapes
         - Serene Seascapes
         - Enchanting Environments
@@ -9164,7 +9165,7 @@ creative:
         - Radiant Realities
         - Sublime Sightings
         - Transcendent Tableaus
-	Unsettling:
+    Unsettling:
         - Eerie Abyss
         - Creepy Catacombs
         - Haunting Hallways
@@ -9212,7 +9213,7 @@ creative:
         - Frightful Fields
         - Strange Sanctuaries
         - Unworldly Wastelands
-	Fairytale:
+    Fairytale:
         - Enchanted Forest
         - Magical Meadows
         - Whimsical Woods
@@ -9259,7 +9260,7 @@ creative:
         - Whimsical Wonders
         - Enigmatic Enchiladas
         - Mythical Meadows
-	Desolate Scenarios:
+    Desolate Scenarios:
         - Barren Wasteland
         - Lifeless Plains
         - Empty Abyss
@@ -9306,7 +9307,7 @@ creative:
         - Haunted Halls
         - Ruined Ramparts
         - Abandoned Arena
-	Stygian:
+    Stygian:
         - Stygian Abyss
         - Cimmerian Crypts
         - Erebus Enclave
@@ -9354,7 +9355,7 @@ creative:
         - Tenebrous Temple
         - Erebus Expanse
         - Nether Nexus
-	Macabre:
+    Macabre:
         - Macabre Masquerade
         - Ghastly Graveyard
         - Morbid Mansion
@@ -9403,7 +9404,7 @@ creative:
         - Direful Duet
         - Sinister Symposium
         - Petrifying Pageant
-	Cacophonous:
+    Cacophonous:
         - Dissonant Discord
         - Jarring Jamboree
         - Clashing Chorus
@@ -9455,7 +9456,7 @@ creative:
         - Unsettling Sonata
         - Harsh Harmony
         - Noisy Nuptials
-	Nocturnal Nomenclature:
+    Nocturnal Nomenclature:
         - Midnight Murmurs
         - Shadowy Soliloquy
         - Moonlit Monologue
@@ -9508,6 +9509,101 @@ creative:
         - Nebula Narrative
         - Duskened Dialogue
 
+
+    Dragon Scapes:
+        - Draconic Domain
+        - Wyrm Wasteland
+        - Mystic Mountains
+        - Serpent Sanctuary
+        - Scaled Skies
+        - Fireforge Peaks
+        - Winged Wilderness
+        - Roaring Ravine
+        - Thunderclaw Tundra
+        - Fanged Fjord
+        - Luminous Lair
+        - Mythic Mesa
+        - Celestial Caverns
+        - Ember Expanse
+        - Ancient Archipelago
+        - Enchanted Eyrie
+        - Abyssal Ascent
+        - Dragon's Desolation
+        - Spectral Spire
+        - Dracorealm Rift
+    Cyberscapes:
+        - Digital Wonderland
+        - Neon Network
+        - Virtual Matrix
+        - Cyber Abyss
+        - Quantum Labyrinth
+        - Holographic Nexus
+        - Binary Ballet
+        - Pixelated Dreams
+        - Techno Utopia
+        - Datastream Dystopia
+        - Circuit City
+        - Cybernetic Skyline
+        - Synaptic Symphony
+        - Code Cascade
+        - Electric Eden
+        - Virtual Vortex
+        - Firewall Frontier
+        - Quantum Quasar
+        - Electro Enigma
+        - Technicolor Tunnel
+    Library:
+        - Grand Archives
+        - Silent Stacks
+        - Wisdom Wing
+        - Literary Labyrinth
+        - Scholar's Sanctuary
+        - Tome Haven
+        - Ancient Annexe
+        - Quill Quarters
+        - Manuscript Maze
+        - Bibliophile's Bliss
+        - Papyrus Pavilion
+        - Scrolls Shrine
+        - Codex Corner
+        - Poet's Perch
+        - Prodigy Pagoda
+        - Reading Retreat
+        - Archive Alcove
+        - Encyclopedia Enclave
+        - Scriptorium Square
+        - Lexicon Lounge
+    Lovecraft:
+        - Eldritch Landscape
+        - Cosmic Abyss
+        - Nightmarish Horizons
+        - Otherworldly Realms
+        - Mysterious Ruins
+        - Ancient Temples
+        - Abyssal Oceans
+        - Unfathomable Darkness
+        - Haunting Desolation
+        - Forbidden Tombs
+        - Dreamlike Dimensions
+        - Abandoned Cities
+        - Cursed Forests
+        - Nameless Graves
+        - Chthonic Depths
+        - Enigmatic Labyrinths
+        - Eldritch Moons
+        - Unspeakable Monoliths
+        - Shadowy Portals
+        - Twisted Catacombs
+        - Spectral Vistas
+        - Mad Dreamscapes
+        - Aberrant Wastelands
+        - Eldritch Gardens
+        - Desperate Realms
+        - Otherworldly Asylums
+        - Abyssal Tundras
+        - Esoteric Temples
+        - Haunted Isles
+        - Incomprehensible Skies
 
 
 # BoCreatures
@@ -10336,6 +10432,57 @@ creatures:
             - Algae
             - Plankton
             - Microbe
+    Draconic:
+        - Majestic Dragon
+        - Mystic Serpent
+        - Enigmatic Wyrm
+        - Formidable Firedrake
+        - Soaring Serpent
+        - Ancient Drake
+        - Celestial Dragon
+        - Cosmic Wyvern
+        - Luminous Leviathan
+        - Mythical Dragon
+        - Ethereal Wyrm
+        - Eclipsed Dragon
+        - Stellar Serpent
+        - Twilight Drake
+        - Obsidian Wyvern
+        - Radiant Dragon
+        - Infernal Serpent
+        - Abyssal Wyrm
+        - Thunderous Dragon
+        - Stormy Serpent
+        - Verdant Drake
+        - Earthbound Wyvern
+        - Aquatic Dragon
+        - Frosty Serpent
+        - Volcanic Wyrm
+        - Imperial Drake
+        - Sovereign Wyvern
+        - Seraphic Dragon
+        - Nether Serpent
+        - Resplendent Drake
+        - Void Wyrm
+        - Galactic Dragon
+        - Ethereal Serpent
+        - Mystic Wyvern
+        - Prismatic Drake
+        - Eldritch Dragon
+        - Astral Serpent
+        - Lunar Wyrm
+        - Solar Drake
+        - Shadowy Dragon
+        - Celestial Serpent
+        - Infernal Wyvern
+        - Arcane Drake
+        - Radiant Wyrm
+        - Sapphire Dragon
+        - Emerald Serpent
+        - Onyx Wyvern
+        - Ruby Drake
+        - Amber Dragon
+
 
 # BoCharsCyberpunk
 BoCharsCyberpunk:
