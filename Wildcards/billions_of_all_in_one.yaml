@@ -8132,6 +8132,8 @@ constructions:
 BoCreative:
     random:
         - __creative/*__
+    myPrompt:
+        - hyper detailed masterpiece, dynamic realistic digital art, awesome quality, __BoCreative/random__,__BoCreative/random__,__BoCreative/random__,__BoStyles/random-ambient-effect__,__BoStyles/random-atmosphere__,__BoStyles/random-atmosphere__,__habitats/*__,__phenomena/*/*__ 
 creative:
     Surreal-Things:
         - Dreamscapes
@@ -11596,6 +11598,339 @@ habitats:
         - Lindworm Castle
         - Bookholm
         - Bookholm Station
+
+# BoCristmas
+
+christmas:
+    christmas-carol:
+        characters:
+            - Ebenezer Scrooge
+            - Bob Cratchit
+            - Tiny Tim
+            - Jacob Marley
+            - Ghost of Christmas Past
+            - Ghost of Christmas Present
+            - Ghost of Christmas Yet to Come
+            - Belle
+            - Fezziwig
+
+        scenes:
+            - Victorian Era
+            - Scrooge's Counting House
+            - Bob Cratchit's Home
+            - Christmas Eve
+            - Yule Log
+            - Caroling
+            - Mistletoe
+            - Christmas Tree
+            - Stockings
+            - Ghostly Apparitions
+            - Family Gatherings
+            - Festive Feast
+            - Joyful Celebrations
+            - Redemption
+            - Charity
+            - Reflection
+            - Transformation
+            - Hope
+            - Love
+            - Generosity
+            - Compassion
+            - Gratitude
+            - Nativity Scene
+            - Midnight Mass
+            - Wassail
+            - Yuletide
+    decorations:
+        - Ornaments
+        - Tinsel
+        - Lights
+        - Wreaths
+        - Garland
+        - Baubles
+        - Candles
+        - Stockings
+        - Ribbons
+        - Bows
+        - Nativity Scene
+        - Christmas Tree
+        - Holly
+        - Mistletoe
+        - Snowflakes
+        - Angels
+        - Nutcrackers
+        - Sleigh Bells
+        - Pinecones
+        - Candy Canes
+        - Gingerbread Men
+        - Snow Globes
+        - Lanterns
+        - Reindeer Figures
+        - Santa Claus Figurines
+        - Star Tree Topper
+        - Jingle Bells
+        - Christmas Cards
+        - Advent Calendar
+        - Christmas Village
+        - Frosty the Snowman
+        - Sleighs
+        - Presents/Gifts
+        - Snowmen
+    food:
+        - Turkey
+        - Ham
+        - Roast Beef
+        - Mashed Potatoes
+        - Gravy
+        - Stuffing
+        - Cranberry Sauce
+        - Green Beans
+        - Sweet Potatoes
+        - Cornbread
+        - Rolls
+        - Pumpkin Pie
+        - Pecan Pie
+        - Apple Pie
+        - Eggnog
+        - Christmas Cookies
+        - Fruitcake
+        - Yule Log Cake
+        - Candy Canes
+        - Hot Chocolate
+        - Gingerbread House
+        - Roasted Chestnuts
+        - Wassail
+        - Sugar Plums
+        - Candy Cane Peppermint Bark
+        - Cider
+        - Roasted Marshmallows
+        - Figgy Pudding
+        - Roasted Turkey Legs
+        - Baked Ham with Pineapple
+        - Cheese Platter
+        - Shrimp Cocktail
+        - Brussel Sprouts
+        - Pigs in a Blanket
+        - Deviled Eggs
+        - Honey Glazed Carrots
+        - Pumpkin Soup
+        - Mincemeat Pie
+        - Chocolate Truffles
+        - Cinnamon Rolls
+    characters:
+        - Santa Claus
+        - Mrs. Claus
+        - Rudolph the Red-Nosed Reindeer
+        - Frosty the Snowman
+        - The Grinch
+        - Ebenezer Scrooge
+        - Tiny Tim
+        - Ghost of Christmas Past
+        - Ghost of Christmas Present
+        - Ghost of Christmas Yet to Come (Ghost of Christmas Future)
+        - Bob Cratchit
+        - Jacob Marley
+        - Belle
+        - Fezziwig
+        - Fred (Scrooge's nephew)
+        - Cindy Lou Who
+        - Max (The Grinch's dog)
+        - Heat Miser
+        - Snow Miser
+        - Jack Frost
+        - Kris Kringle
+        - Yukon Cornelius
+        - Hermey the Elf
+        - King Moonracer
+        - Clarice
+        - Abominable Snow Monster (Bumble)
+        - Mother Nature
+        - Father Time
+        - The Nutcracker
+        - Sugar Plum Fairy
+        - Mouse King
+        - Clara
+        - Drosselmeyer
+    traditions:
+        - Decorating a Christmas tree
+        - Hanging stockings by the fireplace
+        - Exchanging gifts
+        - Caroling
+        - Building a snowman
+        - Making gingerbread houses
+        - Watching holiday movies
+        - Participating in a Secret Santa gift exchange
+        - Attending a Christmas Eve church service
+        - Lighting Hanukkah candles (for those celebrating Hanukkah)
+        - Having a festive holiday meal
+        - Sending holiday cards
+        - Visiting family and friends
+        - Wearing ugly Christmas sweaters
+        - Making and enjoying holiday treats
+        - Participating in a holiday parade
+        - Volunteering and giving back to the community
+        - Hosting or attending a holiday party
+        - Going on a holiday light tour
+        - Playing holiday-themed games
+        - Reading holiday stories
+        - Participating in a white elephant gift exchange
+        - Setting up a nativity scene
+        - Counting down the days with an advent calendar
+    scapes:
+        - Snow-covered landscapes
+        - Festively decorated neighborhoods
+        - Cozy living rooms with a crackling fireplace
+        - Twinkling lights and ornaments on Christmas trees
+        - Bustling holiday markets
+        - Icy and serene winter scenes
+        - Warm and inviting kitchens filled with the aroma of baked goods
+        - Carolers singing in the snow
+        - Colorful and illuminated streets during the night
+        - Joyful scenes of families opening presents
+        - Peaceful scenes of quiet snowfall
+        - Sparkling decorations adorning homes and streets
+        - Nostalgic scenes of children playing in the snow
+        - Candle-lit windows on a snowy evening
+        - Festive holiday table settings
+        - Church services with festive decorations
+        - Santa Claus and his reindeer flying through the night sky
+        - Scenes of people ice skating on frozen ponds
+        - Glowing lanterns and candles lighting up the darkness
+        - Scenes of people giving and receiving acts of kindness
+
+
+    scenes:
+        - Family gathered around the Christmas tree opening presents
+        - Children eagerly waiting for Santa Claus on Christmas Eve
+        - Festive holiday feasts with loved ones
+        - Decorating the Christmas tree with ornaments and lights
+        - Carolers singing door-to-door in the neighborhood
+        - Ice skating with friends and family on a frozen pond
+        - Cozy evenings by the fireplace with hot cocoa
+        - Hanging stockings by the chimney with care
+        - Building snowmen and having snowball fights
+        - Visiting Santa Claus at the local mall
+        - Holiday parades with colorful floats and marching bands
+        - Baking and decorating Christmas cookies
+        - Attending midnight Mass on Christmas Eve
+        - Sending and receiving heartfelt Christmas cards
+        - Watching classic Christmas movies with loved ones
+        - Participating in secret Santa gift exchanges
+        - Donating to charities and volunteering during the holidays
+        - Admiring neighborhood Christmas light displays
+        - Wearing festive sweaters and hats
+        - Exchanging thoughtful and meaningful gifts
+
+    atmosphere:
+        - Warm and inviting
+        - Filled with joy and laughter
+        - Sparkling and festive
+        - Cozy and comforting
+        - Bright and colorful
+        - Wholesome and heartwarming
+        - Full of anticipation and excitement
+        - Nostalgic and reminiscent
+        - Peaceful and serene
+        - Enchanting and magical
+        - Reflective and grateful
+        - Cheerful and lively
+        - Harmonious and unified
+        - Generous and giving
+        - Grateful and thankful
+        - Uplifting and spirited
+        - Radiant and glowing
+        - Overflowing with love and goodwill
+        - Tranquil and serene
+        - Heartfelt and sentimental
+
+    art_styles:
+        - Festive Illustration
+        - Whimsical
+        - Vintage
+        - Nativity Scene
+        - Winter Wonderland
+        - Folk Art
+        - Contemporary Christmas Art
+        - Minimalistic Holiday Art
+        - Victorian Christmas
+        - Modern Abstract Christmas
+        - Traditional Christmas Paintings
+        - Christmas Pop Art
+        - Cozy and Warm Scenes
+        - Christmas Card Designs
+        - Digital Christmas Art
+        - Holiday Typography
+        - Mixed Media Christmas Art
+        - Whoville-inspired Art
+        - Nutcracker-themed Art
+        - Religious Christmas Art
+        - Scandinavian Christmas Art
+        - Retro Christmas
+        - Santa Claus Illustrations
+        - Christmas Tree Art
+        - Gingerbread House Art
+        - Snowman Illustrations
+        - Elf-themed Art
+        - North Pole Scenes
+        - Christmas Market Art
+        - Christmas Lights and Decorations
+        - Ice Skating Scenes
+        - Fireplace and Stockings Art
+        - Sleigh Ride Illustrations
+        - Starry Night Christmas Art
+        - Christmas Fantasy Art
+        - Midnight Mass Illustrations
+        - Christmas Eve Art
+        - Ugly Christmas Sweater Designs
+        - Snow Globe Art
+        - Mistletoe and Holly Illustrations
+    lightings:
+        - Ambient Lighting
+        - Task Lighting
+        - Accent Lighting
+        - Chandeliers
+        - Pendant Lights
+        - Track Lighting
+        - Recessed Lighting
+        - Wall Sconces
+        - Floor Lamps
+        - Table Lamps
+        - Desk Lamps
+        - Under Cabinet Lighting
+        - Cove Lighting
+        - String Lights
+        - Fairy Lights
+        - Lanterns
+        - Candles
+        - LED Lights
+        - Neon Lights
+        - Solar Lights
+        - Outdoor Lighting
+        - Garden Lights
+        - Smart Lighting
+        - Industrial Lighting
+        - Retro Lighting
+        - Vintage Lighting
+        - Art Deco Lighting
+        - Mid-century Modern Lighting
+        - Contemporary Lighting
+        - Minimalist Lighting
+        - Bohemian Lighting
+        - Coastal Lighting
+        - Farmhouse Lighting
+        - Scandinavian Lighting
+        - Japanese Lighting
+        - Moroccan Lighting
+        - Tiffany Lamps
+        - Crystal Chandeliers
+        - Edison Bulb Fixtures
+        - Starburst Lights
+        - Sputnik Chandeliers
+        - Hollywood Vanity Lights
+        - Artistic Light Installations
+        - Festival Lights
+        - Christmas Lights
+        - Fireworks Displays
 
 # BoHalloween
 BoHalloween:
@@ -25406,6 +25741,62 @@ styles-architectural:
         - Pueblo Revival
         - Contemporary
         - Postmodern
+
+subjects-school:
+    math:
+        - Arithmetic
+        - Algebra
+        - Geometry
+        - Calculus
+        - Trigonometry
+        - Statistics
+        - Probability
+        - Number Theory
+        - Topology
+        - Logic
+        - Set Theory
+        - Analysis
+        - Combinatorics
+        - Differential Equations
+        - Linear Algebra
+        - Abstract Algebra
+        - Vector Spaces
+        - Matrices
+        - Graph Theory
+        - Chaos Theory
+        - Fractals
+        - Mathematical Models
+        - Mathematical Structures
+        - Mathematical Proofs
+        - Theorems
+        - Formulas
+        - Equations
+        - Variables
+        - Constants
+        - Numbers
+        - Mathematical Notations
+        - Mathematical Logic
+        - Mathematical Symbols
+        - Mathematical Functions
+        - Mathematical Relations
+        - Mathematical Patterns
+        - Mathematical Laws
+        - Mathematical Concepts
+        - Mathematical Principles
+        - Mathematical Systems
+        - Mathematical Algorithms
+        - Mathematical Models
+        - Mathematical Computations
+        - Mathematical Transformations
+        - Mathematical Operations
+        - Mathematical Problems
+        - Mathematical Puzzles
+        - Mathematical Theories
+        - Mathematical Discoveries
+        - Mathematical Innovations
+        - Mathematical Applications
+        - Mathematical Abstractions
+
 
 # Billions of vehicles:
 BoVehicles:
