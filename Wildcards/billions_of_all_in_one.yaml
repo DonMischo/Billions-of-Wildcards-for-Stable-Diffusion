@@ -25797,6 +25797,429 @@ subjects-school:
         - Mathematical Applications
         - Mathematical Abstractions
 
+    biology:
+        - Cell
+        - Nucleus
+        - Mitochondria
+        - Endoplasmic Reticulum
+        - Golgi Apparatus
+        - Ribosome
+        - DNA
+        - RNA
+        - Protein
+        - Enzyme
+        - Hormone
+        - Gene
+        - Chromosome
+        - Nucleotide
+        - ATP (Adenosine Triphosphate)
+        - Cell Membrane
+        - Cytoplasm
+        - Cytoskeleton
+        - Organelle
+        - Tissue
+        - Organ
+        - Organ System
+        - Organism
+        - Kingdom
+        - Phylum
+        - Class
+        - Order
+        - Family
+        - Genus
+        - Species
+        - Evolution
+        - Natural Selection
+        - Adaptation
+        - Mutation
+        - Ecology
+        - Ecosystem
+        - Community
+        - Population
+        - Biodiversity
+        - Food Chain
+        - Food Web
+        - Trophic Level
+        - Photosynthesis
+        - Cellular Respiration
+        - Homeostasis
+        - Reproduction
+        - Growth
+        - Development
+        - Anatomy
+        - Physiology
+        - Genetics
+        - Mendelian Inheritance
+        - Genetic Variation
+        - Genetic Engineering
+        - Cloning
+        - Biotechnology
+        - Microbiology
+        - Virology
+        - Immunology
+        - Ecology
+        - Botany
+        - Zoology
+        - Microorganism
+        - Bacteria
+        - Virus
+        - Fungi
+        - Protozoa
+        - Algae
+        - Plant
+        - Animal
+        - Human Biology
+        - Anatomy
+        - Physiology
+        - Neurobiology
+        - Cell Biology
+        - Molecular Biology
+        - Biochemistry
+        - Biomechanics
+        - Biophysics
+        - Bioinformatics
+        - Marine Biology
+        - Paleontology
+        - Entomology
+        - Ornithology
+        - Herpetology
+        - Mammalogy
+        - Ichthyology
+        - Genetics
+        - Epigenetics
+        - Population Genetics
+        - Genomics
+        - Proteomics
+        - Paleogenetics
+        - Microscopy
+        - Electron Microscope
+        - Light Microscope
+        - Ecology
+        - Environmental Science
+        - Conservation Biology
+        - Taxonomy
+        - Systematics
+        - Ethology
+        - Behavioral Ecology
+        - Microbial Ecology
+        - Aquatic Ecology
+        - Terrestrial Ecology
+        - Evolutionary Biology
+        - Evolutionary Ecology
+    physics:
+        - Mechanics
+        - Kinematics
+        - Dynamics
+        - Statics
+        - Thermodynamics
+        - Laws of Thermodynamics
+        - Heat Transfer
+        - Electromagnetism
+        - Electric Field
+        - Magnetic Field
+        - Electromagnetic Induction
+        - Maxwell's Equations
+        - Optics
+        - Reflection
+        - Refraction
+        - Lens
+        - Mirror
+        - Light
+        - Color
+        - Wave Optics
+        - Acoustics
+        - Sound Waves
+        - Frequency
+        - Amplitude
+        - Quantum Mechanics
+        - Wave-Particle Duality
+        - Uncertainty Principle
+        - Schrödinger Equation
+        - Quantum Entanglement
+        - Relativity
+        - Special Relativity
+        - General Relativity
+        - Time Dilation
+        - Length Contraction
+        - Nuclear Physics
+        - Nuclear Decay
+        - Radioactivity
+        - Nuclear Fission
+        - Nuclear Fusion
+        - Astrophysics
+        - Celestial Mechanics
+        - Stellar Structure
+        - Cosmology
+        - Fluid Mechanics
+        - Fluid Dynamics
+        - Bernoulli's Principle
+        - Plasma Physics
+        - Solid-State Physics
+        - Condensed Matter Physics
+        - Crystallography
+        - Semiconductor Physics
+        - Particle Physics
+        - Elementary Particles
+        - Standard Model
+        - Classical Mechanics
+        - Mathematical Physics
+        - Mathematical Methods
+        - Calculus
+        - Differential Equations
+        - Biophysics
+        - Geophysics
+        - Meteorology
+        - Aerodynamics
+        - Chaos Theory
+        - String Theory
+        - Astrophysics
+        - Thermodynamics
+        - Entropy
+        - Optics
+        - Photonics
+        - Elasticity
+        - Inertia
+        - Conservation Laws
+        - Electric Circuits
+        - Fluid Dynamics
+        - Newton's Laws of Motion
+        - Quantum Field Theory
+        - Wave-Particle Duality
+        - Photoelectric Effect
+        - Superposition
+        - Relativistic Physics
+        - Nuclear Physics
+        - Cosmology
+        - Stellar Nucleosynthesis
+        - Dark Matter
+        - Dark Energy
+        - Black Holes
+        - Big Bang Theory
+        - Multiverse Theory
+        - Grand Unified Theory (GUT)
+    chemistry:
+        - General Chemistry
+        - Matter
+        - Elements
+        - Atoms
+        - Molecules
+        - Compounds
+        - Mixtures
+        - Chemical Reactions
+        - Periodic Table
+        - Inorganic Chemistry
+        - Metals
+        - Nonmetals
+        - Transition Metals
+        - Coordination Compounds
+        - Organometallic Compounds
+        - Organic Chemistry
+        - Hydrocarbons
+        - Alkanes
+        - Alkenes
+        - Alkynes
+        - Aromatic Compounds
+        - Functional Groups
+        - Isomerism
+        - Stereochemistry
+        - Physical Chemistry
+        - Thermodynamics
+        - Quantum Chemistry
+        - Statistical Mechanics
+        - Chemical Kinetics
+        - Electrochemistry
+        - Analytical Chemistry
+        - Qualitative Analysis
+        - Quantitative Analysis
+        - Instrumental Analysis
+        - Biochemistry
+        - Proteins
+        - Enzymes
+        - Nucleic Acids
+        - Carbohydrates
+        - Lipids
+        - Metabolism
+        - Biochemical Pathways
+        - Environmental Chemistry
+        - Green Chemistry
+        - Pollution
+        - Environmental Impact Assessment
+        - Sustainability
+        - Theoretical Chemistry
+        - Computational Chemistry
+        - Molecular Modeling
+        - Density Functional Theory (DFT)
+        - Coordination Chemistry
+        - Supramolecular Chemistry
+        - Solid-State Chemistry
+        - Nuclear Chemistry
+        - Photochemistry
+        - Polymer Chemistry
+        - Medicinal Chemistry
+        - Nanochemistry
+        - Physical Organic Chemistry
+        - Quantum Chemistry
+        - Spectroscopy
+        - UV-Visible Spectroscopy
+        - Infrared Spectroscopy
+        - NMR Spectroscopy
+        - Mass Spectrometry
+        - X-ray Crystallography
+        - Chromatography
+        - Gas Chromatography (GC)
+        - Liquid Chromatography (LC)
+        - High-Performance Liquid Chromatography (HPLC)
+        - Titration
+        - pH and Buffers
+        - Redox Reactions
+        - Chemical Equilibrium
+        - Le Chatelier's Principle
+        - Acid-Base Chemistry
+        - Chemical Bonding
+        - Ionic Bonding
+        - Covalent Bonding
+        - Metallic Bonding
+        - Polar and Nonpolar Bonds
+        - Intermolecular Forces
+        - Stoichiometry
+        - Chemical Thermodynamics
+        - Laws of Thermodynamics
+        - Enthalpy
+        - Entropy
+        - Gibbs Free Energy
+        - Reaction Mechanisms
+        - Chemical Engineering
+        - Crystallography
+    language:
+        - Linguistics
+        - Phonetics
+        - Phonology
+        - Morphology
+        - Syntax
+        - Semantics
+        - Pragmatics
+        - Sociolinguistics
+        - Psycholinguistics
+        - Neurolinguistics
+        - Computational Linguistics
+        - Historical Linguistics
+        - Comparative Linguistics
+        - Language Families
+        - Indo-European Languages
+        - Sino-Tibetan Languages
+        - Afro-Asiatic Languages
+        - Niger-Congo Languages
+        - Austroasiatic Languages
+        - Dravidian Languages
+        - Altaic Languages
+        - Uralic Languages
+        - Austronesian Languages
+        - Papuan Languages
+        - Caucasian Languages
+        - Native American Languages
+        - Australian Aboriginal Languages
+        - Writing Systems
+        - Alphabets
+        - Syllabaries
+        - Logographic Writing Systems
+        - Abjads
+        - Abugidas
+        - Featural Writing Systems
+        - Language Acquisition
+        - Bilingualism
+        - Multilingualism
+        - Second Language Acquisition
+        - Language Processing
+        - Psycholinguistics
+        - Sociolinguistics
+        - Computational Linguistics
+        - Corpus Linguistics
+        - Dialectology
+        - Etymology
+        - Historical Linguistics
+        - Lexicography
+        - Onomastics
+        - Orthography
+        - Pragmatics
+        - Rhetoric
+        - Semiotics
+        - Syntax
+        - Stylistics
+        - Terminology
+        - Translation Studies
+    history:
+        - Ancient History
+        - Mesopotamia
+        - Ancient Egypt
+        - Ancient Greece
+        - Ancient Rome
+        - Indus Valley Civilization
+        - Chinese Dynasties
+        - Persian Empire
+        - Byzantine Empire
+        - Medieval History
+        - Viking Age
+        - Crusades
+        - Mongol Empire
+        - Renaissance
+        - Ottoman Empire
+        - Medieval Europe
+        - Early Modern History
+        - Age of Discovery
+        - Protestant Reformation
+        - Age of Enlightenment
+        - Scientific Revolution
+        - Colonialism
+        - Modern History
+        - Industrial Revolution
+        - American Revolution
+        - French Revolution
+        - Napoleonic Wars
+        - World War I
+        - Russian Revolution
+        - Interwar Period
+        - World War II
+        - Cold War
+        - Post-Cold War Era
+        - Cultural History
+        - History of Art
+        - History of Music
+        - History of Literature
+        - History of Philosophy
+        - History of Science
+        - History of Religion
+        - Social History
+        - Women's History
+        - Labor History
+        - Civil Rights Movement
+        - Social Movements
+        - Cultural History
+        - Intellectual History
+        - Economic History
+        - Agricultural Revolution
+        - Mercantilism
+        - Capitalism
+        - Industrialization
+        - Globalization
+        - Military History
+        - Ancient Warfare
+        - Medieval Warfare
+        - Gunpowder Warfare
+        - Napoleonic Warfare
+        - Modern Warfare
+        - Military Strategy and Tactics
+        - Political History
+        - Ancient Political Systems
+        - Feudalism
+        - Monarchies
+        - Republics
+        - Revolutions
+        - Modern Political Systems
+        - Diplomatic History
+        - Treaties and Alliances
+        - Diplomatic Relations
+        - International Organizations
+        - Diplomatic Strategies
 
 # Billions of vehicles:
 BoVehicles:
