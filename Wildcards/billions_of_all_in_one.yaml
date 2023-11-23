@@ -3,7 +3,7 @@
 ######################################
 
 Bo:
-# Billions of plants
+# __Bo/Plants/random*__
     Plants:
         random-plant:
             - "{
@@ -27,87 +27,199 @@ Bo:
             {__mushrooms/Poisonous-Properties__,|__mushrooms/Medicinal-Properties__,|}
             }"
 
-# Billions of cosmics
+# __Bo/Cosmic/random__
     Cosmic:
         random:
             - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__}"
 
-# Billions of Audio
+# __Bo/Audio/random__ __Bo/Audio/album-cover__
     Audio:
         random:
             - __audio/music/*__, {1-2$$__audio/sound/*__|__audio/melody/*__|__audio/notes/*__|__audio/Notation/*__}, __audio/Genre/*__
         album-cover:
             - __audio/Genre/*__ Album Cover, __audio/AlbumCover/MainImage__, __audio/AlbumCover/TitleText__, {__audio/AlbumCover/DesignElements__|__audio/AlbumCover/Background__|__audio/AlbumCover/Style__|}
 
-# BoBooks
+# __Bo/Books/random__
     Books:
         random:
             - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography__, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
                {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/materials__, 
                {__books/Places-books__|__books/Book-Accessories__|}"
-# BoPsycho
+# __Bo/Psycho/random__
     Psycho:
         random:
             - "__brain-psychology/terms__, __brain-psychology/Practices-Fields__, __brain-psychology/Concepts-Phenomena__, 
             __brain-psychology/Neural-Circuit-Patterns__, {1-3$$__words/brain-psychology/*__}"
 
-# BoChars
+# __Bo/Chars/*/*random__
     Chars:
-        female:
-            modern:
-                - female __person/regular/female__ wearing __clothings/regular/female-attire__, __person/regular/poses__
-            BoConstructions:
-                - __BoChars/female/modern__, __BoConstructions/random-standard__
-            BoCloths:
-                - __BoChars/female/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
-        male:
-            modern:
-                - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
-            BoConstructions:
-                - __BoChars/male/modern__, __BoConstructions/random-standard__
-            BoCloths:
-                - __BoChars/male/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
-        div:
-            - male __BoChars/female/modern__
-            - female __BoChars/male/modern__ 
-        random:
-            - "{0.45::__BoChars/female/modern__|0.45::__BoChars/male/modern__|0.1::__BoChars/div__}"
-        class-profession:
-            - "{male|female} __characters/species/*__, {__characters/professions/*__|},{__characters/classes/*__|}"
-        class-profession-weapon:
-            - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/weapons/*__ "
-        class-profession-itemslots:
-            - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/itemslots/*__ "
+        regular:
+            female:
+                modern:
+                    - female __person/regular/female__ wearing __clothings/regular/female-attire__, __person/regular/poses__
+                BoConstructions:
+                    - __Bo/Chars/female/modern__, __Bo/Constructions/random-standard__
+                BoCloths:
+                    - __Bo/Chars/female/modern__,  {__Bo/Cloths/random-fullbody__|__Bo/Cloths/random-combination__}
+            male:
+                modern:
+                    - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
+                BoConstructions:
+                    - __Bo/Chars/male/modern__, __Bo/Constructions/random-standard__
+                BoCloths:
+                    - __Bo/Chars/male/modern__,  {__Bo/Cloths/random-fullbody__|__Bo/Cloths/random-combination__}
+            div:
+                - male __Bo/Chars/female/*__
+                - female __Bo/Chars/male/*__
+            random:
+                - "{__Bo/Chars/*male/*__|0.1_Bo/Chars/div__}"
 
-# BoClothings
-    Cloths:
+# __Bo/Chars/cyberpunk/random__
+        cyberpunk:
+            female:
+                classic:
+                    - female __characters/professions/*__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
+                scenery:
+                    - __Bo/CharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+                BoConstructions:
+                    - __Bo/CharsCyberpunk/female/classic__, __Bo/Constructions/*-cyberpunk__
+            male:
+                classic:
+                    - male __characters/professions/*__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
+                scenery:
+                    - __Bo/CharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+                BoConstructions:
+                    - __Bo/CharsCyberpunk/male/classic__, __Bo/Constructions/*-cyberpunk__
+            div:
+                - female __Bo/Chars/cyberpunk/male/*__
+                - male __Bo/Chars/cyberpunk/female/*__
+            random:
+                - "{__Bo/CharsCyberpunk/*male/*__|0.1::__Bo/CharsCyberpunk/div__}, __subtypes/cyberpunk__"
+
+# __Bo/Chars/magical/random__
+        magical:
+            female:
+                classic:
+                    - "female __person/magical/female__ 
+                    {
+                    wearing __clothings/magical/female-attire__ 
+                    __words/magical/verbs__ __magical/magic__|
+                    __Bo/Chars/magical/profession-magic__
+                    }, __person/magical/poses__, __lighting/magical__"
+                modern:
+                    - "female __person/magical/female__ 
+                    {
+                    wearing __clothings/regular/female-attire__ 
+                    __words/magical/verbs__ __magical/magic__|
+                    __Bo/Chars/magical/profession-magic__
+                    }, __person/magical/poses__, __lighting/magical__"
+                scenery:
+                    - "{__Bo/Chars/magical/female/classic__|__Bo/Chars/magical/female/modern__}, __lighting/magical__, __scenes/regular/*__"
+                BoConstructions:
+                    - "{__Bo/Chars/magical/female/classic__|__Bo/Chars/magical/female/modern__}, __Bo/Constructions/*-magical__"
+            male:
+                classic:
+                    - "male __person/magical/male__ 
+                    {
+                    wearing __clothings/magical/male-attire__ 
+                    __words/magical/verbs__ __magical/magic__|
+                    __Bo/Chars/magical/profession-magic__
+                    }, __person/magical/poses__, __lighting/magical__"
+                modern:
+                    - "male __person/magical/male__ 
+                    {
+                    wearing __clothings/regular/male-attire__ 
+                    __words/magical/verbs__ __magical/magic__|
+                    __Bo/Chars/magical/profession-magic__
+                    }, __person/magical/poses__, __lighting/magical__"
+                scenery:
+                    - "{__Bo/Chars/magical/male/classic__|__Bo/Chars/magical/male/modern__}, __lighting/magical__, __scenes/regular/*__"
+                BoConstructions:
+                    - "{__Bo/Chars/magical/male/classic__|__Bo/Chars/magical/male/modern__}, __Bo/Constructions/*-magical__"
+            div:
+                - female __Bo/Chars/magical/male/*__
+                - male __Bo/Chars/magical/female/*__
+            random:
+                - "{__Bo/Chars/magical/*male/*__|0.1::__Bo/Chars/magical/div__}"
+            profession-magic:
+                - __magical/profession/crafter__, __magical/profession-magic-use/crafter__
+                - __magical/profession/caster__, __magical/profession-magic-use/caster__
+                - __magical/profession/knowledge__, __magical/profession-magic-use/knowledge__
+                - __magical/profession/nature__, __magical/profession-magic-use/nature__
+                - __magical/profession/dark__, __magical/profession-magic-use/dark__
+                - __magical/profession/light__, __magical/profession-magic-use/light__
+                - __magical/profession/illusion__, __magical/profession-magic-use/illusion__
+                - __magical/profession/technomancy__, __magical/profession-magic-use/technomancy__
+            properties-magical:
+                - "{0-5$${-2$$__words/magical/adjectives__}|
+                {-2$$__words/magical/substantives__}|
+                {-2$$__words/magical/verbs__}|
+                {-2$$__properties/materials-magic/*__}|
+                __lighting/magical__}"
+
+# __Bo/Chars/SciFi/random__
+        scifi:
+            female:
+                classic:
+                    - female __scifi/profession/*__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
+                scenery:
+                    - __Bo/CharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
+                BoConstructions:
+                    - __Bo/CharsScifi/female/classic__, __Bo/Constructions/*-scifi__
+            male:
+                classic:
+                    - male __scifi/profession/*__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
+                scenery:
+                    - __Bo/CharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
+                BoConstructions:
+                    - __Bo/CharsScifi/male/classic__, __Bo/Constructions/*-scifi__
+            div:
+                - female __Bo/Chars/scifi/male/*__
+                - male __Bo/Chars/scifi/female/*__
+
+            random:
+                - "{__Bo/CharsScifi/*male/*__|0.1::__Bo/CharsScifi/div__}"
+
+
+# more char prompts
+        class-profession-regular:
+            - "{male|female} __characters/species/*__, {__characters/professions/*/*__|},{__characters/classes/*__|}"
+        class-profession-weapon:
+            - "__Bo/Chars/class-profession-regular__, __characters/weapons/*__ "
+        class-profession-itemslots:
+            - "__Bo/Chars/class-profession-regular__, __characters/itemslots/*__ "
+        haircolor:
+            - "{0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}"
+
+# __Bo/Clothings/random*__
+    Clothings:
         random-fullbody:
-            - "__clothings/fit__ full body clothing,
+            - "__properties/fit__ full body clothing,
             {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
             __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
             __styles/clothing/Sleeve__,
             __styles/clothing/dress-Length__,
             __styles/clothing/Waistlines__,
             __styles/clothing/skirt__,
-            __BoCloths/random-extras__
+            __Bo/Cloths/random-extras__
             "
         random-combination:
-            - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
+            - "__Bo/Cloths/random-upperbody__, __Bo/Cloths/random-lowerbody__"
         random-upperbody:
-            - "__clothings/fit__ upper body clothing,
+            - "__properties/fit__ upper body clothing,
             {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
             __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
             __styles/clothing/Sleeve__,
             __styles/clothing/dress-Length__,
             __styles/clothing/Waistlines__,
-            __BoCloths/random-extras__
+            __Bo/Cloths/random-extras__
             "
         random-lowerbody:
-            - "__clothings/fit__ lower body clothing,
+            - "__properties/fit__ lower body clothing,
             __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
             __styles/clothing/fit-Length__,
             __styles/clothing/Waistlines__,
-            __BoCloths/random-extras__
+            __Bo/Cloths/random-extras__
             "
         random-extras:
             - "
@@ -117,13 +229,13 @@ Bo:
             "
         random-dress-properties:
             cyberpunk:
-                - "{1-3$$  $$__random/color__|__properties/fabrics/cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
+                - "{1-3$$  $$__Bo/color__|__properties/fabrics/cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
             nsfw:
-                - "{1-4$$  $$__random/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
+                - "{1-4$$  $$__Bo/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
             regular:
-                - "{1-3$$  $$__random/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}"
+                - "{1-3$$  $$__Bo/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}"
             scifi:
-                - "{1-3$$  $$__random/color__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}"
+                - "{1-3$$  $$__Bo/color__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}"
         random-accesoires:
             cyberpunk:
                 - "{1-4$${0.1::__clothings/cyberpunk/unisex/accesoires__ |}|
@@ -152,61 +264,72 @@ Bo:
                 {0.2::__clothings/scifi/unisex/facewear__ |}|
                 {0.1::__clothings/scifi/unisex/neckwear__ |}}"
 
-# BoConstructions
+# __Bo/Constructions/random*__
     Constructions:
-        building-standard:
-            - __Bo/Constructions/buildings__
-        building-cyberpunk:
-            - __Bo/Constructions/buildings-cyberpunk__
-        building-scifi:
-            - __Bo/Constructions/buildings-scifi__
-        building-magical:
-            - __Bo/Constructions/buildings-magical__
+        random:
+            - "{__Bo/Constructions/rooms/*__|__Bo/Constructions/buildings/*__}"
+        random-room:
+            - __Bo/Constructions/rooms/*__
         random-building:
             - __Bo/Constructions/buildings*__
-        random-room:
-            - __Bo/Constructions/rooms*__
-        random:
-            - "{__BoConstructions/random-room__|__BoConstructions/random-building__}"
-        random-standard:
-            - "{__BoConstructions/room-standard__|__BoConstructions/building-standard__}"
-#WIP 
+
+        random-cyberpunk:
+            - "{__Bo/Constructions/buildings/cyberpunk__|__Bo/Constructions/buildings/cyberpunk__}"
+        random-fictional:
+            - "{__Bo/Constructions/buildings/fictional__|__Bo/Constructions/buildings/fictional__}"
+        random-magical:
+            - "{__Bo/Constructions/buildings/magical__|__Bo/Constructions/buildings/magical__}"
+        random-regular:
+            - "{__Bo/Constructions/rooms/regular__|__Bo/Constructions/buildings/regular__}"
+        random-scifi:
+            - "{__Bo/Constructions/buildings/scifi__|__Bo/Constructions/buildings/scifi__}"
+
+
+
+
+        rooms:
+            cyberpunk:
+                - __constructions/rooms-cyberpunk/*__, __Bo/Constructions/interior-design-fictional__, __Bo/Constructions/materials-indoor__, __Bo/Constructions/lighting-indoor__, cyberpunk, sci-fi
+            fictional:
+                - __constructions/rooms*/*__, __Bo/Constructions/interior-design-fictional__, __Bo/Constructions/materials-indoor__, __Bo/Constructions/lighting-indoor__, __styles/punk-styles__
+            magical:
+                - __constructions/rooms-magical/*__, __Bo/Constructions/interior-design-fictional__, __Bo/Constructions/materials-indoor__, __Bo/Constructions/lighting-indoor__, fantasy
+            regular:
+                - __constructions/rooms/*__, __Bo/Constructions/interior-design__, __Bo/Constructions/materials-indoor__, __Bo/Constructions/lighting-indoor__
+            scifi:
+                - __constructions/rooms-scifi/*__, __Bo/Constructions/interior-design-fictional__, __Bo/Constructions/materials-indoor__, __Bo/Constructions/lighting-indoor__, __styles/punk-styles__, sci-fi
+        buildings:
+            cyberpunk:
+                - "__constructions/types-cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__Bo/Constructions/materials-outdoor__}, __Bo/Constructions/lighting-outdoor__"
+            fictional:
+                - "__constructions/types*/*__, {1-3$$__properties/materials-construction/basic*__|__Bo/Constructions/materials-outdoor__}, __Bo/Constructions/lighting-outdoor__"
+            magical:
+                - "__constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__Bo/Constructions/materials-outdoor__}, __Bo/Constructions/lighting-outdoor__"
+            regular:
+                - "__constructions/types/*__, {1-3$$__properties/materials-construction/basic__|__Bo/Constructions/materials-outdoor__}, __Bo/Constructions/lighting-outdoor__"
+            scifi:
+                - "__constructions/types-scifi/*__, {1-3$$__properties/materials-construction/scifi__|__Bo/Constructions/materials-outdoor__}, __Bo/Constructions/lighting-outdoor__"
+
         interior-design:
             - "{1-5$$__constructions/interior-design/*__}"
         interior-design-fictional:
             - "{1-5$$__constructions/interior-design*/*__}"
-        rooms:
-            regular:
-                - __constructions/rooms/*__, __Bo/Constructions/interior-design__, __random/materials-indoor__, __random/lighting-indoor__
-            fictional:
-                - __constructions/rooms*/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__
-            cyberpunk:
-                - __constructions/rooms-cyberpunk/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, cyberpunk, sci-fi
-            scifi:
-                - __constructions/rooms-scifi/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__, sci-fi
-            magical:
-                - __constructions/rooms-magical/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, fantasy
-        buildings:
-            - "__constructions/types/*__, {1-3$$__properties/materials-construction/basic__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-        buildings-fictional:
-            - "__constructions/types*/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-        buildings-cyberpunk:
-            - "__constructions/types-cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-        buildings-scifi:
-            - "__constructions/types-scifi/*__, {1-3$$__properties/materials-construction/scifi__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-        buildings-magical:
-            - "__constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+        materials-indoor:
+            - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
+        materials-outdoor:
+            - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
+        lighting-indoor:
+            - "{1-2$$__constructions/light-sources-indoor/*__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
+        lighting-outdoor:
+            - "{1-2$$__constructions/light-sources-outdoor/*__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
 
-
-
-
-# BoCreative
+# __Bo/Creative/*__
     Creative:
         random:
             - __creative/*__
         myPrompt:
-            - hyper detailed masterpiece, dynamic realistic digital art, awesome quality, __BoCreative/random__,__BoCreative/random__,__BoCreative/random__,__BoStyles/random-ambient-effect__,__BoStyles/random-atmosphere__,__BoStyles/random-atmosphere__,__habitats/*__,__phenomena/*/*__ 
-# BoCreatures
+            - hyper detailed masterpiece, dynamic realistic digital art, awesome quality, {2-5$$__Bo/Creative/random__},__Bo/Styles/random-ambient-effect__,{1-3$$__Bo/Styles/random-atmosphere__},__habitats/*__,__phenomena/*/*__ 
+# __Bo/Creatures/*__
     Creatures:
         random:
             - "__creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/Look-Feel__ __creatures/Body-Shapes__, 
@@ -221,31 +344,11 @@ Bo:
             {__properties/colors/*__,|__properties/patterns/unusual__,|}"
         animalfusion:
             - "fusion of {2-5$$__creatures/animals/*__}"
-# BoCharsCyberpunk
-    CharsCyberpunk:
-        female:
-            classic:
-                - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
-            scenery:
-                - __BoCharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
-            BoConstructions:
-                - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
-        male:
-            classic:
-                - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
-            scenery:
-                - __BoCharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
-            BoConstructions:
-                - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
-        random:
-            - "{__BoCharsCyberpunk/male/classic__|__BoCharsCyberpunk/female/classic__}"
-
-
 # BoCristmas
     christmas:
         - "WIP"
 
-# BoHalloween
+# __Bo/Halloween/random*__
     Halloween:
         random-location:
             - __halloween/Places-Sceneries__, __halloween/Atmosphere__, __halloween/Decorations__, __halloween/Symbols-Icons__,__halloween/Lighting__, __halloween/ArtStyles__
@@ -258,7 +361,7 @@ Bo:
             __halloween/Traditions__"
         random-pumpkin:
             - pumpkin carving, __halloween/Pumpkin-Carving/Techniques__, __halloween/Pumpkin-Carving/Styles__, __halloween/Pumpkin-Carving/Expressions__
-# BoJewelry
+# __Bo/Jewelry/random*__
     Jewelry:
         random-properties:
             - "__jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__, __jewelry/carat__, __jewelry/fire__, 
@@ -267,8 +370,8 @@ Bo:
         random-properties-reduced:
             - "__jewelry/brilliance__ __jewelry/fire__ __chemistry/gems__, __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/durability__, __jewelry/treatments__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
         random:
-            - __jewelry/types__, __BoJewelry/random-properties__
-# BoMachines
+            - __jewelry/types__, __Bo/Jewelry/random-properties__
+# __Bo/Machines/random*__
     Machines:
         random:
             - "__machines/types/*__,
@@ -282,54 +385,7 @@ Bo:
             {__properties/patterns/machines__},
             {__properties/textures/machines__},
             "
-# BoCharsMag
-    CharsMag:
-        female:
-            classic:
-                - "female __person/magical/female__ 
-                {
-                wearing __clothings/magical/female-attire__ 
-                __words/magical/verbs__ __magical/magic__|
-                __random/profession-magic__
-                }, __person/magical/poses__, __lighting/magical__"
-            modern:
-                - "female __person/magical/female__ 
-                {
-                wearing __clothings/regular/female-attire__ 
-                __words/magical/verbs__ __magical/magic__|
-                __random/profession-magic__
-                }, __person/magical/poses__, __lighting/magical__"
-            scenery:
-                - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/regular/*__"
-            BoConstructions:
-                - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
-        male:
-            classic:
-                - "male __person/magical/male__ 
-                {
-                wearing __clothings/magical/male-attire__ 
-                __words/magical/verbs__ __magical/magic__|
-                __random/profession-magic__
-                }, __person/magical/poses__, __lighting/magical__"
-            modern:
-                - "male __person/magical/male__ 
-                {
-                wearing __clothings/regular/male-attire__ 
-                __words/magical/verbs__ __magical/magic__|
-                __random/profession-magic__
-                }, __person/magical/poses__, __lighting/magical__"
-            scenery:
-                - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/regular/*__"
-            BoConstructions:
-                - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
-        div:
-            - "female {__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}"
-            - "male {__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}"
-        random:
-            - "{0.45::{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}|
-            0.45::{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}|
-            0.1::__BoCharsMag/div__}"
-# BoScenes
+# __Bo/Scenes/random*__
     Scenes:
         random:
             - "__scenes/settings/*__
@@ -340,32 +396,13 @@ Bo:
         random-city:
             - "{0.4::__styles/*__ architecture|} __scenes/settings/UrbanBuiltEnvironments__
             {1-4$$__scenes/features*__}"
-# BoCharsSciFi
-    CharsScifi:
-        female:
-            classic:
-                - female __random/profession-scifi__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
-            scenery:
-                - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
-            BoConstructions:
-                - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
-        male:
-            classic:
-                - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
-            scenery:
-                - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
-            BoConstructions:
-                - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
-        random:
-            - "{__BoCharsScifi/male/classic__|__BoCharsScifi/female/classic__}"
-
-# BoSciFi
+# __Bo/SciFi/random__
     SciFi:
         random:
-            - "__scifi/types__ of __scifi/beings__ , __scifi/profession/*__"
+            - "__subtypes/scifi__ of __characters/beings/scifi__ , __scifi/profession/*__"
             - "__words/scifi/verbs__ __words/scifi/adjectives__ __words/scifi/substantives__"
             - "{3-7$$__scifi/computer/errors__|__scifi/atmosphere/*__}"
-# Billions of Styles
+# __Bo/Styles/random-anything__
     Styles:
         random-anything:
             - "__styles/art-styles__, 
@@ -378,51 +415,51 @@ Bo:
             __styles/depiction-styles/*__,
             {__styles/animations__|},
             {__styles/ambient-Effects__|},
-            __BoStyles/random-quality-prompts__,
+            __Bo/Styles/random-quality-prompts__,
             __styles/resolutions__,
             __styles/Creative-Concepts__,
             __styles/StyleElementsText__"
-            #__BoStyles/random-camera-settings__"
-    # art Styles
+            #__Bo/Styles/random-camera-settings__"
+# art Styles
         random-artstyle:
             - __styles/art-styles__
-    # punk style
+# punk style
         random-punk-styles:
             - __styles/punk-styles__
-    # atmosphere
+# atmosphere
         random-atmosphere:
             - __styles/atmosphere/*__
-    # rendering
+# rendering
         random-rendering:
             - __styles/rendering-techniques/*__
-     # graphic engines
+# graphic engines
         random-graphic-engines:
             - __styles/graphic-engines__
-    # image Styles
+# image Styles
         random-image-styles:
             - __styles/image-styles__
-    # image Techniques
+# image Techniques
         random-image-techniques:
             - __styles/image-techniques/*__
-    # depiction styles
+# depiction styles
         random-depiction-styles:
             - __styles/depiction-styles/*__
-    # Animation
+# Animation
         random-animation-style:
             - __styles/animations__
-    # ambient Effects
+# ambient Effects
         random-ambient-effect:
             - __styles/ambient-Effects__
-    # quality
+# quality
         random-quality-prompts:
             - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
-    # resolution
+# resolution
         random-resolution:
             - __styles/resolutions__
-    # creative concepts
+# creative concepts
         random-creative-concept:
             - __styles/Creative-Concepts__
-    # Camera
+        # Camera
         random-camera-settings:
             - "{__styles/camera/camera__|}, 
             __styles/camera/Aperture-Settings__, 
@@ -434,7 +471,7 @@ Bo:
             __styles/camera/Composition-Techniques__,
             __styles/camera/Focus__,
             __styles/camera/Metering__"
-# Billions of vehicles:
+# __Bo/Vehicles/random__
     Vehicles:
         random:
             - "{__vehicles/size__|} __vehicles/types/*__,
@@ -472,42 +509,10 @@ Bo:
 ###########
 # randoms #
 ###########
-    random:
+    properties:
         color:
             - "{__properties/colors/common__|__properties/colors/fashion__|__properties/colors/special__}"
-        haircolor:
-            - "{0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}"
-        profession-cyberpunk:
-            - __cyberpunk/profession/*__
-        properties-magical:
-            - "{0-5$${-2$$__words/magical/adjectives__}|
-            {-2$$__words/magical/substantives__}|
-            {-2$$__words/magical/verbs__}|
-            {-2$$__properties/materials-magic/*__}|
-            __lighting/magical__}"
-        profession-magic:
-            - __magical/profession/crafter__, __magical/magic__ __magical/profession-magic-use/crafter__
-            - __magical/profession/caster__, __magical/magic__ __magical/profession-magic-use/caster__
-            - __magical/profession/knowledge__, __magical/magic__ __magical/profession-magic-use/knowledge__
-            - __magical/profession/nature__, __magical/magic__ __magical/profession-magic-use/nature__
-            - __magical/profession/dark__, __magical/magic__ __magical/profession-magic-use/dark__
-            - __magical/profession/light__, __magical/magic__ __magical/profession-magic-use/light__
-            - __magical/profession/illusion__, __magical/magic__ __magical/profession-magic-use/illusion__
-            - __magical/profession/technomancy__, __magical/magic__ __magical/profession-magic-use/technomancy__
-        profession-scifi:
-            - __scifi/profession/*__
-        materials-indoor:
-            - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
-        materials-outdoor:
-            - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
-        light-source-indoor:
-            - __constructions/light-sources-indoor/*__
-        light-source-outdoor:
-            - __constructions/light-sources-outdoor/*__
-        lighting-indoor:
-            - "{1-2$$__random/light-source-indoor__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
-        lighting-outdoor:
-            - "{1-2$$__random/light-source-outdoor__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
+
 
 astronomy:
     Celestial-Bodies:
@@ -596,7 +601,7 @@ astronomy:
 
 audio:
     music:
-        Classic-Features:
+        Classic:
             - Sonata
             - Symphony
             - Concerto
@@ -608,7 +613,7 @@ audio:
             - Opera
             - String Quartet
 
-        Modern-Features:
+        Modern:
             - Syncopation
             - Polyrhythm
             - Extended Technique
@@ -620,7 +625,7 @@ audio:
             - Looping
             - Beatboxing
 
-        Sci-Fi/Fantasy-Features:
+        Sci-Fi/Fantasy:
             - Ostinato
             - Tritone
             - Glissando
@@ -634,7 +639,7 @@ audio:
             - Fugue
             - Canon
 
-        Additional-Features:
+        Additional:
             - Homophony
             - Heterophony
             - Monophony
@@ -649,7 +654,7 @@ audio:
             - Intermezzo
 
     sound:
-        Classic-Features:
+        Classic:
             - Echo
             - Reverberation
             - Crescendo
@@ -661,7 +666,7 @@ audio:
             - Glissando
             - Trill
 
-        Modern-Features:
+        Modern:
             - Distortion
             - Feedback
             - Reverb
@@ -673,7 +678,7 @@ audio:
             - Tremolo
             - Flanger
 
-        Sci-Fi/Fantasy-Features:
+        Sci-Fi/Fantasy:
             - Phaser
             - Doppler Effect
             - Pitch Shift
@@ -685,7 +690,7 @@ audio:
             - Teleportation Sounds
             - Holographic Sounds
 
-        Additional-Features:
+        Additional:
             - Foley
             - Ambient Sounds
             - Diegetic Sounds
@@ -699,7 +704,7 @@ audio:
             - Soundtrack
             - Sound Design
     melody:
-        Melody-Features:
+        Melody:
             - Theme
             - Motif
             - Harmony
@@ -730,7 +735,7 @@ audio:
             - Improvisation
             - Hook
     notes:
-        Note-Features:
+        Note:
             - Pitch
             - Duration
             - Dynamics
@@ -1157,431 +1162,7 @@ brain-psychology:
 
 
 characters:
-    professions:
-        fantasy:
-            - Alchemist
-            - Bard
-            - Druid
-            - Enchanter
-            - Knight
-            - Mage
-            - Necromancer
-            - Paladin
-            - Ranger
-            - Sorcerer
-            - Thief
-            - Witch
-            - Wizard
-            - Cleric
-            - Beastmaster
-            - Illusionist
-            - Summoner
-            - Oracle
-            - Warlock
-            - Archmage
-            - Potion Master
-            - Apothecary
-            - Battle Mage
-            - Dragon Rider
-            - Elemental Wizard
-            - Enchanted Armor Smith
-            - Fortune Teller
-            - Gryphon Tamer
-            - Mystic Healer
-            - Shadow Assassin
-            - Spellbinder
-            - Witch Hunter
-            - Werewolf Hunter
-            - Fey Diplomat
-            - Golem Artificer
-            - Time Traveler
-            - Arcane Scholar
-            - Dreamweaver
-            - Potion Brewer
-            - Sky Pirate
-            - Treasure Hunter
-
-        sci-fi:
-            - Astronaut
-            - Cyborg
-            - Engineer
-            - Explorer
-            - Geneticist
-            - Pilot
-            - Robot Technician
-            - Space Marine
-            - Starship Captain
-            - Xenobiologist
-            - Data Analyst
-            - Quantum Physicist
-            - Terraformer
-            - Teleporter Operator
-            - AI Programmer
-            - Cybernetic Engineer
-            - Quantum Physicist
-            - Space Navigator
-            - Exobotanist
-            - Nano-Technician
-            - Interstellar Archaeologist
-            - Galactic Ambassador
-            - Telepathic Communicator
-            - Robot Psychologist
-            - Zero-Gravity Choreographer
-            - Warp Drive Mechanic
-            - Holographic Architect
-            - Neural Hacker
-            - Galactic Historian
-            - Starship Captain
-            - Exoplanetary Geologist
-            - Alien Linguist
-            - Quantum Biologist
-            - Zero-Point Energy Researcher
-            - Virtual Reality Designer
-        historical:
-            - Blacksmith
-            - Court Jester
-            - Knight
-            - Minstrel
-            - Navigator
-            - Scholar
-            - Scribe
-            - Ship Captain
-            - Viking Warrior
-            - Viking Shieldmaiden
-            - Gladiator
-            - Apothecary
-            - Musketeer
-            - Royal Falconer
-            - Samurai
-            - Silk Merchant
-            - Town Crier
-            - Blacksmith
-            - Knight
-            - Scribe
-            - Apothecary
-            - Viking Warrior
-            - Gladiator
-            - Alchemist
-            - Court Jester
-            - Samurai
-            - Royal Falconer
-            - Lighthouse Keeper
-            - Silk Road Trader
-            - Explorer
-            - Roman Legionnaire
-            - Medieval Minstrel
-            - Court Astrologer
-            - Shipwright
-            - Town Crier
-            - Farrier
-            - Town Watchman
-            
-        modern:
-            - Accountant
-            - Detective
-            - Electrician
-            - Firefighter
-            - Nurse
-            - Police Officer
-            - Programmer
-            - Scientist
-            - Teacher
-            - Web Developer
-            - Architect
-            - Chef
-            - Journalist
-            - Librarian
-            - Psychologist
-            - Veterinarian
-            - Yoga Instructor
-            - Tattoo Artist
-            - Barista
-            - Software Developer
-            - Data Scientist
-            - Nurse Practitioner
-            - Financial Analyst
-            - Graphic Designer
-            - Marketing Manager
-            - Teacher
-            - Chef
-            - Police Officer
-            - Firefighter
-            - Paramedic
-            - Dentist
-            - Pharmacist
-            - Electrician
-            - Plumber
-            - Real Estate Agent
-            - Social Media Manager
-            - Yoga Instructor
-            - Fitness Trainer
-            - Event Planner
-        Adventurer:
-            - Adventurer
-            - Warrior
-            - Mage
-            - Rogue
-            - Cleric
-
-        Craftsman:
-            - Craftsman
-            - Blacksmith
-            - Tailor
-            - Alchemist
-            - Enchanter
-
-        Scholar:
-            - Scholar
-            - Wizard
-            - Historian
-            - Archaeologist
-            - Scribe
-
-        Healer:
-            - Healer
-            - Medic
-            - Apothecary
-            - Druid
-            - Shaman
-
-        Bard:
-            - Bard
-            - Minstrel
-            - Troubadour
-            - Jester
-            - Skald
-
-        Ranger:
-            - Ranger
-            - Hunter
-            - Tracker
-            - Beastmaster
-            - Pathfinder
-
-        Noble:
-            - Noble
-            - King/Queen
-            - Lord/Lady
-            - Duke/Duchess
-            - Baron/Baroness
-
-        Thief:
-            - Thief
-            - Burglar
-            - Assassin
-            - Spy
-            - Swindler
-
-        Pirate:
-            - Pirate
-            - Captain
-            - Swashbuckler
-            - Navigator
-            - Gunner
-
-        Mercenary:
-            - Mercenary
-            - Soldier
-            - Mercenary Captain
-            - Mercenary Archer
-            - Mercenary Mage
-
-        Monk:
-            - Monk
-            - Martial Artist
-            - Zen Master
-            - Ascetic
-            - Mystic
-
-        Necromancer:
-            - Necromancer
-            - Lich
-            - Death Knight
-            - Gravecaller
-            - Soul Binder
-
-        Druid:
-            - Druid
-            - Shape Shifter
-            - Herbalist
-            - Nature's Guardian
-            - Elemental Adept
-
-        Engineer:
-            - Engineer
-            - Tinkerer
-            - Inventor
-            - Mechanist
-            - Gadgeteer
-
-        Knight:
-            - Knight
-            - Squire
-            - Cavalier
-            - Templar
-            - Paladin
-
-        Barbarian:
-            - Barbarian
-            - Berserker
-            - Tribal Leader
-            - Totem Warrior
-            - Savage
-
-    classes:
-        Tank:
-            - Paladin
-            - Guardian
-            - Knight
-            - Juggernaut
-            - Templar
-            - Crusader
-            - Bulwark
-            - Warden
-            - Sentinel
-            - Brute
-            - Dreadnought
-            - Ironclad
-            - Shieldbearer
-            - Bunker
-            - Colossus
-            - Fortress
-            - Defender
-            - Armiger
-            - Behemoth
-            - Conqueror
-
-        caster:
-            - Adept
-            - Alchemist
-            - Arcane Warrior
-            - Archmage
-            - Battlemage
-            - Blood Mage
-            - Chronomancer
-            - Cleric
-            - Cryomancer
-            - Death Knight
-            - Druid
-            - Elemental Shaman
-            - Elementalist
-            - Enchantress
-            - Enchanter
-            - Fey Sorcerer
-            - Force Adept
-            - Geomancer
-            - Holy Mage
-            - Illusionist
-            - Mage
-            - Mindflayer
-            - Mystic
-            - Necrolyte
-            - Necromancer
-            - Nightblade
-            - Psion
-            - Pyromancer
-            - Rune Mage
-            - Shadowmancer
-            - Sorcerer
-            - Sorceress
-            - Spellblade
-            - Spellslinger
-            - Spiritweaver
-            - Starcaller
-            - Star Mage
-            - Stormcaller
-            - Summoner
-            - Sun Priest
-            - Technomancer
-            - Thaumaturge
-            - Voidcaller
-            - Warlock
-            - War Mage
-            - Warlock
-            - Witch Doctor
-            - Wizard
-            - Wizardess
-
-        melee:
-            - Assassin
-            - Barbarian
-            - Bard
-            - Blademaster
-            - Beastmaster
-            - Crusader
-            - Dark Knight
-            - Dark Templar
-            - Death Knight
-            - Demon Hunter
-            - Dragonknight
-            - Duelist
-            - Fighter
-            - Gladiator
-            - Inquisitor
-            - Jedi Knight
-            - Knight
-            - Marauder
-            - Monk
-            - Paladin
-            - Ranger
-            - Reaver
-            - Rogue
-            - Ronin
-            - Samurai
-            - Shadowblade
-            - Sith Juggernaut
-            - Sith Marauder
-            - Sith Warrior
-            - Slayer
-            - Templar
-            - Thief
-            - Warrior
-            - Weaponmaster
-            - Witch Hunter
-
-        range:
-            - Adept
-            - Archer
-            - Assassin
-            - Blademaster
-            - Demon Hunter
-            - Hunter
-            - Jedi Consular
-            - Marksman
-            - Ranger
-            - Rogue
-            - Sith Inquisitor
-            - Sith Sorcerer
-            - Sniper
-            - Summoner
-            - Gunslinger
-            - Musketeer
-            - Sharpshooter
-            - Infiltrator
-            - Scout
-            - Skirmisher
-            - Gunner    
-        support:
-            - Support
-            - Healer
-            - Medic
-            - Bard
-            - Buffer
-            - Debuffer
-            - Cleric
-            - Priest
-            - Shaman
-            - Oracle
-            - Engineer
-            - Trickster
-            - Technomancer
-            - Psychic
-            - Spirit Walker
-            - Mentalist
-            - Paragon
-            - Tinkerer
-            - Artificer
-    species:
+    beings:
         humanoid:
             - Human
             - Elf
@@ -2390,6 +1971,763 @@ characters:
             - Sinister Cloth
             - Tsuchinoko
             - Goldspring Macaque
+        magical:
+            - Amazon, Fearless warrior, Skilled archer, Formidable strength, Independent and self-reliant, Tall and muscular stature, Battle-hardened, Warriors of ancient myths, Honor and bravery, fantasy
+            - android, Human-like appearance, Anthropomorphic design, Synthetic skin and hair, Futuristic and sleek aesthetics, Elegance and sophistication in design, Enhanced with advanced technology, sci-fi
+            - Angel, Radiant aura, Heavenly grace, Harbingers of good news, Guardians of the divine realm, Symbolize purity and innocence, Emanate ethereal light, fantasy
+            - Centaur, Half-human, half-horse, Mythological creatures, Powerful and agile, Equine lower body, Human upper body,Guardians of the wild, fantasy
+            - cyborg, Human-machine hybrids, Part organic and part artificial, Advanced bionic enhancements, Futuristic technology, Cybernetic implants, Blend of biology and robotics, Enhanced physical capabilities, Integrated electronics, Neural interfaces, sci-fi, magical
+            - CyclopeOne-eyed giants, Mythological creatures, Enormous and powerful, Singular eye in the middle of the forehead, Fierce and intimidating appearance, Known for strength and brutality, fantasy, greek mythology
+            - Demon, Malevolent supernatural being, evil, chaos, infernal, powerful entity, corrupt,harm full, fantasy
+            - Devil, embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
+            - Djinn, supernatural being, Middle Eastern folklore, humanoid created from smokeless fire, fantasy
+            - Dragon (in humanoid form),  immense power, wisdom, and connection to fire, draconic features,scales, wings, wise, ancient being, knowledge , fantasy
+            - Dwarf, short-statured humanoid being, 3 to 4 feet tall, skilled craftsmen,expertise in mining and blacksmithing, resilience, determination, fantasy
+            - Elf, graceful and long-lived being, 6 to 7 feet tall, beautiful,elegant,youthful appearance, graceful, ethereal, magical, fantasy
+            - Fairy,enchanting, ethereal creature, beauty, nature, protectors creatures, sacred places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
+            - Giant, humanoid, enormous and powerful being, 20 to 40 feet tall, benevolent and wise, force of nature, legendary strength, fantasy
+            - Gnome, 1 feet small, humanoid, earth-dwelling humanoid being, affinity with the earth and nature, gardening and craftsmanship, fantasy
+            - Goblin,imaginative and mischievous goblin character with a hunched posture, glowing beady eyes, and a malevolent grin. Use earthy green and brown tones for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small in stature, around 2 to 3 feet tall, fantasy
+            - Harpie,mythical creature, upper body of a woman,  wings and lower body of a bird, vicious and malevolent, fantasy
+            - Human
+            - Kitsune,mythical creature, Japanese folklore, intelligent, humanform with multiple foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
+            - Leprechaun, mischievous, solitary,old men wearing green coats and buckled shoes, 3-4 feet tall, crafty and elusive, fantasy
+            - Merfolk, upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
+            - Minotaur, mythical creature with the head of a bull and the body of a man, Greek mythology, fierce and monstrous, chaos, primal instinct, fantasy
+            - Minotaurin, mythical creature, body of a woman, cow tail, bull horns, cow spots, gentle, friendly, large breasts , Greek mythology
+            - Naga, mythical serpent humanoid being, serpentine lower bodies, human upper body, "{devine, wisdom, knowledge|dangerous, unpredictable}", fantasy
+            - Nymph, Ethereal beauty, Nature's guardian, Alluring grace, Youthful appearance, Connected to the environment, Magical presence, Nature spirits, Reside in forests and water bodies, fantasy
+            - Orc, fictional humanoid creatures, brutish, fearsome, strength, muscular,rough rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray} skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated noses, and wide, powerful jaws, {sharp teeth|} fantasy
+            - Pixie, tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows}, playful, curious, delicate wings, flitting throught the air, fanatasy
+            - Satyr, mythological creature, upper body human, lower body goat, revelry, music, wine, dance, skilled musician and dancer, horns, fantasy
+            - Siren, seductive and alluring creatures, Greek mythology,beautiful,danger, temptation
+            - Sylph, humanoid elemental being, delicate and ethereal being with gossamer wings, guardians of the air, {sky|mountain top},weather
+            - Troll, mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep forests}, Thick Warty {grey|green|brown} Skin, large nose, pointy ears, jutting jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy, stooped posture
+            - Vampire, legendary creature, force, power, blood, undead, beautyful, alluring, night, moon, fangs, fantasy
+            - Werewolf, lycanthropes,  mythical creature, humanoid wolf-like form, full moon, hairy furry skin, fangs, wolf ears, wolf-like face
+            - Yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains, 
+        cyberpunk:
+            - Cybernetic Mercenaries, Human mercenaries with cybernetic implants and body augmentations
+            - Biomechanical Hackers, Expert hackers merged with biotechnology, wired into cyberspace
+            - Nano-infused Mutants, Mutants with nanobots integrating into their bodies, granting extraordinary abilities
+            - AI Entities, Self-aware Artificial Intelligence with high-level cognitive abilities
+            - Virtual Constructs, Digital entities existing purely in virtual reality, taking on various forms and functions
+            - Gene-spliced Hybrids, Beings resulting from genetic manipulation, exhibiting a mix of species traits
+        scifi:
+            - Androids- Human-like robots with sleek metallic bodies and lifelike synthetic skin.
+            - Aliens- Extraterrestrial creatures with unique physiologies, varying from humanoid to bizarre forms.
+            - Cyborgs- Part human, part machine being, showcasing a fusion of organic and mechanical elements.
+            - Extraterrestrial creatures- Diverse life forms with imaginative appearances, ranging from elegant to monstrous.
+            - Artificial intelligences (AIs)- Digital entities represented as holographic projections or glowing avatars.
+            - Shape-shifters- Being capable of transforming their bodies, adopting different appearances at will.
+            - Interdimensional being- Ethereal entities with ever-shifting, kaleidoscopic forms that defy normal physics.
+            - Telepathic species- Creatures with mesmerizing glowing patterns on their foreheads or pulsating brainwaves.
+            - Energy being- Entities composed of radiant, luminous energy, taking on ethereal, luminescent forms.
+            - Hive minds- Coordinated entities exhibiting synchronized movements and a shared visual connection.
+            - Time travelers- Clad in unique, futuristic suits or garments that reflect their time-traveling technology.
+            - Insectoid species- Insect-like being with segmented exoskeletons, multifaceted eyes, and antennae.
+            - Sentient robots- Robots with expressive visual displays, glowing eyes, and sleek, polished exteriors.
+            - Spacefaring civilizations- Extravagantly adorned being wearing sophisticated space-faring uniforms and insignias.
+            - Genetic hybrids- Blending physical traits from different species, creating visually striking, unique appearances.
+            - Nanobot swarms- Microscopic, shimmering clouds of nanobots capable of forming diverse shapes and patterns.
+            - Clones- Identical individuals with subtle distinctions in appearance, varying only in details.
+            - Cosmic entities- Vast, awe-inspiring being emanating cosmic energies and engulfed in nebula-like halos.
+            - Ancient cosmic being- Hoary, majestic being adorned with intricate symbols and ethereal aura.
+            - Teleporting entities- Surrounded by glimmering, swirling lights during teleportation.
+            - Dimension-hoppers- Clad in shimmering, multidimensional attire that shifts hues and patterns.
+            - Galactic gods- Towering, resplendent being emanating celestial auras and astral symbols.
+            - Subterranean species- Bioluminescent creatures with phosphorescent markings in dark caverns.
+            - Aquatic intelligences- Graceful being with iridescent, webbed appendages and glistening scales.
+            - Energy vampires- Eerie, shadowy figures with glowing eyes and tendrils that siphon energy.
+            - Quantum entities- Fluid, fractal-like being embodying superposition and quantum uncertainty.
+            - Organic spaceships (living ships)- Vessels with pulsating veins, organic growths, and symbiotic architecture.
+            - Biomechanical being- Harmoniously blend mechanical and organic elements, adorned with glowing circuitry.
+            - Mind-controlling entities- Translucent, mesmerizing creatures emanating hypnotic patterns and lights.
+            - Transcendent being- Evanescent, ever-changing entities with luminescent auras and morphing silhouettes.
+            - Timeless entities- Ancient being with inscrutable, ageless features and ethereal veils.
+            - Cyberspace avatars- Digital personas manifested as radiant, virtual being of light.
+            - Cosmic guardians- Massive, majestic entities radiating cosmic energies, clad in celestial armor.
+            - Celestial messengers- Graceful, ethereal being appearing as radiant, glowing apparitions.
+            - Solar phoenixes- Celestial birds adorned with fiery plumage and radiant solar patterns.
+            - Bio-luminary spirits- Phosphorescent, wispy entities floating with ethereal luminescence.
+            - Nebula nymphs- Ethereal being with flowing, shimmering garments reflecting nebula colors.
+            - Plasma specters- Intangible being emitting flickering plasma trails and auroras.
+            - Starry seraphim- Winged being with luminous, starry wings and celestial halos.
+            - Quantum dream weavers- Entities with kaleidoscopic, iridescent threads weaving dreams through dimensions.
+
+    classes:
+        Tank:
+            - Paladin
+            - Guardian
+            - Knight
+            - Juggernaut
+            - Templar
+            - Crusader
+            - Bulwark
+            - Warden
+            - Sentinel
+            - Brute
+            - Dreadnought
+            - Ironclad
+            - Shieldbearer
+            - Bunker
+            - Colossus
+            - Fortress
+            - Defender
+            - Armiger
+            - Behemoth
+            - Conqueror
+
+        caster:
+            - Adept
+            - Alchemist
+            - Arcane Warrior
+            - Archmage
+            - Battlemage
+            - Blood Mage
+            - Chronomancer
+            - Cleric
+            - Cryomancer
+            - Death Knight
+            - Druid
+            - Elemental Shaman
+            - Elementalist
+            - Enchantress
+            - Enchanter
+            - Fey Sorcerer
+            - Force Adept
+            - Geomancer
+            - Holy Mage
+            - Illusionist
+            - Mage
+            - Mindflayer
+            - Mystic
+            - Necrolyte
+            - Necromancer
+            - Nightblade
+            - Psion
+            - Pyromancer
+            - Rune Mage
+            - Shadowmancer
+            - Sorcerer
+            - Sorceress
+            - Spellblade
+            - Spellslinger
+            - Spiritweaver
+            - Starcaller
+            - Star Mage
+            - Stormcaller
+            - Summoner
+            - Sun Priest
+            - Technomancer
+            - Thaumaturge
+            - Voidcaller
+            - Warlock
+            - War Mage
+            - Warlock
+            - Witch Doctor
+            - Wizard
+            - Wizardess
+
+        melee:
+            - Assassin
+            - Barbarian
+            - Bard
+            - Blademaster
+            - Beastmaster
+            - Crusader
+            - Dark Knight
+            - Dark Templar
+            - Death Knight
+            - Demon Hunter
+            - Dragonknight
+            - Duelist
+            - Fighter
+            - Gladiator
+            - Inquisitor
+            - Jedi Knight
+            - Knight
+            - Marauder
+            - Monk
+            - Paladin
+            - Ranger
+            - Reaver
+            - Rogue
+            - Ronin
+            - Samurai
+            - Shadowblade
+            - Sith Juggernaut
+            - Sith Marauder
+            - Sith Warrior
+            - Slayer
+            - Templar
+            - Thief
+            - Warrior
+            - Weaponmaster
+            - Witch Hunter
+
+        range:
+            - Adept
+            - Archer
+            - Assassin
+            - Blademaster
+            - Demon Hunter
+            - Hunter
+            - Jedi Consular
+            - Marksman
+            - Ranger
+            - Rogue
+            - Sith Inquisitor
+            - Sith Sorcerer
+            - Sniper
+            - Summoner
+            - Gunslinger
+            - Musketeer
+            - Sharpshooter
+            - Infiltrator
+            - Scout
+            - Skirmisher
+            - Gunner    
+        support:
+            - Support
+            - Healer
+            - Medic
+            - Bard
+            - Buffer
+            - Debuffer
+            - Cleric
+            - Priest
+            - Shaman
+            - Oracle
+            - Engineer
+            - Trickster
+            - Technomancer
+            - Psychic
+            - Spirit Walker
+            - Mentalist
+            - Paragon
+            - Tinkerer
+            - Artificer
+    itemslots:
+        Clothing:
+            - Headgear
+            - Chest Armor
+            - Bracers
+            - Gloves
+            - Belt
+            - Pants/Leggings
+            - Boots
+            - Gauntlets
+            - Greaves
+            - Tunic
+            - Robe
+            - Crown
+            - Helm
+            - Mask
+            - Cape
+
+        Accessories:
+            - Necklace
+            - Amulet
+            - Earring
+            - Ring
+            - Shoulderpad
+            - Cloak
+            - Quiver (for archers)
+            - Sash
+            - Pauldron
+            - Vambrace
+            - Girdle
+            - Chausse
+            - Sabaton
+            - Shield
+            - Wand
+            - Staff
+            - Grimoire
+            - Spellbook
+            - Talisman
+            - Relic
+            - Medallion
+            - Brimstone Pendant
+            - Locket
+            - Diadem
+            - Anklet
+            - Circlet
+            - Armlet
+            - Medal
+            - Brooch
+            - Choker
+
+
+    
+
+    professions:
+        cyberpunk:
+            Cybernetic-Enhancement:
+                - Neural Surgeon
+                - Biomechanic Engineer
+                - Augmentation Technician
+                - Cyberlimb Specialist
+                - Neural Interface Developer
+                - Nano-enhancement Specialist
+                - Cybernetic Prosthesis Expert
+                - Neural Implant Technician
+                - Biopunk Augmentation Engineer
+                - Neuroplasticity Consultant
+            Information-Brokers:
+                - Data Hacker
+                - Info Dealer
+                - Net Runner
+                - Data Smuggler
+                - Corporate Espionage Agent
+                - Cyber Surveillance Specialist
+                - Information Firewall Breaker
+                - Digital Data Infiltrator
+                - Virtual Black Market Trader
+                - Data Encryption Cracker
+            Corporate:
+                - Corporate Spy
+                - Corporate Saboteur
+                - Executive Bodyguard
+                - Corporate Infiltrator
+                - Corporate Negotiator
+                - Corporate Security Specialist
+                - Corporate Asset Extractor
+                - Corporate Intelligence Analyst
+                - Corporate Counterintelligence Agent
+                - Corporate Disinformation Specialist
+            Outlaws:
+                - Cyber Pirates
+                - Tech Smugglers
+                - Reverse Engineers
+                - Data Hijackers
+                - Tech Vandal
+                - Cybernetic Contraband Trafficker
+                - Tech Disruptor
+                - Virtual Contraband Runner
+                - Hacker-for-Hire
+                - Tech Blackmailer
+            Medics:
+                - Black Market Medic
+                - Street Doc
+                - Biohacker
+                - Cybernetic Paramedic
+                - Underground Surgeon
+                - Genetic Manipulation Specialist
+                - Bioware Implant Expert
+                - Underground Pharmacist
+                - Nanomedicine Practitioner
+                - Cybernetic Rehabilitation Therapist
+            Artists:
+                - Virtual Reality Sculptor
+                - Immersive Experience Designer
+                - VR Filmmaker
+                - Digital Art Hacker
+                - AI-generated Art Specialist
+                - Holographic Installation Artist
+                - Virtual Art Curator
+                - Augmented Reality Street Artist
+                - Holo-Sculpture Designer
+                - Immersive Storyteller
+            Mercenaries:
+                - Cyber Mercenary
+                - Street Samurai
+                - Bounty Hunter
+                - Cybernetic Gun-for-Hire
+                - Cyber Ninja
+                - Urban Merc
+                - Techno Ronin
+                - Cyber Assasin
+                - Rogue Cyber Soldier
+                - Cybernetic Vigilante
+            Investigators:
+                - Cyber Forensics Analyst
+                - Digital Detective
+                - Virtual Crime Specialist
+                - Cybersecurity Expert
+                - Cyber Threat Analyst
+                - Digital Evidence Analyst
+                - Cyber Incident Response Team (CIRT) Specialist
+                - Virtual Crime Scene Investigator
+                - Cyber Fraud Examiner
+                - Cyber Intelligence Analyst
+            Engineers:
+                - Drone Developer
+                - Android Architect
+                - Robotics Programmer
+                - AI Integration Specialist
+                - Mecha Mechanic
+                - Autonomous Vehicle Engineer
+                - Cybernetic Companion Designer
+                - Industrial Robotics Technician
+                - Haptic Feedback Systems Engineer
+                - Nanorobotics Researcher
+            Designers:
+                - Techwear Fashion Designer
+                - Cyberpunk Couturier
+                - Holographic Fashion Stylist
+                - Futuristic Textile Engineer
+                - Augmented Reality Fashion Model
+                - Bioluminescent Clothing Designer
+                - Nanotech Fabric Innovator
+                - Haptic Fashion Experience Creator
+                - Virtual Catwalk Producer
+                - Cyberwear Trendsetter
+
+        fiction:
+            Adventurer:
+                - Adventurer
+                - Cleric
+                - Mage
+                - Rogue
+                - Warrior
+            Bard:
+                - Bard
+                - Jester
+                - Minstrel
+                - Skald
+                - Troubadour
+
+            Barbarian:
+                - Barbarian
+                - Berserker
+                - Savage
+                - Totem Warrior
+                - Tribal Leader
+
+            Craftsman:
+                - Alchemist
+                - Blacksmith
+                - Craftsman
+                - Enchanter
+                - Tailor
+
+            Druid:
+                - Druid
+                - Elemental Adept
+                - Herbalist
+                - Nature's Guardian
+                - Shape Shifter
+
+            Engineer:
+                - Engineer
+                - Gadgeteer
+                - Inventor
+                - Mechanist
+                - Tinkerer
+
+            fantasy:
+                - Alchemist
+                - Arcane Scholar
+                - Archmage
+                - Beastmaster
+                - Battle Mage
+                - Bard
+                - Cleric
+                - Dragon Rider
+                - Dreamweaver
+                - Druid
+                - Elemental Wizard
+                - Enchanted Armor Smith
+                - Enchanter
+                - Fey Diplomat
+                - Fortune Teller
+                - Golem Artificer
+                - Gryphon Tamer
+                - Illusionist
+                - Knight
+                - Mage
+                - Mystic Healer
+                - Necromancer
+                - Oracle
+                - Paladin
+                - Potion Brewer
+                - Potion Master
+                - Ranger
+                - Shadow Assassin
+                - Sky Pirate
+                - Sorcerer
+                - Spellbinder
+                - Summoner
+                - Thief
+                - Time Traveler
+                - Treasure Hunter
+                - Warlock
+                - Werewolf Hunter
+                - Witch
+                - Witch Hunter
+                - Wizard
+
+            Healer:
+                - Apothecary
+                - Druid
+                - Healer
+                - Medic
+                - Shaman
+
+            Knight:
+                - Cavalier
+                - Knight
+                - Paladin
+                - Squire
+                - Templar
+
+            Mercenary:
+                - Mercenary
+                - Mercenary Archer
+                - Mercenary Captain
+                - Mercenary Mage
+                - Soldier
+
+            Monk:
+                - Ascetic
+                - Martial Artist
+                - Monk
+                - Mystic
+                - Zen Master
+
+            Necromancer:
+                - Death Knight
+                - Gravecaller
+                - Lich
+                - Necromancer
+                - Soul Binder
+
+            Noble:
+                - Baron
+                - Baroness
+                - Duchess
+                - Duke
+                - King
+                - Lady
+                - Lord
+                - Noble
+                - Queen
+
+            Pirate:
+                - Pirate
+                - Pirate Captain
+                - Pirate Gunner
+                - Pirate Navigator
+                - Pirate Swashbuckler
+
+            Ranger:
+                - Beastmaster
+                - Hunter
+                - Pathfinder
+                - Ranger
+                - Tracker
+
+            Scholar:
+                - Archaeologist
+                - Historian
+                - Scholar
+                - Scribe
+                - Wizard
+
+            Thief:
+                - Assassin
+                - Burglar
+                - Spy
+                - Swindler
+                - Thief
+
+        historical:
+            - Alchemist
+            - Apothecary
+            - Blacksmith
+            - Court Astrologer
+            - Court Jester
+            - Explorer
+            - Farrier
+            - Gladiator
+            - Knight
+            - Lighthouse Keeper
+            - Medieval Minstrel
+            - Musketeer
+            - Navigator
+            - Roman Legionnaire
+            - Royal Falconer
+            - Samurai
+            - Scribe
+            - Ship Captain
+            - Shipwright
+            - Silk Merchant
+            - Silk Road Trader
+            - Town Crier
+            - Town Watchman
+
+        modern:
+            - Accountant
+            - Architect
+            - Barista
+            - Chef
+            - Data Scientist
+            - Dentist
+            - Detective
+            - Electrician
+            - Event Planner
+            - Financial Analyst
+            - Firefighter
+            - Fitness Trainer
+            - Graphic Designer
+            - Journalist
+            - Librarian
+            - Marketing Manager
+            - Nurse
+            - Nurse Practitioner
+            - Paramedic
+            - Pharmacist
+            - Photographer
+            - Plumber
+            - Police Officer
+            - Programmer
+            - Real Estate Agent
+            - Scientist
+            - Social Media Manager
+            - Software Developer
+            - Teacher
+            - Tattoo Artist
+            - Veterinarian
+            - Web Developer
+            - Yoga Instructor
+
+        sci-fi:
+            Technology:
+                - Aerospace engineer
+                - Robot Technician
+                - Robotics technician
+                - Software developer
+                - Nanotechnologist
+                - Artificial Intelligence specialist
+                - Cybersecurity analyst
+                - Biomedical engineer
+                - Spacecraft designer
+                - Data Analyst
+                - Quantum Physicist
+                - AI Programmer
+                - Cybernetic Engineer
+                - Nano-Technician
+                - Warp Drive Mechanic
+                - Holographic Architect
+                - Zero-Point Energy Researcher
+
+            Exploration:
+                - Xenobiologist
+                - Explorer
+                - Astronaut
+                - Planetary geologist
+                - Space navigator
+                - Astrobiologist
+                - Interstellar cartographer
+                - Pilot
+                - Exobotanist
+                - Galactic Historian
+                - Exoplanetary Geologist
+                - Quantum Biologist
+
+            Medicine:
+                - Geneticist
+                - Nanomedicine researcher
+                - Bioprinting specialist
+                - Neural interface surgeon
+                - Biomechanics engineer
+                - Robot Psychologist
+
+            Law-and-Order:
+                - Galactic diplomat
+                - Interdimensional lawyer
+                - AI rights advocate
+                - Time-travel law enforcement officer
+                - Cybercrime investigator
+                - Galactic Ambassador
+                - Neural Hacker
+
+            Entertainment:
+                - Holofilm director
+                - Holographic artist
+                - Virtual reality game designer
+                - Space music composer
+                - Exo-dance choreographer
+                - Zero-Gravity Choreographer
+
+            Terraforming:
+                - Terraformer
+                - Atmospheric engineer
+                - Astroecologist
+                - Climate restoration specialist
+            Commerce:
+                - Interstellar trader
+                - Intergalactic cargo pilot
+                - Spaceport manager
+                - Xenobiologist consultant
+            Military:
+                - Starfighter pilot
+                - Space marine
+                - Galactic peacekeeper
+                - Space battle tactician
+                - Starship Captain
+
+            Communication:
+                - Galactic network administrator
+                - Subspace communicator technician
+                - Holo-conference organizer
+                - Virtual reality programmer
+                - Teleporter Operator
+                - Telepathic Communicator
+                - Alien Linguist
+                - Virtual Reality Designer
+
+            Archaeology:
+                - Extraterrestrial archaeologist
+                - Cosmic artifact curator
+                - Temporal archaeologist
+                - Space relic restorer
+                - Interstellar Archaeologist
+        magical:
+            crafter:
+                - Alchemist
+                - Conjurer
+                - Enchanter
+            caster:
+                - caster 
+                - Mage
+                - Magician
+                - Magus
+                - Sorcerer
+                - Spellcaster
+            knowledge:
+                - Arcanist
+                - Wizard
+            nature:
+                - Druid
+                - Shaman
+            dark:
+                - Necromancer
+                - Occultist
+                - Thaumaturge
+                - Warlock
+                - Witch
+            light:
+                - High Priest
+                - Priest
+                - Mystic
+            illusion:
+                - Clairvoyant
+                - Enigma
+                - Illusionist
+                - Seer
+            technomancy:
+                - Technomancer
+                - Psion
+                - Cyberwizard
+                - Nanomancer
+                - Energy Manipulator
+                - Chronomancer
+                - Space Mage
+                - Biowitch
+                - Hologrammancer
+                - Quantum Sorcerer
 
     weapons:
         Classic:
@@ -2501,58 +2839,6 @@ characters:
             - Ancient Tribal Shield
             - Elemental Stone Mace
 
-    itemslots:
-        Clothing:
-            - Headgear
-            - Chest Armor
-            - Bracers
-            - Gloves
-            - Belt
-            - Pants/Leggings
-            - Boots
-            - Gauntlets
-            - Greaves
-            - Tunic
-            - Robe
-            - Crown
-            - Helm
-            - Mask
-            - Cape
-
-        Accessories:
-            - Necklace
-            - Amulet
-            - Earring
-            - Ring
-            - Shoulderpad
-            - Cloak
-            - Quiver (for archers)
-            - Sash
-            - Pauldron
-            - Vambrace
-            - Girdle
-            - Chausse
-            - Sabaton
-            - Shield
-            - Wand
-            - Staff
-            - Grimoire
-            - Spellbook
-            - Talisman
-            - Relic
-            - Medallion
-            - Brimstone Pendant
-            - Locket
-            - Diadem
-            - Anklet
-            - Circlet
-            - Armlet
-            - Medal
-            - Brooch
-            - Choker
-
-
-    
     
 chemistry:
     elements:
@@ -4502,18 +4788,18 @@ clothings:
     magical:
         female-attire:
             - "{
-                {0.8::__random/properties-magical__|} __clothings/magical/female/lower-body__,
-                {0.8::__random/properties-magical__|} __clothings/magical/female/upper-body__ |
-                {0.8::__random/properties-magical__|} __clothings/magical/female/full-body__
+                {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/female/lower-body__,
+                {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/female/upper-body__ |
+                {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/female/full-body__
                },
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
             __Bo/Cloth/random-accesoires/magical__"
         male-attire:
             - "{
-                {0.8::__random/properties-magical__|} __clothings/magical/male/lower-body__,
-                {0.8::__random/properties-magical__|} __clothings/magical/male/upper-body__ |
-                {0.8::__random/properties-magical__|} __clothings/magical/male/full-body__
+                {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/male/lower-body__,
+                {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/male/upper-body__ |
+                {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/male/full-body__
                },
             {0.8::__clothings/magical/male/footwear__|},
             {0.5::__clothings/magical/male/headwear__|},
@@ -6943,27 +7229,6 @@ clothings:
                 - Solar-powered Neck Ring
                 - Sonic Sound-isolating Collar
                 - Thermal-regulating Scarf
-    fit:
-        - Tight
-        - Loose
-        - Snug
-        - Baggy
-        - Form-fitting
-        - Oversized
-        - Slim
-        - Roomy
-        - Comfy
-        - Relaxed
-        - Fitted
-        - Loose-fitting
-        - Tailored
-        - Draped
-        - Flowy
-        - Bulky
-        - Skin-tight
-        - Hugging
-        - Constricting
-
 
 components:
     Electronic:
@@ -11006,7 +11271,57 @@ creatures:
             - Subterranean Jellyfish
             - Malaise
             - Hemadict
-    animals:
+        Draconic:
+            - Majestic Dragon
+            - Mystic Serpent
+            - Enigmatic Wyrm
+            - Formidable Firedrake
+            - Soaring Serpent
+            - Ancient Drake
+            - Celestial Dragon
+            - Cosmic Wyvern
+            - Luminous Leviathan
+            - Mythical Dragon
+            - Ethereal Wyrm
+            - Eclipsed Dragon
+            - Stellar Serpent
+            - Twilight Drake
+            - Obsidian Wyvern
+            - Radiant Dragon
+            - Infernal Serpent
+            - Abyssal Wyrm
+            - Thunderous Dragon
+            - Stormy Serpent
+            - Verdant Drake
+            - Earthbound Wyvern
+            - Aquatic Dragon
+            - Frosty Serpent
+            - Volcanic Wyrm
+            - Imperial Drake
+            - Sovereign Wyvern
+            - Seraphic Dragon
+            - Nether Serpent
+            - Resplendent Drake
+            - Void Wyrm
+            - Galactic Dragon
+            - Ethereal Serpent
+            - Mystic Wyvern
+            - Prismatic Drake
+            - Eldritch Dragon
+            - Astral Serpent
+            - Lunar Wyrm
+            - Solar Drake
+            - Shadowy Dragon
+            - Celestial Serpent
+            - Infernal Wyvern
+            - Arcane Drake
+            - Radiant Wyrm
+            - Sapphire Dragon
+            - Emerald Serpent
+            - Onyx Wyvern
+            - Ruby Drake
+            - Amber Dragon
+
         Insects:
             - Ant
             - Bee
@@ -11248,57 +11563,6 @@ creatures:
             - Algae
             - Plankton
             - Microbe
-    Draconic:
-        - Majestic Dragon
-        - Mystic Serpent
-        - Enigmatic Wyrm
-        - Formidable Firedrake
-        - Soaring Serpent
-        - Ancient Drake
-        - Celestial Dragon
-        - Cosmic Wyvern
-        - Luminous Leviathan
-        - Mythical Dragon
-        - Ethereal Wyrm
-        - Eclipsed Dragon
-        - Stellar Serpent
-        - Twilight Drake
-        - Obsidian Wyvern
-        - Radiant Dragon
-        - Infernal Serpent
-        - Abyssal Wyrm
-        - Thunderous Dragon
-        - Stormy Serpent
-        - Verdant Drake
-        - Earthbound Wyvern
-        - Aquatic Dragon
-        - Frosty Serpent
-        - Volcanic Wyrm
-        - Imperial Drake
-        - Sovereign Wyvern
-        - Seraphic Dragon
-        - Nether Serpent
-        - Resplendent Drake
-        - Void Wyrm
-        - Galactic Dragon
-        - Ethereal Serpent
-        - Mystic Wyvern
-        - Prismatic Drake
-        - Eldritch Dragon
-        - Astral Serpent
-        - Lunar Wyrm
-        - Solar Drake
-        - Shadowy Dragon
-        - Celestial Serpent
-        - Infernal Wyvern
-        - Arcane Drake
-        - Radiant Wyrm
-        - Sapphire Dragon
-        - Emerald Serpent
-        - Onyx Wyvern
-        - Ruby Drake
-        - Amber Dragon
-
 
 christmas:
     christmas-carol:
@@ -11632,136 +11896,6 @@ christmas:
         - Fireworks Displays
 
 
-cyberpunk:
-    types:
-        - Corporate Cyberpunk
-        - Gritty Urban Cyberpunk
-        - Post-Cyberpunk
-        - Biopunk
-        - Steampunk-Cyberpunk Fusion
-        - Nanopunk
-        - High-Tech Low-Life
-        - Virtual Reality Cyberspace
-        - Cyber-Noir
-        - Cyberpunk Fantasy
-    beings:
-        - Cybernetic Mercenaries, Human mercenaries with cybernetic implants and body augmentations
-        - Biomechanical Hackers, Expert hackers merged with biotechnology, wired into cyberspace
-        - Nano-infused Mutants, Mutants with nanobots integrating into their bodies, granting extraordinary abilities
-        - AI Entities, Self-aware Artificial Intelligence with high-level cognitive abilities
-        - Virtual Constructs, Digital entities existing purely in virtual reality, taking on various forms and functions
-        - Gene-spliced Hybrids, Beings resulting from genetic manipulation, exhibiting a mix of species traits
-    profession:
-        Cybernetic-Enhancement:
-            - Neural Surgeon
-            - Biomechanic Engineer
-            - Augmentation Technician
-            - Cyberlimb Specialist
-            - Neural Interface Developer
-            - Nano-enhancement Specialist
-            - Cybernetic Prosthesis Expert
-            - Neural Implant Technician
-            - Biopunk Augmentation Engineer
-            - Neuroplasticity Consultant
-        Information-Brokers:
-            - Data Hacker
-            - Info Dealer
-            - Net Runner
-            - Data Smuggler
-            - Corporate Espionage Agent
-            - Cyber Surveillance Specialist
-            - Information Firewall Breaker
-            - Digital Data Infiltrator
-            - Virtual Black Market Trader
-            - Data Encryption Cracker
-        Corporate:
-            - Corporate Spy
-            - Corporate Saboteur
-            - Executive Bodyguard
-            - Corporate Infiltrator
-            - Corporate Negotiator
-            - Corporate Security Specialist
-            - Corporate Asset Extractor
-            - Corporate Intelligence Analyst
-            - Corporate Counterintelligence Agent
-            - Corporate Disinformation Specialist
-        Outlaws:
-            - Cyber Pirates
-            - Tech Smugglers
-            - Reverse Engineers
-            - Data Hijackers
-            - Tech Vandal
-            - Cybernetic Contraband Trafficker
-            - Tech Disruptor
-            - Virtual Contraband Runner
-            - Hacker-for-Hire
-            - Tech Blackmailer
-        Medics:
-            - Black Market Medic
-            - Street Doc
-            - Biohacker
-            - Cybernetic Paramedic
-            - Underground Surgeon
-            - Genetic Manipulation Specialist
-            - Bioware Implant Expert
-            - Underground Pharmacist
-            - Nanomedicine Practitioner
-            - Cybernetic Rehabilitation Therapist
-        Artists:
-            - Virtual Reality Sculptor
-            - Immersive Experience Designer
-            - VR Filmmaker
-            - Digital Art Hacker
-            - AI-generated Art Specialist
-            - Holographic Installation Artist
-            - Virtual Art Curator
-            - Augmented Reality Street Artist
-            - Holo-Sculpture Designer
-            - Immersive Storyteller
-        Mercenaries:
-            - Cyber Mercenary
-            - Street Samurai
-            - Bounty Hunter
-            - Cybernetic Gun-for-Hire
-            - Cyber Ninja
-            - Urban Merc
-            - Techno Ronin
-            - Cyber Assasin
-            - Rogue Cyber Soldier
-            - Cybernetic Vigilante
-        Investigators:
-            - Cyber Forensics Analyst
-            - Digital Detective
-            - Virtual Crime Specialist
-            - Cybersecurity Expert
-            - Cyber Threat Analyst
-            - Digital Evidence Analyst
-            - Cyber Incident Response Team (CIRT) Specialist
-            - Virtual Crime Scene Investigator
-            - Cyber Fraud Examiner
-            - Cyber Intelligence Analyst
-        Engineers:
-            - Drone Developer
-            - Android Architect
-            - Robotics Programmer
-            - AI Integration Specialist
-            - Mecha Mechanic
-            - Autonomous Vehicle Engineer
-            - Cybernetic Companion Designer
-            - Industrial Robotics Technician
-            - Haptic Feedback Systems Engineer
-            - Nanorobotics Researcher
-        Designers:
-            - Techwear Fashion Designer
-            - Cyberpunk Couturier
-            - Holographic Fashion Stylist
-            - Futuristic Textile Engineer
-            - Augmented Reality Fashion Model
-            - Bioluminescent Clothing Designer
-            - Nanotech Fabric Innovator
-            - Haptic Fashion Experience Creator
-            - Virtual Catwalk Producer
-            - Cyberwear Trendsetter
 
 habitats:
     Types:
@@ -14460,87 +14594,8 @@ magical:
             - Hydrokinesis
             - Healing Waters
             - Ice Manipulation
-    beings:
-        - Amazon, Fearless warrior, Skilled archer, Formidable strength, Independent and self-reliant, Tall and muscular stature, Battle-hardened, Warriors of ancient myths, Honor and bravery, fantasy
-        - android, Human-like appearance, Anthropomorphic design, Synthetic skin and hair, Futuristic and sleek aesthetics, Elegance and sophistication in design, Enhanced with advanced technology, sci-fi
-        - Angel, Radiant aura, Heavenly grace, Harbingers of good news, Guardians of the divine realm, Symbolize purity and innocence, Emanate ethereal light, fantasy
-        - Centaur, Half-human, half-horse, Mythological creatures, Powerful and agile, Equine lower body, Human upper body,Guardians of the wild, fantasy
-        - cyborg, Human-machine hybrids, Part organic and part artificial, Advanced bionic enhancements, Futuristic technology, Cybernetic implants, Blend of biology and robotics, Enhanced physical capabilities, Integrated electronics, Neural interfaces, sci-fi, magical
-        - CyclopeOne-eyed giants, Mythological creatures, Enormous and powerful, Singular eye in the middle of the forehead, Fierce and intimidating appearance, Known for strength and brutality, fantasy, greek mythology
-        - Demon, Malevolent supernatural being, evil, chaos, infernal, powerful entity, corrupt,harm full, fantasy
-        - Devil, embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
-        - Djinn, supernatural beings, Middle Eastern folklore, humanoid created from smokeless fire, fantasy
-        - Dragon (in humanoid form),  immense power, wisdom, and connection to fire, draconic features,scales, wings, wise, ancient being, knowledge , fantasy
-        - Dwarf, short-statured humanoid beings, 3 to 4 feet tall, skilled craftsmen,expertise in mining and blacksmithing, resilience, determination, fantasy
-        - Elf, graceful and long-lived beings, 6 to 7 feet tall, beautiful,elegant,youthful appearance, graceful, ethereal, magical, fantasy
-        - Fairy,enchanting, ethereal creature, beauty, nature, protectors creatures, sacred places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
-        - Giant, humanoid, enormous and powerful beings, 20 to 40 feet tall, benevolent and wise, force of nature, legendary strength, fantasy
-        - Gnome, 1 feet small, humanoid, earth-dwelling humanoid being, affinity with the earth and nature, gardening and craftsmanship, fantasy
-        - Goblin,imaginative and mischievous goblin character with a hunched posture, glowing beady eyes, and a malevolent grin. Use earthy green and brown tones for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small in stature, around 2 to 3 feet tall, fantasy
-        - Harpie,mythical creature, upper body of a woman,  wings and lower body of a bird, vicious and malevolent, fantasy
-        - Human
-        - Kitsune,mythical creature, Japanese folklore, intelligent, humanform with multiple foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
-        - Leprechaun, mischievous, solitary,old men wearing green coats and buckled shoes, 3-4 feet tall, crafty and elusive, fantasy
-        - Merfolk, upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
-        - Minotaur, mythical creature with the head of a bull and the body of a man, Greek mythology, fierce and monstrous, chaos, primal instinct, fantasy
-        - Minotaurin, mythical creature, body of a woman, cow tail, bull horns, cow spots, gentle, friendly, large breasts , Greek mythology
-        - Naga, mythical serpent humanoid being, serpentine lower bodies, human upper body, "{devine, wisdom, knowledge|dangerous, unpredictable}", fantasy
-        - Nymph, Ethereal beauty, Nature's guardian, Alluring grace, Youthful appearance, Connected to the environment, Magical presence, Nature spirits, Reside in forests and water bodies, fantasy
-        - Orc, fictional humanoid creatures, brutish, fearsome, strength, muscular,rough rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray} skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated noses, and wide, powerful jaws, {sharp teeth|} fantasy
-        - Pixie, tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows}, playful, curious, delicate wings, flitting throught the air, fanatasy
-        - Satyr, mythological creature, upper body human, lower body goat, revelry, music, wine, dance, skilled musician and dancer, horns, fantasy
-        - Siren, seductive and alluring creatures, Greek mythology,beautiful,danger, temptation
-        - Sylph, humanoid elemental being, delicate and ethereal beings with gossamer wings, guardians of the air, {sky|mountain top},weather
-        - Troll, mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep forests}, Thick Warty {grey|green|brown} Skin, large nose, pointy ears, jutting jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy, stooped posture
-        - Vampire, legendary creature, force, power, blood, undead, beautyful, alluring, night, moon, fangs, fantasy
-        - Werewolf, lycanthropes,  mythical creature, humanoid wolf-like form, full moon, hairy furry skin, fangs, wolf ears, wolf-like face
-        - Yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains, 
     elemental:
         - "{fire|water|air|earth|elemental}"
-    profession:
-        crafter:
-            - Alchemist
-            - Conjurer
-            - Enchanter
-        caster:
-            - caster 
-            - Mage
-            - Magician
-            - Magus
-            - Sorcerer
-            - Spellcaster
-        knowledge:
-            - Arcanist
-            - Wizard
-        nature:
-            - Druid
-            - Shaman
-        dark:
-            - Necromancer
-            - Occultist
-            - Thaumaturge
-            - Warlock
-            - Witch
-        light:
-            - High Priest
-            - Priest
-            - Mystic
-        illusion:
-            - Clairvoyant
-            - Enigma
-            - Illusionist
-            - Seer
-        technomancy:
-            - Technomancer
-            - Psion
-            - Cyberwizard
-            - Nanomancer
-            - Energy Manipulator
-            - Chronomancer
-            - Space Mage
-            - Biowitch
-            - Hologrammancer
-            - Quantum Sorcerer
     profession-magic-use:
         crafter:
             - __magical/types/transmutation__
@@ -15427,61 +15482,6 @@ mushrooms:
 
 
 
-Onomatopoeia:
-    - Bang
-    - Boom
-    - Buzz
-    - Chirp
-    - Clang
-    - Clap
-    - Click
-    - Creak
-    - Crackle
-    - Crash
-    - Cuckoo
-    - Ding
-    - Hiss
-    - Honk
-    - Meow
-    - Moo
-    - Neigh
-    - Oink
-    - Quack
-    - Ribbit
-    - Roar
-    - Sizzle
-    - Snap
-    - Thud
-    - Tick-tock
-    - Tweet
-    - Whir
-    - Woof
-    - Zoom
-    - Beep
-    - Bleep
-    - Boing
-    - Bump
-    - Ding-dong
-    - Fizz
-    - Flutter
-    - Gobble
-    - Grumble
-    - Jingle
-    - Knock
-    - Mumble
-    - Purr
-    - Rattle
-    - Rip
-    - Rustle
-    - Screech
-    - Squeak
-    - Thump
-    - Toot
-    - Twang
-    - Whistle
-    - Yawn
-    - Yodel
-
 person:
     regular:
         female:
@@ -15501,7 +15501,7 @@ person:
                 {0.7::__person/regular/facial-features__|}|
                 {0.5::__person/regular/makeup__|}
             }, 
-            __random/haircolor__ __person/regular/haircuts-female__ hair, 
+            __Bo/Chars/haircolor__ __person/regular/haircuts-female__ hair, 
             __person/regular/expressions__"
         female_simple:
             - "__person/regular/ages__,
@@ -15513,7 +15513,7 @@ person:
                 {0.7::__person/regular/facial-features__|}|
                 {0.5::__person/regular/makeup__|}
             }, 
-            __random/haircolor__ __person/regular/haircuts-female__ hair, 
+            __Bo/Chars/haircolor__ __person/regular/haircuts-female__ hair, 
             __person/regular/expressions__"
         male:
             - "__person/regular/ages__
@@ -15532,7 +15532,7 @@ person:
                 {0.7::__person/regular/facial-features__|}|
                 {0.5::__person/regular/beard__|}
             }, 
-            __random/haircolor__ __person/regular/haircuts-male__ hair, 
+            __Bo/Chars/haircolor__ __person/regular/haircuts-male__ hair, 
             __person/regular/expressions__,"
         male_simple:
             - "__person/regular/ages__
@@ -15544,7 +15544,7 @@ person:
                 {0.7::__person/regular/facial-features__|}|
                 {0.5::__person/regular/beard__|}
             }, 
-            __random/haircolor__ __person/regular/haircuts-male__ hair, 
+            __Bo/Chars/haircolor__ __person/regular/haircuts-male__ hair, 
             __person/regular/expressions__,"
         ages:
             - Adolescence
@@ -16220,12 +16220,12 @@ person:
             - Standing with weight shifted to one leg, suggesting ease
     cyberpunk:
         female:
-            - "{__cyberpunk/beings__|},
+            - "{__characters/beings/cyberpunk__|},
             __person/regular/female__, 
             __person/cyberpunk/poses__, 
             {0.1::__person/cyberpunk/wings__|}"
         male:
-            - "{__cyberpunk/beings__|},
+            - "{__characters/beings/cyberpunk__|},
             __person/regular/male__, 
             __person/cyberpunk/poses__, 
             {0.1::__person/cyberpunk/wings__|}"
@@ -16406,12 +16406,12 @@ person:
             - Robotic Winged Drones
     magical:
         female:
-            - "{__magical/beings__|},
+            - "{__characters/beings/magical__|},
             __person/regular/female__, 
             __person/magical/poses__, 
             {0.1::__person/magical/wings__|}"
         male:
-            - "{__magical/beings__|},
+            - "{__characters/beings/magical__|},
             __person/regular/male__,
             __person/magical/poses__,
             {0.1::__person/magical/wings__|}"
@@ -16621,12 +16621,12 @@ person:
             - Looking Over Sunglasses, Gazing over sunglasses with a sultry expression, adding a touch of mystery and allure
     scifi:
         female:
-            - "{__scifi/beings__|},
+            - "{__characters/beings/scifi__|},
             __person/regular/female__, 
             __person/scifi/poses__, 
             {0.1::__person/scifi/wings__|}"
         male:
-            - "{__scifi/beings__|},
+            - "{__characters/beings/scifi__|},
             __person/regular/male__, 
             __person/scifi/poses__, 
             {0.1::__person/scifi/wings__|}"
@@ -20427,6 +20427,27 @@ properties:
             - Lavender Mist
             - Cherry Blossom Pink
 
+    fit:
+        - Tight
+        - Loose
+        - Snug
+        - Baggy
+        - Form-fitting
+        - Oversized
+        - Slim
+        - Roomy
+        - Comfy
+        - Relaxed
+        - Fitted
+        - Loose-fitting
+        - Tailored
+        - Draped
+        - Flowy
+        - Bulky
+        - Skin-tight
+        - Hugging
+        - Constricting
+
 
 scenes:
     regular:
@@ -21599,134 +21620,6 @@ scenes:
         - Cosmic Mysteries
 
 scifi:
-    types:
-        - Alien invasion
-        - Apocalyptic science fiction
-        - Artificial intelligence
-        - Biopunk
-        - Climate fiction
-        - Cyberpunk
-        - Dystopian
-        - First contact
-        - Galactic empire
-        - Genetic engineering
-        - Mind uploading
-        - Nanopunk
-        - Parallel universes
-        - Planetary romance
-        - Post-apocalyptic
-        - Robot uprising
-        - Solarpunk
-        - Space colonization
-        - Space opera
-        - Space western
-        - Steampunk
-        - Superhero science fiction
-        - Teleportation
-        - Time travel
-        - Transhumanism
-        - Utopian/Post-scarcity
-        - Virtual reality, Augmented reality
-    beings:
-        - Androids- Human-like robots with sleek metallic bodies and lifelike synthetic skin.
-        - Aliens- Extraterrestrial creatures with unique physiologies, varying from humanoid to bizarre forms.
-        - Cyborgs- Part human, part machine beings, showcasing a fusion of organic and mechanical elements.
-        - Extraterrestrial creatures- Diverse life forms with imaginative appearances, ranging from elegant to monstrous.
-        - Artificial intelligences (AIs)- Digital entities represented as holographic projections or glowing avatars.
-        - Shape-shifters- Beings capable of transforming their bodies, adopting different appearances at will.
-        - Interdimensional beings- Ethereal entities with ever-shifting, kaleidoscopic forms that defy normal physics.
-        - Telepathic species- Creatures with mesmerizing glowing patterns on their foreheads or pulsating brainwaves.
-        - Energy beings- Entities composed of radiant, luminous energy, taking on ethereal, luminescent forms.
-        - Hive minds- Coordinated entities exhibiting synchronized movements and a shared visual connection.
-        - Time travelers- Clad in unique, futuristic suits or garments that reflect their time-traveling technology.
-        - Insectoid species- Insect-like beings with segmented exoskeletons, multifaceted eyes, and antennae.
-        - Sentient robots- Robots with expressive visual displays, glowing eyes, and sleek, polished exteriors.
-        - Spacefaring civilizations- Extravagantly adorned beings wearing sophisticated space-faring uniforms and insignias.
-        - Genetic hybrids- Blending physical traits from different species, creating visually striking, unique appearances.
-        - Nanobot swarms- Microscopic, shimmering clouds of nanobots capable of forming diverse shapes and patterns.
-        - Clones- Identical individuals with subtle distinctions in appearance, varying only in details.
-        - Cosmic entities- Vast, awe-inspiring beings emanating cosmic energies and engulfed in nebula-like halos.
-        - Ancient cosmic beings- Hoary, majestic beings adorned with intricate symbols and ethereal aura.
-        - Teleporting entities- Surrounded by glimmering, swirling lights during teleportation.
-        - Dimension-hoppers- Clad in shimmering, multidimensional attire that shifts hues and patterns.
-        - Galactic gods- Towering, resplendent beings emanating celestial auras and astral symbols.
-        - Subterranean species- Bioluminescent creatures with phosphorescent markings in dark caverns.
-        - Aquatic intelligences- Graceful beings with iridescent, webbed appendages and glistening scales.
-        - Energy vampires- Eerie, shadowy figures with glowing eyes and tendrils that siphon energy.
-        - Quantum entities- Fluid, fractal-like beings embodying superposition and quantum uncertainty.
-        - Organic spaceships (living ships)- Vessels with pulsating veins, organic growths, and symbiotic architecture.
-        - Biomechanical beings- Harmoniously blend mechanical and organic elements, adorned with glowing circuitry.
-        - Mind-controlling entities- Translucent, mesmerizing creatures emanating hypnotic patterns and lights.
-        - Transcendent beings- Evanescent, ever-changing entities with luminescent auras and morphing silhouettes.
-        - Timeless entities- Ancient beings with inscrutable, ageless features and ethereal veils.
-        - Cyberspace avatars- Digital personas manifested as radiant, virtual beings of light.
-        - Cosmic guardians- Massive, majestic entities radiating cosmic energies, clad in celestial armor.
-        - Celestial messengers- Graceful, ethereal beings appearing as radiant, glowing apparitions.
-        - Solar phoenixes- Celestial birds adorned with fiery plumage and radiant solar patterns.
-        - Bio-luminary spirits- Phosphorescent, wispy entities floating with ethereal luminescence.
-        - Nebula nymphs- Ethereal beings with flowing, shimmering garments reflecting nebula colors.
-        - Plasma specters- Intangible beings emitting flickering plasma trails and auroras.
-        - Starry seraphim- Winged beings with luminous, starry wings and celestial halos.
-        - Quantum dream weavers- Entities with kaleidoscopic, iridescent threads weaving dreams through dimensions.
-    profession:
-        Technology:
-            - Aerospace engineer
-            - Robotics technician
-            - Software developer
-            - Nanotechnologist
-            - Artificial Intelligence specialist
-            - Cybersecurity analyst
-            - Biomedical engineer
-            - Spacecraft designer
-        Exploration:
-            - Astronaut
-            - Planetary geologist
-            - Space navigator
-            - Astrobiologist
-            - Interstellar cartographer
-        Medicine:
-            - Geneticist
-            - Nanomedicine researcher
-            - Bioprinting specialist
-            - Neural interface surgeon
-            - Biomechanics engineer
-        Law-and-Order:
-            - Galactic diplomat
-            - Interdimensional lawyer
-            - AI rights advocate
-            - Time-travel law enforcement officer
-            - Cybercrime investigator
-        Entertainment:
-            - Holofilm director
-            - Holographic artist
-            - Virtual reality game designer
-            - Space music composer
-            - Exo-dance choreographer
-        Terraforming:
-            - Terraformer
-            - Atmospheric engineer
-            - Astroecologist
-            - Climate restoration specialist
-        Commerce:
-            - Interstellar trader
-            - Intergalactic cargo pilot
-            - Spaceport manager
-            - Xenobiologist consultant
-        Military:
-            - Starfighter pilot
-            - Space marine
-            - Galactic peacekeeper
-            - Space battle tactician
-        Communication:
-            - Galactic network administrator
-            - Subspace communicator technician
-            - Holo-conference organizer
-            - Virtual reality programmer
-        Archaeology:
-            - Extraterrestrial archaeologist
-            - Cosmic artifact curator
-            - Temporal archaeologist
-            - Space relic restorer
     computer:
         errors:
             - 0xC0FFEE Java Overflow
@@ -25191,6 +25084,49 @@ subjects-school:
 
 
 
+subtypes:
+    cyberpunk:
+        - Corporate Cyberpunk
+        - Gritty Urban Cyberpunk
+        - Post-Cyberpunk
+        - Biopunk
+        - Steampunk-Cyberpunk Fusion
+        - Nanopunk
+        - High-Tech Low-Life
+        - Virtual Reality Cyberspace
+        - Cyber-Noir
+        - Cyberpunk Fantasy
+
+    scifi:
+        - Alien invasion
+        - Apocalyptic science fiction
+        - Artificial intelligence
+        - Biopunk
+        - Climate fiction
+        - Cyberpunk
+        - Dystopian
+        - First contact
+        - Galactic empire
+        - Genetic engineering
+        - Mind uploading
+        - Nanopunk
+        - Parallel universes
+        - Planetary romance
+        - Post-apocalyptic
+        - Robot uprising
+        - Solarpunk
+        - Space colonization
+        - Space opera
+        - Space western
+        - Steampunk
+        - Superhero science fiction
+        - Teleportation
+        - Time travel
+        - Transhumanism
+        - Utopian/Post-scarcity
+        - Virtual reality, Augmented reality
+
+
 vehicles:
     size:
         - Tiny
@@ -26704,6 +26640,61 @@ words:
             - Whisper
             - Writh
             - Yearn
+    Onomatopoeia:
+        - Bang
+        - Boom
+        - Buzz
+        - Chirp
+        - Clang
+        - Clap
+        - Click
+        - Creak
+        - Crackle
+        - Crash
+        - Cuckoo
+        - Ding
+        - Hiss
+        - Honk
+        - Meow
+        - Moo
+        - Neigh
+        - Oink
+        - Quack
+        - Ribbit
+        - Roar
+        - Sizzle
+        - Snap
+        - Thud
+        - Tick-tock
+        - Tweet
+        - Whir
+        - Woof
+        - Zoom
+        - Beep
+        - Bleep
+        - Boing
+        - Bump
+        - Ding-dong
+        - Fizz
+        - Flutter
+        - Gobble
+        - Grumble
+        - Jingle
+        - Knock
+        - Mumble
+        - Purr
+        - Rattle
+        - Rip
+        - Rustle
+        - Screech
+        - Squeak
+        - Thump
+        - Toot
+        - Twang
+        - Whistle
+        - Yawn
+        - Yodel
+
     scifi:
         adjectives:
             - Advanced
