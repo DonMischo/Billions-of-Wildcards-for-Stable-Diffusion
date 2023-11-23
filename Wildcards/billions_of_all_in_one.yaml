@@ -2,10 +2,512 @@
 # Billions of Wildcards - all in one #
 ######################################
 
+Bo:
+# Billions of plants
+    Plants:
+        random-plant:
+            - "{
+            __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
+            {__properties/textures/stem__ __properties/shape/stem__ __plants/stem__, __properties/textures/bark__,|}
+            {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
+            {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
+            {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,}|}
+            {__plants/Sepal-Configuration__, __plants/Foliage-Arrangement__,|}
+            {__properties/structure/root__ root|}
+            }"
+        random-shroom:
+            - "{
+            __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/textures/mushrooms__ mushroom,
+            __properties/textures/*__, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
+            {__mushrooms/Bioluminescence__,|}
+            {__properties/colors/*__ __mushrooms/gill__,|}
+            {1-3$$__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
+            __mushrooms/Hymenium__,| __mushrooms/Latex__ Latex,|}
+            {__properties/colors/*__ __mushrooms/stipe-base__,|}
+            {__mushrooms/Poisonous-Properties__,|__mushrooms/Medicinal-Properties__,|}
+            }"
+
 # Billions of cosmics
-BoCosmic:
+    Cosmic:
+        random:
+            - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__}"
+
+# Billions of Audio
+    Audio:
+        random:
+            - __audio/music/*__, {1-2$$__audio/sound/*__|__audio/melody/*__|__audio/notes/*__|__audio/Notation/*__}, __audio/Genre/*__
+        album-cover:
+            - __audio/Genre/*__ Album Cover, __audio/AlbumCover/MainImage__, __audio/AlbumCover/TitleText__, {__audio/AlbumCover/DesignElements__|__audio/AlbumCover/Background__|__audio/AlbumCover/Style__|}
+
+# BoBooks
+    Books:
+        random:
+            - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography__, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
+               {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/materials__, 
+               {__books/Places-books__|__books/Book-Accessories__|}"
+# BoPsycho
+    Psycho:
+        random:
+            - "__brain-psychology/terms__, __brain-psychology/Practices-Fields__, __brain-psychology/Concepts-Phenomena__, 
+            __brain-psychology/Neural-Circuit-Patterns__, {1-3$$__words/brain-psychology/*__}"
+
+# BoChars
+    Chars:
+        female:
+            modern:
+                - female __person/regular/female__ wearing __clothings/regular/female-attire__, __person/regular/poses__
+            BoConstructions:
+                - __BoChars/female/modern__, __BoConstructions/random-standard__
+            BoCloths:
+                - __BoChars/female/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
+        male:
+            modern:
+                - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
+            BoConstructions:
+                - __BoChars/male/modern__, __BoConstructions/random-standard__
+            BoCloths:
+                - __BoChars/male/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
+        div:
+            - male __BoChars/female/modern__
+            - female __BoChars/male/modern__ 
+        random:
+            - "{0.45::__BoChars/female/modern__|0.45::__BoChars/male/modern__|0.1::__BoChars/div__}"
+        class-profession:
+            - "{male|female} __characters/species/*__, {__characters/professions/*__|},{__characters/classes/*__|}"
+        class-profession-weapon:
+            - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/weapons/*__ "
+        class-profession-itemslots:
+            - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/itemslots/*__ "
+
+# BoClothings
+    Cloths:
+        random-fullbody:
+            - "__clothings/fit__ full body clothing,
+            {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
+            __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
+            __styles/clothing/Sleeve__,
+            __styles/clothing/dress-Length__,
+            __styles/clothing/Waistlines__,
+            __styles/clothing/skirt__,
+            __BoCloths/random-extras__
+            "
+        random-combination:
+            - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
+        random-upperbody:
+            - "__clothings/fit__ upper body clothing,
+            {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
+            __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
+            __styles/clothing/Sleeve__,
+            __styles/clothing/dress-Length__,
+            __styles/clothing/Waistlines__,
+            __BoCloths/random-extras__
+            "
+        random-lowerbody:
+            - "__clothings/fit__ lower body clothing,
+            __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
+            __styles/clothing/fit-Length__,
+            __styles/clothing/Waistlines__,
+            __BoCloths/random-extras__
+            "
+        random-extras:
+            - "
+            {1-6$$__styles/clothing/Embellishments__,|__styles/clothing/Special-Features__,|__styles/clothing/Functional-Features__,|
+            __styles/clothing/Waistband-Closure__,|__styles/clothing/pockets__,|__styles/clothing/wash__,|__styles/clothing/Back-Designs__,|
+            __styles/clothing/Dress-Accents__,|__styles/clothing/Unique-Features__, __styles/clothing/Closure__,|__styles/clothing/Design__}
+            "
+        random-dress-properties:
+            cyberpunk:
+                - "{1-3$$  $$__random/color__|__properties/fabrics/cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
+            nsfw:
+                - "{1-4$$  $$__random/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
+            regular:
+                - "{1-3$$  $$__random/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}"
+            scifi:
+                - "{1-3$$  $$__random/color__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}"
+        random-accesoires:
+            cyberpunk:
+                - "{1-4$${0.1::__clothings/cyberpunk/unisex/accesoires__ |}|
+                {0.2::__clothings/cyberpunk/unisex/backwear__ |}|
+                {0.2::__clothings/cyberpunk/unisex/facewear__ |}|
+                {0.1::__clothings/cyberpunk/unisex/neckwear__ |}}"
+            magical:
+                - "{1-4$${0.1::__clothings/regular/unisex/accesoires__ |}|
+                {0.2::__clothings/regular/unisex/backwear__ |}|
+                {0.2::__clothings/regular/unisex/facewear__ |}|
+                {0.1::__clothings/regular/unisex/neckwear__ |}}"
+            nsfw:
+                - "{1-4$${0.1::__clothings/nsfw/unisex/accesoires__ |}|
+                {0.2::__clothings/nsfw/unisex/backwear__ |}|
+                {0.2::__clothings/nsfw/unisex/facewear__ |}|
+                {0.1::__clothings/nsfw/unisex/neckwear__ |}}"
+            regular:
+                - "{1-4$${0.1::__clothings/regular/unisex/accesoires__ |}|
+                {0.2::__clothings/regular/unisex/backwear__ |}|
+                {0.2::__clothings/regular/unisex/facewear__ |}|
+                {0.1::__clothings/regular/unisex/neckwear__ |}}"
+
+            scifi:
+                - "{1-4$${0.1::__clothings/scifi/unisex/accesoires__ |}|
+                {0.2::__clothings/scifi/unisex/backwear__ |}|
+                {0.2::__clothings/scifi/unisex/facewear__ |}|
+                {0.1::__clothings/scifi/unisex/neckwear__ |}}"
+
+# BoConstructions
+    Constructions:
+        building-standard:
+            - __Bo/Constructions/buildings__
+        building-cyberpunk:
+            - __Bo/Constructions/buildings-cyberpunk__
+        building-scifi:
+            - __Bo/Constructions/buildings-scifi__
+        building-magical:
+            - __Bo/Constructions/buildings-magical__
+        random-building:
+            - __Bo/Constructions/buildings*__
+        random-room:
+            - __Bo/Constructions/rooms*__
+        random:
+            - "{__BoConstructions/random-room__|__BoConstructions/random-building__}"
+        random-standard:
+            - "{__BoConstructions/room-standard__|__BoConstructions/building-standard__}"
+#WIP 
+        interior-design:
+            - "{1-5$$__constructions/interior-design/*__}"
+        interior-design-fictional:
+            - "{1-5$$__constructions/interior-design*/*__}"
+        rooms:
+            regular:
+                - __constructions/rooms/*__, __Bo/Constructions/interior-design__, __random/materials-indoor__, __random/lighting-indoor__
+            fictional:
+                - __constructions/rooms*/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__
+            cyberpunk:
+                - __constructions/rooms-cyberpunk/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, cyberpunk, sci-fi
+            scifi:
+                - __constructions/rooms-scifi/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__, sci-fi
+            magical:
+                - __constructions/rooms-magical/*__, __Bo/Constructions/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, fantasy
+        buildings:
+            - "__constructions/types/*__, {1-3$$__properties/materials-construction/basic__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+        buildings-fictional:
+            - "__constructions/types*/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+        buildings-cyberpunk:
+            - "__constructions/types-cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+        buildings-scifi:
+            - "__constructions/types-scifi/*__, {1-3$$__properties/materials-construction/scifi__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+        buildings-magical:
+            - "__constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+
+
+
+
+# BoCreative
+    Creative:
+        random:
+            - __creative/*__
+        myPrompt:
+            - hyper detailed masterpiece, dynamic realistic digital art, awesome quality, __BoCreative/random__,__BoCreative/random__,__BoCreative/random__,__BoStyles/random-ambient-effect__,__BoStyles/random-atmosphere__,__BoStyles/random-atmosphere__,__habitats/*__,__phenomena/*/*__ 
+# BoCreatures
+    Creatures:
+        random:
+            - "__creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/Look-Feel__ __creatures/Body-Shapes__, 
+            {__creatures/nmbrlegs__ __creatures/nmbrarms__,|}
+            __creatures/Appendages__, 
+            {__creatures/nmbrtails__,|} __creatures/tails__, 
+            __creatures/Skin-Fur-Types__,
+            {__creatures/ear-Types__,|}
+            {__creatures/wings__,|}
+            # {__creatures/horns__,|}
+            # {__creatures/Mouth-Jaw__,|}
+            {__properties/colors/*__,|__properties/patterns/unusual__,|}"
+        animalfusion:
+            - "fusion of {2-5$$__creatures/animals/*__}"
+# BoCharsCyberpunk
+    CharsCyberpunk:
+        female:
+            classic:
+                - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
+            scenery:
+                - __BoCharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+            BoConstructions:
+                - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
+        male:
+            classic:
+                - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
+            scenery:
+                - __BoCharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+            BoConstructions:
+                - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
+        random:
+            - "{__BoCharsCyberpunk/male/classic__|__BoCharsCyberpunk/female/classic__}"
+
+
+# BoCristmas
+    christmas:
+        - "WIP"
+
+# BoHalloween
+    Halloween:
+        random-location:
+            - __halloween/Places-Sceneries__, __halloween/Atmosphere__, __halloween/Decorations__, __halloween/Symbols-Icons__,__halloween/Lighting__, __halloween/ArtStyles__
+        random-ppl:
+            - "__halloween/Costumes__, __halloween/Atmosphere__, __halloween/Food-Treats__, __halloween/Lighting__,
+            {__halloween/Symbols-Icons__,|__halloween/Grimaces__,|__halloween/Symbols-Icons__,|__halloween/Traditions__,|}"
+        random-anything:
+            - "__halloween/Atmosphere__ __halloween/ArtStyles__ __halloween/Costumes__ __halloween/Places-Sceneries__ 
+            __halloween/Food-Treats__ __halloween/Decorations__ __halloween/Grimaces__ __halloween/Lighting__ __halloween/Symbols-Icons__
+            __halloween/Traditions__"
+        random-pumpkin:
+            - pumpkin carving, __halloween/Pumpkin-Carving/Techniques__, __halloween/Pumpkin-Carving/Styles__, __halloween/Pumpkin-Carving/Expressions__
+# BoJewelry
+    Jewelry:
+        random-properties:
+            - "__jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__, __jewelry/carat__, __jewelry/fire__, 
+            __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/hardness__, __jewelry/durability__, __jewelry/treatments__, __jewelry/setting__,
+            __jewelry/origin__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
+        random-properties-reduced:
+            - "__jewelry/brilliance__ __jewelry/fire__ __chemistry/gems__, __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/durability__, __jewelry/treatments__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
+        random:
+            - __jewelry/types__, __BoJewelry/random-properties__
+# BoMachines
+    Machines:
+        random:
+            - "__machines/types/*__,
+            {2-6$$__machines/parts/*__},
+            {__properties/patterns/machines__},
+            {__properties/textures/machines__},
+            "
+        random-machine:
+            - "__properties/size/*__ __machines/types-synonyms__,
+            {2-6$$__machines/parts/*__},
+            {__properties/patterns/machines__},
+            {__properties/textures/machines__},
+            "
+# BoCharsMag
+    CharsMag:
+        female:
+            classic:
+                - "female __person/magical/female__ 
+                {
+                wearing __clothings/magical/female-attire__ 
+                __words/magical/verbs__ __magical/magic__|
+                __random/profession-magic__
+                }, __person/magical/poses__, __lighting/magical__"
+            modern:
+                - "female __person/magical/female__ 
+                {
+                wearing __clothings/regular/female-attire__ 
+                __words/magical/verbs__ __magical/magic__|
+                __random/profession-magic__
+                }, __person/magical/poses__, __lighting/magical__"
+            scenery:
+                - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/regular/*__"
+            BoConstructions:
+                - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
+        male:
+            classic:
+                - "male __person/magical/male__ 
+                {
+                wearing __clothings/magical/male-attire__ 
+                __words/magical/verbs__ __magical/magic__|
+                __random/profession-magic__
+                }, __person/magical/poses__, __lighting/magical__"
+            modern:
+                - "male __person/magical/male__ 
+                {
+                wearing __clothings/regular/male-attire__ 
+                __words/magical/verbs__ __magical/magic__|
+                __random/profession-magic__
+                }, __person/magical/poses__, __lighting/magical__"
+            scenery:
+                - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/regular/*__"
+            BoConstructions:
+                - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
+        div:
+            - "female {__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}"
+            - "male {__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}"
+        random:
+            - "{0.45::{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}|
+            0.45::{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}|
+            0.1::__BoCharsMag/div__}"
+# BoScenes
+    Scenes:
+        random:
+            - "__scenes/settings/*__
+            {1-4$$__scenes/features*__}"
+        random-Landscape:
+            - "__scenes/settings/Landscapes__
+            {1-4$$__scenes/features*__}"
+        random-city:
+            - "{0.4::__styles/*__ architecture|} __scenes/settings/UrbanBuiltEnvironments__
+            {1-4$$__scenes/features*__}"
+# BoCharsSciFi
+    CharsScifi:
+        female:
+            classic:
+                - female __random/profession-scifi__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
+            scenery:
+                - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
+            BoConstructions:
+                - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
+        male:
+            classic:
+                - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
+            scenery:
+                - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
+            BoConstructions:
+                - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
+        random:
+            - "{__BoCharsScifi/male/classic__|__BoCharsScifi/female/classic__}"
+
+# BoSciFi
+    SciFi:
+        random:
+            - "__scifi/types__ of __scifi/beings__ , __scifi/profession/*__"
+            - "__words/scifi/verbs__ __words/scifi/adjectives__ __words/scifi/substantives__"
+            - "{3-7$$__scifi/computer/errors__|__scifi/atmosphere/*__}"
+# Billions of Styles
+    Styles:
+        random-anything:
+            - "__styles/art-styles__, 
+            {__styles/punk-styles__|}, 
+            __styles/atmosphere/*__, 
+            __styles/rendering-techniques/*__, 
+            __styles/graphic-engines__, 
+            __styles/image-styles__, 
+            __styles/image-techniques/*__, 
+            __styles/depiction-styles/*__,
+            {__styles/animations__|},
+            {__styles/ambient-Effects__|},
+            __BoStyles/random-quality-prompts__,
+            __styles/resolutions__,
+            __styles/Creative-Concepts__,
+            __styles/StyleElementsText__"
+            #__BoStyles/random-camera-settings__"
+    # art Styles
+        random-artstyle:
+            - __styles/art-styles__
+    # punk style
+        random-punk-styles:
+            - __styles/punk-styles__
+    # atmosphere
+        random-atmosphere:
+            - __styles/atmosphere/*__
+    # rendering
+        random-rendering:
+            - __styles/rendering-techniques/*__
+     # graphic engines
+        random-graphic-engines:
+            - __styles/graphic-engines__
+    # image Styles
+        random-image-styles:
+            - __styles/image-styles__
+    # image Techniques
+        random-image-techniques:
+            - __styles/image-techniques/*__
+    # depiction styles
+        random-depiction-styles:
+            - __styles/depiction-styles/*__
+    # Animation
+        random-animation-style:
+            - __styles/animations__
+    # ambient Effects
+        random-ambient-effect:
+            - __styles/ambient-Effects__
+    # quality
+        random-quality-prompts:
+            - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
+    # resolution
+        random-resolution:
+            - __styles/resolutions__
+    # creative concepts
+        random-creative-concept:
+            - __styles/Creative-Concepts__
+    # Camera
+        random-camera-settings:
+            - "{__styles/camera/camera__|}, 
+            __styles/camera/Aperture-Settings__, 
+            __styles/camera/Shutter-Speed__, 
+            __styles/camera/ISO-Settings__, 
+            __styles/camera/White-Balance__, 
+            __styles/camera/Exposure-Settings__, 
+            __styles/camera/Shooting-Modes__, 
+            __styles/camera/Composition-Techniques__,
+            __styles/camera/Focus__,
+            __styles/camera/Metering__"
+# Billions of vehicles:
+    Vehicles:
+        random:
+            - "{__vehicles/size__|} __vehicles/types/*__,
+            {__vehicles/exterior-features__,|}
+            {__vehicles/windows__,|}
+            {__vehicles/lights__,|}
+            {__vehicles/Accessories__,|}
+            {__vehicles/Customization__,|}
+            __properties/materials-vehicles/*__,
+            __properties/Visual/Appearance__,
+            {__properties/paint/vehicle__,|}
+            {__properties/Textures/vehicles__,|}"
+        random-scifi:
+            - "{__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|__vehicles/types/Flying-Car-Like-Vehicles__|__vehicles/types/Underground-Vehicles__},
+            {__vehicles/exterior-features__,|}
+            {__vehicles/windows__,|}
+            {__vehicles/lights__,|}
+            {__vehicles/Accessories__,|}
+            {__vehicles/Customization__,|}
+            __properties/materials-vehicles/*__,
+            __properties/Visual/Appearance__,
+            {__properties/paint/vehicle__,|}
+            {__properties/Textures/vehicles__,|}"
+        random-notype:
+            - "{__vehicles/size__|} Conveyance,
+            {__vehicles/exterior-features__,|}
+            {__vehicles/windows__,|}
+            {__vehicles/lights__,|}
+            {__vehicles/Accessories__,|}
+            {__vehicles/Customization__,|}
+            __properties/materials-vehicles/*__,
+            __properties/Visual/Appearance__,
+            {__properties/paint/vehicle__,|}
+            {__properties/Textures/vehicles__,|}"
+###########
+# randoms #
+###########
     random:
-        - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__}"
+        color:
+            - "{__properties/colors/common__|__properties/colors/fashion__|__properties/colors/special__}"
+        haircolor:
+            - "{0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}"
+        profession-cyberpunk:
+            - __cyberpunk/profession/*__
+        properties-magical:
+            - "{0-5$${-2$$__words/magical/adjectives__}|
+            {-2$$__words/magical/substantives__}|
+            {-2$$__words/magical/verbs__}|
+            {-2$$__properties/materials-magic/*__}|
+            __lighting/magical__}"
+        profession-magic:
+            - __magical/profession/crafter__, __magical/magic__ __magical/profession-magic-use/crafter__
+            - __magical/profession/caster__, __magical/magic__ __magical/profession-magic-use/caster__
+            - __magical/profession/knowledge__, __magical/magic__ __magical/profession-magic-use/knowledge__
+            - __magical/profession/nature__, __magical/magic__ __magical/profession-magic-use/nature__
+            - __magical/profession/dark__, __magical/magic__ __magical/profession-magic-use/dark__
+            - __magical/profession/light__, __magical/magic__ __magical/profession-magic-use/light__
+            - __magical/profession/illusion__, __magical/magic__ __magical/profession-magic-use/illusion__
+            - __magical/profession/technomancy__, __magical/magic__ __magical/profession-magic-use/technomancy__
+        profession-scifi:
+            - __scifi/profession/*__
+        materials-indoor:
+            - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
+        materials-outdoor:
+            - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
+        light-source-indoor:
+            - __constructions/light-sources-indoor/*__
+        light-source-outdoor:
+            - __constructions/light-sources-outdoor/*__
+        lighting-indoor:
+            - "{1-2$$__random/light-source-indoor__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
+        lighting-outdoor:
+            - "{1-2$$__random/light-source-outdoor__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
 
 astronomy:
     Celestial-Bodies:
@@ -92,12 +594,6 @@ astronomy:
         - Celestial Navigation
         - Celestial Motion
 
-# Billions of Audio
-BoAudio:
-    random:
-        - __audio/music/*__, {1-2$$__audio/sound/*__|__audio/melody/*__|__audio/notes/*__|__audio/Notation/*__}, __audio/Genre/*__
-    album-cover:
-        - __audio/Genre/*__ Album Cover, __audio/AlbumCover/MainImage__, __audio/AlbumCover/TitleText__, {__audio/AlbumCover/DesignElements__|__audio/AlbumCover/Background__|__audio/AlbumCover/Style__|}
 audio:
     music:
         Classic-Features:
@@ -436,12 +932,6 @@ audio:
             - Theme
             - Concept
 
-# BoBooks
-BoBooks:
-    random:
-        - "{__books/genres__|__books/Fictional-Types__|__books/Book-Sizes__ book}, {0.1::__books/Typography__, __books/Printing-Techniques__,|0.1::__books/Illustration__,|}
-           {__books/Bookbinding-Styles__,|} __books/Book-Covers__, __properties/Materials-books/materials__, 
-           {__books/Places-books__|__books/Book-Accessories__|}"
 
 books:
     Genres:
@@ -565,11 +1055,6 @@ books:
         - Reading lights
         - Book stands
 
-# BoPsycho
-BoPsycho:
-    random:
-        - "__brain-psychology/terms__, __brain-psychology/Practices-Fields__, __brain-psychology/Concepts-Phenomena__, 
-        __brain-psychology/Neural-Circuit-Patterns__, {1-3$$__brain-psychology/words/*__}"
 
 brain-psychology:
     Terms:
@@ -670,118 +1155,6 @@ brain-psychology:
         - Sparse Coding
         - Rate Coding
 
-    words:
-        Mind-Mental-States:
-            - Analytical
-            - Creative
-            - Critical
-            - Curious
-            - Confused
-            - Clarity
-            - Concentrated
-            - Conscious
-            - Delusional
-            - Determined
-            - Disoriented
-            - Enlightened
-            - Focused
-            - Forgetful
-            - Imaginative
-            - Inquisitive
-            - Intuitive
-            - Lucid
-            - Meditative
-            - Mindful
-            - Obsessive
-            - Perceptive
-            - Pensive
-            - Rational
-            - Reflective
-            - Repressed
-            - Thoughtful
-            - Unconscious
-            - Unsettled
-            - Vivid
-
-        Brain-Cognitive-Characteristics:
-            - Adaptive
-            - Complex
-            - Efficient
-            - Elastic
-            - Evolving
-            - Flexible
-            - Impaired
-            - Logical
-            - Multifaceted
-            - Plastic
-            - Resilient
-            - Synaptic
-            - Neurological
-            - Computational
-            - Impulsive
-            - Responsive
-            - Elastic
-            - Neuroplastic
-            - Cognitive
-            - Synaptic
-            - Emotional
-            - Rational
-            - Impaired
-
-        Psychological-States-Emotions:
-            - Anxious
-            - Depressed
-            - Emotional
-            - Hysterical
-            - Irrational
-            - Neurotic
-            - Paranoid
-            - Schizophrenic
-            - Stressed
-            - Traumatized
-            - Happy
-            - Sad
-            - Angry
-            - Confident
-            - Insecure
-            - Joyful
-            - Fearful
-            - Guilty
-            - Content
-            - Hopeful
-            - Apathetic
-            - Resilient
-            - Empathetic
-            - Impulsive
-
-
-# BoChars
-BoChars:
-    female:
-        modern:
-            - female __person/regular/female__ wearing __clothings/regular/female-attire__, __person/regular/poses__
-        BoConstructions:
-            - __BoChars/female/modern__, __BoConstructions/random-standard__
-        BoCloths:
-            - __BoChars/female/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
-    male:
-        modern:
-            - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
-        BoConstructions:
-            - __BoChars/male/modern__, __BoConstructions/random-standard__
-        BoCloths:
-            - __BoChars/male/modern__,  {__BoCloths/random-fullbody__|__BoCloths/random-combination__}
-    div:
-        - male __BoChars/female/modern__
-        - female __BoChars/male/modern__ 
-    random:
-        - "{0.45::__BoChars/female/modern__|0.45::__BoChars/male/modern__|0.1::__BoChars/div__}"
-    class-profession:
-        - "{male|female} __characters/species/*__, {__characters/professions/*__|},{__characters/classes/*__|}"
-    class-profession-weapon:
-        - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/weapons/*__ "
-    class-profession-itemslots:
-        - "{male|female} __characters/professions/*__ __characters/classes/*__ __characters/species/*__, __characters/itemslots/*__ "
 
 characters:
     professions:
@@ -2359,57 +2732,20 @@ chemistry:
         - Rhodochrosite
         - Alexandrite
 
-# BoClothings
-BoCloths:
-    random-fullbody:
-        - "__clothings/fit__ full body clothing,
-        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
-        __styles/clothing/Sleeve__,
-        __styles/clothing/dress-Length__,
-        __styles/clothing/Waistlines__,
-        __styles/clothing/skirt__,
-        __BoCloths/random-extras__
-        "
-    random-combination:
-        - "__BoCloths/random-upperbody__, __BoCloths/random-lowerbody__"
-    random-upperbody:
-        - "__clothings/fit__ upper body clothing,
-        {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
-        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
-        __styles/clothing/Sleeve__,
-        __styles/clothing/dress-Length__,
-        __styles/clothing/Waistlines__,
-        __BoCloths/random-extras__
-        "
-    random-lowerbody:
-        - "__clothings/fit__ lower body clothing,
-        __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
-        __styles/clothing/fit-Length__,
-        __styles/clothing/Waistlines__,
-        __BoCloths/random-extras__
-        "
-    random-extras:
-        - "
-        {1-6$$__styles/clothing/Embellishments__,|__styles/clothing/Special-Features__,|__styles/clothing/Functional-Features__,|
-        __styles/clothing/Waistband-Closure__,|__styles/clothing/pockets__,|__styles/clothing/wash__,|__styles/clothing/Back-Designs__,|
-        __styles/clothing/Dress-Accents__,|__styles/clothing/Unique-Features__, __styles/clothing/Closure__,|__styles/clothing/Design__}
-        "
-
 clothings:
     regular:
         female-attire:
-            - "{0.8::__random/dress-properties__|} __clothings/regular/female/lower-body__,
-            {0.8::__random/dress-properties__|} __clothings/regular/female/upper-body__,
+            - "{0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/female/lower-body__,
+            {0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/female/upper-body__,
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __random/accesoires__"
+            __Bo/Cloth/random-accesoires/regular__"
         male-attire:
-            - "{0.8::__random/dress-properties__|} __clothings/regular/male/lower-body__,
-            {0.8::__random/dress-properties__|} __clothings/regular/male/upper-body__,
+            - "{0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/male/lower-body__,
+            {0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/male/upper-body__,
             {0.8::__clothings/regular/male/footwear__|},
             {0.5::__clothings/regular/male/headwear__|},
-            __random/accesoires__"
+            __Bo/Cloth/random-accesoires/regular__"
         female:
             upper-body:
                 - Asymmetric hem top
@@ -3211,17 +3547,17 @@ clothings:
                 - Y-necklace
     cyberpunk:
         female-attire:
-            - "{0.8::__random/dress-properties__|} __clothings/cyberpunk/female/lower-body__,
-            {0.8::__random/dress-properties__|} __clothings/cyberpunk/female/upper-body__,
+            - "{0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/female/lower-body__,
+            {0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/female/upper-body__,
             {0.8::__clothings/cyberpunk/female/footwear__|},
             {0.5::__clothings/cyberpunk/female/headwear__|},
-            __random/accesoires-cyberpunk__"
+            __Bo/Cloth/random-accesoires/cyberpunk__"
         male-attire:
-            - "{0.8::__random/dress-properties__|} __clothings/cyberpunk/male/lower-body__,
-            {0.8::__random/dress-properties__|} __clothings/cyberpunk/male/upper-body__,
+            - "{0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/male/lower-body__,
+            {0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/male/upper-body__,
             {0.8::__clothings/cyberpunk/male/footwear__|},
             {0.5::__clothings/cyberpunk/male/headwear__|},
-            __random/accesoires-cyberpunk__"
+            __Bo/Cloth/random-accesoires/cyberpunk__"
         female:
             upper-body:
                 - Holo-Jacket
@@ -4172,7 +4508,7 @@ clothings:
                },
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __random/accesoires-magical__"
+            __Bo/Cloth/random-accesoires/magical__"
         male-attire:
             - "{
                 {0.8::__random/properties-magical__|} __clothings/magical/male/lower-body__,
@@ -4181,7 +4517,7 @@ clothings:
                },
             {0.8::__clothings/magical/male/footwear__|},
             {0.5::__clothings/magical/male/headwear__|},
-            __random/accesoires-magical__"
+            __Bo/Cloth/random-accesoires/magical__"
         female:
             upper-body:
                 - Celestial Boleros
@@ -4555,17 +4891,17 @@ clothings:
 
     nsfw:
         female-attire:
-            - "{0.8::__random/dress-properties-nsfw__|} {__clothings/nsfw/female/lower-body__|__clothings/nsfw/female/underwear-lower__},
-            {0.8::__random/dress-properties-nsfw__|} {__clothings/nsfw/female/upper-body__|__clothings/nsfw/female/underwear-upper__},
+            - "{0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/female/lower-body__|__clothings/nsfw/female/underwear-lower__},
+            {0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/female/upper-body__|__clothings/nsfw/female/underwear-upper__},
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __random/accesoires__"
+            __Bo/Cloth/random-accesoires/regular__"
         male-attire:
-            - "{0.8::__random/dress-properties-nsfw__|} {__clothings/nsfw/male/lower-body__|__clothings/nsfw/male/underwear-lower__},
-            {0.8::__random/dress-properties-nsfw__|} {__clothings/nsfw/male/upper-body__|__clothings/nsfw/male/underwear-upper__},
+            - "{0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/male/lower-body__|__clothings/nsfw/male/underwear-lower__},
+            {0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/male/upper-body__|__clothings/nsfw/male/underwear-upper__},
             {0.8::__clothings/regular/male/footwear__|},
             {0.5::__clothings/regular/male/headwear__|},
-            __random/accesoires__"
+            __Bo/Cloth/random-accesoires/regular__"
         female:
             upper-body:
                 - Bustier
@@ -5804,17 +6140,17 @@ clothings:
                 - Choker Necklace with Spikes
     scifi:
         female-attire:
-            - "{0.8::__random/dress-properties__|} __clothings/scifi/female/lower-body__,
-            {0.8::__random/dress-properties__|} __clothings/scifi/female/upper-body__,
+            - "{0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/female/lower-body__,
+            {0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/female/upper-body__,
             {0.8::__clothings/scifi/female/footwear__|},
             {0.5::__clothings/scifi/female/headwear__|},
-            __random/accesoires-scifi__"
+            __Bo/Cloth/random-accesoires/scifi__"
         male-attire:
-            - "{0.8::__random/dress-properties__|} __clothings/scifi/male/lower-body__,
-            {0.8::__random/dress-properties__|} __clothings/scifi/male/upper-body__,
+            - "{0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/male/lower-body__,
+            {0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/male/upper-body__,
             {0.8::__clothings/scifi/male/footwear__|},
             {0.5::__clothings/scifi/male/headwear__|},
-            __random/accesoires-scifi__"
+            __Bo/Cloth/random-accesoires/scifi__"
         female:
             upper-body:
                 - Holographic Blouse
@@ -6905,32 +7241,6 @@ components:
         - Photodetector
         - Laser Diode
 
-# BoConstructions
-BoConstructions:
-    building-standard:
-        - __random/buildings__
-    building-cyberpunk:
-        - __random/buildings-cyberpunk__
-    building-scifi:
-        - __random/buildings-scifi__
-    building-magical:
-        - __random/buildings-magical__
-    room-standard:
-        - __random/rooms__
-    room-cyberpunk:
-        - __random/rooms-cyberpunk__
-    room-scifi:
-        - __random/rooms-scifi__
-    room-magical:
-        - __random/rooms-magical__
-    random-building:
-        - __random/buildings*__
-    random-room:
-        - __random/rooms*__
-    random:
-        - "{__BoConstructions/random-room__|__BoConstructions/random-building__}"
-    random-standard:
-        - "{__BoConstructions/room-standard__|__BoConstructions/building-standard__}"
 
 constructions:
     types:
@@ -8128,12 +8438,6 @@ constructions:
             - Immersive Interactive Façades (e.g., LED Screens)
 
 
-# BoCreative
-BoCreative:
-    random:
-        - __creative/*__
-    myPrompt:
-        - hyper detailed masterpiece, dynamic realistic digital art, awesome quality, __BoCreative/random__,__BoCreative/random__,__BoCreative/random__,__BoStyles/random-ambient-effect__,__BoStyles/random-atmosphere__,__BoStyles/random-atmosphere__,__habitats/*__,__phenomena/*/*__ 
 creative:
     Surreal-Things:
         - Dreamscapes
@@ -10133,22 +10437,7 @@ creative:
         - Unveiled Rapture
         - Unmasked Grandeur
 
-# BoCreatures
-BoCreatures:
-    random:
-        - "__creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/Look-Feel__ __creatures/Body-Shapes__, 
-        {__creatures/nmbrlegs__ __creatures/nmbrarms__,|}
-        __creatures/Appendages__, 
-        {__creatures/nmbrtails__,|} __creatures/tails__, 
-        __creatures/Skin-Fur-Types__,
-        {__creatures/ear-Types__,|}
-        {__creatures/wings__,|}
-        # {__creatures/horns__,|}
-        # {__creatures/Mouth-Jaw__,|}
-        {__properties/colors/*__,|__properties/patterns/unusual__,|}"
-    animalfusion:
-        - "fusion of {2-5$$__creatures/animals/*__}"
-    
+   
 creatures:
     size:
         - Tiny
@@ -11011,596 +11300,6 @@ creatures:
         - Amber Dragon
 
 
-# BoCharsCyberpunk
-BoCharsCyberpunk:
-    female:
-        classic:
-            - female __random/profession-cyberpunk__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
-        scenery:
-            - __BoCharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
-        BoConstructions:
-            - __BoCharsCyberpunk/female/classic__, __BoConstructions/*-cyberpunk__
-    male:
-        classic:
-            - male __random/profession-cyberpunk__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
-        scenery:
-            - __BoCharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
-        BoConstructions:
-            - __BoCharsCyberpunk/male/classic__, __BoConstructions/*-cyberpunk__
-    random:
-        - "{__BoCharsCyberpunk/male/classic__|__BoCharsCyberpunk/female/classic__}"
-
-
-cyberpunk:
-    types:
-        - Corporate Cyberpunk
-        - Gritty Urban Cyberpunk
-        - Post-Cyberpunk
-        - Biopunk
-        - Steampunk-Cyberpunk Fusion
-        - Nanopunk
-        - High-Tech Low-Life
-        - Virtual Reality Cyberspace
-        - Cyber-Noir
-        - Cyberpunk Fantasy
-    beings:
-        - Cybernetic Mercenaries, Human mercenaries with cybernetic implants and body augmentations
-        - Biomechanical Hackers, Expert hackers merged with biotechnology, wired into cyberspace
-        - Nano-infused Mutants, Mutants with nanobots integrating into their bodies, granting extraordinary abilities
-        - AI Entities, Self-aware Artificial Intelligence with high-level cognitive abilities
-        - Virtual Constructs, Digital entities existing purely in virtual reality, taking on various forms and functions
-        - Gene-spliced Hybrids, Beings resulting from genetic manipulation, exhibiting a mix of species traits
-    profession:
-        Cybernetic-Enhancement:
-            - Neural Surgeon
-            - Biomechanic Engineer
-            - Augmentation Technician
-            - Cyberlimb Specialist
-            - Neural Interface Developer
-            - Nano-enhancement Specialist
-            - Cybernetic Prosthesis Expert
-            - Neural Implant Technician
-            - Biopunk Augmentation Engineer
-            - Neuroplasticity Consultant
-        Information-Brokers:
-            - Data Hacker
-            - Info Dealer
-            - Net Runner
-            - Data Smuggler
-            - Corporate Espionage Agent
-            - Cyber Surveillance Specialist
-            - Information Firewall Breaker
-            - Digital Data Infiltrator
-            - Virtual Black Market Trader
-            - Data Encryption Cracker
-        Corporate:
-            - Corporate Spy
-            - Corporate Saboteur
-            - Executive Bodyguard
-            - Corporate Infiltrator
-            - Corporate Negotiator
-            - Corporate Security Specialist
-            - Corporate Asset Extractor
-            - Corporate Intelligence Analyst
-            - Corporate Counterintelligence Agent
-            - Corporate Disinformation Specialist
-        Outlaws:
-            - Cyber Pirates
-            - Tech Smugglers
-            - Reverse Engineers
-            - Data Hijackers
-            - Tech Vandal
-            - Cybernetic Contraband Trafficker
-            - Tech Disruptor
-            - Virtual Contraband Runner
-            - Hacker-for-Hire
-            - Tech Blackmailer
-        Medics:
-            - Black Market Medic
-            - Street Doc
-            - Biohacker
-            - Cybernetic Paramedic
-            - Underground Surgeon
-            - Genetic Manipulation Specialist
-            - Bioware Implant Expert
-            - Underground Pharmacist
-            - Nanomedicine Practitioner
-            - Cybernetic Rehabilitation Therapist
-        Artists:
-            - Virtual Reality Sculptor
-            - Immersive Experience Designer
-            - VR Filmmaker
-            - Digital Art Hacker
-            - AI-generated Art Specialist
-            - Holographic Installation Artist
-            - Virtual Art Curator
-            - Augmented Reality Street Artist
-            - Holo-Sculpture Designer
-            - Immersive Storyteller
-        Mercenaries:
-            - Cyber Mercenary
-            - Street Samurai
-            - Bounty Hunter
-            - Cybernetic Gun-for-Hire
-            - Cyber Ninja
-            - Urban Merc
-            - Techno Ronin
-            - Cyber Assasin
-            - Rogue Cyber Soldier
-            - Cybernetic Vigilante
-        Investigators:
-            - Cyber Forensics Analyst
-            - Digital Detective
-            - Virtual Crime Specialist
-            - Cybersecurity Expert
-            - Cyber Threat Analyst
-            - Digital Evidence Analyst
-            - Cyber Incident Response Team (CIRT) Specialist
-            - Virtual Crime Scene Investigator
-            - Cyber Fraud Examiner
-            - Cyber Intelligence Analyst
-        Engineers:
-            - Drone Developer
-            - Android Architect
-            - Robotics Programmer
-            - AI Integration Specialist
-            - Mecha Mechanic
-            - Autonomous Vehicle Engineer
-            - Cybernetic Companion Designer
-            - Industrial Robotics Technician
-            - Haptic Feedback Systems Engineer
-            - Nanorobotics Researcher
-        Designers:
-            - Techwear Fashion Designer
-            - Cyberpunk Couturier
-            - Holographic Fashion Stylist
-            - Futuristic Textile Engineer
-            - Augmented Reality Fashion Model
-            - Bioluminescent Clothing Designer
-            - Nanotech Fabric Innovator
-            - Haptic Fashion Experience Creator
-            - Virtual Catwalk Producer
-            - Cyberwear Trendsetter
-    words:
-        adjectives:
-            - Algorithmic
-            - Apocalyptic
-            - Apocryphal
-            - Artificial
-            - Augmented
-            - Bionic
-            - Biomechanical
-            - Biometric
-            - Biopunk
-            - Bizarre
-            - Blade
-            - Chaotic
-            - Chromatic
-            - Circuit
-            - Circuitous
-            - Circuitry
-            - Clandestine
-            - Corporeal
-            - Cyber-enhanced
-            - Cybergoth
-            - Cybernetic
-            - Cyberspace
-            - Dazzling
-            - Digital
-            - Disruptive
-            - Dissonant
-            - Dreamlike
-            - Dystopian
-            - Edgy
-            - Electro
-            - Extraterrestrial
-            - Futuristic
-            - Futurism
-            - Futurist
-            - Genetic
-            - Glitchy
-            - Gritty
-            - Hackable
-            - Haptic
-            - Holographic
-            - Illusory
-            - Immersive
-            - Incendiary
-            - Intricate
-            - Luminous
-            - Magnetic
-            - Matrix
-            - Megacorporate
-            - Mechanized
-            - Mirrored
-            - Nano
-            - Nano-enhanced
-            - Nanotech
-            - Nebulous
-            - Neon
-            - Neural
-            - Neuromorphic
-            - Ocular
-            - Orbital
-            - Phosphorescent
-            - Post-human
-            - Psionic
-            - Recursive
-            - Remixed
-            - Retrofuturistic
-            - Robotic
-            - Sentient
-            - Shadowy
-            - Singularity
-            - Steampunk
-            - Sublime
-            - Subversive
-            - Synthetic
-            - Techno
-            - Technological
-            - Tech
-            - Techwear
-            - Transhuman
-            - Trippy
-            - Underground
-            - Urban
-            - Vaporwave
-            - Vast
-            - Visceral
-            - Virtual
-            - Virtualized
-            - Virtual-reality
-            - Voxel
-            - VR
-            - Whimsical
-            - Xenotech
-            - Zero-g
-            - Zettabyte
-        substantives:
-            - Access
-            - Augmentation
-            - Bionics
-            - Circuitry
-            - Code
-            - Cyberspace
-            - Data
-            - Dystopia
-            - Enhancement
-            - Firewall
-            - Glitch
-            - Hologram
-            - Implant
-            - Interface
-            - Jack
-            - Matrix
-            - Nanotechnology
-            - Network
-            - Override
-            - Processor
-            - Robotics
-            - Scanner
-            - Simulation
-            - Synth
-            - Transhuman
-            - Virus
-            - Weapon
-            - Algorithm
-            - Avatar
-            - Biohack
-            - Cryptocurrency
-            - Cybercrime
-            - Digitalization
-            - Electromagnetic
-            - Encryption
-            - Exoskeleton
-            - Genetic Engineering
-            - Hacker
-            - Infobahn
-            - Laser
-            - Memory
-            - Neural Implant
-            - Orbital Station
-            - Photon
-            - Prosthetics
-            - Quantum Computing
-            - Robotics Lab
-            - Satellite
-            - Sensor
-            - Simulacrum
-            - Technocracy
-            - Urban Sprawl
-            - Virtuality
-            - Wormhole
-            - Xenogenetics
-            - Zero-day
-            - Amplifier
-            - Battery
-            - Cerebral Interface
-            - Commlink
-            - Databank
-            - Drone
-            - Electroplasma
-            - Firewall
-            - Geodesic Dome
-            - Holo-goggles
-            - Implantation Clinic
-            - Jumphole
-            - Kinetic Energy Cell
-            - Laser Blade
-            - Memory Implant
-            - Neural Link
-            - Orbital Elevator
-            - Photon Rifle
-            - Power Core
-            - Quantum Encryption
-            - Railgun
-            - Satellite Uplink
-            - Smart Dust
-            - Teleporter
-            - Utility Fog
-            - Virtual Reality Pod
-            - Warp Drive
-            - Xenon Thruster
-            - Zero-g Chamber
-            - Anarchy
-            - Biopunk
-            - Cerebral Cortex
-            - Computation
-            - Datablade
-            - Dystopian City
-            - Ethercast
-            - Futurism
-            - Genetic Modification
-            - Holo-dancer
-            - Implantable Chip
-            - Junkyard
-            - Karyotype
-            - Luminescence
-            - Mecha
-            - Neural Network
-            - Orbital Colony
-        verbs:
-            - Access
-            - Augment
-            - Blend
-            - Breach
-            - Cipher
-            - Code
-            - Connect
-            - Crash
-            - Cyberize
-            - Datajack
-            - Decrypt
-            - Defend
-            - Delete
-            - Dismantle
-            - Encrypt
-            - Enhance
-            - Exploit
-            - Extract
-            - Firewall
-            - Fuse
-            - Hack
-            - Implant
-            - Infiltrate
-            - Interface
-            - Intrude
-            - Jack-in
-            - Jam
-            - Jettison
-            - Jolt
-            - Link
-            - Manipulate
-            - Merge
-            - Modulate
-            - Navigate
-            - Override
-            - Patch
-            - Phreak
-            - Reboot
-            - Reconfigure
-            - Replicate
-            - Reprogram
-            - Reveal
-            - Scramble
-            - Secure
-            - Skim
-            - Slash
-            - Synchronize
-            - Synthesize
-            - Systemize
-            - Tap
-            - Transmit
-            - Transpose
-            - Unlock
-            - Upload
-            - Vaporize
-            - Visualize
-            - Warp
-            - Weaponize
-            - Wipe
-            - Zeroday
-            - Amplify
-            - Boost
-            - Burn
-            - Camouflage
-            - Circuit-bend
-            - Cloak
-            - Cloister
-            - Counteract
-            - Crash-dive
-            - Cyberslack
-            - Deconstruct
-            - De-digitalize
-            - Databend
-            - Digitize
-            - Disengage
-            - Dose
-            - Electrify
-            - Eviscerate
-            - Flicker
-            - Fragment
-            - Fractalize
-            - Graft
-            - Gridwalk
-            - Haze
-            - Hijack
-            - Illuminate
-            - Interface
-            - Interpolate
-            - Loop
-            - Mesh
-            - Metamorphose
-            - Nanosurge
-            - Oscillate
-            - Overtake
-            - Phosphorize
-            - Phase
-            - Polymorph
-            - Proxy
-            - Realign
-            - Reboot
-            - Re-code
-            - Reconfigure
-            - Redact
-            - Reformat
-            - Refract
-            - Reinvent
-            - Resonate
-            - Revive
-            - Scatter
-            - Shuffle
-            - Silhouette
-            - Simulate
-            - Splice
-            - Streamline
-            - Surge
-            - Telemorph
-            - Teleport
-
-
-habitats:
-    Types:
-        - Village
-        - Town
-        - City
-        - Metropolis
-        - Hamlet
-        - Suburb
-        - Island
-        - Forest
-        - Desert Oasis
-        - Mountain Village
-        - Coastal Town
-        - Industrial City
-        - Seaside Resort
-        - Ski Resort Town
-        - Space Station
-        - Underwater Base
-    housing:
-        - dwelling
-        - residence
-        - abode
-        - domicile
-        - home
-        - habitation
-        - dwelling place
-        - mansion
-        - manor
-        - estate
-        - cottage
-        - bungalow
-        - cabin
-        - villa
-        - house
-        - residence
-    Biomes:
-        - Tundra
-        - Taiga
-        - Boreal Forest
-        - Temperate Deciduous Forest
-        - Grassland
-        - Prairie 
-        - Savanna
-        - Desert
-        - Tropical Rainforest
-        - Tropical Seasonal Forest 
-        - Dry Tropical Forest
-        - Chaparral
-        - Mediterranean
-        - Alpine
-        - Wetland
-        - Swamp
-        - Marsh
-        - Coral Reef
-        - Estuary
-        - Mangrove Forest
-        - Polar Ice Cap
-        - Mountain
-        - Cave
-        - Urban
-    places:
-        - Atlantis
-        - Valhalla
-        - Coruscant
-        - Camelot
-        - Shangri-La
-        - El Dorado
-        - Middle-earth
-        - Hogwarts
-        - Rivendell
-        - Gotham City
-        - Metropolis
-        - Wakanda
-        - Neverland
-        - Narnia
-        - Asgard
-        - Mount Olympus
-        - Minas Tirith
-        - Diagon Alley
-        - Mordor
-        - Oz
-        - Gondor
-        - Thebes
-        - Tír na nÓg
-        - King's Landing
-        - Winterfell
-        - Themyscira
-        - Arrakis
-        - Riviera
-        - Rapture
-        - Columbia
-    places-moers:
-        - The Nocturnal Academy
-        - The Mugg Memorial Library
-        - The Great Forest of Zamonia
-        - The City of Atlantis
-        - The Un-Forrest
-        - The Enchanted Dominion
-        - Wolperting
-        - Hel
-        - Gourmet Isles
-        - Skullop
-        - Bookholm
-        - The Catacombs of Dreaming Books
-        - The Great Library
-        - The Chamber of Supernostalgics
-        - Shadowhouse
-        - Malaisea
-        - Malaiseaberg
-        - Chalcedony
-        - Crat
-        - Blast Furnace Square
-        - Bookholm
-        - Old Ab's Bookstore
-        - The Book Eaters' Catacomb
-        - The Castle of Dreaming Books
-        - Lindworm Castle
-        - Bookholm
-        - Bookholm Station
-
-# BoCristmas
-
 christmas:
     christmas-carol:
         characters:
@@ -11932,19 +11631,259 @@ christmas:
         - Christmas Lights
         - Fireworks Displays
 
-# BoHalloween
-BoHalloween:
-    random-location:
-        - __halloween/Places-Sceneries__, __halloween/Atmosphere__, __halloween/Decorations__, __halloween/Symbols-Icons__,__halloween/Lighting__, __halloween/ArtStyles__
-    random-ppl:
-        - "__halloween/Costumes__, __halloween/Atmosphere__, __halloween/Food-Treats__, __halloween/Lighting__,
-        {__halloween/Symbols-Icons__,|__halloween/Grimaces__,|__halloween/Symbols-Icons__,|__halloween/Traditions__,|}"
-    random-anything:
-        - "__halloween/Atmosphere__ __halloween/ArtStyles__ __halloween/Costumes__ __halloween/Places-Sceneries__ 
-        __halloween/Food-Treats__ __halloween/Decorations__ __halloween/Grimaces__ __halloween/Lighting__ __halloween/Symbols-Icons__
-        __halloween/Traditions__"
-    random-pumpkin:
-        - pumpkin carving, __halloween/Pumpkin-Carving/Techniques__, __halloween/Pumpkin-Carving/Styles__, __halloween/Pumpkin-Carving/Expressions__
+
+cyberpunk:
+    types:
+        - Corporate Cyberpunk
+        - Gritty Urban Cyberpunk
+        - Post-Cyberpunk
+        - Biopunk
+        - Steampunk-Cyberpunk Fusion
+        - Nanopunk
+        - High-Tech Low-Life
+        - Virtual Reality Cyberspace
+        - Cyber-Noir
+        - Cyberpunk Fantasy
+    beings:
+        - Cybernetic Mercenaries, Human mercenaries with cybernetic implants and body augmentations
+        - Biomechanical Hackers, Expert hackers merged with biotechnology, wired into cyberspace
+        - Nano-infused Mutants, Mutants with nanobots integrating into their bodies, granting extraordinary abilities
+        - AI Entities, Self-aware Artificial Intelligence with high-level cognitive abilities
+        - Virtual Constructs, Digital entities existing purely in virtual reality, taking on various forms and functions
+        - Gene-spliced Hybrids, Beings resulting from genetic manipulation, exhibiting a mix of species traits
+    profession:
+        Cybernetic-Enhancement:
+            - Neural Surgeon
+            - Biomechanic Engineer
+            - Augmentation Technician
+            - Cyberlimb Specialist
+            - Neural Interface Developer
+            - Nano-enhancement Specialist
+            - Cybernetic Prosthesis Expert
+            - Neural Implant Technician
+            - Biopunk Augmentation Engineer
+            - Neuroplasticity Consultant
+        Information-Brokers:
+            - Data Hacker
+            - Info Dealer
+            - Net Runner
+            - Data Smuggler
+            - Corporate Espionage Agent
+            - Cyber Surveillance Specialist
+            - Information Firewall Breaker
+            - Digital Data Infiltrator
+            - Virtual Black Market Trader
+            - Data Encryption Cracker
+        Corporate:
+            - Corporate Spy
+            - Corporate Saboteur
+            - Executive Bodyguard
+            - Corporate Infiltrator
+            - Corporate Negotiator
+            - Corporate Security Specialist
+            - Corporate Asset Extractor
+            - Corporate Intelligence Analyst
+            - Corporate Counterintelligence Agent
+            - Corporate Disinformation Specialist
+        Outlaws:
+            - Cyber Pirates
+            - Tech Smugglers
+            - Reverse Engineers
+            - Data Hijackers
+            - Tech Vandal
+            - Cybernetic Contraband Trafficker
+            - Tech Disruptor
+            - Virtual Contraband Runner
+            - Hacker-for-Hire
+            - Tech Blackmailer
+        Medics:
+            - Black Market Medic
+            - Street Doc
+            - Biohacker
+            - Cybernetic Paramedic
+            - Underground Surgeon
+            - Genetic Manipulation Specialist
+            - Bioware Implant Expert
+            - Underground Pharmacist
+            - Nanomedicine Practitioner
+            - Cybernetic Rehabilitation Therapist
+        Artists:
+            - Virtual Reality Sculptor
+            - Immersive Experience Designer
+            - VR Filmmaker
+            - Digital Art Hacker
+            - AI-generated Art Specialist
+            - Holographic Installation Artist
+            - Virtual Art Curator
+            - Augmented Reality Street Artist
+            - Holo-Sculpture Designer
+            - Immersive Storyteller
+        Mercenaries:
+            - Cyber Mercenary
+            - Street Samurai
+            - Bounty Hunter
+            - Cybernetic Gun-for-Hire
+            - Cyber Ninja
+            - Urban Merc
+            - Techno Ronin
+            - Cyber Assasin
+            - Rogue Cyber Soldier
+            - Cybernetic Vigilante
+        Investigators:
+            - Cyber Forensics Analyst
+            - Digital Detective
+            - Virtual Crime Specialist
+            - Cybersecurity Expert
+            - Cyber Threat Analyst
+            - Digital Evidence Analyst
+            - Cyber Incident Response Team (CIRT) Specialist
+            - Virtual Crime Scene Investigator
+            - Cyber Fraud Examiner
+            - Cyber Intelligence Analyst
+        Engineers:
+            - Drone Developer
+            - Android Architect
+            - Robotics Programmer
+            - AI Integration Specialist
+            - Mecha Mechanic
+            - Autonomous Vehicle Engineer
+            - Cybernetic Companion Designer
+            - Industrial Robotics Technician
+            - Haptic Feedback Systems Engineer
+            - Nanorobotics Researcher
+        Designers:
+            - Techwear Fashion Designer
+            - Cyberpunk Couturier
+            - Holographic Fashion Stylist
+            - Futuristic Textile Engineer
+            - Augmented Reality Fashion Model
+            - Bioluminescent Clothing Designer
+            - Nanotech Fabric Innovator
+            - Haptic Fashion Experience Creator
+            - Virtual Catwalk Producer
+            - Cyberwear Trendsetter
+
+habitats:
+    Types:
+        - Village
+        - Town
+        - City
+        - Metropolis
+        - Hamlet
+        - Suburb
+        - Island
+        - Forest
+        - Desert Oasis
+        - Mountain Village
+        - Coastal Town
+        - Industrial City
+        - Seaside Resort
+        - Ski Resort Town
+        - Space Station
+        - Underwater Base
+    housing:
+        - dwelling
+        - residence
+        - abode
+        - domicile
+        - home
+        - habitation
+        - dwelling place
+        - mansion
+        - manor
+        - estate
+        - cottage
+        - bungalow
+        - cabin
+        - villa
+        - house
+        - residence
+    Biomes:
+        - Tundra
+        - Taiga
+        - Boreal Forest
+        - Temperate Deciduous Forest
+        - Grassland
+        - Prairie 
+        - Savanna
+        - Desert
+        - Tropical Rainforest
+        - Tropical Seasonal Forest 
+        - Dry Tropical Forest
+        - Chaparral
+        - Mediterranean
+        - Alpine
+        - Wetland
+        - Swamp
+        - Marsh
+        - Coral Reef
+        - Estuary
+        - Mangrove Forest
+        - Polar Ice Cap
+        - Mountain
+        - Cave
+        - Urban
+    places:
+        - Atlantis
+        - Valhalla
+        - Coruscant
+        - Camelot
+        - Shangri-La
+        - El Dorado
+        - Middle-earth
+        - Hogwarts
+        - Rivendell
+        - Gotham City
+        - Metropolis
+        - Wakanda
+        - Neverland
+        - Narnia
+        - Asgard
+        - Mount Olympus
+        - Minas Tirith
+        - Diagon Alley
+        - Mordor
+        - Oz
+        - Gondor
+        - Thebes
+        - Tír na nÓg
+        - King's Landing
+        - Winterfell
+        - Themyscira
+        - Arrakis
+        - Riviera
+        - Rapture
+        - Columbia
+    places-moers:
+        - The Nocturnal Academy
+        - The Mugg Memorial Library
+        - The Great Forest of Zamonia
+        - The City of Atlantis
+        - The Un-Forrest
+        - The Enchanted Dominion
+        - Wolperting
+        - Hel
+        - Gourmet Isles
+        - Skullop
+        - Bookholm
+        - The Catacombs of Dreaming Books
+        - The Great Library
+        - The Chamber of Supernostalgics
+        - Shadowhouse
+        - Malaisea
+        - Malaiseaberg
+        - Chalcedony
+        - Crat
+        - Blast Furnace Square
+        - Bookholm
+        - Old Ab's Bookstore
+        - The Book Eaters' Catacomb
+        - The Castle of Dreaming Books
+        - Lindworm Castle
+        - Bookholm
+        - Bookholm Station
+
+
 
 halloween:
     Atmosphere:
@@ -12567,16 +12506,6 @@ halloween:
             - Zombie-like
             - Alien
 
-# BoJewelry
-BoJewelry:
-    random-properties:
-        - "__jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__, __jewelry/carat__, __jewelry/fire__, 
-        __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/hardness__, __jewelry/durability__, __jewelry/treatments__, __jewelry/setting__,
-        __jewelry/origin__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
-    random-properties-reduced:
-        - "__jewelry/brilliance__ __jewelry/fire__ __chemistry/gems__, __jewelry/luster__, __properties/materials-jewelry/metal-type__, __jewelry/durability__, __jewelry/treatments__, __jewelry/rarity__, __jewelry/Style__, __jewelry/age__, __jewelry/symbolism__"
-    random:
-        - __jewelry/types__, __BoJewelry/random-properties__
 
 jewelry:
     clarities:
@@ -13536,20 +13465,6 @@ lighting:
         - Umbrella Lighting
         - Window Light
 
-# BoMachines
-BoMachines:
-    random:
-        - "__machines/types/*__,
-        {2-6$$__machines/parts/*__},
-        {__properties/patterns/machines__},
-        {__properties/textures/machines__},
-        "
-    random-machine:
-        - "__properties/size/*__ __machines/types-synonyms__,
-        {2-6$$__machines/parts/*__},
-        {__properties/patterns/machines__},
-        {__properties/textures/machines__},
-        "
 
 machines:
     types:
@@ -14379,59 +14294,12 @@ machines:
             - Optimal Viewing Angles
             - Neutral Typing Position
 
-# BoCharsMag
-BoCharsMag:
-    female:
-        classic:
-            - "female __person/magical/female__ 
-            {
-            wearing __clothings/magical/female-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        modern:
-            - "female __person/magical/female__ 
-            {
-            wearing __clothings/regular/female-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        scenery:
-            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __lighting/magical__, __scenes/regular/*__"
-        BoConstructions:
-            - "{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}, __BoConstructions/*-magical__"
-    male:
-        classic:
-            - "male __person/magical/male__ 
-            {
-            wearing __clothings/magical/male-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        modern:
-            - "male __person/magical/male__ 
-            {
-            wearing __clothings/regular/male-attire__ 
-            __magical/words/verbs__ __magical/magic__|
-            __random/profession-magic__
-            }, __person/magical/poses__, __lighting/magical__"
-        scenery:
-            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __lighting/magical__, __scenes/regular/*__"
-        BoConstructions:
-            - "{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}, __BoConstructions/*-magical__"
-    div:
-        - "female {__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}"
-        - "male {__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}"
-    random:
-        - "{0.45::{__BoCharsMag/female/classic__|__BoCharsMag/female/modern__}|
-        0.45::{__BoCharsMag/male/classic__|__BoCharsMag/male/modern__}|
-        0.1::__BoCharsMag/div__}"
 
 magical:
     magic:
-        - "({6-10$${-3$$__magical/words/adjectives__}|
+        - "({6-10$${-3$$__words/magical/adjectives__}|
         {-2$$__properties/colors/*__}
-        {-3$$__magical/words/*__} |
+        {-3$$__words/magical/*__} |
         {-2$$__properties/materials*/*__}
         {-2$$__matter/movement1__}|
         {-1$$__matter/movement2__}|
@@ -14443,9 +14311,9 @@ magical:
         {-1$$__matter/state__}}
         magic:1.0)"
     magic2:
-        - "({6-10$${-3$$__magical/words/adjectives__}|
+        - "({6-10$${-3$$__words/magical/adjectives__}|
         {-2$$__properties/colors/*__}|
-        {-3$$__magical/words/*__} |
+        {-3$$__words/magical/*__} |
         {-2$$__properties/materials*/*__}|
         0.34::{-1$$__phenomena/*/natural__}|
         {-2$$__phenomena/*/abstract__}|
@@ -14716,160 +14584,6 @@ magical:
             - __magical/types/shadow__
         technomancy:
             - __magical/types/tech__, __styles/punk-styles__
-    words:
-        adjectives:
-            - Alluring
-            - Astral
-            - Beguiling
-            - Bewildering
-            - Bewitching
-            - Captivating
-            - Celestial
-            - Charmed
-            - Elysian
-            - Enchanted
-            - Enchanting
-            - Enigmatic
-            - Enlivening
-            - Enrapturing
-            - Enthralling
-            - Enveloping
-            - Ephemeral
-            - Ethereal
-            - Fantasmagoric
-            - Fantastical
-            - Glamorous
-            - Glowing
-            - Hypnotic
-            - Hypnotizing
-            - Illuminating
-            - Illusionary
-            - Illustrious
-            - Intriguing
-            - Luminescent
-            - Magical
-            - Mesmerizing
-            - Mysterious
-            - Mystical
-            - Mystifying
-            - Ornate
-            - Otherworldly
-            - Pulsating
-            - Radiant
-            - Radiating
-            - Resonant
-            - Resonating
-            - Resplendent
-            - Seraphic
-            - Shimmering
-            - Sorcerous
-            - Spectral
-            - Spellbinding
-            - Spellbound
-            - Supernatural
-            - Transcendent
-            - Transcending
-            - Transfiguring
-            - Unearthly
-            - Unfathomable
-            - Veiled
-            - Vibrant
-            - Whimsical
-            - Whirling
-        substantives:
-            - Alchemy
-            - Amulet
-            - Arcane
-            - Arcanist
-            - Arcanum
-            - Astral
-            - Aura
-            - Cauldron
-            - Celestial
-            - Charm
-            - Conjuration
-            - Conjuring
-            - Coven
-            - Crystal
-            - Divination
-            - Enchanter
-            - Enchantment
-            - Enigma
-            - Enigmatic
-            - Enthrallment
-            - Familiar
-            - Glamour
-            - Glyph
-            - Grimoire
-            - Illusion
-            - Incantation
-            - Invocation
-            - Mage
-            - Magician
-            - Mysticism
-            - Oracle
-            - Parchment
-            - Pentacle
-            - Potion
-            - Prophecy
-            - Ritual
-            - Rune
-            - Runestone
-            - Scroll
-            - Sorcery
-            - Spellcasting
-            - Talisman
-            - Thaumaturgy
-            - Wand
-            - Warlock
-            - Witchcraft
-            - Wizardry
-        verbs:
-            - Beam
-            - Bedazzle
-            - Bewitch
-            - Captivate
-            - Cast
-            - Channel
-            - Charm
-            - Conjure
-            - Dazzle
-            - Emit
-            - Enchant
-            - Enflame
-            - Enkindle
-            - Enliven
-            - Enrapture
-            - Enshroud
-            - Enthrall
-            - Envelop
-            - Evolve
-            - Fascinate
-            - Flicker
-            - Flourish
-            - Gleam
-            - Glimmer
-            - Glitter
-            - Glow
-            - Hypnotize
-            - Illuminate
-            - Infuse
-            - Inspire
-            - Manifest
-            - Mesmerize
-            - Pulse
-            - Radiate
-            - Resonate
-            - Shine
-            - Spark
-            - Sparkle
-            - Stun
-            - Summon
-            - Transcend
-            - Transfigure
-            - Twinkle
-            - Unleash
-            - Vivify
 
 matter:
     state:
@@ -15712,360 +15426,6 @@ mushrooms:
         - Herbal medicine
 
 
-NSFW:
-    words:
-        adjectives:
-            - Alluring
-            - Arousing
-            - Beguiling
-            - Captivating
-            - Charming
-            - Daring
-            - Desirable
-            - Enchanting
-            - Enticing
-            - Erotic
-            - Exquisite
-            - Flirtatious
-            - Forbidden
-            - Graceful
-            - Handsome
-            - Impassioned
-            - Intense
-            - Intriguing
-            - Lascivious
-            - Lush
-            - Magnetic
-            - Passionate
-            - Provocative
-            - Racy
-            - Ravishing
-            - Scandalous
-            - Seductive
-            - Sensual
-            - Sinful
-            - Steamy
-            - Sultry
-            - Tempting
-            - Titillating
-            - Uninhibited
-            - Voluptuous
-            - Wanton
-            - Wicked
-            - Wild
-            - Adorable
-            - Amorous
-            - Attractive
-            - Beautiful
-            - Bewitching
-            - Bold
-            - Breathless
-            - Chiseled
-            - Curvaceous
-            - Delicate
-            - Devilish
-            - Divine
-            - Dreamy
-            - Eager
-            - Electrifying
-            - Enraptured
-            - Fierce
-            - Flawless
-            - Forbidden
-            - Frenzied
-            - Heavenly
-            - Hypnotic
-            - Impassioned
-            - Intimate
-            - Juicy
-            - Lively
-            - Mesmerizing
-            - Obsessive
-            - Opulent
-            - Passionate
-            - Piquant
-            - Pleasing
-            - Precious
-            - Purring
-            - Radiant
-            - Refined
-            - Sensational
-            - Sensuous
-            - Silky
-            - Smoldering
-            - Sizzling
-            - Smooth
-            - Spicy
-            - Sultry
-            - Sweet
-            - Tantalizing
-            - Tender
-            - Thrilling
-            - Thriving
-            - Tingles
-            - Unabashed
-            - Untamed
-            - Untouched
-            - Vivacious
-            - Volatile
-            - Vulnerable
-            - Warm
-            - Whispering
-            - Wild
-        substantives:
-            - Affection
-            - Arousal
-            - Beauty
-            - Caress
-            - Charm
-            - Connection
-            - Craving
-            - Desire
-            - Devotion
-            - Ecstasy
-            - Embrace
-            - Fantasy
-            - Flame
-            - Frisson
-            - Gaze
-            - Heartbeat
-            - Heat
-            - Hunger
-            - Intimacy
-            - Kiss
-            - Lingerie
-            - Longing
-            - Lust
-            - Melody
-            - Moan
-            - Obsession
-            - Passion
-            - Pleasure
-            - Pulse
-            - Quiver
-            - Rapture
-            - Romance
-            - Sensation
-            - Sensuality
-            - Serenade
-            - Sigh
-            - Skin
-            - Softness
-            - Tenderness
-            - Thrill
-            - Touch
-            - Treasure
-            - Union
-            - Velvet
-            - Whisper
-            - Yearning
-            - Adoration
-            - Aphrodisiac
-            - Ardor
-            - Boudoir
-            - Breath
-            - Caress
-            - Cherish
-            - Closeness
-            - Connection
-            - Craving
-            - Dance
-            - Devotion
-            - Ecstasy
-            - Elixir
-            - Embrace
-            - Fantasy
-            - Fervor
-            - Fondness
-            - Foreplay
-            - Heartbeat
-            - Heat
-            - Honey
-            - Incense
-            - Intimacy
-            - Intrigue
-            - Kiss
-            - Lace
-            - Lingering
-            - Longing
-            - Love
-            - Lust
-            - Magic
-            - Melody
-            - Mesmerize
-            - Moan
-            - Passion
-            - Pillow
-            - Pleasure
-            - Potion
-            - Quiver
-            - Rapture
-            - Romance
-            - Sanctuary
-            - Scent
-            - Seduction
-            - Sensation
-            - Sensuality
-            - Serenade
-            - Shiver
-            - Silk
-            - Sigh
-            - Skin
-            - Softness
-            - Spark
-            - Surrender
-            - Symphony
-            - Tenderness
-            - Tease
-            - Thrill
-            - Touch
-            - Treasure
-            - Tropic
-            - Union
-            - Velvet
-            - Volcano
-            - Whisper
-            - Yearning
-        verbs:
-            - Adore
-            - Arouse
-            - Beckon
-            - Beg
-            - Bite
-            - Caress
-            - Clasp
-            - Crave
-            - Cradle
-            - Crave
-            - Devour
-            - Embrace
-            - Entice
-            - Explore
-            - Fondle
-            - Glide
-            - Grasp
-            - Greet
-            - Groan
-            - Guide
-            - Ignite
-            - Inhale
-            - Intertwine
-            - Invigorate
-            - Kiss
-            - Linger
-            - Long
-            - Love
-            - Lure
-            - Merge
-            - Moan
-            - Nuzzle
-            - Plead
-            - Probe
-            - Pull
-            - Pulse
-            - Quiver
-            - Ravish
-            - Reveal
-            - Roam
-            - Savor
-            - Seduce
-            - Sensualize
-            - Shiver
-            - Sigh
-            - Silk
-            - Slide
-            - Squeeze
-            - Stroking
-            - Surrender
-            - Sway
-            - Swirl
-            - Taste
-            - Tease
-            - Tempt
-            - Tend
-            - Throb
-            - Tingle
-            - Toss
-            - Trace
-            - Tremble
-            - Tremor
-            - Tug
-            - Undulate
-            - Unveil
-            - Unwind
-            - Whisper
-            - Writh
-            - Yearn
-            - Absorb
-            - Admire
-            - Arouse
-            - Attract
-            - Beg
-            - Caress
-            - Charm
-            - Clasp
-            - Crave
-            - Cradle
-            - Cuddle
-            - Desire
-            - Devour
-            - Embrace
-            - Enchant
-            - Entice
-            - Explore
-            - Fondle
-            - Grasp
-            - Greet
-            - Guide
-            - Ignite
-            - Inhale
-            - Intertwine
-            - Invite
-            - Kiss
-            - Linger
-            - Long
-            - Love
-            - Lust
-            - Merge
-            - Moan
-            - Nuzzle
-            - Plead
-            - Probe
-            - Pull
-            - Pulse
-            - Quiver
-            - Ravish
-            - Reveal
-            - Roam
-            - Savor
-            - Seduce
-            - Sensualize
-            - Shiver
-            - Sigh
-            - Silk
-            - Slide
-            - Squeeze
-            - Stroking
-            - Surrender
-            - Sway
-            - Swirl
-            - Taste
-            - Tease
-            - Tempt
-            - Tend
-            - Throb
-            - Tingle
-            - Toss
-            - Trace
-            - Tremble
-            - Tremor
-            - Tug
-            - Undulate
-            - Unveil
-            - Unwind
-            - Whisper
-            - Writh
-            - Yearn
 
 Onomatopoeia:
     - Bang
@@ -17606,30 +16966,36 @@ phenomena:
             - Meteor Shower
             - Cosmic Dust
             - Celestial Sphere
+    math:
+        abstracts:
+            - Fractals
+            - Julia set
+            - Mandelbrot set
+            - Pythagoras tree
+            - Lindenmayer systems (L-systems)
+            - Koch curve
+            - Circle packing
+            - Lévy C curve
+            - Hénon map
+            - Lorenz attractor
+            - Strange attractor
+            - Koch snowflake
+            - Sierpinski triangle
+            - Cantor set
+            - Barnsley fern
+            - Dragon curve
+            - Hilbert curve
+            - Apollonian gasket
+            - Menger sponge
+            - Peano curve
+            - Hexaflake
+            - L-systems
+            - Self-replicating structures
+            - Chaos theory
+            - Mandelbrot set
+            - Julia set
+            - Strange attractors
 
-# Billions of plants
-BoPlants:
-    random-plant:
-        - "{
-        __properties/size/plants__ __properties/colors/*__ __plants/Growth-Habit__ __properties/shape/plants__ plant,
-        {__properties/textures/stem__ __properties/shape/stem__ __plants/stem__, __properties/textures/bark__,|}
-        {__properties/shape/leaf__ __plants/leaf__ leaf, __plants/leaf-Venation__, __plants/Leaf-Arrangement__, __plants/leaf-Margin__,|}
-        {__properties/colors/*__ __plants/Inflorescence__ __plants/flower__ flower, __properties/shape/petal__,|}
-        {__properties/colors/*__ {__plants/Fruit__ fruit| __plants/seed__}, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,}|}
-        {__plants/Sepal-Configuration__, __plants/Foliage-Arrangement__,|}
-        {__properties/structure/root__ root|}
-        }"
-    random-shroom:
-        - "{
-        __properties/colors/*__ __properties/size/*__ __properties/shape/mushrooms__ __properties/textures/mushrooms__ mushroom,
-        __properties/textures/*__, {__properties/patterns/plants__,|__properties/patterns/mushrooms__,|} __mushrooms/Mycorrhizal-Association__, __mushrooms/Habitat__, __mushrooms/Growth-Form__,
-        {__mushrooms/Bioluminescence__,|}
-        {__properties/colors/*__ __mushrooms/gill__,|}
-        {1-3$$__mushrooms/veil__,|__mushrooms/ring__,|__mushrooms/Bruising__,|__mushrooms/Annulus__,|__mushrooms/Volva__,|__mushrooms/pileus__,|__mushrooms/pores__,|
-        __mushrooms/Hymenium__,| __mushrooms/Latex__ Latex,|}
-        {__properties/colors/*__ __mushrooms/stipe-base__,|}
-        {__mushrooms/Poisonous-Properties__,|__mushrooms/Medicinal-Properties__,|}
-        }"
 
 plants:
     types:
@@ -21061,17 +20427,6 @@ properties:
             - Lavender Mist
             - Cherry Blossom Pink
 
-# BoScenes
-BoScenes:
-    random:
-        - "__scenes/settings/*__
-        {1-4$$__scenes/features*__}"
-    random-Landscape:
-        - "__scenes/settings/Landscapes__
-        {1-4$$__scenes/features*__}"
-    random-city:
-        - "{0.4::__styles/*__ architecture|} __scenes/settings/UrbanBuiltEnvironments__
-        {1-4$$__scenes/features*__}"
 
 scenes:
     regular:
@@ -22243,31 +21598,6 @@ scenes:
         - Starry Canopy
         - Cosmic Mysteries
 
-# BoCharsSciFi
-BoCharsScifi:
-    female:
-        classic:
-            - female __random/profession-scifi__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
-        scenery:
-            - __BoCharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
-        BoConstructions:
-            - __BoCharsScifi/female/classic__, __BoConstructions/*-scifi__
-    male:
-        classic:
-            - male __random/profession-scifi__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
-        scenery:
-            - __BoCharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
-        BoConstructions:
-            - __BoCharsScifi/male/classic__, __BoConstructions/*-scifi__
-    random:
-        - "{__BoCharsScifi/male/classic__|__BoCharsScifi/female/classic__}"
-
-# BoSciFi
-BoSciFi:
-    random:
-        - "__scifi/types__ of __scifi/beings__ , __scifi/profession/*__"
-        - "__scifi/words/verbs__ __scifi/words/adjectives__ __scifi/words/substantives__"
-        - "{3-7$$__scifi/computer/errors__|__scifi/atmosphere/*__}"
 scifi:
     types:
         - Alien invasion
@@ -22397,299 +21727,6 @@ scifi:
             - Cosmic artifact curator
             - Temporal archaeologist
             - Space relic restorer
-    words:
-        adjectives:
-            - Advanced
-            - Alien
-            - Alienated
-            - Altered
-            - Androgynous
-            - Apocalyptic
-            - Apocryphal
-            - Apotheotic
-            - Artificial
-            - Astral
-            - Astronomical
-            - Augmented
-            - Biomechanical
-            - Bionic
-            - Biopunk
-            - Biotechnological
-            - Cosmic
-            - Cyber
-            - Cybernetic
-            - Cyberpunk
-            - Dazzling
-            - Dimensional
-            - Divergent
-            - Dystopian
-            - Enigmatic
-            - Ephemeral
-            - Esoteric
-            - Ethereal
-            - Extraterrene
-            - Extraterrestrial
-            - Futurist
-            - Futuristic
-            - Futurological
-            - Galactic
-            - Genetic
-            - Genetically-enhanced
-            - Gravitational
-            - Holographic
-            - Hyperdimensional
-            - Hyperintelligent
-            - Hyperspace
-            - Hypnotic
-            - Illusory
-            - Immortal
-            - Ineffable
-            - Inscrutable
-            - Intangible
-            - Intergalactic
-            - Interstellar
-            - Intrinsic
-            - Luminous
-            - Malevolent
-            - Metamorphic
-            - Metaphysical
-            - Multidimensional
-            - Nanomolecular
-            - Nanoscopic
-            - Nanotechnological
-            - Neoteric
-            - Omnipotent
-            - Omnipresent
-            - Organic
-            - Paradoxical
-            - Paranormal
-            - Plausible
-            - Post-apocalyptic
-            - Precognitive
-            - Psychedelic
-            - Pulsating
-            - Quantum
-            - Replicant
-            - Resplendent
-            - Robotic
-            - Sentient
-            - Sentient
-            - Sentient
-            - Singularity
-            - Spatial
-            - Steampunk
-            - Subterranean
-            - Supernatural
-            - Synth
-            - Technological
-            - Telekinetic
-            - Telepathic
-            - Teleporting
-            - Terrestrial
-            - Time-traveling
-            - Timeless
-            - Transcendent
-            - Transhuman
-            - Underworldly
-            - Unearthly
-            - Unearthly
-            - Utopian
-            - Virtual
-            - Virtual-reality
-            - Visually-arresting
-            - Xenomorphic
-            - Zetetic
-        substantives:
-            - Spaceship
-            - Technology
-            - Time
-            - Future
-            - Galaxy
-            - Universe
-            - Cyberspace
-            - Dystopia
-            - Nanotechnology
-            - Teleportation
-            - Laser
-            - Mutation
-            - Wormhole
-            - Dimension
-            - Supernova
-            - Apocalypse
-            - Hologram
-            - AI (Artificial Intelligence)
-            - Warp drive
-            - Nanobot
-            - Black hole
-            - Exoplanet
-            - Virtual reality
-            - Clone
-            - Genetic engineering
-            - Time travel
-            - Cybersuit
-            - Hoverboard
-            - Galactic empire
-            - Space station
-            - Metaverse
-            - Photon
-            - Intergalactic
-            - Plasma
-            - Parallel universe
-            - Interstellar travel
-            - Gravity
-            - Cryogenics
-            - Orbital
-            - Forcefield
-            - Technobabble
-            - Futurism
-            - Metropolis
-            - Nanofabrication
-            - Stellar
-            - Nanomedicine
-            - Bionics
-            - Nanocomputer
-            - Nanowire
-            - Light-year
-            - Nanoparticle
-            - Biohazard
-            - Space-time
-            - Terraforming
-            - Starship
-            - Extraterrestrial
-            - Nanostructure
-            - Quantum mechanics
-            - Superintelligence
-            - Transhumanism
-            - Cyberspace
-            - Multiverse
-            - Transcendence
-            - Photonics
-            - Metamaterial
-            - Nanorobot
-            - Cryosleep
-            - Nanochip
-            - Hyperspace
-            - Cybernetics
-            - Nanoscale
-            - Technocracy
-            - Biotechnology
-            - Supernatural
-            - Nanotube
-            - Nanofluid
-            - Neurotechnology
-            - Exoskeleton
-            - Time loop
-            - Biopunk
-            - Metahuman
-            - Hyperdrive
-            - Quantum computing
-            - Wormhole
-            - Biomimicry
-            - Nanotransistor
-            - Exo-suit
-            - Mind control
-            - Nanomedicine
-        verbs:
-            - Explore
-            - Travel
-            - Evolve
-            - Invent
-            - Discover
-            - Teleport
-            - Manipulate
-            - Conquer
-            - Transform
-            - Escape
-            - Defend
-            - Communicate
-            - Upgrade
-            - Adapt
-            - Analyze
-            - Transcend
-            - Unravel
-            - Colonize
-            - Unleash
-            - Merge
-            - Hack
-            - Encrypt
-            - Resist
-            - Transcend
-            - Descend
-            - Traverse
-            - Overcome
-            - Experiment
-            - Integrate
-            - Replicate
-            - Challenge
-            - Hack
-            - Decode
-            - Warp
-            - Synthesize
-            - Activate
-            - Decode
-            - Transmit
-            - Decipher
-            - Defy
-            - Restore
-            - Abandon
-            - Illuminate
-            - Corrupt
-            - Hybridize
-            - Invade
-            - Resurrect
-            - Disrupt
-            - Reveal
-            - Infuse
-            - Revive
-            - Reshape
-            - Simulate
-            - Conceive
-            - Disguise
-            - Forge
-            - Overload
-            - Revolt
-            - Redefine
-            - Intervene
-            - Encrypt
-            - Emerge
-            - Reassemble
-            - Incarnate
-            - Paralyze
-            - Disintegrate
-            - Reincarnate
-            - Harmonize
-            - Encode
-            - Illuminate
-            - Harmonize
-            - Erase
-            - Initiate
-            - Calculate
-            - Animate
-            - Eradicate
-            - Evaporate
-            - Reconfigure
-            - Transmit
-            - Detonate
-            - Dematerialize
-            - Dismantle
-            - Devastate
-            - Reconnect
-            - Annihilate
-            - Manipulate
-            - Reanimate
-            - Submerge
-            - Deceive
-            - Materialize
-            - Terminate
-            - Fragment
-            - Stabilize
-            - Hyperjump
-            - Augment
-            - Collapse
-            - Intensify
-            - Clone
-            - Amplify
-            - Replicate
     computer:
         errors:
             - 0xC0FFEE Java Overflow
@@ -22832,75 +21869,6 @@ scifi:
           - Organic Circuitry
 
 
-# Billions of Styles
-BoStyles:
-    random-anything:
-        - "__styles/art-styles__, 
-        {__styles/punk-styles__|}, 
-        __styles/atmosphere/*__, 
-        __styles/rendering-techniques/*__, 
-        __styles/graphic-engines__, 
-        __styles/image-styles__, 
-        __styles/image-techniques/*__, 
-        __styles/depiction-styles/*__,
-        {__styles/animations__|},
-        {__styles/ambient-Effects__|},
-        __BoStyles/random-quality-prompts__,
-        __styles/resolutions__,
-        __styles/Creative-Concepts__,
-        __styles/StyleElementsText__"
-        #__BoStyles/random-camera-settings__"
-# art Styles
-    random-artstyle:
-        - __styles/art-styles__
-# punk style
-    random-punk-styles:
-        - __styles/punk-styles__
-# atmosphere
-    random-atmosphere:
-        - __styles/atmosphere/*__
-# rendering
-    random-rendering:
-        - __styles/rendering-techniques/*__
- # graphic engines
-    random-graphic-engines:
-        - __styles/graphic-engines__
-# image Styles
-    random-image-styles:
-        - __styles/image-styles__
-# image Techniques
-    random-image-techniques:
-        - __styles/image-techniques/*__
-# depiction styles
-    random-depiction-styles:
-        - __styles/depiction-styles/*__
-# Animation
-    random-animation-style:
-        - __styles/animations__
-# ambient Effects
-    random-ambient-effect:
-        - __styles/ambient-Effects__
-# quality
-    random-quality-prompts:
-        - "{__styles/quality/details__|__styles/quality/styles__|__styles/quality/sharp__|__styles/quality/blur__}"
-# resolution
-    random-resolution:
-        - __styles/resolutions__
-# creative concepts
-    random-creative-concept:
-        - __styles/Creative-Concepts__
-# Camera
-    random-camera-settings:
-        - "{__styles/camera/camera__|}, 
-        __styles/camera/Aperture-Settings__, 
-        __styles/camera/Shutter-Speed__, 
-        __styles/camera/ISO-Settings__, 
-        __styles/camera/White-Balance__, 
-        __styles/camera/Exposure-Settings__, 
-        __styles/camera/Shooting-Modes__, 
-        __styles/camera/Composition-Techniques__,
-        __styles/camera/Focus__,
-        __styles/camera/Metering__"
 
 styles:
     clothing:
@@ -26221,41 +25189,7 @@ subjects-school:
         - International Organizations
         - Diplomatic Strategies
 
-# Billions of vehicles:
-BoVehicles:
-    random:
-        - "{__vehicles/size__|} __vehicles/types/*__,
-        {__vehicles/exterior-features__,|}
-        {__vehicles/windows__,|}
-        {__vehicles/lights__,|}
-        {__vehicles/Accessories__,|}
-        {__vehicles/Customization__,|}
-        __properties/materials-vehicles/*__,
-        __properties/Visual/Appearance__,
-        {__properties/paint/vehicle__,|}
-        {__properties/Textures/vehicles__,|}"
-    random-scifi:
-        - "{__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|__vehicles/types/Flying-Car-Like-Vehicles__|__vehicles/types/Underground-Vehicles__},
-        {__vehicles/exterior-features__,|}
-        {__vehicles/windows__,|}
-        {__vehicles/lights__,|}
-        {__vehicles/Accessories__,|}
-        {__vehicles/Customization__,|}
-        __properties/materials-vehicles/*__,
-        __properties/Visual/Appearance__,
-        {__properties/paint/vehicle__,|}
-        {__properties/Textures/vehicles__,|}"
-    random-notype:
-        - "{__vehicles/size__|} Conveyance,
-        {__vehicles/exterior-features__,|}
-        {__vehicles/windows__,|}
-        {__vehicles/lights__,|}
-        {__vehicles/Accessories__,|}
-        {__vehicles/Customization__,|}
-        __properties/materials-vehicles/*__,
-        __properties/Visual/Appearance__,
-        {__properties/paint/vehicle__,|}
-        {__properties/Textures/vehicles__,|}"
+
 
 vehicles:
     size:
@@ -26836,104 +25770,1269 @@ vehicles:
 
 
 
-###########
-# randoms #
-###########
-random:
-    color:
-        - "{__properties/colors/common__|__properties/colors/fashion__|__properties/colors/special__}"
-    dress-properties:
-        - "{1-3$$  $$__random/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}"
-    accesoires:
-        - "{1-4$${0.1::__clothings/regular/unisex/accesoires__ |}|
-        {0.2::__clothings/regular/unisex/backwear__ |}|
-        {0.2::__clothings/regular/unisex/facewear__ |}|
-        {0.1::__clothings/regular/unisex/neckwear__ |}}"
-    haircolor:
-        - "{0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}"
-    accesoires-cyberpunk:
-        - "{1-4$${0.1::__clothings/cyberpunk/unisex/accesoires__ |}|
-        {0.2::__clothings/cyberpunk/unisex/backwear__ |}|
-        {0.2::__clothings/cyberpunk/unisex/facewear__ |}|
-        {0.1::__clothings/cyberpunk/unisex/neckwear__ |}}"
-    dress-properties-cyberpunk:
-        - "{1-3$$  $$__random/color__|__properties/fabrics/cyberpunk__|__properties/patterns/clothing-cyberpunk__}"
-    profession-cyberpunk:
-        - __cyberpunk/profession/*__
-    accesoires-magical:
-        - "{1-4$${0.1::__clothings/regular/unisex/accesoires__ |}|
-        {0.2::__clothings/regular/unisex/backwear__ |}|
-        {0.2::__clothings/regular/unisex/facewear__ |}|
-        {0.1::__clothings/regular/unisex/neckwear__ |}}"
-    properties-magical:
-        - "{0-5$${-2$$__magical/words/adjectives__}|
-        {-2$$__magical/words/substantives__}|
-        {-2$$__magical/words/verbs__}|
-        {-2$$__properties/materials-magic/*__}|
-        __lighting/magical__}"
-    profession-magic:
-        - __magical/profession/crafter__, __magical/magic__ __magical/profession-magic-use/crafter__
-        - __magical/profession/caster__, __magical/magic__ __magical/profession-magic-use/caster__
-        - __magical/profession/knowledge__, __magical/magic__ __magical/profession-magic-use/knowledge__
-        - __magical/profession/nature__, __magical/magic__ __magical/profession-magic-use/nature__
-        - __magical/profession/dark__, __magical/magic__ __magical/profession-magic-use/dark__
-        - __magical/profession/light__, __magical/magic__ __magical/profession-magic-use/light__
-        - __magical/profession/illusion__, __magical/magic__ __magical/profession-magic-use/illusion__
-        - __magical/profession/technomancy__, __magical/magic__ __magical/profession-magic-use/technomancy__
-    dress-properties-nsfw:
-        - "{1-4$$  $$__random/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|{__properties/patterns/clothing__|__properties/patterns/animal-print__}}"
-    accesoires-nsfw:
-        - "{1-4$${0.1::__clothings/nsfw/unisex/accesoires__ |}|
-        {0.2::__clothings/nsfw/unisex/backwear__ |}|
-        {0.2::__clothings/nsfw/unisex/facewear__ |}|
-        {0.1::__clothings/nsfw/unisex/neckwear__ |}}"
-    accesoires-scifi:
-        - "{1-4$${0.1::__clothings/scifi/unisex/accesoires__ |}|
-        {0.2::__clothings/scifi/unisex/backwear__ |}|
-        {0.2::__clothings/scifi/unisex/facewear__ |}|
-        {0.1::__clothings/scifi/unisex/neckwear__ |}}"
-    dress-properties-scifi:
-        - "{1-3$$  $$__random/color__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}"
-    profession-scifi:
-        - __scifi/profession/*__
-    materials-indoor:
-        - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/Flooring__|__properties/patterns/tapestry__ tapestry}"
-    materials-outdoor:
-        - "{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__ roof}"
-    light-source-indoor:
-        - __constructions/light-sources-indoor/*__
-    light-source-outdoor:
-        - __constructions/light-sources-outdoor/*__
-    lighting-indoor:
-        - "{1-2$$__random/light-source-indoor__}, {__lighting/constructions-indoor__|__lighting/constructions-specialized__}"
-    lighting-outdoor:
-        - "{1-2$$__random/light-source-outdoor__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}"
-    interior-design:
-        - "{1-5$$__constructions/interior-design/*__}"
-    interior-design-fictional:
-        - "{1-5$$__constructions/interior-design*/*__}"
-    rooms:
-        - __constructions/rooms/*__, __random/interior-design__, __random/materials-indoor__, __random/lighting-indoor__
-    rooms-fictional:
-        - __constructions/rooms*/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__
-    rooms-cyberpunk:
-        - __constructions/rooms-cyberpunk/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, cyberpunk, sci-fi
-    rooms-scifi:
-        - __constructions/rooms-scifi/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, __styles/punk-styles__, sci-fi
-    rooms-magical:
-        - __constructions/rooms-magical/*__, __random/interior-design-fictional__, __random/materials-indoor__, __random/lighting-indoor__, fantasy
-    buildings:
-        - "__constructions/types/*__, {1-3$$__properties/materials-construction/basic__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-    buildings-fictional:
-        - "__constructions/types*/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-    buildings-cyberpunk:
-        - "__constructions/types-cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-    buildings-scifi:
-        - "__constructions/types-scifi/*__, {1-3$$__properties/materials-construction/scifi__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
-    buildings-magical:
-        - "__constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__properties/materials-construction/stones__}, __random/lighting-outdoor__"
+
+words:
+    brain-psychology:
+        Mind-Mental-States:
+            - Analytical
+            - Creative
+            - Critical
+            - Curious
+            - Confused
+            - Clarity
+            - Concentrated
+            - Conscious
+            - Delusional
+            - Determined
+            - Disoriented
+            - Enlightened
+            - Focused
+            - Forgetful
+            - Imaginative
+            - Inquisitive
+            - Intuitive
+            - Lucid
+            - Meditative
+            - Mindful
+            - Obsessive
+            - Perceptive
+            - Pensive
+            - Rational
+            - Reflective
+            - Repressed
+            - Thoughtful
+            - Unconscious
+            - Unsettled
+            - Vivid
+
+        Brain-Cognitive-Characteristics:
+            - Adaptive
+            - Complex
+            - Efficient
+            - Elastic
+            - Evolving
+            - Flexible
+            - Impaired
+            - Logical
+            - Multifaceted
+            - Plastic
+            - Resilient
+            - Synaptic
+            - Neurological
+            - Computational
+            - Impulsive
+            - Responsive
+            - Elastic
+            - Neuroplastic
+            - Cognitive
+            - Synaptic
+            - Emotional
+            - Rational
+            - Impaired
+
+        Psychological-States-Emotions:
+            - Anxious
+            - Depressed
+            - Emotional
+            - Hysterical
+            - Irrational
+            - Neurotic
+            - Paranoid
+            - Schizophrenic
+            - Stressed
+            - Traumatized
+            - Happy
+            - Sad
+            - Angry
+            - Confident
+            - Insecure
+            - Joyful
+            - Fearful
+            - Guilty
+            - Content
+            - Hopeful
+            - Apathetic
+            - Resilient
+            - Empathetic
+            - Impulsive
 
 
+
+    constructors:
+        - in style of
+        - composed of
+        - constructed from
+        - formed of
+        - fashioned out of
+        - created from
+        - built with
+        - crafted from
+        - constituted by
+        - shaped with
+        - produced from
+        - manufactured from
+        - fabricated with
+        - comprised of
+        - assembled from
+        - originating from
+        - derived from
+        - put together with
+        - produced using
+        - constructed out of
+    cyberpunk:
+        adjectives:
+            - Algorithmic
+            - Apocalyptic
+            - Apocryphal
+            - Artificial
+            - Augmented
+            - Bionic
+            - Biomechanical
+            - Biometric
+            - Biopunk
+            - Bizarre
+            - Blade
+            - Chaotic
+            - Chromatic
+            - Circuit
+            - Circuitous
+            - Circuitry
+            - Clandestine
+            - Corporeal
+            - Cyber-enhanced
+            - Cybergoth
+            - Cybernetic
+            - Cyberspace
+            - Dazzling
+            - Digital
+            - Disruptive
+            - Dissonant
+            - Dreamlike
+            - Dystopian
+            - Edgy
+            - Electro
+            - Extraterrestrial
+            - Futuristic
+            - Futurism
+            - Futurist
+            - Genetic
+            - Glitchy
+            - Gritty
+            - Hackable
+            - Haptic
+            - Holographic
+            - Illusory
+            - Immersive
+            - Incendiary
+            - Intricate
+            - Luminous
+            - Magnetic
+            - Matrix
+            - Megacorporate
+            - Mechanized
+            - Mirrored
+            - Nano
+            - Nano-enhanced
+            - Nanotech
+            - Nebulous
+            - Neon
+            - Neural
+            - Neuromorphic
+            - Ocular
+            - Orbital
+            - Phosphorescent
+            - Post-human
+            - Psionic
+            - Recursive
+            - Remixed
+            - Retrofuturistic
+            - Robotic
+            - Sentient
+            - Shadowy
+            - Singularity
+            - Steampunk
+            - Sublime
+            - Subversive
+            - Synthetic
+            - Techno
+            - Technological
+            - Tech
+            - Techwear
+            - Transhuman
+            - Trippy
+            - Underground
+            - Urban
+            - Vaporwave
+            - Vast
+            - Visceral
+            - Virtual
+            - Virtualized
+            - Virtual-reality
+            - Voxel
+            - VR
+            - Whimsical
+            - Xenotech
+            - Zero-g
+            - Zettabyte
+        substantives:
+            - Access
+            - Augmentation
+            - Bionics
+            - Circuitry
+            - Code
+            - Cyberspace
+            - Data
+            - Dystopia
+            - Enhancement
+            - Firewall
+            - Glitch
+            - Hologram
+            - Implant
+            - Interface
+            - Jack
+            - Matrix
+            - Nanotechnology
+            - Network
+            - Override
+            - Processor
+            - Robotics
+            - Scanner
+            - Simulation
+            - Synth
+            - Transhuman
+            - Virus
+            - Weapon
+            - Algorithm
+            - Avatar
+            - Biohack
+            - Cryptocurrency
+            - Cybercrime
+            - Digitalization
+            - Electromagnetic
+            - Encryption
+            - Exoskeleton
+            - Genetic Engineering
+            - Hacker
+            - Infobahn
+            - Laser
+            - Memory
+            - Neural Implant
+            - Orbital Station
+            - Photon
+            - Prosthetics
+            - Quantum Computing
+            - Robotics Lab
+            - Satellite
+            - Sensor
+            - Simulacrum
+            - Technocracy
+            - Urban Sprawl
+            - Virtuality
+            - Wormhole
+            - Xenogenetics
+            - Zero-day
+            - Amplifier
+            - Battery
+            - Cerebral Interface
+            - Commlink
+            - Databank
+            - Drone
+            - Electroplasma
+            - Firewall
+            - Geodesic Dome
+            - Holo-goggles
+            - Implantation Clinic
+            - Jumphole
+            - Kinetic Energy Cell
+            - Laser Blade
+            - Memory Implant
+            - Neural Link
+            - Orbital Elevator
+            - Photon Rifle
+            - Power Core
+            - Quantum Encryption
+            - Railgun
+            - Satellite Uplink
+            - Smart Dust
+            - Teleporter
+            - Utility Fog
+            - Virtual Reality Pod
+            - Warp Drive
+            - Xenon Thruster
+            - Zero-g Chamber
+            - Anarchy
+            - Biopunk
+            - Cerebral Cortex
+            - Computation
+            - Datablade
+            - Dystopian City
+            - Ethercast
+            - Futurism
+            - Genetic Modification
+            - Holo-dancer
+            - Implantable Chip
+            - Junkyard
+            - Karyotype
+            - Luminescence
+            - Mecha
+            - Neural Network
+            - Orbital Colony
+        verbs:
+            - Access
+            - Augment
+            - Blend
+            - Breach
+            - Cipher
+            - Code
+            - Connect
+            - Crash
+            - Cyberize
+            - Datajack
+            - Decrypt
+            - Defend
+            - Delete
+            - Dismantle
+            - Encrypt
+            - Enhance
+            - Exploit
+            - Extract
+            - Firewall
+            - Fuse
+            - Hack
+            - Implant
+            - Infiltrate
+            - Interface
+            - Intrude
+            - Jack-in
+            - Jam
+            - Jettison
+            - Jolt
+            - Link
+            - Manipulate
+            - Merge
+            - Modulate
+            - Navigate
+            - Override
+            - Patch
+            - Phreak
+            - Reboot
+            - Reconfigure
+            - Replicate
+            - Reprogram
+            - Reveal
+            - Scramble
+            - Secure
+            - Skim
+            - Slash
+            - Synchronize
+            - Synthesize
+            - Systemize
+            - Tap
+            - Transmit
+            - Transpose
+            - Unlock
+            - Upload
+            - Vaporize
+            - Visualize
+            - Warp
+            - Weaponize
+            - Wipe
+            - Zeroday
+            - Amplify
+            - Boost
+            - Burn
+            - Camouflage
+            - Circuit-bend
+            - Cloak
+            - Cloister
+            - Counteract
+            - Crash-dive
+            - Cyberslack
+            - Deconstruct
+            - De-digitalize
+            - Databend
+            - Digitize
+            - Disengage
+            - Dose
+            - Electrify
+            - Eviscerate
+            - Flicker
+            - Fragment
+            - Fractalize
+            - Graft
+            - Gridwalk
+            - Haze
+            - Hijack
+            - Illuminate
+            - Interface
+            - Interpolate
+            - Loop
+            - Mesh
+            - Metamorphose
+            - Nanosurge
+            - Oscillate
+            - Overtake
+            - Phosphorize
+            - Phase
+            - Polymorph
+            - Proxy
+            - Realign
+            - Reboot
+            - Re-code
+            - Reconfigure
+            - Redact
+            - Reformat
+            - Refract
+            - Reinvent
+            - Resonate
+            - Revive
+            - Scatter
+            - Shuffle
+            - Silhouette
+            - Simulate
+            - Splice
+            - Streamline
+            - Surge
+            - Telemorph
+            - Teleport
+
+
+    magical:
+        adjectives:
+            - Alluring
+            - Astral
+            - Beguiling
+            - Bewildering
+            - Bewitching
+            - Captivating
+            - Celestial
+            - Charmed
+            - Elysian
+            - Enchanted
+            - Enchanting
+            - Enigmatic
+            - Enlivening
+            - Enrapturing
+            - Enthralling
+            - Enveloping
+            - Ephemeral
+            - Ethereal
+            - Fantasmagoric
+            - Fantastical
+            - Glamorous
+            - Glowing
+            - Hypnotic
+            - Hypnotizing
+            - Illuminating
+            - Illusionary
+            - Illustrious
+            - Intriguing
+            - Luminescent
+            - Magical
+            - Mesmerizing
+            - Mysterious
+            - Mystical
+            - Mystifying
+            - Ornate
+            - Otherworldly
+            - Pulsating
+            - Radiant
+            - Radiating
+            - Resonant
+            - Resonating
+            - Resplendent
+            - Seraphic
+            - Shimmering
+            - Sorcerous
+            - Spectral
+            - Spellbinding
+            - Spellbound
+            - Supernatural
+            - Transcendent
+            - Transcending
+            - Transfiguring
+            - Unearthly
+            - Unfathomable
+            - Veiled
+            - Vibrant
+            - Whimsical
+            - Whirling
+        substantives:
+            - Alchemy
+            - Amulet
+            - Arcane
+            - Arcanist
+            - Arcanum
+            - Astral
+            - Aura
+            - Cauldron
+            - Celestial
+            - Charm
+            - Conjuration
+            - Conjuring
+            - Coven
+            - Crystal
+            - Divination
+            - Enchanter
+            - Enchantment
+            - Enigma
+            - Enigmatic
+            - Enthrallment
+            - Familiar
+            - Glamour
+            - Glyph
+            - Grimoire
+            - Illusion
+            - Incantation
+            - Invocation
+            - Mage
+            - Magician
+            - Mysticism
+            - Oracle
+            - Parchment
+            - Pentacle
+            - Potion
+            - Prophecy
+            - Ritual
+            - Rune
+            - Runestone
+            - Scroll
+            - Sorcery
+            - Spellcasting
+            - Talisman
+            - Thaumaturgy
+            - Wand
+            - Warlock
+            - Witchcraft
+            - Wizardry
+        verbs:
+            - Beam
+            - Bedazzle
+            - Bewitch
+            - Captivate
+            - Cast
+            - Channel
+            - Charm
+            - Conjure
+            - Dazzle
+            - Emit
+            - Enchant
+            - Enflame
+            - Enkindle
+            - Enliven
+            - Enrapture
+            - Enshroud
+            - Enthrall
+            - Envelop
+            - Evolve
+            - Fascinate
+            - Flicker
+            - Flourish
+            - Gleam
+            - Glimmer
+            - Glitter
+            - Glow
+            - Hypnotize
+            - Illuminate
+            - Infuse
+            - Inspire
+            - Manifest
+            - Mesmerize
+            - Pulse
+            - Radiate
+            - Resonate
+            - Shine
+            - Spark
+            - Sparkle
+            - Stun
+            - Summon
+            - Transcend
+            - Transfigure
+            - Twinkle
+            - Unleash
+            - Vivify
+    nsfw:
+        adjectives:
+            - Alluring
+            - Arousing
+            - Beguiling
+            - Captivating
+            - Charming
+            - Daring
+            - Desirable
+            - Enchanting
+            - Enticing
+            - Erotic
+            - Exquisite
+            - Flirtatious
+            - Forbidden
+            - Graceful
+            - Handsome
+            - Impassioned
+            - Intense
+            - Intriguing
+            - Lascivious
+            - Lush
+            - Magnetic
+            - Passionate
+            - Provocative
+            - Racy
+            - Ravishing
+            - Scandalous
+            - Seductive
+            - Sensual
+            - Sinful
+            - Steamy
+            - Sultry
+            - Tempting
+            - Titillating
+            - Uninhibited
+            - Voluptuous
+            - Wanton
+            - Wicked
+            - Wild
+            - Adorable
+            - Amorous
+            - Attractive
+            - Beautiful
+            - Bewitching
+            - Bold
+            - Breathless
+            - Chiseled
+            - Curvaceous
+            - Delicate
+            - Devilish
+            - Divine
+            - Dreamy
+            - Eager
+            - Electrifying
+            - Enraptured
+            - Fierce
+            - Flawless
+            - Forbidden
+            - Frenzied
+            - Heavenly
+            - Hypnotic
+            - Impassioned
+            - Intimate
+            - Juicy
+            - Lively
+            - Mesmerizing
+            - Obsessive
+            - Opulent
+            - Passionate
+            - Piquant
+            - Pleasing
+            - Precious
+            - Purring
+            - Radiant
+            - Refined
+            - Sensational
+            - Sensuous
+            - Silky
+            - Smoldering
+            - Sizzling
+            - Smooth
+            - Spicy
+            - Sultry
+            - Sweet
+            - Tantalizing
+            - Tender
+            - Thrilling
+            - Thriving
+            - Tingles
+            - Unabashed
+            - Untamed
+            - Untouched
+            - Vivacious
+            - Volatile
+            - Vulnerable
+            - Warm
+            - Whispering
+            - Wild
+        substantives:
+            - Affection
+            - Arousal
+            - Beauty
+            - Caress
+            - Charm
+            - Connection
+            - Craving
+            - Desire
+            - Devotion
+            - Ecstasy
+            - Embrace
+            - Fantasy
+            - Flame
+            - Frisson
+            - Gaze
+            - Heartbeat
+            - Heat
+            - Hunger
+            - Intimacy
+            - Kiss
+            - Lingerie
+            - Longing
+            - Lust
+            - Melody
+            - Moan
+            - Obsession
+            - Passion
+            - Pleasure
+            - Pulse
+            - Quiver
+            - Rapture
+            - Romance
+            - Sensation
+            - Sensuality
+            - Serenade
+            - Sigh
+            - Skin
+            - Softness
+            - Tenderness
+            - Thrill
+            - Touch
+            - Treasure
+            - Union
+            - Velvet
+            - Whisper
+            - Yearning
+            - Adoration
+            - Aphrodisiac
+            - Ardor
+            - Boudoir
+            - Breath
+            - Caress
+            - Cherish
+            - Closeness
+            - Connection
+            - Craving
+            - Dance
+            - Devotion
+            - Ecstasy
+            - Elixir
+            - Embrace
+            - Fantasy
+            - Fervor
+            - Fondness
+            - Foreplay
+            - Heartbeat
+            - Heat
+            - Honey
+            - Incense
+            - Intimacy
+            - Intrigue
+            - Kiss
+            - Lace
+            - Lingering
+            - Longing
+            - Love
+            - Lust
+            - Magic
+            - Melody
+            - Mesmerize
+            - Moan
+            - Passion
+            - Pillow
+            - Pleasure
+            - Potion
+            - Quiver
+            - Rapture
+            - Romance
+            - Sanctuary
+            - Scent
+            - Seduction
+            - Sensation
+            - Sensuality
+            - Serenade
+            - Shiver
+            - Silk
+            - Sigh
+            - Skin
+            - Softness
+            - Spark
+            - Surrender
+            - Symphony
+            - Tenderness
+            - Tease
+            - Thrill
+            - Touch
+            - Treasure
+            - Tropic
+            - Union
+            - Velvet
+            - Volcano
+            - Whisper
+            - Yearning
+        verbs:
+            - Adore
+            - Arouse
+            - Beckon
+            - Beg
+            - Bite
+            - Caress
+            - Clasp
+            - Crave
+            - Cradle
+            - Crave
+            - Devour
+            - Embrace
+            - Entice
+            - Explore
+            - Fondle
+            - Glide
+            - Grasp
+            - Greet
+            - Groan
+            - Guide
+            - Ignite
+            - Inhale
+            - Intertwine
+            - Invigorate
+            - Kiss
+            - Linger
+            - Long
+            - Love
+            - Lure
+            - Merge
+            - Moan
+            - Nuzzle
+            - Plead
+            - Probe
+            - Pull
+            - Pulse
+            - Quiver
+            - Ravish
+            - Reveal
+            - Roam
+            - Savor
+            - Seduce
+            - Sensualize
+            - Shiver
+            - Sigh
+            - Silk
+            - Slide
+            - Squeeze
+            - Stroking
+            - Surrender
+            - Sway
+            - Swirl
+            - Taste
+            - Tease
+            - Tempt
+            - Tend
+            - Throb
+            - Tingle
+            - Toss
+            - Trace
+            - Tremble
+            - Tremor
+            - Tug
+            - Undulate
+            - Unveil
+            - Unwind
+            - Whisper
+            - Writh
+            - Yearn
+            - Absorb
+            - Admire
+            - Arouse
+            - Attract
+            - Beg
+            - Caress
+            - Charm
+            - Clasp
+            - Crave
+            - Cradle
+            - Cuddle
+            - Desire
+            - Devour
+            - Embrace
+            - Enchant
+            - Entice
+            - Explore
+            - Fondle
+            - Grasp
+            - Greet
+            - Guide
+            - Ignite
+            - Inhale
+            - Intertwine
+            - Invite
+            - Kiss
+            - Linger
+            - Long
+            - Love
+            - Lust
+            - Merge
+            - Moan
+            - Nuzzle
+            - Plead
+            - Probe
+            - Pull
+            - Pulse
+            - Quiver
+            - Ravish
+            - Reveal
+            - Roam
+            - Savor
+            - Seduce
+            - Sensualize
+            - Shiver
+            - Sigh
+            - Silk
+            - Slide
+            - Squeeze
+            - Stroking
+            - Surrender
+            - Sway
+            - Swirl
+            - Taste
+            - Tease
+            - Tempt
+            - Tend
+            - Throb
+            - Tingle
+            - Toss
+            - Trace
+            - Tremble
+            - Tremor
+            - Tug
+            - Undulate
+            - Unveil
+            - Unwind
+            - Whisper
+            - Writh
+            - Yearn
+    scifi:
+        adjectives:
+            - Advanced
+            - Alien
+            - Alienated
+            - Altered
+            - Androgynous
+            - Apocalyptic
+            - Apocryphal
+            - Apotheotic
+            - Artificial
+            - Astral
+            - Astronomical
+            - Augmented
+            - Biomechanical
+            - Bionic
+            - Biopunk
+            - Biotechnological
+            - Cosmic
+            - Cyber
+            - Cybernetic
+            - Cyberpunk
+            - Dazzling
+            - Dimensional
+            - Divergent
+            - Dystopian
+            - Enigmatic
+            - Ephemeral
+            - Esoteric
+            - Ethereal
+            - Extraterrene
+            - Extraterrestrial
+            - Futurist
+            - Futuristic
+            - Futurological
+            - Galactic
+            - Genetic
+            - Genetically-enhanced
+            - Gravitational
+            - Holographic
+            - Hyperdimensional
+            - Hyperintelligent
+            - Hyperspace
+            - Hypnotic
+            - Illusory
+            - Immortal
+            - Ineffable
+            - Inscrutable
+            - Intangible
+            - Intergalactic
+            - Interstellar
+            - Intrinsic
+            - Luminous
+            - Malevolent
+            - Metamorphic
+            - Metaphysical
+            - Multidimensional
+            - Nanomolecular
+            - Nanoscopic
+            - Nanotechnological
+            - Neoteric
+            - Omnipotent
+            - Omnipresent
+            - Organic
+            - Paradoxical
+            - Paranormal
+            - Plausible
+            - Post-apocalyptic
+            - Precognitive
+            - Psychedelic
+            - Pulsating
+            - Quantum
+            - Replicant
+            - Resplendent
+            - Robotic
+            - Sentient
+            - Sentient
+            - Sentient
+            - Singularity
+            - Spatial
+            - Steampunk
+            - Subterranean
+            - Supernatural
+            - Synth
+            - Technological
+            - Telekinetic
+            - Telepathic
+            - Teleporting
+            - Terrestrial
+            - Time-traveling
+            - Timeless
+            - Transcendent
+            - Transhuman
+            - Underworldly
+            - Unearthly
+            - Unearthly
+            - Utopian
+            - Virtual
+            - Virtual-reality
+            - Visually-arresting
+            - Xenomorphic
+            - Zetetic
+        substantives:
+            - Spaceship
+            - Technology
+            - Time
+            - Future
+            - Galaxy
+            - Universe
+            - Cyberspace
+            - Dystopia
+            - Nanotechnology
+            - Teleportation
+            - Laser
+            - Mutation
+            - Wormhole
+            - Dimension
+            - Supernova
+            - Apocalypse
+            - Hologram
+            - AI (Artificial Intelligence)
+            - Warp drive
+            - Nanobot
+            - Black hole
+            - Exoplanet
+            - Virtual reality
+            - Clone
+            - Genetic engineering
+            - Time travel
+            - Cybersuit
+            - Hoverboard
+            - Galactic empire
+            - Space station
+            - Metaverse
+            - Photon
+            - Intergalactic
+            - Plasma
+            - Parallel universe
+            - Interstellar travel
+            - Gravity
+            - Cryogenics
+            - Orbital
+            - Forcefield
+            - Technobabble
+            - Futurism
+            - Metropolis
+            - Nanofabrication
+            - Stellar
+            - Nanomedicine
+            - Bionics
+            - Nanocomputer
+            - Nanowire
+            - Light-year
+            - Nanoparticle
+            - Biohazard
+            - Space-time
+            - Terraforming
+            - Starship
+            - Extraterrestrial
+            - Nanostructure
+            - Quantum mechanics
+            - Superintelligence
+            - Transhumanism
+            - Cyberspace
+            - Multiverse
+            - Transcendence
+            - Photonics
+            - Metamaterial
+            - Nanorobot
+            - Cryosleep
+            - Nanochip
+            - Hyperspace
+            - Cybernetics
+            - Nanoscale
+            - Technocracy
+            - Biotechnology
+            - Supernatural
+            - Nanotube
+            - Nanofluid
+            - Neurotechnology
+            - Exoskeleton
+            - Time loop
+            - Biopunk
+            - Metahuman
+            - Hyperdrive
+            - Quantum computing
+            - Wormhole
+            - Biomimicry
+            - Nanotransistor
+            - Exo-suit
+            - Mind control
+            - Nanomedicine
+        verbs:
+            - Explore
+            - Travel
+            - Evolve
+            - Invent
+            - Discover
+            - Teleport
+            - Manipulate
+            - Conquer
+            - Transform
+            - Escape
+            - Defend
+            - Communicate
+            - Upgrade
+            - Adapt
+            - Analyze
+            - Transcend
+            - Unravel
+            - Colonize
+            - Unleash
+            - Merge
+            - Hack
+            - Encrypt
+            - Resist
+            - Transcend
+            - Descend
+            - Traverse
+            - Overcome
+            - Experiment
+            - Integrate
+            - Replicate
+            - Challenge
+            - Hack
+            - Decode
+            - Warp
+            - Synthesize
+            - Activate
+            - Decode
+            - Transmit
+            - Decipher
+            - Defy
+            - Restore
+            - Abandon
+            - Illuminate
+            - Corrupt
+            - Hybridize
+            - Invade
+            - Resurrect
+            - Disrupt
+            - Reveal
+            - Infuse
+            - Revive
+            - Reshape
+            - Simulate
+            - Conceive
+            - Disguise
+            - Forge
+            - Overload
+            - Revolt
+            - Redefine
+            - Intervene
+            - Encrypt
+            - Emerge
+            - Reassemble
+            - Incarnate
+            - Paralyze
+            - Disintegrate
+            - Reincarnate
+            - Harmonize
+            - Encode
+            - Illuminate
+            - Harmonize
+            - Erase
+            - Initiate
+            - Calculate
+            - Animate
+            - Eradicate
+            - Evaporate
+            - Reconfigure
+            - Transmit
+            - Detonate
+            - Dematerialize
+            - Dismantle
+            - Devastate
+            - Reconnect
+            - Annihilate
+            - Manipulate
+            - Reanimate
+            - Submerge
+            - Deceive
+            - Materialize
+            - Terminate
+            - Fragment
+            - Stabilize
+            - Hyperjump
+            - Augment
+            - Collapse
+            - Intensify
+            - Clone
+            - Amplify
+            - Replicate
+
+
+    shape-tracing:
+        - trace the shape and edges with
+        - outline with
+        - sketch the form and edges using
+        - follow the contour with
+        - draw the shape and edges using
+        - mark the outline with
+        - define the form and edges with
+        - delineate using
+        - follow the lines with
+        - draw along the contours using
+        - trace the silhouette with
+        - map out the shape and edges with
+        - chart the outline using
+        - trace along the contours with
+        - delimit the form and edges with
+        - depict the shape and edges using
+    surface-swap:
+        - swap the surfaces for
+        - replace the surfaces with
+        - substitute the surfaces with
+        - exchange the surfaces with
+        - switch the surfaces for
+        - replace the surfaces using
+        - supplant the surfaces with
+        - put in place of the surfaces
+        - use alternate surfaces instead of
+        - change out the surfaces with
+        - install different surfaces in lieu of
+        - put new surfaces in the place of
+        - use replacement surfaces for
+        - sub in the surfaces with
+        - bring in new surfaces to replace
+        - implement alternative surfaces for
 ### Vogonic Guide ###
 # Big thanks go to @OneViolentGentleman who let me add his wildcards to this Set
 # Background: Hitchhiker's guide to the Galaxy
@@ -26943,8 +27042,7 @@ random:
 # Note: Stable Diffusion tries to make sense of the gibberish. However vogonic can be really heavy on your maschine. 
 # @OneViolentGentleman even reported: "I have never had my pc crash or freeze since I got it over a year ago, but when I generated the vogon gibberish images, it froze for the first time ever."
 # Have fun including those into your prompts to get real randomness!
-vogonic-guide:
-    words:
+    vogonic-guide:
         adjectives:
             - anderfull
             - apdreaperely
@@ -27553,60 +27651,3 @@ vogonic-guide:
             - you'renotwelcomegoaway
             - zofflebob
             - zorf
-
-constructors:
-    - in style of
-    - composed of
-    - constructed from
-    - formed of
-    - fashioned out of
-    - created from
-    - built with
-    - crafted from
-    - constituted by
-    - shaped with
-    - produced from
-    - manufactured from
-    - fabricated with
-    - comprised of
-    - assembled from
-    - originating from
-    - derived from
-    - put together with
-    - produced using
-    - constructed out of
-shape-tracing:
-    - trace the shape and edges with
-    - outline with
-    - sketch the form and edges using
-    - follow the contour with
-    - draw the shape and edges using
-    - mark the outline with
-    - define the form and edges with
-    - delineate using
-    - follow the lines with
-    - draw along the contours using
-    - trace the silhouette with
-    - map out the shape and edges with
-    - chart the outline using
-    - trace along the contours with
-    - delimit the form and edges with
-    - depict the shape and edges using
-surface-swap:
-    - swap the surfaces for
-    - replace the surfaces with
-    - substitute the surfaces with
-    - exchange the surfaces with
-    - switch the surfaces for
-    - replace the surfaces using
-    - supplant the surfaces with
-    - put in place of the surfaces
-    - use alternate surfaces instead of
-    - change out the surfaces with
-    - install different surfaces in lieu of
-    - put new surfaces in the place of
-    - use replacement surfaces for
-    - sub in the surfaces with
-    - bring in new surfaces to replace
-    - implement alternative surfaces for
- 
