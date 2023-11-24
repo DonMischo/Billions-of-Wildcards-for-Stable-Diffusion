@@ -30,7 +30,7 @@ Bo:
 # __Bo/Cosmic/random__
     Cosmic:
         random:
-            - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__}"
+            - "{__astronomy/Celestial-Bodies__|__astronomy/Spacecrafts__|__astronomy/relations__|__astronomy/Celestial-Anything__}, __astronomy/relations__, __phenomena/astronomy/Abstract__, __phenomena/astronomy/natural__"
 
 # __Bo/Audio/random__ __Bo/Audio/album-cover__
     Audio:
@@ -60,19 +60,19 @@ Bo:
                 BoConstructions:
                     - __Bo/Chars/female/modern__, __Bo/Constructions/random-standard__
                 BoCloths:
-                    - __Bo/Chars/female/modern__,  {__Bo/Cloths/random-fullbody__|__Bo/Cloths/random-combination__}
+                    - __Bo/Chars/female/modern__,  {__Bo/Clothings/random-fullbody__|__Bo/Clothings/random-combination__}
             male:
                 modern:
                     - male __person/regular/male__ wearing __clothings/regular/male-attire__, __person/regular/poses__
                 BoConstructions:
                     - __Bo/Chars/male/modern__, __Bo/Constructions/random-standard__
                 BoCloths:
-                    - __Bo/Chars/male/modern__,  {__Bo/Cloths/random-fullbody__|__Bo/Cloths/random-combination__}
+                    - __Bo/Chars/male/modern__,  {__Bo/Clothings/random-fullbody__|__Bo/Clothings/random-combination__}
             div:
                 - male __Bo/Chars/female/*__
                 - female __Bo/Chars/male/*__
             random:
-                - "{__Bo/Chars/*male/*__|0.1_Bo/Chars/div__}"
+                - "{__Bo/Chars/*male/*__|0.1::_Bo/Chars/div__}"
 
 # __Bo/Chars/cyberpunk/random__
         cyberpunk:
@@ -80,21 +80,21 @@ Bo:
                 classic:
                     - female __characters/professions/*__, __person/cyberpunk/female__ wearing __clothings/cyberpunk/female-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
                 scenery:
-                    - __Bo/CharsCyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+                    - __Bo/Chars/cyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
                 BoConstructions:
-                    - __Bo/CharsCyberpunk/female/classic__, __Bo/Constructions/*-cyberpunk__
+                    - __Bo/Chars/cyberpunk/female/classic__, __Bo/Constructions/*-cyberpunk__
             male:
                 classic:
                     - male __characters/professions/*__, __person/cyberpunk/male__ wearing __clothings/cyberpunk/male-attire__, {__person/cyberpunk/poses__|__person/*/poses__}
                 scenery:
-                    - __Bo/CharsCyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+                    - __Bo/Chars/cyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
                 BoConstructions:
-                    - __Bo/CharsCyberpunk/male/classic__, __Bo/Constructions/*-cyberpunk__
+                    - __Bo/Chars/cyberpunk/male/classic__, __Bo/Constructions/*-cyberpunk__
             div:
                 - female __Bo/Chars/cyberpunk/male/*__
                 - male __Bo/Chars/cyberpunk/female/*__
             random:
-                - "{__Bo/CharsCyberpunk/*male/*__|0.1::__Bo/CharsCyberpunk/div__}, __subtypes/cyberpunk__"
+                - "{__Bo/Chars/cyberpunk/*male/*__|0.1::__Bo/Chars/cyberpunk/div__}, __subtypes/cyberpunk__"
 
 # __Bo/Chars/magical/random__
         magical:
@@ -142,14 +142,14 @@ Bo:
             random:
                 - "{__Bo/Chars/magical/*male/*__|0.1::__Bo/Chars/magical/div__}"
             profession-magic:
-                - __magical/profession/crafter__, __magical/profession-magic-use/crafter__
-                - __magical/profession/caster__, __magical/profession-magic-use/caster__
-                - __magical/profession/knowledge__, __magical/profession-magic-use/knowledge__
-                - __magical/profession/nature__, __magical/profession-magic-use/nature__
-                - __magical/profession/dark__, __magical/profession-magic-use/dark__
-                - __magical/profession/light__, __magical/profession-magic-use/light__
-                - __magical/profession/illusion__, __magical/profession-magic-use/illusion__
-                - __magical/profession/technomancy__, __magical/profession-magic-use/technomancy__
+                - __characters/professions/magicalcrafter__, __magical/profession-magic-use/crafter__
+                - __characters/professions/magical/caster__, __magical/profession-magic-use/caster__
+                - __characters/professions/magical/knowledge__, __magical/profession-magic-use/knowledge__
+                - __characters/professions/magical/nature__, __magical/profession-magic-use/nature__
+                - __characters/professions/magical/dark__, __magical/profession-magic-use/dark__
+                - __characters/professions/magical/light__, __magical/profession-magic-use/light__
+                - __characters/professions/magical/illusion__, __magical/profession-magic-use/illusion__
+                - __characters/professions/magical/technomancy__, __magical/profession-magic-use/technomancy__
             properties-magical:
                 - "{0-5$${-2$$__words/magical/adjectives__}|
                 {-2$$__words/magical/substantives__}|
@@ -161,24 +161,24 @@ Bo:
         scifi:
             female:
                 classic:
-                    - female __scifi/profession/*__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
+                    - female __characters/professions/scifi/*__, __person/scifi/female__ wearing __clothings/scifi/female-attire__, __person/scifi/poses__
                 scenery:
-                    - __Bo/CharsScifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
+                    - __Bo/Chars/scifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
                 BoConstructions:
-                    - __Bo/CharsScifi/female/classic__, __Bo/Constructions/*-scifi__
+                    - __Bo/Chars/scifi/female/classic__, __Bo/Constructions/*-scifi__
             male:
                 classic:
-                    - male __scifi/profession/*__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
+                    - male __characters/professions/scifi/*__, __person/scifi/male__ wearing __clothings/scifi/male-attire__, __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
                 scenery:
-                    - __Bo/CharsScifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
+                    - __Bo/Chars/scifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
                 BoConstructions:
-                    - __Bo/CharsScifi/male/classic__, __Bo/Constructions/*-scifi__
+                    - __Bo/Chars/scifi/male/classic__, __Bo/Constructions/*-scifi__
             div:
                 - female __Bo/Chars/scifi/male/*__
                 - male __Bo/Chars/scifi/female/*__
 
             random:
-                - "{__Bo/CharsScifi/*male/*__|0.1::__Bo/CharsScifi/div__}"
+                - "{__Bo/Chars/scifi/*male/*__|0.1::__Bo/Chars/scifi/div__}"
 
 
 # more char prompts
@@ -201,10 +201,10 @@ Bo:
             __styles/clothing/dress-Length__,
             __styles/clothing/Waistlines__,
             __styles/clothing/skirt__,
-            __Bo/Cloths/random-extras__
+            __Bo/Clothings/random-extras__
             "
         random-combination:
-            - "__Bo/Cloths/random-upperbody__, __Bo/Cloths/random-lowerbody__"
+            - "__Bo/Clothings/random-upperbody__, __Bo/Clothings/random-lowerbody__"
         random-upperbody:
             - "__properties/fit__ upper body clothing,
             {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
@@ -212,14 +212,14 @@ Bo:
             __styles/clothing/Sleeve__,
             __styles/clothing/dress-Length__,
             __styles/clothing/Waistlines__,
-            __Bo/Cloths/random-extras__
+            __Bo/Clothings/random-extras__
             "
         random-lowerbody:
             - "__properties/fit__ lower body clothing,
             __properties/fabrics/*__, {__properties/patterns/*__,|}, {__properties/materials*/*__,|}
             __styles/clothing/fit-Length__,
             __styles/clothing/Waistlines__,
-            __Bo/Cloths/random-extras__
+            __Bo/Clothings/random-extras__
             "
         random-extras:
             - "
@@ -283,10 +283,6 @@ Bo:
             - "{__Bo/Constructions/rooms/regular__|__Bo/Constructions/buildings/regular__}"
         random-scifi:
             - "{__Bo/Constructions/buildings/scifi__|__Bo/Constructions/buildings/scifi__}"
-
-
-
-
         rooms:
             cyberpunk:
                 - __constructions/rooms-cyberpunk/*__, __Bo/Constructions/interior-design-fictional__, __Bo/Constructions/materials-indoor__, __Bo/Constructions/lighting-indoor__, cyberpunk, sci-fi
@@ -399,7 +395,7 @@ Bo:
 # __Bo/SciFi/random__
     SciFi:
         random:
-            - "__subtypes/scifi__ of __characters/beings/scifi__ , __scifi/profession/*__"
+            - "__subtypes/scifi__ of __characters/beings/scifi__ , __characters/professions/scifi/*__"
             - "__words/scifi/verbs__ __words/scifi/adjectives__ __words/scifi/substantives__"
             - "{3-7$$__scifi/computer/errors__|__scifi/atmosphere/*__}"
 # __Bo/Styles/random-anything__
@@ -2592,7 +2588,7 @@ characters:
             - Web Developer
             - Yoga Instructor
 
-        sci-fi:
+        scifi:
             Technology:
                 - Aerospace engineer
                 - Robot Technician
@@ -3025,13 +3021,13 @@ clothings:
             {0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/female/upper-body__,
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __Bo/Cloth/random-accesoires/regular__"
+            __Bo/Clothings/random-accesoires/regular__"
         male-attire:
             - "{0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/male/lower-body__,
             {0.8::__Bo/cloth/random/dress-properties/regular__|} __clothings/regular/male/upper-body__,
             {0.8::__clothings/regular/male/footwear__|},
             {0.5::__clothings/regular/male/headwear__|},
-            __Bo/Cloth/random-accesoires/regular__"
+            __Bo/Clothings/random-accesoires/regular__"
         female:
             upper-body:
                 - Asymmetric hem top
@@ -3837,13 +3833,13 @@ clothings:
             {0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/female/upper-body__,
             {0.8::__clothings/cyberpunk/female/footwear__|},
             {0.5::__clothings/cyberpunk/female/headwear__|},
-            __Bo/Cloth/random-accesoires/cyberpunk__"
+            __Bo/Clothings/random-accesoires/cyberpunk__"
         male-attire:
             - "{0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/male/lower-body__,
             {0.8::__Bo/cloth/random/dress-properties/cyberpunk__|} __clothings/cyberpunk/male/upper-body__,
             {0.8::__clothings/cyberpunk/male/footwear__|},
             {0.5::__clothings/cyberpunk/male/headwear__|},
-            __Bo/Cloth/random-accesoires/cyberpunk__"
+            __Bo/Clothings/random-accesoires/cyberpunk__"
         female:
             upper-body:
                 - Holo-Jacket
@@ -4794,7 +4790,7 @@ clothings:
                },
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __Bo/Cloth/random-accesoires/magical__"
+            __Bo/Clothings/random-accesoires/magical__"
         male-attire:
             - "{
                 {0.8::__Bo/Chars/magical/properties-magical__|} __clothings/magical/male/lower-body__,
@@ -4803,7 +4799,7 @@ clothings:
                },
             {0.8::__clothings/magical/male/footwear__|},
             {0.5::__clothings/magical/male/headwear__|},
-            __Bo/Cloth/random-accesoires/magical__"
+            __Bo/Clothings/random-accesoires/magical__"
         female:
             upper-body:
                 - Celestial Boleros
@@ -5181,13 +5177,13 @@ clothings:
             {0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/female/upper-body__|__clothings/nsfw/female/underwear-upper__},
             {0.8::__clothings/regular/female/footwear__|},
             {0.5::__clothings/regular/female/headwear__|},
-            __Bo/Cloth/random-accesoires/regular__"
+            __Bo/Clothings/random-accesoires/regular__"
         male-attire:
             - "{0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/male/lower-body__|__clothings/nsfw/male/underwear-lower__},
             {0.8::__Bo/cloth/random/dress-properties/nsfw__|} {__clothings/nsfw/male/upper-body__|__clothings/nsfw/male/underwear-upper__},
             {0.8::__clothings/regular/male/footwear__|},
             {0.5::__clothings/regular/male/headwear__|},
-            __Bo/Cloth/random-accesoires/regular__"
+            __Bo/Clothings/random-accesoires/regular__"
         female:
             upper-body:
                 - Bustier
@@ -6430,13 +6426,13 @@ clothings:
             {0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/female/upper-body__,
             {0.8::__clothings/scifi/female/footwear__|},
             {0.5::__clothings/scifi/female/headwear__|},
-            __Bo/Cloth/random-accesoires/scifi__"
+            __Bo/Clothings/random-accesoires/scifi__"
         male-attire:
             - "{0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/male/lower-body__,
             {0.8::__Bo/cloth/random/dress-properties/scifi__|} __clothings/scifi/male/upper-body__,
             {0.8::__clothings/scifi/male/footwear__|},
             {0.5::__clothings/scifi/male/headwear__|},
-            __Bo/Cloth/random-accesoires/scifi__"
+            __Bo/Clothings/random-accesoires/scifi__"
         female:
             upper-body:
                 - Holographic Blouse
