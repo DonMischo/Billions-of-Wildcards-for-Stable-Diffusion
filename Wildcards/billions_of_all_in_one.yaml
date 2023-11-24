@@ -311,26 +311,26 @@ bo:
             - "{__bo/constructions/buildings/scifi__|__bo/constructions/buildings/scifi__}"
         rooms:
             cyberpunk:
-                - __constructions/rooms-cyberpunk/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, cyberpunk, sci-fi
+                - __constructions/rooms/cyberpunk/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, cyberpunk, sci-fi
             fictional:
-                - __constructions/rooms*/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, __styles/punk-styles__
+                - __constructions/rooms/*/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, __styles/punk-styles__
             magical:
-                - __constructions/rooms-magical/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, fantasy
+                - __constructions/rooms/magical/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, fantasy
             regular:
-                - __constructions/rooms/*__, __bo/constructions/interior-design__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__
+                - __constructions/rooms/regular/*__, __bo/constructions/interior-design__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__
             scifi:
-                - __constructions/rooms-scifi/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, __styles/punk-styles__, sci-fi
+                - __constructions/rooms/scifi/*__, __bo/constructions/interior-design-fictional__, __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__, __styles/punk-styles__, sci-fi
         buildings:
             cyberpunk:
-                - __constructions/types-cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
+                - __constructions/types/cyberpunk/*__, {1-3$$__properties/materials-construction/cyberpunk__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
             fictional:
-                - __constructions/types*/*__, {1-3$$__properties/materials-construction/basic*__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
+                - __constructions/types/*/*__, {1-3$$__properties/materials-construction/basic*__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
             magical:
-                - __constructions/types-magical/*__, {1-3$$__properties/materials-construction/basic*__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
+                - __constructions/types/magical/*__, {1-3$$__properties/materials-construction/basic*__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
             regular:
-                - __constructions/types/*__, {1-3$$__properties/materials-construction/basic__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
+                - __constructions/types/regular/*__, {1-3$$__properties/materials-construction/basic__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
             scifi:
-                - __constructions/types-scifi/*__, {1-3$$__properties/materials-construction/scifi__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
+                - __constructions/types/scifi/*__, {1-3$$__properties/materials-construction/scifi__|__bo/constructions/materials-outdoor__}, __bo/constructions/lighting-outdoor__
 
         interior-design:
             - "{1-5$$__constructions/interior-design/*__}"
@@ -7555,847 +7555,855 @@ components:
 
 constructions:
     types:
-        residential-buildings:
-            - single-family homes
-            - apartments
-            - condominiums
-            - townhouses
-            - cottages
-            - duplexes
-            - mobile homes
-        commercial-buildings:
-            - office buildings
-            - shopping centers
-            - retail stores
-            - restaurants and cafes
-            - hotels and motels
-            - banks
-            - warehouses
-            - supermarkets
-        educational-buildings:
-            - schools
-            - colleges and universities
-            - libraries
-            - research facilities
-        healthcare-buildings:
-            - hospitals
-            - clinics
-            - medical offices
-            - nursing homes
-        industrial-buildings:
-            - factories
-            - manufacturing plants
-            - warehouses
-            - distribution centers
-        recreational-buildings:
-            - sports arenas and stadiums
-            - gyms and fitness centers
-            - theaters and cinemas
-            - museums
-            - amusement parks
-        government-buildings:
-            - courthouses
-            - city halls
-            - police stations
-            - fire stations
-        religious-buildings:
-            - churches
-            - mosques
-            - temples
-            - synagogues
-        transportation-buildings:
-            - airports
-            - train stations
-            - bus terminals
-        special purpose-buildings:
-            - prisons
-            - power plants
-            - data centers
-            - exhibition halls
-    types-fictional:
-        residential:
-            - cozy cottage
-            - futuristic apartment tower
-            - enchanted treehouse
-            - underwater dome residence
-            - floating sky palace
-        commercial:
-            - high-tech corporate headquarters
-            - intergalactic shopping mall
-            - time travelers inn
-            - holographic entertainment complex
-            - alien marketplace
-        governmental:
-            - utopian capitol building
-            - space command center
-            - mythical palace of kings
-            - parallel universe embassy
-            - interplanetary council chambers
-        educational:
-            - wizarding school of magic
-            - extraterrestrial university
-            - ancient library of knowledge
-            - virtual reality learning hub
-            - time bending academy
-        recreational:
-            - zero gravity amusement park
-            - underwater coral resort
-            - floating garden oasis
-            - celestial spa retreat
-            - infinite maze of wonders
-        industrial:
-            - steampunk factory complex
-            - robotic production plant
-            - mythical forge of legend
-            - interdimensional power plant
-            - ethereal energy refinery
-    types-cyberpunk:
-        corporate-megatowers:
-            - shinohara corp. headquarters
-            - omnitech plaza
-            - zephyr industries tower
-            - cybersys tower
-            - zenithcorp skyspire
-            - nexus dynamics center
-            - stellarcorp megatower
-            - aethertech headquarters
-            - infinitron tower
-            - metaglobal tower
-        underground-cyber-bunkers:
-            - resistance hideout
-            - black market hub
-            - cybercrime syndicate lair
-            - techno-anarchist safehouse
-            - rogue hacker's den
-            - shadowops command center
-            - neon underground club
-            - cyber smuggler's depot
-            - vr illusionist's hideaway
-            - darknet data vault
-        arcade-and-entertainment-complexes:
-            - neoarcade haven
-            - cybernetic vr arena
-            - holographic racing emporium
-            - holosuite gaming center
-            - cyberpunk amusement park
-            - vr combat simulator dome
-            - immersive gaming district
-            - zero-g dance and music hall
-            - augmented reality casino
-            - retro-cyber gaming lounge
-        high-tech-medical-facilities:
-            - cybernetics enhancement clinic
-            - virtual reality therapy center
-            - nanotech medical research lab
-            - holographic surgery theater
-            - biohacking and gene editing facility
-            - neuroenhancement institute
-            - time dilation healing spa
-            - cryogenic stasis research center
-            - augmented reality rehabilitation center
-            - bionic prosthetics manufacturing
-        mega-marketplaces-and-bazaars:
-            - neobazaar central
-            - technotrade exchange
-            - augmented reality mall
-            - cyberware emporium
-            - ai-driven market square
-            - holomarket plaza
-            - futuristic black market
-            - underground tech bazaar
-            - holographic vendor arcade
-            - virtual reality auction house
-        cyberpunk-nightclubs:
-            - neonsky club and lounge
-            - holographic dance haven
-            - virtual reality rave nexus
-            - synthbeat electroclub
-            - augmented reality dj den
-            - technocyber discotheque
-            - immersive trance theater
-            - vr lightshow emporium
-            - cybernetic dance factory
-            - time-warping party hangar
-        cyberspace-data-towers:
-            - augmented reality data hub
-            - virtual reality data matrix
-            - holographic information nexus
-            - cybernetic cloud storage facility
-            - ai data processing center
-            - quantum computing node
-            - infinite data archive
-            - neural network data tower
-            - darknet intelligence hub
-            - time-looped information repository
-        cyberpunk-residential-complexes:
-            - futuristic hi-tech apartments
-            - neon-lit skyscraper residences
-            - vr-integrated smart homes
-            - holographic co-living spaces
-            - augmented reality luxury penthouses
-            - techno-modular housing units
-            - immersive augmented apartments
-            - timeless retro-fitted lofts
-            - cyborg co-op living community
-            - futuristic sustainable eco-domes
-        cyberpunk-street-hangouts:
-            - neon alleyway marketplace
-            - holographic street performer's corner
-            - vr street sports arena
-            - synthwave street art district
-            - augmented reality graffiti zone
-            - techno street food bazaar
-            - immersive cyber cafes
-            - time-warped urban plaza
-            - futuristic rooftop gardens
-            - vr skate park and playground
-        cyberpunk-factories-and-assembly-plants:
-            - holographic nanofactory
-            - vr mass production line
-            - immersive robotic assembly hub
-            - augmented reality automated plant
-            - quantum-powered manufacturing facility
-            - time-distorted 3d printing workshop
-            - futuristic cybernetics factory
-            - ai-driven smart factory
-            - synthetics and androids production plant
-            - zero-waste green tech manufacturing
-    types-scifi:
-        spaceship-bridges-and-command-centers:
-            - uss enterprise command bridge
-            - galactic starcruiser control hub
-            - intergalactic exploration vessel bridge
-            - cosmic carrier command center
-            - nebula-class battleship bridge
-            - celestial cruiser control deck
-            - quantum-class flagship command center
-            - stellar interceptor bridge
-            - warp-speed frigate command hub
-            - ai-powered starship control nexus
-        interstellar-research-and-exploration:
-            - astrobiology research facility
-            - xenoplanet exploration center
-            - galactic archive and data repository
-            - celestial phenomenon observatory
-            - time distortion research lab
-            - exoplanetary geology laboratory
-            - astronomical observation hub
-            - quantum entanglement research institute
-            - extraterrestrial archaeology institute
-            - galactic history and civilization studies
-        extraterrestrial-diplomacy-and-relations:
-            - intergalactic diplomatic embassy
-            - alien cultural exchange center
-            - celestial peace treaty council
-            - interspecies communication hub
-            - galactic alliance mediation chamber
-            - multinational space accord assembly
-            - cosmic confederation summit hall
-            - interplanetary trade negotiation center
-            - extraterrestrial federation embassy
-            - galactic united nations headquarters
-        futuristic-cybernetic-cities:
-            - neon metropolis megacity
-            - techno-infused urban hub
-            - holographic skyline complex
-            - augmented reality smart city
-            - cybernetic skyscraper cluster
-            - immersive megalopolis center
-            - time-looped futuristic metropolis
-            - quantum-powered city of tomorrow
-            - synthwave utopian cityscape
-            - ai-controlled urban civilization
-        advanced-extraterrestrial-labs:
-            - quantum particle accelerator lab
-            - nanotechnology research facility
-            - plasma fusion energy lab
-            - ai-controlled biotechnology lab
-            - time-travel experimentation chamber
-            - gravitational wave observatory
-            - dark matter and antimatter research center
-            - quantum computing complex
-            - alien genetic engineering institute
-            - celestial robotics and ai lab
-        ai-controlled-planetary-defense:
-            - orbital defense satellite network
-            - planetary shield control center
-            - ai-driven laser defense array
-            - interstellar missile defense platform
-            - quantum-based force field nexus
-            - celestial antimatter cannon
-            - time-warping tactical command center
-            - nanobot-infused nanodome defense system
-            - extraterrestrial threat monitoring station
-            - galactic sentry fleet headquarters
-        time-travelling-research-facilities:
-            - chronolab temporal research center
-            - time-looped quantum laboratory
-            - celestial time anomaly observatory
-            - time-warp accelerated innovation hub
-            - temporal paradox investigation unit
-            - multiverse and parallel realities lab
-            - quantum entanglement time travel nexus
-            - cosmic temporal preservation archive
-            - extraterrestrial time traveler's rest stop
-            - stellar temporal navigation complex
-        high-tech-cyber-casinos:
-            - futuristic hologamble casino
-            - quantum-based slot machine arena
-            - celestial poker and blackjack lounge
-            - virtual reality roulette hall
-            - time-distorted card game parlor
-            - synthwave high roller suite
-            - ai-controlled sports betting arena
-            - galactic racing and betting track
-            - immersive e-sports betting hub
-            - zero-gravity craps and dice den
-        extraterrestrial-artifact-museums:
-            - alien relic exhibition hall
-            - celestial ancient artifacts gallery
-            - holographic extraterrestrial art center
-            - quantum art and sculpture gallery
-            - timeless extraterrestrial archaeology museum
-            - intergalactic historical relics showcase
-            - cosmic artifacts and antiquities archive
-            - ai-interpreted alien art collection
-            - virtual reality time capsule exhibit
-            - time-warping mythical artifact hall
-        interstellar-transportation-hubs:
-            - celestial spaceport terminal
-            - quantum portal gateway
-            - interdimensional stargate port
-            - hyperspace jumping junction
-            - extraterrestrial hyperloop terminal
-            - time-looped wormhole connector
-            - galactic transport nexus
-            - ai-controlled teleportation hub
-            - space-time distorted warp gate
-            - futuristic intergalactic transit center
-    types-magical:
-        enchanted-schools-of-magic:
-            - hogwarts school of witchcraft and wizardry
-            - celestia academy of sorcery
-            - arcane academy of enchantment
-            - lumos academy of elemental magic
-            - celestial college of arcanum
-            - mystica school of magical arts
-            - enigma institute of spells and potions
-            - timeless tower of magecraft
-            - ethereal grove of druidic wisdom
-            - fairy academy of enchantment
-        celestial-libraries-of-knowledge:
-            - astral archive of ancient wisdom
-            - cosmic codex and star maps repository
-            - timeless tome of prophecies
-            - enchanted grimoire hall
-            - celestial library of astronomical lore
-            - mystical records hall of spells
-            - etherium scrolls sanctum
-            - arcane repository of magical tomes
-            - ancient mythical chronicles chamber
-            - celestial atlas of mythos
-        witch-covens-and-magical-circles:
-            - coven of the silver moon
-            - mystic circle of elemental witches
-            - timeless cauldron gathering
-            - ethereal seance and divination room
-            - celestial moonlit ritual grove
-            - mystical crystal ball chamber
-            - enchantress' forest retreat
-            - arcane pentacle and rune circle
-            - celestial starlit sabbat grounds
-            - witch's time-warping apothecary
-        fairy-tale-castles-and-palaces:
-            - enchanted castle of dreams
-            - celestial palace of everlasting light
-            - timeless citadel of sorcery
-            - ethereal fortress of the elven king
-            - fairy queen's emerald palace
-            - mystical crystal cavern castle
-            - enchanted rose tower
-            - celestial unicorn palace
-            - magical floating island citadel
-            - fairy godmother's enchanted chateau
-        magical-taverns-and-inns:
-            - celestial moonlight tavern
-            - enchanted inn of the traveler
-            - mystical potions and brews pub
-            - timeless hearth of the phoenix
-            - ethereal goblet and mead hall
-            - celestial hearthstone tavern
-            - enchanted woodsman's retreat
-            - magical inn at the crossroads
-            - fairy-lit forest tea house
-            - time-warping wizard's pub
+        cyberpunk:
+            corporate-megatowers:
+                - shinohara corp. headquarters
+                - omnitech plaza
+                - zephyr industries tower
+                - cybersys tower
+                - zenithcorp skyspire
+                - nexus dynamics center
+                - stellarcorp megatower
+                - aethertech headquarters
+                - infinitron tower
+                - metaglobal tower
+            underground-cyber-bunkers:
+                - resistance hideout
+                - black market hub
+                - cybercrime syndicate lair
+                - techno-anarchist safehouse
+                - rogue hacker's den
+                - shadowops command center
+                - neon underground club
+                - cyber smuggler's depot
+                - vr illusionist's hideaway
+                - darknet data vault
+            arcade-and-entertainment-complexes:
+                - neoarcade haven
+                - cybernetic vr arena
+                - holographic racing emporium
+                - holosuite gaming center
+                - cyberpunk amusement park
+                - vr combat simulator dome
+                - immersive gaming district
+                - zero-g dance and music hall
+                - augmented reality casino
+                - retro-cyber gaming lounge
+            high-tech-medical-facilities:
+                - cybernetics enhancement clinic
+                - virtual reality therapy center
+                - nanotech medical research lab
+                - holographic surgery theater
+                - biohacking and gene editing facility
+                - neuroenhancement institute
+                - time dilation healing spa
+                - cryogenic stasis research center
+                - augmented reality rehabilitation center
+                - bionic prosthetics manufacturing
+            mega-marketplaces-and-bazaars:
+                - neobazaar central
+                - technotrade exchange
+                - augmented reality mall
+                - cyberware emporium
+                - ai-driven market square
+                - holomarket plaza
+                - futuristic black market
+                - underground tech bazaar
+                - holographic vendor arcade
+                - virtual reality auction house
+            cyberpunk-nightclubs:
+                - neonsky club and lounge
+                - holographic dance haven
+                - virtual reality rave nexus
+                - synthbeat electroclub
+                - augmented reality dj den
+                - technocyber discotheque
+                - immersive trance theater
+                - vr lightshow emporium
+                - cybernetic dance factory
+                - time-warping party hangar
+            cyberspace-data-towers:
+                - augmented reality data hub
+                - virtual reality data matrix
+                - holographic information nexus
+                - cybernetic cloud storage facility
+                - ai data processing center
+                - quantum computing node
+                - infinite data archive
+                - neural network data tower
+                - darknet intelligence hub
+                - time-looped information repository
+            cyberpunk-residential-complexes:
+                - futuristic hi-tech apartments
+                - neon-lit skyscraper residences
+                - vr-integrated smart homes
+                - holographic co-living spaces
+                - augmented reality luxury penthouses
+                - techno-modular housing units
+                - immersive augmented apartments
+                - timeless retro-fitted lofts
+                - cyborg co-op living community
+                - futuristic sustainable eco-domes
+            cyberpunk-street-hangouts:
+                - neon alleyway marketplace
+                - holographic street performer's corner
+                - vr street sports arena
+                - synthwave street art district
+                - augmented reality graffiti zone
+                - techno street food bazaar
+                - immersive cyber cafes
+                - time-warped urban plaza
+                - futuristic rooftop gardens
+                - vr skate park and playground
+            cyberpunk-factories-and-assembly-plants:
+                - holographic nanofactory
+                - vr mass production line
+                - immersive robotic assembly hub
+                - augmented reality automated plant
+                - quantum-powered manufacturing facility
+                - time-distorted 3d printing workshop
+                - futuristic cybernetics factory
+                - ai-driven smart factory
+                - synthetics and androids production plant
+                - zero-waste green tech manufacturing
+
+        fictional:
+            residential:
+                - cozy cottage
+                - futuristic apartment tower
+                - enchanted treehouse
+                - underwater dome residence
+                - floating sky palace
+            commercial:
+                - high-tech corporate headquarters
+                - intergalactic shopping mall
+                - time travelers inn
+                - holographic entertainment complex
+                - alien marketplace
+            governmental:
+                - utopian capitol building
+                - space command center
+                - mythical palace of kings
+                - parallel universe embassy
+                - interplanetary council chambers
+            educational:
+                - wizarding school of magic
+                - extraterrestrial university
+                - ancient library of knowledge
+                - virtual reality learning hub
+                - time bending academy
+            recreational:
+                - zero gravity amusement park
+                - underwater coral resort
+                - floating garden oasis
+                - celestial spa retreat
+                - infinite maze of wonders
+            industrial:
+                - steampunk factory complex
+                - robotic production plant
+                - mythical forge of legend
+                - interdimensional power plant
+                - ethereal energy refinery
+        magical:
+            enchanted-schools-of-magic:
+                - hogwarts school of witchcraft and wizardry
+                - celestia academy of sorcery
+                - arcane academy of enchantment
+                - lumos academy of elemental magic
+                - celestial college of arcanum
+                - mystica school of magical arts
+                - enigma institute of spells and potions
+                - timeless tower of magecraft
+                - ethereal grove of druidic wisdom
+                - fairy academy of enchantment
+            celestial-libraries-of-knowledge:
+                - astral archive of ancient wisdom
+                - cosmic codex and star maps repository
+                - timeless tome of prophecies
+                - enchanted grimoire hall
+                - celestial library of astronomical lore
+                - mystical records hall of spells
+                - etherium scrolls sanctum
+                - arcane repository of magical tomes
+                - ancient mythical chronicles chamber
+                - celestial atlas of mythos
+            witch-covens-and-magical-circles:
+                - coven of the silver moon
+                - mystic circle of elemental witches
+                - timeless cauldron gathering
+                - ethereal seance and divination room
+                - celestial moonlit ritual grove
+                - mystical crystal ball chamber
+                - enchantress' forest retreat
+                - arcane pentacle and rune circle
+                - celestial starlit sabbat grounds
+                - witch's time-warping apothecary
+            fairy-tale-castles-and-palaces:
+                - enchanted castle of dreams
+                - celestial palace of everlasting light
+                - timeless citadel of sorcery
+                - ethereal fortress of the elven king
+                - fairy queen's emerald palace
+                - mystical crystal cavern castle
+                - enchanted rose tower
+                - celestial unicorn palace
+                - magical floating island citadel
+                - fairy godmother's enchanted chateau
+            magical-taverns-and-inns:
+                - celestial moonlight tavern
+                - enchanted inn of the traveler
+                - mystical potions and brews pub
+                - timeless hearth of the phoenix
+                - ethereal goblet and mead hall
+                - celestial hearthstone tavern
+                - enchanted woodsman's retreat
+                - magical inn at the crossroads
+                - fairy-lit forest tea house
+                - time-warping wizard's pub
+
+        regular:
+            residential-buildings:
+                - single-family homes
+                - apartments
+                - condominiums
+                - townhouses
+                - cottages
+                - duplexes
+                - mobile homes
+            commercial-buildings:
+                - office buildings
+                - shopping centers
+                - retail stores
+                - restaurants and cafes
+                - hotels and motels
+                - banks
+                - warehouses
+                - supermarkets
+            educational-buildings:
+                - schools
+                - colleges and universities
+                - libraries
+                - research facilities
+            healthcare-buildings:
+                - hospitals
+                - clinics
+                - medical offices
+                - nursing homes
+            industrial-buildings:
+                - factories
+                - manufacturing plants
+                - warehouses
+                - distribution centers
+            recreational-buildings:
+                - sports arenas and stadiums
+                - gyms and fitness centers
+                - theaters and cinemas
+                - museums
+                - amusement parks
+            government-buildings:
+                - courthouses
+                - city halls
+                - police stations
+                - fire stations
+            religious-buildings:
+                - churches
+                - mosques
+                - temples
+                - synagogues
+            transportation-buildings:
+                - airports
+                - train stations
+                - bus terminals
+            special purpose-buildings:
+                - prisons
+                - power plants
+                - data centers
+                - exhibition halls
+
+        scifi:
+            spaceship-bridges-and-command-centers:
+                - uss enterprise command bridge
+                - galactic starcruiser control hub
+                - intergalactic exploration vessel bridge
+                - cosmic carrier command center
+                - nebula-class battleship bridge
+                - celestial cruiser control deck
+                - quantum-class flagship command center
+                - stellar interceptor bridge
+                - warp-speed frigate command hub
+                - ai-powered starship control nexus
+            interstellar-research-and-exploration:
+                - astrobiology research facility
+                - xenoplanet exploration center
+                - galactic archive and data repository
+                - celestial phenomenon observatory
+                - time distortion research lab
+                - exoplanetary geology laboratory
+                - astronomical observation hub
+                - quantum entanglement research institute
+                - extraterrestrial archaeology institute
+                - galactic history and civilization studies
+            extraterrestrial-diplomacy-and-relations:
+                - intergalactic diplomatic embassy
+                - alien cultural exchange center
+                - celestial peace treaty council
+                - interspecies communication hub
+                - galactic alliance mediation chamber
+                - multinational space accord assembly
+                - cosmic confederation summit hall
+                - interplanetary trade negotiation center
+                - extraterrestrial federation embassy
+                - galactic united nations headquarters
+            futuristic-cybernetic-cities:
+                - neon metropolis megacity
+                - techno-infused urban hub
+                - holographic skyline complex
+                - augmented reality smart city
+                - cybernetic skyscraper cluster
+                - immersive megalopolis center
+                - time-looped futuristic metropolis
+                - quantum-powered city of tomorrow
+                - synthwave utopian cityscape
+                - ai-controlled urban civilization
+            advanced-extraterrestrial-labs:
+                - quantum particle accelerator lab
+                - nanotechnology research facility
+                - plasma fusion energy lab
+                - ai-controlled biotechnology lab
+                - time-travel experimentation chamber
+                - gravitational wave observatory
+                - dark matter and antimatter research center
+                - quantum computing complex
+                - alien genetic engineering institute
+                - celestial robotics and ai lab
+            ai-controlled-planetary-defense:
+                - orbital defense satellite network
+                - planetary shield control center
+                - ai-driven laser defense array
+                - interstellar missile defense platform
+                - quantum-based force field nexus
+                - celestial antimatter cannon
+                - time-warping tactical command center
+                - nanobot-infused nanodome defense system
+                - extraterrestrial threat monitoring station
+                - galactic sentry fleet headquarters
+            time-travelling-research-facilities:
+                - chronolab temporal research center
+                - time-looped quantum laboratory
+                - celestial time anomaly observatory
+                - time-warp accelerated innovation hub
+                - temporal paradox investigation unit
+                - multiverse and parallel realities lab
+                - quantum entanglement time travel nexus
+                - cosmic temporal preservation archive
+                - extraterrestrial time traveler's rest stop
+                - stellar temporal navigation complex
+            high-tech-cyber-casinos:
+                - futuristic hologamble casino
+                - quantum-based slot machine arena
+                - celestial poker and blackjack lounge
+                - virtual reality roulette hall
+                - time-distorted card game parlor
+                - synthwave high roller suite
+                - ai-controlled sports betting arena
+                - galactic racing and betting track
+                - immersive e-sports betting hub
+                - zero-gravity craps and dice den
+            extraterrestrial-artifact-museums:
+                - alien relic exhibition hall
+                - celestial ancient artifacts gallery
+                - holographic extraterrestrial art center
+                - quantum art and sculpture gallery
+                - timeless extraterrestrial archaeology museum
+                - intergalactic historical relics showcase
+                - cosmic artifacts and antiquities archive
+                - ai-interpreted alien art collection
+                - virtual reality time capsule exhibit
+                - time-warping mythical artifact hall
+            interstellar-transportation-hubs:
+                - celestial spaceport terminal
+                - quantum portal gateway
+                - interdimensional stargate port
+                - hyperspace jumping junction
+                - extraterrestrial hyperloop terminal
+                - time-looped wormhole connector
+                - galactic transport nexus
+                - ai-controlled teleportation hub
+                - space-time distorted warp gate
+                - futuristic intergalactic transit center
     rooms:
-        service-spaces:
-            - kitchen
-            - bathroom
-            - laundry room
-            - pantry (in kitchen or separate)
-            - mudroom
-            - walk-in closet
-        entertainment-leisure-spaces:
-            - dining room
-            - family room
-            - game/entertainment room
-            - home theater
-            - music room/studio
-            - gym/exercise room
-            - library/reading room
-        utility-spaces:
-            - garage
-            - basement
-            - attic
-            - storage room
-            - workshop/tool room
-            - server/utility room
-        common-spaces:
-            - hallway/corridor
-            - staircase
-            - balcony/patio
-            - porch/veranda
-            - sunroom
-        public-spaces:
-            - conference room
-            - reception/lobby
-            - restroom/washroom (public or private)
-        living-spaces:
-            - living room
-            - bedroom
-            - guest room
-            - children's room/nursery
-            - master suite
-        work-spaces:
-            - study/office
-            - home office
-            - co-working space
-            - artist's studio
-        commercial-spaces:
-            - retail space
-            - showroom
-            - restaurant dining area
-            - bar/lounge area
-            - hotel room
-        educational-spaces:
-            - classroom
-            - lecture hall
-            - laboratory
-            - library
-        healthcare-spaces:
-            - hospital patient room
-            - examination room
-            - operating room
-            - waiting room
-        recreational-spaces:
-            - swimming pool area
-            - sauna/spa room
-            - game room/playroom
-            - indoor play area
-        community-spaces:
-            - community hall
-            - clubhouse
-            - meeting room
-        transit-spaces:
-            - waiting area
-            - ticket counter
-        outdoor-spaces:
-            - courtyard
-            - garden
-            - terrace
-            - patio
-            - roof deck
-    rooms-fictional:
-        magical-spaces:
-            - enchanted room
-            - wizard's chamber
-            - fairy grotto
-            - potion brewing room
-            - library of magical tomes
-        mystical-spaces:
-            - oracle's chamber
-            - sacred temple
-            - time traveler's nexus
-            - astral projection room
-            - room of prophecies
-        fantasy-spaces:
-            - dragon's lair
-            - elven pavilion
-            - dwarf's forge
-            - mermaid's underwater retreat
-            - goblin's hideout
-        sci-fi-spaces:
-            - spaceship cockpit
-            - holodeck simulation room
-            - teleporter room
-            - cyberspace virtual room
-            - alien observation chamber
-        adventure-spaces:
-            - treasure room
-            - secret passage
-            - hidden temple
-            - pirate's den
-            - lost city's crypt
-        steampunk-spaces:
-            - steampunk workshop
-            - airship control room
-            - clockwork mechanism room
-            - brass and gears observatory
-            - victorian inventor's study
-        haunted-spaces:
-            - haunted attic
-            - creepy cellar
-            - ghostly ballroom
-            - spooky library
-            - cursed chamber
-        futuristic-spaces:
-            - high-tech control center
-            - holographic entertainment room
-            - nanotechnology lab
-            - artificial intelligence hub
-            - solar-powered energy room
-    rooms-scifi:
-        living-spaces:
-            - futuristic space apartment
-            - ai-controlled smart home
-            - zero-gravity living module
-            - holographic entertainment room
-            - holodeck virtual reality chamber
-            - biosphere living quarters
-            - time dilation sleep pod
-            - cryogenic stasis chamber
-            - alien bioluminescent habitat
-            - interstellar traveler's cabin
-        workspaces:
-            - space station command center
-            - high-tech research laboratory
-            - holographic conference room
-            - virtual collaboration hub
-            - ai-controlled workstation
-            - cybernetic augmentation lab
-            - zero-gravity manufacturing facility
-            - teleportation prototype lab
-            - nanotechnology research chamber
-            - galactic explorer's bridge
-        recreational:
-            - vr gaming arena
-            - zero-gravity trampoline park
-            - interstellar nightclub
-            - holosuite amusement park
-            - anti-gravity sports arena
-            - alien art and culture gallery
-            - intergalactic spa retreat
-            - time-travel themed escape room
-            - virtual reality concert hall
-            - space simulator and training center
-        security-and-surveillance:
-            - space station security hub
-            - biometric identification vault
-            - force field control center
-            - holographic surveillance room
-            - quantum encryption chamber
-            - invisibility shield control room
-            - galactic prison facility
-            - alien intrusion detection center
-            - hyper-advanced defense bunker
-            - time-loop secured archive
-        medbay-and-bioengineering-lab:
-            - advanced regenerative medical bay
-            - genetic engineering facility
-            - cybernetic prosthetics workshop
-            - nanobot infirmary
-            - alien biotechnology research lab
-            - neuroenhancement chamber
-            - telemedicine teleportation center
-            - virtual reality healing retreat
-            - bio-printed organ production lab
-            - robotic surgery theater
-        alien-encounters:
-            - extraterrestrial embassy
-            - alien diplomatic meeting room
-            - intergalactic communication center
-            - alien artifact exhibition hall
-            - interspecies cultural exchange zone
-            - galactic peace negotiation chamber
-            - alien linguistics and translation lab
-            - alien abduction research chamber
-            - galactic council assembly room
-            - alien species genetic study lab
-        astrobiology-and-xenobiology:
-            - xenobotany research greenhouse
-            - alien microbial study lab
-            - astroecology research habitat
-            - exobiology and alien anatomy lab
-            - alien wildlife observation deck
-            - galactic specimen collection room
-            - extraterrestrial geology lab
-            - xenophysiognomy and non-humanoid studies lab
-            - alien planet simulation chamber
-            - alien astrozoology exhibit
-        interstellar-travel:
-            - spaceship bridge and command center
-            - hyperdrive engine room
-            - cryogenic stasis chamber
-            - warp core reactor facility
-            - wormhole navigation control room
-            - zero-gravity g-force simulation chamber
-            - intergalactic navigation observatory
-            - alien technology-infused propulsion lab
-            - wormhole entry and exit point hangar
-            - subspace communications array
-        exoplanetary-exploration:
-            - exoplanet discovery and observation center
-            - alien ruins archaeology dig site
-            - robotic planetary exploration rover hangar
-            - advanced terrain mapping and analysis lab
-            - exotic climate simulation chamber
-            - alien flora and fauna study enclosure
-            - celestial phenomenon observation deck
-            - alien civilization artifacts exhibit
-            - exoplanetary weather and storm prediction room
-            - microgravity geological excavation site
-        space-colony-and-habitat:
-            - space colony command and control center
-            - habitat engineering and life support room
-            - hydroponics and food production facility
-            - intra-stellar power generation chamber
-            - zero-gravity recreation and exercise area
-            - astronaut training and simulation hub
-            - extraterrestrial defense perimeter control
-            - space colony communal living quarters
-            - orbital viewing and stargazing lounge
-            - space colony medical bay and quarantine
-    rooms-cyberpunk:
-        living-spaces:
-            - neon-lit loft apartment
-            - tech-integrated smart home
-            - augmented reality entertainment room
-            - holographic virtual reality chamber
-            - cluttered hacker's hideout
-            - futuristic capsule hotel room
-            - vertically stacked living pods
-            - underground cyberpunk bunker
-            - floating skybox residence
-            - ultra-modern modular living unit
-        workspaces:
-            - cybernetic office space
-            - high-tech co-working hub
-            - virtual boardroom with holo-conferencing
-            - cyberdeck-controlled command center
-            - immersive vr design studio
-            - underground cybercrime den
-            - ai-driven r&d lab
-            - holographic projection mapping studio
-            - techno-alchemist's workshop
-            - neon-lit cyberpunk bar and club
-        recreational:
-            - vr gaming parlor
-            - neon arcade wonderland
-            - holographic nightclub
-            - futuristic cyber spa retreat
-            - holodeck-style simulation room
-            - hacking challenge arena
-            - cybernetic gym and training facility
-            - augmented reality escape room
-            - virtual racing simulator
-            - immersive cyberpunk theater
-        security-and-surveillance:
-            - futuristic cybersecurity operations center (soc)
-            - high-tech surveillance control room
-            - biometric access control chamber
-            - holographic retina scanner vault
-            - intrusion detection system hub
-            - ai-driven threat analysis chamber
-            - cyber defense war room
-            - drone command and control center
-            - secure data storage vault
-            - surveillance drone launch pad
-        medbay-and-cybernetics-lab:
-            - advanced cybernetics implant lab
-            - biopunk genetic enhancement facility
-            - futuristic prosthetics workshop
-            - nanotech medical treatment room
-            - cyberware repair and maintenance center
-            - neural implant calibration chamber
-            - biometric health monitoring lab
-            - brain-computer interface testing room
-            - virtual reality therapy space
-            - cybernetic enhancements showroom
-        cybernetics-and-augmentation:
-            - cyberware modification lab
-            - neural interface calibration room
-            - bionic limb manufacturing facility
-            - cybernetic enhancement clinic
-            - virtual reality neural training chamber
-            - nanotech implant injection suite
-            - augmented reality calibration room
-            - cybernetic prosthetics showroom
-            - holographic augmentation visualization chamber
-            - brain-computer interface testing lab
-        darknet-and-underground:
-            - cybercrime hideout and server farm
-            - virtual black market trading hub
-            - illegal tech and weapon manufacturing lab
-            - secret resistance headquarters
-            - underground vr gaming arena
-            - discreet holographic projection club
-            - rogue ai hackers den
-            - vr fight club and arena
-            - cryptocurrency laundering facility
-            - stealthy spy network operations center
-        cyberpunk-street-scene:
-            - neon-lit night market
-            - hovering vehicle repair garage
-            - cybernetics street clinic
-            - futuristic food cart alley
-            - holographic graffiti art gallery
-            - underground cyberpunk bar
-            - virtual reality arcade
-            - bionic body modding studio
-            - high-tech cyber street food truck
-            - augmented reality fashion boutique
-        ai-and-robotics:
-            - advanced ai research laboratory
-            - robotics and android assembly line
-            - ai-controlled automation center
-            - drone control room
-            - sentient robot design studio
-            - holographic ai communication nexus
-            - virtual reality simulation for ai training
-            - cybernetic animal companion lab
-            - android repair and maintenance shop
-            - ai art and creativity showcase
-        cyberspace-and-virtual worlds:
-            - immersive virtual reality hub
-            - cybernetic consciousness upload chamber
-            - virtual cyberspace bar and lounge
-            - hacking and data breach simulation room
-            - futuristic mmo gaming universe
-            - cybernetic astral projection deck
-            - virtual reality architectural visualization studio
-            - ai-generated dream world experience
-            - time-distorted virtual reality sandbox
-            - futuristic cyberspace dj club
-    rooms-magical:
-        living-spaces:
-            - enchanted forest cottage
-            - magical wizard's tower
-            - fairy glade sanctuary
-            - underwater mermaid grotto
-            - elven treehome haven
-            - dragon's lair retreat
-            - celestial starlit chamber
-            - timeless fairy tale castle
-            - mystical crystal cave dwelling
-            - unicorn meadow cottage
-        workspaces:
-            - sorcerer's alchemy lab
-            - enchanted book-filled study
-            - potion brewing chamber
-            - crystal ball divination room
-            - runes and sigils workshop
-            - magical artifact museum
-            - enchanting spellcasting room
-            - time-weaving chronomancer's den
-            - elven lore archive
-            - dragon oracle's lair
-        recreational:
-            - wizarding dueling arena
-            - enchanted enigma maze
-            - faerie dance and music hall
-            - mystical labyrinth of illusions
-            - unicorn riding adventure park
-            - magical creature menagerie
-            - sorcerer's dueling club
-            - time traveler's chrono fair
-            - celestial celebria carnival
-            - dragon racing circuit
-        security-and-surveillance:
-            - ancient guardian chamber
-            - spell-protected vault
-            - golem guarded sanctuary
-            - magical barrier control room
-            - phoenix flame defense station
-            - elven archers watchtower
-            - wyvern aerial surveillance nest
-            - enchanted mirror scrying room
-            - shielded charm warded fortress
-            - time-looped protective sanctum
-        healing-and-potions:
-            - healing springs sanctuary
-            - herbalist's apothecary
-            - healing crystal infirmary
-            - fairy healer's grove
-            - dragon's breath healing chamber
-            - potion mixing laboratory
-            - timeless fountain of rejuvenation
-            - celestial astral projection room
-            - unicorn tears elixir dispensary
-            - enchanted garden of restoration
-        transportation-and-portals:
-            - time-traveling portal room
-            - magic carpet hangar
-            - teleportation nexus
-            - dragon-drawn carriage garage
-            - celestial starship docking bay
-            - enchanted portal gateways
-            - fairy wings air terminal
-            - ancient rune-activated doorway
-            - unicorn-ride gateway arch
-            - time-warping pathway
-        artifacts-and-relics:
-            - hall of ancient artifacts
-            - crystal skull chamber
-            - timeless magical art gallery
-            - celestial reliquary
-            - enchanted totem shrine
-            - dragon hoard treasury
-            - faerie crown jewels vault
-            - mystical rune stones chamber
-            - unicorn horn collection room
-            - time-traveling trinket repository
-        guardians-and-companions:
-            - phoenix roost and aviary
-            - elven spirit animal grove
-            - dragon hatchery
-            - celestial sentinel shrine
-            - enchanted familiar's lair
-            - fairy court gathering place
-            - sorcerer's elemental chambers
-            - time-guardian chrono beasts' den
-            - unicorn herd sanctuary
-            - mystical guardian golems' chamber
-        celestial-observatories:
-            - cosmic stargazing terrace
-            - astral constellations dome
-            - planetary alignment observatory
-            - enchanted aurora observatory
-            - starship landing pad and dock
-            - celestial skywalking platform
-            - time-warp viewing deck
-            - comet chasing chamber
-            - moon and sun watching loft
-            - celestial navigation room
-        chambers-of-prophecy:
-            - oracle's hall of foresight
-            - crystal ball divination chamber
-            - time-scrolls archives
-            - celestial star maps room
-            - enchanted tarot reading parlor
-            - dragon divination lair
-            - astral projection chamber
-            - fairy fortune-telling nook
-            - sorcerer's destiny weaving chamber
-            - mystical time-loop library
-        feywild-gardens:
-            - enchanted blossom arboretum
-            - timeless enchanted labyrinth
-            - celestial moonlit garden
-            - dragon enclave courtyard
-            - fairy glow gardens
-            - mystical rainbow meadow
-            - starlight gazing glade
-            - sorcerer's elemental garden
+        cyberpunk:
+            living-spaces:
+                - neon-lit loft apartment
+                - tech-integrated smart home
+                - augmented reality entertainment room
+                - holographic virtual reality chamber
+                - cluttered hacker's hideout
+                - futuristic capsule hotel room
+                - vertically stacked living pods
+                - underground cyberpunk bunker
+                - floating skybox residence
+                - ultra-modern modular living unit
+            workspaces:
+                - cybernetic office space
+                - high-tech co-working hub
+                - virtual boardroom with holo-conferencing
+                - cyberdeck-controlled command center
+                - immersive vr design studio
+                - underground cybercrime den
+                - ai-driven r&d lab
+                - holographic projection mapping studio
+                - techno-alchemist's workshop
+                - neon-lit cyberpunk bar and club
+            recreational:
+                - vr gaming parlor
+                - neon arcade wonderland
+                - holographic nightclub
+                - futuristic cyber spa retreat
+                - holodeck-style simulation room
+                - hacking challenge arena
+                - cybernetic gym and training facility
+                - augmented reality escape room
+                - virtual racing simulator
+                - immersive cyberpunk theater
+            security-and-surveillance:
+                - futuristic cybersecurity operations center (soc)
+                - high-tech surveillance control room
+                - biometric access control chamber
+                - holographic retina scanner vault
+                - intrusion detection system hub
+                - ai-driven threat analysis chamber
+                - cyber defense war room
+                - drone command and control center
+                - secure data storage vault
+                - surveillance drone launch pad
+            medbay-and-cybernetics-lab:
+                - advanced cybernetics implant lab
+                - biopunk genetic enhancement facility
+                - futuristic prosthetics workshop
+                - nanotech medical treatment room
+                - cyberware repair and maintenance center
+                - neural implant calibration chamber
+                - biometric health monitoring lab
+                - brain-computer interface testing room
+                - virtual reality therapy space
+                - cybernetic enhancements showroom
+            cybernetics-and-augmentation:
+                - cyberware modification lab
+                - neural interface calibration room
+                - bionic limb manufacturing facility
+                - cybernetic enhancement clinic
+                - virtual reality neural training chamber
+                - nanotech implant injection suite
+                - augmented reality calibration room
+                - cybernetic prosthetics showroom
+                - holographic augmentation visualization chamber
+                - brain-computer interface testing lab
+            darknet-and-underground:
+                - cybercrime hideout and server farm
+                - virtual black market trading hub
+                - illegal tech and weapon manufacturing lab
+                - secret resistance headquarters
+                - underground vr gaming arena
+                - discreet holographic projection club
+                - rogue ai hackers den
+                - vr fight club and arena
+                - cryptocurrency laundering facility
+                - stealthy spy network operations center
+            cyberpunk-street-scene:
+                - neon-lit night market
+                - hovering vehicle repair garage
+                - cybernetics street clinic
+                - futuristic food cart alley
+                - holographic graffiti art gallery
+                - underground cyberpunk bar
+                - virtual reality arcade
+                - bionic body modding studio
+                - high-tech cyber street food truck
+                - augmented reality fashion boutique
+            ai-and-robotics:
+                - advanced ai research laboratory
+                - robotics and android assembly line
+                - ai-controlled automation center
+                - drone control room
+                - sentient robot design studio
+                - holographic ai communication nexus
+                - virtual reality simulation for ai training
+                - cybernetic animal companion lab
+                - android repair and maintenance shop
+                - ai art and creativity showcase
+            cyberspace-and-virtual worlds:
+                - immersive virtual reality hub
+                - cybernetic consciousness upload chamber
+                - virtual cyberspace bar and lounge
+                - hacking and data breach simulation room
+                - futuristic mmo gaming universe
+                - cybernetic astral projection deck
+                - virtual reality architectural visualization studio
+                - ai-generated dream world experience
+                - time-distorted virtual reality sandbox
+                - futuristic cyberspace dj club
+        fictional:
+            magical-spaces:
+                - enchanted room
+                - wizard's chamber
+                - fairy grotto
+                - potion brewing room
+                - library of magical tomes
+            mystical-spaces:
+                - oracle's chamber
+                - sacred temple
+                - time traveler's nexus
+                - astral projection room
+                - room of prophecies
+            fantasy-spaces:
+                - dragon's lair
+                - elven pavilion
+                - dwarf's forge
+                - mermaid's underwater retreat
+                - goblin's hideout
+            sci-fi-spaces:
+                - spaceship cockpit
+                - holodeck simulation room
+                - teleporter room
+                - cyberspace virtual room
+                - alien observation chamber
+            adventure-spaces:
+                - treasure room
+                - secret passage
+                - hidden temple
+                - pirate's den
+                - lost city's crypt
+            steampunk-spaces:
+                - steampunk workshop
+                - airship control room
+                - clockwork mechanism room
+                - brass and gears observatory
+                - victorian inventor's study
+            haunted-spaces:
+                - haunted attic
+                - creepy cellar
+                - ghostly ballroom
+                - spooky library
+                - cursed chamber
+            futuristic-spaces:
+                - high-tech control center
+                - holographic entertainment room
+                - nanotechnology lab
+                - artificial intelligence hub
+                - solar-powered energy room
+
+        magical:
+            living-spaces:
+                - enchanted forest cottage
+                - magical wizard's tower
+                - fairy glade sanctuary
+                - underwater mermaid grotto
+                - elven treehome haven
+                - dragon's lair retreat
+                - celestial starlit chamber
+                - timeless fairy tale castle
+                - mystical crystal cave dwelling
+                - unicorn meadow cottage
+            workspaces:
+                - sorcerer's alchemy lab
+                - enchanted book-filled study
+                - potion brewing chamber
+                - crystal ball divination room
+                - runes and sigils workshop
+                - magical artifact museum
+                - enchanting spellcasting room
+                - time-weaving chronomancer's den
+                - elven lore archive
+                - dragon oracle's lair
+            recreational:
+                - wizarding dueling arena
+                - enchanted enigma maze
+                - faerie dance and music hall
+                - mystical labyrinth of illusions
+                - unicorn riding adventure park
+                - magical creature menagerie
+                - sorcerer's dueling club
+                - time traveler's chrono fair
+                - celestial celebria carnival
+                - dragon racing circuit
+            security-and-surveillance:
+                - ancient guardian chamber
+                - spell-protected vault
+                - golem guarded sanctuary
+                - magical barrier control room
+                - phoenix flame defense station
+                - elven archers watchtower
+                - wyvern aerial surveillance nest
+                - enchanted mirror scrying room
+                - shielded charm warded fortress
+                - time-looped protective sanctum
+            healing-and-potions:
+                - healing springs sanctuary
+                - herbalist's apothecary
+                - healing crystal infirmary
+                - fairy healer's grove
+                - dragon's breath healing chamber
+                - potion mixing laboratory
+                - timeless fountain of rejuvenation
+                - celestial astral projection room
+                - unicorn tears elixir dispensary
+                - enchanted garden of restoration
+            transportation-and-portals:
+                - time-traveling portal room
+                - magic carpet hangar
+                - teleportation nexus
+                - dragon-drawn carriage garage
+                - celestial starship docking bay
+                - enchanted portal gateways
+                - fairy wings air terminal
+                - ancient rune-activated doorway
+                - unicorn-ride gateway arch
+                - time-warping pathway
+            artifacts-and-relics:
+                - hall of ancient artifacts
+                - crystal skull chamber
+                - timeless magical art gallery
+                - celestial reliquary
+                - enchanted totem shrine
+                - dragon hoard treasury
+                - faerie crown jewels vault
+                - mystical rune stones chamber
+                - unicorn horn collection room
+                - time-traveling trinket repository
+            guardians-and-companions:
+                - phoenix roost and aviary
+                - elven spirit animal grove
+                - dragon hatchery
+                - celestial sentinel shrine
+                - enchanted familiar's lair
+                - fairy court gathering place
+                - sorcerer's elemental chambers
+                - time-guardian chrono beasts' den
+                - unicorn herd sanctuary
+                - mystical guardian golems' chamber
+            celestial-observatories:
+                - cosmic stargazing terrace
+                - astral constellations dome
+                - planetary alignment observatory
+                - enchanted aurora observatory
+                - starship landing pad and dock
+                - celestial skywalking platform
+                - time-warp viewing deck
+                - comet chasing chamber
+                - moon and sun watching loft
+                - celestial navigation room
+            chambers-of-prophecy:
+                - oracle's hall of foresight
+                - crystal ball divination chamber
+                - time-scrolls archives
+                - celestial star maps room
+                - enchanted tarot reading parlor
+                - dragon divination lair
+                - astral projection chamber
+                - fairy fortune-telling nook
+                - sorcerer's destiny weaving chamber
+                - mystical time-loop library
+            feywild-gardens:
+                - enchanted blossom arboretum
+                - timeless enchanted labyrinth
+                - celestial moonlit garden
+                - dragon enclave courtyard
+                - fairy glow gardens
+                - mystical rainbow meadow
+                - starlight gazing glade
+                - sorcerer's elemental garden
+        regular:
+            service-spaces:
+                - kitchen
+                - bathroom
+                - laundry room
+                - pantry (in kitchen or separate)
+                - mudroom
+                - walk-in closet
+            entertainment-leisure-spaces:
+                - dining room
+                - family room
+                - game/entertainment room
+                - home theater
+                - music room/studio
+                - gym/exercise room
+                - library/reading room
+            utility-spaces:
+                - garage
+                - basement
+                - attic
+                - storage room
+                - workshop/tool room
+                - server/utility room
+            common-spaces:
+                - hallway/corridor
+                - staircase
+                - balcony/patio
+                - porch/veranda
+                - sunroom
+            public-spaces:
+                - conference room
+                - reception/lobby
+                - restroom/washroom (public or private)
+            living-spaces:
+                - living room
+                - bedroom
+                - guest room
+                - children's room/nursery
+                - master suite
+            work-spaces:
+                - study/office
+                - home office
+                - co-working space
+                - artist's studio
+            commercial-spaces:
+                - retail space
+                - showroom
+                - restaurant dining area
+                - bar/lounge area
+                - hotel room
+            educational-spaces:
+                - classroom
+                - lecture hall
+                - laboratory
+                - library
+            healthcare-spaces:
+                - hospital patient room
+                - examination room
+                - operating room
+                - waiting room
+            recreational-spaces:
+                - swimming pool area
+                - sauna/spa room
+                - game room/playroom
+                - indoor play area
+            community-spaces:
+                - community hall
+                - clubhouse
+                - meeting room
+            transit-spaces:
+                - waiting area
+                - ticket counter
+            outdoor-spaces:
+                - courtyard
+                - garden
+                - terrace
+                - patio
+                - roof deck
+
+        scifi:
+            living-spaces:
+                - futuristic space apartment
+                - ai-controlled smart home
+                - zero-gravity living module
+                - holographic entertainment room
+                - holodeck virtual reality chamber
+                - biosphere living quarters
+                - time dilation sleep pod
+                - cryogenic stasis chamber
+                - alien bioluminescent habitat
+                - interstellar traveler's cabin
+            workspaces:
+                - space station command center
+                - high-tech research laboratory
+                - holographic conference room
+                - virtual collaboration hub
+                - ai-controlled workstation
+                - cybernetic augmentation lab
+                - zero-gravity manufacturing facility
+                - teleportation prototype lab
+                - nanotechnology research chamber
+                - galactic explorer's bridge
+            recreational:
+                - vr gaming arena
+                - zero-gravity trampoline park
+                - interstellar nightclub
+                - holosuite amusement park
+                - anti-gravity sports arena
+                - alien art and culture gallery
+                - intergalactic spa retreat
+                - time-travel themed escape room
+                - virtual reality concert hall
+                - space simulator and training center
+            security-and-surveillance:
+                - space station security hub
+                - biometric identification vault
+                - force field control center
+                - holographic surveillance room
+                - quantum encryption chamber
+                - invisibility shield control room
+                - galactic prison facility
+                - alien intrusion detection center
+                - hyper-advanced defense bunker
+                - time-loop secured archive
+            medbay-and-bioengineering-lab:
+                - advanced regenerative medical bay
+                - genetic engineering facility
+                - cybernetic prosthetics workshop
+                - nanobot infirmary
+                - alien biotechnology research lab
+                - neuroenhancement chamber
+                - telemedicine teleportation center
+                - virtual reality healing retreat
+                - bio-printed organ production lab
+                - robotic surgery theater
+            alien-encounters:
+                - extraterrestrial embassy
+                - alien diplomatic meeting room
+                - intergalactic communication center
+                - alien artifact exhibition hall
+                - interspecies cultural exchange zone
+                - galactic peace negotiation chamber
+                - alien linguistics and translation lab
+                - alien abduction research chamber
+                - galactic council assembly room
+                - alien species genetic study lab
+            astrobiology-and-xenobiology:
+                - xenobotany research greenhouse
+                - alien microbial study lab
+                - astroecology research habitat
+                - exobiology and alien anatomy lab
+                - alien wildlife observation deck
+                - galactic specimen collection room
+                - extraterrestrial geology lab
+                - xenophysiognomy and non-humanoid studies lab
+                - alien planet simulation chamber
+                - alien astrozoology exhibit
+            interstellar-travel:
+                - spaceship bridge and command center
+                - hyperdrive engine room
+                - cryogenic stasis chamber
+                - warp core reactor facility
+                - wormhole navigation control room
+                - zero-gravity g-force simulation chamber
+                - intergalactic navigation observatory
+                - alien technology-infused propulsion lab
+                - wormhole entry and exit point hangar
+                - subspace communications array
+            exoplanetary-exploration:
+                - exoplanet discovery and observation center
+                - alien ruins archaeology dig site
+                - robotic planetary exploration rover hangar
+                - advanced terrain mapping and analysis lab
+                - exotic climate simulation chamber
+                - alien flora and fauna study enclosure
+                - celestial phenomenon observation deck
+                - alien civilization artifacts exhibit
+                - exoplanetary weather and storm prediction room
+                - microgravity geological excavation site
+            space-colony-and-habitat:
+                - space colony command and control center
+                - habitat engineering and life support room
+                - hydroponics and food production facility
+                - intra-stellar power generation chamber
+                - zero-gravity recreation and exercise area
+                - astronaut training and simulation hub
+                - extraterrestrial defense perimeter control
+                - space colony communal living quarters
+                - orbital viewing and stargazing lounge
+                - space colony medical bay and quarantine
+
     interior-design:
         furniture:
             - bed
