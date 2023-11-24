@@ -79,10 +79,10 @@ bo:
                 bocloths:
                     - __bo/chars/char-regular/male/modern__,  {__bo/clothings/random-fullbody__|__bo/clothings/random-combination__}
             div:
-                - male __bo/chars/female/*__
-                - female __bo/chars/male/*__
+                - male __bo/chars/char-regular/female/*__
+                - female __bo/chars/char-regular/male/*__
             random:
-                - "{__bo/chars/*male/*__|0.1::_bo/chars/div__}"
+                - "{__bo/chars/char-regular/*male/*__|0.1::__bo/chars/char-regular/div__}"
 
 # __bo/chars/char-cyberpunk/random__
         char-cyberpunk:
@@ -202,7 +202,7 @@ bo:
 
 # more char prompts
         class-profession-regular:
-            - "{male|female} __characters/species/*__, {__characters/professions/*/*__,|}{__characters/classes/*__|}"
+            - "{male|female} __characters/beings/*__, {__characters/professions/*/*__,|}{__characters/classes/*__|}"
         class-profession-weapon:
             - __bo/chars/class-profession-regular__, __characters/weapons/*__
         class-profession-itemslots:
