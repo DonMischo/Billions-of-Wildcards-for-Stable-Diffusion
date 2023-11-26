@@ -1,7 +1,7 @@
 bo:
     atmosphere:
         random:
-            - {1-6$$__atmosphere/*__}
+            - {1-10$$__atmosphere/*__}
     audio:
         album-cover:
             - >
@@ -326,12 +326,16 @@ bo:
               {__astronomy/celestial-bodies__|__astronomy/spacecrafts__|__astronomy/relations__|__astronomy/celestial-anything__},
               __astronomy/relations__, __phenomena/astronomy/abstract__, __phenomena/astronomy/natural__
     creative:
-        myprompt:
+        random-combinations:
             - >
-              hyper detailed masterpiece, dynamic realistic digital art, awesome quality, {2-5$$__bo/creative/random__},
-              __bo/styles/random-ambient-effect__,{1-3$$__bo/styles/random-atmosphere__},__habitats/*__,__phenomena/*/*__
-        random:
-            - __creative/*__
+              {0.8::__atmosphere/*__|__lighting/*__|__astronomy/relations__|__properties/colors/*__} 
+              {0.8::__habitats/places/*__|__astronomy/cele*__}, 
+#        myprompt:
+            # - >
+            #  hyper detailed masterpiece, dynamic realistic digital art, awesome quality, {2-5$$__bo/creative/random__},
+            #  __bo/styles/random-ambient-effect__,{1-3$$__bo/styles/random-atmosphere__},__habitats/*__,__phenomena/*/*__
+#        random:
+#            - __creative/*__
     creatures:
         animalfusion:
             - fusion of {2-5$$__creatures/species/*__}
@@ -349,7 +353,7 @@ bo:
     habitats:
         random:
             - __habitats/types__ __habitats/housing__ in __habitats/biomes__ biome
-            - __habitats/places*__    in __habitats/biomes__ biome
+            - __habitats/places/*__    in __habitats/biomes__ biome
     halloween:
         random-anything:
             - >
@@ -961,6 +965,15 @@ atmosphere:
         - sheltered
         - ecosystem
         - earthy fragrance
+        - boreal
+        - coniferous
+        - deciduous
+        - evergreen
+        - rainforest
+        - subtropical
+        - temperate
+        - tropical
+
     ghostly:
         - apparitional
         - chilling
@@ -2581,6 +2594,22 @@ books:
         - self-help
         - travel
         - children's literature
+    grimoires:
+        - "The Key of Solomon"
+        - "The Lesser Key of Solomon"
+        - "The Book of Abramelin"
+        - "The Greater Key of Solomon"
+        - "The Picatrix"
+        - "The Magus"
+        - "The Book of Enoch"
+        - "The Necronomicon"
+        - "The Sixth and Seventh Books of Moses"
+        - "The Book of Shadows"
+        - "The Black Pullet"
+        - "The Grand Grimoire"
+        - "The Sworn Book of Honorius"
+        - "The Sacred Magic of Abramelin the Mage"
+
     illustration:
         - collage
         - digital art
@@ -11452,1797 +11481,6 @@ creatures:
         - icarus wings (enchanted wings made from wax and feathers)
         - gargoyle wings
         - mechanical wings made of gears and cogs and clockwork
-creative:
-    prefix:
-    abandoned
-aberrant
-abstract
-abstruse
-abyss
-abyssal
-acrid
-aesthetic
-alcove
-alien
-alternate
-ambiguous
-anachronistic
-ancestral
-ancient
-anomalous
-apex
-apocalyptic
-apocalyptical
-apparitional
-aquatic
-arcadia
-arcadian
-arcane
-archipelago
-ardent
-artificial
-artisan's
-astral
-asylum
-atelier
-august
-aurora
-baffling
-baleful
-bamboo grove
-baneful
-baronial
-barren
-bastion
-bazaar
-bedlam
-bewildering
-bewitched
-beyond
-beyond the boundary
-bibliophile's
-binary
-bioluminescent
-bittersweet
-bizarre
-blackened
-blaring
-blazing
-bleak
-blissful
-blossoming
-blue
-boggy
-boisterous
-bone chilling
-bottomless
-boundless
-bridge
-brilliant
-briny
-broken
-buried
-cacophonic
-cadaverous
-calm
-camouflaged
-canyon
-cascade
-catastrophic
-cave
-cavern
-celestial
-celestial archipelago
-centaur
-chaotic
-charmed
-charred
-chilling
-chromatic
-chthonic
-cimmerian
-circuit
-citadel
-clamorous
-clandestine
-clanging
-clangorous
-clashing
-clattering
-cloaked
-coastal
-code
-codex
-collapsing
-collective
-committed
-computer generated
-concealed
-conclave
-conflagration
-constructed
-contaminated
-conundrum
-corrosive
-cosmic
-covered
-covert
-cradle
-creaking
-created
-creative
-creepy
-crossroads
-crucible
-cryptic
-crystal
-cursed
-cyber
-cybernetic
-cyclopean
-damaging
-damp
-dampened
-dancing
-dangerous
-dark
-darkened
-datastream
-dazzling
-deadly
-deathly
-dedicated
-deep blue
-deleterious
-demonic
-dense
-desert
-desolate
-desperate
-destructive
-devastating
-diabolical
-digital
-dignified
-dimensional
-dimming
-dire
-direful
-disappearing
-discordant
-discovered
-disembodied
-disintegrating
-disquieting
-disruptive
-dissolving
-dissonant
-distant
-divine
-domain
-draconic
-dracorealm
-dragon
-draped
-dreadful
-dreamland
-dreamlike
-dreamscape
-dreamscapes
-dreary
-drenched
-drifting
-dug up
-dusk's
-dusky
-dying
-ebon
-eccentric
-echo
-echo chamber
-echoes of
-echoing
-echoing canyons
-echoing caves
-eclectic
-eclipsed
-ecliptic
-ectoplasmic
-eden
-eerie
-effervescent
-eldritch
-electric
-electro
-elegy
-elevated
-elfin
-elusive
-elysian
-elysium
-ember
-emotional
-empathetic
-empty
-empyrean
-enchanted
-enchanting
-encyclopedia
-endless
-engineered
-enigma
-enigmatic
-enshrouded
-enthusiastic
-enveloping
-ephemeral
-ephemeral meadow
-erebus
-escheresque
-esoteric
-eternal
-ether
-ethereal
-eventide
-excavated
-exoplanetary
-expanse
-expansive
-exposed
-expressive
-extracted
-extragalactic
-extreme
-fabled
-fabricated
-fading
-fairy
-fairyland
-fairytale
-fanatic
-fanged
-fantasia
-fantastical
-fantasy
-far out
-fateful
-fearful
-fen
-fervent
-fetid
-fiery
-fireforge
-firestorm
-firewall
-fixated
-fjord
-flame emblazoned
-flame kissed
-flare fueled
-flickering
-floating
-fluid
-forbidden
-foreboding
-forest
-forgotten
-forsaken
-fortress
-fragmented
-frenzied
-frightful
-frontier
-furnace
-gaia
-galactic
-garden
-gardens
-gehennan
-gentle
-ghastly
-ghostly
-ghoulery
-ghoulish
-gleaming
-glistening
-gloomy
-glorious
-gnome
-golden
-gothic
-grand
-grandiose
-gravity defying
-grim
-grisly
-grove
-gruesome
-hades
-hades'
-halcyon
-hallucinations
-harbor
-harmful
-harmonic
-harmony
-harrowing
-harsh
-haunted
-haunting
-haven
-hazardous
-hazy
-heavenly
-hellfire
-hellish
-hidden
-hollow
-holographic
-hushed
-hyperdimensional
-hyperspace
-iceberg
-idyllic
-illusionary
-illusive
-illusory
-illustrious
-imaginative
-immoderate
-imperial
-impossible
-incandescent
-incendiary
-inception like
-infernal
-infinite
-infinity pool
-infinity vault
-injurious
-inscrutable
-inspirational
-intense
-interdimensional
-intergalactic
-interplanetary
-interstellar
-intransigent
-invisible
-irradiated
-isolated
-jangling
-jarring
-kaleidoscopic
-kingly
-labyrinth
-lament
-lamentation
-lamenting
-lava forged
-lava soaked
-leprechaun
-lethal
-levitating
-lifeless
-liquid
-literary
-living
-lonesome
-lost
-lucid
-luminescent
-luminous
-lunar
-lurking
-lush
-lustrous
-macabre
-machine made
-mad
-magical
-magnificent
-majestic
-malefic
-maleficent
-malevolent
-malignant
-man made
-maniacal
-manic
-manufactured
-manuscript
-marine
-maritime
-marsh
-marshy
-masked
-matrix
-meadow
-meeting
-melodic
-melting
-menacing
-mermaid
-mesmerizing
-metamorphic
-metaphorical
-miasmic
-midnight
-mind blowing
-miraculous
-mirage
-mirage filled
-mirror
-misty
-molten
-monarchical
-monomaniacal
-monstrous
-moonlit
-moonshadow
-morbid
-morphing
-mosaic
-mossy
-mountain
-mournful
-muddy
-muffled
-multiversal
-murky
-murmuring
-mysterious
-mystic
-mystical
-mythic
-mythical
-nameless
-nautical
-nebula
-nebulae
-nebulaic
-nebulous
-nefarious
-neon
-netherworld
-nexus
-nightfall
-nightmarish
-nightshade
-noble
-nocturnal
-nocturne
-nocuous
-noisy
-non euclidean
-nonsensical
-nostalgic
-noxious
-nymph
-oasis
-obscure
-obscured
-observatory
-obsessive
-obsidian
-ocean floor
-oceanic
-ominous
-oozing
-open ocean
-open water
-opened
-opulent
-oracle
-other dimensional
-otherdimensional
-otherworld
-otherworldly
-outlandish
-outpost
-overgrown
-overzealous
-pandemonium
-panorama
-pantheon
-pantomime
-papyrus
-paradigm plaza
-paradisiacal
-paradiso
-parallel
-paranormal
-passage
-passionate
-pavilion
-peaceful
-peculiar
-peninsula
-perplexing
-pestilent
-petrifying
-phantasmagoria
-phantasmal
-phantom
-phosphorescent
-pinnacle
-pious
-pixelated
-pixie lit
-placid
-plateau
-poet's
-poetic
-poisoned
-polluted
-predictable
-prismatic
-prodigy
-prodigy pavilion
-psychic
-pungent
-putrid
-puzzle laden
-puzzling
-pyro
-pyroclasmic
-quagmire
-quantum
-quasar
-quicksand
-quietude
-quill
-quixotic
-racketous
-radiant
-radiant core
-radical
-radicalized
-radioactive
-rainbow
-rainbow bridge
-raucous
-reading
-reality bending
-reflective
-regal
-repository
-reservoir
-resonant
-resplendent
-restless
-revealed
-reverberating
-rhythmic
-riddle laden
-river
-roaring
-rowdy
-royal
-ruined
-ruinous
-saltwater
-sanctuary
-sapphire
-saturated
-scaffold
-scalding
-scaled
-scholar's
-scintillating
-scorching
-screened
-scriptorium
-scrolls
-sculpted
-sea
-seabed
-seafaring
-seafloor
-seafront
-searing
-seaside
-secreted
-secretive
-sentient
-seraphic
-serene
-serenity
-serpent
-shadow
-shadowed
-shadowplay
-shadowy
-shape shifting
-shattered
-shifting
-shimmering
-shining
-shivering
-shrouded
-silent
-simulacrum
-simulated
-single minded
-sinister
-sinuous
-soggy
-solar
-solitary
-somber
-sonic
-soothing
-sorcerer's
-sovereign
-sparkling
-spectral
-spellbound
-spine chilling
-spine tingling
-spiral staircase
-spires
-splendid
-spongy
-spooky
-squelchy
-starlit
-starry
-stately
-stealthy
-stellar
-storybook
-strange
-strident
-stygian
-subaquatic
-subdued
-sublime
-submerged
-subterranean
-subtle
-sulfurous
-sullen
-summit
-supernatural
-supreme
-surreal
-swampy
-symbolic
-symphony
-synaptic
-synthetic
-talebound
-talking
-tangle
-tapestry
-tartarean
-tears
-technicolor
-techno
-technological
-telekinetic
-telepathic
-teleportation
-tenacious
-tenebrous
-terrible
-terrifying
-thicket
-thought
-thought provoking
-thunderclaw
-tidal
-tidal wave
-time
-time travel
-time traveling
-timeless
-tome
-torrid
-tranquil
-tranquility
-transcendent
-translucent
-treetop canopy
-tumultuous
-tundra
-turbulent
-twilight
-twilight terrace
-twisted
-umbral
-unattainable
-uncanny
-uncharted
-uncovered
-underwater
-undone
-undulating
-unearthed
-unearthly
-unexpected
-unexplained
-unexplored
-unfathomable
-unfinished
-unharmonious
-unhealthy
-unheard
-unholy
-unicorn
-unknown
-unmasked
-unnerving
-unperceived
-unpleasant
-unraveling
-unruly
-unseen
-unsettling
-unshakeable
-unspeakable
-unspoken
-unveiled
-unwholesome
-unworldly
-unwritten
-unyielding
-uproarious
-utopia
-utopian
-vacant
-vague
-valley
-vanishing
-vast
-vault
-veil
-veiled
-velvet
-vengeful
-venomous
-vibrant
-vile
-virtual
-virulent
-visual
-vivid
-voided
-volcanic
-volcano
-vortex
-wetland
-whimsical
-whirling
-whirlpool
-whispered
-whispering
-wicked
-winged
-wisdom
-wisps of
-wistful
-withering
-wizard's
-wonder warp
-wonderland
-wondrous
-wretched
-wyrm
-zeal driven
-zealotical
-zealous
-zen garden
-zenith
-suffix:
-abyss
-abyssal shadows
-act
-actions
-address
-adherents
-advocates
-aerie
-aesthetic
-aesthetics
-affair
-agony
-alchemy
-alcove
-allure
-altar
-ambiance
-anguish
-animals
-annexe
-announcements
-anomalies
-anomaly
-apparatus
-apparition
-apparitions
-aquascape
-aquatic realm
-arboretum
-arcadia
-archipelago
-architecture
-archives
-area
-arena
-arenas
-array
-art
-artifact
-artistry
-ascent
-asylum
-atelier
-atmosphere
-atoll
-aura
-auras
-aurora borealis
-avatar
-backdrops
-badlands
-ball
-ballad
-ballet
-bane
-banquet
-banter
-barrens
-barriers
-basin
-beacon
-beauty
-being
-believers
-bliss
-blue
-bluff
-bog
-books
-breeze
-brilliance
-brushstrokes
-burial
-burrows
-butterfly bog
-butterfly valleys
-cadence
-calm
-candlelight
-canopy
-cantata
-canvascanvas
-canvases
-canyon
-carnival
-cascade
-cascades
-castle
-castles
-cataclysm
-catacomb
-catacombs
-cathedrals
-caverns
-celestial
-celestial chalice
-celestial gardens
-cemetery
-ceremony
-chalice chasm
-chambers
-chaos
-characters
-chasm
-chills
-chorus
-chromatic elegance
-cipher
-citadel
-cities
-city
-clamorous
-clocks
-clockwork cities
-clouds
-cloudscapes
-cluster
-code
-color schemes
-colors
-communication
-communion
-concealed
-concepts
-concerto
-conclave
-conflagration
-confluence
-constellation
-constellations
-construct
-contrivance
-conversation
-copse
-coral reefs
-corner
-corners
-corridor
-corridors
-cosmic
-cosmos
-court
-courtyard
-cove
-cradle
-creation
-creativity
-crescendo
-crest
-crusaders
-crypt
-cryptic
-crypts
-crystal caves
-dale
-dalliance
-damnation
-dance
-dark
-darkness
-death
-debauchery
-delight
-deluge
-dens
-depths
-desert
-deserts
-desolation
-despair
-despondent
-devotees
-dialogue
-dimensions
-dirge
-disciples
-discordant
-discourse
-district
-ditty
-divergence
-divine
-domain
-dominion
-doppelgänger
-dreams
-dreamscape
-dreamscapes
-duet
-dystopia
-echo
-echo chambers
-echoes
-eclipse
-eclipses
-ecliptic
-eden
-edifice
-effervescent elysium
-effulgence
-eldorados
-eldritch escarpment
-elegance
-elegant
-elegy
-element
-elemental echoes
-elemental elevation
-elevation
-elevations
-elf enclave
-elf enclave
-elms
-elocution
-eloquence
-elven enclave
-emanations
-embers
-embrace
-emotions
-enchantment
-enclave
-enclaves
-end
-enigma
-enlightenment
-enthusiasts
-entity
-environment
-eon
-epic
-epitaph
-equator
-escape
-escarpment
-essence
-estuary
-eternity
-ethereal
-euphoria
-euphoria expanse
-everglade
-existence
-expanse
-experiences
-exploration
-exposition
-expression
-expressive
-extraterrestrial
-extremists
-eyrie
-facade
-facsimile
-falls
-fanatics
-fantasy
-fathomless
-fauna
-fiefs
-fields
-fields of harmony
-figures
-fjord
-flame gardens
-flames
-flash
-flatlands
-floating islands of serenity
-floorboards
-fluid
-fog
-fogs
-followers
-folly
-font
-foothills
-footprints
-footsteps
-forces
-forefront
-forest
-forests
-forests of whimsy
-fountains
-frontier
-frontiers
-furniture
-fury
-fusion
-futures
-fête
-gala
-galactic
-galaxy
-garden
-gardens
-gateway
-gathering
-geometries
-glades
-gleam
-glens
-glinting
-gloom
-glow
-goals
-gorge
-grandeur
-graves
-graveyard
-graveyards
-grief
-grotto
-grove
-habitat
-halls
-halls of mirrors
-hallucinations
-hallways
-halo
-harmony
-haunting
-haven
-havens
-havoc
-hearse
-heartache
-heights
-hellscape
-hidden
-hinterlands
-hollow
-hopes
-horizon
-horizons
-horrors
-hues
-hymn
-ice palaces
-idea
-idealists
-illumination
-illusion
-illusion isle
-illusionary coral reefs
-illusions
-imagery
-images
-imagination
-imitation
-impression
-impressions
-inanimate objects
-inferno
-infusion
-initiates
-inlet
-inner
-inspiration
-insurgents
-intelligence
-intensity
-islands
-islands of serenity
-isle
-isles
-islet
-isolation
-isthmus
-jamboree
-kaleidoscope
-knoll
-labyrinth
-labyrinths
-laced whispering woods
-lagoon
-lair
-lairs
-lament
-land
-landscape
-landscapes
-layers
-level
-lexicon
-libraries
-light
-like presence
-lit pastures
-locale
-longing
-loops
-lotus ponds
-lounge
-loved ones
-lullaby
-luminance
-luminescence
-luminous
-lunar
-luster
-macabre
-maelstrom
-maelstrom meadow
-maelstroms
-magnificence
-majestic
-majesty
-mansion
-manticore mountain
-maritime scene
-marsh
-marshland
-marvels
-masquerade
-masterpiece
-matrix
-mausoleum
-maze
-mazes
-meadow
-meadows
-meanings
-melancholy
-melodic
-melodies
-melody
-memories
-menagerie
-menagerie mound
-meridian mound
-mermaid mirage
-mermaid's lagoon
-mesa
-mesmerizing
-microcosm
-midnight
-militants
-mind
-minimalist
-mirage
-mirage filled deserts
-mirrors
-mirthful meadow
-missionaries
-mist
-mists
-misty mountains
-mix
-moans
-moats
-modality
-modulation
-moments
-monody
-monolith
-monoliths
-monologue
-monomaniacs
-montage
-moonbase
-moonlight
-moons
-moors
-morgue
-morphing sand dunes
-motif
-motion
-mound
-mountains
-mountainscapes
-mourning
-murk
-murmurations
-murmurs
-muse
-music
-musing
-musings
-mysteries
-mysterious
-mystical
-mystique
-narration
-narrative
-narratives
-nationalists
-natter
-nebula
-nebulae
-nebular
-necropolis
-nefarious
-neon
-netherworld
-network
-news
-nexus
-night
-nightfall
-nobility
-nocturne
-noise
-nook
-nooks
-notation
-notes
-notions
-novel
-nucleus
-nuptials
-nymph niche
-oases
-oasis
-obituary
-objects
-oblivion
-obscure
-obscurity
-observatory
-obsessives
-obsidian
-occultation
-ocean
-ocean view
-ocean vista
-oceans
-odyssey
-of adaptability
-of ages
-of ambition
-of artistry
-of aspiration
-of aspirations
-of awe
-of challenges
-of change
-of choices
-of clarity
-of complexity
-of concepts
-of connection
-of connections
-of contemplation
-of creativity
-of curiosity
-of decision
-of destiny
-of discovery
-of doubt
-of dreams
-of echoes
-of emotions
-of enlightenment
-of epiphanies
-of epiphany
-of experience
-of exploration
-of fantasia
-of fulfillment
-of genesis
-of growth
-of harmony
-of ideas
-of ideation
-of illusions
-of imagination
-of innovation
-of insight
-of insights
-of introspection
-of invention
-of legacy
-of occasion
-of opportunities
-of originality
-of passion
-of pavilion
-of perception
-of perspective
-of perspectives
-of possibilities
-of potential
-of progress
-of realization
-of reflection
-of regret
-of resilience
-of revelation
-of revelations
-of serenity
-of silence
-of solitude
-of sorrow
-of synthesis
-of the moon
-of thought
-of thoughts
-of tranquility
-of transformation
-of transition
-of twilight
-of uncertainty
-of understanding
-of vision
-of visionaries
-of visions
-of wisdom
-of zeal
-ominous
-onslaught
-opulence
-opus
-oracle
-oration
-oratory
-orchard
-orchestral
-ossuary
-otherworldly
-outbreak
-outdoors
-outlook
-outskirts
-overzealots
-pageant
-pagoda
-paintings
-palace
-palette
-pandemonium
-panorama
-panoramas
-paradigm
-paradise
-partisans
-partita
-party
-passion
-pastel
-pastures
-path
-paths
-pavilion
-peace
-peak
-peaks
-perch
-perdition
-perspective
-phantasmagoria
-phases
-phenomena
-phenomenon
-physics
-pines
-pinnacle
-pixels
-pixie plateau
-plains
-planet
-plateau
-plateaus
-play
-plaza
-plotlines
-poetic
-poignant
-portal
-portals
-prelude
-presence
-proselytizers
-psychedelic
-pulsations
-purists
-quagmire
-quantum
-quarters
-quasar
-quest
-quietude
-radiance
-radiant
-radicals
-rainbow
-rainbow ridge
-ramparts
-rapture
-ravage
-ravine
-realities
-reality
-realm
-realms
-reflection
-reflections
-refrain
-refrains
-refuge
-regret
-reminiscence
-replica
-replication
-representation
-reproduction
-resonance
-respite
-retreat
-reverberating
-reverie
-revolutionaries
-riddles
-ridge
-riff
-rift
-right
-rings
-ripples
-rise
-river
-rondo
-roses
-ruins
-sacred
-sadness
-sanctuaries
-sanctuary
-sanctum
-sanctums
-sand dunes
-sands
-scaled
-scape
-scapes
-scenarios
-scene
-scenery
-scenic
-screams
-sculpture
-sea
-seamless transitions
-seascape
-seashore
-seaside
-sectarians
-sepulcher
-serenade
-serene
-serenity
-sermon
-setting
-settings
-shades
-shadow
-shadows
-shape shifting
-shimmer
-shimmering
-shine
-shining
-shores
-show
-showcase
-shrine
-shroud
-shrouded
-sighs
-silence
-silent
-silhouette
-silhouettes
-simulacrum
-simulation
-sinister
-skies
-sky
-skyline
-sobs
-soiree
-soirée
-solace
-soliloquy
-solitude
-sonic
-sorcerer's sanctums
-sorcery
-sorrow
-sorrows
-soul
-souls
-sound
-soundscape
-space
-spark
-sparkle
-spectacle
-spectra
-spectrum
-speech
-spheres
-spire
-spires
-spirit
-splendor
-springs
-sprite springs
-square
-stack
-stacks
-staircases
-starborne
-starfields
-starlight
-starlight stream
-starlight pools
-starlight stream
-starlit
-starlit sanctuary
-starlit sanctuary
-stars
-static
-statues
-sterling
-stirs
-stories
-storm
-stormy
-story
-storybook sanctuaries
-storytelling
-stratosphere
-stream
-stronghold
-structures
-sublimation
-sublime
-sublimity
-subtle
-summit
-sunbeam
-sunlight
-sunset
-sunsets
-surreal forests of whimsy
-surrogate
-surroundings
-swamp
-swamps
-symbolism
-symbols
-symphony
-symposium
-synthesis
-séance
-tale
-talk
-tapestry
-teaparty
-techno
-technology
-telekinesis
-tempest
-temple
-temples
-terrace
-terrain
-terrarium
-territories
-territory
-theme
-things
-thoughts
-threads
-thunderclaw
-tidal
-time
-time travel
-timeless clockwork cities
-tomb
-tombs
-tone
-torment
-torrent
-torture
-tower
-tranquil
-tranquility
-transformations
-transition
-transitions
-transmutation
-trees
-treetops
-true believers
-tumultuous
-tundra
-tundras
-tunnel
-turmoil
-twilight
-twisted
-twists
-two
-ultimate
-ultraists
-ultranationalists
-unattainable goals
-uncharted
-undergrowth
-undertaking
-undertone
-underwater realms
-underworld
-unearth
-unearthly
-unexplored
-unfold
-unfurls
-unholy
-unicorn upland
-unicorn utopia
-union
-unique
-unity
-universe
-universes
-unknown
-unraveling
-unseen
-unspoken
-unstable
-unsteadiness
-unveil
-upheaval
-uplands
-uplifting
-uprising
-utopia
-utopian
-utopias
-utterance
-vacancy
-vale
-valley
-valleys
-vanishing paths
-vantage
-veil
-veiled
-verbiage
-view
-vigil
-vignettes
-visages
-vista
-vistas
-voices
-void
-vortex
-voyage
-walk
-waltz
-wander
-warps
-wasteland
-wastelands
-waterfall
-waterfalls
-waters
-waterscape
-wave scene
-waves
-way
-wetland
-whimsical woods
-whimsy
-whisper
-whispering
-whispering woods
-whispering deserts
-whispers
-white
-wilderness
-willow woods
-wind
-wing
-wings
-wonder
-wonderland
-wonders
-woods
-wordplay
-words
-world
-worlds
-wraithwalk
-wrath
-wyrm
-yearning
-zealots
-zelots
-zenith
-zephyr
-zone
-zones
 
 habitats:
     biomes:
@@ -13402,64 +11640,649 @@ habitats:
         - empyrean essence
         - thicket of thought
     places:
-        - atlantis
-        - valhalla
-        - coruscant
-        - camelot
-        - shangri-la
-        - el dorado
-        - middle-earth
-        - hogwarts
-        - rivendell
-        - gotham city
-        - metropolis
-        - wakanda
-        - neverland
-        - narnia
-        - asgard
-        - mount olympus
-        - minas tirith
-        - diagon alley
-        - mordor
-        - oz
-        - gondor
-        - thebes
-        - tír na nóg
-        - king's landing
-        - winterfell
-        - themyscira
-        - arrakis
-        - riviera
-        - rapture
-        - columbia
-    places-moers:
-        - the nocturnal academy
-        - the mugg memorial library
-        - the great forest of zamonia
-        - the city of atlantis
-        - the un-forrest
-        - the enchanted dominion
-        - wolperting
-        - hel
-        - gourmet isles
-        - skullop
-        - bookholm
-        - the catacombs of dreaming books
-        - the great library
-        - the chamber of supernostalgics
-        - shadowhouse
-        - malaisea
-        - malaiseaberg
-        - chalcedony
-        - crat
-        - blast furnace square
-        - bookholm
-        - old ab's bookstore
-        - the book eaters' catacomb
-        - the castle of dreaming books
-        - lindworm castle
-        - bookholm
-        - bookholm station
+        cave:
+            - abyss
+            - cavern
+            - chasm
+            - crevice
+            - grotto
+            - hollow
+            - passage
+            - pit
+            - subterrane
+            - tunnel
+
+        civil:
+            - administration center
+            - city hall
+            - courthouse
+            - cultural center
+            - government office
+            - library
+            - municipal mansion
+            - parliament palace
+            - public plaza
+            - town square
+            - urban institute
+
+        craft:
+            - artisan's workshop
+            - forge
+            - laboratory
+            - studio
+            - workshop
+            - crafting hall
+            - atelier
+            - foundry
+            - smithy
+            - alchemy lab
+            - enchanting chamber
+            - tinkering station
+            - sculptor's studio
+            - pottery studio
+            - carpenter's workshop
+            - weaver's loom
+            - jeweler's bench
+            - glassblower's studio
+            - loom
+            - textile workshop
+            - leatherworker's shop
+            - metalworking shop
+            - woodworking shop
+            - potion brewery
+            - candle maker's studio
+            - papermaking studio
+            - bookbinder's workshop
+            - culinary kitchen
+            - confectionery
+            - brewery
+            - distillery
+            - winery
+            - tailor's workshop
+            - armory
+            - ammunition workshop
+            - bowyer's shop
+            - arrow fletchery
+            - blacksmith's forge
+            - armor crafting station
+            - weapon crafting station
+            - engraving studio
+            - calligraphy studio
+            - pottery kiln
+            - glass furnace
+        crater:
+            - depression
+            - hollow
+            - cavity
+            - pit
+            - indentation
+            - basin
+            - bowl
+            - concavity
+            - dent
+            - pothole
+            - hole
+            - well
+            - trench
+            - trough
+            - gap
+            - void
+            - crater
+            - caldera
+            - abyss
+            - chasm
+            - ravine
+            - gorge
+            - cleft
+            - fissure
+            - crevice
+            - rift
+            - split
+            - crack
+
+        desert:
+            - dunes
+            - oasis
+            - aridness
+            - wasteland
+            - barrens
+            - mirage
+            - wilderness
+            - sands
+            - dryness
+            - solitude
+        dreamscapes:
+            - reverie
+            - fantasy
+            - utopia
+            - phantasmagoria
+            - mirage
+
+        energy:
+            - generator
+            - powerhouse
+            - reactor
+            - turbine
+            - energy center
+            - power station
+            - electrical grid
+            - solar farm
+            - wind farm
+            - geothermal plant
+
+        film:
+          - coruscant
+          - middle-earth
+          - hogwarts
+          - rivendell
+          - gotham city
+          - metropolis
+          - wakanda
+          - mordor
+          - oz
+          - gondor
+          - diagon alley
+          - arrakis
+          - riviera
+          - rapture
+          - columbia
+
+        forest:
+            - arboretum
+            - copse
+            - grove
+            - jungle
+            - orchard
+            - thicket
+            - timberland
+            - woodland
+
+        hellish:
+            - abyssal
+            - gehennan
+            - hades
+            - hades'
+            - tartarean
+            - stygian
+            - netherworld
+            - infernal
+            - abyss
+            - chasm
+            - pit
+            - brimstone
+            - lava
+            - underworld
+            - cavern
+            - abyssal plain
+            - inferno
+            - purgatory
+            - fiery pit
+            - sulfurous expanse
+
+        horizon:
+            - view
+            - scene
+            - stretch
+            - outlook
+            - prospect
+            - panorama
+            - landscape
+            - point
+            - horizon
+            - distance
+            - expanse
+            - stretch
+            - perspective
+
+        lovecraft:
+            - arkham
+            - dunwich
+            - innsmouth
+            - miskatonic university
+            - r'lyeh
+            - shadow over innsmouth
+            - yuggoth
+            - plateaus of leng
+            - shub-niggurath
+            - the dreamlands
+            - the underdark
+        learn-study:
+            - library
+            - academy
+            - school
+            - university
+            - study hall
+            - observatory
+            - research institute
+            - laboratory
+            - lecture hall
+            - reading room
+            - scholar's chamber
+            - educational center
+            - training facility
+            - scriptorium
+            - archive
+            - knowledge repository
+            - meditation retreat
+            - philosopher's enclave
+            - think tank
+            - wisdom keep
+            - oracle's chamber
+            - astronomical observatory
+            - alchemy study
+            - magical academy
+            - botanical garden
+            - historical archive
+            - language school
+            - music academy
+            - art studio
+            - coding dojo
+            - technology institute
+            - innovation hub
+            - neuroscience lab
+            - mathematics center
+            - philosophy forum
+            - debating society
+            - cultural center
+            - heritage museum
+            - virtual reality learning center
+        magnificent:
+            - cathedral
+            - castle
+            - citadel
+            - grand palace
+            - great hall
+            - mansion
+            - palace
+            - temple
+            - tower
+
+        military:
+            - armory
+            - barracks
+            - base
+            - command center
+            - fortress
+            - garrison
+            - naval base
+            - outpost
+            - training ground
+            - war room
+
+        mindscapes:
+            - dreamscape
+            - nightmarescape
+            - thoughtscape
+            - memoryscape
+            - emotionscape
+            - imaginingscape
+            - subconscious
+            - consciousness
+            - illusionscape
+            - realms of the mind
+            - introspectionscape
+
+        moers:
+            - the nocturnal academy
+            - the mugg memorial library
+            - the great forest of zamonia
+            - the city of atlantis
+            - the un-forrest
+            - the enchanted dominion
+            - wolperting
+            - hel
+            - gourmet isles
+            - skullop
+            - bookholm
+            - the catacombs of dreaming books
+            - the great library
+            - the chamber of supernostalgics
+            - shadowhouse
+            - malaisea
+            - malaiseaberg
+            - chalcedony
+            - crat
+            - blast furnace square
+            - bookholm
+            - old ab's bookstore
+            - the book eaters' catacomb
+            - the castle of dreaming books
+            - lindworm castle
+            - bookholm
+            - bookholm station
+
+        mountain:
+            - alp
+            - elevation
+            - mount
+            - peak
+            - summit
+            - tor
+            - upland
+            - zenith
+
+        overlooking:
+            - bastion
+            - celestial archipelago
+            - cliff
+            - cloud
+            - mountain
+            - overlook
+            - peak
+            - plateau
+            - promontory
+            - spire
+            - summit
+            - terrace
+            - treetop canopy
+            - zenith
+
+
+        paradise:
+            - elysian fields
+            - neverland
+            - paradisiacal
+            - paradiso
+            - utopia
+            - shangri-la
+            - eden
+            - celestial archipelago
+            - eden
+            - elysium
+            - arcadia
+            - nirvana
+            - shangri-la
+            - heavenly realm
+            - euphoric landscape
+            - paradise
+        portal:
+            - access
+            - aperture
+            - avenue
+            - breach
+            - connection
+            - doorway
+            - door
+            - egress
+            - entrance
+            - exit
+            - gap
+            - gateway
+            - gate
+            - hatch
+            - hole
+            - ingress
+            - link
+            - opening
+            - orifice
+            - passage
+            - portal
+            - threshold
+            - vent
+            - way
+
+        prison:
+            - cellblock
+            - dungeon
+            - gaol
+            - jail
+            - penitentiary
+            - stockade
+        realm:
+            - area
+            - arena
+            - cosmos
+            - demesne
+            - dimension
+            - domain
+            - dominion
+            - empire
+            - environment
+            - expanse
+            - field
+            - habitat
+            - jurisdiction
+            - kingdom
+            - land
+            - orbit
+            - plane
+            - precinct
+            - province
+            - realm
+            - region
+            - sector
+            - sphere
+            - terrain
+            - territory
+            - universe
+            - world
+            - zone
+        relaxing:
+            - spa
+            - retreat
+            - sanctuary
+
+        religion:
+          - atlantis
+          - valhalla
+          - shangri-la
+          - el dorado
+          - neverland
+          - narnia
+          - asgard
+          - mount olympus
+          - minas tirith
+          - thebes
+          - tír na nóg
+          - king's landing
+          - winterfell
+          - themyscira
+
+        rooms:
+            - __constructions/rooms/*/*__
+            - __constructions/types/*/*__
+        ruling:
+            - bastion
+            - castle
+            - citadel
+            - court
+            - fortress
+            - keep
+            - palace
+            - stronghold
+            - throne room
+        sanctuary:
+            - haven
+            - refuge
+            - asylum
+            - shelter
+            - hideaway
+            - safe haven
+            - retreat
+            - oasis
+            - sanctum
+            - peaceful place
+            - secure spot
+            - solace
+            - tranquility
+        space-constructions:
+            - space station
+            - orbital platform
+            - lunar base
+            - asteroid colony
+            - starship
+            - interstellar gateway
+            - space elevator
+            - terraforming station
+            - deep space outpost
+            - habitation ring
+        space-scapes:
+            - nebula
+            - galaxy
+            - starfield
+            - asteroid_belt
+            - celestial_body
+            - cosmic_void
+            - comet
+            - black_hole
+            - wormhole
+            - supernova
+        surrounding:
+            - ambiance
+            - atmosphere
+            - backdrop
+            - conditions
+            - context
+            - domain
+            - ecosystem
+            - elements
+            - environment
+            - habitat
+            - landscape
+            - locale
+            - milieu
+            - neighborhood
+            - precinct
+            - realm
+            - scene
+            - setting
+            - situation
+            - sphere
+            - surroundings
+            - terrain
+            - vicinity
+
+        swamp:
+            - bayou
+            - bog
+            - fen
+            - marsh
+            - morass
+            - mire
+            - quagmire
+            - slough
+            - sump
+            - wetland
+        toxic:
+            - contamination
+            - hazard
+            - peril
+            - poison
+            - pollution
+            - risk
+            - threat
+        trading places:
+            - agora
+            - bazaar
+            - emporium
+            - exchange
+            - fair
+            - market
+            - marketplace
+            - mart
+            - plaza
+            - square
+            - trading post
+            - auction hall
+            - barter square
+            - commerce corner
+            - currency court
+            - exchange enclave
+            - market square
+            - merchant meadow
+            - trade territory
+
+        underground:
+            - catacombs
+            - cavern
+            - subterranean city
+            - cave system
+            - underground river
+            - bunker
+            - mining tunnel
+            - secret lair
+            - hidden chamber
+            - magma chamber
+            - underworld
+            - buried ruins
+            - tunnel network
+            - sewer system
+            - abyssal depths
+            - chasm
+            - abyss
+            - vault
+            - crypt
+            - dungeon
+            - subway station
+            - mole people's enclave
+            - subterranean reservoir
+            - magma forge
+            - abandoned mine
+            - underground market
+            - secret passage
+            - covert hideout
+            - resistance headquarters
+        water:
+            - abyssal
+            - bank
+            - beach
+            - beachfront
+            - brink
+            - coast
+            - coastal
+            - coastland
+            - deep
+            - littoral
+            - marine
+            - oceanic
+            - open ocean
+            - open water
+            - reef
+            - riverbank
+            - sandbar
+            - seabed
+            - seafloor
+            - seafront
+            - seashore
+            - seaside
+            - shore
+            - shoreline
+            - strand
+            - submerged
+            - subaquatic
+            - subterranean
+            - tidal wave
+            - underground
+            - underbelly
+            - undercurrent
+            - undergrowth
+            - underpass
+            - underside
+            - undershadow
+            - undersurface
+            - underwater
+            - undersea
+            - undertow
+            - verge
+            - waterfront
+        waterbodies:
+            - brook
+            - cove
+            - estuary
+            - fjord
+            - gulf
+            - lake
+            - lagoon
+            - pond
+            - reservoir
+            - river
+            - sea
+            - strait
+            - stream
+            - tributary
+            - waterfall
+            - waterway
+
     types:
         - village
         - town
@@ -13524,6 +12347,7 @@ habitats:
         - fantastic folly
         - wonderland whimsy
         - nonsensical netherworld
+    
 halloween:
     artstyles:
         - gothic
