@@ -1,0 +1,30 @@
+ 
+  - area
+  - arena
+  - cosmos
+  - demesne
+  - dimension
+  - domain
+  - dominion
+  - empire
+  - environment
+  - expanse
+  - field
+  - habitat
+  - jurisdiction
+  - kingdom
+  - land
+  - orbit
+  - plane
+  - precinct
+  - province
+  - realm
+  - region
+  - sector
+  - sphere
+  - terrain
+  - territory
+  - universe
+  - world
+  - zone
+realm_words:
