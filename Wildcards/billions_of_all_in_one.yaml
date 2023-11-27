@@ -1,9 +1,6 @@
 bo:
-    atmosphere:
-        random:
-            - >
-              {1-10$$__atmosphere/*__}
     audio:
+        # __bo/audio/*__
         album-cover:
             - >
               __audio/genre/*__ album cover, __audio/albumcover/mainimage__, __audio/albumcover/titletext__,
@@ -13,10 +10,14 @@ bo:
               __audio/music/*__, {1-2$$__audio/sound/*__|__audio/melody/*__|__audio/notes/*__|__audio/notation/*__},
               __audio/genre/*__
     books:
+        # __bo/books/random__
         random:
             - >
               {__books/genres__|__books/fictional-types__|__books/book-sizes__ book}, {0.1::__books/typography__, __books/printing-techniques__,|0.1::__books/illustration__,|} {__books/bookbinding-styles__,|} __books/book-covers__, __properties/materials-books/materials__,    {__books/places-books__|__books/book-accessories__|}
     chars:
+        # __bo/chars/random__
+        # __bo/chars/char-*/random__
+        # __bo/chars/class-*__
         char-cyberpunk:
             div:
                 - female __bo/chars/char-cyberpunk/male/*__
@@ -163,6 +164,7 @@ bo:
             - __bo/chars/char-*/random__
             - __bo/chars/class-*__
     christmas:
+        # __bo/christmas/random__
         random:
             - >
               __christmas/artstyles__, {__christmas/characters__|__christmas/christmas-carol__},
@@ -170,6 +172,7 @@ bo:
               {1-3$$__christmas/atmosphere__},
               __christmas/lightings__, {__christmas/scapes__|__christmas/scenes__|__christmas/traditions__|}
     clothings:
+        # __bo/clothings/random*__ or any subset like __bo/clothings/random-combination__
         random-accesoires:
             cyberpunk:
                 - >
@@ -242,6 +245,9 @@ bo:
               __styles/clothing/dress-length__, __styles/clothing/waistlines__,
               __bo/clothings/random-extras__
     constructions:
+        # __bo/constructions/random*__
+        # __bo/constructions/buildings/*__
+        # __bo/constructions/rooms/*__
         buildings:
             cyberpunk:
                 - >
@@ -284,7 +290,7 @@ bo:
         random:
             - '{__bo/constructions/rooms/*__|__bo/constructions/buildings/*__}'
         random-building:
-            - __bo/constructions/buildings*__
+            - __bo/constructions/buildings/*__
         random-cyberpunk:
             - '{__bo/constructions/buildings/cyberpunk__|__bo/constructions/buildings/cyberpunk__}'
         random-fictional:
@@ -327,23 +333,44 @@ bo:
               {__astronomy/celestial-bodies__|__astronomy/spacecrafts__|__astronomy/relations__|__astronomy/celestial-anything__},
               __astronomy/relations__, __phenomena/astronomy/abstract__, __phenomena/astronomy/natural__
     creative:
-        random-combinations:
+        # __bo/creative/random-atmosphere__
+        # __bo/creative/random-elements__
+        # __bo/creative/random-scapes__
+        # __bo/creative/myprompt__
+        random-atmosphere:
             - >
-              {0.8::__atmosphere/*__|__magical/types/*__|__lighting/*__|
+              {1-10$$__atmosphere/*__}
+        random-elements:
+            - >
+              __properties/colors/*__ __atmosphere/elemental__ __atmosphere/elements__ {__chemistry/gems__|__chemistry/minerals__}
+        random-scapes:
+            - >
+              {0.7::__atmosphere/*__|0.3::{__bo/creative/random-elements_|__magical/types/*__|__lighting/*__|
               __astronomy/relations__|__properties/colors/*__|__matter/*__|
               __properties/materials*/*__|__properties/paint/*__|__properties/patterns/*__|
               __properties/shape/*__|__properties/size/*__|__properties/textures/*__|
-              __properties/Visual/*__|__styles-architectural/*__}
-              {0.8::__habitats/places/*__|__astronomy/cele*__},
+              __properties/Visual/*__|__styles-architectural/*__}}
+              {0.75::__habitats/places/*__|0.5::__astronomy/cele*__|0.05::__habitats/wonderland__|
+              0.05::__habitats/types__|0.05::__habitats/metaphoric__|
+              0.05::__habitats/housing__},
         myprompt:
             - >
-              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,{1-5$$__bo/creative/random-combinations__},
+              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,{1-5$$__bo/creative/random-scapes__},
               __bo/styles/random-ambient-effect__,__phenomena/*/*__
-#        random:
-#            - __creative/*__
+
     creatures:
+        # __bo/creatures/animalfusion__
+        # __bo/creatures/dragons__
+        # __bo/creatures/random__
         animalfusion:
             - fusion of {2-5$$__creatures/species/*__}
+        dragons:
+            - >
+              a __atmosphere/elemental__ __atmosphere/elements__ __creatues/dragons/body-shape__ {__creatures/species/draconic__|__creatures/species/draconic-mh__ wyvern},
+              {__creatues/dragons/body-cover__ skin,|} {__creatues/dragons/features__,|} {__creatues/dragons/head-types__ head,|}
+              {__creatues/dragons/leg-length__ __creatues/dragons/leg-types__ legs,|}
+              {__creatues/dragons/wing-count__ __creatues/dragons/wing-types__ wings,|}
+              {__creatues/dragons/tail-types__ tails,|}
         random:
             - >
               __creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/look-feel__ __creatures/body-shapes__,
@@ -355,11 +382,14 @@ bo:
               # {__creatures/horns__,|} 
               # {__creatures/mouth-jaw__,|}
               {__properties/colors/*__,|__properties/patterns/unusual__,|}
+
     habitats:
+        # __bo/habitats/random__
         random:
             - __habitats/types__ __habitats/housing__ in __habitats/biomes__ biome
             - __habitats/places/*__    in __habitats/biomes__ biome
     halloween:
+        # __bo/halloween/random*__
         random-anything:
             - >
               __halloween/atmosphere__ __halloween/artstyles__ __halloween/costumes__ __halloween/places-sceneries__
@@ -378,6 +408,7 @@ bo:
               pumpkin carving, __halloween/pumpkin-carving/techniques__, __halloween/pumpkin-carving/styles__,
               __halloween/pumpkin-carving/expressions__
     jewelry:
+        # __bo/jewelry/random__
         random:
             - __jewelry/types__, __bo/jewelry/random-properties__
         random-properties:
@@ -392,6 +423,7 @@ bo:
               __properties/materials-jewelry/metal-type__, __jewelry/durability__,
               __jewelry/treatments__, __jewelry/rarity__, __jewelry/style__, __jewelry/age__, __jewelry/symbolism__
     machines:
+        # __bo/machines/random*__
         random:
             - >
               __machines/types/*__, {2-6$$__machines/parts/*__}, 
@@ -404,6 +436,7 @@ bo:
               {__properties/patterns/machines__}, 
               {__properties/textures/machines__}
     plants:
+        # __bo/plants/random*__
         random-plant:
             - >
               {__properties/size/plants__ __properties/colors/*__ __plants/growth-habit__ __properties/shape/plants__
@@ -424,11 +457,13 @@ bo:
               __mushrooms/volva__,|__mushrooms/pileus__,|__mushrooms/pores__,| __mushrooms/hymenium__,| __mushrooms/latex__ latex,|}
               {__properties/colors/*__ __mushrooms/stipe-base__,|} {__mushrooms/poisonous-properties__,|__mushrooms/medicinal-properties__,|} }
     psycho:
+        # __bo/pyscho/random__
         random:
             - >
               __brain-psychology/terms__, __brain-psychology/practices-fields__, __brain-psychology/concepts-phenomena__,
               __brain-psychology/neural-circuit-patterns__, {1-3$$__words/brain-psychology/*__}
     scenes:
+        # __bo/scenes/random*__
         random:
             - __scenes/settings/*__, {1-4$$__scenes/features*__}
         random-city:
@@ -437,11 +472,14 @@ bo:
         random-landscape:
             - __scenes/settings/landscapes__, {1-4$$__scenes/features*__}
     scifi:
+        # __bo/scifi/random__
         random:
             - __subtypes/scifi__ of __characters/beings/scifi__ , __characters/professions/scifi/*__
             - __words/scifi/verbs__ __words/scifi/adjectives__ __words/scifi/substantives__
             - '{3-7$$__scifi/computer/errors__|__scifi/atmosphere/*__}'
     styles:
+        # __bo/styles/random-anything__
+        # __bo/styles/random*__
         random-ambient-effect:
             - __styles/ambient-effects__
         random-animation-style:
@@ -496,6 +534,7 @@ bo:
         random-resolution:
             - __styles/resolutions__
     vehicles:
+        # __bo/vehicles/random*__
         random:
             - >
              {__vehicles/size__|} __vehicles/types/*__, {__vehicles/exterior-features__,|}
@@ -518,6 +557,27 @@ bo:
               {__properties/paint/vehicle__,|} {__properties/Textures/vehicles__,|}
 
 atmosphere:
+    abstract:
+        - aberrant
+        - ambiguous
+        - anachronistic
+        - artificial
+        - beyond
+        - beyond the boundary
+        - chaotic
+        - conundrum
+        - created
+        - cyber
+        - cylopean
+        - dimensional
+        - ephemeral
+        - escheresque
+        - ethereal
+        - extragalactic
+        - hallucinatory
+        - illusionary
+        - illusive
+        - infinity
     artistic:
         - innovative
         - imaginative
@@ -579,28 +639,81 @@ atmosphere:
         - reenergizing
         - innate
         - flourishing
+    caves:
+        - ancient
+        - cavernous
+        - cave paintings
+        - cool
+        - dark
+        - damp
+        - depth
+        - discovery
+        - eerie
+        - echoing
+        - enigmatic
+        - grotto
+        - hidden
+        - intriguing
+        - mysterious
+        - solitude
+        - spelunking
+        - stalactite-studded
+        - subterranean
+        - underground
+
+    celestial:
+        - aurora
+        - celestial
+        - moonlit
+        - moonshadow
+        - nebulaic
+        - stellar
+        - astral
+        - cosmic
+        - interdimensional
+        - intergalactic
+        - interplanetary
+        - interstellar
+        - otherdimensional
+        - otherworldly
+        - solar
+        - starry
+        - timeless
     colorful:
-        - colorful
-        - vivid
+        - active
+        - animated
+        - bustling
         - chromatic
+        - colorful
+        - dynamic
+        - ebullient
+        - effervescent
+        - energetic
+        - enthusiastic
+        - flamboyant
+        - glittering
+        - high-spirited
+        - iridescent
+        - jazzy
+        - kaleidoscopic
+        - lively
+        - lustrous
+        - mottled
         - multicolored
+        - opalescent
         - polychromatic
         - prismatic
-        - kaleidoscopic
-        - variegated
+        - pulsating
         - rainbow-colored
-        - technicolor
-        - iridescent
-        - vibrant
-        - flamboyant
-        - mottled
-        - psychedelic
-        - dappled
+        - radiant
+        - spirited
         - splashed
-        - lustrous
-        - opalescent
-        - glittering
-        - jazzy
+        - technicolor
+        - variegated
+        - vibrant
+        - vigorous
+        - vivid
+        - zestful
     cozy:
         - cozy
         - warm
@@ -652,27 +765,52 @@ atmosphere:
         - museums
         - cultural preservation
     dark:
+                - abyssal
+        - baleful
+        - blackened
+        - cadaverous
+        - cavernous
+        - chthonic
+        - cimmerian
+        - crepuscular
         - dark
-        - gloomy
+        - darkened
+        - dire
+        - direful
+        - dreary
         - dusky
         - eerie
-        - shadowy
-        - murky
-        - dim
-        - shady
-        - obscure
-        - tenebrous
-        - somber
-        - dreary
-        - cimmerian
-        - twilight
+        - eldritch
+        - foreboding
         - funereal
-        - stygian
-        - umbral
-        - crepuscular
-        - sombre
-        - penumbra
+        - gloomy
+        - gothic
+        - grim
+        - haunting
+        - infernal
+        - malevolent
+        - malign
+        - menacing
+        - morbid
+        - murky
+        - mysterious
+        - nocturnal
+        - obscure
+        - ominous
         - opaque
+        - penumbra
+        - shady
+        - shadowed
+        - shadowy
+        - sin
+        - sinister
+        - somber
+        - sombre
+        - stygian
+        - tenebrous
+        - threatening
+        - twilight
+        - umbral
     decaying:
         - deteriorating
         - decomposing
@@ -793,6 +931,45 @@ atmosphere:
         - wine pairing
         - farm-to-table
         - live music
+    dragon:
+        - abyssal
+        - airy
+        - ancient
+        - arcane
+        - astral
+        - celestial
+        - cosmic
+        - eldritch
+        - emerald
+        - ethereal
+        - fiery
+        - formidable
+        - frosty
+        - galactic
+        - infernal
+        - luminous
+        - majestic
+        - mythical
+        - nether
+        - obsidian
+        - onyx
+        - prismatic
+        - radiant
+        - resplendent
+        - ruby
+        - sapphire
+        - seraphic
+        - shadowy
+        - soaring
+        - solar
+        - sovereign
+        - stellar
+        - stormy
+        - thunderous
+        - twilight
+        - verdant
+        - volcanic
+
     dramatic:
         - dramatic
         - theatrical
@@ -824,6 +1001,65 @@ atmosphere:
         - two-sided
         - dualistic
         - yin and yang
+    elements:
+        - air
+        - arcane
+        - blood
+        - celestial
+        - chaos
+        - crystal
+        - darkness
+        - earth
+        - electricity
+        - fire
+        - force
+        - gravity
+        - holy
+        - ice
+        - illusion
+        - kinetic
+        - light
+        - lightning
+        - magma
+        - metal
+        - nature
+        - necrotic
+        - order
+        - plant
+        - poison
+        - psionic
+        - radiation
+        - radiant
+        - shadow
+        - sound
+        - spirit
+        - steam
+        - time
+        - void
+        - water
+        - wind
+
+    elemental:
+        - fireforge
+        - flamboyant
+        - frozen
+        - geothermal
+        - hydro
+        - infernal
+        - lava
+        - molten
+        - oceanic
+        - polar
+        - pyro
+        - pyroclasmic
+        - radiant
+        - sulfurous
+        - tempestuous
+        - tidal
+        - torrid
+        - turbulent
+        - underwater
+        - volatile
     emotional:
         - joyful
         - tense
@@ -898,17 +1134,32 @@ atmosphere:
         - nebulous
         - mystifying
         - astral
-    fanaticism:
-        - fanatic
-        - zealous
-        - extreme
-        - fervent
-        - radical
-        - obsessive
-        - intolerant
-        - dogmatic
-        - fundamentalist
+    fanatic:
         - blind
+        - cultish
+        - dedicated
+        - dogmatic
+        - extreme
+        - extremist
+        - fanatic
+        - fervent
+        - fixated
+        - frenzied
+        - intolerant
+        - mad
+        - manic
+        - maniacal
+        - monomaniacal
+        - obsessive
+        - radical
+        - radicalized
+        - single-minded
+        - tenacious
+        - unshakeable
+        - zeal-driven
+        - zealotical
+        - zealous
+
     festive:
         - festive
         - joyful
@@ -978,7 +1229,27 @@ atmosphere:
         - subtropical
         - temperate
         - tropical
-
+    futuristic:
+        - artificial
+        - computer-generated
+        - cyber
+        - cybernetic
+        - extragalactic
+        - holographic
+        - hyperdimensional
+        - futuristic
+        - robotic
+        - space-age
+        - technologic
+        - virtual
+        - cutting-edge
+        - innovative
+        - modern
+        - technological
+        - advanced
+        - contemporary
+        - spacefaring
+        - visionary
     ghostly:
         - apparitional
         - chilling
@@ -987,6 +1258,8 @@ atmosphere:
         - deathly
         - disembodied
         - eerie
+        - elusive
+        - enigmatic
         - ephemeral
         - ethereal
         - frightening
@@ -1022,6 +1295,7 @@ atmosphere:
         - whisplike
         - wispish
         - wraithlike
+
     gloomy:
         - somber
         - melancholy
@@ -1165,29 +1439,60 @@ atmosphere:
         - elemental
         - precious (in a symbolic sense)
         - aquatic
-        - h2o (chemical symbol)
+    mechanical:
+        - automated
+        - cybernetic
+        - industrial
+        - machinelike
+        - mechanical
+        - robotic
+        - steampunk
+        - automated
+        - computer-generated
+        - machinic
+        - technological
+        - automated
+        - computerized
+        - machinized
+        - mechanical
+        - robotic
+        - technological
+        - automated
+        - computer-controlled
+        - machinelike
     magical:
-        - magical
-        - enchanted
-        - mystical
-        - spellbinding
-        - whimsical
-        - mesmerizing
-        - otherworldly
-        - ethereal
-        - fairy-tale
         - bewitching
-        - fantastical
-        - supernatural
-        - wonderous
-        - enigmatic
-        - illusory
         - charmed
-        - miraculous
-        - wizardly
-        - sorcerous
-        - enigmatic
+        - elysian
+        - enchanted
+        - enchanting
         - enthralling
+        - ethereal
+        - fairy
+        - fairy-tale
+        - fantastical
+        - illusory
+        - magical
+        - mesmerizing
+        - miraculous
+        - mystical
+        - otherworldly
+        - paradisiacal
+        - spellbinding
+        - spellbound
+        - supernatural
+        - transcendental
+        - uncanny
+        - unearthly
+        - utopian
+        - whimsical
+        - wondrous
+        - wonderous
+        - sorcerous
+        - wizard's
+        - wizardly
+        - dreamlike
+
     majestic:
         - majestic
         - regal
@@ -1359,27 +1664,28 @@ atmosphere:
         - nebulous
         - clandestine
     mystical:
-        - mystical
+        - arcane
+        - bewitched
         - enchanted
-        - occult
+        - enchanting
         - esoteric
+        - ethereal
         - magical
-        - transcendent
-        - secretive
+        - mystic
         - mystifying
         - mysterious
-        - ethereal
-        - supernatural
-        - enigmatic
+        - occult
+        - otherworldly
         - sorcerous
-        - symbolic
-        - witching
-        - enchanted
-        - arcane
-        - uncanny
+        - spellbound
         - spiritual
-        - mystic
-        - haunting
+        - supernatural
+        - symbolic
+        - transcendent
+        - uncanny
+        - unearthly
+        - visionary
+        - witching
     natural:
         - tranquil
         - peaceful
@@ -1703,27 +2009,34 @@ atmosphere:
         - tarnished
         - patina
     serene:
-        - serene
-        - tranquil
-        - calm
-        - peaceful
-        - soothing
-        - gentle
-        - soft
-        - mellow
-        - subdued
-        - hushed
-        - tender
-        - placid
-        - quiet
-        - still
         - balmy
-        - serene
-        - mild
-        - ethereal
+        - calm
+        - composed
         - dreamy
+        - ethereal
+        - gentle
+        - halcyon
+        - harmonious
+        - hushed
+        - idyllic
+        - meditative
+        - mellow
+        - mild
+        - peaceful
+        - placid
         - pleasant
-        - halcyo
+        - quiet
+        - quietude
+        - relaxed
+        - restful
+        - serene
+        - soothing
+        - still
+        - soft
+        - subdued
+        - tender
+        - tranquil
+        - undisturbed
     shopping:
         - retail therapy
         - consumer experience
@@ -1792,87 +2105,66 @@ atmosphere:
         - discordant
         - parted
     surreal:
-        - surreal
-        - unreal
-        - dreamlike
-        - visionary
-        - hallucinatory
-        - unearthly
-        - fanciful
-        - unconventional
-        - fantasy-like
-        - illusory
-        - outlandish
+        - absurd
+        - alien
         - bizarre
-        - extraordinary
-        - unrealistic
-        - phantasmagorical
-        - grotesque
-        - abstract
-        - enigmatic
-        - fanciful
-        - whimsical
-        - otherworldly
+        - curious
         - dreamlike
-        - fantastical
-        - unearthly
-        - phantasmagoric
-        - bizarre
-        - supernatural
+        - eccentric
+        - enchanting
         - enigmatic
         - ethereal
-        - peculiar
-        - eccentric
-        - uncanny
-        - illusory
-        - mystical
-        - whimsical
-        - imaginary
-        - quixotic
-        - alien
-        - magical
-        - unconventional
-        - fanciful
-        - curious
-        - absurd
-        - mysterious
-        - surrealistic
-        - far-out
-        - outlandish
-        - dreamy
-        - unusual
-        - nonsensical
-        - nonrealistic
-        - unbelievable
-        - visionary
-        - kafkaesque
-        - extravagant
-        - psychedelic
-        - grotesque
-        - unworldly
-        - hallucinatory
-        - uncommon
-        - quizzical
-        - unthinkable
-        - inexplicable
-        - inconceivable
-        - mind-bending
-        - utopian
-        - mind-boggling
-        - fictional
+        - extraordinary
+        - extraterrestrial
         - fantastic
-        - whimsical
-        - mythical
-        - impossible
-        - enchanting
+        - fanciful
+        - far-out
+        - fictional
+        - fantastical
+        - fantasy-like
+        - grotesque
+        - hallucinatory
+        - illusory
+        - imaginary
         - incomprehensible
-        - unimaginable
-        - supernormal
-        - preposterous
-        - unfathomable
-        - unearthly
-        - unanticipated
+        - inconceivable
+        - inexplicable
+        - kafkaesque
+        - magical
+        - mind-bending
+        - mind-boggling
+        - mythical
+        - nonsensical
+        - otherworldly
         - out of this world
+        - outlandish
+        - peculiar
+        - phantasmagoric
+        - preposterous
+        - psychedelic
+        - quixotic
+        - quizzical
+        - strange
+        - supernatural
+        - supernormal
+        - surreal
+        - surrealistic
+        - unthinkable
+        - unanticipated
+        - uncanny
+        - uncommon
+        - unconventional
+        - unfathomable
+        - unbelievable
+        - unearthly
+        - unorthodox
+        - unreal
+        - unrealistic
+        - unusual
+        - utopian
+        - visionary
+        - weird
+        - whimsical
     synthetic:
         - synthetic
         - manufactured
@@ -1965,52 +2257,54 @@ atmosphere:
         - primitive
         - renaissance
     toxic:
-        - hazardous
-        - poisonous
+        - acrid
+        - allergenic
+        - biotoxic
+        - carcinogenic
+        - caustic
         - contaminated
         - corrosive
-        - harmful
-        - pollutant
-        - toxicant
-        - noxious
-        - dangerous
-        - irritant
-        - radioactive
-        - venomous
-        - lethal
-        - unhealthy
-        - caustic
-        - pesticidal
-        - carcinogenic
-        - flammable
-        - volatile
-        - explosive
-        - reactive
-        - harmful
-        - irritating
-        - allergenic
-        - mutagenic
-        - biotoxic
-        - pollutive
-        - oxidizing
-        - destructive
-        - acrid
-        - emanation
-        - fumigant
-        - leaching
-        - foul
-        - putrid
-        - repellent
-        - injurious
         - cytotoxic
-        - neurotoxic
-        - endocrine-disrupting
-        - hazardous waste
-        - synthetic
-        - petrochemical
+        - dangerous
+        - deadly
+        - destructive
+        - emanation
         - emission
-        - vaporized
+        - endocrine-disrupting
+        - explosive
+        - flammable
+        - foul
+        - fumigant
+        - harmful
+        - hazardous
+        - injurious
+        - irritating
+        - irritant
+        - leaching
+        - lethal
+        - malign
+        - mutagenic
+        - neurotoxic
+        - noisome
+        - noxious
+        - oxidizing
+        - pesticidal
+        - petrochemical
+        - poisonous
+        - pollutant
+        - polluted
+        - pollutive
+        - putrid
+        - radioactive
+        - reactive
+        - repellent
         - residue
+        - synthetic
+        - toxic
+        - toxicant
+        - unhealthy
+        - venomous
+        - virulent
         - waste byproduct
     uncomfortable:
         - oppressive
@@ -2052,7 +2346,6 @@ atmosphere:
         - contemporary
         - industrial
         - modern
-        - urban
         - neon-lit
         - graffiti
         - futuristic
@@ -2065,6 +2358,16 @@ atmosphere:
         - streetwise
         - hipster
         - chic
+        - bustling
+        - cultural
+        - electrifying
+        - lively
+        - metro
+        - panoramic
+        - skyline
+        - towering
+        - intersecting
+
     vr:
         - immersive
         - digital world
@@ -2090,6 +2393,18 @@ atmosphere:
         - embodied presence
         - sensory feedback
         - digital simulations
+    whimsical:
+        - whimsical
+        - fanciful
+        - playful
+        - capricious
+        - fantastical
+        - quirky
+        - amusing
+        - lighthearted
+        - comical
+        - humorous
+        - merry
     winding:
         - winding
         - twisting
@@ -2142,6 +2457,7 @@ atmosphere:
         - growth
         - balance
         - challenge
+
 
 astronomy:
     celestial-anything:
@@ -10735,6 +11051,133 @@ creatures:
         - visceral
         - webbed
         - woven
+    dragons:
+        body-cover:
+            - scales
+            - feathers
+            - fur
+            - skin
+            - hide
+            - carapace
+            - armor
+            - spines
+            - bones
+            - earth
+            - mud
+            - lava
+        body-shape:
+            - serpentine
+            - slender
+            - elongated
+            - robust
+            - streamlined
+            - stocky
+            - coiled
+            - bipedal
+            - quadrupedal
+            - wyrm-like
+            - snakelike
+            - arboreal
+            - celestial
+            - elemental
+            - drake-like
+            - multi-limbed
+        features:
+            - spikes
+            - horns
+            - fangs
+            - claws
+            - frills
+            - fins
+            - tendrils
+            - mane
+            - crest
+            - tail barb
+            - wing spines
+        head-types:
+            - horned
+            - crested
+            - multi-headed
+            - serpent-like
+            - bird-like
+            - reptilian
+            - insectoid
+            - wyrm-like
+            - snouted
+            - elongated
+            - crowned
+            - celestial
+            - skeletal
+            - bony
+        leg-types:
+            - clawed
+            - hoofed
+            - bird-like
+            - insectoid
+            - webbed
+            - digitigrade
+            - plantigrade
+            - spiked
+            - segmented
+            - slender
+            - muscular
+            - taloned
+        leg-lengths:
+            - no legs
+            - short
+            - medium
+            - long
+            - variable
+            - mismatched
+
+        tail-types:
+            - serpentine
+            - spiked
+            - forked
+            - clubbed
+            - barbed
+            - feathered
+            - finned
+            - prehensile
+            - coiled
+            - arrow-tipped
+            - rattle-tailed
+            - mace-tailed
+            - aquatic
+            - crystalline
+            - segmented
+            - bushy
+        wing-count:
+            - pair of
+            - two
+            - quadrupple of
+            - four
+            - sextet of
+            - six
+            - countless
+        wing-types:
+            - membranous
+            - feathered
+            - bat-like
+            - insectoid
+            - leathery
+            - skeletal
+            - angelic
+            - elemental
+            - celestial
+            - fiery
+            - icey
+            - rainbow
+            - crystal
+            - scaled
+            - veined
+            - translucent
+            - ruffled
+            - segmented
+            - ethereal
+            - misty
+            - iridescent
+
     ear-types:
         - pointed ears
         - rounded ears
@@ -10984,55 +11427,82 @@ creatures:
             - harpy eagle
             - kookaburra
         draconic:
-            - majestic dragon
-            - mystic serpent
-            - enigmatic wyrm
-            - formidable firedrake
-            - soaring serpent
-            - ancient drake
-            - celestial dragon
-            - cosmic wyvern
-            - luminous leviathan
-            - mythical dragon
-            - ethereal wyrm
-            - eclipsed dragon
-            - stellar serpent
-            - twilight drake
-            - obsidian wyvern
-            - radiant dragon
-            - infernal serpent
-            - abyssal wyrm
-            - thunderous dragon
-            - stormy serpent
-            - verdant drake
-            - earthbound wyvern
-            - aquatic dragon
-            - frosty serpent
-            - volcanic wyrm
-            - imperial drake
-            - sovereign wyvern
-            - seraphic dragon
-            - nether serpent
-            - resplendent drake
-            - void wyrm
-            - galactic dragon
-            - ethereal serpent
-            - mystic wyvern
-            - prismatic drake
-            - eldritch dragon
-            - astral serpent
-            - lunar wyrm
-            - solar drake
-            - shadowy dragon
-            - celestial serpent
-            - infernal wyvern
-            - arcane drake
-            - radiant wyrm
-            - sapphire dragon
-            - emerald serpent
-            - onyx wyvern
-            - ruby drake
-            - amber dragon
+            - Amphiptere
+            - Celestial Dragon
+            - Chinese Lung
+            - Coatl
+            - dragon
+            - Drake
+            - Elemental Dragon
+            - Firedrake
+            - Frost Dragon
+            - Hydra
+            - Imperial Dragon
+            - Lindworm
+            - Sea Serpent
+            - Serpent
+            - Shadow Dragon
+            - Stellar Dragon
+            - Wyrm
+            - Wyvern
+            - Yinglong
+        draconic-mh:
+            - Akantor
+            - Alatreon
+            - Barioth
+            - Barroth
+            - Basarios
+            - Brachydios
+            - Chameleos
+            - Deviljho
+            - Diablos
+            - Dalamadur
+            - Fatalis
+            - Gigginox
+            - Glavenus
+            - Gore Magala
+            - Gravios
+            - Great Jaggi
+            - Great Baggi
+            - Great Wroggi
+            - Gypceros
+            - Iodrome
+            - Jhen Mohran
+            - Khezu
+            - Kirin
+            - Kulu-Ya-Ku
+            - Kushala Daora
+            - Lagiacrus
+            - Lao-Shan Lung
+            - Lavasioth
+            - Legiana
+            - Ludroth
+            - Mizutsune
+            - Najarala
+            - Nargacuga
+            - Nerscylla
+            - Paolumu
+            - Plesioth
+            - Rajang
+            - Rathalos
+            - Rathian
+            - Royal Ludroth
+            - Rust Duramboros
+            - Seltas
+            - Seltas Queen
+            - Shagaru Magala
+            - Shen Gaoren
+            - Shogun Ceanataur
+            - Stygian Zinogre
+            - Teostra
+            - Tigrex
+            - Uragaan
+            - Valstrax
+            - Velkhana
+            - Volvidon
+            - Yian Garuga
+            - Yian Kut-Ku
+            - Zinogre
         fantastic:
             - ahuizotl
             - basilisk
