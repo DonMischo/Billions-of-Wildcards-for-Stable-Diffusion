@@ -1,7 +1,8 @@
 bo:
     atmosphere:
         random:
-            - {1-10$$__atmosphere/*__}
+            - >
+              {1-10$$__atmosphere/*__}
     audio:
         album-cover:
             - >
@@ -328,12 +329,16 @@ bo:
     creative:
         random-combinations:
             - >
-              {0.8::__atmosphere/*__|__lighting/*__|__astronomy/relations__|__properties/colors/*__} 
-              {0.8::__habitats/places/*__|__astronomy/cele*__}, 
-#        myprompt:
-            # - >
-            #  hyper detailed masterpiece, dynamic realistic digital art, awesome quality, {2-5$$__bo/creative/random__},
-            #  __bo/styles/random-ambient-effect__,{1-3$$__bo/styles/random-atmosphere__},__habitats/*__,__phenomena/*/*__
+              {0.8::__atmosphere/*__|__magical/types/*__|__lighting/*__|
+              __astronomy/relations__|__properties/colors/*__|__matter/*__|
+              __properties/materials*/*__|__properties/paint/*__|__properties/patterns/*__|
+              __properties/shape/*__|__properties/size/*__|__properties/textures/*__|
+              __properties/Visual/*__|__styles-architectural/*__}
+              {0.8::__habitats/places/*__|__astronomy/cele*__},
+        myprompt:
+            - >
+              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,{1-5$$__bo/creative/random-combinations__},
+              __bo/styles/random-ambient-effect__,__phenomena/*/*__
 #        random:
 #            - __creative/*__
     creatures:
@@ -14707,7 +14712,6 @@ machines:
         - android
         - cyborg
         - contrivance
-        - rube goldberg
         - rube goldberg device
 magical:
     elemental:
