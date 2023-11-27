@@ -41,16 +41,18 @@ bo:
                 scenery:
                     - __bo/chars/char-cyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
             random:
-                - '{__bo/chars/char-cyberpunk/*male/*__|0.1::__bo/chars/char-cyberpunk/div__},
-                __subtypes/cyberpunk__'
+                - >
+                  {__bo/chars/char-cyberpunk/*male/*__|0.1::__bo/chars/char-cyberpunk/div__},
+                  __subtypes/cyberpunk__
         char-magical:
             div:
                 - female __bo/chars/char-magical/male/*__
                 - male __bo/chars/char-magical/female/*__
             female:
                 boconstructions:
-                    - '{__bo/chars/char-magical/female/classic__|__bo/chars/char-magical/female/modern__},
-                    __bo/constructions/random-magical__'
+                    - >
+                      {__bo/chars/char-magical/female/classic__|__bo/chars/char-magical/female/modern__},
+                      __bo/constructions/random-magical__
                 classic:
                     - >
                       female __person/magical/female__    { wearing __clothings/magical/female-attire__
@@ -167,7 +169,7 @@ bo:
         # __bo/christmas/random__
         random:
             - >
-              __christmas/artstyles__, {__christmas/characters__|__christmas/christmas-carol__},
+              __christmas/artstyles__, {__christmas/characters__|__christmas/christmas-carol/*__},
               {1-5$$__christmas/decorations__|__christmas/food__|},
               {1-3$$__christmas/atmosphere__},
               __christmas/lightings__, {__christmas/scapes__|__christmas/scenes__|__christmas/traditions__|}
@@ -282,27 +284,35 @@ bo:
         lighting-outdoor:
             - '{1-2$$__constructions/light-sources-outdoor/*__}, {__lighting/constructions-outdoor__|__lighting/constructions-specialized__}'
         materials-indoor:
-            - '{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/flooring__|__properties/patterns/tapestry__
-            tapestry}'
+            - >
+              {1-3$$__properties/materials-construction/stones__|__properties/materials-construction/flooring__|__properties/patterns/tapestry__
+              tapestry}
         materials-outdoor:
-            - '{1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__
-            roof}'
+            - >
+              {1-3$$__properties/materials-construction/stones__|__properties/materials-construction/basic__|__properties/materials-construction/roofing__
+              roof}
         random:
-            - '{__bo/constructions/rooms/*__|__bo/constructions/buildings/*__}'
+            - >
+              {__bo/constructions/rooms/*__|__bo/constructions/buildings/*__}
         random-building:
             - __bo/constructions/buildings/*__
         random-cyberpunk:
-            - '{__bo/constructions/buildings/cyberpunk__|__bo/constructions/buildings/cyberpunk__}'
+            - >
+              {__bo/constructions/buildings/cyberpunk__|__bo/constructions/buildings/cyberpunk__}
         random-fictional:
-            - '{__bo/constructions/buildings/fictional__|__bo/constructions/buildings/fictional__}'
+            - >
+              {__bo/constructions/buildings/fictional__|__bo/constructions/buildings/fictional__}
         random-magical:
-            - '{__bo/constructions/buildings/magical__|__bo/constructions/buildings/magical__}'
+            - >
+              {__bo/constructions/buildings/magical__|__bo/constructions/buildings/magical__}
         random-regular:
-            - '{__bo/constructions/rooms/regular__|__bo/constructions/buildings/regular__}'
+            - >
+              {__bo/constructions/rooms/regular__|__bo/constructions/buildings/regular__}
         random-room:
             - __bo/constructions/rooms/*__
         random-scifi:
-            - '{__bo/constructions/buildings/scifi__|__bo/constructions/buildings/scifi__}'
+            - >
+              {__bo/constructions/buildings/scifi__|__bo/constructions/buildings/scifi__}
         rooms:
             cyberpunk:
                 - >
@@ -345,18 +355,18 @@ bo:
               __properties/colors/*__ __atmosphere/elemental__ __atmosphere/elements__ {__chemistry/gems__|__chemistry/minerals__}
         random-scapes:
             - >
-              {0.7::__atmosphere/*__|0.3::{__bo/creative/random-elements_|__magical/types/*__|__lighting/*__|
+              {0.7::__atmosphere/*__|0.3::{__bo/creative/random-elements__|__magical/types/*__|__lighting/*__|
               __astronomy/relations__|__properties/colors/*__|__matter/*__|
               __properties/materials*/*__|__properties/paint/*__|__properties/patterns/*__|
               __properties/shape/*__|__properties/size/*__|__properties/textures/*__|
               __properties/Visual/*__|__styles-architectural/*__}}
-              {0.75::__habitats/places/*__|0.5::__astronomy/cele*__|0.05::__habitats/wonderland__|
+              {0.75::__habitats/places/*__|0.05::__astronomy/cele*__|0.05::__habitats/wonderland__|
               0.05::__habitats/types__|0.05::__habitats/metaphoric__|
-              0.05::__habitats/housing__},
+              0.05::__habitats/housing__}
         myprompt:
             - >
-              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,{1-5$$__bo/creative/random-scapes__},
-              __bo/styles/random-ambient-effect__,__phenomena/*/*__
+              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,__bo/creative/random-scapes__,__bo/creative/random-scapes__,__bo/creative/random-scapes__
+              __bo/styles/random-ambient-effect__,__phenomena/*/*__, __bo/creative/random-atmosphere__
 
     creatures:
         # __bo/creatures/animalfusion__
@@ -366,11 +376,11 @@ bo:
             - fusion of {2-5$$__creatures/species/*__}
         dragons:
             - >
-              a __atmosphere/elemental__ __atmosphere/elements__ __creatues/dragons/body-shape__ {__creatures/species/draconic__|__creatures/species/draconic-mh__ wyvern},
-              {__creatues/dragons/body-cover__ skin,|} {__creatues/dragons/features__,|} {__creatues/dragons/head-types__ head,|}
-              {__creatues/dragons/leg-length__ __creatues/dragons/leg-types__ legs,|}
-              {__creatues/dragons/wing-count__ __creatues/dragons/wing-types__ wings,|}
-              {__creatues/dragons/tail-types__ tails,|}
+              a __atmosphere/elemental__ __atmosphere/elements__ __creatures/dragons/body-shape__ {0.8::__creatures/species/draconic__|0.2::__creatures/species/draconic-mh__ wyvern},
+              {__creatures/dragons/body-cover__ skin,|} {__creatures/dragons/features__,|} {__creatures/dragons/head-types__ head,|}
+              {__creatures/dragons/leg-length__ __creatures/dragons/leg-types__ legs,|}
+              {__creatures/dragons/wing-count__ __creatures/dragons/wing-types__ wings,|}
+              {__creatures/dragons/tail-types__ tails,|}
         random:
             - >
               __creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/look-feel__ __creatures/body-shapes__,
@@ -765,7 +775,7 @@ atmosphere:
         - museums
         - cultural preservation
     dark:
-                - abyssal
+        - abyssal
         - baleful
         - blackened
         - cadaverous
@@ -1440,26 +1450,43 @@ atmosphere:
         - precious (in a symbolic sense)
         - aquatic
     mechanical:
-        - automated
-        - cybernetic
-        - industrial
-        - machinelike
-        - mechanical
-        - robotic
-        - steampunk
-        - automated
-        - computer-generated
-        - machinic
-        - technological
-        - automated
-        - computerized
-        - machinized
-        - mechanical
-        - robotic
-        - technological
+        - assembly line
         - automated
         - computer-controlled
+        - computer-generated
+        - computerized
+        - controlled
+        - efficient
+        - engineered
+        - factory
+        - functional
+        - gearbox
+        - gears
+        - gear-driven
+        - gritty
+        - hydraulics
+        - industrial
+        - lubricated
+        - machined
         - machinelike
+        - machinic
+        - machinized
+        - machinery
+        - maintenance
+        - manufacturing
+        - mechanical
+        - motors
+        - organized
+        - precise
+        - repetitive
+        - robotic
+        - steampunk
+        - structural
+        - systematic
+        - technical
+        - technological
+        - tools
+
     magical:
         - bewitching
         - charmed
@@ -1513,37 +1540,7 @@ atmosphere:
         - resplendent
         - august
         - commanding
-        - empress/empress
-    mechanical:
-        - technical
-        - precise
-        - industrial
-        - engineered
-        - functional
-        - efficient
-        - automated
-        - mechanical
-        - robotic
-        - systematic
-        - organized
-        - gear-driven
-        - structural
-        - repetitive
-        - machined
-        - assembly line
-        - controlled
-        - lubricated
-        - maintenance
-        - tools
-        - components
-        - gears
-        - motors
-        - hydraulics
-        - machinery
-        - gritty
-        - gearbox
-        - factory
-        - manufacturing
+        - empress
     melancholic:
         - melancholic
         - somber
@@ -11122,7 +11119,7 @@ creatures:
             - slender
             - muscular
             - taloned
-        leg-lengths:
+        leg-length:
             - no legs
             - short
             - medium
@@ -11427,25 +11424,41 @@ creatures:
             - harpy eagle
             - kookaburra
         draconic:
+            - Ahuizotl
             - Amphiptere
             - Celestial Dragon
+            - Chinese Dragon
             - Chinese Lung
             - Coatl
             - dragon
             - Drake
             - Elemental Dragon
+            - European Dragon
             - Firedrake
             - Frost Dragon
+            - Guivre
             - Hydra
             - Imperial Dragon
+            - Knucker
+            - Kulshedra
             - Lindworm
+            - Lung
+            - Mokele-Mbembe
+            - Mushussu
+            - Quetzalcoatl
+            - Ryu
             - Sea Serpent
             - Serpent
             - Shadow Dragon
+            - Sirrush
             - Stellar Dragon
+            - Tarasque
             - Wyrm
             - Wyvern
             - Yinglong
+            - Yong
+            - Zmey Gorynych
+
         draconic-mh:
             - Akantor
             - Alatreon
