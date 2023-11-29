@@ -376,11 +376,20 @@ bo:
             - fusion of {2-5$$__creatures/species/*__}
         dragons:
             - >-
-              a __atmosphere/elemental__ __atmosphere/elements__ __creatures/dragons/body-shape__ {0.8::__creatures/species/draconic__|0.2::__creatures/species/draconic-mh__ wyvern},
-              {__creatures/dragons/body-cover__ skin,|} {__creatures/dragons/features__,|} {__creatures/dragons/head-types__ head,|}
+              a __creatures/descriptors__ __atmosphere/elemental__ __atmosphere/elements__ __creatures/dragons/body-shape__ 
+              {0.8::__creatures/species/draconic__|0.2::__creatures/species/draconic-mh__ wyvern},
+              {__creatures/dragons/body-cover__ skin,|} {0-4$$__creatures/dragons/features__,} {__creatures/dragons/head-types__ head,|}
               {__creatures/dragons/leg-length__ __creatures/dragons/leg-types__ legs,|}
+              {0.2::__creatures/horns__|}
               {0.2::__creatures/dragons/wing-count__ __creatures/dragons/wing-types__ wings,|}
               {__creatures/dragons/tail-types__ tails,|}
+        dragons-simple:
+            - > 
+              __creatures/descriptors__
+              {0-2$$__atmosphere/elemental__ __atmosphere/elements__}
+              {asian|chinese|japanese|european} __creatues/dragons/body-shape__ __creatures/species/draconic__, 
+              {0.2::__creatues/dragons/body-cover__ skin,|}
+              {0.2::__creatures/dragons/wing-types__}
         random:
             - >-
               __creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/look-feel__ __creatures/body-shapes__,
@@ -481,6 +490,9 @@ bo:
               {0.4::__styles/*__ architecture|} __scenes/settings/urbanbuiltenvironments__ {1-4$$__scenes/features*__}
         random-landscape:
             - __scenes/settings/landscapes__, {1-4$$__scenes/features*__}
+    school:
+        - >
+          {3-10$$__subjects-school/*__}
     scifi:
         # __bo/scifi/random__
         random:
@@ -11081,7 +11093,6 @@ creatures:
             - multi-limbed
         features:
             - spikes
-            - horns
             - fangs
             - claws
             - frills
@@ -11201,6 +11212,19 @@ creatures:
         - curved horns
         - antler-like horns
         - horns with tips
+        - serrated horns
+        - ridged horns
+        - fluted horns
+        - segmented horns
+        - ram-like horns
+        - lyre-shaped horns
+        - knobbed horns
+        - elongated horns
+        - helical horns
+        - annulated horns
+        - scythe-shaped horns
+        - coiled horns
+
     look-feel:
         - abstract
         - alien
@@ -11426,19 +11450,14 @@ creatures:
         draconic:
             - Ahuizotl
             - Amphiptere
-            - Celestial Dragon
             - Chinese Dragon
             - Chinese Lung
             - Coatl
             - dragon
             - Drake
-            - Elemental Dragon
             - European Dragon
-            - Firedrake
-            - Frost Dragon
             - Guivre
             - Hydra
-            - Imperial Dragon
             - Knucker
             - Kulshedra
             - Lindworm
@@ -11447,11 +11466,8 @@ creatures:
             - Mushussu
             - Quetzalcoatl
             - Ryu
-            - Sea Serpent
             - Serpent
-            - Shadow Dragon
             - Sirrush
-            - Stellar Dragon
             - Tarasque
             - Wyrm
             - Wyvern
@@ -23595,6 +23611,94 @@ styles-architectural:
         - colonial spanish
         - brazilian
 subjects-school:
+    art:
+        - Visual Arts
+        - Painting
+        - Oil Painting
+        - Watercolor
+        - Acrylic Painting
+        - Gouache
+        - Tempera
+        - Encaustic Painting
+        - Drawing
+        - Pencil Drawing
+        - Charcoal Drawing
+        - Pen and Ink Drawing
+        - Pastel Drawing
+        - Colored Pencil Drawing
+        - Printmaking
+        - Woodcut
+        - Etching
+        - Linocut
+        - Lithography
+        - Screen Printing
+        - Sculpture
+        - Clay Sculpture
+        - Wood Sculpture
+        - Metal Sculpture
+        - Stone Sculpture
+        - Mixed Media Sculpture
+        - Photography
+        - Black and White Photography
+        - Color Photography
+        - Digital Photography
+        - Film Photography
+        - Experimental Photography
+        - Performing Arts
+        - Theatre
+        - Acting
+        - Directing
+        - Set Design
+        - Costume Design
+        - Lighting Design
+        - Dance
+        - Ballet
+        - Modern Dance
+        - Jazz Dance
+        - Tap Dance
+        - Contemporary Dance
+        - Music
+        - Classical Music
+        - Jazz
+        - Rock
+        - Pop
+        - Hip Hop
+        - Electronic Music
+        - World Music
+        - Film
+        - Filmmaking
+        - Screenwriting
+        - Cinematography
+        - Film Editing
+        - Film Score Composition
+        - Applied Arts
+        - Graphic Design
+        - Typography
+        - Logo Design
+        - Poster Design
+        - Packaging Design
+        - Industrial Design
+        - Product Design
+        - Furniture Design
+        - Automotive Design
+        - Industrial Equipment Design
+        - Fashion Design
+        - Apparel Design
+        - Accessory Design
+        - Textile Design
+        - Interior Design
+        - Residential Design
+        - Commercial Design
+        - Hospitality Design
+        - Exhibition Design
+        - Digital Arts
+        - Digital Illustration
+        - 3D Modeling
+        - Animation
+        - Game Design
+        - Virtual Reality (VR) Design
+        - Augmented Reality (AR) Design
+
     biology:
         - cell
         - nucleus
@@ -23797,6 +23901,43 @@ subjects-school:
         - reaction mechanisms
         - chemical engineering
         - crystallography
+    economy:
+        - Microeconomics
+        - Macroeconomics
+        - Economic Systems
+        - Capitalism
+        - Socialism
+        - Mixed Economy
+        - Economic Theories
+        - Classical Economics
+        - Keynesian Economics
+        - Neoclassical Economics
+        - Marxist Economics
+        - Economic Indicators
+        - GDP (Gross Domestic Product)
+        - Inflation Rate
+        - Unemployment Rate
+        - Consumer Price Index (CPI)
+        - Stock Market Indices
+        - International Trade
+        - Economic Development
+        - Economic Policy
+        - Fiscal Policy
+        - Monetary Policy
+        - Economic Models
+        - Economic History
+        - Labor Economics
+        - Environmental Economics
+        - Behavioral Economics
+        - Public Finance
+        - Economic Geography
+        - Globalization
+        - Economic Inequality
+        - Financial Markets
+        - Banking and Finance
+        - Business Cycle
+        - Economic Forecasting
+
     history:
         - ancient history
         - mesopotamia
@@ -23980,6 +24121,87 @@ subjects-school:
         - mathematical innovations
         - mathematical applications
         - mathematical abstractions
+    physical-education:
+        - Types of Physical Activities
+        - Team Sports
+        - Football (Soccer)
+        - Basketball
+        - Volleyball
+        - Rugby
+        - Hockey
+        - Handball
+        - Individual Sports
+        - Running (Sprinting, Long Distance)
+        - Swimming
+        - Cycling
+        - Gymnastics
+        - Figure Skating
+        - Martial Arts (Karate, Taekwondo, Judo)
+        - Golf
+        - Tennis
+        - Table Tennis
+        - Badminton
+        - Boxing
+        - Outdoor Activities
+        - Hiking
+        - Rock Climbing
+        - Kayaking
+        - Canoeing
+        - Rowing
+        - Sailing
+        - Skiing (Alpine, Nordic)
+        - Snowboarding
+        - Surfing
+        - Skateboarding
+        - Mountain Biking
+        - Physical Fitness Components
+        - Cardiovascular Endurance
+        - Muscular Strength
+        - Muscular Endurance
+        - Flexibility
+        - Body Composition
+        - Exercise Physiology
+        - Cardiovascular System
+        - Respiratory System
+        - Muscular System
+        - Skeletal System
+        - Nervous System
+        - Energy Systems (Aerobic, Anaerobic)
+        - Fitness Testing
+        - VO2 Max Test
+        - BMI (Body Mass Index)
+        - Flexibility Tests
+        - Strength Tests
+        - Agility Tests
+        - Speed Tests
+        - Endurance Tests
+        - Sports Psychology
+        - Motivation
+        - Goal Setting
+        - Mental Toughness
+        - Concentration
+        - Visualization
+        - Injury Prevention and Management
+        - Warm-Up and Cool Down
+        - Stretching Techniques
+        - Common Sports Injuries
+        - Rehabilitation Exercises
+        - Sports Nutrition
+        - Balanced Diet
+        - Hydration
+        - Nutrient Timing
+        - Supplements
+        - Physical Education Programs and Curriculum
+        - Elementary School PE
+        - Middle School PE
+        - High School PE
+        - College and University PE
+        - Adaptive Physical Education
+        - Physical Education in Society
+        - Importance of PE in Schools
+        - Role of PE in Health Promotion
+        - Social and Cultural Aspects of PE
+
     physics:
         - mechanics
         - kinematics
@@ -24071,6 +24293,147 @@ subjects-school:
         - big bang theory
         - multiverse theory
         - grand unified theory (gut)
+    politics:
+        - Political Philosophy
+        - Political Systems
+        - Democracy
+        - Republic
+        - Monarchy
+        - Authoritarianism
+        - Totalitarianism
+        - Oligarchy
+        - Plutocracy
+        - Anarchy
+        - Political Ideologies
+        - Liberalism
+        - Conservatism
+        - Socialism
+        - Communism
+        - Fascism
+        - Anarchism
+        - Libertarianism
+        - International Relations
+        - Political Economy
+        - Political Psychology
+        - Comparative Politics
+        - Public Policy
+        - Geopolitics
+        - Political Science
+        - Political Activism
+        - Diplomacy
+        - Political Campaigns
+        - Political Parties
+        - Voting Systems
+
+    religion:
+        - Major World Religions
+        - Christianity
+        - Catholicism
+        - Protestantism
+        - Eastern Orthodoxy
+        - Islam
+        - Sunni
+        - Shia
+        - Hinduism
+        - Buddhism
+        - Judaism
+        - Sikhism
+        - Jainism
+        - Bahá'í Faith
+        - Ancient Religions
+        - Ancient Egyptian Religion
+        - Ancient Greek Religion
+        - Roman Religion
+        - Norse Mythology
+        - Mesopotamian Religion
+        - Hindu Mythology
+        - Indigenous and Folk Religions
+        - Shinto
+        - Indigenous African Religions
+        - Native American Spirituality
+        - Australian Aboriginal Religions
+        - Traditional Chinese Religion
+        - Sikhism
+        - New Religious Movements
+        - Scientology
+        - Hare Krishna
+        - Wicca
+        - Neo-Paganism
+        - Rastafari
+        - Falun Gong
+        - Heaven's Gate
+        - Atheism and Agnosticism
+        - Secular Humanism
+        - Rationalism
+        - Freethought
+        - Antitheism
+        - Philosophy of Religion
+        - Theism
+        - Deism
+        - Pantheism
+        - Agnosticism
+        - Atheism
+        - Existentialism
+        - Humanism
+        - Religious Practices and Rituals
+        - Worship
+        - Prayer
+        - Meditation
+        - Sacrifice
+        - Pilgrimage
+        - Rites of Passage
+        - Religious Texts
+        - Bible
+        - Quran
+        - Vedas
+        - Tripitaka
+        - Tanakh
+        - Guru Granth Sahib
+        - Tao Te Ching
+        - Book of Mormon
+        - Dharma
+        - Religious Art and Architecture
+        - Cathedrals and Churches
+        - Mosques
+        - Temples
+        - Synagogues
+        - Shrines
+        - Religious Symbols
+        - Religious Icons
+        - Religious Paintings and Sculptures
+        - Religion and Society
+        - Ethics and Morality
+        - Role of Religion in Politics
+        - Interfaith Dialogue
+        - Religion and Education
+        - Religion and Science
+    social-studies:
+        - Sociology
+        - Anthropology
+        - Psychology
+        - Political Science
+        - Economics
+        - Geography
+        - History
+        - Ancient History
+        - Medieval History
+        - Modern History
+        - Contemporary History
+        - Cultural Studies
+        - Archaeology
+        - Gender Studies
+        - International Relations
+        - Human Rights Studies
+        - Environmental Studies
+        - Urban Studies
+        - Linguistics
+        - Education Studies
+        - Communication Studies
+        - Criminology
+        - Social Work
+        - Public Administration
+        - Development Studies
+
 subtypes:
     cyberpunk:
         - corporate cyberpunk
