@@ -9,3 +9,6 @@
 *.zip
 *.tar.gz
 *.rar
+*.xml
+*.txt
+*.py
