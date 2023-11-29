@@ -1,0 +1,675 @@
+alraune:
+  characteristics:
+  - plant-based humanoid, alluring, magical properties, plant-human hybrid
+  name: alraune
+  perception:
+  - mischievous or malevolent
+  size: medium
+aswang:
+  characteristics:
+  - shapeshifter
+  - can transform into a bat, dog, or other animals
+  - predatory appearance
+  name: aswang
+  perception:
+  - often seen as malevolent
+  - feeds on human flesh and blood in filipino folklore
+  size: medium
+banshee:
+  characteristics:
+  - ethereal appearance
+  - long flowing hair
+  - pale complexion
+  - wears a white or gray gown
+  - often depicted as having red or green eyes
+  name: banshee
+  perception:
+  - omen of death
+  - either benevolent or malevolent
+  size: medium
+basilisk:
+  characteristics:
+  - serpent with deadly gaze
+  - kills with a single glance
+  - often depicted with a crown or crest
+  name: basilisk
+  perception:
+  - generally seen as hostile
+  - associated with petrifying its victims
+  size: medium
+brownie:
+  characteristics:
+  - small, helpful household spirit
+  - often depicted as wearing brown clothing
+  - completes chores in exchange for offerings
+  name: brownie
+  perception:
+  - generally seen as benevolent
+  - associated with folklore in scottish and english traditions
+  size: small
+centaur:
+  characteristics:
+  - human upper body
+  - horse lower body
+  - strong and muscular
+  - varied coloration
+  name: centaur
+  perception:
+  - often portrayed as wise and noble
+  - skilled in archery and warfare
+  - generally seen as benevolent
+  size: large
+changeling:
+  characteristics:
+  - fairy or elf-like creature
+  - replaces human infants with a fairy substitute
+  name: changeling
+  perception:
+  - generally mischievous or malevolent
+  - associated with folklore about swapped children
+  size: small
+chimera:
+  characteristics:
+  - composite creature with parts from different animals
+  - lion's body, goat's head, and serpent's tail
+  name: chimera
+  perception:
+  - generally seen as hostile
+  - symbol of chaos and destruction in mythology
+  size: large
+chupacabra:
+  characteristics:
+  - reptilian or alien-like appearance
+  - spikes or quills on its back
+  - drains blood from livestock
+  name: chupacabra
+  perception:
+  - generally seen as hostile
+  - associated with livestock mutilations in latin american folklore
+  size: small
+cockatrice:
+  characteristics:
+  - serpent-like body with a rooster's head
+  - deadly gaze or breath
+  name: cockatrice
+  perception:
+  - often seen as hostile and dangerous
+  - associated with mythological hybrid creatures
+  size: small
+doppelganger:
+  characteristics:
+  - shape-shifter
+  - takes on the appearance of others
+  name: doppelganger
+  perception:
+  - generally seen as malevolent
+  - associated with omens and bad luck
+  size: medium
+dragon:
+  characteristics:
+  - reptilian, scaled body
+  - wings (in some depictions)
+  - breathes fire or other elements
+  - sharp claws and teeth
+  name: dragon
+  perception:
+  - varied, wise and protective or dangerous
+  - often associated with treasure
+  size: varies (small to gigantic)
+dryad:
+  characteristics:
+  - tree spirit, specifically associated with oak trees
+  - often depicted as female
+  - linked to the life force of the tree
+  name: dryad
+  perception:
+  - generally seen as benevolent
+  - guardians of the forest in greek mythology
+  size: medium
+dullahan:
+  characteristics:
+  - headless rider
+  - carries its own severed head
+  - dark and foreboding presence
+  name: dullahan
+  perception:
+  - omen of death
+  - generally seen as malevolent in irish folklore
+  size: medium
+elf:
+  characteristics:
+  - slender, graceful appearance
+  - pointed ears
+  - often depicted as immortal
+  - various magical abilities
+  name: elf
+  perception:
+  - typically seen as benevolent
+  - skilled in arts and magic
+  size: medium
+enenra:
+  characteristics:
+  - formless, smoke-like entity
+  - manifests in the presence of smoke
+  name: enenra
+  perception:
+  - generally neutral
+  - associated with ghostly apparitions in japanese folklore
+  size: varies (formless)
+erlking:
+  characteristics:
+  - elf-like or ghostly figure
+  - associated with forests and hunting
+  name: erlking
+  perception:
+  - benevolent or malevolent
+  - linked with folklore about spirits of the forest
+  size: medium
+fairy:
+  characteristics:
+  - small, humanoid creatures with wings
+  - magical and mischievous
+  - diverse appearances and abilities
+  name: fairy
+  perception:
+  - benevolent or mischievous
+  - associated with nature and folklore in various cultures
+  size: small
+fenghuang:
+  characteristics:
+  - resembles a colorful bird (often phoenix-like)
+  - symbolizes harmony and balance
+  name: fenghuang
+  perception:
+  - symbol of good fortune and prosperity
+  - generally seen as benevolent in chinese mythology
+  size: medium
+ghoul:
+  characteristics:
+  - undead creature
+  - feeds on human flesh
+  - often depicted as grave-dwelling
+  name: ghoul
+  perception:
+  - generally seen as hostile
+  - associated with cemeteries and the supernatural
+  size: medium
+gnome:
+  characteristics:
+  - small, earth-dwelling creature
+  - often depicted with a long white beard
+  - guardians of treasures underground
+  name: gnome
+  perception:
+  - generally seen as benevolent
+  - associated with earth and minerals in folklore
+  size: small
+goblin:
+  characteristics:
+  - small and mischievous
+  - pointed ears and sharp teeth
+  - often associated with folklore trickery
+  name: goblin
+  perception:
+  - both mischievous and malevolent
+  - often portrayed as enemies of humans
+  size: small
+gorgon:
+  characteristics:
+  - snake-like hair
+  - scaled, serpentine lower body
+  - petrifying gaze
+  name: gorgon
+  perception:
+  - often portrayed as hostile
+  - gaze deadly
+  size: medium
+harpy:
+  characteristics:
+  - bird-like body
+  - female face
+  - wings
+  - clawed feet
+  name: harpy
+  perception:
+  - both hostile and benevolent
+  - associated with storms and winds
+  size: medium
+hippogriff:
+  characteristics:
+  - hybrid creature with eagle and horse features
+  - majestic and powerful
+  name: hippogriff
+  perception:
+  - generally seen as benevolent
+  - associated with chivalric romance and mythology
+  size: large
+hobgoblin:
+  characteristics:
+  - small, mischievous creature
+  - similar to goblins but less malevolent
+  - may perform helpful tasks or pranks
+  name: hobgoblin
+  perception:
+  - both mischievous and benevolent
+  - associated with folklore in various traditions
+  size: small
+huldra:
+  characteristics:
+  - female forest spirit
+  - beautiful but with a hollow back
+  - lures humans into the woods
+  name: huldra
+  perception:
+  - both benevolent and mischievous
+  - associated with forest magic in scandinavian folklore
+  size: medium
+ifrit:
+  characteristics:
+  - fire demon or spirit
+  - elemental powers associated with fire
+  name: ifrit
+  perception:
+  - malevolent or benevolent
+  - often depicted as powerful and dangerous
+  size: large
+incubus:
+  characteristics:
+  - male (incubus) or female (succubus) demon
+  - seduces humans in their dreams
+  name: incubus
+  perception:
+  - generally seen as malevolent
+  - associated with night demons in folklore
+  size: medium
+jabberwocky:
+  characteristics:
+  - dragon-like creature
+  - vorpal sword mentioned in mythology
+  - often associated with lewis carroll's poem
+  name: jabberwocky
+  perception:
+  - generally seen as hostile
+  - legendary creature in "jabberwocky" poem
+  size: large
+jinn:
+  characteristics:
+  - shape-shifting abilities
+  - elemental powers
+  - invisible
+  - varied appearance
+  name: jinn
+  perception:
+  - helpful or mischievous
+  - grant wishes in some traditions
+  size: varies (assumes varied forms)
+kappa:
+  characteristics:
+  - turtle-like body
+  - beak-like mouth
+  - dish-like depression on head
+  - webbed hands and feet
+  name: kappa
+  perception:
+  - mischievous but not always malevolent
+  - water spirits in japanese folklore
+  size: small
+kelpie:
+  characteristics:
+  - water spirit or horse-like creature
+  - lures people to ride on its back and drowns them
+  name: kelpie
+  perception:
+  - generally seen as malevolent
+  - associated with bodies of water in scottish folklore
+  size: large
+kitsune:
+  characteristics:
+  - fox-like appearance
+  - multiple tails (number indicates age and wisdom)
+  - shapeshifting abilities
+  name: kitsune
+  perception:
+  - mischievous or benevolent
+  - associated with intelligence and magic in japanese folklore
+  size: medium
+leprechaun:
+  characteristics:
+  - small stature
+  - green clothing
+  - red beard
+  - shoemaker in some traditions
+  name: leprechaun
+  perception:
+  - tricky and mischievous
+  - associated with hidden treasure
+  size: small
+lich:
+  characteristics:
+  - undead sorcerer or wizard
+  - achieved immortality through dark rituals
+  name: lich
+  perception:
+  - generally seen as hostile
+  - associated with necromancy and dark magic
+  size: medium
+manananggal:
+  characteristics:
+  - female vampire-like creature
+  - can detach upper torso to fly at night
+  - feeds on the blood of pregnant women
+  name: manananggal
+  perception:
+  - generally seen as hostile
+  - associated with philippine folklore
+  size: medium
+manticore:
+  characteristics:
+  - lion-like body
+  - humanoid face
+  - scorpion tail
+  name: manticore
+  perception:
+  - often depicted as fierce and hostile
+  - carnivorous and deadly in various mythologies
+  size: large
+medusa:
+  characteristics:
+  - gorgon with snakes for hair
+  - petrifying gaze
+  name: medusa
+  perception:
+  - often portrayed as hostile
+  - associated with greek mythology and hero tales
+  size: medium
+mermaid/merman:
+  characteristics:
+  - human upper body
+  - fish tail
+  - varied fish features
+  name: mermaid/merman
+  perception:
+  - varied, benevolent or luring sailors to doom
+  - associated with the sea and enchanting songs
+  size: medium
+minotaur:
+  characteristics:
+  - human with bull head and body
+  - dwells in a labyrinth
+  name: minotaur
+  perception:
+  - often seen as hostile
+  - associated with greek mythology and the minotaur in the labyrinth
+  size: large
+mummy:
+  characteristics:
+  - preserved corpse with bandages
+  - associated with ancient egyptian burial rituals
+  name: mummy
+  perception:
+  - generally seen as malevolent
+  - symbol of the undead and curses
+  size: medium
+naga:
+  characteristics:
+  - serpent or dragon-like body
+  - often depicted with multiple heads
+  name: naga
+  perception:
+  - varied, benevolent or malevolent
+  - guardian spirits in hindu and buddhist traditions
+  size: varies (medium to large)
+nymph:
+  characteristics:
+  - female nature spirit
+  - associated with specific natural features (water, trees, etc.)
+  - often depicted as beautiful maidens
+  name: nymph
+  perception:
+  - generally seen as benevolent
+  - linked with the beauty of nature in greek mythology
+  size: medium
+ogre:
+  characteristics:
+  - large and brutish humanoid
+  - often depicted as stupid and gluttonous
+  name: ogre
+  perception:
+  - generally seen as hostile
+  - associated with fairy tales and mythology
+  size: large
+oni:
+  characteristics:
+  - demon-like appearance
+  - horns, sharp claws, and fangs
+  - ogre-like features
+  name: oni
+  perception:
+  - often seen as malevolent
+  - associated with evil spirits in japanese folklore
+  size: large
+pegasus:
+  characteristics:
+  - winged horse
+  - symbol of wisdom and fame
+  name: pegasus
+  perception:
+  - generally seen as benevolent
+  - associated with greek mythology
+  size: large
+phoenix:
+  characteristics:
+  - bird with fiery plumage
+  - immortal and regenerative
+  name: phoenix
+  perception:
+  - symbol of renewal and resurrection
+  - generally seen as benevolent
+  size: medium
+pixie:
+  characteristics:
+  - small, mischievous creature with wings
+  - playful and prankster
+  name: pixie
+  perception:
+  - both mischievous and benevolent
+  - associated with nature and folklore in various cultures
+  size: small
+poltergeist:
+  characteristics:
+  - invisible and mischievous entity
+  - known for causing disturbances and moving objects
+  name: poltergeist
+  perception:
+  - generally seen as malevolent
+  - associated with haunted locations
+  size: small
+roc:
+  characteristics:
+  - giant bird of prey
+  - enormous wingspan
+  - powerful and majestic
+  name: roc
+  perception:
+  - generally neutral
+  - associated with mythical adventures in persian folklore
+  size: large
+satyr:
+  characteristics:
+  - human upper body with goat legs
+  - mischievous and fond of revelry
+  name: satyr
+  perception:
+  - both mischievous and benevolent
+  - associated with nature and wilderness
+  size: medium
+selkie:
+  characteristics:
+  - seal-like in water
+  - human appearance on land
+  - possesses a magical seal skin
+  name: selkie
+  perception:
+  - generally benevolent
+  - associated with shapeshifting and love in celtic folklore
+  size: medium
+semi-ghost:
+  characteristics:
+  - ethereal appearance with translucent features
+  - possesses a mix of ghostly and human traits
+  name: semi-ghost
+  perception:
+  - varied, benevolent, neutral, or malevolent
+  - associated with lingering spirits and supernatural occurrences
+  size: varies (small to medium)
+siren:
+  characteristics:
+  - female creatures with enchanting voices
+  - lure sailors with their songs
+  name: siren
+  perception:
+  - both alluring and dangerous
+  - associated with the sea and maritime folklore
+  size: medium
+sphinx:
+  characteristics:
+  - human head with lion body
+  - poses riddles to travelers
+  name: sphinx
+  perception:
+  - neutral, often seen as guardians
+  - associated with wisdom and enigma
+  size: large
+spriggan:
+  characteristics:
+  - small, grotesque creature
+  - guardians of buried treasure
+  - can change size at will
+  name: spriggan
+  perception:
+  - generally seen as mischievous or hostile
+  - associated with folklore in cornish and english traditions
+  size: small to medium
+succubus:
+  characteristics:
+  - seduces humans in their dreams
+  name: succubus
+  perception:
+  - generally seen as malevolent
+  - associated with night demons in folklore
+  size: medium
+thunderbird:
+  characteristics:
+  - giant bird associated with thunderstorms
+  - symbol of power and strength
+  name: thunderbird
+  perception:
+  - generally seen as benevolent
+  - mythical creature in native american folklore
+  size: large
+tikbalang:
+  characteristics:
+  - horse-like humanoid
+  - hooves instead of feet
+  - often depicted as mischievous
+  name: tikbalang
+  perception:
+  - generally seen as mischievous but not always malevolent
+  - guardian of the mountains in filipino folklore
+  size: large
+tomte:
+  characteristics:
+  - small, bearded creature
+  - wears a conical hat
+  - guardian of the household and farm
+  name: tomte
+  perception:
+  - generally seen as benevolent
+  - associated with scandinavian folklore
+  size: small
+unicorn:
+  characteristics:
+  - horse-like body
+  - single spiral horn on the forehead
+  - elegant and graceful
+  name: unicorn
+  perception:
+  - symbol of purity and grace
+  - generally seen as benevolent
+  size: medium
+valkyrie:
+  characteristics:
+  - norse warrior maidens
+  - winged and armed with weapons
+  name: valkyrie
+  perception:
+  - generally seen as benevolent
+  - choosers of those who may die and those who may live in battle
+  size: medium
+vampire:
+  characteristics:
+  - fangs for blood-sucking
+  - immortality or longevity
+  - hypnotic charm
+  - vulnerability to sunlight
+  name: vampire
+  perception:
+  - often depicted as hostile
+  - fearful and associated with the undead
+  size: medium
+wendigo:
+  characteristics:
+  - cannibalistic monster or spirit
+  - associated with winter and famine
+  name: wendigo
+  perception:
+  - generally seen as malevolent
+  - symbol of greed and the consequences of taboo
+  size: large
+werewolf:
+  characteristics:
+  - human-wolf hybrid form
+  - transformation during full moon
+  - enhanced senses and strength
+  name: werewolf
+  perception:
+  - both sympathetic and hostile
+  - associated with curses and affliction
+  size: medium
+will-o-the-wisp:
+  characteristics:
+  - atmospheric ghost lights
+  - lead travelers astray in marshy areas
+  name: will-o'-the-wisp
+  perception:
+  - generally neutral
+  - associated with folklore and mysterious lights in various cultures
+  size: small
+wraith:
+  characteristics:
+  - ghostly, malevolent spirit
+  - associated with death and revenge
+  name: wraith
+  perception:
+  - generally seen as malevolent
+  - haunts and brings harm to the living
+  size: medium
+yeti:
+  characteristics:
+  - large, ape-like creature
+  - covered in fur or hair
+  - inhabits mountainous regions
+  name: yeti/abominable snowman
+  perception:
+  - generally seen as elusive and shy
+  - folklore from himalayan regions
+  size: large
+yuki-onna:
+  characteristics:
+  - snow woman with icy or ghostly appearance
+  - drains life force or freezes victims
+  name: yuki-onna
+  perception:
+  - varied, benevolent or malevolent
+  - associated with winter and snow in japanese folklore
+  size: medium

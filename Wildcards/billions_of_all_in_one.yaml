@@ -211,14 +211,14 @@ bo:
                   {1-3$$    $$__properties/colors/*__|__properties/fabrics/cyberpunk__|__properties/patterns/clothing-cyberpunk__}
             nsfw:
                 - >-
-                  {1-4$$    $$__bo/properties/color__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|
+                  {1-4$$    $$__properties/colors/*__|{__properties/fabrics/regular__|__properties/materials-nsfw/fabrics__}|
                   {__properties/patterns/clothing__|__properties/patterns/animal-print__}}
             regular:
                 - >-
-                  {1-3$$    $$__bo/properties/color__|__properties/fabrics/regular__|__properties/patterns/clothing__}
+                  {1-3$$    $$__properties/colors/*__|__properties/fabrics/regular__|__properties/patterns/clothing__}
             scifi:
                 - >-
-                  {1-3$$    $$__bo/properties/color__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}
+                  {1-3$$    $$__properties/colors/*__|__properties/fabrics/scifi__|__properties/patterns/clothing-scifi__}
         random-extras:
             - >-
               {1-6$$__styles/clothing/embellishments__,|__styles/clothing/special-features__,|
@@ -380,7 +380,7 @@ bo:
               {0.8::__creatures/species/draconic__|0.2::__creatures/species/draconic-mh__ wyvern},
               {__creatures/dragons/body-cover__ skin,|} {0-4$$__creatures/dragons/features__,} {__creatures/dragons/head-types__ head,|}
               {__creatures/dragons/leg-length__ __creatures/dragons/leg-types__ legs,|}
-              {0.2::__creatures/horns__|}
+              {0.2::__creatures/horns__|} {0.05::__person/regular/beard__|}
               {0.2::__creatures/dragons/wing-count__ __creatures/dragons/wing-types__ wings,|}
               {__creatures/dragons/tail-types__ tails,|}
         dragons-simple:
@@ -11092,6 +11092,8 @@ creatures:
             - drake-like
             - multi-limbed
         features:
+            - beard
+            - bristles
             - spikes
             - fangs
             - claws
