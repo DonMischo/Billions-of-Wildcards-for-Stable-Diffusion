@@ -1,130 +1,167 @@
 alraune:
   characteristics:
-  - plant-based humanoid, alluring, magical properties, plant-human hybrid
+    - >-
+      plant hybrid,Plant-based humanoid, Alluring appearance, floral elements,
+      green leaf-like bark-like skin,
+      vines and roots as hair, Varied and mystical attire,
+      mesmerizing or hypnotic eyes,
+      plant-based accessories or ornaments
   name: alraune
   perception:
-  - mischievous or malevolent
-  size: medium
+    - mischievous, malevolent, enchanting and captivating aura,
 aswang:
   characteristics:
-  - shapeshifter
-  - can transform into a bat, dog, or other animals
-  - predatory appearance
+    - >-
+      Medium-sized humanoid, Predatory appearance, Shapeshifter, Sharp, feral features,
+      Claws and fangs, glowing eyes, keen sense of smell, heightened senses
   name: aswang
   perception:
-  - often seen as malevolent
-  - feeds on human flesh and blood in filipino folklore
-  size: medium
+    - >-
+      often seen as malevolent, feeds on human flesh and blood,
+      Dark ominous presence, sinister malevolent expression
 banshee:
   characteristics:
-  - ethereal appearance
-  - long flowing hair
-  - pale complexion
-  - wears a white or gray gown
-  - often depicted as having red or green eyes
+    - >-
+      transluscent Ethereal otherworldly unnatural nebulous incorporeal phantasmal nebulous vaporous phantasmal ghostly soul specter,
+      Long flowing silver hair,Pale white lucid skin, fantasy,
+      grayish tattered gown, hands with claws,dim eyes,
+      {mourning Expression|screaming in agony},eerie, stygical,
+      floating, gliding
   name: banshee
   perception:
-  - omen of death
-  - either benevolent or malevolent
-  size: medium
+    - omen of death, {benevolent|malevolent}
 basilisk:
   characteristics:
-  - serpent with deadly gaze
-  - kills with a single glance
-  - often depicted with a crown or crest
+    - >-
+      {serpent|dragon} like creature, deadly gaze,{crown|crest} on head,
+      Scaled skin with a menacing appearance,
+      {Serpent|reptilian} eyes, sharp fang like teeth,
+      {Coiled|poised} for attack,
+      Distinctive, intimidating posture,
+      {0.05::wings|},sense of danger and fear
   name: basilisk
   perception:
-  - generally seen as hostile
-  - associated with petrifying its victims
-  size: medium
+    - hostile
 brownie:
   characteristics:
-  - small, helpful household spirit
-  - often depicted as wearing brown clothing
-  - completes chores in exchange for offerings
+    - >- Small humanoid creature, wrinkled or aged appearance,
+      Brown earth toned clothing, Pointed ears,
+      {friendly|mischievous} expression, small pointed hat,
+      Expressive eyes, curiosity, playfulness, {cute|slightly grotesque},
+      helpful household tasks, domestic environments
   name: brownie
   perception:
-  - generally seen as benevolent
-  - associated with folklore in scottish and english traditions
-  size: small
+    - benevolent
 centaur:
   characteristics:
-  - human upper body
-  - horse lower body
-  - strong and muscular
-  - varied coloration
+    - >-
+      Large mythical creature, humanoid upper body, horse lower body,
+      Muscular strong physique, Human like arms and torso,
+      Equine features, hooves, flowing tail, wild untamed mane of hair,
+      {archery equipment|weapons|}, dynamic, running pose,
   name: centaur
   perception:
-  - often portrayed as wise and noble
-  - skilled in archery and warfare
-  - generally seen as benevolent
-  size: large
+    - wise and noble
+    - wild and untamed
+    - benevolent
 changeling:
   characteristics:
-  - fairy or elf-like creature
-  - replaces human infants with a fairy substitute
+    - >-
+      tiny Fairy elf like creature, {baby|young child},
+      otherworldly ethereal glow, Distinctive captivating eyes,
+      Facial features that convey an otherworldly charm,
+      {transformation|supernatural abilities|}
+      elf like pointed ears, enchanted ethereal clothing,
+      {innocent|mischievous}
   name: changeling
   perception:
-  - generally mischievous or malevolent
-  - associated with folklore about swapped children
-  size: small
+    - mischievous or malevolent
+    - innocent
 chimera:
   characteristics:
-  - composite creature with parts from different animals
-  - lion's body, goat's head, and serpent's tail
+    - >-
+      Large mythical creature, composite features,
+      Lion body, mane, forelimbs, Goat head, hind legs, Serpent tail,
+      Distinctive, intimidating, Ferocious expression, multiple heads,
+      {Scaled|fur} covered body, Symbol of chaos, mythical hybridization
   name: chimera
   perception:
-  - generally seen as hostile
-  - symbol of chaos and destruction in mythology
-  size: large
+      - hostile
 chupacabra:
   characteristics:
-  - reptilian or alien-like appearance
-  - spikes or quills on its back
-  - drains blood from livestock
+    - >-
+      Medium-sized creature, {Reptilian|alien} like appearance,
+      {Scaled|leathery} skin, Pronounced {spikes|quills} along its back,
+      Clawed feet and hands, bipedal creature, {Fangs|sharp teeth} for blood sucking,
+      {Glowing|menacing} eyes, {pointed|stand upright} Ears,
   name: chupacabra
   perception:
-  - generally seen as hostile
-  - associated with livestock mutilations in latin american folklore
-  size: small
+    - hostile
 cockatrice:
   characteristics:
-  - serpent-like body with a rooster's head
-  - deadly gaze or breath
+    - >-
+      Small mythical creature, Serpent body, (rooster:.6) head, Feathered wings,
+      Sharp {talons|claws}, {Scaled|feathered} skin,
+      Beak with fangs, venomous bite,{crown|crest|} on head,
+      {Glowing|fierce} eyes, deadly {gaze|breath}
   name: cockatrice
   perception:
-  - often seen as hostile and dangerous
-  - associated with mythological hybrid creatures
-  size: small
+    - fierce aggressive demeanor
+    - Distinctive, intimidating
+    - hostile and dangerous
 doppelganger:
   characteristics:
-  - shape-shifter
-  - takes on the appearance of others
+    - >-
+      Medium sized humanoid creature, Shape-shifter,
+      Mimics the exact physical features of its target,
+      lacks distinct personal features, appearing generic,
+      Expression neutral, slightly eerie unsettling aura,
+      Eyes that may reveal a subtle otherness, lack of emotion,
+      {mysterious|ominous} circumstance
   name: doppelganger
   perception:
-  - generally seen as malevolent
-  - associated with omens and bad luck
-  size: medium
-dragon:
+  - malevolent
+dragonborn:
+  # real dragons with __bo/creatures/dragon*__
   characteristics:
-  - reptilian, scaled body
-  - wings (in some depictions)
-  - breathes fire or other elements
-  - sharp claws and teeth
-  name: dragon
+    - >-
+      {male|female} human with dragonic characteristics,
+      {Scaled|reptilian} {0.3::__atmosphere/elemental__ __atmosphere/elements__} skin,
+      {dragon like eyes|slitted pupils}, {0-3$$snout|horns|mane|crest|__creatures/dragons/wing-types__ wings|tail},
+      {Clawed hands|fingers with talons|}, sense of mystique and hidden power
+  name: dragonborn
   perception:
-  - varied, wise and protective or dangerous
-  - often associated with treasure
-  size: varies (small to gigantic)
+    - wise
+    - protective
+    - dangerous
+    - regal powerful presence
+dragon-human-form:
+  # real dragons with __bo/creatures/dragon*__
+  characteristics:
+    - >-
+      {male|female} human, human head and face,
+      {Scaled|scaly reptilian} {0.3::__atmosphere/elemental__ __atmosphere/elements__} skin,
+      slitted pupils, {0-3$$horns|mane|__creatures/dragons/wing-types__ wings|tail},
+      {Clawed hands|fingers with talons|}, sense of mystique and hidden power
+  name: human form
+  perception:
+    - wise
+    - protective
+    - dangerous
+    - regal powerful presence
 dryad:
   characteristics:
-  - tree spirit, specifically associated with oak trees
-  - often depicted as female
-  - linked to the life force of the tree
+    - >-
+      female nature spirit, Bark like woody skin texture,
+      Leafy viney hair and attire, serene or ethereal expression,
+      Green earthy coloration, nature infused Eyes,
+      associated trees, embodiment of the forest,
+      {carries|adorned with} symbols of nature
   name: dryad
   perception:
-  - generally seen as benevolent
+  - benevolent
   - guardians of the forest in greek mythology
+  - aura of natural beauty and grace
   size: medium
 dullahan:
   characteristics:
