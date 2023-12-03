@@ -491,8 +491,9 @@ bo:
         random-landscape:
             - __scenes/settings/landscapes__, {1-4$$__scenes/features*__}
     school:
-        - >
-          {3-10$$__subjects-school/*__}
+        random-mix:
+            - >
+              {3-10$$__subjects-school/*__}
     scifi:
         # __bo/scifi/random__
         random:
@@ -953,6 +954,24 @@ atmosphere:
         - wine pairing
         - farm-to-table
         - live music
+    dissolve:
+        - crumble
+        - decompose
+        - deteriorate
+        - dissolve
+        - disintegrate
+        - dissipate
+        - efface
+        - erode
+        - evanesce
+        - fade
+        - fragment
+        - liquefy
+        - melt
+        - scatter
+        - sublimate
+        - vanish
+
     dragon:
         - abyssal
         - airy
@@ -1062,26 +1081,62 @@ atmosphere:
         - wind
 
     elemental:
-        - fireforge
+        - abyssal
+        - airy
+        - aqueous
+        - aquatic
+        - breezy
+        - cryptic
+        - cyclonic
+        - deluge
+        - earthen
+        - eclipse
+        - enigmatic
+        - ethereal
+        - fertile
         - flamboyant
+        - fluidic
         - frozen
+        - gaseous
+        - geological
         - geothermal
+        - ground
+        - gusty
         - hydro
+        - hydrodynamic
         - infernal
         - lava
+        - lithic
+        - liquid
+        - maritime
         - molten
+        - nocturnal
+        - nautical
+        - obsidian
         - oceanic
+        - pneumatic
         - polar
         - pyro
         - pyroclasmic
         - radiant
+        - rocky
+        - shadowy
+        - solid
+        - stony
         - sulfurous
+        - tempest
         - tempestuous
         - tidal
         - torrid
         - turbulent
+        - umbra
         - underwater
+        - vortex
+        - void
+        - volcanic
         - volatile
+        - windy
+
     emotional:
         - joyful
         - tense
