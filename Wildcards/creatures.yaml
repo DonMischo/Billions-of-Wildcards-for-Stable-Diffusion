@@ -9,6 +9,17 @@ alraune:
   name: alraune
   perception:
     - mischievous, malevolent, enchanting and captivating aura,
+angel:
+  characteristics:
+    - >-
+      Humanoid celestial being, Radiant luminous appearance,
+      feathered wings, Noble serene expression,
+      Long flowing robes, white bright colors,
+      Halo, radiant aura above the head
+    name: angel
+  perception:
+  -  benevolent, protective, and divine
+
 aswang:
   characteristics:
     - >-
@@ -87,6 +98,17 @@ chimera:
   name: chimera
   perception:
       - hostile
+christmas_elf:
+  name: Christmas Elf
+  characteristics:
+    - >-
+      Small humanoid creature, Pointed ears,
+      Bright and festive attire, red, green, holiday colors,
+      pointed hat with a bell on the tip,
+      Merry cheerful expression, Rosy cheeks, lively eyes,
+  perception:
+    - joyful, industrious, and benevolent
+
 chupacabra:
   characteristics:
     - >-
@@ -165,67 +187,96 @@ dryad:
   size: medium
 dullahan:
   characteristics:
-  - headless rider
-  - carries its own severed head
-  - dark and foreboding presence
+    - >-
+      Headless humanoid figure, Carries head in one hand,
+      neck stump, Dark shadowy hooded attire,
+      riding a horse or carriage,
+      whip made from human spine,
+      harbinger of death,
   name: dullahan
   perception:
-  - omen of death
-  - generally seen as malevolent in irish folklore
-  size: medium
+    - omen of death
+    - mournful or malevolent expression
+    - mysterious and foreboding aura
 elf:
   characteristics:
-  - slender, graceful appearance
-  - pointed ears
-  - often depicted as immortal
-  - various magical abilities
+    - >-
+      humanoid creature, slender, graceful, Pointed ears,
+      fair colored hair, Almond shaped eyes with vibrant colors,
+      Ageless appearance, otherworldly ethereal glow,
+      Elaborate nature inspired attire, magic,
+      {regal noble demeanor|}
   name: elf
   perception:
-  - typically seen as benevolent
-  - skilled in arts and magic
+    - benevolent
+    - arts
+    - magic
   size: medium
 enenra:
   characteristics:
-  - formless, smoke-like entity
-  - manifests in the presence of smoke
+    - >-
+      Formless mist like creature, Made of smoke and vapor,
+      transluscent, transparent, uncorporeal,
+      humanoid shape in the smoke, Glowing radiant presence,
+      Mystical ephemeral appearance,mist or fog
   name: enenra
   perception:
-  - generally neutral
-  - associated with ghostly apparitions in japanese folklore
+  - benign neutral entity
+  - serene or tranquil aura
+  - ghostly apparitions
   size: varies (formless)
 erlking:
   characteristics:
-  - elf-like or ghostly figure
-  - associated with forests and hunting
+    - >-
+      tall regal ghostly figure, Elegant ethereal appearance
+      elaborate forest inspired clothing,
+      Crown made of leaves and branches,antlers,
+      Distinctive captivating eyes,
+      Linked with forests and nature spirits,
+      connection to the Wild Hunt
   name: erlking
   perception:
-  - benevolent or malevolent
-  - linked with folklore about spirits of the forest
+    - benevolent 
+    - malevolent
+    - sense of melancholy and mystery
+    - linked with folklore about spirits of the forest
   size: medium
 fairy:
   characteristics:
-  - small, humanoid creatures with wings
-  - magical and mischievous
-  - diverse appearances and abilities
+    - >-
+      tiny humanoid creature with wings,
+      Delicate graceful appearance,
+      Transparent opalescent iridescent wings,
+      pointed ears, colorful ethereal clothing,
+      Nature inspired attire, made of petals and leaves,
+      __clothings/magical/unisex/accessories__
   name: fairy
   perception:
-  - benevolent or mischievous
-  - associated with nature and folklore in various cultures
+    - playful
+    - benevolent 
+    - mischievous
   size: small
 fenghuang:
   characteristics:
-  - resembles a colorful bird (often phoenix-like)
-  - symbolizes harmony and balance
+    - >-
+      Mythical bird, Composite creature, features of several birds,
+      Elegant and majestic appearance,
+      Colorful plumage, vibrant shades, pheasant head,
+      Crest or crown on the head, Elegant, long tail feathers,
+      wings, claws
   name: fenghuang
   perception:
-  - symbol of good fortune and prosperity
-  - generally seen as benevolent in chinese mythology
+  - harmony, beauty, and good fortune
+  - positive and auspicious symbol
   size: medium
 ghoul:
   characteristics:
-  - undead creature
-  - feeds on human flesh
-  - often depicted as grave-dwelling
+   - >-
+      humanoid monstrous creature.
+      Emaciated corpse like appearance, Decayed or mummified skin,
+      Sunken or glowing eyes, Sharp teeth,
+      Clawed hands, predatory appearance, nocturnal,
+      tattered or burial clothing, undead
   name: ghoul
   perception:
   - generally seen as hostile
@@ -233,108 +284,134 @@ ghoul:
   size: medium
 gnome:
   characteristics:
-  - small, earth-dwelling creature
-  - often depicted with a long white beard
-  - guardians of treasures underground
+    - >-
+      Small humanoid creature, Stocky and stout appearance,
+      {long white beard|}, Pointed hat, red or earth toned,
+      Rounded belly, rosy cheeks, practical earthy clothing,
+      connection to earth and nature,
+      {underground|natural} settings, craftsmanship, earth magic
   name: gnome
   perception:
-  - generally seen as benevolent
-  - associated with earth and minerals in folklore
-  size: small
+    - friendly, industrious, 
+    - guardians of nature
+    - earth and minerals
 goblin:
   characteristics:
-  - small and mischievous
-  - pointed ears and sharp teeth
-  - often associated with folklore trickery
+    - >-
+      Small humanoid creature, hunched posture,
+      Pointed ears, bulbous nose, Sharp teeth, {Green|gray|earth toned} skin,
+      Clawed hands and feet, {ragged|crude} clothing,
+      {Mischievous|malevolent} expression,
+      trickery, trouble
   name: goblin
   perception:
-  - both mischievous and malevolent
-  - often portrayed as enemies of humans
-  size: small
+  - mischievous and malevolent
+  - cunning
 gorgon:
   characteristics:
-  - snake-like hair
-  - scaled, serpentine lower body
-  - petrifying gaze
+    - >- 
+      humanoid upper body, Serpentine lower body, coiled Snakes for hair, 
+      venomous Petrifying gaze, {Scaled|stone like} skin,
+      Fierce and intimidating expression, {wings|}
+      {tusks|fangs|},Medusa, powerful and dangerous mythical creature
   name: gorgon
   perception:
-  - often portrayed as hostile
+  - hostile
   - gaze deadly
-  size: medium
+  - 
 harpy:
   characteristics:
-  - bird-like body
-  - female face
-  - wings
-  - clawed feet
+    - >-
+      mix of human and bird features,
+      Humanoid upper body, sharp claws, Feathery wings, powerful,
+      {bird's beak|}, Varied coloration, 
+      Distinctive and eerie screeching,
+      stormy weather and winds, vengeance, punishment,
+      wild, predatory, malevolent
   name: harpy
   perception:
-  - both hostile and benevolent
-  - associated with storms and winds
-  size: medium
+  - hostile 
+  - benevolent
 hippogriff:
   characteristics:
-  - hybrid creature with eagle and horse features
-  - majestic and powerful
+    - >-
+      mythical creature, Horse's body and hind legs,
+      Eagle's wings and front claws,
+      Majestic and powerful appearance,
+      Feathered wings and mane, eagle like head and beak,
+      Strong and noble posture,
+      Symbol of chivalric romance, mythology, bravery, strength,
   name: hippogriff
   perception:
-  - generally seen as benevolent
-  - associated with chivalric romance and mythology
-  size: large
+  - benevolent
 hobgoblin:
   characteristics:
-  - small, mischievous creature
-  - similar to goblins but less malevolent
-  - may perform helpful tasks or pranks
+    - >-
+      Medium sized humanoid creature, robust and muscular build,
+      Pointed ears, fangs, {Earth toned|greenish} skin,
+      {facial warts|wrinkles|scars|}, Clawed hands and feet,
+      crude or tattered clothing,
+      Mischievous or malevolent expression
+      trickery, causing trouble
   name: hobgoblin
   perception:
-  - both mischievous and benevolent
-  - associated with folklore in various traditions
-  size: small
+  - mischievous, menacing
+  - benevolent
 huldra:
   characteristics:
-  - female forest spirit
-  - beautiful but with a hollow back
-  - lures humans into the woods
+    - >-
+      female humanoid creature, hidden tail, beautiful, alluring,
+      Long flowing hair covering part of the face,
+      Traditional attire, {rustic|reminiscent of folk} clothing,
+      {back {is hollow|covered in bark}}, forest natural surroundings,
+      seductive, mysterious forest spirit
   name: huldra
   perception:
-  - both benevolent and mischievous
-  - associated with forest magic in scandinavian folklore
-  size: medium
+  - {benevolent|mischievous}
+
 ifrit:
   characteristics:
-  - fire demon or spirit
-  - elemental powers associated with fire
+    - >-
+      large supernatural being, Fiery smoky appearance,
+      Humanoid shape, muscular build, emanating Flames and smoke from body,
+      flaming eyes and facial features, {wings made of fire,|}
+      coloration from red to black, element of fire, powerful and malevolent,
+      formidable and elemental force
   name: ifrit
+imp:
+  characteristics:
+    - >-
+      Small, mischievous supernatural humanoid creature, impish features,
+      horns, Pointed ears, sharp teeth, Bat like leathery wings,
+      Fiery glowing eyes, Clawed hands and feet, tail,
+      red to dark shaded skin, trickster, servant of a higher power
+  name: Imp
   perception:
-  - malevolent or benevolent
-  - often depicted as powerful and dangerous
-  size: large
+    - Prone, 
+    - playful
+    - malevolent
 incubus:
   characteristics:
-  - male (incubus) or female (succubus) demon
-  - seduces humans in their dreams
+    - >-
+      Malevolent male demon, Humanoid appearance, attractive seductive demeanor,
+      {bat like wings,|} {horns,|} Clawed hands, hoofs,
+      dark demonic hues, enticing, nighttime seduction, sexual nightmares,
   name: incubus
-  perception:
-  - generally seen as malevolent
-  - associated with night demons in folklore
-  size: medium
 jabberwocky:
   characteristics:
-  - dragon-like creature
-  - vorpal sword mentioned in mythology
-  - often associated with lewis carroll's poem
+    - >-
+      Large and fearsome creature, Dragon like appearance,
+      Jagged and sharp features, Slithers, eerie grace,
+      dark mottled hues, vorpal Claws and teeth,
+      wings,tail, mythical fantastical realm
   name: jabberwocky
-  perception:
-  - generally seen as hostile
-  - legendary creature in "jabberwocky" poem
-  size: large
 jinn:
   characteristics:
-  - shape-shifting abilities
-  - elemental powers
-  - invisible
-  - varied appearance
+    - >-
+      Supernatural being, shapeshifting abilities,
+      appears as smoke or fire, {humanoid|monstrous} appearance,
+      magical supernatural powers, air and fire elements,
+      {granting wishes,|causing harm,|} powerful and mysterious
   name: jinn
   perception:
   - helpful or mischievous
@@ -342,34 +419,42 @@ jinn:
   size: varies (assumes varied forms)
 kappa:
   characteristics:
-  - turtle-like body
-  - beak-like mouth
-  - dish-like depression on head
-  - webbed hands and feet
+    -  >-
+      Water dwelling creature, Humanoid appearance with a turtle like shell,
+      Webbed hands and feet, {Beak|mouth} located on head,
+      Dishl-ike depression on its head holding water,
+      Greenish scaly skin, strength, mischievous
   name: kappa
-  perception:
-  - mischievous but not always malevolent
-  - water spirits in japanese folklore
-  size: small
 kelpie:
   characteristics:
-  - water spirit or horse-like creature
-  - lures people to ride on its back and drowns them
+    - >-
+      Shape shifting water spirit, horse in humanoid shape,
+      mane, coat, drips water, lures victims, dark sleek coat,
+      Eyes supernatural alluring quality, webbed hooves
   name: kelpie
   perception:
-  - generally seen as malevolent
-  - associated with bodies of water in scottish folklore
-  size: large
-kitsune:
+  - malevolent
+kitsune-fox-form:
   characteristics:
-  - fox-like appearance
-  - multiple tails (number indicates age and wisdom)
-  - shapeshifting abilities
+    - >-
+      fox spirit,fox with multiple tails, power,
+      magical enchanting aura,supernatural alluring eyes
+      white and red, intelligence, trickery,wisdom, supernatural feats
   name: kitsune
   perception:
-  - mischievous or benevolent
-  - associated with intelligence and magic in japanese folklore
-  size: medium
+  - mischievous 
+  - benevolent
+kitsune-human-form:
+  characteristics:
+    - >-
+      human form,human head with face paint,
+      fox spirit, multiple tails,
+      power, magical enchanting aura,supernatural alluring eyes,
+      fox ears, white and red, intelligence, trickery,wisdom, supernatural feats
+  name: kitsune
+  perception:
+  - mischievous 
+  - benevolent
 leprechaun:
   characteristics:
   - small stature
@@ -589,12 +674,14 @@ spriggan:
   size: small to medium
 succubus:
   characteristics:
-  - seduces humans in their dreams
+      - >-
+        Malevolent female demon, Humanoid appearance, attractive seductive demeanor,
+        {bat like wings,|} {horns,|} Clawed hands, hoofs,
+        dark demonic hues, enticing, nighttime seduction, sexual nightmares,  
   name: succubus
   perception:
   - generally seen as malevolent
   - associated with night demons in folklore
-  size: medium
 thunderbird:
   characteristics:
   - giant bird associated with thunderstorms
