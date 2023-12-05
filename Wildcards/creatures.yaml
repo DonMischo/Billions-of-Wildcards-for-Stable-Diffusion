@@ -53,6 +53,18 @@ basilisk:
   name: basilisk
   perception:
     - hostile
+bigfoot:
+Cryptid ape-like creature
+    - Covered in fur or hair
+    - Large and humanoid appearance
+    - Stands upright on two legs
+    - Often depicted with long arms
+    - Fur color varies, often depicted as brown or dark
+    - Massive footprints associated with sightings
+    - Said to inhabit wilderness areas, especially forests
+    - Linked with North American folklore and cryptozoology
+    - Varied depictions in popular culture and reported sightings
+    - Perception as an elusive and mysterious forest-dwelling creature
 brownie:
   characteristics:
     - >- Small humanoid creature, wrinkled or aged appearance,
@@ -447,29 +459,32 @@ kitsune-fox-form:
 kitsune-human-form:
   characteristics:
     - >-
-      human form,human head with face paint,
-      fox spirit, multiple tails,
-      power, magical enchanting aura,supernatural alluring eyes,
-      fox ears, white and red, intelligence, trickery,wisdom, supernatural feats
+      human, multiple tails, fox ears,power,
+      magical enchanting aura,supernatural alluring eyes, fox ears,
+      white and red, intelligence, trickery,wisdom, supernatural feats
   name: kitsune
   perception:
   - mischievous 
   - benevolent
 leprechaun:
   characteristics:
-  - small stature
-  - green clothing
-  - red beard
-  - shoemaker in some traditions
+    - >-
+      Small humanoid creature, beard, hat,
+      {Red|green} clothing, {0.3:gold trim,|}
+      Buckled shoes and stockings, {Mischievous|playful} expression,
+      pot of gold, {0.3::smoking a pipe,|} Short stature, 2 feet tall
   name: leprechaun
   perception:
   - tricky and mischievous
-  - associated with hidden treasure
-  size: small
 lich:
   characteristics:
-  - undead sorcerer or wizard
-  - achieved immortality through dark rituals
+    - >-
+      Undead {sorcerer|wizard}, {Skeletal|mummified} appearance,
+      {tattered|regal} robes, {staff|wand}, {Glowing|empty} eye sockets,
+      No life, no flesh, {0.2::crown,|0.2::headdress,|}
+      Aura of {dark magic|necromancy}.
+      immortality, dark rituals, powerful, malevolent, 
+      ancient formidable spellcaster
   name: lich
   perception:
   - generally seen as hostile
@@ -477,9 +492,11 @@ lich:
   size: medium
 manananggal:
   characteristics:
-  - female vampire-like creature
-  - can detach upper torso to fly at night
-  - feeds on the blood of pregnant women
+    - >-
+      Female mythical creature, separated upper torso,
+      Bat like wings on detached torso,
+      Long proboscis like tongue, sharp claws,
+      long disheveled hair, Distinctive eerie sound, malevolent vampiric entity
   name: manananggal
   perception:
   - generally seen as hostile
@@ -487,9 +504,12 @@ manananggal:
   size: medium
 manticore:
   characteristics:
-  - lion-like body
-  - humanoid face
-  - scorpion tail
+    - >-
+      Mythical creature, Lion body, venomous stinger tail ending,
+      Human face, sharp teeth, {0.2::bat wings,|}
+      Mane around head and neck, Powerful muscular physique,
+      {horns|spikes}, Distinctive fierce expression,
+      formidable legendary beast
   name: manticore
   perception:
   - often depicted as fierce and hostile
@@ -497,27 +517,47 @@ manticore:
   size: large
 medusa:
   characteristics:
-  - gorgon with snakes for hair
-  - petrifying gaze
+    - >-
+      female humanoid appearance,
+      powerful dangerous mythical creature,
+      Snakes hair, Serpentine lower body, coiled,
+      Glowing petrifying gaze, Scaled stone skin,
+      Fierce intimidating expression, {0.2::wings}
   name: medusa
   perception:
   - often portrayed as hostile
   - associated with greek mythology and hero tales
   size: medium
-mermaid/merman:
+mermaid:
   characteristics:
-  - human upper body
-  - fish tail
-  - varied fish features
-  name: mermaid/merman
+    - >-
+      Humanoid upper body,fish tail,
+      long flowing hair,
+      {0.2::scales on upper body,} {0.2::webbed fingers,}
+      Enchanting alluring appearance, aquatic beauty,
+      aquatic hues, singing and melodic voices
+  name: mermaid
   perception:
   - varied, benevolent or luring sailors to doom
   - associated with the sea and enchanting songs
-  size: medium
+merman:
+  characteristics:
+    - >-
+      Humanoid upper body,fish tail, muscular physique,
+      {0.2::scales on upper body,} {0.2::webbed fingers,}
+      Enchanting alluring appearance, aquatic beauty,
+      aquatic hues, strength, mythtic allure, depth of the sea
+  name: merman
+  perception:
+  - varied, benevolent or luring sailors to doom
+  - associated with the sea and enchanting songs
 minotaur:
   characteristics:
-  - human with bull head and body
-  - dwells in a labyrinth
+    - >-
+      Mythical fearsome legendary creature, a hybrid of humanoid and bull,
+      Humanoid upper body, bull head, Muscular powerful physique,
+      large curved Horns, strong imposing stature,
+      Bull tail, bull hind legs, Fur covered hide like skin
   name: minotaur
   perception:
   - often seen as hostile
@@ -525,17 +565,21 @@ minotaur:
   size: large
 mummy:
   characteristics:
-  - preserved corpse with bandages
-  - associated with ancient egyptian burial rituals
+    - >-
+      Preserved reanimated undead cursed being, wrapped in bandages,
+      Sunken empty eye sockets, Tattered burial wrappings,
+      ancient artifacts and jewelry,curses, supernatural reanimation
   name: mummy
-  perception:
-  - generally seen as malevolent
-  - symbol of the undead and curses
-  size: medium
+
 naga:
   characteristics:
-  - serpent or dragon-like body
-  - often depicted with multiple heads
+    - >-
+      Serpent mythical creature,
+      Human upper body, snake lower body,
+      multiple snake heads, {0.2::Elaborate hooded necks,}
+      Scaled snake skin, {0.2::regal divine appearance,}
+      {0.2::wings,|0.2::fins,} water, fertility, protection,
+      powerful
   name: naga
   perception:
   - varied, benevolent or malevolent
@@ -543,18 +587,20 @@ naga:
   size: varies (medium to large)
 nymph:
   characteristics:
-  - female nature spirit
-  - associated with specific natural features (water, trees, etc.)
-  - often depicted as beautiful maidens
+    - >-
+      Female nature spirit,youthful, beautiful,
+      aspect of {nature|water|trees|mountains|fire|air|earth|meadow},
+      long flowing hair, Radiates ethereal natural beauty,
+      {playful|serene} expression, enchanting, guardian spirit
   name: nymph
-  perception:
-  - generally seen as benevolent
-  - linked with the beauty of nature in greek mythology
-  size: medium
 ogre:
   characteristics:
-  - large and brutish humanoid
-  - often depicted as stupid and gluttonous
+    - >-
+      Large humanoid creature, brutish monstrous appearance,
+      Muscular hulking physique, exaggerated facial features,
+      {tusks|large teeth}, {0.1::single eye},
+      {green|earth toned} skin, primitive crude clothing,
+      strength, intimidating presence, {formidable|0.2::malevolent}
   name: ogre
   perception:
   - generally seen as hostile
@@ -562,9 +608,11 @@ ogre:
   size: large
 oni:
   characteristics:
-  - demon-like appearance
-  - horns, sharp claws, and fangs
-  - ogre-like features
+    - >-
+      Large ogre-like fearsome otherworldly creature, fearsome monstrous appearance,
+      Muscular imposing physique, {blue|red|earthy} skin,
+      Horns, Sharp claws, tusks, loincloths made of tiger skin,
+      supernatural malevolent power, {malevolent|nuanced} beings, powerful
   name: oni
   perception:
   - often seen as malevolent
@@ -572,17 +620,17 @@ oni:
   size: large
 pegasus:
   characteristics:
-  - winged horse
-  - symbol of wisdom and fame
+    - >-
+      mythical majestic Winged horse, Feathered wings, majestic noble appearance,
+      Graceful strong posture, {white|light} hues,
+      flowing mane and tail, inspiration, poetic creativity
   name: pegasus
-  perception:
-  - generally seen as benevolent
-  - associated with greek mythology
-  size: large
 phoenix:
   characteristics:
-  - bird with fiery plumage
-  - immortal and regenerative
+    - >-
+      Mythical powerful bird, in flames, vibrant colors,, Large and majestic wings
+      Long flowing tail feathers, Resplendent radiant plumage
+      immortality, renewal, rebirth, {self immolate|rise from the ashes|sun and fire}
   name: phoenix
   perception:
   - symbol of renewal and resurrection
@@ -590,36 +638,47 @@ phoenix:
   size: medium
 pixie:
   characteristics:
-  - small, mischievous creature with wings
-  - playful and prankster
+    - >-
+      tiny humanoid creature, Delicate ethereal appearance,
+      Transparent iridescent wings, pointed ears,
+      Playful mischievous expression, {colorful|nature inspired} clothing,
+      magical accessories, {nature|enchantment|supernatural} realm,
+      {benevolent|mischievous}
   name: pixie
-  perception:
-  - both mischievous and benevolent
-  - associated with nature and folklore in various cultures
-  size: small
 poltergeist:
   characteristics:
-  - invisible and mischievous entity
-  - known for causing disturbances and moving objects
+    - >-
+      Supernatural mischievous spirit,invisible, elusive,
+      {moving|manipulating} objects, disturbances, noises,
+      {0.2::malevolent disruptive behavior}, unexplained phenomena
   name: poltergeist
-  perception:
-  - generally seen as malevolent
-  - associated with haunted locations
-  size: small
 roc:
   characteristics:
-  - giant bird of prey
-  - enormous wingspan
-  - powerful and majestic
+    - >-
+      Gigantic bird of prey from mythology
+      Often depicted with enormous size, sometimes described as colossal
+      Powerful wings, capable of carrying away elephants or other large prey
+      Massive beak and talons
+      Feathers may be depicted in earthy or vibrant colors
+      Varied depictions across different cultures
+      Associated with Arabian and Persian mythology
+      Sometimes linked with Sindbad's adventures
+      Symbolic of nature's grandeur and power
+      Perception as a mythical and colossal bird
   name: roc
-  perception:
-  - generally neutral
-  - associated with mythical adventures in persian folklore
-  size: large
 satyr:
   characteristics:
-  - human upper body with goat legs
-  - mischievous and fond of revelry
+  - Half-human, half-goat creature
+    - Humanoid upper body with goat-like lower body
+    - Often depicted with horns on the head
+    - Goat ears and sometimes a goat tail
+    - Hooved feet and legs
+    - Playful and mischievous expression
+    - Often shown with a pan flute or other musical instrument
+    - Known for revelry, music, and dancing
+    - Associated with the god Pan in Greek mythology
+    - Varied depictions in art, literature, and mythology
+    - Perception as a lively and hedonistic woodland creature
   name: satyr
   perception:
   - both mischievous and benevolent
@@ -627,27 +686,38 @@ satyr:
   size: medium
 selkie:
   characteristics:
-  - seal-like in water
-  - human appearance on land
-  - possesses a magical seal skin
+  -  Mythical creature from Celtic and Norse folklore
+    - Typically depicted as a seal in the water
+    - Can shed its seal skin to become human on land
+    - Human form often described as attractive
+    - May be shown wearing a seal skin cloak on land
+    - Connection to the sea and transformation
+    - Often associated with stories of love and tragedy
+    - Varied depictions in Celtic and Norse mythology
+    - Perception as enchanting and mystical beings
   name: selkie
-  perception:
-  - generally benevolent
-  - associated with shapeshifting and love in celtic folklore
-  size: medium
 semi-ghost:
   characteristics:
-  - ethereal appearance with translucent features
-  - possesses a mix of ghostly and human traits
+  - Ethereal or translucent appearance
+    - May have a faint, ghostly glow
+    - Features a mix of human and ghost-like characteristics
+    - Sometimes depicted with a partially visible or transparent form
+    - May exhibit signs of an unfinished journey to the afterlife
+    - Varied depictions, ranging from haunting to more benevolent
+    - Often associated with unresolved emotions or tasks
+    - Perception as a being caught between the physical and spiritual realms
   name: semi-ghost
-  perception:
-  - varied, benevolent, neutral, or malevolent
-  - associated with lingering spirits and supernatural occurrences
-  size: varies (small to medium)
 siren:
   characteristics:
-  - female creatures with enchanting voices
-  - lure sailors with their songs
+  - Mythical creature with a captivating appearance
+    - Typically depicted as female with a beautiful and seductive allure
+    - May have avian features, such as wings or feathers
+    - Sometimes shown with fish-like tails or scales
+    - Enchanting and melodic singing voice
+    - Lures sailors and travelers with their songs
+    - Associated with dangerous and rocky coastlines
+    - Varied depictions in Greek and other mythologies
+    - Perception as alluring and potentially perilous beings
   name: siren
   perception:
   - both alluring and dangerous
@@ -655,8 +725,17 @@ siren:
   size: medium
 sphinx:
   characteristics:
-  - human head with lion body
-  - poses riddles to travelers
+  - Mythical creature with a lion's body and human head
+    - Often depicted with wings
+    - Human head typically female
+    - Regal and imposing posture
+    - Sometimes portrayed with a serpent's tail
+    - Enigmatic and wise expression
+    - Known for posing riddles to travelers
+    - Associated with Greek and Egyptian mythology
+    - Guardian of mysteries and knowledge
+    - Symbol of wisdom and enigma
+    - Perception as a majestic and mysterious guardian
   name: sphinx
   perception:
   - neutral, often seen as guardians
@@ -664,9 +743,15 @@ sphinx:
   size: large
 spriggan:
   characteristics:
-  - small, grotesque creature
-  - guardians of buried treasure
-  - can change size at will
+  - Small and grotesque creature
+    - Typically depicted with a mischievous or malicious demeanor
+    - Distorted or exaggerated features
+    - May have a gnarled and twisted appearance
+    - Often associated with guarding treasures or burial mounds
+    - Known for shape-shifting abilities
+    - Sometimes depicted as guardians of natural features
+    - Varied depictions in Cornish and English folklore
+    - Perception as cunning and sometimes troublesome beings
   name: spriggan
   perception:
   - generally seen as mischievous or hostile
@@ -684,8 +769,17 @@ succubus:
   - associated with night demons in folklore
 thunderbird:
   characteristics:
-  - giant bird associated with thunderstorms
-  - symbol of power and strength
+  - Large and powerful mythical bird
+    - Often associated with thunderstorms
+    - Thunderous flapping of wings produces thunder
+    - May have lightning bolts in its talons
+    - Wingspan described as enormous
+    - Feathers in vibrant and striking colors
+    - Prominent in Native American mythology
+    - Symbol of power and transformation
+    - Associated with the natural forces of thunder and lightning
+    - Varied depictions across different Native American cultures
+    - Perception as a majestic and formidable creature
   name: thunderbird
   perception:
   - generally seen as benevolent
@@ -693,9 +787,16 @@ thunderbird:
   size: large
 tikbalang:
   characteristics:
-  - horse-like humanoid
-  - hooves instead of feet
-  - often depicted as mischievous
+  - Mythical creature from Philippine folklore
+    - Often depicted as a tall and humanoid creature
+    - Horse-like head with long mane
+    - Hooved feet, similar to a horse's
+    - Covered in fur or hair
+    - Capable of shape-shifting
+    - Known for playing tricks on travelers
+    - Associated with forests and mountains
+    - Perception as a mischievous and sometimes malevolent being
+    - Varied depictions across different regions of the Philippines
   name: tikbalang
   perception:
   - generally seen as mischievous but not always malevolent
@@ -703,19 +804,29 @@ tikbalang:
   size: large
 tomte:
   characteristics:
-  - small, bearded creature
-  - wears a conical hat
-  - guardian of the household and farm
+  - Small, gnome-like creature
+    - Often depicted with a long white beard
+    - Pointed hat, typically red or earth-toned
+    - Wears practical and rustic clothing
+    - Carries a sack of gifts or a staff
+    - Guardian of the household and farmstead
+    - Known for bringing good luck or protection
+    - May have a connection to Scandinavian and Nordic folklore
+    - Varied depictions in different regions
+    - Perception as a benevolent and protective household spirit
   name: tomte
-  perception:
-  - generally seen as benevolent
-  - associated with scandinavian folklore
-  size: small
 unicorn:
   characteristics:
-  - horse-like body
-  - single spiral horn on the forehead
-  - elegant and graceful
+  - Horse-like creature with a single horn on the forehead
+    - Typically depicted as white or light-colored
+    - Spiraled or straight horn, often depicted as long and slender
+    - Elegant and noble posture
+    - Gentle and wise expression
+    - Sometimes shown with cloven hooves
+    - Symbol of purity and grace
+    - Associated with magic and enchantment
+    - Varied depictions in mythology, folklore, and fantasy
+    - Perception as a mythical and majestic being
   name: unicorn
   perception:
   - symbol of purity and grace
@@ -723,8 +834,16 @@ unicorn:
   size: medium
 valkyrie:
   characteristics:
-  - norse warrior maidens
-  - winged and armed with weapons
+  - Female warrior or spirit from Norse mythology
+    - Often depicted with armor and weaponry
+    - May have wings and ride winged horses
+    - Radiant and noble appearance
+    - Sometimes portrayed with a spear or sword
+    - Choosers of the slain in battle
+    - Serve Odin and guide fallen warriors to the afterlife
+    - Associated with bravery and honor
+    - Varied depictions in Norse mythology and art
+    - Perception as powerful and otherworldly warrior maidens
   name: valkyrie
   perception:
   - generally seen as benevolent
@@ -732,10 +851,17 @@ valkyrie:
   size: medium
 vampire:
   characteristics:
-  - fangs for blood-sucking
-  - immortality or longevity
-  - hypnotic charm
-  - vulnerability to sunlight
+  - Supernatural creature that preys on the blood of the living
+    - Typically depicted as humanoid
+    - Pale or deathly complexion
+    - Sharp fangs for biting and extracting blood
+    - Hypnotic or alluring gaze
+    - Immortal or long-lived existence
+    - Often associated with charm and seduction
+    - May have the ability to transform into other creatures
+    - Vulnerability to sunlight and often nocturnal
+    - Varied depictions across different cultures and folklore
+    - Perception as a mysterious and sometimes malevolent being
   name: vampire
   perception:
   - often depicted as hostile
@@ -743,18 +869,29 @@ vampire:
   size: medium
 wendigo:
   characteristics:
-  - cannibalistic monster or spirit
-  - associated with winter and famine
+  - Mythical creature from Algonquian folklore
+    - Often depicted as a gaunt and emaciated humanoid
+    - Skull-like or antlered head
+    - Sharp and elongated claws or talons
+    - May have a body covered in ice or frost
+    - Associated with cannibalism and the winter wilderness
+    - Sometimes depicted with glowing eyes
+    - Linked to a curse or supernatural transformation
+    - Varied depictions in Native American folklore
+    - Perception as a malevolent and cursed being
   name: wendigo
-  perception:
-  - generally seen as malevolent
-  - symbol of greed and the consequences of taboo
-  size: large
 werewolf:
   characteristics:
-  - human-wolf hybrid form
-  - transformation during full moon
-  - enhanced senses and strength
+  - Humanoid creature with the ability to transform into a wolf
+    - Typically depicted with fur, snout, and claws in wolf form
+    - May have glowing eyes and enlarged fangs
+    - Transformation often occurs during a full moon
+    - Powerful and wolf-like posture in transformed state
+    - May retain human intelligence or become feral
+    - Associated with curses, bites, or lunar influences
+    - Vulnerable to silver, according to folklore
+    - Varied depictions in mythology, folklore, and literature
+    - Perception as a fearsome and sometimes tragic creature
   name: werewolf
   perception:
   - both sympathetic and hostile
@@ -762,17 +899,42 @@ werewolf:
   size: medium
 will-o-the-wisp:
   characteristics:
-  - atmospheric ghost lights
-  - lead travelers astray in marshy areas
+  - Phosphorescent light or flame
+    - Often depicted as a flickering and floating light
+    - Varied colors, such as blue, green, or white
+    - Appears in marshy or swampy areas
+    - May lead travelers astray or vanish when approached
+    - Associated with folklore and supernatural phenomena
+    - Sometimes believed to be mischievous or malevolent
+    - Varied cultural interpretations and names (e.g., ignis fatuus)
+    - Perception as mysterious and enchanting lights in the night
   name: will-o'-the-wisp
   perception:
   - generally neutral
   - associated with folklore and mysterious lights in various cultures
   size: small
+wolpertinger:
+    - >-
+      Mythical creature from Bavarian folklore
+    - Hybrid creature with various animal parts
+    - Typically depicted with wings, antlers, fangs, and feathers
+    - May have rabbit-like ears or features
+    - Small and furry body, often resembling a mammal
+    - Imagined combinations of different animals
+    - Associated with humorous and imaginative folklore
+    - Popularized as a taxidermy curiosity in Bavaria
+    - Perception as a whimsical and fictional creature
 wraith:
   characteristics:
-  - ghostly, malevolent spirit
-  - associated with death and revenge
+  - Ghostly or spectral entity
+    - Typically depicted as a shadowy or ethereal figure
+    - May have a shrouded or tattered appearance
+    - Glowing or empty eye sockets
+    - Capable of passing through solid objects
+    - Sometimes associated with malevolence or revenge
+    - Linked with spirits of the deceased
+    - Varied depictions in folklore and fantasy literature
+    - Perception as a haunting and otherworldly presence
   name: wraith
   perception:
   - generally seen as malevolent
@@ -780,20 +942,273 @@ wraith:
   size: medium
 yeti:
   characteristics:
-  - large, ape-like creature
-  - covered in fur or hair
-  - inhabits mountainous regions
-  name: yeti/abominable snowman
-  perception:
-  - generally seen as elusive and shy
-  - folklore from himalayan regions
-  size: large
+  -  Cryptid ape-like creature
+    - Covered in fur or hair
+    - Large and humanoid appearance
+    - Thick and stocky build
+    - Often depicted with long arms
+    - May have a hunched or stooped posture
+    - Fur color varies, often depicted as white or brown
+    - Sometimes shown with a prominent brow ridge
+    - Associated with the Himalayan region
+    - Varied depictions in folklore and cryptozoology
+    - Perception as an elusive and mysterious mountain-dwelling creature
+  name: yeti
 yuki-onna:
   characteristics:
-  - snow woman with icy or ghostly appearance
-  - drains life force or freezes victims
+  - Japanese snow spirit or ghost
+    - Typically depicted as a woman with a cold and ethereal beauty
+    - White kimono or burial robe
+    - Long black hair that contrasts with her pale skin
+    - Glowing or haunting eyes
+    - Sometimes associated with icy breath or frost
+    - May appear in snowy landscapes
+    - Linked with winter and snow-related folklore
+    - Known for her haunting and sometimes malevolent nature
+    - Varied depictions in Japanese mythology and folklore
+    - Perception as a supernatural being associated with cold and snow
   name: yuki-onna
   perception:
   - varied, benevolent or malevolent
   - associated with winter and snow in japanese folklore
   size: medium
+
+
+
+vulpra:
+
+
+
+
+	
+
+easter bunny
+ Anthropomorphic rabbit or hare
+    - Often depicted with colorful eggs
+    - May wear festive clothing or accessories
+    - Carries a basket filled with Easter eggs
+    - Symbol of fertility, rebirth, and spring
+    - Associated with Easter celebrations and traditions
+    - Varied depictions in folklore and popular culture
+    - Perception as a cheerful and festive figure associated with Easter
+	
+mandrake:
+ Herbaceous plant with a human-like root
+    - Often depicted as having forked or humanoid roots
+    - Sometimes portrayed with leaves and fruits
+    - Root may resemble a small human figure
+    - Associated with magical and mystical properties
+    - Folklore suggests the plant's scream when pulled from the ground
+    - Used in various potions and rituals in folklore
+    - Varied depictions in magical traditions and literature
+    - Perception as a magical and potent herb with mystical qualities
+	
+gargoyle:
+Stone grotesque creature
+    - Often depicted as a winged humanoid or monstrous figure
+    - Perched on buildings, especially on Gothic architecture
+    - Grotesque facial features, including fangs and horns
+    - Usually carved with an open mouth to channel rainwater
+    - Associated with architectural ornamentation
+    - Sometimes depicted as protectors against evil spirits
+    - Varied depictions in medieval art and architecture
+    - Perception as stone guardians or decorative features on structures
+	
+wild hunt:
+Mythical and spectral hunting procession
+    - Led by a supernatural or divine figure
+    - Comprised of spectral hunters and hounds
+    - Often depicted riding through the night sky
+    - May include otherworldly or ghostly beings
+    - Associated with folklore across European cultures
+    - Linked with the passing of seasons or otherworldly events
+    - Sometimes believed to be an omen of disaster or war
+    - Varied depictions in mythology and folk traditions
+    - Perception as a spectral and awe-inspiring hunting phenomenon
+
+firebird:
+Mythical bird associated with fire and light
+    - Often depicted with vibrant and fiery plumage
+    - Wings that emit flames or radiant light
+    - May have a majestic and regal appearance
+    - Sometimes depicted with a crest or crown
+    - Symbol of beauty, immortality, and resurrection
+    - Associated with Slavic folklore and mythology
+    - Known for its elusive and magical nature
+    - Varied depictions in art, literature, and ballet
+    - Perception as a mythical and enchanting bird
+	
+mothman:
+Cryptid creature often described as humanoid with moth-like features
+    - Large wings resembling moth or bat wings
+    - Glowing or reflective red eyes
+    - Fur or feather-covered body, often dark in color
+    - Tall and imposing stature
+    - Sometimes associated with foretelling disasters
+    - Linked with sightings in Point Pleasant, West Virginia
+    - Varied depictions in folklore, cryptozoology, and popular culture
+    - Perception as an enigmatic and mysterious creature
+	
+shellycoat:
+Mischievous water spirit or creature
+    - Typically depicted as covered in shells or scales
+    - Shimmering or iridescent appearance
+    - May have a humanoid or fantastical form
+    - Known for creating noises and disturbances near water
+    - Linked with Scottish and Irish folklore
+    - Varied depictions in tales of water spirits
+    - Perception as a playful and elusive being associated with waterways
+	
+abaddon:
+Often described as a destructive or abyssal entity
+    - Associated with the realm of the dead or the underworld
+    - May be depicted as a dark and malevolent presence
+    - Sometimes portrayed as a personification of destruction
+    - Linked with various religious and mythological traditions
+    - Symbolic of chaos, death, or the ultimate abyss
+    - Varied interpretations across different cultures
+    - Perception as a malevolent force or entity associated with destruction
+	
+strigoi:
+ Mythical creature from Romanian folklore
+    - Often depicted as an undead or vampiric being
+    - Pale or deathly complexion
+    - Sharp fangs for biting and extracting blood
+    - May have the ability to transform into animals
+    - Linked with curses and malevolent supernatural powers
+    - Varied depictions in Eastern European folklore
+    - Perception as a vampiric and malevolent entity
+	
+nessie:
+Cryptid creature associated with Loch Ness in Scotland
+    - Often described as a large and long-necked aquatic animal
+    - Hump or series of humps visible on the water's surface
+    - Varied depictions of its appearance
+    - Associated with sightings and folklore since the early 20th century
+    - Subject of speculation, with some suggesting a plesiosaur-like creature
+    - Varied depictions in popular culture and media
+    - Perception as an elusive and mysterious creature in Loch Ness
+	
+house elf:
+Small and humanoid creature
+    - Typically depicted with large, bat-like ears
+    - Wears simple and tattered clothing
+    - Often has a subservient or humble demeanor
+    - May have large, expressive eyes
+    - Associated with domestic service in magical settings
+    - Known for their loyalty and dedication to their households
+    - Varied depictions in fantasy literature and media
+    - Perception as magical beings with a strong sense of duty
+	
+
+dementor:
+ Dark and hooded humanoid creature
+    - Cloaked in tattered, hooded robes
+    - No visible face or distinct features
+    - Drains happiness and positive emotions from its surroundings
+    - Emits a cold and despair-inducing aura
+    - Associated with the Harry Potter series by J.K. Rowling
+    - Serves as guards for the wizarding prison, Azkaban
+    - Can administer the Dementor's Kiss, a soul-sucking kiss
+    - Symbolizes fear, despair, and the darkest aspects of magic
+    - Perception as terrifying and soul-draining magical entities
+
+belial:
+Often represented as a demonic or malevolent figure
+    - May be depicted with horns, wings, and a tail
+    - Sometimes shown with a humanoid appearance
+    - Associated with deceit, wickedness, and rebellion
+    - Varied interpretations across religious and mythological traditions
+    - Often portrayed as a demon or fallen angel
+    - Linked with temptation and corrupting influence
+    - Varied depictions in literature, art, and religious texts
+    - Perception as a malevolent and rebellious force
+	
+	
+draugr:
+Undead creature from Norse mythology
+    - Typically depicted as a reanimated corpse
+    - Decayed and skeletal appearance
+    - May be depicted as wearing burial clothes or armor
+    - Often associated with a burial mound or tomb
+    - Guardian of the grave and treasure
+    - Possesses superhuman strength
+    - May have the ability to shape-shift or grow in size
+    - Linked with Viking and Norse funeral traditions
+    - Varied depictions in Scandinavian folklore
+    - Perception as a malevolent and undead guardian
+	
+djinn:
+Supernatural beings from Arabian mythology
+    - Often depicted as shape-shifters
+    - May take on human or animal forms
+    - Can be invisible or visible at will
+    - Possess magical abilities and knowledge
+    - Associated with granting wishes to those who summon them
+    - Varied depictions, ranging from benevolent to malevolent
+    - Categorized into different types, including Marid and Ifrit
+    - Linked with Arabian folklore and One Thousand and One Nights
+    - Perception as powerful and magical entities with free will
+marid:
+Powerful type of Djinn in Arabian mythology
+    - Typically depicted as larger and more powerful than other Djinn
+    - May have a humanoid or monstrous appearance
+    - Possesses strong magical abilities
+    - Associated with bodies of water, such as oceans or seas
+    - Known for their free will and independence
+    - Varied depictions in Arabian folklore and literature
+    - Perception as formidable and sometimes capricious entities
+
+lilith:
+Mythical figure from various traditions
+    - Often depicted as a seductive and powerful woman
+    - May be portrayed with wings or other supernatural attributes
+    - Associated with night and darkness
+    - Varied interpretations, including as a demon or vampire
+    - Linked with themes of independence and rebellion
+    - Sometimes associated with motherhood and fertility
+    - Varied depictions in Jewish, Christian, and other mythologies
+    - Perception as a complex and multifaceted mythological figure
+	
+diablo:
+Iconic character from the Diablo video game series
+    - Often depicted as a large, menacing demon
+    - Horned and demonic appearance
+    - Red or dark-colored skin
+    - Possesses formidable powers and weaponry
+    - Associated with the Lord of Terror in the game's narrative
+    - Varied depictions across different installments of the series
+    - Perception as a powerful and malevolent antagonist in the Diablo universe
+
+mephisto:
+Mythical and demonic figure in various traditions
+    - Often depicted as a cunning and malevolent demon
+    - May have horns, a pointed tail, and demonic features
+    - Dark or red-colored skin
+    - Associated with temptation and corruption
+    - Varied interpretations in literature, art, and religious texts
+    - Frequently portrayed as a counterpart to Faustian deals
+    - Linked with the Faust legend and medieval morality plays
+    - Perception as a sinister and cunning figure associated with deals and temptation
+	
+baal:
+Deity or demon in ancient Semitic and Canaanite religions
+    - Often depicted with anthropomorphic and zoomorphic features
+    - May be associated with fertility, storms, and warfare
+    - Varied depictions across different cultures and periods
+    - Sometimes portrayed with a bull's head or horns
+    - Linked with ritualistic practices and worship
+    - Worship of Baal mentioned in historical texts and biblical references
+    - Perception as a deity or supernatural being with diverse attributes
+
+
+Jötun:
+Mythical beings from Norse mythology
+    - Often depicted as giants or supernatural entities
+    - May have a humanoid appearance
+    - Associated with primal forces of nature
+    - Varied in size, ranging from human-sized to colossal
+    - Sometimes linked with chaos and conflict
+    - Included figures like Ymir and Surtr
+    - Varied depictions in Norse sagas and mythology
+    - Perception as powerful and ancient beings in Norse cosmology
