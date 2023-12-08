@@ -7,6 +7,8 @@ magical-beings:
               chaos, death, ultimate abyss
         name:
             - abaddon
+        prompt:
+            - __magical-beings/abaddon/name__, __magical-beings/abaddon/characteristics__
     alraune:
         characteristics:
             - >-
@@ -17,14 +19,18 @@ magical-beings:
               plant-based accessories or ornaments
         name:
             - alraune
+        prompt:
+            - __magical-beings/alraune/name__, __magical-beings/alraune/characteristics__
     amazon:
         characteristics:
             - >-
-              fearless warrior, skilled archer, formidable strength, independent and
+              fearless female warrior, skilled archer, formidable strength, independent and
               self-reliant, tall and muscular stature, battle-hardened, warriors of ancient
               myths, honor and bravery, fantasy
         name: 
             - amazon
+        prompt:
+            - __magical-beings/amazon/name__, __magical-beings/amazon/characteristics__
     angel:
         characteristics:
             - >-
@@ -37,6 +43,9 @@ magical-beings:
               divine realm, symbolize purity and innocence, emanate ethereal light, fantasy
         name:
             - angel
+        prompt:
+            - >-
+              {female|male}  __magical-beings/angel/name__, __magical-beings/angel/characteristics__
     aswang:
         characteristics:
             - >-
@@ -45,6 +54,9 @@ magical-beings:
               dark ominous presence, sinister malevolent expression
         name:
             - aswang
+        prompt:
+            - >-
+              {female|male}   __magical-beings/aswang/name__, __magical-beings/aswang/characteristics__
     baal:
         characteristics:
             - >-
@@ -52,6 +64,8 @@ magical-beings:
               {fertility|storms|warfare}, bull's head, horns
         name:
             - baal
+        prompt:
+            - __magical-beings/baal/name__, __magical-beings/baal/characteristics__
     banshee:
         characteristics:
             - >-
@@ -62,6 +76,9 @@ magical-beings:
               floating, gliding, omen of death, {benevolent|malevolent}
         name:
             - banshee
+        prompt:
+            - >-
+              {female|male}  __magical-beings/banshee/name__, __magical-beings/banshee/characteristics__
     basilisk:
         characteristics:
             - >-
@@ -73,6 +90,8 @@ magical-beings:
               {0.05::wings|},sense of danger and fear
         name:
             - basilisk
+        prompt:
+            - __magical-beings/basilisk/name__, __magical-beings/basilisk/characteristics__
     belial:
         characteristics:
             - >-
@@ -82,6 +101,8 @@ magical-beings:
               temptation, corrupting influence, malevolent force
         name:
             - belial
+        prompt:
+            - __magical-beings/belial/name__, __magical-beings/belial/characteristics__
     bigfoot:
         characteristics:
             - >-
@@ -90,6 +111,8 @@ magical-beings:
               elusive mysterious forest-dwelling creature
         name:
             - bigfoot
+        prompt:
+            - __magical-beings/bigfoot/name__, __magical-beings/bigfoot/characteristics__
     brownie:
         characteristics:
             - >- 
@@ -100,6 +123,9 @@ magical-beings:
               helpful household tasks, domestic environments
         name:
             - brownie
+        prompt:
+            - >-
+              {female|male}  __magical-beings/brownie/name__, __magical-beings/brownie/characteristics__
     centaur:
         characteristics:
             - >-
@@ -113,6 +139,8 @@ magical-beings:
               equine lower body, human upper body,guardians of the wild, fantasy
         name:
             - centaur
+        prompt:
+            - __magical-beings/centaur/name__, __magical-beings/centaur/characteristics__
     changeling:
         characteristics:
             - >-
@@ -124,6 +152,9 @@ magical-beings:
               {innocent|mischievous}
         name:
             - changeling
+        prompt:
+            - >-
+              {female|male}  __magical-beings/changeling/name__, __magical-beings/changeling/characteristics__
     chimera:
         characteristics:
             - >-
@@ -133,6 +164,8 @@ magical-beings:
               {scaled|fur} covered body, symbol of chaos, mythical hybridization
         name:
             - chimera
+        prompt:
+            - __magical-beings/chimera/name__, __magical-beings/chimera/characteristics__
     christmas_elf:
         characteristics:
             - >-
@@ -143,6 +176,9 @@ magical-beings:
               joyful, industrious, and benevolent
         name:
             - christmas elf
+        prompt:
+            - >-
+              {female|male}  __magical-beings/christmas elf/name__, __magical-beings/christmas elf/characteristics__
     chupacabra:
         characteristics:
             - >-
@@ -152,6 +188,8 @@ magical-beings:
               {glowing|menacing} eyes, {pointed|stand upright} ears,
         name:
             - chupacabra
+        prompt:
+            - __magical-beings/chupacabra/name__, __magical-beings/chupacabra/characteristics__
     cockatrice:
         characteristics:
             - >-
@@ -162,6 +200,8 @@ magical-beings:
               {fierce aggressive demeanor|distinctive, intimidating|hostile and dangerous}
         name:
             - cockatrice
+        prompt:
+            - __magical-beings/cockatrice/name__, __magical-beings/cockatrice/characteristics__
     cyclope:
         characteristics:
             - >-
@@ -170,7 +210,9 @@ magical-beings:
               for strength and brutality, fantasy, greek mythology
         name: 
             - cyclope
-    dark_elf:
+        prompt:
+            - __magical-beings/cyclope/name__, __magical-beings/cyclope/characteristics__
+    dark-elf:
         characteristics:
             - >-
               fictional elfish individual, slender agile build,
@@ -182,6 +224,9 @@ magical-beings:
         name:
             - dark elf
             - drow
+        prompt:
+            - >-
+              {female|male}  __magical-beings/dark-elf/name__, __magical-beings/dark-elf/characteristics__
     death:
         characteristics:
             - >-
@@ -191,6 +236,8 @@ magical-beings:
               afterlife, universal inexorable force in existence
         name:
             - death
+        prompt:
+            - __magical-beings/death/name__, __magical-beings/death/characteristics__
     dementor:
         characteristics:
             - >-
@@ -202,6 +249,8 @@ magical-beings:
               fear, despair, darkest aspects of magic
         name:
             - dementor
+        prompt:
+            - __magical-beings/dementor/name__, __magical-beings/dementor/characteristics__
     demon:
         characteristics:
             - >-
@@ -209,12 +258,18 @@ magical-beings:
               corrupt,harm full, fantasy
         name:
             - demon
+        prompt:
+            - >-
+              {female|male}  __magical-beings/demon/name__, __magical-beings/demon/characteristics__
     devil:
         characteristics:
             - >-
               embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
         name:
             - devil
+        prompt:
+            - >-
+              {female|male}  __magical-beings/devil/name__, __magical-beings/devil/characteristics__
     diablo:
         characteristics:
             - >-
@@ -226,6 +281,8 @@ magical-beings:
               humanoid created from smokeless fire, fantasy
         name:
             - diablo
+        prompt:
+            - __magical-beings/diablo/name__, __magical-beings/diablo/characteristics__
     djinn:
         characteristics:
             - >-
@@ -234,6 +291,9 @@ magical-beings:
               grants wishes, {benevolent|malevolent}
         name:
             - djinn
+        prompt:
+            - >-
+              {female|male}  __magical-beings/djinn/name__, __magical-beings/djinn/characteristics__
     doppelganger:
         characteristics:
             - >-
@@ -245,6 +305,9 @@ magical-beings:
               {mysterious|ominous} circumstance
         name:
             - doppelganger
+        prompt:
+            - >-
+              {female|male}  __magical-beings/doppelganger/name__, __magical-beings/doppelganger/characteristics__
     dragonborn:
         # real dragons with __bo/creatures/dragon*__
         characteristics:
@@ -256,6 +319,9 @@ magical-beings:
               {wise|protective|dangerous|regal powerful presence}
         name:
             - dragonborn
+        prompt:
+            - >-
+              {female|male}  __magical-beings/dragonborn/name__, __magical-beings/dragonborn/characteristics__
     dragon-human-form:
         # real dragons with __bo/creatures/dragon*__
         characteristics:
@@ -270,6 +336,9 @@ magical-beings:
               features,scales, wings, wise, ancient being, knowledge, fantasy
         name:
             - dragon human form
+        prompt:
+            - >-
+              {female|male}  __magical-beings/dragon-human-form/name__, __magical-beings/dragon-human-form/characteristics__
     draugr:
         characteristics:
             - >-
@@ -278,6 +347,8 @@ magical-beings:
               guardian graves and treasures, superhuman strength
         name:
             - draugr
+        prompt:
+            - __magical-beings/draugr/name__, __magical-beings/draugr/characteristics__
     dryad:
         characteristics:
             - >-
@@ -289,6 +360,8 @@ magical-beings:
               {benevolent|guardians of the forest in greek mythology|aura of natural beauty and grace}
         name:
             - dryad
+        prompt:
+            - __magical-beings/dryad/name__, __magical-beings/dryad/characteristics__
     dullahan:
         characteristics:
             - >-
@@ -300,6 +373,8 @@ magical-beings:
               mysterious foreboding aura
         name:
             - dullahan
+        prompt:
+            - __magical-beings/dullahan/name__, __magical-beings/dullahan/characteristics__
     dwarf:
         characteristics:
             - >-
@@ -311,6 +386,9 @@ magical-beings:
               craftsmanship,{0.8::gold, gems|}
         name:
             - dwarf
+        prompt:
+            - >-
+              {female|male}  __magical-beings/dwarf/name__, __magical-beings/dwarf/characteristics__
     elf:
         characteristics:
             - >-
@@ -324,6 +402,9 @@ magical-beings:
               youthful appearance, graceful, ethereal, magical, fantasy
         name:
             - elf
+        prompt:
+            - >-
+              {female|male}  __magical-beings/elf/name__, __magical-beings/elf/characteristics__
     enenra:
         characteristics:
             - >-
@@ -334,6 +415,8 @@ magical-beings:
               {benign neutral entity|serene or tranquil aura|ghostly apparitions}
         name:
             - enenra
+        prompt:
+            - __magical-beings/enenra/name__, __magical-beings/enenra/characteristics__
     erlking:
         characteristics:
             - >-
@@ -346,6 +429,8 @@ magical-beings:
               {benevolent|malevolent|sense of melancholy and mystery|linked with spirits of the forest}
         name:
             - erlking
+        prompt:
+            - __magical-beings/erlking/name__, __magical-beings/erlking/characteristics__
     easter-bunny:
         characteristics:
             - >-
@@ -355,6 +440,9 @@ magical-beings:
               fertility, rebirth, spring, cheerful
         name:
             - easter bunny
+        prompt:
+            - >-
+              {female|male}  __magical-beings/easter-bunny/name__, __magical-beings/easter-bunny/characteristics__
     fairy:
         characteristics:
             - >-
@@ -369,6 +457,9 @@ magical-beings:
               places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
         name:
             - fairy
+        prompt:
+            - >-
+              {female|male}  __magical-beings/fairy/name__, __magical-beings/fairy/characteristics__
     fenghuang:
         characteristics:
             - >-
@@ -379,6 +470,8 @@ magical-beings:
               wings, claws, {harmony, beauty, good fortune|positive auspicious symbol}
         name:
             - fenghuang
+        prompt:
+            - __magical-beings/fenghuang/name__, __magical-beings/fenghuang/characteristics__
     firebird:
         characteristics:
             - >-
@@ -388,6 +481,8 @@ magical-beings:
               elusive, magical nature,
         name:
             - firebird
+        prompt:
+            - __magical-beings/firebird/name__, __magical-beings/firebird/characteristics__
     gargoyle:
         characteristics:
             - >- 
@@ -396,6 +491,8 @@ magical-beings:
               {0.2::protectors against evil spirits,|} stone guardians
         name:
             - gargoyle
+        prompt:
+            - __magical-beings/gargoyle/name__, __magical-beings/gargoyle/characteristics__
     ghoul:
         characteristics:
             - >-
@@ -406,6 +503,8 @@ magical-beings:
               tattered or burial clothing, undead
         name:
             - ghoul
+        prompt:
+            - __magical-beings/ghoul/name__, __magical-beings/ghoul/characteristics__
     giant:
         characteristics:
             - >-
@@ -413,6 +512,9 @@ magical-beings:
               and wise, force of nature, legendary strength, fantasy
         name:
             - giant
+        prompt:
+            - >-
+              {female|male}  __magical-beings/giant/name__, __magical-beings/giant/characteristics__
     gnome:
         characteristics:
             - >-
@@ -427,6 +529,9 @@ magical-beings:
               the earth and nature, gardening and craftsmanship, fantasy
         name:
             - gnome
+        prompt:
+            - >-
+              {female|male}  __magical-beings/gnome/name__, __magical-beings/gnome/characteristics__
     goblin:
         characteristics:
             - >-
@@ -443,6 +548,8 @@ magical-beings:
               in stature, around 2 to 3 feet tall, fantasy
         name:
             - goblin
+        prompt:
+            - __magical-beings/goblin/name__, __magical-beings/goblin/characteristics__
     gorgon:
         characteristics:
             - >- 
@@ -452,6 +559,9 @@ magical-beings:
               {tusks|fangs|},medusa, powerful and dangerous mythical creature
         name:
             - gorgon
+        prompt:
+            - >-
+              {female|male}  __magical-beings/gorgon/name__, __magical-beings/gorgon/characteristics__
     harpy:
         characteristics:
             - >-
@@ -466,6 +576,8 @@ magical-beings:
               vicious and malevolent, fantasy
         name:
             - harpy
+        prompt:
+            - __magical-beings/harpy/name__, __magical-beings/harpy/characteristics__
     heinzelmaennchen:
         characteristics:
             - >-
@@ -480,6 +592,8 @@ magical-beings:
               perform household chores, night, benevolent diligent
         name:
             - heinzelmännchen
+        prompt:
+            - __magical-beings/heinzelmaennchen/name__, __magical-beings/heinzelmaennchen/characteristics__
     hippogriff:
         characteristics:
             - >-
@@ -491,6 +605,8 @@ magical-beings:
               symbol of chivalric romance, mythology, bravery, strength,
         name:
             - hippogriff
+        prompt:
+            - __magical-beings/hippogriff/name__, __magical-beings/hippogriff/characteristics__
     hobgoblin:
         characteristics:
             - >-
@@ -502,7 +618,9 @@ magical-beings:
               trickery, causing trouble
         name:
             - hobgoblin
-    house elf:
+        prompt:
+            - __magical-beings/hobgoblin/name__, __magical-beings/hobgoblin/characteristics__
+    house-elf:
         characteristics:
             - >-
               small humanoid being, large pointed ears,
@@ -511,6 +629,9 @@ magical-beings:
               loyalty, dedication, strong sense of duty
         name:
             - house elf
+        prompt:
+            - >-
+              {female|male}  __magical-beings/house-elf/name__, __magical-beings/house-elf/characteristics__
     huldra:
         characteristics:
             - >-
@@ -521,6 +642,8 @@ magical-beings:
               seductive, mysterious forest spirit, {benevolent|mischievous}
         name:
             - huldra
+        prompt:
+            - __magical-beings/huldra/name__, __magical-beings/huldra/characteristics__
     ifrit:
         characteristics:
             - >-
@@ -531,6 +654,8 @@ magical-beings:
               formidable and elemental force
         name:
             - ifrit
+        prompt:
+            - __magical-beings/ifrit/name__, __magical-beings/ifrit/characteristics__
     imp:
         characteristics:
             - >-
@@ -541,6 +666,8 @@ magical-beings:
               {prone|playful|malevolent}
         name:
             - imp
+        prompt:
+            - __magical-beings/imp/name__, __magical-beings/imp/characteristics__
     incubus:
         characteristics:
             - >-
@@ -549,6 +676,8 @@ magical-beings:
               dark demonic hues, enticing, nighttime seduction, sexual nightmares,
         name:
             - incubus
+        prompt:
+            - __magical-beings/incubus/name__, __magical-beings/incubus/characteristics__
     jabberwocky:
         characteristics:
             - >-
@@ -558,6 +687,8 @@ magical-beings:
               wings,tail, mythical fantastical realm
         name:
             - jabberwocky
+        prompt:
+            - __magical-beings/jabberwocky/name__, __magical-beings/jabberwocky/characteristics__
     jinn:
         characteristics:
             - >-
@@ -567,6 +698,8 @@ magical-beings:
               {granting wishes,|causing harm,|} powerful and mysterious
         name:
             - jinn
+        prompt:
+            - __magical-beings/jinn/name__, __magical-beings/jinn/characteristics__
     jotun:
         characteristics:
             - >-
@@ -575,6 +708,9 @@ magical-beings:
               {chaos|conflict}, {0.1::ymir|0.1::surtr|}
         name:
             - jötun
+        prompt:
+            - >-
+              {female|male}  __magical-beings/jotun/name__, __magical-beings/jotun/characteristics__
     kappa:
         characteristics:
             - >-
@@ -584,6 +720,8 @@ magical-beings:
               greenish scaly skin, strength, mischievous
         name:
             - kappa
+        prompt:
+            - __magical-beings/kappa/name__, __magical-beings/kappa/characteristics__
     kelpie:
         characteristics:
             - >-
@@ -592,6 +730,8 @@ magical-beings:
               eyes supernatural alluring quality, webbed hooves
         name:
             - kelpie
+        prompt:
+            - __magical-beings/kelpie/name__, __magical-beings/kelpie/characteristics__
     kitsune-fox-form:
         characteristics:
             - >-
@@ -600,6 +740,8 @@ magical-beings:
               white and red, intelligence, trickery,wisdom, supernatural feats
         name:
             - kitsune
+        prompt:
+            - __magical-beings/kitsune-fox-form/name__, __magical-beings/kitsune-fox-form/characteristics__
     kitsune-human-form:
         characteristics:
             - >-
@@ -611,6 +753,9 @@ magical-beings:
               foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
         name:
             - kitsune
+        prompt:
+            - >-
+              {female|male}  __magical-beings/kitsune-human-form/name__, __magical-beings/kitsune-human-form/characteristics__
     leprechaun:
         characteristics:
             - >-
@@ -624,6 +769,8 @@ magical-beings:
               3-4 feet tall, crafty and elusive, fantasy
         name:
             - leprechaun
+        prompt:
+            - __magical-beings/leprechaun/name__, __magical-beings/leprechaun/characteristics__
     lich:
         characteristics:
             - >-
@@ -635,6 +782,9 @@ magical-beings:
               ancient formidable spellcaster, necromancy, dark magic
         name:
             - lich
+        prompt:
+            - >-
+              {female|male}  __magical-beings/lich/name__, __magical-beings/lich/characteristics__
     lilith:
         characteristics:
             - >-
@@ -644,6 +794,8 @@ magical-beings:
               {0.2::motherhood, fertility,|} complex, multifaceted
         name:
             - lilith
+        prompt:
+            - __magical-beings/lilith/name__, __magical-beings/lilith/characteristics__
     manananggal:
         characteristics:
             - >-
@@ -653,6 +805,8 @@ magical-beings:
               long disheveled hair, distinctive eerie sound, malevolent vampiric entity
         name:
             - manananggal
+        prompt:
+            - __magical-beings/mananaggal/name__, __magical-beings/mananaggal/characteristics__
     mandrake:
         characteristics:
             - >-
@@ -661,6 +815,8 @@ magical-beings:
               magical mystical properties, scream, potent, mystical
         name:
             - mandrake
+        prompt:
+            - __magical-beings/mandrake/name__, __magical-beings/mandrake/characteristics__
     manticore:
         characteristics:
             - >-
@@ -671,6 +827,8 @@ magical-beings:
               formidable legendary beast
         name:
             - manticore
+        prompt:
+            - __magical-beings/manticore/name__, __magical-beings/manticore/characteristics__
     marid:
         characteristics:
             - >-
@@ -678,6 +836,8 @@ magical-beings:
               strong magical, {ocean|sea}, free will, independence, formidable, capricious
         name:
             - marid
+        prompt:
+            - __magical-beings/marid/name__, __magical-beings/marid/characteristics__
     mausebaer:
         characteristics:
             - >-
@@ -685,6 +845,8 @@ magical-beings:
               {playful|serene} expression, enchanting, guardian spirit
         name:
             - mouse baer
+        prompt:
+            - __magical-beings/mausebaer/name__, __magical-beings/mausebaer/characteristics__
     medusa:
         characteristics:
             - >-
@@ -695,6 +857,8 @@ magical-beings:
               fierce intimidating expression, {0.2::wings|}
         name:
             - medusa
+        prompt:
+            - __magical-beings/medusa/name__, __magical-beings/medusa/characteristics__
     mephisto:
         characteristics:
             - >-
@@ -703,6 +867,8 @@ magical-beings:
               temptation, corruption, sinister, eerie
         name:
             - mephisto
+        prompt:
+            - __magical-beings/mephisto/name__, __magical-beings/mephisto/characteristics__
     mermaid:
         characteristics:
             - >-
@@ -715,6 +881,8 @@ magical-beings:
             - upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
         name:
             - mermaid
+        prompt:
+            - __magical-beings/mermaid/name__, __magical-beings/mermaid/characteristics__
     merman:
         characteristics:
             - >-
@@ -725,6 +893,8 @@ magical-beings:
             - upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
         name:
             - merman
+        prompt:
+            - __magical-beings/merman/name__, __magical-beings/merman/characteristics__
     minotaur:
         characteristics:
             - >-
@@ -737,6 +907,8 @@ magical-beings:
               mythology, fierce and monstrous, chaos, primal instinct, fantasy
         name:
             - minotaur
+        prompt:
+            - __magical-beings/minotaur/name__, __magical-beings/minotaur/characteristics__
     minotaurin:
         characteristics:
             - >-
@@ -744,6 +916,8 @@ magical-beings:
               gentle, friendly, large breasts, greek mythology
         name:
             - minotaur
+        prompt:
+            - __magical-beings/minotaurin/name__, __magical-beings/minotaurin/characteristics__
     mothman:
         characteristics:
             - >-
@@ -752,6 +926,9 @@ magical-beings:
               tall imposing stature, foretelling disaster
         name:
             - mothman
+        prompt:
+            - >-
+              {female|male}  __magical-beings/mothman/name__, __magical-beings/mothman/characteristics__
     mummy:
         characteristics:
             - >-
@@ -760,6 +937,9 @@ magical-beings:
               ancient artifacts and jewelry,curses, supernatural reanimation
         name:
             - mummy
+        prompt:
+            - >-
+              {female|male}  __magical-beings/mummy/name__, __magical-beings/mummy/characteristics__
     naga:
         characteristics:
             - >-
@@ -774,12 +954,17 @@ magical-beings:
               body, {devine, wisdom, knowledge|dangerous, unpredictable}, fantasy
         name:
             - naga
+        prompt:
+            - >-
+              {female|male}  __magical-beings/naga/name__, __magical-beings/naga/characteristics__
     nessie:
         characteristics:
             - >-
                cute {reddish|blue|green|pinkish|earth toned,yellowish} cryptid iconic elusive plesiosaur like creature, loch ness, large long necked aquatic being
         name:
             - nessie
+        prompt:
+            - __magical-beings/nessie/name__, __magical-beings/nessie/characteristics__
     nymph:
         characteristics:
             - >-
@@ -793,6 +978,8 @@ magical-beings:
               and water bodies, fantasy
         name:
             - nymph
+        prompt:
+            - __magical-beings/nymph/name__, __magical-beings/nymph/characteristics__
     ogre:
         characteristics:
             - >-
@@ -803,6 +990,8 @@ magical-beings:
               strength, intimidating presence, {formidable|0.2::malevolent|}
         name:
             - ogre
+        prompt:
+            - __magical-beings/ogre/name__, __magical-beings/ogre/characteristics__
     oni:
         characteristics:
             - >-
@@ -812,6 +1001,8 @@ magical-beings:
               supernatural malevolent power, {malevolent|nuanced} beings, powerful
         name:
             - oni
+        prompt:
+            - __magical-beings/oni/name__, __magical-beings/oni/characteristics__
     orc:
         characteristics:
             - >-
@@ -825,6 +1016,9 @@ magical-beings:
               noses, and wide, powerful jaws, {sharp teeth|} fantasy
         name:
             - orc
+        prompt:
+            - >-
+              {female|male}  __magical-beings/orc/name__, __magical-beings/orc/characteristics__
     pegasus:
         characteristics:
             - >-
@@ -833,6 +1027,8 @@ magical-beings:
               flowing mane and tail, inspiration, poetic creativity
         name:
             - pegasus
+        prompt:
+            - __magical-beings/pegasus/name__, __magical-beings/pegasus/characteristics__
     phoenix:
         characteristics:
             - >-
@@ -841,6 +1037,8 @@ magical-beings:
               immortality, renewal, rebirth, {self immolate|rise from the ashes|sun and fire}
         name:
             - phoenix
+        prompt:
+            - __magical-beings/phoenix/name__, __magical-beings/phoenix/characteristics__
     pixie:
         characteristics:
             - >-
@@ -854,6 +1052,8 @@ magical-beings:
               playful, curious, delicate wings, flitting throught the air, fanatasy
         name:
             - pixie
+        prompt:
+            - __magical-beings/pixie/name__, __magical-beings/pixie/characteristics__
     poltergeist:
         characteristics:
             - >-
@@ -862,6 +1062,8 @@ magical-beings:
               {0.2::malevolent disruptive behavior|}, unexplained phenomena
         name:
             - poltergeist
+        prompt:
+            - __magical-beings/poltergeist/name__, __magical-beings/poltergeist/characteristics__
     roc:
         characteristics:
             - >-
@@ -871,13 +1073,17 @@ magical-beings:
               nature's grandeur, power
         name:
             - roc
+        prompt:
+            - __magical-beings/roc/name__, __magical-beings/roc/characteristics__
     sasquatch:
-        name:
-            - sasquatch
         characteristics:
             - >-
               cryptid large humanoid ape-like creature, {brown|dark} fur,
-              stands upright, {0.2::long arms,|}, elusive, mysterious, forest-dwelling 
+              stands upright, {0.2::long arms,|}, elusive, mysterious, forest-dwelling
+        name:
+            - sasquatch
+        prompt:
+            - __magical-beings/sasquatch/name__, __magical-beings/sasquatch/characteristics__
     satyr:
         characteristics:
             - >-
@@ -890,6 +1096,9 @@ magical-beings:
               wine, dance, skilled musician and dancer, horns, fantasy
         name:
             - satyr
+        prompt:
+            - >-
+              {female|male}  __magical-beings/satyr/name__, __magical-beings/satyr/characteristics__
     selkie:
         characteristics:
             - >-
@@ -898,6 +1107,8 @@ magical-beings:
               connection to the sea, transformation, love, tragedy
         name:
             - selkie
+        prompt:
+            - __magical-beings/selkie/name__, __magical-beings/selkie/characteristics__
     semi-ghost:
         characteristics:
             - >-
@@ -908,6 +1119,9 @@ magical-beings:
               {haunting|benevolent}, caught between the physical and spiritual realms
         name:
             - semi-ghost
+        prompt:
+            - >-
+              {female|male}  __magical-beings/semi-ghost/name__, __magical-beings/semi-ghost/characteristics__
     shellycoat:
         characteristics:
             - >-
@@ -916,6 +1130,8 @@ magical-beings:
               playful, elusive, waterways
         name:
             - shellycoat
+        prompt:
+            - __magical-beings/shellycoat/name__, __magical-beings/shellycoat/characteristics__
     siren:
         characteristics:
             - >-
@@ -926,6 +1142,9 @@ magical-beings:
             - seductive and alluring creatures, greek mythology,beautiful,danger, temptation
         name:
             - siren
+        prompt:
+            - >-
+              {female|male}  __magical-beings/siren/name__, __magical-beings/siren/characteristics__
     space-wolf:
         characteristics:
             - >-
@@ -933,6 +1152,9 @@ magical-beings:
               powerful, lunar influences, scifi, tech
         name:
             - space wolf
+        prompt:
+            - >-
+              {female|male}  __magical-beings/space-wolf/name__, __magical-beings/space-wolf/characteristics__
     sphinx:
         characteristics:
             - >-
@@ -942,6 +1164,8 @@ magical-beings:
               symbol of wisdom and enigma
         name:
             - sphinx
+        prompt:
+            - __magical-beings/sphinx/name__, __magical-beings/sphinx/characteristics__
     spriggan:
         characteristics:
             - >-
@@ -950,6 +1174,8 @@ magical-beings:
               guarding {treasures|burial mounds}, cunning
         name:
             - spriggan
+        prompt:
+            - __magical-beings/spriggan/name__, __magical-beings/spriggan/characteristics__
     strigoi:
         characteristics:
             - >-
@@ -957,6 +1183,8 @@ magical-beings:
               sharp fangs, cursed, malevolent, supernatural powers
         name:
             - strigoi
+        prompt:
+            - __magical-beings/strigoi/name__, __magical-beings/strigoi/characteristics__
     succubus:
         characteristics:
             - >-
@@ -965,6 +1193,8 @@ magical-beings:
               dark demonic hues, enticing, nighttime seduction, sexual nightmares, night 
         name:
             - succubus
+        prompt:
+            - __magical-beings/succubus/name__, __magical-beings/succubus/characteristics__
     sylph:
         characteristics:
             - >-
@@ -978,6 +1208,8 @@ magical-beings:
               guardians of the air, {sky|mountain top},weather
         name: 
             - sylph
+        prompt:
+            - __magical-beings/sylph/name__, __magical-beings/sylph/characteristics__
     thunderbird:
         characteristics:
             - >-
@@ -987,6 +1219,8 @@ magical-beings:
               power, transformation, natural forces, thunder, lightning
         name:
             - thunderbird
+        prompt:
+            - __magical-beings/thunderbird/name__, __magical-beings/thunderbird/characteristics__
     tikbalang:
         characteristics:
             - >-
@@ -995,6 +1229,8 @@ magical-beings:
               {forests|mountains}, mischievous, {0.2::malevolent|}
         name:
             - tikbalang
+        prompt:
+            - __magical-beings/tikbalang/name__, __magical-beings/tikbalang/characteristics__
     tomte:
         characteristics:
             - >-
@@ -1004,7 +1240,9 @@ magical-beings:
               guardian of household and farmstead, good luck, protection
         name:
             - tomte
-    tree_ent:
+        prompt:
+            - __magical-beings/tomte/name__, __magical-beings/tomte/characteristics__
+    tree-ent:
         characteristics:
             - >-
               fictional peaceful wise plantoid tree-like entity,
@@ -1014,6 +1252,8 @@ magical-beings:
               guardianship of forests and nature
         name:
             - tree ent
+        prompt:
+            - __magical-beings/tree-ent/name__, __magical-beings/tree-ent/characteristics__
     troll:
         characteristics:
             - >-
@@ -1023,6 +1263,9 @@ magical-beings:
               stooped posture
         name:
             - troll
+        prompt:
+            - >-
+              {female|male}  __magical-beings/troll/name__, __magical-beings/troll/characteristics__
     unicorn:
         characteristics:
             - >-
@@ -1032,6 +1275,8 @@ magical-beings:
               magical, enchanting
         name:
             - unicorn
+        prompt:
+            - __magical-beings/unicorn/name__, __magical-beings/unicorn/characteristics__
     valkyrie:
         characteristics:
             - >-
@@ -1040,6 +1285,8 @@ magical-beings:
               guides to the afterlife, bravery, honor, powerful, otherworldly
         name:
             - valkyrie
+        prompt:
+            - __magical-beings/valkyrie/name__, __magical-beings/valkyrie/characteristics__
     vampire:
         characteristics:
             - >-
@@ -1052,6 +1299,9 @@ magical-beings:
               night, moon, fangs, fantasy
         name:
             - vampire
+        prompt:
+            - >-
+              {female|male}  __magical-beings/vampire/name__, __magical-beings/vampire/characteristics__
     wendigo:
         characteristics:
             - >-
@@ -1066,6 +1316,8 @@ magical-beings:
               unclean suppurations of the flesh, strange eerie odor, decay, decomposition
         name:
             - wendigo
+        prompt:
+            - __magical-beings/wendigo/name__, __magical-beings/wendigo/characteristics__
     werewolf:
         characteristics:
             - >-
@@ -1076,7 +1328,9 @@ magical-beings:
               hairy furry skin, fangs, wolf ears, wolf-like face
         name:
             - werewolf
-    wild hunt:
+        prompt:
+            - __magical-beings/werewolf/name__, __magical-beings/werewolf/characteristics__
+    wild-hunt:
         characteristics:
             - >-
               mythical spectral ghostly haunting stygical hunting procession, supernatural skeletal divine leader, skeletal huntsmen,
@@ -1084,6 +1338,8 @@ magical-beings:
               omen of {disaster|war}, awe-inspiring phenomenon
         name:
             - wild hunt
+        prompt:
+            - __magical-beings/wild-hunt/name__, __magical-beings/wild-hunt/characteristics__
     will-o-the-wisp:
         characteristics:
             - >-
@@ -1093,6 +1349,8 @@ magical-beings:
         name:
             - will-o'-the-wisp
             - ignis fatuus
+        prompt:
+            - __magical-beings/will-o-the-wisp/name__, __magical-beings/will-o-the-wisp/characteristics__
     wisp:
         characteristics:
             - >-
@@ -1105,6 +1363,9 @@ magical-beings:
               {blue|green|white}, natural
         name:
             - wisp
+        prompt:
+            - >-
+              {female|male}  __magical-beings/wisp/name__, __magical-beings/wisp/characteristics__
     wolpertinger:
         characteristics:
             - >-
@@ -1114,6 +1375,8 @@ magical-beings:
               humorous, imaginative, curiosity, whimsical, fictional
         name:
             - wolpertinger
+        prompt:
+            - __magical-beings/wolpertinger/name__, __magical-beings/wolpertinger/characteristics__
     wraith:
         characteristics:
             - >-
@@ -1122,6 +1385,9 @@ magical-beings:
               {0.2::malevolence,|0.2::revenge,|} spectral, haunting otherworldly presence
         name:
             - wraith
+        prompt:
+            - >-
+              {female|male}  __magical-beings/wraith/name__, __magical-beings/wraith/characteristics__
     yeti:
         characteristics:
             - >-
@@ -1131,6 +1397,8 @@ magical-beings:
             - large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains
         name:
             - yeti
+        prompt:
+            - __magical-beings/yeti/name__, __magical-beings/yeti/characteristics__
     yuki-onna:
         characteristics:
             - >-
@@ -1140,4 +1408,6 @@ magical-beings:
               winter, snow, haunting, supernatural, stygical, demonic expression
         name:
             - yuki-onna
+        prompt:
+            - __magical-beings/yuki-onna/name__, __magical-beings/yuki-onna/characteristics__
 
