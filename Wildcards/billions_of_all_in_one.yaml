@@ -3585,19 +3585,6 @@ characters:
             - githzerai
             - aasimar
             - genasi
-        magical:
-            
-            
-
-
-
-
-
-
-
-
-
-
         marvel:
             - asgardian
             - human
@@ -4221,6 +4208,1421 @@ characters:
             - helm
             - mask
             - cape
+    magical-beings:
+        abaddon:
+            characteristics:
+                - >-
+                  destructive abyssal entity, realm of the dead, underworld
+                  dark malevolent presence, personification of destruction,
+                  chaos, death, ultimate abyss
+            name:
+                - abaddon
+            prompt:
+                - __magical-beings/abaddon/name__, __magical-beings/abaddon/characteristics__
+        alraune:
+            characteristics:
+                - >-
+                  plant hybrid,plant-based humanoid, alluring appearance, floral elements,
+                  green leaf-like bark-like skin,
+                  vines and roots as hair, varied and mystical attire,
+                  mesmerizing or hypnotic eyes,
+                  plant-based accessories or ornaments
+            name:
+                - alraune
+            prompt:
+                - __magical-beings/alraune/name__, __magical-beings/alraune/characteristics__
+        amazon:
+            characteristics:
+                - >-
+                  fearless female warrior, skilled archer, formidable strength, independent and
+                  self-reliant, tall and muscular stature, battle-hardened, warriors of ancient
+                  myths, honor and bravery, fantasy
+            name: 
+                - amazon
+            prompt:
+                - __magical-beings/amazon/name__, __magical-beings/amazon/characteristics__
+        angel:
+            characteristics:
+                - >-
+                  humanoid celestial being, radiant luminous appearance,
+                  feathered wings, noble serene expression,
+                  long flowing robes, white bright colors,
+                  halo, radiant aura above the head
+                - >-
+                  radiant aura, heavenly grace, harbingers of good news, guardians of the
+                  divine realm, symbolize purity and innocence, emanate ethereal light, fantasy
+            name:
+                - angel
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/angel/name__, __magical-beings/angel/characteristics__
+        aswang:
+            characteristics:
+                - >-
+                  medium-sized humanoid, predatory appearance, shapeshifter, sharp, feral features,
+                  claws and fangs, glowing eyes, keen sense of smell, heightened senses,
+                  dark ominous presence, sinister malevolent expression
+            name:
+                - aswang
+            prompt:
+                - >-
+                  {female|male}   __magical-beings/aswang/name__, __magical-beings/aswang/characteristics__
+        baal:
+            characteristics:
+                - >-
+                  supernatural {deity|demon},anthropomorphic and zoomorphic features, ancient semitic canaanite,
+                  {fertility|storms|warfare}, bull's head, horns
+            name:
+                - baal
+            prompt:
+                - __magical-beings/baal/name__, __magical-beings/baal/characteristics__
+        banshee:
+            characteristics:
+                - >-
+                  transluscent ethereal otherworldly unnatural nebulous incorporeal phantasmal nebulous vaporous phantasmal ghostly soul specter,
+                  long flowing silver hair,pale white lucid skin, fantasy,
+                  grayish tattered gown, hands with claws,dim eyes,
+                  {mourning expression|screaming in agony},eerie, stygical,
+                  floating, gliding, omen of death, {benevolent|malevolent}
+            name:
+                - banshee
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/banshee/name__, __magical-beings/banshee/characteristics__
+        basilisk:
+            characteristics:
+                - >-
+                  {serpent|dragon} like creature, deadly gaze,{crown|crest} on head,
+                  scaled skin with a menacing appearance,
+                  {serpent|reptilian} eyes, sharp fang like teeth,
+                  {coiled|poised} for attack,
+                  distinctive, intimidating posture,
+                  {0.05::wings|},sense of danger and fear
+            name:
+                - basilisk
+            prompt:
+                - __magical-beings/basilisk/name__, __magical-beings/basilisk/characteristics__
+        belial:
+            characteristics:
+                - >-
+                  demonic malevolent figure, horns, wings, tail,
+                  {0.2::humanoid appearance|}, deceit, wickedness, rebellion,
+                  religious, mythological, {demon|fallen angel},
+                  temptation, corrupting influence, malevolent force
+            name:
+                - belial
+            prompt:
+                - __magical-beings/belial/name__, __magical-beings/belial/characteristics__
+        bigfoot:
+            characteristics:
+                - >-
+                  large humanoid cryptid ape like creature, covered in brown dark fur,
+                  long arms, wilderness areas, forests,
+                  elusive mysterious forest-dwelling creature
+            name:
+                - bigfoot
+            prompt:
+                - __magical-beings/bigfoot/name__, __magical-beings/bigfoot/characteristics__
+        brownie:
+            characteristics:
+                - >- 
+                  small humanoid creature, wrinkled or aged appearance,
+                  brown earth toned clothing, pointed ears,
+                  {friendly|mischievous} expression, small pointed hat,
+                  expressive eyes, curiosity, playfulness, {cute|slightly grotesque},
+                  helpful household tasks, domestic environments
+            name:
+                - brownie
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/brownie/name__, __magical-beings/brownie/characteristics__
+        centaur:
+            characteristics:
+                - >-
+                  large mythical creature, humanoid upper body, horse lower body,
+                  muscular strong physique, human like arms and torso,
+                  equine features, hooves, flowing tail, wild untamed mane of hair,
+                  {archery equipment|weapons|}, dynamic, running pose,
+                  {wise and noble|wild and untamed|benevolent}
+                - >-
+                  half-human, half-horse, mythological creatures, powerful and agile,
+                  equine lower body, human upper body,guardians of the wild, fantasy
+            name:
+                - centaur
+            prompt:
+                - __magical-beings/centaur/name__, __magical-beings/centaur/characteristics__
+        changeling:
+            characteristics:
+                - >-
+                  tiny fairy elf like creature, {baby|young child},
+                  otherworldly ethereal glow, distinctive captivating eyes,
+                  facial features that convey an otherworldly charm,
+                  {transformation|supernatural abilities|}
+                  elf like pointed ears, enchanted ethereal clothing,
+                  {innocent|mischievous}
+            name:
+                - changeling
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/changeling/name__, __magical-beings/changeling/characteristics__
+        chimera:
+            characteristics:
+                - >-
+                  large mythical creature, composite features,
+                  lion body, mane, forelimbs, goat head, hind legs, serpent tail,
+                  distinctive, intimidating, ferocious expression, multiple heads,
+                  {scaled|fur} covered body, symbol of chaos, mythical hybridization
+            name:
+                - chimera
+            prompt:
+                - __magical-beings/chimera/name__, __magical-beings/chimera/characteristics__
+        christmas_elf:
+            characteristics:
+                - >-
+                  small humanoid creature, pointed ears,
+                  bright and festive attire, red, green, holiday colors,
+                  pointed hat with a bell on the tip,
+                  merry cheerful expression, rosy cheeks, lively eyes,
+                  joyful, industrious, and benevolent
+            name:
+                - christmas elf
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/christmas elf/name__, __magical-beings/christmas elf/characteristics__
+        chupacabra:
+            characteristics:
+                - >-
+                  medium-sized creature, {reptilian|alien} like appearance,
+                  {scaled|leathery} skin, pronounced {spikes|quills} along its back,
+                  clawed feet and hands, bipedal creature, {fangs|sharp teeth} for blood sucking,
+                  {glowing|menacing} eyes, {pointed|stand upright} ears,
+            name:
+                - chupacabra
+            prompt:
+                - __magical-beings/chupacabra/name__, __magical-beings/chupacabra/characteristics__
+        cockatrice:
+            characteristics:
+                - >-
+                  small mythical creature, serpent body, (rooster:.6) head, feathered wings,
+                  sharp {talons|claws}, {scaled|feathered} skin,
+                  beak with fangs, venomous bite,{crown|crest|} on head,
+                  {glowing|fierce} eyes, deadly {gaze|breath},
+                  {fierce aggressive demeanor|distinctive, intimidating|hostile and dangerous}
+            name:
+                - cockatrice
+            prompt:
+                - __magical-beings/cockatrice/name__, __magical-beings/cockatrice/characteristics__
+        cyclope:
+            characteristics:
+                - >-
+                  one-eyed giant, mythological creatures, enormous and powerful, singular
+                  eye in the middle of the forehead, fierce and intimidating appearance, known
+                  for strength and brutality, fantasy, greek mythology
+            name: 
+                - cyclope
+            prompt:
+                - __magical-beings/cyclope/name__, __magical-beings/cyclope/characteristics__
+        dark-elf:
+            characteristics:
+                - >-
+                  fictional elfish individual, slender agile build,
+                  {anthracite|gray|ebony|pale} skin tone, sharp features, pointed ears, 
+                  {0.2::red eyes,|0.2::lavender eyes,|}
+                  {white|silver} hair, dark intricate rich ornamented {armor|robes}, 
+                  {subterranean|nocturnal} environments,
+                  elusive mysterious, dark nature, fantasy
+            name:
+                - dark elf
+                - drow
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/dark-elf/name__, __magical-beings/dark-elf/characteristics__
+        death:
+            characteristics:
+                - >-
+                  personification of the end of life,
+                  skeletal figure, carries a scythe,
+                  dark tattered robes, {0.2::hooded figure,|},
+                  afterlife, universal inexorable force in existence
+            name:
+                - death
+            prompt:
+                - __magical-beings/death/name__, __magical-beings/death/characteristics__
+        dementor:
+            characteristics:
+                - >-
+                  dark hooded floating humanoid entity,
+                  cloaked in tattered hooded robes, ghostly diffuse lower body,
+                  face hidden under hood, no distinct features,
+                  drains happiness and positive emotions,
+                  cold despair inducing aura, soul sucking kiss,
+                  fear, despair, darkest aspects of magic
+            name:
+                - dementor
+            prompt:
+                - __magical-beings/dementor/name__, __magical-beings/dementor/characteristics__
+        demon:
+            characteristics:
+                - >-
+                  malevolent supernatural being, evil, chaos, infernal, powerful entity,
+                  corrupt,harm full, fantasy
+            name:
+                - demon
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/demon/name__, __magical-beings/demon/characteristics__
+        devil:
+            characteristics:
+                - >-
+                  embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
+            name:
+                - devil
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/devil/name__, __magical-beings/devil/characteristics__
+        diablo:
+            characteristics:
+                - >-
+                  large menacing demon, horned demonic appearance,
+                  red and dark colored leathery skin, formidable powers,
+                  lord of terror, powerful, malevolent
+                - >-
+                  supernatural being, middle eastern folklore, 
+                  humanoid created from smokeless fire, fantasy
+            name:
+                - diablo
+            prompt:
+                - __magical-beings/diablo/name__, __magical-beings/diablo/characteristics__
+        djinn:
+            characteristics:
+                - >-
+                  supernatural powerful magical entity, {human|animal} form,
+                  {invisible|visible}, possess magical abilities, ancient knowledge,
+                  grants wishes, {benevolent|malevolent}
+            name:
+                - djinn
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/djinn/name__, __magical-beings/djinn/characteristics__
+        doppelganger:
+            characteristics:
+                - >-
+                  medium sized humanoid creature, shape-shifter,
+                  mimics the exact physical features of its target,
+                  lacks distinct personal features, appearing generic,
+                  expression neutral, slightly eerie unsettling aura,
+                  eyes that may reveal a subtle otherness, lack of emotion,
+                  {mysterious|ominous} circumstance
+            name:
+                - doppelganger
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/doppelganger/name__, __magical-beings/doppelganger/characteristics__
+        dragonborn:
+            # real dragons with __bo/creatures/dragon*__
+            characteristics:
+                - >-
+                  {male|female} human with dragonic characteristics,
+                  {scaled|reptilian} {0.3::__atmosphere/elemental__ __atmosphere/elements__|} skin,
+                  {dragon like eyes|slitted pupils}, {0-3$$snout|horns|mane|crest|__creatures/dragons/wing-types__ wings|tail},
+                  {clawed hands|fingers with talons|}, sense of mystique and hidden power,
+                  {wise|protective|dangerous|regal powerful presence}
+            name:
+                - dragonborn
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/dragonborn/name__, __magical-beings/dragonborn/characteristics__
+        dragon-human-form:
+            # real dragons with __bo/creatures/dragon*__
+            characteristics:
+                - >-
+                  {male|female} human, human head and face,
+                  {scaled|scaly reptilian} {0.3::__atmosphere/elemental__ __atmosphere/elements__|} skin,
+                  slitted pupils, {0-3$$horns|mane|__creatures/dragons/wing-types__ wings|tail},
+                  {clawed hands|fingers with talons|}, sense of mystique and hidden power,
+                  {wise|protective|dangerous|regal powerful presence}
+                - >-
+                  immense power, wisdom, and connection to fire, draconic
+                  features,scales, wings, wise, ancient being, knowledge, fantasy
+            name:
+                - dragon human form
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/dragon-human-form/name__, __magical-beings/dragon-human-form/characteristics__
+        draugr:
+            characteristics:
+                - >-
+                  undead creature, reanimated corpse,
+                  decayed skeletal appearance, remnants of skin and flesh, viking armor,
+                  guardian graves and treasures, superhuman strength
+            name:
+                - draugr
+            prompt:
+                - __magical-beings/draugr/name__, __magical-beings/draugr/characteristics__
+        dryad:
+            characteristics:
+                - >-
+                  female nature spirit, bark like woody skin texture,
+                  leafy viney hair and attire, serene or ethereal expression,
+                  green earthy coloration, nature infused eyes,
+                  associated trees, embodiment of the forest,
+                  {carries|adorned with} symbols of nature,
+                  {benevolent|guardians of the forest in greek mythology|aura of natural beauty and grace}
+            name:
+                - dryad
+            prompt:
+                - __magical-beings/dryad/name__, __magical-beings/dryad/characteristics__
+        dullahan:
+            characteristics:
+                - >-
+                  headless humanoid figure, carries head in one hand,
+                  neck stump, dark shadowy hooded attire,
+                  riding a horse or carriage,
+                  whip made from human spine,
+                  harbinger of death, {mournful|malevolent} expression
+                  mysterious foreboding aura
+            name:
+                - dullahan
+            prompt:
+                - __magical-beings/dullahan/name__, __magical-beings/dullahan/characteristics__
+        dwarf:
+            characteristics:
+                - >-
+                  dwarf, short-statured humanoid being, 3 to 4 feet tall, skilled craftsmen,expertise
+                  in mining and blacksmithing, resilience, determination, fantasy
+                - >-
+                  small short fictional humanoid creature, stout, muscular, skilled, hardy,
+                  {male, prominent facial hair, beard,|woman, hint of facial hair, fluff,} resilience, 
+                  craftsmanship,{0.8::gold, gems|}
+            name:
+                - dwarf
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/dwarf/name__, __magical-beings/dwarf/characteristics__
+        elf:
+            characteristics:
+                - >-
+                  humanoid creature, slender, graceful, pointed ears,
+                  fair colored hair, almond shaped eyes with vibrant colors,
+                  ageless appearance, otherworldly ethereal glow,
+                  elaborate nature inspired attire, magic,
+                  {regal noble demeanor|}
+                - >-
+                  graceful and long-lived being, 6 to 7 feet tall, beautiful,elegant,
+                  youthful appearance, graceful, ethereal, magical, fantasy
+            name:
+                - elf
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/elf/name__, __magical-beings/elf/characteristics__
+        enenra:
+            characteristics:
+                - >-
+                  formless mist like creature, made of smoke and vapor,
+                  transluscent, transparent, uncorporeal,
+                  humanoid shape in the smoke, glowing radiant presence,
+                  mystical ephemeral appearance,{mist|fog},
+                  {benign neutral entity|serene or tranquil aura|ghostly apparitions}
+            name:
+                - enenra
+            prompt:
+                - __magical-beings/enenra/name__, __magical-beings/enenra/characteristics__
+        erlking:
+            characteristics:
+                - >-
+                  tall regal ghostly figure, elegant ethereal appearance
+                  elaborate forest inspired clothing,
+                  crown made of leaves and branches,antlers,
+                  distinctive captivating eyes,
+                  linked with forests and nature spirits,
+                  connection to the wild hunt,
+                  {benevolent|malevolent|sense of melancholy and mystery|linked with spirits of the forest}
+            name:
+                - erlking
+            prompt:
+                - __magical-beings/erlking/name__, __magical-beings/erlking/characteristics__
+        easter-bunny:
+            characteristics:
+                - >-
+                  anthropomorphic {rabbit|hare}, colorful eggs,
+                  festive clothing and accessories,
+                  basket filled with easter eggs,
+                  fertility, rebirth, spring, cheerful
+            name:
+                - easter bunny
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/easter-bunny/name__, __magical-beings/easter-bunny/characteristics__
+        fairy:
+            characteristics:
+                - >-
+                  tiny humanoid creature with wings,
+                  delicate graceful appearance,
+                  transparent opalescent iridescent wings,
+                  pointed ears, colorful ethereal clothing,
+                  nature inspired attire, made of petals and leaves,
+                  __clothings/magical/unisex/accessories__, {playful|mischievous}
+                - >-
+                  enchanting ethereal creature, beauty, nature, protectors creatures, sacred
+                  places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
+            name:
+                - fairy
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/fairy/name__, __magical-beings/fairy/characteristics__
+        fenghuang:
+            characteristics:
+                - >-
+                  mythical bird, composite creature, features of several birds,
+                  elegant and majestic appearance,
+                  colorful plumage, vibrant shades, pheasant head,
+                  crest or crown on the head, elegant, long tail feathers,
+                  wings, claws, {harmony, beauty, good fortune|positive auspicious symbol}
+            name:
+                - fenghuang
+            prompt:
+                - __magical-beings/fenghuang/name__, __magical-beings/fenghuang/characteristics__
+        firebird:
+            characteristics:
+                - >-
+                  mythical enchanting bird, fire, light, vibrant flaming fiery plumage,
+                  flaming radiant wings, majestic regal appearance,
+                  {0.2::crest,|0.2::crown,|} beauty, immortality, resurrection,
+                  elusive, magical nature,
+            name:
+                - firebird
+            prompt:
+                - __magical-beings/firebird/name__, __magical-beings/firebird/characteristics__
+        gargoyle:
+            characteristics:
+                - >- 
+                  stone grotesque creature, {winged humanoid|monstrous figure},
+                  gothic, grotesque facial features, fangs, horns, open mouth,
+                  {0.2::protectors against evil spirits,|} stone guardians
+            name:
+                - gargoyle
+            prompt:
+                - __magical-beings/gargoyle/name__, __magical-beings/gargoyle/characteristics__
+        ghoul:
+            characteristics:
+                - >-
+                  humanoid monstrous creature.
+                  emaciated corpse like appearance, decayed or mummified skin,
+                  sunken or glowing eyes, sharp teeth,
+                  clawed hands, predatory appearance, nocturnal,
+                  tattered or burial clothing, undead
+            name:
+                - ghoul
+            prompt:
+                - __magical-beings/ghoul/name__, __magical-beings/ghoul/characteristics__
+        giant:
+            characteristics:
+                - >-
+                  humanoid, enormous and powerful being, 20 to 40 feet tall, benevolent
+                  and wise, force of nature, legendary strength, fantasy
+            name:
+                - giant
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/giant/name__, __magical-beings/giant/characteristics__
+        gnome:
+            characteristics:
+                - >-
+                  small humanoid creature, stocky and stout appearance,
+                  {long white beard|}, pointed hat, red or earth toned,
+                  rounded belly, rosy cheeks, practical earthy clothing,
+                  connection to earth and nature,
+                  {underground|natural} settings, craftsmanship, earth magic,
+                  {friendly, industrious|guardians of nature|earth and minerals}
+                - >-
+                  1 feet small, humanoid, earth-dwelling humanoid being, affinity with
+                  the earth and nature, gardening and craftsmanship, fantasy
+            name:
+                - gnome
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/gnome/name__, __magical-beings/gnome/characteristics__
+        goblin:
+            characteristics:
+                - >-
+                  small humanoid creature, hunched posture,
+                  pointed ears, bulbous nose, sharp teeth, {green|gray|earth toned} skin,
+                  clawed hands and feet, {ragged|crude} clothing,
+                  {mischievous|malevolent} expression,
+                  trickery, trouble, cunning, mischievous, malevolent
+                - >-
+                  imaginative and mischievous character with a hunched posture,
+                  glowing beady eyes, and a malevolent grin. use earthy green and brown tones
+                  for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly
+                  moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small
+                  in stature, around 2 to 3 feet tall, fantasy
+            name:
+                - goblin
+            prompt:
+                - __magical-beings/goblin/name__, __magical-beings/goblin/characteristics__
+        gorgon:
+            characteristics:
+                - >- 
+                  humanoid upper body, serpentine lower body, coiled snakes for hair, 
+                  venomous petrifying gaze, {scaled|stone like} skin,
+                  fierce and intimidating expression, {wings|}
+                  {tusks|fangs|},medusa, powerful and dangerous mythical creature
+            name:
+                - gorgon
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/gorgon/name__, __magical-beings/gorgon/characteristics__
+        harpy:
+            characteristics:
+                - >-
+                  mix of human and bird features,
+                  humanoid upper body, sharp claws, feathery wings, powerful,
+                  {bird's beak|}, varied coloration, 
+                  distinctive and eerie screeching,
+                  stormy weather and winds, vengeance, punishment,
+                  wild, predatory, malevolent
+                - >-
+                  mythical creature, upper body of a woman, wings and lower body of a bird, 
+                  vicious and malevolent, fantasy
+            name:
+                - harpy
+            prompt:
+                - __magical-beings/harpy/name__, __magical-beings/harpy/characteristics__
+        heinzelmaennchen:
+            characteristics:
+                - >-
+                  mythical small gnome like beings, household spirits,
+                  dressed in traditional german clothing,
+                  pointy hat, beard, industrious helpful nature,
+                  perform household chores, night, benevolent diligent
+                - >-
+                  mythical small female gnome like beings, household spirits,
+                  dressed in traditional german clothing,
+                  pointy hat, industrious helpful nature,
+                  perform household chores, night, benevolent diligent
+            name:
+                - heinzelmännchen
+            prompt:
+                - __magical-beings/heinzelmaennchen/name__, __magical-beings/heinzelmaennchen/characteristics__
+        hippogriff:
+            characteristics:
+                - >-
+                  mythical creature, horse's body and hind legs,
+                  eagle's wings and front claws,
+                  majestic and powerful appearance,
+                  feathered wings and mane, eagle like head and beak,
+                  strong and noble posture,
+                  symbol of chivalric romance, mythology, bravery, strength,
+            name:
+                - hippogriff
+            prompt:
+                - __magical-beings/hippogriff/name__, __magical-beings/hippogriff/characteristics__
+        hobgoblin:
+            characteristics:
+                - >-
+                  medium sized humanoid creature, robust and muscular build,
+                  pointed ears, fangs, {earth toned|greenish} skin,
+                  {facial warts|wrinkles|scars|}, clawed hands and feet,
+                  crude or tattered clothing,
+                  mischievous or malevolent expression
+                  trickery, causing trouble
+            name:
+                - hobgoblin
+            prompt:
+                - __magical-beings/hobgoblin/name__, __magical-beings/hobgoblin/characteristics__
+        house-elf:
+            characteristics:
+                - >-
+                  small humanoid being, large pointed ears,
+                  brown earth toned simple tattered clothing, subservient humble demeanor,
+                  large expressive eyes, magical,
+                  loyalty, dedication, strong sense of duty
+            name:
+                - house elf
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/house-elf/name__, __magical-beings/house-elf/characteristics__
+        huldra:
+            characteristics:
+                - >-
+                  female humanoid creature, hidden tail, beautiful, alluring,
+                  long flowing hair covering part of the face,
+                  traditional attire, {rustic|reminiscent of folk} clothing,
+                  {back {is hollow|covered in bark}}, forest natural surroundings,
+                  seductive, mysterious forest spirit, {benevolent|mischievous}
+            name:
+                - huldra
+            prompt:
+                - __magical-beings/huldra/name__, __magical-beings/huldra/characteristics__
+        ifrit:
+            characteristics:
+                - >-
+                  large supernatural being, fiery smoky appearance,
+                  humanoid shape, muscular build, emanating flames and smoke from body,
+                  flaming eyes and facial features, {wings made of fire,|}
+                  coloration from red to black, element of fire, powerful and malevolent,
+                  formidable and elemental force
+            name:
+                - ifrit
+            prompt:
+                - __magical-beings/ifrit/name__, __magical-beings/ifrit/characteristics__
+        imp:
+            characteristics:
+                - >-
+                  small, mischievous supernatural humanoid creature, impish features,
+                  horns, pointed ears, sharp teeth, bat like leathery wings,
+                  fiery glowing eyes, clawed hands and feet, tail,
+                  red to dark shaded skin, trickster, servant of a higher power,
+                  {prone|playful|malevolent}
+            name:
+                - imp
+            prompt:
+                - __magical-beings/imp/name__, __magical-beings/imp/characteristics__
+        incubus:
+            characteristics:
+                - >-
+                  malevolent male demon, humanoid appearance, attractive seductive demeanor,
+                  {bat like wings,|} {horns,|} clawed hands, hoofs,
+                  dark demonic hues, enticing, nighttime seduction, sexual nightmares,
+            name:
+                - incubus
+            prompt:
+                - __magical-beings/incubus/name__, __magical-beings/incubus/characteristics__
+        jabberwocky:
+            characteristics:
+                - >-
+                  large and fearsome creature, dragon like appearance,
+                  jagged and sharp features, slithers, eerie grace,
+                  dark mottled hues, vorpal claws and teeth,
+                  wings,tail, mythical fantastical realm
+            name:
+                - jabberwocky
+            prompt:
+                - __magical-beings/jabberwocky/name__, __magical-beings/jabberwocky/characteristics__
+        jinn:
+            characteristics:
+                - >-
+                  supernatural being, shapeshifting abilities,
+                  appears as smoke or fire, {humanoid|monstrous} appearance,
+                  magical supernatural powers, air and fire elements,
+                  {granting wishes,|causing harm,|} powerful and mysterious
+            name:
+                - jinn
+            prompt:
+                - __magical-beings/jinn/name__, __magical-beings/jinn/characteristics__
+        jotun:
+            characteristics:
+                - >-
+                  jötun,powerful ancient {mythical giant|supernatural entity}, {0.2::humanoid appearance,|}
+                  primal {__magical/elemental__|__atmosphere/elemental__}, {human sized|big|large|gigantic|colossal|massive},
+                  {chaos|conflict}, {0.1::ymir|0.1::surtr|}
+            name:
+                - jötun
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/jotun/name__, __magical-beings/jotun/characteristics__
+        kappa:
+            characteristics:
+                - >-
+                  water dwelling creature, humanoid appearance with a turtle like shell,
+                  webbed hands and feet, {beak|mouth} located on head,
+                  dishl-ike depression on its head holding water,
+                  greenish scaly skin, strength, mischievous
+            name:
+                - kappa
+            prompt:
+                - __magical-beings/kappa/name__, __magical-beings/kappa/characteristics__
+        kelpie:
+            characteristics:
+                - >-
+                  shape shifting water spirit, horse in humanoid shape,
+                  mane, coat, drips water, lures victims, dark sleek coat,
+                  eyes supernatural alluring quality, webbed hooves
+            name:
+                - kelpie
+            prompt:
+                - __magical-beings/kelpie/name__, __magical-beings/kelpie/characteristics__
+        kitsune-fox-form:
+            characteristics:
+                - >-
+                  fox spirit,fox with multiple tails, power,
+                  magical enchanting aura,supernatural alluring eyes
+                  white and red, intelligence, trickery,wisdom, supernatural feats
+            name:
+                - kitsune
+            prompt:
+                - __magical-beings/kitsune-fox-form/name__, __magical-beings/kitsune-fox-form/characteristics__
+        kitsune-human-form:
+            characteristics:
+                - >-
+                  human, multiple tails, fox ears,power,
+                  magical enchanting aura,supernatural alluring eyes, fox ears,
+                  white and red, intelligence, trickery,wisdom, supernatural feats
+                - >-
+                  mythical creature, japanese folklore, intelligent, humanform with multiple
+                  foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
+            name:
+                - kitsune
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/kitsune-human-form/name__, __magical-beings/kitsune-human-form/characteristics__
+        leprechaun:
+            characteristics:
+                - >-
+                  small humanoid creature, beard, hat,
+                  {red|green} clothing, {0.3:gold trim,|}
+                  buckled shoes and stockings, {mischievous|playful} expression,
+                  pot of gold, {0.3::smoking a pipe,|} short stature, 2 feet tall,
+                  tricky, mischievous
+                - >-
+                  mischievous, solitary,old men wearing green coats and buckled shoes,
+                  3-4 feet tall, crafty and elusive, fantasy
+            name:
+                - leprechaun
+            prompt:
+                - __magical-beings/leprechaun/name__, __magical-beings/leprechaun/characteristics__
+        lich:
+            characteristics:
+                - >-
+                  undead {sorcerer|wizard}, {skeletal|mummified} appearance,
+                  {tattered|regal} robes, {staff|wand}, {glowing|empty} eye sockets,
+                  no life, no flesh, {0.2::crown,|0.2::headdress,|}
+                  aura of {dark magic|necromancy}.
+                  immortality, dark rituals, powerful, malevolent, 
+                  ancient formidable spellcaster, necromancy, dark magic
+            name:
+                - lich
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/lich/name__, __magical-beings/lich/characteristics__
+        lilith:
+            characteristics:
+                - >-
+                  mystical seductive powerful woman,
+                  {0.3::{leathered|feathered} wings,|0.3::supernatural attributes,|}
+                  night, darkness, {0.2::demon|0.2::vampire|}, independence, rebellion,
+                  {0.2::motherhood, fertility,|} complex, multifaceted
+            name:
+                - lilith
+            prompt:
+                - __magical-beings/lilith/name__, __magical-beings/lilith/characteristics__
+        manananggal:
+            characteristics:
+                - >-
+                  female mythical creature, separated upper torso,
+                  bat like wings on detached torso,
+                  long proboscis like tongue, sharp claws,
+                  long disheveled hair, distinctive eerie sound, malevolent vampiric entity
+            name:
+                - manananggal
+            prompt:
+                - __magical-beings/mananaggal/name__, __magical-beings/mananaggal/characteristics__
+        mandrake:
+            characteristics:
+                - >-
+                  herbaceous plant, human-like root,
+                  {forked|humanoid} roots, {0.2::leaves and fruits,|}
+                  magical mystical properties, scream, potent, mystical
+            name:
+                - mandrake
+            prompt:
+                - __magical-beings/mandrake/name__, __magical-beings/mandrake/characteristics__
+        manticore:
+            characteristics:
+                - >-
+                  mythical creature, lion body, venomous stinger tail ending,
+                  human face, sharp teeth, {0.2::bat wings,|}
+                  mane around head and neck, powerful muscular physique,
+                  {horns|spikes}, distinctive fierce expression,
+                  formidable legendary beast
+            name:
+                - manticore
+            prompt:
+                - __magical-beings/manticore/name__, __magical-beings/manticore/characteristics__
+        marid:
+            characteristics:
+                - >-
+                  supernatural large powerful magical {humanoid|monstrous} entity,
+                  strong magical, {ocean|sea}, free will, independence, formidable, capricious
+            name:
+                - marid
+            prompt:
+                - __magical-beings/marid/name__, __magical-beings/marid/characteristics__
+        mausebaer:
+            characteristics:
+                - >-
+                  cute furry fuzzy creature, alluring gaze, fairy tail, ethereal, fantastic,
+                  {playful|serene} expression, enchanting, guardian spirit
+            name:
+                - mouse baer
+            prompt:
+                - __magical-beings/mausebaer/name__, __magical-beings/mausebaer/characteristics__
+        medusa:
+            characteristics:
+                - >-
+                  female humanoid appearance,
+                  powerful dangerous mythical creature,
+                  snakes hair, serpentine lower body, coiled,
+                  glowing petrifying gaze, scaled stone skin,
+                  fierce intimidating expression, {0.2::wings|}
+            name:
+                - medusa
+            prompt:
+                - __magical-beings/medusa/name__, __magical-beings/medusa/characteristics__
+        mephisto:
+            characteristics:
+                - >-
+                  mythical slender gaunt demonic cunning malevolent demon,visible spine, no belly,
+                  horns,pointed tail, dark earth toned yellowish skin,
+                  temptation, corruption, sinister, eerie
+            name:
+                - mephisto
+            prompt:
+                - __magical-beings/mephisto/name__, __magical-beings/mephisto/characteristics__
+        mermaid:
+            characteristics:
+                - >-
+                  humanoid upper body,fish tail,
+                  long flowing hair,
+                  {0.2::scales on upper body,|} {0.2::webbed fingers,|}
+                  enchanting alluring appearance, aquatic beauty,
+                  aquatic hues, singing and enchanting melodic voices,
+                  {varied, benevolent|luring sailors to doom}
+                - upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
+            name:
+                - mermaid
+            prompt:
+                - __magical-beings/mermaid/name__, __magical-beings/mermaid/characteristics__
+        merman:
+            characteristics:
+                - >-
+                  humanoid upper body,fish tail, muscular physique,
+                  {0.2::scales on upper body,|} {0.2::webbed fingers,|}
+                  enchanting alluring appearance, aquatic beauty,
+                  aquatic hues, strength, mythtic allure, depth of the sea
+                - upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
+            name:
+                - merman
+            prompt:
+                - __magical-beings/merman/name__, __magical-beings/merman/characteristics__
+        minotaur:
+            characteristics:
+                - >-
+                  mythical fearsome legendary creature, a hybrid of humanoid and bull,
+                  humanoid upper body, bull head, muscular powerful physique,
+                  large curved horns, strong imposing stature,
+                  bull tail, bull hind legs, fur covered hide like skin
+                - >-
+                  mythical creature with the head of a bull and the body of a man, greek
+                  mythology, fierce and monstrous, chaos, primal instinct, fantasy
+            name:
+                - minotaur
+            prompt:
+                - __magical-beings/minotaur/name__, __magical-beings/minotaur/characteristics__
+        minotaurin:
+            characteristics:
+                - >-
+                  mythical creature, body of a woman, cow tail, bull horns, cow spots,
+                  gentle, friendly, large breasts, greek mythology
+            name:
+                - minotaur
+            prompt:
+                - __magical-beings/minotaurin/name__, __magical-beings/minotaurin/characteristics__
+        mothman:
+            characteristics:
+                - >-
+                  cryptid creature, humanoid, large {moth|bat} wings,
+                  {glowing|reflective} red eyes, {fur|feather} covered body, dark colors,
+                  tall imposing stature, foretelling disaster
+            name:
+                - mothman
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/mothman/name__, __magical-beings/mothman/characteristics__
+        mummy:
+            characteristics:
+                - >-
+                  preserved reanimated undead cursed being, wrapped in bandages,
+                  sunken empty eye sockets, tattered burial wrappings,
+                  ancient artifacts and jewelry,curses, supernatural reanimation
+            name:
+                - mummy
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/mummy/name__, __magical-beings/mummy/characteristics__
+        naga:
+            characteristics:
+                - >-
+                  serpent mythical creature,
+                  human upper body, snake lower body,
+                  multiple snake heads, {0.2::elaborate hooded necks,|}
+                  scaled snake skin, {0.2::regal divine appearance,|}
+                  {0.2::wings,|0.2::fins,|} water, fertility, protection,
+                  powerful
+                - >-
+                  mythical serpent humanoid being, serpentine lower bodies, human upper
+                  body, {devine, wisdom, knowledge|dangerous, unpredictable}, fantasy
+            name:
+                - naga
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/naga/name__, __magical-beings/naga/characteristics__
+        nessie:
+            characteristics:
+                - >-
+                   cute {reddish|blue|green|pinkish|earth toned,yellowish} cryptid iconic elusive plesiosaur like creature, loch ness, large long necked aquatic being
+            name:
+                - nessie
+            prompt:
+                - __magical-beings/nessie/name__, __magical-beings/nessie/characteristics__
+        nymph:
+            characteristics:
+                - >-
+                  female nature spirit,youthful, beautiful,
+                  aspect of {nature|water|trees|mountains|fire|air|earth|meadow},
+                  long flowing hair, radiates ethereal natural beauty,
+                  {playful|serene} expression, enchanting, guardian spirit
+                - >-
+                  ethereal beauty, nature's guardian, alluring grace, youthful appearance,
+                  connected to the environment, magical presence, nature spirits, reside in forests
+                  and water bodies, fantasy
+            name:
+                - nymph
+            prompt:
+                - __magical-beings/nymph/name__, __magical-beings/nymph/characteristics__
+        ogre:
+            characteristics:
+                - >-
+                  large humanoid creature, brutish monstrous appearance,
+                  muscular hulking physique, exaggerated facial features,
+                  {tusks|large teeth}, {0.1::single eye|},
+                  {green|earth toned} skin, primitive crude clothing,
+                  strength, intimidating presence, {formidable|0.2::malevolent|}
+            name:
+                - ogre
+            prompt:
+                - __magical-beings/ogre/name__, __magical-beings/ogre/characteristics__
+        oni:
+            characteristics:
+                - >-
+                  large ogre-like fearsome otherworldly creature, fearsome monstrous appearance,
+                  muscular imposing physique, {blue|red|earthy} skin,
+                  horns, sharp claws, tusks, loincloths made of tiger skin,
+                  supernatural malevolent power, {malevolent|nuanced} beings, powerful
+            name:
+                - oni
+            prompt:
+                - __magical-beings/oni/name__, __magical-beings/oni/characteristics__
+        orc:
+            characteristics:
+                - >-
+                  fictional humanoid creature, robust muscular build,
+                  {green|gray|earth toned} skin, prominent {fangs|tusks},
+                  brutish, {0.2::hunched posture,|}, fantasy, formidable
+                - >-
+                  fictional humanoid creatures, brutish, fearsome, strength, muscular,rough
+                  rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray}
+                  skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated
+                  noses, and wide, powerful jaws, {sharp teeth|} fantasy
+            name:
+                - orc
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/orc/name__, __magical-beings/orc/characteristics__
+        pegasus:
+            characteristics:
+                - >-
+                  mythical majestic winged horse, feathered wings, majestic noble appearance,
+                  graceful strong posture, {white|light} hues,
+                  flowing mane and tail, inspiration, poetic creativity
+            name:
+                - pegasus
+            prompt:
+                - __magical-beings/pegasus/name__, __magical-beings/pegasus/characteristics__
+        phoenix:
+            characteristics:
+                - >-
+                  mythical powerful bird, in flames, vibrant colors,, large and majestic wings
+                  long flowing tail feathers, resplendent radiant plumage
+                  immortality, renewal, rebirth, {self immolate|rise from the ashes|sun and fire}
+            name:
+                - phoenix
+            prompt:
+                - __magical-beings/phoenix/name__, __magical-beings/phoenix/characteristics__
+        pixie:
+            characteristics:
+                - >-
+                  tiny humanoid creature, delicate ethereal appearance,
+                  transparent iridescent wings, pointed ears,
+                  playful mischievous expression, {colorful|nature inspired} clothing,
+                  magical accessories, {nature|enchantment|supernatural} realm,
+                  {benevolent|mischievous}
+                - >-
+                  tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows},
+                  playful, curious, delicate wings, flitting throught the air, fanatasy
+            name:
+                - pixie
+            prompt:
+                - __magical-beings/pixie/name__, __magical-beings/pixie/characteristics__
+        poltergeist:
+            characteristics:
+                - >-
+                  supernatural mischievous spirit,invisible, elusive,
+                  {moving|manipulating} objects, disturbances, noises,
+                  {0.2::malevolent disruptive behavior|}, unexplained phenomena
+            name:
+                - poltergeist
+            prompt:
+                - __magical-beings/poltergeist/name__, __magical-beings/poltergeist/characteristics__
+        roc:
+            characteristics:
+                - >-
+                  mythical gigantic colossal bird of prey,
+                  powerful wings, massive beak and talons,
+                  feathers, {earthy|vibrant|blue,red, white} colors,
+                  nature's grandeur, power
+            name:
+                - roc
+            prompt:
+                - __magical-beings/roc/name__, __magical-beings/roc/characteristics__
+        sasquatch:
+            characteristics:
+                - >-
+                  cryptid large humanoid ape-like creature, {brown|dark} fur,
+                  stands upright, {0.2::long arms,|}, elusive, mysterious, forest-dwelling
+            name:
+                - sasquatch
+            prompt:
+                - __magical-beings/sasquatch/name__, __magical-beings/sasquatch/characteristics__
+        satyr:
+            characteristics:
+                - >-
+                  human goat hybrid woodland creature, humanoid upper body, goat lower body,
+                  horns, goat ears, {0.2::goat tail|}, hooved feet,
+                  playful mischievous expression, revelry, music, dancing,
+                  lively, hedonistic
+                - >-
+                  mythological creature, upper body human, lower body goat, revelry, music,
+                  wine, dance, skilled musician and dancer, horns, fantasy
+            name:
+                - satyr
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/satyr/name__, __magical-beings/satyr/characteristics__
+        selkie:
+            characteristics:
+                - >-
+                  mythical enchanting mystical creature, {seal in water|human on land}
+                  attractive, wearing a seal skin cloak,
+                  connection to the sea, transformation, love, tragedy
+            name:
+                - selkie
+            prompt:
+                - __magical-beings/selkie/name__, __magical-beings/selkie/characteristics__
+        semi-ghost:
+            characteristics:
+                - >-
+                  ethereal translucent appearance,
+                  faint ghostly glow,human face,ghost like characteristics,
+                  partially visible, transparent form,
+                  unfinished journey to the afterlife,
+                  {haunting|benevolent}, caught between the physical and spiritual realms
+            name:
+                - semi-ghost
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/semi-ghost/name__, __magical-beings/semi-ghost/characteristics__
+        shellycoat:
+            characteristics:
+                - >-
+                  mischievous water spirit, {humanoid|fantastical} form, covered in shells and scales,
+                  shimmering iridescent appearance, humanoid or fantastical form, noisy, disturbing,
+                  playful, elusive, waterways
+            name:
+                - shellycoat
+            prompt:
+                - __magical-beings/shellycoat/name__, __magical-beings/shellycoat/characteristics__
+        siren:
+            characteristics:
+                - >-
+                  mythical humanoid creature, captivating appearance,
+                  beautiful seductive allure, {0.2::wings,|0.2::feathers,|0.2::fish tail,|0.2::scaly skin,|}
+                  enchanting melodic singing,
+                  {0.2::dangerous and rocky coastlines,|}
+                - seductive and alluring creatures, greek mythology,beautiful,danger, temptation
+            name:
+                - siren
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/siren/name__, __magical-beings/siren/characteristics__
+        space-wolf:
+            characteristics:
+                - >-
+                  wolfish humanoid, human, bipedal, glowing eyes, enlarged fangs, 
+                  powerful, lunar influences, scifi, tech
+            name:
+                - space wolf
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/space-wolf/name__, __magical-beings/space-wolf/characteristics__
+        sphinx:
+            characteristics:
+                - >-
+                  mythical majestic creature, lion body, female human head, {0.2::wings,|}
+                  regal imposing posture, {0.2::lions body,|} {0.2::serpent tail,|}
+                  enigmatic wise expression, guardian of mysteries and knowledge
+                  symbol of wisdom and enigma
+            name:
+                - sphinx
+            prompt:
+                - __magical-beings/sphinx/name__, __magical-beings/sphinx/characteristics__
+        spriggan:
+            characteristics:
+                - >-
+                  small grotesque creature, mischievous malicious demeanor,
+                  distorted exaggerated features, gnarled twisted appearance,
+                  guarding {treasures|burial mounds}, cunning
+            name:
+                - spriggan
+            prompt:
+                - __magical-beings/spriggan/name__, __magical-beings/spriggan/characteristics__
+        strigoi:
+            characteristics:
+                - >-
+                  mythical undead vampiric being, pale deathly complexion,
+                  sharp fangs, cursed, malevolent, supernatural powers
+            name:
+                - strigoi
+            prompt:
+                - __magical-beings/strigoi/name__, __magical-beings/strigoi/characteristics__
+        succubus:
+            characteristics:
+                - >-
+                  malevolent female demon, humanoid appearance, attractive seductive demeanor,
+                  {bat like wings,|} {horns,|} clawed hands, hoofs,
+                  dark demonic hues, enticing, nighttime seduction, sexual nightmares, night 
+            name:
+                - succubus
+            prompt:
+                - __magical-beings/succubus/name__, __magical-beings/succubus/characteristics__
+        sylph:
+            characteristics:
+                - >-
+                  elemental creature, associated with air and wind,
+                  graceful ethereal being, airy translucent appearance,
+                  delicate {butterfly|bird} wings, {humanoid,|}
+                  otherworldly aura, linked with wind, 
+                  elusive benevolent spirits of the air
+                - >-
+                  sylph, humanoid elemental being, delicate and ethereal being with gossamer wings,
+                  guardians of the air, {sky|mountain top},weather
+            name: 
+                - sylph
+            prompt:
+                - __magical-beings/sylph/name__, __magical-beings/sylph/characteristics__
+        thunderbird:
+            characteristics:
+                - >-
+                  large majestic formidable powerful mythical bird, 
+                  sharp edged lightning-like feathers,
+                  thunderous flapping of wings produces thunder,
+                  power, transformation, natural forces, thunder, lightning
+            name:
+                - thunderbird
+            prompt:
+                - __magical-beings/thunderbird/name__, __magical-beings/thunderbird/characteristics__
+        tikbalang:
+            characteristics:
+                - >-
+                  mythical    tall humanoid creature, horse head, mane
+                  hooved feet, fur, furry skin,
+                  {forests|mountains}, mischievous, {0.2::malevolent|}
+            name:
+                - tikbalang
+            prompt:
+                - __magical-beings/tikbalang/name__, __magical-beings/tikbalang/characteristics__
+        tomte:
+            characteristics:
+                - >-
+                  small gnomeish creature, long white beard,
+                  {red|earth toned} pointed hat, practical rustic clothing,
+                  carries a {sack of gifts|a staff},
+                  guardian of household and farmstead, good luck, protection
+            name:
+                - tomte
+            prompt:
+                - __magical-beings/tomte/name__, __magical-beings/tomte/characteristics__
+        tree-ent:
+            characteristics:
+                - >-
+                  fictional peaceful wise plantoid tree-like entity,
+                  {humanoid tree|walking tree},
+                  bark covered skin, woody features,
+                  limbs resembling branches and roots,
+                  guardianship of forests and nature
+            name:
+                - tree ent
+            prompt:
+                - __magical-beings/tree-ent/name__, __magical-beings/tree-ent/characteristics__
+        troll:
+            characteristics:
+                - >-
+                  mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep
+                  forests}, thick warty {grey|green|brown} skin, large nose, pointy ears, jutting
+                  jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy,
+                  stooped posture
+            name:
+                - troll
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/troll/name__, __magical-beings/troll/characteristics__
+        unicorn:
+            characteristics:
+                - >-
+                  mythical majestic horse creature, single horn, {white|light} colored
+                  long slender {spiraled|straight} horn, elegant noble posture,
+                  gentle wise expression, {0.2::cloven hooves,|} purity, grace,
+                  magical, enchanting
+            name:
+                - unicorn
+            prompt:
+                - __magical-beings/unicorn/name__, __magical-beings/unicorn/characteristics__
+        valkyrie:
+            characteristics:
+                - >-
+                  female warrior maiden spirit, ornamented shining silver armor and weaponry,
+                  wings, radiant noble appearance, {0.2::spear|0.2::sword|},
+                  guides to the afterlife, bravery, honor, powerful, otherworldly
+            name:
+                - valkyrie
+            prompt:
+                - __magical-beings/valkyrie/name__, __magical-beings/valkyrie/characteristics__
+        vampire:
+            characteristics:
+                - >-
+                  supernatural mysterious humanoid creature, preys on blood,
+                  pale deathly complexion, sharp fangs,
+                  hypnotic alluring gaze, immortal existence,
+                  charming, seductive, nocturnal, undead
+                - >-
+                  legendary creature, force, power, blood, undead, beautyful, alluring,
+                  night, moon, fangs, fantasy
+            name:
+                - vampire
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/vampire/name__, __magical-beings/vampire/characteristics__
+        wendigo:
+            characteristics:
+                - >-
+                  mythical creature, gaunt emaciated humanoid,
+                  skull-like antlered head, sharp elongated {claws|talons}
+                  covered in ice and frost and rime, winter wilderness,
+                  glowing eyes, curse, supernatural transformation
+                - >-
+                  cannibalistic supernatural being, {human-like yeti|sasquatch appearance},
+                  gaunt, emaciated, desiccated skin stretched over bones,
+                  ash gray complexion, eyes sunken deep, tattered and bloody lips,
+                  unclean suppurations of the flesh, strange eerie odor, decay, decomposition
+            name:
+                - wendigo
+            prompt:
+                - __magical-beings/wendigo/name__, __magical-beings/wendigo/characteristics__
+        werewolf:
+            characteristics:
+                - >-
+                  wolfish humanoid, fantasy, glowing eyes, furry fur,enlarged fangs, claws, powerful,
+                  cursed, afflicted
+                - >-
+                  lycanthropes, mythical creature, humanoid wolf-like form, full moon,
+                  hairy furry skin, fangs, wolf ears, wolf-like face
+            name:
+                - werewolf
+            prompt:
+                - __magical-beings/werewolf/name__, __magical-beings/werewolf/characteristics__
+        wild-hunt:
+            characteristics:
+                - >-
+                  mythical spectral ghostly haunting stygical hunting procession, supernatural skeletal divine leader, skeletal huntsmen,
+                  skeletal spectral hunters and horses and hounds, riding through the night sky, otherworldly,
+                  omen of {disaster|war}, awe-inspiring phenomenon
+            name:
+                - wild hunt
+            prompt:
+                - __magical-beings/wild-hunt/name__, __magical-beings/wild-hunt/characteristics__
+        will-o-the-wisp:
+            characteristics:
+                - >-
+                  phosphorescent flickering floating mysterious enchanting light,
+                  {blue|green|white}, marshy, swampy, vanish,
+                  supernatural phenomena, {0.2::mischievous,|0.2::malevolent,|}, night
+            name:
+                - will-o'-the-wisp
+                - ignis fatuus
+            prompt:
+                - __magical-beings/will-o-the-wisp/name__, __magical-beings/will-o-the-wisp/characteristics__
+        wisp:
+            characteristics:
+                - >-
+                  tiny small elemental mysterious enchanting creature of light, small, floating, 
+                  flickering ethereal appearance, {blue|green|white}, natural, 
+                  illusion of transluscent invisible face
+                - >-
+                  elemental mysterious enchanting floating transluscent face made of sphereshaped foggy diffuse spirit light, small,
+                  flickering ethereal appearance,
+                  {blue|green|white}, natural
+            name:
+                - wisp
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/wisp/name__, __magical-beings/wisp/characteristics__
+        wolpertinger:
+            characteristics:
+                - >-
+                  mythical mammalian creature, hybrid creature,
+                  wings, antlers, fangs, feathers,
+                  rabbit ears, small furry body, 
+                  humorous, imaginative, curiosity, whimsical, fictional
+            name:
+                - wolpertinger
+            prompt:
+                - __magical-beings/wolpertinger/name__, __magical-beings/wolpertinger/characteristics__
+        wraith:
+            characteristics:
+                - >-
+                  ghostly spectral entity, shadowy, ethereal,
+                  shrouded tattered appearance, {glowing|empty} eye sockets,
+                  {0.2::malevolence,|0.2::revenge,|} spectral, haunting otherworldly presence
+            name:
+                - wraith
+            prompt:
+                - >-
+                  {female|male}  __magical-beings/wraith/name__, __magical-beings/wraith/characteristics__
+        yeti:
+            characteristics:
+                - >-
+                  cryptid large humanoid ape-like creature, {white|brown} fur,
+                  thick stocky build, long arms, hunched stooped posture,
+                  prominent brow ridge, elusive, mysterious, mountain-dwelling
+                - large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains
+            name:
+                - yeti
+            prompt:
+                - __magical-beings/yeti/name__, __magical-beings/yeti/characteristics__
+        yuki-onna:
+            characteristics:
+                - >-
+                  japanese snow {spirit|ghost}, female, cold ethereal beauty,
+                  {white kimono|burial robe}, long black hair, pale skin,
+                  {glowing|haunting} eyes, {0.2::icy breath,|0.2::frost,|}
+                  winter, snow, haunting, supernatural, stygical, demonic expression
+            name:
+                - yuki-onna
+            prompt:
+                - __magical-beings/yuki-onna/name__, __magical-beings/yuki-onna/characteristics__
+
+
+
     professions:
         cyberpunk:
             artists:
@@ -11262,1420 +12664,6 @@ creatures:
         - urban
         - vintage
         - whimsical
-    magical-beings:
-        abaddon:
-            characteristics:
-                - >-
-                  destructive abyssal entity, realm of the dead, underworld
-                  dark malevolent presence, personification of destruction,
-                  chaos, death, ultimate abyss
-            name:
-                - abaddon
-            prompt:
-                - __magical-beings/abaddon/name__, __magical-beings/abaddon/characteristics__
-        alraune:
-            characteristics:
-                - >-
-                  plant hybrid,plant-based humanoid, alluring appearance, floral elements,
-                  green leaf-like bark-like skin,
-                  vines and roots as hair, varied and mystical attire,
-                  mesmerizing or hypnotic eyes,
-                  plant-based accessories or ornaments
-            name:
-                - alraune
-            prompt:
-                - __magical-beings/alraune/name__, __magical-beings/alraune/characteristics__
-        amazon:
-            characteristics:
-                - >-
-                  fearless female warrior, skilled archer, formidable strength, independent and
-                  self-reliant, tall and muscular stature, battle-hardened, warriors of ancient
-                  myths, honor and bravery, fantasy
-            name: 
-                - amazon
-            prompt:
-                - __magical-beings/amazon/name__, __magical-beings/amazon/characteristics__
-        angel:
-            characteristics:
-                - >-
-                  humanoid celestial being, radiant luminous appearance,
-                  feathered wings, noble serene expression,
-                  long flowing robes, white bright colors,
-                  halo, radiant aura above the head
-                - >-
-                  radiant aura, heavenly grace, harbingers of good news, guardians of the
-                  divine realm, symbolize purity and innocence, emanate ethereal light, fantasy
-            name:
-                - angel
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/angel/name__, __magical-beings/angel/characteristics__
-        aswang:
-            characteristics:
-                - >-
-                  medium-sized humanoid, predatory appearance, shapeshifter, sharp, feral features,
-                  claws and fangs, glowing eyes, keen sense of smell, heightened senses,
-                  dark ominous presence, sinister malevolent expression
-            name:
-                - aswang
-            prompt:
-                - >-
-                  {female|male}   __magical-beings/aswang/name__, __magical-beings/aswang/characteristics__
-        baal:
-            characteristics:
-                - >-
-                  supernatural {deity|demon},anthropomorphic and zoomorphic features, ancient semitic canaanite,
-                  {fertility|storms|warfare}, bull's head, horns
-            name:
-                - baal
-            prompt:
-                - __magical-beings/baal/name__, __magical-beings/baal/characteristics__
-        banshee:
-            characteristics:
-                - >-
-                  transluscent ethereal otherworldly unnatural nebulous incorporeal phantasmal nebulous vaporous phantasmal ghostly soul specter,
-                  long flowing silver hair,pale white lucid skin, fantasy,
-                  grayish tattered gown, hands with claws,dim eyes,
-                  {mourning expression|screaming in agony},eerie, stygical,
-                  floating, gliding, omen of death, {benevolent|malevolent}
-            name:
-                - banshee
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/banshee/name__, __magical-beings/banshee/characteristics__
-        basilisk:
-            characteristics:
-                - >-
-                  {serpent|dragon} like creature, deadly gaze,{crown|crest} on head,
-                  scaled skin with a menacing appearance,
-                  {serpent|reptilian} eyes, sharp fang like teeth,
-                  {coiled|poised} for attack,
-                  distinctive, intimidating posture,
-                  {0.05::wings|},sense of danger and fear
-            name:
-                - basilisk
-            prompt:
-                - __magical-beings/basilisk/name__, __magical-beings/basilisk/characteristics__
-        belial:
-            characteristics:
-                - >-
-                  demonic malevolent figure, horns, wings, tail,
-                  {0.2::humanoid appearance|}, deceit, wickedness, rebellion,
-                  religious, mythological, {demon|fallen angel},
-                  temptation, corrupting influence, malevolent force
-            name:
-                - belial
-            prompt:
-                - __magical-beings/belial/name__, __magical-beings/belial/characteristics__
-        bigfoot:
-            characteristics:
-                - >-
-                  large humanoid cryptid ape like creature, covered in brown dark fur,
-                  long arms, wilderness areas, forests,
-                  elusive mysterious forest-dwelling creature
-            name:
-                - bigfoot
-            prompt:
-                - __magical-beings/bigfoot/name__, __magical-beings/bigfoot/characteristics__
-        brownie:
-            characteristics:
-                - >- 
-                  small humanoid creature, wrinkled or aged appearance,
-                  brown earth toned clothing, pointed ears,
-                  {friendly|mischievous} expression, small pointed hat,
-                  expressive eyes, curiosity, playfulness, {cute|slightly grotesque},
-                  helpful household tasks, domestic environments
-            name:
-                - brownie
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/brownie/name__, __magical-beings/brownie/characteristics__
-        centaur:
-            characteristics:
-                - >-
-                  large mythical creature, humanoid upper body, horse lower body,
-                  muscular strong physique, human like arms and torso,
-                  equine features, hooves, flowing tail, wild untamed mane of hair,
-                  {archery equipment|weapons|}, dynamic, running pose,
-                  {wise and noble|wild and untamed|benevolent}
-                - >-
-                  half-human, half-horse, mythological creatures, powerful and agile,
-                  equine lower body, human upper body,guardians of the wild, fantasy
-            name:
-                - centaur
-            prompt:
-                - __magical-beings/centaur/name__, __magical-beings/centaur/characteristics__
-        changeling:
-            characteristics:
-                - >-
-                  tiny fairy elf like creature, {baby|young child},
-                  otherworldly ethereal glow, distinctive captivating eyes,
-                  facial features that convey an otherworldly charm,
-                  {transformation|supernatural abilities|}
-                  elf like pointed ears, enchanted ethereal clothing,
-                  {innocent|mischievous}
-            name:
-                - changeling
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/changeling/name__, __magical-beings/changeling/characteristics__
-        chimera:
-            characteristics:
-                - >-
-                  large mythical creature, composite features,
-                  lion body, mane, forelimbs, goat head, hind legs, serpent tail,
-                  distinctive, intimidating, ferocious expression, multiple heads,
-                  {scaled|fur} covered body, symbol of chaos, mythical hybridization
-            name:
-                - chimera
-            prompt:
-                - __magical-beings/chimera/name__, __magical-beings/chimera/characteristics__
-        christmas_elf:
-            characteristics:
-                - >-
-                  small humanoid creature, pointed ears,
-                  bright and festive attire, red, green, holiday colors,
-                  pointed hat with a bell on the tip,
-                  merry cheerful expression, rosy cheeks, lively eyes,
-                  joyful, industrious, and benevolent
-            name:
-                - christmas elf
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/christmas elf/name__, __magical-beings/christmas elf/characteristics__
-        chupacabra:
-            characteristics:
-                - >-
-                  medium-sized creature, {reptilian|alien} like appearance,
-                  {scaled|leathery} skin, pronounced {spikes|quills} along its back,
-                  clawed feet and hands, bipedal creature, {fangs|sharp teeth} for blood sucking,
-                  {glowing|menacing} eyes, {pointed|stand upright} ears,
-            name:
-                - chupacabra
-            prompt:
-                - __magical-beings/chupacabra/name__, __magical-beings/chupacabra/characteristics__
-        cockatrice:
-            characteristics:
-                - >-
-                  small mythical creature, serpent body, (rooster:.6) head, feathered wings,
-                  sharp {talons|claws}, {scaled|feathered} skin,
-                  beak with fangs, venomous bite,{crown|crest|} on head,
-                  {glowing|fierce} eyes, deadly {gaze|breath},
-                  {fierce aggressive demeanor|distinctive, intimidating|hostile and dangerous}
-            name:
-                - cockatrice
-            prompt:
-                - __magical-beings/cockatrice/name__, __magical-beings/cockatrice/characteristics__
-        cyclope:
-            characteristics:
-                - >-
-                  one-eyed giant, mythological creatures, enormous and powerful, singular
-                  eye in the middle of the forehead, fierce and intimidating appearance, known
-                  for strength and brutality, fantasy, greek mythology
-            name: 
-                - cyclope
-            prompt:
-                - __magical-beings/cyclope/name__, __magical-beings/cyclope/characteristics__
-        dark-elf:
-            characteristics:
-                - >-
-                  fictional elfish individual, slender agile build,
-                  {anthracite|gray|ebony|pale} skin tone, sharp features, pointed ears, 
-                  {0.2::red eyes,|0.2::lavender eyes,|}
-                  {white|silver} hair, dark intricate rich ornamented {armor|robes}, 
-                  {subterranean|nocturnal} environments,
-                  elusive mysterious, dark nature, fantasy
-            name:
-                - dark elf
-                - drow
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/dark-elf/name__, __magical-beings/dark-elf/characteristics__
-        death:
-            characteristics:
-                - >-
-                  personification of the end of life,
-                  skeletal figure, carries a scythe,
-                  dark tattered robes, {0.2::hooded figure,|},
-                  afterlife, universal inexorable force in existence
-            name:
-                - death
-            prompt:
-                - __magical-beings/death/name__, __magical-beings/death/characteristics__
-        dementor:
-            characteristics:
-                - >-
-                  dark hooded floating humanoid entity,
-                  cloaked in tattered hooded robes, ghostly diffuse lower body,
-                  face hidden under hood, no distinct features,
-                  drains happiness and positive emotions,
-                  cold despair inducing aura, soul sucking kiss,
-                  fear, despair, darkest aspects of magic
-            name:
-                - dementor
-            prompt:
-                - __magical-beings/dementor/name__, __magical-beings/dementor/characteristics__
-        demon:
-            characteristics:
-                - >-
-                  malevolent supernatural being, evil, chaos, infernal, powerful entity,
-                  corrupt,harm full, fantasy
-            name:
-                - demon
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/demon/name__, __magical-beings/demon/characteristics__
-        devil:
-            characteristics:
-                - >-
-                  embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
-            name:
-                - devil
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/devil/name__, __magical-beings/devil/characteristics__
-        diablo:
-            characteristics:
-                - >-
-                  large menacing demon, horned demonic appearance,
-                  red and dark colored leathery skin, formidable powers,
-                  lord of terror, powerful, malevolent
-                - >-
-                  supernatural being, middle eastern folklore, 
-                  humanoid created from smokeless fire, fantasy
-            name:
-                - diablo
-            prompt:
-                - __magical-beings/diablo/name__, __magical-beings/diablo/characteristics__
-        djinn:
-            characteristics:
-                - >-
-                  supernatural powerful magical entity, {human|animal} form,
-                  {invisible|visible}, possess magical abilities, ancient knowledge,
-                  grants wishes, {benevolent|malevolent}
-            name:
-                - djinn
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/djinn/name__, __magical-beings/djinn/characteristics__
-        doppelganger:
-            characteristics:
-                - >-
-                  medium sized humanoid creature, shape-shifter,
-                  mimics the exact physical features of its target,
-                  lacks distinct personal features, appearing generic,
-                  expression neutral, slightly eerie unsettling aura,
-                  eyes that may reveal a subtle otherness, lack of emotion,
-                  {mysterious|ominous} circumstance
-            name:
-                - doppelganger
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/doppelganger/name__, __magical-beings/doppelganger/characteristics__
-        dragonborn:
-            # real dragons with __bo/creatures/dragon*__
-            characteristics:
-                - >-
-                  {male|female} human with dragonic characteristics,
-                  {scaled|reptilian} {0.3::__atmosphere/elemental__ __atmosphere/elements__|} skin,
-                  {dragon like eyes|slitted pupils}, {0-3$$snout|horns|mane|crest|__creatures/dragons/wing-types__ wings|tail},
-                  {clawed hands|fingers with talons|}, sense of mystique and hidden power,
-                  {wise|protective|dangerous|regal powerful presence}
-            name:
-                - dragonborn
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/dragonborn/name__, __magical-beings/dragonborn/characteristics__
-        dragon-human-form:
-            # real dragons with __bo/creatures/dragon*__
-            characteristics:
-                - >-
-                  {male|female} human, human head and face,
-                  {scaled|scaly reptilian} {0.3::__atmosphere/elemental__ __atmosphere/elements__|} skin,
-                  slitted pupils, {0-3$$horns|mane|__creatures/dragons/wing-types__ wings|tail},
-                  {clawed hands|fingers with talons|}, sense of mystique and hidden power,
-                  {wise|protective|dangerous|regal powerful presence}
-                - >-
-                  immense power, wisdom, and connection to fire, draconic
-                  features,scales, wings, wise, ancient being, knowledge, fantasy
-            name:
-                - dragon human form
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/dragon-human-form/name__, __magical-beings/dragon-human-form/characteristics__
-        draugr:
-            characteristics:
-                - >-
-                  undead creature, reanimated corpse,
-                  decayed skeletal appearance, remnants of skin and flesh, viking armor,
-                  guardian graves and treasures, superhuman strength
-            name:
-                - draugr
-            prompt:
-                - __magical-beings/draugr/name__, __magical-beings/draugr/characteristics__
-        dryad:
-            characteristics:
-                - >-
-                  female nature spirit, bark like woody skin texture,
-                  leafy viney hair and attire, serene or ethereal expression,
-                  green earthy coloration, nature infused eyes,
-                  associated trees, embodiment of the forest,
-                  {carries|adorned with} symbols of nature,
-                  {benevolent|guardians of the forest in greek mythology|aura of natural beauty and grace}
-            name:
-                - dryad
-            prompt:
-                - __magical-beings/dryad/name__, __magical-beings/dryad/characteristics__
-        dullahan:
-            characteristics:
-                - >-
-                  headless humanoid figure, carries head in one hand,
-                  neck stump, dark shadowy hooded attire,
-                  riding a horse or carriage,
-                  whip made from human spine,
-                  harbinger of death, {mournful|malevolent} expression
-                  mysterious foreboding aura
-            name:
-                - dullahan
-            prompt:
-                - __magical-beings/dullahan/name__, __magical-beings/dullahan/characteristics__
-        dwarf:
-            characteristics:
-                - >-
-                  dwarf, short-statured humanoid being, 3 to 4 feet tall, skilled craftsmen,expertise
-                  in mining and blacksmithing, resilience, determination, fantasy
-                - >-
-                  small short fictional humanoid creature, stout, muscular, skilled, hardy,
-                  {male, prominent facial hair, beard,|woman, hint of facial hair, fluff,} resilience, 
-                  craftsmanship,{0.8::gold, gems|}
-            name:
-                - dwarf
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/dwarf/name__, __magical-beings/dwarf/characteristics__
-        elf:
-            characteristics:
-                - >-
-                  humanoid creature, slender, graceful, pointed ears,
-                  fair colored hair, almond shaped eyes with vibrant colors,
-                  ageless appearance, otherworldly ethereal glow,
-                  elaborate nature inspired attire, magic,
-                  {regal noble demeanor|}
-                - >-
-                  graceful and long-lived being, 6 to 7 feet tall, beautiful,elegant,
-                  youthful appearance, graceful, ethereal, magical, fantasy
-            name:
-                - elf
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/elf/name__, __magical-beings/elf/characteristics__
-        enenra:
-            characteristics:
-                - >-
-                  formless mist like creature, made of smoke and vapor,
-                  transluscent, transparent, uncorporeal,
-                  humanoid shape in the smoke, glowing radiant presence,
-                  mystical ephemeral appearance,{mist|fog},
-                  {benign neutral entity|serene or tranquil aura|ghostly apparitions}
-            name:
-                - enenra
-            prompt:
-                - __magical-beings/enenra/name__, __magical-beings/enenra/characteristics__
-        erlking:
-            characteristics:
-                - >-
-                  tall regal ghostly figure, elegant ethereal appearance
-                  elaborate forest inspired clothing,
-                  crown made of leaves and branches,antlers,
-                  distinctive captivating eyes,
-                  linked with forests and nature spirits,
-                  connection to the wild hunt,
-                  {benevolent|malevolent|sense of melancholy and mystery|linked with spirits of the forest}
-            name:
-                - erlking
-            prompt:
-                - __magical-beings/erlking/name__, __magical-beings/erlking/characteristics__
-        easter-bunny:
-            characteristics:
-                - >-
-                  anthropomorphic {rabbit|hare}, colorful eggs,
-                  festive clothing and accessories,
-                  basket filled with easter eggs,
-                  fertility, rebirth, spring, cheerful
-            name:
-                - easter bunny
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/easter-bunny/name__, __magical-beings/easter-bunny/characteristics__
-        fairy:
-            characteristics:
-                - >-
-                  tiny humanoid creature with wings,
-                  delicate graceful appearance,
-                  transparent opalescent iridescent wings,
-                  pointed ears, colorful ethereal clothing,
-                  nature inspired attire, made of petals and leaves,
-                  __clothings/magical/unisex/accessories__, {playful|mischievous}
-                - >-
-                  enchanting ethereal creature, beauty, nature, protectors creatures, sacred
-                  places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
-            name:
-                - fairy
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/fairy/name__, __magical-beings/fairy/characteristics__
-        fenghuang:
-            characteristics:
-                - >-
-                  mythical bird, composite creature, features of several birds,
-                  elegant and majestic appearance,
-                  colorful plumage, vibrant shades, pheasant head,
-                  crest or crown on the head, elegant, long tail feathers,
-                  wings, claws, {harmony, beauty, good fortune|positive auspicious symbol}
-            name:
-                - fenghuang
-            prompt:
-                - __magical-beings/fenghuang/name__, __magical-beings/fenghuang/characteristics__
-        firebird:
-            characteristics:
-                - >-
-                  mythical enchanting bird, fire, light, vibrant flaming fiery plumage,
-                  flaming radiant wings, majestic regal appearance,
-                  {0.2::crest,|0.2::crown,|} beauty, immortality, resurrection,
-                  elusive, magical nature,
-            name:
-                - firebird
-            prompt:
-                - __magical-beings/firebird/name__, __magical-beings/firebird/characteristics__
-        gargoyle:
-            characteristics:
-                - >- 
-                  stone grotesque creature, {winged humanoid|monstrous figure},
-                  gothic, grotesque facial features, fangs, horns, open mouth,
-                  {0.2::protectors against evil spirits,|} stone guardians
-            name:
-                - gargoyle
-            prompt:
-                - __magical-beings/gargoyle/name__, __magical-beings/gargoyle/characteristics__
-        ghoul:
-            characteristics:
-                - >-
-                  humanoid monstrous creature.
-                  emaciated corpse like appearance, decayed or mummified skin,
-                  sunken or glowing eyes, sharp teeth,
-                  clawed hands, predatory appearance, nocturnal,
-                  tattered or burial clothing, undead
-            name:
-                - ghoul
-            prompt:
-                - __magical-beings/ghoul/name__, __magical-beings/ghoul/characteristics__
-        giant:
-            characteristics:
-                - >-
-                  humanoid, enormous and powerful being, 20 to 40 feet tall, benevolent
-                  and wise, force of nature, legendary strength, fantasy
-            name:
-                - giant
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/giant/name__, __magical-beings/giant/characteristics__
-        gnome:
-            characteristics:
-                - >-
-                  small humanoid creature, stocky and stout appearance,
-                  {long white beard|}, pointed hat, red or earth toned,
-                  rounded belly, rosy cheeks, practical earthy clothing,
-                  connection to earth and nature,
-                  {underground|natural} settings, craftsmanship, earth magic,
-                  {friendly, industrious|guardians of nature|earth and minerals}
-                - >-
-                  1 feet small, humanoid, earth-dwelling humanoid being, affinity with
-                  the earth and nature, gardening and craftsmanship, fantasy
-            name:
-                - gnome
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/gnome/name__, __magical-beings/gnome/characteristics__
-        goblin:
-            characteristics:
-                - >-
-                  small humanoid creature, hunched posture,
-                  pointed ears, bulbous nose, sharp teeth, {green|gray|earth toned} skin,
-                  clawed hands and feet, {ragged|crude} clothing,
-                  {mischievous|malevolent} expression,
-                  trickery, trouble, cunning, mischievous, malevolent
-                - >-
-                  imaginative and mischievous character with a hunched posture,
-                  glowing beady eyes, and a malevolent grin. use earthy green and brown tones
-                  for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly
-                  moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small
-                  in stature, around 2 to 3 feet tall, fantasy
-            name:
-                - goblin
-            prompt:
-                - __magical-beings/goblin/name__, __magical-beings/goblin/characteristics__
-        gorgon:
-            characteristics:
-                - >- 
-                  humanoid upper body, serpentine lower body, coiled snakes for hair, 
-                  venomous petrifying gaze, {scaled|stone like} skin,
-                  fierce and intimidating expression, {wings|}
-                  {tusks|fangs|},medusa, powerful and dangerous mythical creature
-            name:
-                - gorgon
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/gorgon/name__, __magical-beings/gorgon/characteristics__
-        harpy:
-            characteristics:
-                - >-
-                  mix of human and bird features,
-                  humanoid upper body, sharp claws, feathery wings, powerful,
-                  {bird's beak|}, varied coloration, 
-                  distinctive and eerie screeching,
-                  stormy weather and winds, vengeance, punishment,
-                  wild, predatory, malevolent
-                - >-
-                  mythical creature, upper body of a woman, wings and lower body of a bird, 
-                  vicious and malevolent, fantasy
-            name:
-                - harpy
-            prompt:
-                - __magical-beings/harpy/name__, __magical-beings/harpy/characteristics__
-        heinzelmaennchen:
-            characteristics:
-                - >-
-                  mythical small gnome like beings, household spirits,
-                  dressed in traditional german clothing,
-                  pointy hat, beard, industrious helpful nature,
-                  perform household chores, night, benevolent diligent
-                - >-
-                  mythical small female gnome like beings, household spirits,
-                  dressed in traditional german clothing,
-                  pointy hat, industrious helpful nature,
-                  perform household chores, night, benevolent diligent
-            name:
-                - heinzelmännchen
-            prompt:
-                - __magical-beings/heinzelmaennchen/name__, __magical-beings/heinzelmaennchen/characteristics__
-        hippogriff:
-            characteristics:
-                - >-
-                  mythical creature, horse's body and hind legs,
-                  eagle's wings and front claws,
-                  majestic and powerful appearance,
-                  feathered wings and mane, eagle like head and beak,
-                  strong and noble posture,
-                  symbol of chivalric romance, mythology, bravery, strength,
-            name:
-                - hippogriff
-            prompt:
-                - __magical-beings/hippogriff/name__, __magical-beings/hippogriff/characteristics__
-        hobgoblin:
-            characteristics:
-                - >-
-                  medium sized humanoid creature, robust and muscular build,
-                  pointed ears, fangs, {earth toned|greenish} skin,
-                  {facial warts|wrinkles|scars|}, clawed hands and feet,
-                  crude or tattered clothing,
-                  mischievous or malevolent expression
-                  trickery, causing trouble
-            name:
-                - hobgoblin
-            prompt:
-                - __magical-beings/hobgoblin/name__, __magical-beings/hobgoblin/characteristics__
-        house-elf:
-            characteristics:
-                - >-
-                  small humanoid being, large pointed ears,
-                  brown earth toned simple tattered clothing, subservient humble demeanor,
-                  large expressive eyes, magical,
-                  loyalty, dedication, strong sense of duty
-            name:
-                - house elf
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/house-elf/name__, __magical-beings/house-elf/characteristics__
-        huldra:
-            characteristics:
-                - >-
-                  female humanoid creature, hidden tail, beautiful, alluring,
-                  long flowing hair covering part of the face,
-                  traditional attire, {rustic|reminiscent of folk} clothing,
-                  {back {is hollow|covered in bark}}, forest natural surroundings,
-                  seductive, mysterious forest spirit, {benevolent|mischievous}
-            name:
-                - huldra
-            prompt:
-                - __magical-beings/huldra/name__, __magical-beings/huldra/characteristics__
-        ifrit:
-            characteristics:
-                - >-
-                  large supernatural being, fiery smoky appearance,
-                  humanoid shape, muscular build, emanating flames and smoke from body,
-                  flaming eyes and facial features, {wings made of fire,|}
-                  coloration from red to black, element of fire, powerful and malevolent,
-                  formidable and elemental force
-            name:
-                - ifrit
-            prompt:
-                - __magical-beings/ifrit/name__, __magical-beings/ifrit/characteristics__
-        imp:
-            characteristics:
-                - >-
-                  small, mischievous supernatural humanoid creature, impish features,
-                  horns, pointed ears, sharp teeth, bat like leathery wings,
-                  fiery glowing eyes, clawed hands and feet, tail,
-                  red to dark shaded skin, trickster, servant of a higher power,
-                  {prone|playful|malevolent}
-            name:
-                - imp
-            prompt:
-                - __magical-beings/imp/name__, __magical-beings/imp/characteristics__
-        incubus:
-            characteristics:
-                - >-
-                  malevolent male demon, humanoid appearance, attractive seductive demeanor,
-                  {bat like wings,|} {horns,|} clawed hands, hoofs,
-                  dark demonic hues, enticing, nighttime seduction, sexual nightmares,
-            name:
-                - incubus
-            prompt:
-                - __magical-beings/incubus/name__, __magical-beings/incubus/characteristics__
-        jabberwocky:
-            characteristics:
-                - >-
-                  large and fearsome creature, dragon like appearance,
-                  jagged and sharp features, slithers, eerie grace,
-                  dark mottled hues, vorpal claws and teeth,
-                  wings,tail, mythical fantastical realm
-            name:
-                - jabberwocky
-            prompt:
-                - __magical-beings/jabberwocky/name__, __magical-beings/jabberwocky/characteristics__
-        jinn:
-            characteristics:
-                - >-
-                  supernatural being, shapeshifting abilities,
-                  appears as smoke or fire, {humanoid|monstrous} appearance,
-                  magical supernatural powers, air and fire elements,
-                  {granting wishes,|causing harm,|} powerful and mysterious
-            name:
-                - jinn
-            prompt:
-                - __magical-beings/jinn/name__, __magical-beings/jinn/characteristics__
-        jotun:
-            characteristics:
-                - >-
-                  jötun,powerful ancient {mythical giant|supernatural entity}, {0.2::humanoid appearance,|}
-                  primal {__magical/elemental__|__atmosphere/elemental__}, {human sized|big|large|gigantic|colossal|massive},
-                  {chaos|conflict}, {0.1::ymir|0.1::surtr|}
-            name:
-                - jötun
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/jotun/name__, __magical-beings/jotun/characteristics__
-        kappa:
-            characteristics:
-                - >-
-                  water dwelling creature, humanoid appearance with a turtle like shell,
-                  webbed hands and feet, {beak|mouth} located on head,
-                  dishl-ike depression on its head holding water,
-                  greenish scaly skin, strength, mischievous
-            name:
-                - kappa
-            prompt:
-                - __magical-beings/kappa/name__, __magical-beings/kappa/characteristics__
-        kelpie:
-            characteristics:
-                - >-
-                  shape shifting water spirit, horse in humanoid shape,
-                  mane, coat, drips water, lures victims, dark sleek coat,
-                  eyes supernatural alluring quality, webbed hooves
-            name:
-                - kelpie
-            prompt:
-                - __magical-beings/kelpie/name__, __magical-beings/kelpie/characteristics__
-        kitsune-fox-form:
-            characteristics:
-                - >-
-                  fox spirit,fox with multiple tails, power,
-                  magical enchanting aura,supernatural alluring eyes
-                  white and red, intelligence, trickery,wisdom, supernatural feats
-            name:
-                - kitsune
-            prompt:
-                - __magical-beings/kitsune-fox-form/name__, __magical-beings/kitsune-fox-form/characteristics__
-        kitsune-human-form:
-            characteristics:
-                - >-
-                  human, multiple tails, fox ears,power,
-                  magical enchanting aura,supernatural alluring eyes, fox ears,
-                  white and red, intelligence, trickery,wisdom, supernatural feats
-                - >-
-                  mythical creature, japanese folklore, intelligent, humanform with multiple
-                  foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
-            name:
-                - kitsune
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/kitsune-human-form/name__, __magical-beings/kitsune-human-form/characteristics__
-        leprechaun:
-            characteristics:
-                - >-
-                  small humanoid creature, beard, hat,
-                  {red|green} clothing, {0.3:gold trim,|}
-                  buckled shoes and stockings, {mischievous|playful} expression,
-                  pot of gold, {0.3::smoking a pipe,|} short stature, 2 feet tall,
-                  tricky, mischievous
-                - >-
-                  mischievous, solitary,old men wearing green coats and buckled shoes,
-                  3-4 feet tall, crafty and elusive, fantasy
-            name:
-                - leprechaun
-            prompt:
-                - __magical-beings/leprechaun/name__, __magical-beings/leprechaun/characteristics__
-        lich:
-            characteristics:
-                - >-
-                  undead {sorcerer|wizard}, {skeletal|mummified} appearance,
-                  {tattered|regal} robes, {staff|wand}, {glowing|empty} eye sockets,
-                  no life, no flesh, {0.2::crown,|0.2::headdress,|}
-                  aura of {dark magic|necromancy}.
-                  immortality, dark rituals, powerful, malevolent, 
-                  ancient formidable spellcaster, necromancy, dark magic
-            name:
-                - lich
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/lich/name__, __magical-beings/lich/characteristics__
-        lilith:
-            characteristics:
-                - >-
-                  mystical seductive powerful woman,
-                  {0.3::{leathered|feathered} wings,|0.3::supernatural attributes,|}
-                  night, darkness, {0.2::demon|0.2::vampire|}, independence, rebellion,
-                  {0.2::motherhood, fertility,|} complex, multifaceted
-            name:
-                - lilith
-            prompt:
-                - __magical-beings/lilith/name__, __magical-beings/lilith/characteristics__
-        manananggal:
-            characteristics:
-                - >-
-                  female mythical creature, separated upper torso,
-                  bat like wings on detached torso,
-                  long proboscis like tongue, sharp claws,
-                  long disheveled hair, distinctive eerie sound, malevolent vampiric entity
-            name:
-                - manananggal
-            prompt:
-                - __magical-beings/mananaggal/name__, __magical-beings/mananaggal/characteristics__
-        mandrake:
-            characteristics:
-                - >-
-                  herbaceous plant, human-like root,
-                  {forked|humanoid} roots, {0.2::leaves and fruits,|}
-                  magical mystical properties, scream, potent, mystical
-            name:
-                - mandrake
-            prompt:
-                - __magical-beings/mandrake/name__, __magical-beings/mandrake/characteristics__
-        manticore:
-            characteristics:
-                - >-
-                  mythical creature, lion body, venomous stinger tail ending,
-                  human face, sharp teeth, {0.2::bat wings,|}
-                  mane around head and neck, powerful muscular physique,
-                  {horns|spikes}, distinctive fierce expression,
-                  formidable legendary beast
-            name:
-                - manticore
-            prompt:
-                - __magical-beings/manticore/name__, __magical-beings/manticore/characteristics__
-        marid:
-            characteristics:
-                - >-
-                  supernatural large powerful magical {humanoid|monstrous} entity,
-                  strong magical, {ocean|sea}, free will, independence, formidable, capricious
-            name:
-                - marid
-            prompt:
-                - __magical-beings/marid/name__, __magical-beings/marid/characteristics__
-        mausebaer:
-            characteristics:
-                - >-
-                  cute furry fuzzy creature, alluring gaze, fairy tail, ethereal, fantastic,
-                  {playful|serene} expression, enchanting, guardian spirit
-            name:
-                - mouse baer
-            prompt:
-                - __magical-beings/mausebaer/name__, __magical-beings/mausebaer/characteristics__
-        medusa:
-            characteristics:
-                - >-
-                  female humanoid appearance,
-                  powerful dangerous mythical creature,
-                  snakes hair, serpentine lower body, coiled,
-                  glowing petrifying gaze, scaled stone skin,
-                  fierce intimidating expression, {0.2::wings|}
-            name:
-                - medusa
-            prompt:
-                - __magical-beings/medusa/name__, __magical-beings/medusa/characteristics__
-        mephisto:
-            characteristics:
-                - >-
-                  mythical slender gaunt demonic cunning malevolent demon,visible spine, no belly,
-                  horns,pointed tail, dark earth toned yellowish skin,
-                  temptation, corruption, sinister, eerie
-            name:
-                - mephisto
-            prompt:
-                - __magical-beings/mephisto/name__, __magical-beings/mephisto/characteristics__
-        mermaid:
-            characteristics:
-                - >-
-                  humanoid upper body,fish tail,
-                  long flowing hair,
-                  {0.2::scales on upper body,|} {0.2::webbed fingers,|}
-                  enchanting alluring appearance, aquatic beauty,
-                  aquatic hues, singing and enchanting melodic voices,
-                  {varied, benevolent|luring sailors to doom}
-                - upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
-            name:
-                - mermaid
-            prompt:
-                - __magical-beings/mermaid/name__, __magical-beings/mermaid/characteristics__
-        merman:
-            characteristics:
-                - >-
-                  humanoid upper body,fish tail, muscular physique,
-                  {0.2::scales on upper body,|} {0.2::webbed fingers,|}
-                  enchanting alluring appearance, aquatic beauty,
-                  aquatic hues, strength, mythtic allure, depth of the sea
-                - upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
-            name:
-                - merman
-            prompt:
-                - __magical-beings/merman/name__, __magical-beings/merman/characteristics__
-        minotaur:
-            characteristics:
-                - >-
-                  mythical fearsome legendary creature, a hybrid of humanoid and bull,
-                  humanoid upper body, bull head, muscular powerful physique,
-                  large curved horns, strong imposing stature,
-                  bull tail, bull hind legs, fur covered hide like skin
-                - >-
-                  mythical creature with the head of a bull and the body of a man, greek
-                  mythology, fierce and monstrous, chaos, primal instinct, fantasy
-            name:
-                - minotaur
-            prompt:
-                - __magical-beings/minotaur/name__, __magical-beings/minotaur/characteristics__
-        minotaurin:
-            characteristics:
-                - >-
-                  mythical creature, body of a woman, cow tail, bull horns, cow spots,
-                  gentle, friendly, large breasts, greek mythology
-            name:
-                - minotaur
-            prompt:
-                - __magical-beings/minotaurin/name__, __magical-beings/minotaurin/characteristics__
-        mothman:
-            characteristics:
-                - >-
-                  cryptid creature, humanoid, large {moth|bat} wings,
-                  {glowing|reflective} red eyes, {fur|feather} covered body, dark colors,
-                  tall imposing stature, foretelling disaster
-            name:
-                - mothman
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/mothman/name__, __magical-beings/mothman/characteristics__
-        mummy:
-            characteristics:
-                - >-
-                  preserved reanimated undead cursed being, wrapped in bandages,
-                  sunken empty eye sockets, tattered burial wrappings,
-                  ancient artifacts and jewelry,curses, supernatural reanimation
-            name:
-                - mummy
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/mummy/name__, __magical-beings/mummy/characteristics__
-        naga:
-            characteristics:
-                - >-
-                  serpent mythical creature,
-                  human upper body, snake lower body,
-                  multiple snake heads, {0.2::elaborate hooded necks,|}
-                  scaled snake skin, {0.2::regal divine appearance,|}
-                  {0.2::wings,|0.2::fins,|} water, fertility, protection,
-                  powerful
-                - >-
-                  mythical serpent humanoid being, serpentine lower bodies, human upper
-                  body, {devine, wisdom, knowledge|dangerous, unpredictable}, fantasy
-            name:
-                - naga
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/naga/name__, __magical-beings/naga/characteristics__
-        nessie:
-            characteristics:
-                - >-
-                   cute {reddish|blue|green|pinkish|earth toned,yellowish} cryptid iconic elusive plesiosaur like creature, loch ness, large long necked aquatic being
-            name:
-                - nessie
-            prompt:
-                - __magical-beings/nessie/name__, __magical-beings/nessie/characteristics__
-        nymph:
-            characteristics:
-                - >-
-                  female nature spirit,youthful, beautiful,
-                  aspect of {nature|water|trees|mountains|fire|air|earth|meadow},
-                  long flowing hair, radiates ethereal natural beauty,
-                  {playful|serene} expression, enchanting, guardian spirit
-                - >-
-                  ethereal beauty, nature's guardian, alluring grace, youthful appearance,
-                  connected to the environment, magical presence, nature spirits, reside in forests
-                  and water bodies, fantasy
-            name:
-                - nymph
-            prompt:
-                - __magical-beings/nymph/name__, __magical-beings/nymph/characteristics__
-        ogre:
-            characteristics:
-                - >-
-                  large humanoid creature, brutish monstrous appearance,
-                  muscular hulking physique, exaggerated facial features,
-                  {tusks|large teeth}, {0.1::single eye|},
-                  {green|earth toned} skin, primitive crude clothing,
-                  strength, intimidating presence, {formidable|0.2::malevolent|}
-            name:
-                - ogre
-            prompt:
-                - __magical-beings/ogre/name__, __magical-beings/ogre/characteristics__
-        oni:
-            characteristics:
-                - >-
-                  large ogre-like fearsome otherworldly creature, fearsome monstrous appearance,
-                  muscular imposing physique, {blue|red|earthy} skin,
-                  horns, sharp claws, tusks, loincloths made of tiger skin,
-                  supernatural malevolent power, {malevolent|nuanced} beings, powerful
-            name:
-                - oni
-            prompt:
-                - __magical-beings/oni/name__, __magical-beings/oni/characteristics__
-        orc:
-            characteristics:
-                - >-
-                  fictional humanoid creature, robust muscular build,
-                  {green|gray|earth toned} skin, prominent {fangs|tusks},
-                  brutish, {0.2::hunched posture,|}, fantasy, formidable
-                - >-
-                  fictional humanoid creatures, brutish, fearsome, strength, muscular,rough
-                  rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray}
-                  skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated
-                  noses, and wide, powerful jaws, {sharp teeth|} fantasy
-            name:
-                - orc
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/orc/name__, __magical-beings/orc/characteristics__
-        pegasus:
-            characteristics:
-                - >-
-                  mythical majestic winged horse, feathered wings, majestic noble appearance,
-                  graceful strong posture, {white|light} hues,
-                  flowing mane and tail, inspiration, poetic creativity
-            name:
-                - pegasus
-            prompt:
-                - __magical-beings/pegasus/name__, __magical-beings/pegasus/characteristics__
-        phoenix:
-            characteristics:
-                - >-
-                  mythical powerful bird, in flames, vibrant colors,, large and majestic wings
-                  long flowing tail feathers, resplendent radiant plumage
-                  immortality, renewal, rebirth, {self immolate|rise from the ashes|sun and fire}
-            name:
-                - phoenix
-            prompt:
-                - __magical-beings/phoenix/name__, __magical-beings/phoenix/characteristics__
-        pixie:
-            characteristics:
-                - >-
-                  tiny humanoid creature, delicate ethereal appearance,
-                  transparent iridescent wings, pointed ears,
-                  playful mischievous expression, {colorful|nature inspired} clothing,
-                  magical accessories, {nature|enchantment|supernatural} realm,
-                  {benevolent|mischievous}
-                - >-
-                  tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows},
-                  playful, curious, delicate wings, flitting throught the air, fanatasy
-            name:
-                - pixie
-            prompt:
-                - __magical-beings/pixie/name__, __magical-beings/pixie/characteristics__
-        poltergeist:
-            characteristics:
-                - >-
-                  supernatural mischievous spirit,invisible, elusive,
-                  {moving|manipulating} objects, disturbances, noises,
-                  {0.2::malevolent disruptive behavior|}, unexplained phenomena
-            name:
-                - poltergeist
-            prompt:
-                - __magical-beings/poltergeist/name__, __magical-beings/poltergeist/characteristics__
-        roc:
-            characteristics:
-                - >-
-                  mythical gigantic colossal bird of prey,
-                  powerful wings, massive beak and talons,
-                  feathers, {earthy|vibrant|blue,red, white} colors,
-                  nature's grandeur, power
-            name:
-                - roc
-            prompt:
-                - __magical-beings/roc/name__, __magical-beings/roc/characteristics__
-        sasquatch:
-            characteristics:
-                - >-
-                  cryptid large humanoid ape-like creature, {brown|dark} fur,
-                  stands upright, {0.2::long arms,|}, elusive, mysterious, forest-dwelling
-            name:
-                - sasquatch
-            prompt:
-                - __magical-beings/sasquatch/name__, __magical-beings/sasquatch/characteristics__
-        satyr:
-            characteristics:
-                - >-
-                  human goat hybrid woodland creature, humanoid upper body, goat lower body,
-                  horns, goat ears, {0.2::goat tail|}, hooved feet,
-                  playful mischievous expression, revelry, music, dancing,
-                  lively, hedonistic
-                - >-
-                  mythological creature, upper body human, lower body goat, revelry, music,
-                  wine, dance, skilled musician and dancer, horns, fantasy
-            name:
-                - satyr
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/satyr/name__, __magical-beings/satyr/characteristics__
-        selkie:
-            characteristics:
-                - >-
-                  mythical enchanting mystical creature, {seal in water|human on land}
-                  attractive, wearing a seal skin cloak,
-                  connection to the sea, transformation, love, tragedy
-            name:
-                - selkie
-            prompt:
-                - __magical-beings/selkie/name__, __magical-beings/selkie/characteristics__
-        semi-ghost:
-            characteristics:
-                - >-
-                  ethereal translucent appearance,
-                  faint ghostly glow,human face,ghost like characteristics,
-                  partially visible, transparent form,
-                  unfinished journey to the afterlife,
-                  {haunting|benevolent}, caught between the physical and spiritual realms
-            name:
-                - semi-ghost
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/semi-ghost/name__, __magical-beings/semi-ghost/characteristics__
-        shellycoat:
-            characteristics:
-                - >-
-                  mischievous water spirit, {humanoid|fantastical} form, covered in shells and scales,
-                  shimmering iridescent appearance, humanoid or fantastical form, noisy, disturbing,
-                  playful, elusive, waterways
-            name:
-                - shellycoat
-            prompt:
-                - __magical-beings/shellycoat/name__, __magical-beings/shellycoat/characteristics__
-        siren:
-            characteristics:
-                - >-
-                  mythical humanoid creature, captivating appearance,
-                  beautiful seductive allure, {0.2::wings,|0.2::feathers,|0.2::fish tail,|0.2::scaly skin,|}
-                  enchanting melodic singing,
-                  {0.2::dangerous and rocky coastlines,|}
-                - seductive and alluring creatures, greek mythology,beautiful,danger, temptation
-            name:
-                - siren
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/siren/name__, __magical-beings/siren/characteristics__
-        space-wolf:
-            characteristics:
-                - >-
-                  wolfish humanoid, human, bipedal, glowing eyes, enlarged fangs, 
-                  powerful, lunar influences, scifi, tech
-            name:
-                - space wolf
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/space-wolf/name__, __magical-beings/space-wolf/characteristics__
-        sphinx:
-            characteristics:
-                - >-
-                  mythical majestic creature, lion body, female human head, {0.2::wings,|}
-                  regal imposing posture, {0.2::lions body,|} {0.2::serpent tail,|}
-                  enigmatic wise expression, guardian of mysteries and knowledge
-                  symbol of wisdom and enigma
-            name:
-                - sphinx
-            prompt:
-                - __magical-beings/sphinx/name__, __magical-beings/sphinx/characteristics__
-        spriggan:
-            characteristics:
-                - >-
-                  small grotesque creature, mischievous malicious demeanor,
-                  distorted exaggerated features, gnarled twisted appearance,
-                  guarding {treasures|burial mounds}, cunning
-            name:
-                - spriggan
-            prompt:
-                - __magical-beings/spriggan/name__, __magical-beings/spriggan/characteristics__
-        strigoi:
-            characteristics:
-                - >-
-                  mythical undead vampiric being, pale deathly complexion,
-                  sharp fangs, cursed, malevolent, supernatural powers
-            name:
-                - strigoi
-            prompt:
-                - __magical-beings/strigoi/name__, __magical-beings/strigoi/characteristics__
-        succubus:
-            characteristics:
-                - >-
-                  malevolent female demon, humanoid appearance, attractive seductive demeanor,
-                  {bat like wings,|} {horns,|} clawed hands, hoofs,
-                  dark demonic hues, enticing, nighttime seduction, sexual nightmares, night 
-            name:
-                - succubus
-            prompt:
-                - __magical-beings/succubus/name__, __magical-beings/succubus/characteristics__
-        sylph:
-            characteristics:
-                - >-
-                  elemental creature, associated with air and wind,
-                  graceful ethereal being, airy translucent appearance,
-                  delicate {butterfly|bird} wings, {humanoid,|}
-                  otherworldly aura, linked with wind, 
-                  elusive benevolent spirits of the air
-                - >-
-                  sylph, humanoid elemental being, delicate and ethereal being with gossamer wings,
-                  guardians of the air, {sky|mountain top},weather
-            name: 
-                - sylph
-            prompt:
-                - __magical-beings/sylph/name__, __magical-beings/sylph/characteristics__
-        thunderbird:
-            characteristics:
-                - >-
-                  large majestic formidable powerful mythical bird, 
-                  sharp edged lightning-like feathers,
-                  thunderous flapping of wings produces thunder,
-                  power, transformation, natural forces, thunder, lightning
-            name:
-                - thunderbird
-            prompt:
-                - __magical-beings/thunderbird/name__, __magical-beings/thunderbird/characteristics__
-        tikbalang:
-            characteristics:
-                - >-
-                  mythical    tall humanoid creature, horse head, mane
-                  hooved feet, fur, furry skin,
-                  {forests|mountains}, mischievous, {0.2::malevolent|}
-            name:
-                - tikbalang
-            prompt:
-                - __magical-beings/tikbalang/name__, __magical-beings/tikbalang/characteristics__
-        tomte:
-            characteristics:
-                - >-
-                  small gnomeish creature, long white beard,
-                  {red|earth toned} pointed hat, practical rustic clothing,
-                  carries a {sack of gifts|a staff},
-                  guardian of household and farmstead, good luck, protection
-            name:
-                - tomte
-            prompt:
-                - __magical-beings/tomte/name__, __magical-beings/tomte/characteristics__
-        tree-ent:
-            characteristics:
-                - >-
-                  fictional peaceful wise plantoid tree-like entity,
-                  {humanoid tree|walking tree},
-                  bark covered skin, woody features,
-                  limbs resembling branches and roots,
-                  guardianship of forests and nature
-            name:
-                - tree ent
-            prompt:
-                - __magical-beings/tree-ent/name__, __magical-beings/tree-ent/characteristics__
-        troll:
-            characteristics:
-                - >-
-                  mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep
-                  forests}, thick warty {grey|green|brown} skin, large nose, pointy ears, jutting
-                  jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy,
-                  stooped posture
-            name:
-                - troll
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/troll/name__, __magical-beings/troll/characteristics__
-        unicorn:
-            characteristics:
-                - >-
-                  mythical majestic horse creature, single horn, {white|light} colored
-                  long slender {spiraled|straight} horn, elegant noble posture,
-                  gentle wise expression, {0.2::cloven hooves,|} purity, grace,
-                  magical, enchanting
-            name:
-                - unicorn
-            prompt:
-                - __magical-beings/unicorn/name__, __magical-beings/unicorn/characteristics__
-        valkyrie:
-            characteristics:
-                - >-
-                  female warrior maiden spirit, ornamented shining silver armor and weaponry,
-                  wings, radiant noble appearance, {0.2::spear|0.2::sword|},
-                  guides to the afterlife, bravery, honor, powerful, otherworldly
-            name:
-                - valkyrie
-            prompt:
-                - __magical-beings/valkyrie/name__, __magical-beings/valkyrie/characteristics__
-        vampire:
-            characteristics:
-                - >-
-                  supernatural mysterious humanoid creature, preys on blood,
-                  pale deathly complexion, sharp fangs,
-                  hypnotic alluring gaze, immortal existence,
-                  charming, seductive, nocturnal, undead
-                - >-
-                  legendary creature, force, power, blood, undead, beautyful, alluring,
-                  night, moon, fangs, fantasy
-            name:
-                - vampire
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/vampire/name__, __magical-beings/vampire/characteristics__
-        wendigo:
-            characteristics:
-                - >-
-                  mythical creature, gaunt emaciated humanoid,
-                  skull-like antlered head, sharp elongated {claws|talons}
-                  covered in ice and frost and rime, winter wilderness,
-                  glowing eyes, curse, supernatural transformation
-                - >-
-                  cannibalistic supernatural being, {human-like yeti|sasquatch appearance},
-                  gaunt, emaciated, desiccated skin stretched over bones,
-                  ash gray complexion, eyes sunken deep, tattered and bloody lips,
-                  unclean suppurations of the flesh, strange eerie odor, decay, decomposition
-            name:
-                - wendigo
-            prompt:
-                - __magical-beings/wendigo/name__, __magical-beings/wendigo/characteristics__
-        werewolf:
-            characteristics:
-                - >-
-                  wolfish humanoid, fantasy, glowing eyes, furry fur,enlarged fangs, claws, powerful,
-                  cursed, afflicted
-                - >-
-                  lycanthropes, mythical creature, humanoid wolf-like form, full moon,
-                  hairy furry skin, fangs, wolf ears, wolf-like face
-            name:
-                - werewolf
-            prompt:
-                - __magical-beings/werewolf/name__, __magical-beings/werewolf/characteristics__
-        wild-hunt:
-            characteristics:
-                - >-
-                  mythical spectral ghostly haunting stygical hunting procession, supernatural skeletal divine leader, skeletal huntsmen,
-                  skeletal spectral hunters and horses and hounds, riding through the night sky, otherworldly,
-                  omen of {disaster|war}, awe-inspiring phenomenon
-            name:
-                - wild hunt
-            prompt:
-                - __magical-beings/wild-hunt/name__, __magical-beings/wild-hunt/characteristics__
-        will-o-the-wisp:
-            characteristics:
-                - >-
-                  phosphorescent flickering floating mysterious enchanting light,
-                  {blue|green|white}, marshy, swampy, vanish,
-                  supernatural phenomena, {0.2::mischievous,|0.2::malevolent,|}, night
-            name:
-                - will-o'-the-wisp
-                - ignis fatuus
-            prompt:
-                - __magical-beings/will-o-the-wisp/name__, __magical-beings/will-o-the-wisp/characteristics__
-        wisp:
-            characteristics:
-                - >-
-                  tiny small elemental mysterious enchanting creature of light, small, floating, 
-                  flickering ethereal appearance, {blue|green|white}, natural, 
-                  illusion of transluscent invisible face
-                - >-
-                  elemental mysterious enchanting floating transluscent face made of sphereshaped foggy diffuse spirit light, small,
-                  flickering ethereal appearance,
-                  {blue|green|white}, natural
-            name:
-                - wisp
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/wisp/name__, __magical-beings/wisp/characteristics__
-        wolpertinger:
-            characteristics:
-                - >-
-                  mythical mammalian creature, hybrid creature,
-                  wings, antlers, fangs, feathers,
-                  rabbit ears, small furry body, 
-                  humorous, imaginative, curiosity, whimsical, fictional
-            name:
-                - wolpertinger
-            prompt:
-                - __magical-beings/wolpertinger/name__, __magical-beings/wolpertinger/characteristics__
-        wraith:
-            characteristics:
-                - >-
-                  ghostly spectral entity, shadowy, ethereal,
-                  shrouded tattered appearance, {glowing|empty} eye sockets,
-                  {0.2::malevolence,|0.2::revenge,|} spectral, haunting otherworldly presence
-            name:
-                - wraith
-            prompt:
-                - >-
-                  {female|male}  __magical-beings/wraith/name__, __magical-beings/wraith/characteristics__
-        yeti:
-            characteristics:
-                - >-
-                  cryptid large humanoid ape-like creature, {white|brown} fur,
-                  thick stocky build, long arms, hunched stooped posture,
-                  prominent brow ridge, elusive, mysterious, mountain-dwelling
-                - large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains
-            name:
-                - yeti
-            prompt:
-                - __magical-beings/yeti/name__, __magical-beings/yeti/characteristics__
-        yuki-onna:
-            characteristics:
-                - >-
-                  japanese snow {spirit|ghost}, female, cold ethereal beauty,
-                  {white kimono|burial robe}, long black hair, pale skin,
-                  {glowing|haunting} eyes, {0.2::icy breath,|0.2::frost,|}
-                  winter, snow, haunting, supernatural, stygical, demonic expression
-            name:
-                - yuki-onna
-            prompt:
-                - __magical-beings/yuki-onna/name__, __magical-beings/yuki-onna/characteristics__
-
-
     mouth-jaw:
         - normal mouth
         - fang-filled mouth
@@ -17841,12 +17829,13 @@ person:
     magical:
         female:
             - >-
-              {__characters/beings/magical__,|} __person/regular/female__,
+              {__characters/magical-beings/*/prompt__,|}
+              __person/regular/female__,
               __person/magical/poses__,
               {0.1::__person/magical/wings__|}
         male:
             - >-
-              {__characters/beings/magical__,|} 
+              {__characters/magical-beings/*/prompt__,|}
               __person/regular/male__, 
               __person/magical/poses__, 
               {0.1::__person/magical/wings__|}
