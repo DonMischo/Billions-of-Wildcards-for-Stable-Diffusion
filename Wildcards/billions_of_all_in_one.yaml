@@ -391,10 +391,10 @@ Bo:
               {0.2::__creatues/dragons/body-cover__ skin,|}
               {0.2::__creatures/dragons/wing-types__}
         magical-beings:
-            - __creatures/magical-beings/*/prompt__
-            - __creatures/magical-beings/*/prompt__, __Bo/creative/random-atmosphere__
-            - __creatures/magical-beings/*/name__, __creatures/magical-beings/*/characteristics__
-            - __creatures/magical-beings/*/name__, __creatures/magical-beings/*/characteristics__, __Bo/creative/random-atmosphere__
+            - __characters/magical-beings/*/prompt__
+            - __characters/magical-beings/*/prompt__, __Bo/creative/random-atmosphere__
+            - __characters/magical-beings/*/name__, __characters/magical-beings/*/characteristics__
+            - __characters/magical-beings/*/name__, __characters/magical-beings/*/characteristics__, __Bo/creative/random-atmosphere__
         random:
             - >-
               __creatures/size__ __creatures/traits__ __creatures/descriptors__ __creatures/look-feel__ __creatures/body-shapes__ __creatures/being-types__,
