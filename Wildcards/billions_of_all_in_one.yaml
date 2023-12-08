@@ -1,4 +1,4 @@
-bo:
+Bo:
     audio:
         # __bo/audio/*__
         album-cover:
@@ -3581,108 +3581,18 @@ characters:
             - aasimar
             - genasi
         magical:
-            - >-
-              amazon, fearless warrior, skilled archer, formidable strength, independent and
-              self-reliant, tall and muscular stature, battle-hardened, warriors of ancient
-              myths, honor and bravery, fantasy
-            - >-
-              android, human-like appearance, anthropomorphic design, synthetic skin and hair,
-              futuristic and sleek aesthetics, elegance and sophistication in design, enhanced
-              with advanced technology, sci-fi
-            - >-
-              angel, radiant aura, heavenly grace, harbingers of good news, guardians of the
-              divine realm, symbolize purity and innocence, emanate ethereal light, fantasy
-            - >-
-              centaur, half-human, half-horse, mythological creatures, powerful and agile,
-              equine lower body, human upper body,guardians of the wild, fantasy
-            - >-
-              cyborg, human-machine hybrids, part organic and part artificial, advanced bionic
-              enhancements, futuristic technology, cybernetic implants, blend of biology and
-              robotics, enhanced physical capabilities, integrated electronics, neural interfaces,
-              sci-fi, magical
-            - >-
-              cyclopeone-eyed giants, mythological creatures, enormous and powerful, singular
-              eye in the middle of the forehead, fierce and intimidating appearance, known
-              for strength and brutality, fantasy, greek mythology
-            - >-
-              demon, malevolent supernatural being, evil, chaos, infernal, powerful entity,
-              corrupt,harm full, fantasy
-            - devil, embodiment of evil, cunning and charismatic, red skin, devil horns, fantasy
-            - djinn, supernatural being, middle eastern folklore, humanoid created from smokeless fire, fantasy
-            - >-
-              dragon (in humanoid form),    immense power, wisdom, and connection to fire, draconic
-              features,scales, wings, wise, ancient being, knowledge , fantasy
-            - >-
-              dwarf, short-statured humanoid being, 3 to 4 feet tall, skilled craftsmen,expertise
-              in mining and blacksmithing, resilience, determination, fantasy
-            - >-
-              elf, graceful and long-lived being, 6 to 7 feet tall, beautiful,elegant,youthful
-              appearance, graceful, ethereal, magical, fantasy
-            - >-
-              fairy,enchanting, ethereal creature, beauty, nature, protectors creatures, sacred
-              places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
-            - >-
-              giant, humanoid, enormous and powerful being, 20 to 40 feet tall, benevolent
-              and wise, force of nature, legendary strength, fantasy
-            - >- 
-              gnome, 1 feet small, humanoid, earth-dwelling humanoid being, affinity with
-              the earth and nature, gardening and craftsmanship, fantasy
-            - >-
-              goblin,imaginative and mischievous goblin character with a hunched posture,
-              glowing beady eyes, and a malevolent grin. use earthy green and brown tones
-              for its mottled skin, and add small, stubby horns on its sloping forehead, scraggly
-              moss-like hair,sharp jagged teeth in its wide mouth, goblin should be small
-              in stature, around 2 to 3 feet tall, fantasy
-            - >-
-              harpie,mythical creature, upper body of a woman,    wings and lower body of a
-              bird, vicious and malevolent, fantasy
-            - >-
-              kitsune,mythical creature, japanese folklore, intelligent, humanform with multiple
-              foxtails to denote their age and power, fox ears, red face paint, white slim face, fantasy
-            - >-
-              leprechaun, mischievous, solitary,old men wearing green coats and buckled shoes,
-              3-4 feet tall, crafty and elusive, fantasy
-            - merfolk, upper body of a human and the lower body of a fish, beautiful, alluring, fantasy
-            - >-
-              minotaur, mythical creature with the head of a bull and the body of a man, greek
-              mythology, fierce and monstrous, chaos, primal instinct, fantasy
-            - >-
-              minotaurin, mythical creature, body of a woman, cow tail, bull horns, cow spots,
-              gentle, friendly, large breasts , greek mythology
-            - >-
-              naga, mythical serpent humanoid being, serpentine lower bodies, human upper
-              body, {devine, wisdom, knowledge|dangerous, unpredictable}, fantasy
-            - >-
-              nymph, ethereal beauty, nature's guardian, alluring grace, youthful appearance,
-              connected to the environment, magical presence, nature spirits, reside in forests
-              and water bodies, fantasy
-            - >-
-              orc, fictional humanoid creatures, brutish, fearsome, strength, muscular,rough
-              rugged appearance, 8 to 10 feet tall, broad, {earthy tone|dark green|brown|gray}
-              skin, {dark|mottled|} thick coarse hair,broad, prominent brows, sharp, elongated
-              noses, and wide, powerful jaws, {sharp teeth|} fantasy
-            - >-
-              pixie, tiny, mischievous humanoid creature, 1 to 2 feet tall, {forests | meadows},
-              playful, curious, delicate wings, flitting throught the air, fanatasy
-            - >-
-              satyr, mythological creature, upper body human, lower body goat, revelry, music,
-              wine, dance, skilled musician and dancer, horns, fantasy
-            - siren, seductive and alluring creatures, greek mythology,beautiful,danger, temptation
-            - >-
-              sylph, humanoid elemental being, delicate and ethereal being with gossamer wings,
-              guardians of the air, {sky|mountain top},weather
-            - >-
-              troll, mythical humanoid being,large, strong, 8 to 10 feet tall, {mountains|deep
-              forests}, thick warty {grey|green|brown} skin, large nose, pointy ears, jutting
-              jaw, prominent teeth, deep-set glowing eyes, long wild hair, claws, fantasy,
-              stooped posture
-            - >-
-              vampire, legendary creature, force, power, blood, undead, beautyful, alluring,
-              night, moon, fangs, fantasy
-            - >-
-              werewolf, lycanthropes,    mythical creature, humanoid wolf-like form, full moon,
-              hairy furry skin, fangs, wolf ears, wolf-like face
-            - yeti, large, 10 to 15 feet tall, ape-like being, white fur skin, snow, mountains, plains
+            
+            
+
+
+
+
+
+
+
+
+
+
         marvel:
             - asgardian
             - human
@@ -3849,46 +3759,55 @@ characters:
             - tsuchinoko
             - goldspring macaque
         scifi:
-            - androids- human-like robots with sleek metallic bodies and lifelike synthetic skin
-            - aliens- extraterrestrial creatures with unique physiologies, varying from humanoid to bizarre forms
-            - cyborgs- part human, part machine being, showcasing a fusion of organic and mechanical elements
-            - extraterrestrial creatures- diverse life forms with imaginative appearances, ranging from elegant to monstrous
-            - artificial intelligences (ais)- digital entities represented as holographic projections or glowing avatars
-            - shape-shifters- being capable of transforming their bodies, adopting different appearances at will
+            - android- human-like robots with sleek metallic bodies and lifelike synthetic skin
+            - >-
+              android, human-like appearance, anthropomorphic design, synthetic skin and hair,
+              futuristic and sleek aesthetics, elegance and sophistication in design, enhanced
+              with advanced technology, sci-fi
+            - alien- extraterrestrial creatures with unique physiologies, varying from humanoid to bizarre forms
+            - cyborg- part human, part machine being, showcasing a fusion of organic and mechanical elements
+            - >-
+              cyborg, human-machine hybrids, part organic and part artificial, advanced bionic
+              enhancements, futuristic technology, cybernetic implants, blend of biology and
+              robotics, enhanced physical capabilities, integrated electronics, neural interfaces,
+              sci-fi, magical
+            - extraterrestrial creature- diverse life forms with imaginative appearances, ranging from elegant to monstrous
+            - artificial intelligence (ais)- digital entities represented as holographic projections or glowing avatars
+            - shape-shifter- being capable of transforming their bodies, adopting different appearances at will
             - interdimensional being- ethereal entities with ever-shifting, kaleidoscopic forms that defy normal physics
-            - telepathic species- creatures with mesmerizing glowing patterns on their foreheads or pulsating brainwaves
+            - telepathic specie- creatures with mesmerizing glowing patterns on their foreheads or pulsating brainwaves
             - energy being- entities composed of radiant, luminous energy, taking on ethereal, luminescent forms
-            - hive minds- coordinated entities exhibiting synchronized movements and a shared visual connection
-            - time travelers- clad in unique, futuristic suits or garments that reflect their time-traveling technology
-            - insectoid species- insect-like being with segmented exoskeletons, multifaceted eyes, and antennae
-            - sentient robots- robots with expressive visual displays, glowing eyes, and sleek, polished exteriors
-            - spacefaring civilizations- extravagantly adorned being wearing sophisticated space-faring uniforms and insignias
-            - genetic hybrids- blending physical traits from different species, creating visually striking, unique appearances
-            - nanobot swarms- microscopic, shimmering clouds of nanobots capable of forming diverse shapes and patterns
-            - clones- identical individuals with subtle distinctions in appearance, varying only in details
-            - cosmic entities- vast, awe-inspiring being emanating cosmic energies and engulfed in nebula-like halos
+            - hive mind- coordinated entities exhibiting synchronized movements and a shared visual connection
+            - time traveler- clad in unique, futuristic suits or garments that reflect their time-traveling technology
+            - insectoid specie- insect-like being with segmented exoskeletons, multifaceted eyes, and antennae
+            - sentient robot- robots with expressive visual displays, glowing eyes, and sleek, polished exteriors
+            - spacefaring civilization- extravagantly adorned being wearing sophisticated space-faring uniforms and insignias
+            - genetic hybrid- blending physical traits from different species, creating visually striking, unique appearances
+            - nanobot swarm- microscopic, shimmering clouds of nanobots capable of forming diverse shapes and patterns
+            - clone- identical individuals with subtle distinctions in appearance, varying only in details
+            - cosmic entity- vast, awe-inspiring being emanating cosmic energies and engulfed in nebula-like halos
             - ancient cosmic being- hoary, majestic being adorned with intricate symbols and ethereal aura
-            - teleporting entities- surrounded by glimmering, swirling lights during teleportation
-            - dimension-hoppers- clad in shimmering, multidimensional attire that shifts hues and patterns
-            - galactic gods- towering, resplendent being emanating celestial auras and astral symbols
-            - subterranean species- bioluminescent creatures with phosphorescent markings in dark caverns
-            - aquatic intelligences- graceful being with iridescent, webbed appendages and glistening scales
-            - energy vampires- eerie, shadowy figures with glowing eyes and tendrils that siphon energy
-            - quantum entities- fluid, fractal-like being embodying superposition and quantum uncertainty
-            - organic spaceships (living ships)- vessels with pulsating veins, organic growths, and symbiotic architecture
+            - teleporting entitie- surrounded by glimmering, swirling lights during teleportation
+            - dimension-hopper- clad in shimmering, multidimensional attire that shifts hues and patterns
+            - galactic god- towering, resplendent being emanating celestial auras and astral symbols
+            - subterranean specie- bioluminescent creatures with phosphorescent markings in dark caverns
+            - aquatic intelligence- graceful being with iridescent, webbed appendages and glistening scales
+            - energy vampire- eerie, shadowy figures with glowing eyes and tendrils that siphon energy
+            - quantum entitie- fluid, fractal-like being embodying superposition and quantum uncertainty
+            - organic spaceship (living ships)- vessels with pulsating veins, organic growths, and symbiotic architecture
             - biomechanical being- harmoniously blend mechanical and organic elements, adorned with glowing circuitry
-            - mind-controlling entities- translucent, mesmerizing creatures emanating hypnotic patterns and lights
+            - mind-controlling entity- translucent, mesmerizing creatures emanating hypnotic patterns and lights
             - transcendent being- evanescent, ever-changing entities with luminescent auras and morphing silhouettes
-            - timeless entities- ancient being with inscrutable, ageless features and ethereal veils
-            - cyberspace avatars- digital personas manifested as radiant, virtual being of light
-            - cosmic guardians- massive, majestic entities radiating cosmic energies, clad in celestial armor
-            - celestial messengers- graceful, ethereal being appearing as radiant, glowing apparitions
-            - solar phoenixes- celestial birds adorned with fiery plumage and radiant solar patterns
-            - bio-luminary spirits- phosphorescent, wispy entities floating with ethereal luminescence
-            - nebula nymphs- ethereal being with flowing, shimmering garments reflecting nebula colors
-            - plasma specters- intangible being emitting flickering plasma trails and auroras.
+            - timeless entity- ancient being with inscrutable, ageless features and ethereal veils
+            - cyberspace avatar- digital personas manifested as radiant, virtual being of light
+            - cosmic guardian- massive, majestic entities radiating cosmic energies, clad in celestial armor
+            - celestial messenger- graceful, ethereal being appearing as radiant, glowing apparitions
+            - solar phoenixe- celestial birds adorned with fiery plumage and radiant solar patterns
+            - bio-luminary spirit- phosphorescent, wispy entities floating with ethereal luminescence
+            - nebula nymph- ethereal being with flowing, shimmering garments reflecting nebula colors
+            - plasma specter- intangible being emitting flickering plasma trails and auroras.
             - starry seraphim- winged being with luminous, starry wings and celestial halos.
-            - quantum dream weavers- entities with kaleidoscopic, iridescent threads weaving dreams through dimensions
+            - quantum dream weaver- entities with kaleidoscopic, iridescent threads weaving dreams through dimensions
         stargate:
             - ancients (alterans)
             - asgard
@@ -11030,6 +10949,20 @@ creatures:
         - furry appendages
         - flippers
         - tentacle
+    being-types:
+        - being
+        - creature
+        - entity
+        - existence
+        - individual
+        - life form
+        - organism
+        - person
+        - presence
+        - sentient being
+        - soul
+        - spirit
+
     body-shapes:
         - feline
         - canine
