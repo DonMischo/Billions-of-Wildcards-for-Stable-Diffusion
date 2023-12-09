@@ -203,6 +203,10 @@ Bo:
                   {0.2::__clothings/scifi/unisex/backwear__ |}|
                   {0.2::__clothings/scifi/unisex/facewear__ |}|
                   {0.1::__clothings/scifi/unisex/neckwear__ |}}
+        random-attire-female:
+            - __clothings/*/female-attire__
+        random-attire-male:
+            - __clothings/*/male-attire__
         random-combination:
             - __bo/clothings/random-upperbody__, __bo/clothings/random-lowerbody__
         random-dress-properties:
@@ -1475,6 +1479,30 @@ atmosphere:
         - scintillating
         - twinkling
         - glistening
+    lightless:
+        - Impenetrable
+        - Ebon
+        - Lightless
+        - Inky
+        - Shadowy
+        - Pitch-dark
+        - Cimmerian
+        - Gloomy
+        - Obsidian
+        - Stygian
+        - Tenebrous
+        - Funereal
+        - Umbral
+        - Black as coal
+        - Jet-black
+        - Abyssal
+        - Nocturnal
+        - Sooty
+        - Moonless
+        - Rayless
+        - Darkened
+        - Cavernous
+        - Shaded
     liquid:
         - flowing
         - cascading
@@ -5414,7 +5442,7 @@ characters:
                   otherworldly aura, linked with wind, 
                   elusive benevolent spirits of the air
                 - >-
-                  sylph, humanoid elemental being, delicate and ethereal being with gossamer wings,
+                  humanoid elemental being, delicate and ethereal being with gossamer wings,
                   guardians of the air, {sky|mountain top},weather
             name: 
                 - sylph
