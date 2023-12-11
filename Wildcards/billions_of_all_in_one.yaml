@@ -4284,6 +4284,16 @@ characters:
             prompt:
                 - >-
                   {female|male}  __magical-beings/angel/name__, __magical-beings/angel/characteristics__
+        angel-treasure:
+            characteristics:
+                - >-
+                  Mythical cute whimsical awesome fairytale creature
+            name:
+                - angel-treasure
+            prompt:
+                - >-
+                  __magical-beings/angel-treasure/name__, __magical-beings/angel-treasure/characteristics__
+       
         aswang:
             characteristics:
                 - >-
@@ -5044,7 +5054,7 @@ characters:
             name:
                 - manananggal
             prompt:
-                - __magical-beings/mananaggal/name__, __magical-beings/mananaggal/characteristics__
+                - __magical-beings/manananggal/name__, __magical-beings/manananggal/characteristics__
         mandrake:
             characteristics:
                 - >-
@@ -5302,6 +5312,14 @@ characters:
                 - poltergeist
             prompt:
                 - __magical-beings/poltergeist/name__, __magical-beings/poltergeist/characteristics__
+        rabbit-bear:
+             characteristics:
+                - >-
+                  rabbit bear, small stocky, illusive cute agile timeless unaging awesome fairytale creature
+            name:
+                - rabbit-bear
+            prompt:
+                - __magical-beings/rabbit-bear/name__, __magical-beings/rabbit-bear/characteristics__
         roc:
             characteristics:
                 - >-
