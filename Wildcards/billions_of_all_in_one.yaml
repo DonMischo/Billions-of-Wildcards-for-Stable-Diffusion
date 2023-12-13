@@ -4246,7 +4246,7 @@ characters:
             name:
                 - abaddon
             prompt:
-                - __magical-beings/abaddon/name__, __magical-beings/abaddon/characteristics__
+                - __characters/magical-beings/abaddon/name__, __characters/magical-beings/abaddon/characteristics__
         alraune:
             characteristics:
                 - >-
@@ -4258,7 +4258,7 @@ characters:
             name:
                 - alraune
             prompt:
-                - __magical-beings/alraune/name__, __magical-beings/alraune/characteristics__
+                - __characters/magical-beings/alraune/name__, __characters/magical-beings/alraune/characteristics__
         amazon:
             characteristics:
                 - >-
@@ -4268,7 +4268,7 @@ characters:
             name: 
                 - amazon
             prompt:
-                - __magical-beings/amazon/name__, __magical-beings/amazon/characteristics__
+                - __characters/magical-beings/amazon/name__, __characters/magical-beings/amazon/characteristics__
         angel:
             characteristics:
                 - >-
@@ -4283,7 +4283,7 @@ characters:
                 - angel
             prompt:
                 - >-
-                  {female|male}  __magical-beings/angel/name__, __magical-beings/angel/characteristics__
+                  {female|male}  __characters/magical-beings/angel/name__, __characters/magical-beings/angel/characteristics__
         angel-treasure:
             characteristics:
                 - >-
@@ -4292,7 +4292,7 @@ characters:
                 - angel-treasure
             prompt:
                 - >-
-                  __magical-beings/angel-treasure/name__, __magical-beings/angel-treasure/characteristics__
+                  __characters/magical-beings/angel-treasure/name__, __characters/magical-beings/angel-treasure/characteristics__
        
         aswang:
             characteristics:
@@ -4304,7 +4304,7 @@ characters:
                 - aswang
             prompt:
                 - >-
-                  {female|male}   __magical-beings/aswang/name__, __magical-beings/aswang/characteristics__
+                  {female|male}   __characters/magical-beings/aswang/name__, __characters/magical-beings/aswang/characteristics__
         baal:
             characteristics:
                 - >-
@@ -4313,7 +4313,7 @@ characters:
             name:
                 - baal
             prompt:
-                - __magical-beings/baal/name__, __magical-beings/baal/characteristics__
+                - __characters/magical-beings/baal/name__, __characters/magical-beings/baal/characteristics__
         banshee:
             characteristics:
                 - >-
@@ -4326,7 +4326,7 @@ characters:
                 - banshee
             prompt:
                 - >-
-                  {female|male}  __magical-beings/banshee/name__, __magical-beings/banshee/characteristics__
+                  {female|male}  __characters/magical-beings/banshee/name__, __characters/magical-beings/banshee/characteristics__
         basilisk:
             characteristics:
                 - >-
@@ -4339,7 +4339,19 @@ characters:
             name:
                 - basilisk
             prompt:
-                - __magical-beings/basilisk/name__, __magical-beings/basilisk/characteristics__
+                - __characters/magical-beings/basilisk/name__, __characters/magical-beings/basilisk/characteristics__
+        beer-spirit:
+            characteristics:
+                - >-
+                  Mythical jovial rotund being,lighthearted convivial joy,clusterd with yellowish floating foamy beer bubbles,
+                  Resembles a friendly well dressed ghostly ethereal otherworldly {brewer master|bartender},
+                  large overflowing {tankard|beer stein},
+                  {0.4:frothy beer foam crown on its head|},
+                  spreading merriment and good cheer,
+                  twinkle in its eye, hearty laugh
+            name: Beer Spirit
+            prompt:
+                - __characters/magical-beings/beer-spirit/name__, __characters/magical-beings/beer-spirit/characteristics__
         belial:
             characteristics:
                 - >-
@@ -4350,7 +4362,7 @@ characters:
             name:
                 - belial
             prompt:
-                - __magical-beings/belial/name__, __magical-beings/belial/characteristics__
+                - __characters/magical-beings/belial/name__, __characters/magical-beings/belial/characteristics__
         bigfoot:
             characteristics:
                 - >-
@@ -4360,7 +4372,7 @@ characters:
             name:
                 - bigfoot
             prompt:
-                - __magical-beings/bigfoot/name__, __magical-beings/bigfoot/characteristics__
+                - __characters/magical-beings/bigfoot/name__, __characters/magical-beings/bigfoot/characteristics__
         brownie:
             characteristics:
                 - >- 
@@ -4373,7 +4385,7 @@ characters:
                 - brownie
             prompt:
                 - >-
-                  {female|male}  __magical-beings/brownie/name__, __magical-beings/brownie/characteristics__
+                  {female|male}  __characters/magical-beings/brownie/name__, __characters/magical-beings/brownie/characteristics__
         centaur:
             characteristics:
                 - >-
@@ -4388,7 +4400,7 @@ characters:
             name:
                 - centaur
             prompt:
-                - __magical-beings/centaur/name__, __magical-beings/centaur/characteristics__
+                - __characters/magical-beings/centaur/name__, __characters/magical-beings/centaur/characteristics__
         changeling:
             characteristics:
                 - >-
@@ -4402,7 +4414,7 @@ characters:
                 - changeling
             prompt:
                 - >-
-                  {female|male}  __magical-beings/changeling/name__, __magical-beings/changeling/characteristics__
+                  {female|male}  __characters/magical-beings/changeling/name__, __characters/magical-beings/changeling/characteristics__
         chimera:
             characteristics:
                 - >-
@@ -4413,8 +4425,8 @@ characters:
             name:
                 - chimera
             prompt:
-                - __magical-beings/chimera/name__, __magical-beings/chimera/characteristics__
-        christmas_elf:
+                - __characters/magical-beings/chimera/name__, __characters/magical-beings/chimera/characteristics__
+        christmas-elf:
             characteristics:
                 - >-
                   small humanoid creature, pointed ears,
@@ -4426,7 +4438,7 @@ characters:
                 - christmas elf
             prompt:
                 - >-
-                  {female|male}  __magical-beings/christmas elf/name__, __magical-beings/christmas elf/characteristics__
+                  {female|male}  __characters/magical-beings/christmas-elf/name__, __characters/magical-beings/christmas-elf/characteristics__
         chupacabra:
             characteristics:
                 - >-
@@ -4437,7 +4449,7 @@ characters:
             name:
                 - chupacabra
             prompt:
-                - __magical-beings/chupacabra/name__, __magical-beings/chupacabra/characteristics__
+                - __characters/magical-beings/chupacabra/name__, __characters/magical-beings/chupacabra/characteristics__
         cockatrice:
             characteristics:
                 - >-
@@ -4449,7 +4461,7 @@ characters:
             name:
                 - cockatrice
             prompt:
-                - __magical-beings/cockatrice/name__, __magical-beings/cockatrice/characteristics__
+                - __characters/magical-beings/cockatrice/name__, __characters/magical-beings/cockatrice/characteristics__
         cyclope:
             characteristics:
                 - >-
@@ -4459,7 +4471,7 @@ characters:
             name: 
                 - cyclope
             prompt:
-                - __magical-beings/cyclope/name__, __magical-beings/cyclope/characteristics__
+                - __characters/magical-beings/cyclope/name__, __characters/magical-beings/cyclope/characteristics__
         dark-elf:
             characteristics:
                 - >-
@@ -4474,7 +4486,7 @@ characters:
                 - drow
             prompt:
                 - >-
-                  {female|male}  __magical-beings/dark-elf/name__, __magical-beings/dark-elf/characteristics__
+                  {female|male}  __characters/magical-beings/dark-elf/name__, __characters/magical-beings/dark-elf/characteristics__
         death:
             characteristics:
                 - >-
@@ -4485,7 +4497,7 @@ characters:
             name:
                 - death
             prompt:
-                - __magical-beings/death/name__, __magical-beings/death/characteristics__
+                - __characters/magical-beings/death/name__, __characters/magical-beings/death/characteristics__
         dementor:
             characteristics:
                 - >-
@@ -4498,7 +4510,7 @@ characters:
             name:
                 - dementor
             prompt:
-                - __magical-beings/dementor/name__, __magical-beings/dementor/characteristics__
+                - __characters/magical-beings/dementor/name__, __characters/magical-beings/dementor/characteristics__
         demon:
             characteristics:
                 - >-
@@ -4508,7 +4520,7 @@ characters:
                 - demon
             prompt:
                 - >-
-                  {female|male}  __magical-beings/demon/name__, __magical-beings/demon/characteristics__
+                  {female|male}  __characters/magical-beings/demon/name__, __characters/magical-beings/demon/characteristics__
         devil:
             characteristics:
                 - >-
@@ -4517,7 +4529,7 @@ characters:
                 - devil
             prompt:
                 - >-
-                  {female|male}  __magical-beings/devil/name__, __magical-beings/devil/characteristics__
+                  {female|male}  __characters/magical-beings/devil/name__, __characters/magical-beings/devil/characteristics__
         diablo:
             characteristics:
                 - >-
@@ -4530,7 +4542,7 @@ characters:
             name:
                 - diablo
             prompt:
-                - __magical-beings/diablo/name__, __magical-beings/diablo/characteristics__
+                - __characters/magical-beings/diablo/name__, __characters/magical-beings/diablo/characteristics__
         djinn:
             characteristics:
                 - >-
@@ -4541,7 +4553,7 @@ characters:
                 - djinn
             prompt:
                 - >-
-                  {female|male}  __magical-beings/djinn/name__, __magical-beings/djinn/characteristics__
+                  {female|male}  __characters/magical-beings/djinn/name__, __characters/magical-beings/djinn/characteristics__
         doppelganger:
             characteristics:
                 - >-
@@ -4555,7 +4567,7 @@ characters:
                 - doppelganger
             prompt:
                 - >-
-                  {female|male}  __magical-beings/doppelganger/name__, __magical-beings/doppelganger/characteristics__
+                  {female|male}  __characters/magical-beings/doppelganger/name__, __characters/magical-beings/doppelganger/characteristics__
         dragonborn:
             # real dragons with __bo/creatures/dragon*__
             characteristics:
@@ -4569,7 +4581,7 @@ characters:
                 - dragonborn
             prompt:
                 - >-
-                  {female|male}  __magical-beings/dragonborn/name__, __magical-beings/dragonborn/characteristics__
+                  {female|male}  __characters/magical-beings/dragonborn/name__, __characters/magical-beings/dragonborn/characteristics__
         dragon-human-form:
             # real dragons with __bo/creatures/dragon*__
             characteristics:
@@ -4586,7 +4598,7 @@ characters:
                 - dragon human form
             prompt:
                 - >-
-                  {female|male}  __magical-beings/dragon-human-form/name__, __magical-beings/dragon-human-form/characteristics__
+                  {female|male}  __characters/magical-beings/dragon-human-form/name__, __characters/magical-beings/dragon-human-form/characteristics__
         draugr:
             characteristics:
                 - >-
@@ -4596,7 +4608,7 @@ characters:
             name:
                 - draugr
             prompt:
-                - __magical-beings/draugr/name__, __magical-beings/draugr/characteristics__
+                - __characters/magical-beings/draugr/name__, __characters/magical-beings/draugr/characteristics__
         dryad:
             characteristics:
                 - >-
@@ -4609,7 +4621,7 @@ characters:
             name:
                 - dryad
             prompt:
-                - __magical-beings/dryad/name__, __magical-beings/dryad/characteristics__
+                - __characters/magical-beings/dryad/name__, __characters/magical-beings/dryad/characteristics__
         dullahan:
             characteristics:
                 - >-
@@ -4622,7 +4634,7 @@ characters:
             name:
                 - dullahan
             prompt:
-                - __magical-beings/dullahan/name__, __magical-beings/dullahan/characteristics__
+                - __characters/magical-beings/dullahan/name__, __characters/magical-beings/dullahan/characteristics__
         dwarf:
             characteristics:
                 - >-
@@ -4636,7 +4648,7 @@ characters:
                 - dwarf
             prompt:
                 - >-
-                  {female|male}  __magical-beings/dwarf/name__, __magical-beings/dwarf/characteristics__
+                  {female|male}  __characters/magical-beings/dwarf/name__, __characters/magical-beings/dwarf/characteristics__
         elf:
             characteristics:
                 - >-
@@ -4652,7 +4664,7 @@ characters:
                 - elf
             prompt:
                 - >-
-                  {female|male}  __magical-beings/elf/name__, __magical-beings/elf/characteristics__
+                  {female|male}  __characters/magical-beings/elf/name__, __characters/magical-beings/elf/characteristics__
         enenra:
             characteristics:
                 - >-
@@ -4664,7 +4676,7 @@ characters:
             name:
                 - enenra
             prompt:
-                - __magical-beings/enenra/name__, __magical-beings/enenra/characteristics__
+                - __characters/magical-beings/enenra/name__, __characters/magical-beings/enenra/characteristics__
         erlking:
             characteristics:
                 - >-
@@ -4678,7 +4690,7 @@ characters:
             name:
                 - erlking
             prompt:
-                - __magical-beings/erlking/name__, __magical-beings/erlking/characteristics__
+                - __characters/magical-beings/erlking/name__, __characters/magical-beings/erlking/characteristics__
         easter-bunny:
             characteristics:
                 - >-
@@ -4690,7 +4702,7 @@ characters:
                 - easter bunny
             prompt:
                 - >-
-                  {female|male}  __magical-beings/easter-bunny/name__, __magical-beings/easter-bunny/characteristics__
+                  {female|male}  __characters/magical-beings/easter-bunny/name__, __characters/magical-beings/easter-bunny/characteristics__
         fairy:
             characteristics:
                 - >-
@@ -4707,7 +4719,7 @@ characters:
                 - fairy
             prompt:
                 - >-
-                  {female|male}  __magical-beings/fairy/name__, __magical-beings/fairy/characteristics__
+                  {female|male}  __characters/magical-beings/fairy/name__, __characters/magical-beings/fairy/characteristics__
         fenghuang:
             characteristics:
                 - >-
@@ -4719,7 +4731,7 @@ characters:
             name:
                 - fenghuang
             prompt:
-                - __magical-beings/fenghuang/name__, __magical-beings/fenghuang/characteristics__
+                - __characters/magical-beings/fenghuang/name__, __characters/magical-beings/fenghuang/characteristics__
         firebird:
             characteristics:
                 - >-
@@ -4730,7 +4742,7 @@ characters:
             name:
                 - firebird
             prompt:
-                - __magical-beings/firebird/name__, __magical-beings/firebird/characteristics__
+                - __characters/magical-beings/firebird/name__, __characters/magical-beings/firebird/characteristics__
         gargoyle:
             characteristics:
                 - >- 
@@ -4740,7 +4752,7 @@ characters:
             name:
                 - gargoyle
             prompt:
-                - __magical-beings/gargoyle/name__, __magical-beings/gargoyle/characteristics__
+                - __characters/magical-beings/gargoyle/name__, __characters/magical-beings/gargoyle/characteristics__
         ghoul:
             characteristics:
                 - >-
@@ -4752,7 +4764,7 @@ characters:
             name:
                 - ghoul
             prompt:
-                - __magical-beings/ghoul/name__, __magical-beings/ghoul/characteristics__
+                - __characters/magical-beings/ghoul/name__, __characters/magical-beings/ghoul/characteristics__
         giant:
             characteristics:
                 - >-
@@ -4762,7 +4774,7 @@ characters:
                 - giant
             prompt:
                 - >-
-                  {female|male}  __magical-beings/giant/name__, __magical-beings/giant/characteristics__
+                  {female|male}  __characters/magical-beings/giant/name__, __characters/magical-beings/giant/characteristics__
         gnome:
             characteristics:
                 - >-
@@ -4779,7 +4791,7 @@ characters:
                 - gnome
             prompt:
                 - >-
-                  {female|male}  __magical-beings/gnome/name__, __magical-beings/gnome/characteristics__
+                  {female|male}  __characters/magical-beings/gnome/name__, __characters/magical-beings/gnome/characteristics__
         goblin:
             characteristics:
                 - >-
@@ -4797,7 +4809,7 @@ characters:
             name:
                 - goblin
             prompt:
-                - __magical-beings/goblin/name__, __magical-beings/goblin/characteristics__
+                - __characters/magical-beings/goblin/name__, __characters/magical-beings/goblin/characteristics__
         gorgon:
             characteristics:
                 - >- 
@@ -4809,7 +4821,7 @@ characters:
                 - gorgon
             prompt:
                 - >-
-                  {female|male}  __magical-beings/gorgon/name__, __magical-beings/gorgon/characteristics__
+                  {female|male}  __characters/magical-beings/gorgon/name__, __characters/magical-beings/gorgon/characteristics__
         harpy:
             characteristics:
                 - >-
@@ -4825,7 +4837,7 @@ characters:
             name:
                 - harpy
             prompt:
-                - __magical-beings/harpy/name__, __magical-beings/harpy/characteristics__
+                - __characters/magical-beings/harpy/name__, __characters/magical-beings/harpy/characteristics__
         heinzelmaennchen:
             characteristics:
                 - >-
@@ -4841,7 +4853,7 @@ characters:
             name:
                 - heinzelmännchen
             prompt:
-                - __magical-beings/heinzelmaennchen/name__, __magical-beings/heinzelmaennchen/characteristics__
+                - __characters/magical-beings/heinzelmaennchen/name__, __characters/magical-beings/heinzelmaennchen/characteristics__
         hippogriff:
             characteristics:
                 - >-
@@ -4854,7 +4866,7 @@ characters:
             name:
                 - hippogriff
             prompt:
-                - __magical-beings/hippogriff/name__, __magical-beings/hippogriff/characteristics__
+                - __characters/magical-beings/hippogriff/name__, __characters/magical-beings/hippogriff/characteristics__
         hobgoblin:
             characteristics:
                 - >-
@@ -4867,7 +4879,7 @@ characters:
             name:
                 - hobgoblin
             prompt:
-                - __magical-beings/hobgoblin/name__, __magical-beings/hobgoblin/characteristics__
+                - __characters/magical-beings/hobgoblin/name__, __characters/magical-beings/hobgoblin/characteristics__
         house-elf:
             characteristics:
                 - >-
@@ -4879,7 +4891,7 @@ characters:
                 - house elf
             prompt:
                 - >-
-                  {female|male}  __magical-beings/house-elf/name__, __magical-beings/house-elf/characteristics__
+                  {female|male}  __characters/magical-beings/house-elf/name__, __characters/magical-beings/house-elf/characteristics__
         huldra:
             characteristics:
                 - >-
@@ -4891,7 +4903,7 @@ characters:
             name:
                 - huldra
             prompt:
-                - __magical-beings/huldra/name__, __magical-beings/huldra/characteristics__
+                - __characters/magical-beings/huldra/name__, __characters/magical-beings/huldra/characteristics__
         ifrit:
             characteristics:
                 - >-
@@ -4903,7 +4915,7 @@ characters:
             name:
                 - ifrit
             prompt:
-                - __magical-beings/ifrit/name__, __magical-beings/ifrit/characteristics__
+                - __characters/magical-beings/ifrit/name__, __characters/magical-beings/ifrit/characteristics__
         imp:
             characteristics:
                 - >-
@@ -4915,7 +4927,7 @@ characters:
             name:
                 - imp
             prompt:
-                - __magical-beings/imp/name__, __magical-beings/imp/characteristics__
+                - __characters/magical-beings/imp/name__, __characters/magical-beings/imp/characteristics__
         incubus:
             characteristics:
                 - >-
@@ -4925,7 +4937,7 @@ characters:
             name:
                 - incubus
             prompt:
-                - __magical-beings/incubus/name__, __magical-beings/incubus/characteristics__
+                - __characters/magical-beings/incubus/name__, __characters/magical-beings/incubus/characteristics__
         jabberwocky:
             characteristics:
                 - >-
@@ -4936,7 +4948,7 @@ characters:
             name:
                 - jabberwocky
             prompt:
-                - __magical-beings/jabberwocky/name__, __magical-beings/jabberwocky/characteristics__
+                - __characters/magical-beings/jabberwocky/name__, __characters/magical-beings/jabberwocky/characteristics__
         jinn:
             characteristics:
                 - >-
@@ -4947,7 +4959,7 @@ characters:
             name:
                 - jinn
             prompt:
-                - __magical-beings/jinn/name__, __magical-beings/jinn/characteristics__
+                - __characters/magical-beings/jinn/name__, __characters/magical-beings/jinn/characteristics__
         jotun:
             characteristics:
                 - >-
@@ -4958,7 +4970,7 @@ characters:
                 - jötun
             prompt:
                 - >-
-                  {female|male}  __magical-beings/jotun/name__, __magical-beings/jotun/characteristics__
+                  {female|male}  __characters/magical-beings/jotun/name__, __characters/magical-beings/jotun/characteristics__
         kappa:
             characteristics:
                 - >-
@@ -4969,7 +4981,7 @@ characters:
             name:
                 - kappa
             prompt:
-                - __magical-beings/kappa/name__, __magical-beings/kappa/characteristics__
+                - __characters/magical-beings/kappa/name__, __characters/magical-beings/kappa/characteristics__
         kelpie:
             characteristics:
                 - >-
@@ -4979,7 +4991,7 @@ characters:
             name:
                 - kelpie
             prompt:
-                - __magical-beings/kelpie/name__, __magical-beings/kelpie/characteristics__
+                - __characters/magical-beings/kelpie/name__, __characters/magical-beings/kelpie/characteristics__
         kitsune-fox-form:
             characteristics:
                 - >-
@@ -4989,7 +5001,7 @@ characters:
             name:
                 - kitsune
             prompt:
-                - __magical-beings/kitsune-fox-form/name__, __magical-beings/kitsune-fox-form/characteristics__
+                - __characters/magical-beings/kitsune-fox-form/name__, __characters/magical-beings/kitsune-fox-form/characteristics__
         kitsune-human-form:
             characteristics:
                 - >-
@@ -5003,7 +5015,7 @@ characters:
                 - kitsune
             prompt:
                 - >-
-                  {female|male}  __magical-beings/kitsune-human-form/name__, __magical-beings/kitsune-human-form/characteristics__
+                  {female|male}  __characters/magical-beings/kitsune-human-form/name__, __characters/magical-beings/kitsune-human-form/characteristics__
         leprechaun:
             characteristics:
                 - >-
@@ -5018,7 +5030,7 @@ characters:
             name:
                 - leprechaun
             prompt:
-                - __magical-beings/leprechaun/name__, __magical-beings/leprechaun/characteristics__
+                - __characters/magical-beings/leprechaun/name__, __characters/magical-beings/leprechaun/characteristics__
         lich:
             characteristics:
                 - >-
@@ -5032,7 +5044,7 @@ characters:
                 - lich
             prompt:
                 - >-
-                  {female|male}  __magical-beings/lich/name__, __magical-beings/lich/characteristics__
+                  {female|male}  __characters/magical-beings/lich/name__, __characters/magical-beings/lich/characteristics__
         lilith:
             characteristics:
                 - >-
@@ -5043,7 +5055,7 @@ characters:
             name:
                 - lilith
             prompt:
-                - __magical-beings/lilith/name__, __magical-beings/lilith/characteristics__
+                - __characters/magical-beings/lilith/name__, __characters/magical-beings/lilith/characteristics__
         manananggal:
             characteristics:
                 - >-
@@ -5054,7 +5066,7 @@ characters:
             name:
                 - manananggal
             prompt:
-                - __magical-beings/manananggal/name__, __magical-beings/manananggal/characteristics__
+                - __characters/magical-beings/manananggal/name__, __characters/magical-beings/manananggal/characteristics__
         mandrake:
             characteristics:
                 - >-
@@ -5064,7 +5076,7 @@ characters:
             name:
                 - mandrake
             prompt:
-                - __magical-beings/mandrake/name__, __magical-beings/mandrake/characteristics__
+                - __characters/magical-beings/mandrake/name__, __characters/magical-beings/mandrake/characteristics__
         manticore:
             characteristics:
                 - >-
@@ -5076,7 +5088,7 @@ characters:
             name:
                 - manticore
             prompt:
-                - __magical-beings/manticore/name__, __magical-beings/manticore/characteristics__
+                - __characters/magical-beings/manticore/name__, __characters/magical-beings/manticore/characteristics__
         marid:
             characteristics:
                 - >-
@@ -5085,7 +5097,7 @@ characters:
             name:
                 - marid
             prompt:
-                - __magical-beings/marid/name__, __magical-beings/marid/characteristics__
+                - __characters/magical-beings/marid/name__, __characters/magical-beings/marid/characteristics__
         mausebaer:
             characteristics:
                 - >-
@@ -5094,7 +5106,7 @@ characters:
             name:
                 - mouse baer
             prompt:
-                - __magical-beings/mausebaer/name__, __magical-beings/mausebaer/characteristics__
+                - __characters/magical-beings/mausebaer/name__, __characters/magical-beings/mausebaer/characteristics__
         medusa:
             characteristics:
                 - >-
@@ -5106,7 +5118,7 @@ characters:
             name:
                 - medusa
             prompt:
-                - __magical-beings/medusa/name__, __magical-beings/medusa/characteristics__
+                - __characters/magical-beings/medusa/name__, __characters/magical-beings/medusa/characteristics__
         mephisto:
             characteristics:
                 - >-
@@ -5116,7 +5128,7 @@ characters:
             name:
                 - mephisto
             prompt:
-                - __magical-beings/mephisto/name__, __magical-beings/mephisto/characteristics__
+                - __characters/magical-beings/mephisto/name__, __characters/magical-beings/mephisto/characteristics__
         mermaid:
             characteristics:
                 - >-
@@ -5130,7 +5142,7 @@ characters:
             name:
                 - mermaid
             prompt:
-                - __magical-beings/mermaid/name__, __magical-beings/mermaid/characteristics__
+                - __characters/magical-beings/mermaid/name__, __characters/magical-beings/mermaid/characteristics__
         merman:
             characteristics:
                 - >-
@@ -5142,7 +5154,7 @@ characters:
             name:
                 - merman
             prompt:
-                - __magical-beings/merman/name__, __magical-beings/merman/characteristics__
+                - __characters/magical-beings/merman/name__, __characters/magical-beings/merman/characteristics__
         minotaur:
             characteristics:
                 - >-
@@ -5156,7 +5168,7 @@ characters:
             name:
                 - minotaur
             prompt:
-                - __magical-beings/minotaur/name__, __magical-beings/minotaur/characteristics__
+                - __characters/magical-beings/minotaur/name__, __characters/magical-beings/minotaur/characteristics__
         minotaurin:
             characteristics:
                 - >-
@@ -5165,7 +5177,7 @@ characters:
             name:
                 - minotaur
             prompt:
-                - __magical-beings/minotaurin/name__, __magical-beings/minotaurin/characteristics__
+                - __characters/magical-beings/minotaurin/name__, __characters/magical-beings/minotaurin/characteristics__
         mothman:
             characteristics:
                 - >-
@@ -5176,7 +5188,7 @@ characters:
                 - mothman
             prompt:
                 - >-
-                  {female|male}  __magical-beings/mothman/name__, __magical-beings/mothman/characteristics__
+                  {female|male}  __characters/magical-beings/mothman/name__, __characters/magical-beings/mothman/characteristics__
         mummy:
             characteristics:
                 - >-
@@ -5187,7 +5199,7 @@ characters:
                 - mummy
             prompt:
                 - >-
-                  {female|male}  __magical-beings/mummy/name__, __magical-beings/mummy/characteristics__
+                  {female|male}  __characters/magical-beings/mummy/name__, __characters/magical-beings/mummy/characteristics__
         naga:
             characteristics:
                 - >-
@@ -5204,7 +5216,7 @@ characters:
                 - naga
             prompt:
                 - >-
-                  {female|male}  __magical-beings/naga/name__, __magical-beings/naga/characteristics__
+                  {female|male}  __characters/magical-beings/naga/name__, __characters/magical-beings/naga/characteristics__
         nessie:
             characteristics:
                 - >-
@@ -5212,7 +5224,7 @@ characters:
             name:
                 - nessie
             prompt:
-                - __magical-beings/nessie/name__, __magical-beings/nessie/characteristics__
+                - __characters/magical-beings/nessie/name__, __characters/magical-beings/nessie/characteristics__
         nymph:
             characteristics:
                 - >-
@@ -5227,7 +5239,7 @@ characters:
             name:
                 - nymph
             prompt:
-                - __magical-beings/nymph/name__, __magical-beings/nymph/characteristics__
+                - __characters/magical-beings/nymph/name__, __characters/magical-beings/nymph/characteristics__
         ogre:
             characteristics:
                 - >-
@@ -5239,7 +5251,7 @@ characters:
             name:
                 - ogre
             prompt:
-                - __magical-beings/ogre/name__, __magical-beings/ogre/characteristics__
+                - __characters/magical-beings/ogre/name__, __characters/magical-beings/ogre/characteristics__
         oni:
             characteristics:
                 - >-
@@ -5250,7 +5262,7 @@ characters:
             name:
                 - oni
             prompt:
-                - __magical-beings/oni/name__, __magical-beings/oni/characteristics__
+                - __characters/magical-beings/oni/name__, __characters/magical-beings/oni/characteristics__
         orc:
             characteristics:
                 - >-
@@ -5266,7 +5278,7 @@ characters:
                 - orc
             prompt:
                 - >-
-                  {female|male}  __magical-beings/orc/name__, __magical-beings/orc/characteristics__
+                  {female|male}  __characters/magical-beings/orc/name__, __characters/magical-beings/orc/characteristics__
         pegasus:
             characteristics:
                 - >-
@@ -5276,7 +5288,7 @@ characters:
             name:
                 - pegasus
             prompt:
-                - __magical-beings/pegasus/name__, __magical-beings/pegasus/characteristics__
+                - __characters/magical-beings/pegasus/name__, __characters/magical-beings/pegasus/characteristics__
         phoenix:
             characteristics:
                 - >-
@@ -5286,7 +5298,7 @@ characters:
             name:
                 - phoenix
             prompt:
-                - __magical-beings/phoenix/name__, __magical-beings/phoenix/characteristics__
+                - __characters/magical-beings/phoenix/name__, __characters/magical-beings/phoenix/characteristics__
         pixie:
             characteristics:
                 - >-
@@ -5301,7 +5313,7 @@ characters:
             name:
                 - pixie
             prompt:
-                - __magical-beings/pixie/name__, __magical-beings/pixie/characteristics__
+                - __characters/magical-beings/pixie/name__, __characters/magical-beings/pixie/characteristics__
         poltergeist:
             characteristics:
                 - >-
@@ -5311,15 +5323,15 @@ characters:
             name:
                 - poltergeist
             prompt:
-                - __magical-beings/poltergeist/name__, __magical-beings/poltergeist/characteristics__
+                - __characters/magical-beings/poltergeist/name__, __characters/magical-beings/poltergeist/characteristics__
         rabbit-bear:
-             characteristics:
+            characteristics:
                 - >-
-                  rabbit bear, small stocky, illusive cute agile timeless unaging awesome fairytale creature
+                  small stocky, illusive cute agile timeless unaging awesome fairytale creature
             name:
                 - rabbit-bear
             prompt:
-                - __magical-beings/rabbit-bear/name__, __magical-beings/rabbit-bear/characteristics__
+                - __characters/magical-beings/rabbit-bear/name__, __characters/magical-beings/rabbit-bear/characteristics__
         roc:
             characteristics:
                 - >-
@@ -5330,7 +5342,7 @@ characters:
             name:
                 - roc
             prompt:
-                - __magical-beings/roc/name__, __magical-beings/roc/characteristics__
+                - __characters/magical-beings/roc/name__, __characters/magical-beings/roc/characteristics__
         sasquatch:
             characteristics:
                 - >-
@@ -5339,7 +5351,7 @@ characters:
             name:
                 - sasquatch
             prompt:
-                - __magical-beings/sasquatch/name__, __magical-beings/sasquatch/characteristics__
+                - __characters/magical-beings/sasquatch/name__, __characters/magical-beings/sasquatch/characteristics__
         satyr:
             characteristics:
                 - >-
@@ -5354,7 +5366,7 @@ characters:
                 - satyr
             prompt:
                 - >-
-                  {female|male}  __magical-beings/satyr/name__, __magical-beings/satyr/characteristics__
+                  {female|male}  __characters/magical-beings/satyr/name__, __characters/magical-beings/satyr/characteristics__
         selkie:
             characteristics:
                 - >-
@@ -5364,7 +5376,7 @@ characters:
             name:
                 - selkie
             prompt:
-                - __magical-beings/selkie/name__, __magical-beings/selkie/characteristics__
+                - __characters/magical-beings/selkie/name__, __characters/magical-beings/selkie/characteristics__
         semi-ghost:
             characteristics:
                 - >-
@@ -5377,7 +5389,7 @@ characters:
                 - semi-ghost
             prompt:
                 - >-
-                  {female|male}  __magical-beings/semi-ghost/name__, __magical-beings/semi-ghost/characteristics__
+                  {female|male}  __characters/magical-beings/semi-ghost/name__, __characters/magical-beings/semi-ghost/characteristics__
         shellycoat:
             characteristics:
                 - >-
@@ -5387,7 +5399,7 @@ characters:
             name:
                 - shellycoat
             prompt:
-                - __magical-beings/shellycoat/name__, __magical-beings/shellycoat/characteristics__
+                - __characters/magical-beings/shellycoat/name__, __characters/magical-beings/shellycoat/characteristics__
         siren:
             characteristics:
                 - >-
@@ -5400,7 +5412,7 @@ characters:
                 - siren
             prompt:
                 - >-
-                  {female|male}  __magical-beings/siren/name__, __magical-beings/siren/characteristics__
+                  {female|male}  __characters/magical-beings/siren/name__, __characters/magical-beings/siren/characteristics__
         space-wolf:
             characteristics:
                 - >-
@@ -5410,7 +5422,7 @@ characters:
                 - space wolf
             prompt:
                 - >-
-                  {female|male}  __magical-beings/space-wolf/name__, __magical-beings/space-wolf/characteristics__
+                  {female|male}  __characters/magical-beings/space-wolf/name__, __characters/magical-beings/space-wolf/characteristics__
         sphinx:
             characteristics:
                 - >-
@@ -5421,7 +5433,7 @@ characters:
             name:
                 - sphinx
             prompt:
-                - __magical-beings/sphinx/name__, __magical-beings/sphinx/characteristics__
+                - __characters/magical-beings/sphinx/name__, __characters/magical-beings/sphinx/characteristics__
         spriggan:
             characteristics:
                 - >-
@@ -5431,7 +5443,7 @@ characters:
             name:
                 - spriggan
             prompt:
-                - __magical-beings/spriggan/name__, __magical-beings/spriggan/characteristics__
+                - __characters/magical-beings/spriggan/name__, __characters/magical-beings/spriggan/characteristics__
         strigoi:
             characteristics:
                 - >-
@@ -5440,7 +5452,7 @@ characters:
             name:
                 - strigoi
             prompt:
-                - __magical-beings/strigoi/name__, __magical-beings/strigoi/characteristics__
+                - __characters/magical-beings/strigoi/name__, __characters/magical-beings/strigoi/characteristics__
         succubus:
             characteristics:
                 - >-
@@ -5450,7 +5462,7 @@ characters:
             name:
                 - succubus
             prompt:
-                - __magical-beings/succubus/name__, __magical-beings/succubus/characteristics__
+                - __characters/magical-beings/succubus/name__, __characters/magical-beings/succubus/characteristics__
         sylph:
             characteristics:
                 - >-
@@ -5465,7 +5477,7 @@ characters:
             name: 
                 - sylph
             prompt:
-                - __magical-beings/sylph/name__, __magical-beings/sylph/characteristics__
+                - __characters/magical-beings/sylph/name__, __characters/magical-beings/sylph/characteristics__
         thunderbird:
             characteristics:
                 - >-
@@ -5476,7 +5488,7 @@ characters:
             name:
                 - thunderbird
             prompt:
-                - __magical-beings/thunderbird/name__, __magical-beings/thunderbird/characteristics__
+                - __characters/magical-beings/thunderbird/name__, __characters/magical-beings/thunderbird/characteristics__
         tikbalang:
             characteristics:
                 - >-
@@ -5486,7 +5498,7 @@ characters:
             name:
                 - tikbalang
             prompt:
-                - __magical-beings/tikbalang/name__, __magical-beings/tikbalang/characteristics__
+                - __characters/magical-beings/tikbalang/name__, __characters/magical-beings/tikbalang/characteristics__
         tomte:
             characteristics:
                 - >-
@@ -5497,7 +5509,7 @@ characters:
             name:
                 - tomte
             prompt:
-                - __magical-beings/tomte/name__, __magical-beings/tomte/characteristics__
+                - __characters/magical-beings/tomte/name__, __characters/magical-beings/tomte/characteristics__
         tree-ent:
             characteristics:
                 - >-
@@ -5509,7 +5521,7 @@ characters:
             name:
                 - tree ent
             prompt:
-                - __magical-beings/tree-ent/name__, __magical-beings/tree-ent/characteristics__
+                - __characters/magical-beings/tree-ent/name__, __characters/magical-beings/tree-ent/characteristics__
         troll:
             characteristics:
                 - >-
@@ -5521,7 +5533,7 @@ characters:
                 - troll
             prompt:
                 - >-
-                  {female|male}  __magical-beings/troll/name__, __magical-beings/troll/characteristics__
+                  {female|male}  __characters/magical-beings/troll/name__, __characters/magical-beings/troll/characteristics__
         unicorn:
             characteristics:
                 - >-
@@ -5532,7 +5544,7 @@ characters:
             name:
                 - unicorn
             prompt:
-                - __magical-beings/unicorn/name__, __magical-beings/unicorn/characteristics__
+                - __characters/magical-beings/unicorn/name__, __characters/magical-beings/unicorn/characteristics__
         valkyrie:
             characteristics:
                 - >-
@@ -5542,7 +5554,7 @@ characters:
             name:
                 - valkyrie
             prompt:
-                - __magical-beings/valkyrie/name__, __magical-beings/valkyrie/characteristics__
+                - __characters/magical-beings/valkyrie/name__, __characters/magical-beings/valkyrie/characteristics__
         vampire:
             characteristics:
                 - >-
@@ -5557,7 +5569,7 @@ characters:
                 - vampire
             prompt:
                 - >-
-                  {female|male}  __magical-beings/vampire/name__, __magical-beings/vampire/characteristics__
+                  {female|male}  __characters/magical-beings/vampire/name__, __characters/magical-beings/vampire/characteristics__
         wendigo:
             characteristics:
                 - >-
@@ -5573,7 +5585,7 @@ characters:
             name:
                 - wendigo
             prompt:
-                - __magical-beings/wendigo/name__, __magical-beings/wendigo/characteristics__
+                - __characters/magical-beings/wendigo/name__, __characters/magical-beings/wendigo/characteristics__
         werewolf:
             characteristics:
                 - >-
@@ -5585,7 +5597,7 @@ characters:
             name:
                 - werewolf
             prompt:
-                - __magical-beings/werewolf/name__, __magical-beings/werewolf/characteristics__
+                - __characters/magical-beings/werewolf/name__, __characters/magical-beings/werewolf/characteristics__
         wild-hunt:
             characteristics:
                 - >-
@@ -5595,7 +5607,7 @@ characters:
             name:
                 - wild hunt
             prompt:
-                - __magical-beings/wild-hunt/name__, __magical-beings/wild-hunt/characteristics__
+                - __characters/magical-beings/wild-hunt/name__, __characters/magical-beings/wild-hunt/characteristics__
         will-o-the-wisp:
             characteristics:
                 - >-
@@ -5606,7 +5618,7 @@ characters:
                 - will-o'-the-wisp
                 - ignis fatuus
             prompt:
-                - __magical-beings/will-o-the-wisp/name__, __magical-beings/will-o-the-wisp/characteristics__
+                - __characters/magical-beings/will-o-the-wisp/name__, __characters/magical-beings/will-o-the-wisp/characteristics__
         wisp:
             characteristics:
                 - >-
@@ -5621,7 +5633,7 @@ characters:
                 - wisp
             prompt:
                 - >-
-                  {female|male}  __magical-beings/wisp/name__, __magical-beings/wisp/characteristics__
+                  {female|male}  __characters/magical-beings/wisp/name__, __characters/magical-beings/wisp/characteristics__
         wolpertinger:
             characteristics:
                 - >-
@@ -5632,7 +5644,7 @@ characters:
             name:
                 - wolpertinger
             prompt:
-                - __magical-beings/wolpertinger/name__, __magical-beings/wolpertinger/characteristics__
+                - __characters/magical-beings/wolpertinger/name__, __characters/magical-beings/wolpertinger/characteristics__
         wraith:
             characteristics:
                 - >-
@@ -5643,7 +5655,7 @@ characters:
                 - wraith
             prompt:
                 - >-
-                  {female|male}  __magical-beings/wraith/name__, __magical-beings/wraith/characteristics__
+                  {female|male}  __characters/magical-beings/wraith/name__, __characters/magical-beings/wraith/characteristics__
         yeti:
             characteristics:
                 - >-
@@ -5654,7 +5666,7 @@ characters:
             name:
                 - yeti
             prompt:
-                - __magical-beings/yeti/name__, __magical-beings/yeti/characteristics__
+                - __characters/magical-beings/yeti/name__, __characters/magical-beings/yeti/characteristics__
         yuki-onna:
             characteristics:
                 - >-
@@ -5665,9 +5677,7 @@ characters:
             name:
                 - yuki-onna
             prompt:
-                - __magical-beings/yuki-onna/name__, __magical-beings/yuki-onna/characteristics__
-
-
+                - __characters/magical-beings/yuki-onna/name__, __characters/magical-beings/yuki-onna/characteristics__
 
     professions:
         cyberpunk:

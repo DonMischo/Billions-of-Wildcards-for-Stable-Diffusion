@@ -166,7 +166,7 @@ magical-beings:
             - chimera
         prompt:
             - __magical-beings/chimera/name__, __magical-beings/chimera/characteristics__
-    christmas_elf:
+    christmas-elf:
         characteristics:
             - >-
               small humanoid creature, pointed ears,
@@ -178,7 +178,7 @@ magical-beings:
             - christmas elf
         prompt:
             - >-
-              {female|male}  __magical-beings/christmas elf/name__, __magical-beings/christmas elf/characteristics__
+              {female|male}  __magical-beings/christmas-elf/name__, __magical-beings/christmas-elf/characteristics__
     chupacabra:
         characteristics:
             - >-
