@@ -1,0 +1,366 @@
+airavata:
+    characteristics:
+        - >-
+          Majestic white elephant, multiple trunks, immense size, symbol of rain and fertility, 
+          celestial being, adorned with ornate coverings and jewels, bearer of gods, embodiment of grace and power
+    name:
+        - airavata
+    prompt:
+        - __characters/magical-beings/airavata/name__, __characters/magical-beings/airavata/characteristics__
+ammil:
+    characteristics:
+        - >-
+          Ethereal nature spirit, manifestation of frost and ice, delicate and fragile appearance, 
+          symbol of transient beauty, harbinger of the changing seasons, ethereal and almost invisible presence
+    name:
+        - ammil
+    prompt:
+        - __characters/magical-beings/ammil/name__, __characters/magical-beings/ammil/characteristics__
+asrai:
+    characteristics:
+        - >-
+          Water faery, delicate and beautiful, shy and reclusive, 
+          dissolves into water when captured and exposed to sunlight, 
+          associated with bodies of fresh water, {lake|stream}
+    name:
+        - asrai
+    prompt:
+        - __characters/magical-beings/asrai/name__, __characters/magical-beings/asrai/characteristics__
+aziza:
+    characteristics:
+        - >-
+          Benevolent fairy-like being, small and elusive, helpful, 
+          forests and nature, wisdom, magical abilities
+    name:
+        - aziza
+    prompt:
+        - __characters/magical-beings/aziza/name__, __characters/magical-beings/aziza/characteristics__
+baba_jaga:
+    characteristics:
+        - >-
+          Slavic witch-like figure, wisdom and power, 
+          old woman, dwells in a hut that stands on chicken legs, 
+          feared and sought after for her magical abilities
+    name:
+        - baba jaga
+    prompt:
+        - __characters/magical-beings/baba_jaga/name__, __characters/magical-beings/baba_jaga/characteristics__
+bhuta:
+    characteristics:
+        - >-
+          Ghostly spirit, malevolent, arises from unsatisfied souls, 
+          shape-shifting abilities, haunting and causing harm,
+          associated with places of death and tragedy
+    name:
+        - bhuta
+    prompt:
+        - __characters/magical-beings/bhuta/name__, __characters/magical-beings/bhuta/characteristics__
+blue-men-of-minch:
+    characteristics:
+        - >-
+          Mythical sea creatures from Scottish folklore, 
+          humanoid with blue skin, known for their prowess in water, 
+          can create storms and challenge sailors, 
+          associated with the unpredictable nature of the sea
+    name:
+        - blue men of minch
+    prompt:
+        - __characters/magical-beings/blue_men_of_minch/name__, __characters/magical-beings/blue_men_of_minch/characteristics__
+cabeca-satanica:
+    characteristics:
+        - >-
+          Terrifying demonic entity, 
+          a head engulfed in flames, symbol of fear and evil, 
+          associated with dark rituals and legends, ominous and malevolent presence
+    name:
+        - cabeca satanica
+    prompt:
+        - __characters/magical-beings/cabeca_satanica/name__, __characters/magical-beings/cabeca_satanica/characteristics__
+cerberos:
+    characteristics:
+        - >-
+          Fearsome multi-headed dog, guardian of the underworld, 
+          fierce and terrifying presence, watchful and loyal to the ruler of the dead, 
+          symbol of protection against external threats
+    name:
+        - cerberos
+    prompt:
+        - __characters/magical-beings/cerberos/name__, __characters/magical-beings/cerberos/characteristics__
+dirawong:
+    characteristics:
+        - >-
+          Mysterious guardian spirit, {serpentine|dragon-like} appearance, 
+          protective yet elusive, symbol of wisdom and guidance, 
+          connection to the natural world, shrouded in myth and legend
+    name:
+        - dirawong
+    prompt:
+        - __characters/magical-beings/dirawong/name__, __characters/magical-beings/dirawong/characteristics__
+diw:
+    characteristics:
+        - >-
+          Elemental spirits, often associated with {fire|light}, 
+          seen as {protectors|guides}, can be both {benevolent|malevolent}, 
+          connected to ancient lore and rituals
+    name:
+        - diw
+    prompt:
+        - __characters/magical-beings/diw/name__, __characters/magical-beings/diw/characteristics__
+dschulnar:
+    characteristics:
+        - >-
+          Enigmatic creatures of lore, associated with mysticism and ancient wisdom,
+          capable of powerful magic, elusive and seen as guardians of {sacred|forbidden} knowledge
+    name:
+        - dschulnar
+    prompt:
+        - __characters/magical-beings/dschulnar/name__, __characters/magical-beings/dschulnar/characteristics__
+dshann:
+    characteristics:
+        - >-
+          Powerful and mystical beings, seen as protectors of ancient knowledge and secrets,
+          capable of casting powerful spells, shrouded in mystery and awe, revered
+    name:
+        - dshann
+    prompt:
+        - __characters/magical-beings/dshann/name__, __characters/magical-beings/dshann/characteristics__
+edimmu:
+    characteristics:
+        - >-
+          Ancient Mesopotamian spirit of the dead, causes harm to the living, 
+          associated with curses and misfortune, restless and vengeful, ghostly malevolent entity
+    name:
+        - edimmu
+    prompt:
+        - __characters/magical-beings/edimmu/name__, __characters/magical-beings/edimmu/characteristics__
+faun:
+    characteristics:
+        - >-
+          Mythical half-human, half-goat creatures from Roman mythology, 
+          associated with forests and nature, playful and mischievous, 
+          seen as guardian of the natural world, loves music and dance
+    name:
+        - faun
+    prompt:
+        - __characters/magical-beings/faun/name__, __characters/magical-beings/faun/characteristics__
+ghoul:
+    characteristics:
+        - >-
+          Gruesome demon-like being, known for grave-robbing and consuming human flesh,
+          found in desolate places, associated with death and the macabre, 
+          feared in numerous cultures for their malevolence
+    name:
+        - ghoul
+    prompt:
+        - __characters/magical-beings/ghoul/name__, __characters/magical-beings/ghoul/characteristics__
+glaukos:
+    characteristics:
+        - >-
+          Sea deity from Greek mythology, mortal turned into an immortal, 
+          prophetic powers, association with the sea, depicted as a wise and benevolent, guardian of sailors
+    name:
+        - glaukos
+    prompt:
+        - __characters/magical-beings/glaukos/name__, __characters/magical-beings/glaukos/characteristics__
+hinn:
+    characteristics:
+        - >-
+          Mythical creatures similar to jinn, shape-shifting abilities, invisible, 
+          associated with various natural phenomena, {benevolent|malevolent}, deeply woven into Middle Eastern folklore
+    name:
+        - hinn
+    prompt:
+        - __characters/magical-beings/hinn/name__, __characters/magical-beings/hinn/characteristics__
+iblis:
+    characteristics:
+        - >-
+          Shadowy figure with glowing eyes, depicted with horns and elongated features,
+          aura of malevolence and power, rebellion and temptation, enveloped in flames and smoke
+    name:
+        - iblis
+    prompt:
+        - __characters/magical-beings/iblis/name__, __characters/magical-beings/iblis/characteristics__
+itzpapalotl:
+    characteristics:
+        - >-
+          Fierce deity from Aztec mythology, 'Obsidian Butterfly' or 'Clawed Butterfly', associated with beauty and war, often depicted as a fearsome skeletal warrior goddess, symbolizes transformation and the power of the earth and fire.
+    name:
+        - itzpapalotl
+    prompt:
+        - __characters/magical-beings/itzpapalotl/name__, __characters/magical-beings/itzpapalotl/characteristics__
+jiaoren:
+    characteristics:
+        - >-
+          Mermaid-like beings from Chinese mythology, known for their tears turning into pearls, often depicted as benevolent and beautiful, associated with the sea and its mysteries, symbolize love, beauty, and the allure of the unknown.
+    name:
+        - jiaoren
+    prompt:
+        - __characters/magical-beings/jiaoren/name__, __characters/magical-beings/jiaoren/characteristics__
+kachima:
+    characteristics:
+        - >-
+          Mysterious shape-shifter, often appearing as a menacing animal or a hybrid creature, elusive and powerful, known for cunning and trickery, often a part of folklore and myth.
+    name:
+        - kachima
+    prompt:
+        - __characters/magical-beings/kachima/name__, __characters/magical-beings/kachima/characteristics__
+kalku:
+    characteristics:
+        - >-
+          Sorcerer or wizard in Mapuche mythology, known for their powerful dark magic, often seen as malevolent, capable of summoning spirits or casting curses, deeply feared and respected in their culture.
+    name:
+        - kalku
+    prompt:
+        - __characters/magical-beings/kalku/name__, __characters/magical-beings/kalku/characteristics__
+kirke:
+    characteristics:
+        - >-
+          Enchantress with the power to transform others, often through potions or spells, associated with sensuality and manipulation, skilled in the arts of magic and transformation.
+    name:
+        - kirke
+    prompt:
+        - __characters/magical-beings/kirke/name__, __characters/magical-beings/kirke/characteristics__
+mandurugo:
+    characteristics:
+        - >-
+          Mythical creature in Philippine folklore, a vampire-like being, appears as a beautiful woman by day, extends a proboscis from her mouth to suck blood at night, associated with tales of horror and the supernatural.
+    name:
+        - mandurugo
+    prompt:
+        - __characters/magical-beings/mandurugo/name__, __characters/magical-beings/mandurugo/characteristics__
+mangkukulam:
+    characteristics:
+        - >-
+          Filipino sorcerer or witch, known for practicing black magic, often involved in casting spells or curses, feared in local folklore, associated with supernatural and spiritual practices.
+    name:
+        - mangkukulam
+    prompt:
+        - __characters/magical-beings/mangkukulam/name__, __characters/magical-beings/mangkukulam/characteristics__
+menehune:
+    characteristics:
+        - >-
+          Small dwarf-like beings from Hawaiian mythology, known for their superb craftsmanship, secretive and nocturnal, responsible for building incredible structures, often helpful but can be mischievous.
+    name:
+        - menehune
+    prompt:
+        - __characters/magical-beings/menehune/name__, __characters/magical-beings/menehune/characteristics__
+moon_rabbit:
+    characteristics:
+        - >-
+          Mythical lunar creature, often depicted as pounding an elixir of life, associated with immortality and longevity, gentle and serene, connection to lunar deities, symbol of selflessness and sacrifice.
+    name:
+        - moon rabbit
+    prompt:
+        - __characters/magical-beings/moon_rabbit/name__, __characters/magical-beings/moon_rabbit/characteristics__
+nasnas:
+    characteristics:
+        - >-
+          Bizarre half-formed creature, often depicted as half a human body, known for its strange appearance and unsettling behavior, associated with tales of the supernatural and the uncanny.
+    name:
+        - nasnas
+    prompt:
+        - __characters/magical-beings/nasnas/name__, __characters/magical-beings/nasnas/characteristics__
+nature_spirit:
+    characteristics:
+        - >-
+          Ethereal guardian of nature, can appear as human-like or as an aspect of natural elements, connected deeply with the environment, symbolizes balance and harmony, often seen as protectors of sacred places.
+    name:
+        - nature spirit
+    prompt:
+        - __characters/magical-beings/nature_spirit/name__, __characters/magical-beings/nature_spirit/characteristics__
+obambo:
+    characteristics:
+        - >-
+          Skeletal ghost, thin and fragile appearance, haunting and sorrowful presence, associated with unfulfilled desires or unsettled matters, eerie and unsettling.
+    name:
+        - obambo
+    prompt:
+        - __characters/magical-beings/obambo/name__, __characters/magical-beings/obambo/characteristics__
+pari:
+    characteristics:
+        - >-
+          Ethereal and graceful beings, often depicted as beautiful winged women, associated with nature and magic, symbol of purity and enchantment, known for their healing powers and benevolent acts.
+    name:
+        - pari
+    prompt:
+        - __characters/magical-beings/pari/name__, __characters/magical-beings/pari/characteristics__
+piuchen:
+    characteristics:
+        - >-
+          Shape-shifting creature from Chilote mythology, can transform from a serpent-like being to a bird, known for sucking the blood of livestock, associated with the night and shrouded in mystery.
+    name:
+        - piuchen
+    prompt:
+        - __characters/magical-beings/piuchen/name__, __characters/magical-beings/piuchen/characteristics__
+qilin:
+    characteristics:
+        - >-
+          Mythical chimeric creature, dragon-like head, hooves of a deer, tail of an ox, covered in brilliantly colored scales, symbol of good luck and prosperity, gentle but powerful, associated with wise and just rulers.
+    name:
+        - qilin
+    prompt:
+        - __characters/magical-beings/qilin/name__, __characters/magical-beings/qilin/characteristics__
+quinametzin:
+    characteristics:
+        - >-
+          Giant beings from Aztec mythology, ancient and powerful, known for their incredible size and strength, builders of ancient structures, associated with legends of the origins of civilizations.
+    name:
+        - quinametzin
+    prompt:
+        - __characters/magical-beings/quinametzin/name__, __characters/magical-beings/quinametzin/characteristics__
+ramanga:
+    characteristics:
+        - >-
+          Vampire-like creature from Madagascar, consumes blood and nails of nobles, often described as living servants of royalty, associated with taboo and fear, enigmatic and feared in local folklore.
+    name:
+        - ramanga
+    prompt:
+        - __characters/magical-beings/ramanga/name__, __characters/magical-beings/ramanga/characteristics__
+sun_wukong:
+    characteristics:
+        - >-
+          Mythical Monkey King from Chinese folklore, known for his immense strength and magical powers, master of transformation and combat, mischievous and rebellious spirit, journeyed to the West in classic literature, symbol of perseverance and cunning.
+    name:
+        - sun wukong
+    prompt:
+        - __characters/magical-beings/sun_wukong/name__, __characters/magical-beings/sun_wukong/characteristics__
+undine:
+    characteristics:
+        - >-
+          Water nymphs or elemental beings in European folklore, associated with bodies of water, often depicted as beautiful and enchanting women, known for their connection to the natural world, embody the spirit and beauty of water.
+    name:
+        - undine
+    prompt:
+        - __characters/magical-beings/undine/name__, __characters/magical-beings/undine/characteristics__
+vetala:
+    characteristics:
+        - >-
+          Supernatural entity from Hindu mythology, known to inhabit corpses, possesses immense knowledge, can offer insight or foretell the future, often associated with occult rituals and known for their cunning nature.
+    name:
+        - vetala
+    prompt:
+        - __characters/magical-beings/vetala/name__, __characters/magical-beings/vetala/characteristics__
+witch:
+    characteristics:
+        - >-
+          Skilled in magic and sorcery, often portrayed as women with knowledge of herbs and potions, can be benevolent or malevolent, associated with spells and enchantments, deeply connected with the supernatural and the occult.
+    name:
+        - witch
+    prompt:
+        - __characters/magical-beings/witch/name__, __characters/magical-beings/witch/characteristics__
+yaksha:
+    characteristics:
+        - >-
+          Nature spirits in Hindu and Buddhist mythology, often benevolent, associated with wealth and prosperity, guardians of natural treasures, can be mischievous but are generally good-natured.
+    name:
+        - yaksha
+    prompt:
+        - __characters/magical-beings/yaksha/name__, __characters/magical-beings/yaksha/characteristics__
+yara_me_yha_who:
+    characteristics:
+        - >-
+          Small, vampire-like creature from Australian Aboriginal mythology, red-skinned with a very large head and mouth, known for draining the blood of its victims, associated with cautionary tales and the dangers of the wilderness.
+    name:
+        - yara-me-yha-who
+    prompt:
+        - __characters/magical-beings/yara_me_yha_who/name__, __characters/magical-beings/yara_me_yha_who/characteristics__
