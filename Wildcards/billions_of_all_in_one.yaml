@@ -300,7 +300,7 @@ Bo:
                   {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/male/full-body__, }
                   {0.8::__clothings/magical/male/footwear__,|} {0.5::__clothings/magical/male/headwear__,|}
                   __bo/clothings/random-accesoires/magical__
-        nfsw:
+        nsfw:
             female-attire:
                 - >-
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
@@ -4352,6 +4352,25 @@ characters:
                 - abaddon
             prompt:
                 - __characters/magical-beings/abaddon/name__, __characters/magical-beings/abaddon/characteristics__
+        airavata:
+            characteristics:
+                - >-
+                  Majestic white elephant, multiple trunks, immense size, symbol of rain and fertility, 
+                  celestial being, adorned with ornate coverings and jewels, bearer of gods, embodiment of grace and power
+            name:
+                - airavata
+            prompt:
+                - __characters/magical-beings/airavata/name__, __characters/magical-beings/airavata/characteristics__
+        al-jinn:
+            characteristics:
+                - >-
+                  Supernatural being from Arabic mythology, created from smokeless fire,
+                  free will, choosing between good and evil, supernatural powers, ability to influence the physical world,
+                  {benevolence|trickery}
+            name:
+                - Al-jinn
+            prompt:
+                - __characters/magical-beings/Al-jinn/name__, __characters/magical-beings/Al-jinn/characteristics__
         alraune:
             characteristics:
                 - >-
@@ -4374,6 +4393,15 @@ characters:
                 - amazon
             prompt:
                 - __characters/magical-beings/amazon/name__, __characters/magical-beings/amazon/characteristics__
+        ammil:
+            characteristics:
+                - >-
+                  Ethereal nature spirit being, manifestation of frost and ice, delicate and fragile appearance, 
+                  symbol of transient beauty, harbinger of the changing seasons, ethereal and almost invisible presence
+            name:
+                - ammil
+            prompt:
+                - __characters/magical-beings/ammil/name__, __characters/magical-beings/ammil/characteristics__
         angel:
             characteristics:
                 - >-
@@ -4398,7 +4426,17 @@ characters:
             prompt:
                 - >-
                   __characters/magical-beings/angel-treasure/name__, __characters/magical-beings/angel-treasure/characteristics__
-       
+        asrai:
+            characteristics:
+                - >-
+                  Water fairy, delicate and beautiful, shy and reclusive
+                  embody the mystery and grace of water,
+                  dissolves into water when captured and exposed to sunlight,
+                  associated with bodies of fresh water, {lake|stream}
+            name:
+                - asrai
+            prompt:
+                - __characters/magical-beings/asrai/name__, __characters/magical-beings/asrai/characteristics__
         aswang:
             characteristics:
                 - >-
@@ -4410,6 +4448,16 @@ characters:
             prompt:
                 - >-
                   {female|male}   __characters/magical-beings/aswang/name__, __characters/magical-beings/aswang/characteristics__
+        aziza:
+            characteristics:
+                - >-
+                  Benevolent fairy-like being, small and elusive, helpful, 
+                  forests and nature, wisdom, magical abilities,
+                  {0.5::butterfly,|0.5::dragonfly wings,|}, symbolize harmony with nature
+            name:
+                - aziza
+            prompt:
+                - __characters/magical-beings/aziza/name__, __characters/magical-beings/aziza/characteristics__
         baal:
             characteristics:
                 - >-
@@ -4419,6 +4467,16 @@ characters:
                 - baal
             prompt:
                 - __characters/magical-beings/baal/name__, __characters/magical-beings/baal/characteristics__
+        # baba_jaga:
+            # characteristics:
+                # - >-
+                  # Slavic witch-like figure, wisdom and power, 
+                  # old woman, dwells in a hut that stands on chicken legs, 
+                  # feared and sought after for her magical abilities
+            # name:
+                # - baba jaga
+            # prompt:
+                # - __characters/magical-beings/baba_jaga/name__, __characters/magical-beings/baba_jaga/characteristics__
         banshee:
             characteristics:
                 - >-
@@ -4454,7 +4512,8 @@ characters:
                   {0.4:frothy beer foam crown on its head|},
                   spreading merriment and good cheer,
                   twinkle in its eye, hearty laugh
-            name: Beer Spirit
+            name: 
+                - Beer Spirit
             prompt:
                 - __characters/magical-beings/beer-spirit/name__, __characters/magical-beings/beer-spirit/characteristics__
         belial:
@@ -4491,6 +4550,37 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/brownie/name__, __characters/magical-beings/brownie/characteristics__
+        bhuta:
+            characteristics:
+                - >-
+                  Ghostly spirit, malevolent, arises from unsatisfied souls, 
+                  shape-shifting abilities, haunting and causing harm,
+                  associated with places of death and tragedy
+            name:
+                - bhuta
+            prompt:
+                - __characters/magical-beings/bhuta/name__, __characters/magical-beings/bhuta/characteristics__
+        blue-men-of-minch:
+            characteristics:
+                - >-
+                  Mythical sea creatures from Scottish folklore, 
+                  humanoid with blue skin, known for their prowess in water, 
+                  can create storms and challenge sailors, 
+                  associated with the unpredictable nature of the sea
+            name:
+                - blue men of minch
+            prompt:
+                - __characters/magical-beings/blue-men-of-minch/name__, __characters/magical-beings/blue-men-of-minch/characteristics__
+        cabeca-satanica:
+            characteristics:
+                - >-
+                  Terrifying bodyless demonic entity, 
+                  a flying head engulfed in flames, symbol of fear and evil, 
+                  associated with dark rituals and legends, ominous and malevolent presence
+            name:
+                - cabeca satanica
+            prompt:
+                - __characters/magical-beings/cabeca-satanica/name__, __characters/magical-beings/cabeca-satanica/characteristics__
         centaur:
             characteristics:
                 - >-
@@ -4506,6 +4596,16 @@ characters:
                 - centaur
             prompt:
                 - __characters/magical-beings/centaur/name__, __characters/magical-beings/centaur/characteristics__
+        cerberos:
+            characteristics:
+                - >-
+                  Fearsome multi-headed dog, guardian of the underworld, 
+                  fierce and terrifying presence, watchful and loyal to the ruler of the dead, 
+                  symbol of protection against external threats
+            name:
+                - cerberos
+            prompt:
+                - __characters/magical-beings/cerberos/name__, __characters/magical-beings/cerberos/characteristics__
         changeling:
             characteristics:
                 - >-
@@ -4648,6 +4748,26 @@ characters:
                 - diablo
             prompt:
                 - __characters/magical-beings/diablo/name__, __characters/magical-beings/diablo/characteristics__
+        dirawong:
+            characteristics:
+                - >-
+                  Mysterious guardian spirit, {serpentine|dragon-like} monitor lizard appearance, 
+                  protective yet elusive, symbol of wisdom and guidance, 
+                  connection to the natural world, shrouded in myth and legend
+            name:
+                - dirawong
+            prompt:
+                - __characters/magical-beings/dirawong/name__, __characters/magical-beings/dirawong/characteristics__
+        diw:
+            characteristics:
+                - >-
+                  Elemental spirit, often associated with {fire|light}, 
+                  seen as {protectors|guides}, can be both {benevolent|malevolent}, 
+                  connected to ancient lore and rituals
+            name:
+                - diw
+            prompt:
+                - __characters/magical-beings/diw/name__, __characters/magical-beings/diw/characteristics__
         djinn:
             characteristics:
                 - >-
@@ -4754,6 +4874,15 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/dwarf/name__, __characters/magical-beings/dwarf/characteristics__
+        edimmu:
+            characteristics:
+                - >-
+                  Ancient Mesopotamian spirit of the dead, causes harm to the living, 
+                  associated with curses and misfortune, restless and vengeful, ghostly malevolent entity
+            name:
+                - edimmu
+            prompt:
+                - __characters/magical-beings/edimmu/name__, __characters/magical-beings/edimmu/characteristics__
         elf:
             characteristics:
                 - >-
@@ -4825,6 +4954,16 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/fairy/name__, __characters/magical-beings/fairy/characteristics__
+        faun:
+            characteristics:
+                - >-
+                  Mythical half-human, humanoid half-goat creature, 
+                  associated with forests and nature, playful and mischievous, 
+                  seen as guardian of the natural world, loves music and dance
+            name:
+                - faun
+            prompt:
+                - __characters/magical-beings/faun/name__, __characters/magical-beings/faun/characteristics__
         fenghuang:
             characteristics:
                 - >-
@@ -4861,11 +5000,15 @@ characters:
         ghoul:
             characteristics:
                 - >-
-                  humanoid monstrous creature.
+                  humanoid monstrous creature,
                   emaciated corpse like appearance, decayed or mummified skin,
                   sunken or glowing eyes, sharp teeth,
                   clawed hands, predatory appearance, nocturnal,
                   tattered or burial clothing, undead
+                - >-
+                  Gruesome demon-like being, known for grave-robbing and consuming human flesh,
+                  found in desolate places, associated with death and the macabre, 
+                  feared in numerous cultures for their malevolence
             name:
                 - ghoul
             prompt:
@@ -4880,6 +5023,15 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/giant/name__, __characters/magical-beings/giant/characteristics__
+        glaukos:
+            characteristics:
+                - >-
+                  Sea deity from Greek mythology, mortal turned into an immortal, 
+                  prophetic powers, association with the sea, depicted as a wise and benevolent, guardian of sailors
+            name:
+                - glaukos
+            prompt:
+                - __characters/magical-beings/glaukos/name__, __characters/magical-beings/glaukos/characteristics__
         gnome:
             characteristics:
                 - >-
@@ -4959,6 +5111,15 @@ characters:
                 - heinzelmännchen
             prompt:
                 - __characters/magical-beings/heinzelmaennchen/name__, __characters/magical-beings/heinzelmaennchen/characteristics__
+        hinn:
+            characteristics:
+                - >-
+                  Mythical creatures similar to jinn, shape-shifting abilities, invisible, 
+                  associated with various natural phenomena, {benevolent|malevolent}, deeply woven into Middle Eastern folklore
+            name:
+                - hinn
+            prompt:
+                - __characters/magical-beings/hinn/name__, __characters/magical-beings/hinn/characteristics__
         hippogriff:
             characteristics:
                 - >-
@@ -5009,6 +5170,15 @@ characters:
                 - huldra
             prompt:
                 - __characters/magical-beings/huldra/name__, __characters/magical-beings/huldra/characteristics__
+        iblis:
+            characteristics:
+                - >-
+                  Shadowy figure with glowing eyes, depicted with horns and elongated features,
+                  aura of malevolence and power, rebellion and temptation, enveloped in flames and smoke
+            name:
+                - iblis
+            prompt:
+                - __characters/magical-beings/iblis/name__, __characters/magical-beings/iblis/characteristics__
         ifrit:
             characteristics:
                 - >-
@@ -5043,6 +5213,7 @@ characters:
                 - incubus
             prompt:
                 - __characters/magical-beings/incubus/name__, __characters/magical-beings/incubus/characteristics__
+
         jabberwocky:
             characteristics:
                 - >-
@@ -5054,6 +5225,17 @@ characters:
                 - jabberwocky
             prompt:
                 - __characters/magical-beings/jabberwocky/name__, __characters/magical-beings/jabberwocky/characteristics__
+        jiaoren:
+            characteristics:
+                - >-
+                  Mermaid-like beings from Chinese mythology, 
+                  known for their tears turning into pearls, 
+                  benevolent and beautiful, associated with the sea and its mysteries, 
+                  symbolize love, beauty, allure of the unknown
+            name:
+                - jiaoren
+            prompt:
+                - __characters/magical-beings/jiaoren/name__, __characters/magical-beings/jiaoren/characteristics__
         jinn:
             characteristics:
                 - >-
@@ -5068,7 +5250,7 @@ characters:
         jotun:
             characteristics:
                 - >-
-                  jötun,powerful ancient {mythical giant|supernatural entity}, {0.2::humanoid appearance,|}
+                  powerful ancient {mythical giant|supernatural entity}, {0.2::humanoid appearance,|}
                   primal {__magical/elemental__|__atmosphere/elemental__}, {human sized|big|large|gigantic|colossal|massive},
                   {chaos|conflict}, {0.1::ymir|0.1::surtr|}
             name:
@@ -5076,6 +5258,36 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/jotun/name__, __characters/magical-beings/jotun/characteristics__
+        kachima:
+            characteristics:
+                - >
+                  Mysterious shape-shifter, appearing as a menacing hybrid animal creature, 
+                  elusive and powerful, cunning, trickery
+            name:
+                - kachima
+            prompt:
+                - __characters/magical-beings/kachima/name__, __characters/magical-beings/kachima/characteristics__
+        kachina:
+            characteristics:
+                - >
+                  Spiritual being, Hopi and Zuni,
+                  embodyment deity spirit, natural elements, 
+                  elaborate masks and costumes, ceremonial dance,
+                  sacred and powerful, associated with {1-2$$rain|crops|healing|protection|symbolizing harmony with the natural world}
+            name:
+                - kachina
+            prompt:
+                - __characters/magical-beings/kachina/name__, __characters/magical-beings/kachina/characteristics__
+        kalku:
+            characteristics:
+                - >-
+                  {Sorcerer|wizard} in Mapuche mythology, 
+                  powerful dark magic, malevolent, {summoning spirits|casting curses}, 
+                  deeply feared, respected
+            name:
+                - kalku
+            prompt:
+                - __characters/magical-beings/kalku/name__, __characters/magical-beings/kalku/characteristics__
         kappa:
             characteristics:
                 - >-
@@ -5097,6 +5309,16 @@ characters:
                 - kelpie
             prompt:
                 - __characters/magical-beings/kelpie/name__, __characters/magical-beings/kelpie/characteristics__
+        kirke:
+            characteristics:
+                - >-
+                  Enchantress, power to transform others, 
+                  {potions|spells}, sensuality and manipulation, 
+                  skilled in the arts of magic and transformation
+            name:
+                - kirke
+            prompt:
+                - __characters/magical-beings/kirke/name__, __characters/magical-beings/kirke/characteristics__
         kitsune-fox-form:
             characteristics:
                 - >-
@@ -5182,6 +5404,25 @@ characters:
                 - mandrake
             prompt:
                 - __characters/magical-beings/mandrake/name__, __characters/magical-beings/mandrake/characteristics__
+        mandurugo:
+            characteristics:
+                - >-
+                  Mythical humanoid creature in Philippine folklore, 
+                  extends a proboscis from her mouth to suck blood at night, 
+                  tales of horror and the supernatural
+            name:
+                - mandurugo
+            prompt:
+                - __characters/magical-beings/mandurugo/name__, __characters/magical-beings/mandurugo/characteristics__
+        mangkukulam:
+            characteristics:
+                - >-
+                  Filipino {sorcerer|witch}, practicing black magic,
+                  casting spells or curses, feared, supernatural and spiritual practices
+            name:
+                - mangkukulam
+            prompt:
+                - __characters/magical-beings/mangkukulam/name__, __characters/magical-beings/mangkukulam/characteristics__
         manticore:
             characteristics:
                 - >-
@@ -5224,6 +5465,16 @@ characters:
                 - medusa
             prompt:
                 - __characters/magical-beings/medusa/name__, __characters/magical-beings/medusa/characteristics__
+        menehune:
+            characteristics:
+                - >-
+                  Small humanoid beings from Hawaiian mythology, 
+                  superb craftsmanship, secretive and nocturnal, 
+                  building incredible structures, {0.7::helpful|0.3::mischievous}
+            name:
+                - menehune
+            prompt:
+                - __characters/magical-beings/menehune/name__, __characters/magical-beings/menehune/characteristics__
         mephisto:
             characteristics:
                 - >-
@@ -5283,6 +5534,17 @@ characters:
                 - minotaur
             prompt:
                 - __characters/magical-beings/minotaurin/name__, __characters/magical-beings/minotaurin/characteristics__
+        moon-rabbit:
+            characteristics:
+                - >-
+                  Mythical lunar creature, 
+                  pounding an elixir of life, immortality and longevity, 
+                  gentle and serene, connection to lunar deities, 
+                  symbol of selflessness and sacrifice
+            name:
+                - moon rabbit
+            prompt:
+                - __characters/magical-beings/moon-rabbit/name__, __characters/magical-beings/moon-rabbit/characteristics__
         mothman:
             characteristics:
                 - >-
@@ -5322,6 +5584,27 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/naga/name__, __characters/magical-beings/naga/characteristics__
+        nasnas:
+            characteristics:
+                - >-
+                  Bizarre half-formed creature, 
+                  depicted as half a human body,
+                  strange appearance and unsettling behavior, 
+                  supernatural, uncanny
+            name:
+                - nasnas
+            prompt:
+                - __characters/magical-beings/nasnas/name__, __characters/magical-beings/nasnas/characteristics__
+        nature-spirit:
+            characteristics:
+                - >-
+                  Ethereal guardian of nature, 
+                  {human-like|aspect of natural elements}, deeply connected with the environment, 
+                  balance and harmony, protector of sacred places
+            name:
+                - nature spirit
+            prompt:
+                - __characters/magical-beings/nature-spirit/name__, __characters/magical-beings/nature-spirit/characteristics__
         nessie:
             characteristics:
                 - >-
@@ -5345,6 +5628,16 @@ characters:
                 - nymph
             prompt:
                 - __characters/magical-beings/nymph/name__, __characters/magical-beings/nymph/characteristics__
+        obambo:
+            characteristics:
+                - >-
+                  Skeletal ghost, thin and fragile appearance, 
+                  haunting and sorrowful presence, 
+                  {unfulfilled desires|unsettled matters}, eerie, unsettling
+            name:
+                - obambo
+            prompt:
+                - __characters/magical-beings/obambo/name__, __characters/magical-beings/obambo/characteristics__
         ogre:
             characteristics:
                 - >-
@@ -5384,6 +5677,16 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/orc/name__, __characters/magical-beings/orc/characteristics__
+        pari:
+            characteristics:
+                - >-
+                  Ethereal and graceful beings, 
+                  beautiful winged women, nature and magic, 
+                  purity, enchantment, healing powers, benevolent
+            name:
+                - pari
+            prompt:
+                - __characters/magical-beings/pari/name__, __characters/magical-beings/pari/characteristics__
         pegasus:
             characteristics:
                 - >-
@@ -5404,6 +5707,16 @@ characters:
                 - phoenix
             prompt:
                 - __characters/magical-beings/phoenix/name__, __characters/magical-beings/phoenix/characteristics__
+        piuchen:
+            characteristics:
+                - >-
+                  Shape-shifting creature from Chilote mythology, 
+                  {serpent-like|bird-like} being, sucking the blood, 
+                  night, shrouded in mystery
+            name:
+                - piuchen
+            prompt:
+                - __characters/magical-beings/piuchen/name__, __characters/magical-beings/piuchen/characteristics__
         pixie:
             characteristics:
                 - >-
@@ -5429,6 +5742,26 @@ characters:
                 - poltergeist
             prompt:
                 - __characters/magical-beings/poltergeist/name__, __characters/magical-beings/poltergeist/characteristics__
+        qilin:
+            characteristics:
+                - >-
+                  Mythical chimeric creature, dragon-like head, 
+                  hooves of a deer, tail of an ox, covered in brilliantly colored scales, 
+                  symbol of good luck and prosperity, gentle, powerful, wise, just
+            name:
+                - qilin
+            prompt:
+                - __characters/magical-beings/qilin/name__, __characters/magical-beings/qilin/characteristics__
+        quinametzin:
+            characteristics:
+                - >-
+                  Giant being from Aztec mythology, ancient and powerful, 
+                  incredible size and strength, builders of ancient structures, 
+                  origin of civilizations
+            name:
+                - quinametzin
+            prompt:
+                - __characters/magical-beings/quinametzin/name__, __characters/magical-beings/quinametzin/characteristics__
         rabbit-bear:
             characteristics:
                 - >-
@@ -5437,6 +5770,21 @@ characters:
                 - rabbit-bear
             prompt:
                 - __characters/magical-beings/rabbit-bear/name__, __characters/magical-beings/rabbit-bear/characteristics__
+        ramanga:
+            characteristics:
+                - >-
+                  # cute version due to Madagascar movies xD
+                  creature from african mythology, consumes blood and nails, 
+                  living servants of royalty, associated with taboo and fear,
+                  enigmatic, fearsome
+                - >-
+                  creature from Madagascar, consumes blood and nails, 
+                  living servants of royalty, associated with taboo and fear,
+                  enigmatic, fearsome
+            name:
+                - ramanga
+            prompt:
+                - __characters/magical-beings/ramanga/name__, __characters/magical-beings/ramanga/characteristics__
         roc:
             characteristics:
                 - >-
@@ -5568,6 +5916,16 @@ characters:
                 - succubus
             prompt:
                 - __characters/magical-beings/succubus/name__, __characters/magical-beings/succubus/characteristics__
+        sun-wukong:
+            characteristics:
+                - >-
+                  Mythical Monkey King from Chinese folklore, 
+                  immense strength and magical powers, master of transformation and combat, 
+                  mischievous and rebellious spirit, perseverance, cunning
+            name:
+                - sun wukong
+            prompt:
+                - __characters/magical-beings/sun-wukong/name__, __characters/magical-beings/sun-wukong/characteristics__
         sylph:
             characteristics:
                 - >-
@@ -5604,6 +5962,16 @@ characters:
                 - tikbalang
             prompt:
                 - __characters/magical-beings/tikbalang/name__, __characters/magical-beings/tikbalang/characteristics__
+        thoth:
+            characteristics:
+                - >
+                  god of writing, knowledge, magic, depicted as a man with the head of an {ibis|baboon},
+                  keeper of divine knowledge, associated with the moon and reckoning of time,
+                  revered as a wise counselor and magician, guardian of sacred texts
+            name:
+                - thoth
+            prompt:
+                - __characters/magical-beings/thoth/name__, __characters/magical-beings/thoth/characteristics__
         tomte:
             characteristics:
                 - >-
@@ -5639,6 +6007,16 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/troll/name__, __characters/magical-beings/troll/characteristics__
+        undine:
+            characteristics:
+                - >-
+                  {Water nymphs|elemental beings}, associated with bodies of water,
+                  depicted as beautiful and enchanting women, connection to the natural world,
+                  embodyment of the spirit and beauty of water
+            name:
+                - undine
+            prompt:
+                - __characters/magical-beings/undine/name__, __characters/magical-beings/undine/characteristics__
         unicorn:
             characteristics:
                 - >-
@@ -5675,6 +6053,16 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/vampire/name__, __characters/magical-beings/vampire/characteristics__
+        vetala:
+            characteristics:
+                - >-
+                  Supernatural entity from Hindu mythology, 
+                  inhabits a corpse, possesses immense knowledge, insight and foretell the future, 
+                  occult rituals, cunning nature
+            name:
+                - vetala
+            prompt:
+                - __characters/magical-beings/vetala/name__, __characters/magical-beings/vetala/characteristics__
         wendigo:
             characteristics:
                 - >-
@@ -5739,6 +6127,15 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/wisp/name__, __characters/magical-beings/wisp/characteristics__
+        witch:
+            characteristics:
+                - >-
+                  Skilled in magic and sorcery, {benevolent|malevolent} women with knowledge of herbs and potions,
+                  spells and enchantments, deeply connected with the supernatural and the occult
+            name:
+                - witch
+            prompt:
+                - __characters/magical-beings/witch/name__, __characters/magical-beings/witch/characteristics__
         wolpertinger:
             characteristics:
                 - >-
@@ -5761,6 +6158,28 @@ characters:
             prompt:
                 - >-
                   {female|male}  __characters/magical-beings/wraith/name__, __characters/magical-beings/wraith/characteristics__
+        yaksha:
+            characteristics:
+                - >-
+                  powerful magnificent Nature spirits in Hindu and Buddhist mythology, benevolent,
+                  wealth and prosperity, guardians of natural treasures, {mischievous|generally good-natured},
+                  protective, nurturing aspect of nature
+            name:
+                - yaksha
+            prompt:
+                - __characters/magical-beings/yaksha/name__, __characters/magical-beings/yaksha/characteristics__
+        yara-me-yha-who:
+            characteristics:
+                - >-
+                  Small squat hairy amphibian creature from Australian Aboriginal mythology, 
+                  red-skinned with a very large head and wide mouth, draining blood, suckers on its fingers and toes,
+                  depicted with suckers on its fingers and toes, used to drain blood from its victims,
+                  comical eerie demeanor, fig tree, nocturnal creature, lurking in the shadows,
+                  danger of the wilderness
+            name:
+                - yara-me-yha-who
+            prompt:
+                - __characters/magical-beings/yara-me-yha-who/name__, __characters/magical-beings/yara-me-yha-who/characteristics__
         yeti:
             characteristics:
                 - >-
