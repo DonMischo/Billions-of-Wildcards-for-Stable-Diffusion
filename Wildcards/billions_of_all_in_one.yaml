@@ -314,7 +314,7 @@ Bo:
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/male/lower-body__|__clothings/nsfw/male/underwear-lower__},
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
-                  {__clothings/nsfw/male/upper-body__|__clothings/nsfw/male/underwear-upper__},
+                  {__clothings/nsfw/male/upper-body__,|__clothings/nsfw/male/underwear-upper__,|}
                   {0.8::__clothings/regular/male/footwear__,|} {0.5::__clothings/regular/male/headwear__,|}
                   __bo/clothings/random-accesoires/regular__
         regular:
@@ -496,8 +496,8 @@ Bo:
             - > 
               __creatures/descriptors__
               {0-2$$__atmosphere/elemental__ __atmosphere/elements__}
-              {asian|chinese|japanese|european} __creatues/dragons/body-shape__ __creatures/species/draconic__, 
-              {0.2::__creatues/dragons/body-cover__ skin,|}
+              {asian|chinese|japanese|european} __creatures/dragons/body-shape__ __creatures/species/draconic__, 
+              {0.2::__creatures/dragons/body-cover__ skin,|}
               {0.2::__creatures/dragons/wing-types__}
         magical-beings:
             - __characters/magical-beings/*/prompt__
@@ -9436,6 +9436,65 @@ clothings:
                 - thong
                 - track pants
                 - trunks
+            underwear-lower:
+                - Briefs
+                - Boxer Briefs
+                - Boxers
+                - Trunks
+                - Jockstraps
+                - Thongs
+                - G-Strings
+                - Bikinis
+                - Long Underwear
+                - Thermal Underwear
+                - Leggings
+                - Mesh Underwear
+                - Enhancing Underwear
+                - Pouch Underwear
+                - Push-up Underwear
+                - Shapewear
+                - Sports Underwear
+                - Swim Briefs
+                - Bodysuits
+                - Harnesses
+                - Loungewear Shorts
+                - Tanga Briefs
+                - Low Rise Underwear
+                - Silk Underwear
+                - Modal Fabric Underwear
+                - Lingerie Style Underwear
+                - Novelty Underwear
+                - C-strings
+                - Leather Underwear
+                - PVC Underwear
+            underwear-upper:
+                - T-Shirts
+                - Crew Neck
+                - V-Neck
+                - Tank Top
+                - Long Sleeve
+                - Undershirts
+                - Traditional Fit
+                - Slim Fit
+                - Compression Shirts
+                - Vest Tops
+                - Muscle Shirts
+                - Bodysuits
+                - Harnesses
+                - Leather Harnesses
+                - Fabric Harnesses
+                - Mesh Shirts
+                - Silk Shirts
+                - Thermal Tops
+                - Sports Performance Tops
+                - Moisture-Wicking Shirts
+                - Compression Tops
+                - Lingerie Style Tops
+                - Lace Shirts
+                - Sheer Tops
+                - Novelty Shirts
+                - Leather Shirts
+                - PVC Tops
             upper-body:
                 - dress shirt
                 - button-up shirt
