@@ -26,6 +26,7 @@ prompts:
     Fire:
         - a detailed realistic digital art of an dynamic elemtal being entirly made of fire, slightly resembling a humanoid with a tornado-like lower body in a fitting environment
         - a detailed realistic digital art of an dynamic spirit elemental face entirly made of fire, floating 2m above a burned field with tail of a diffuse shape made of fire and smoke
+        - 
     Gravity:
         - a detailed realistic digital art of an dynamic elemtal being entirly made of black hole gravity magic of black purple swirls, slightly resembling a humanoid with a tornado-like lower body on a basalt plain. the lower body has a diffuse shape made of black hole gravity magic
         - a detailed realistic digital art of an dynamic spirit elemental face entirly made of black hole gravity magic of black purple swirls, floating 2m above a icey landscape with tail of a diffuse shape made of black hole gravity magic
@@ -46,10 +47,12 @@ prompts:
         - a detailed realistic digital art of an dynamic spirit elemental face, the face is entirly made of paper money and coins, floating 2m above ground in a treasure vault with tail of misty diffuse paper money and coins
     Nature:
         - a detailed realistic digital art of an dynamic spirit elemental face, the face is transparent transluscent and entirly made of healthy green lifeforce, floating 2m above the ground on a waste dump with tail of misty diffuse smooth gaseous lifeforce
+        - a cube surrounded by happily swirling dancing transparent transluscent healthy green lifeforce magic in a dark ancient forest vault
     shadow:
         - a detailed realistic digital art of an dynamic elemtal being entirly made of smooth dark purplish shadowy substance, slightly resembling a humanoid with a tornado-like lower body in a midnight environment. the lower body has a diffuse form made of shadow
         - a detailed realistic digital art of an dynamic elemtal being entirly made of shadow, slightly resembling a humanoid with a tornado-like lower body in a fitting environment. the lower body has a diffuse form made of shadow
         - a detailed realistic digital art of an dynamic spirit elemental face, the face is entirly made of smooth dark purplish shadowy substance, floating 2m above the ground in a twilight cave with tail of misty diffuse smooth dark purplish shadowy substance
+        - a cube surrounded by eerie wafting hanging blackish veils grant shadow magic in a catacombe
     Steam: 
         - a detailed realistic digital art of an dynamic elemental being entirely made of misty steam, slightly resembling a humanoid with a tornado-like lower body on a misty shore. the lower body has a diffuse shape made of misty steam
         - a detailed realistic digital art of a tiny dynamic floating 3 feet above ground misty transluscent elemental face entirly made of steam, on a shore, slightly resembling a human face with a diffuse swirling tail made of misty steam
@@ -62,3 +65,68 @@ prompts:
     water:
         - a detailed realistic digital art of an dynamic elemtal being entirly made of water, slightly resembling a humanoid with a tornado-like lower body in a fitting environment, no legs are visible
         - a detailed realistic digital art of an dynamic spirit elemental face, the face is entirly made of water, floating 2m above the sea with tail of misty diffuse water and water droplets
+        
+        
+        
+    Fire Magic:
+        - A sphere crackling with intense, ever-shifting flames, colors ranging from deep crimson to bright orange, hovering above a scorched, blackened circle on the ground. Sparks fly off in mesmerizing patterns, casting flickering shadows all around.
+        - A cube crackling with intense, ever-shifting flames, colors ranging from deep crimson to bright orange, hovering above a scorched, blackened circle on the ground. Sparks fly off in mesmerizing patterns, casting flickering shadows all around.
+
+    Water Magic: A gently undulating, crystal-clear water orb, reflecting the surrounding light like a prism. It floats serenely, surrounded by a thin mist, and small droplets occasionally break free, floating away like tiny, sparkling gems.
+
+    Air Magic:
+        - A swirling vortex of wind, visible by the way it bends and distorts the air around it. Leaves and small debris are caught in its gentle embrace, dancing around an invisible core that seems to pulse with a life of its own.
+        - a cube surrounded by a swirling vortex of wind, visible by the way it bends and distorts the air around it. Leaves and small debris are caught in its gentle embrace, dancing around an invisible core that seems to pulse with a life of its own.
+
+    Earth Magic:
+        - A rugged, floating boulder, covered in patches of moss and small plants, emanating a deep, resonant hum. The stone's surface occasionally shifts, as if breathing, with veins of glowing minerals tracing patterns like ancient runes.
+        - A rugged, floating boulder cube, covered in patches of moss and small plants, emanating a deep, resonant hum. The stone's surface occasionally shifts, as if breathing, with veins of glowing minerals tracing patterns like ancient runes.
+
+
+    Lightning Magic:
+        - Jagged streaks of electric blue and white energy crackling intensely around a pulsating core. The air around it sizzles and pops with static, causing hairs to stand on end and the ground beneath to faintly glow.
+        - Jagged streaks of electric blue and white energy crackling intensely around a pulsating cube. The air around it sizzles and pops with static, causing hairs to stand on end and the ground beneath to faintly glow. set on a basalt plain
+
+    Shadow Magic:
+        - A dark, smoky wisp, shifting and flowing like liquid night. It absorbs light in its vicinity, creating a sense of depth and mystery, and occasionally, faint whispers seem to emanate from within its depths.
+        - A dark, smoky wispy cube, shifting and flowing like liquid night. It absorbs light in its vicinity, creating a sense of depth and mystery, and occasionally, faint whispers seem to emanate from within its depths.
+
+    Psychic Magic: A translucent, shimmering brain-like structure, surrounded by floating, softly glowing orbs that pulse in rhythm. Waves of color ebb and flow across its surface, representing the unseen currents of thought and emotion.
+
+    Time Magic:
+        - A series of interlocking, golden gears and hourglasses, suspended in space. They move in complex, precise patterns, with a faint ticking sound that seems out of sync with the actual passage of time, warping the perception of moments around it.
+        - A cube surrounded by a series of interlocking, golden gears and hourglasses, suspended in space. They move in complex, precise patterns, with a faint ticking sound that seems out of sync with the actual passage of time, warping the perception of moments around it. set on a chess board
+        - A cube surrounded by a series of interlocking, golden gears and sands of time and a fade silhoutte of an hourglass, suspended in space. They move in complex, precise patterns, with a faint ticking sound that seems out of sync with the actual passage of time, warping the perception of moments around it. set on a chess board
+
+    Space Magic:
+        - An ever-shifting portal, its edges a blur of stars and cosmic colors. Looking into it is like gazing into a deep, endless galaxy, with distant nebulas and star systems slowly swirling, creating a sense of infinite depth and possibility.
+        - An ever-shifting cube, its edges a blur of stars and cosmic colors. the air around it is like gazing into a deep, endless galaxy, with distant nebulas and star systems slowly swirling, creating a sense of infinite depth and possibility. set on a platform in space
+    
+    Fire Magic: 
+        - A blazing sphere encased in ever-shifting flames, glowing intensely with a spectrum of oranges, reds, and yellows, casting a warm, flickering light in a cavern adorned with ancient, rune-inscribed stones.
+
+    Ice Magic: 
+        - A crystalline cube suspended in mid-air, exuding a bone-chilling cold, its surface reflecting a frosty blue light. Icicles form spontaneously around it, in a room sparkling with frozen sculptures.
+        - A delicate, crystalline snowflake, large and beautifully symmetrical, hovering in the air. Its surface sparkles brilliantly, refracting light into countless rainbows, and a chill emanates from it, frosting nearby surfaces.
+        - A crystalline cube suspended in mid-air, exuding a bone-chilling cold, its surface reflecting a frosty blue light. A chill emanates from it, frosting nearby surfaces. Set in a glacial cave.
+
+    Wind Magic:
+        - An ethereal, swirling vortex of translucent air currents, twisting gracefully around an invisible axis. Leaves and petals caught within its dance, creating a mesmerizing, ever-changing pattern in a sky-high tower.
+        - a cube surrounded by an ethereal, swirling vortex of translucent air currents, twisting gracefully around an invisible axis. Leaves and petals caught within its dance, creating a mesmerizing, ever-changing pattern in a sky-high tower. set on a windy plain
+
+    Toxic Magic: 
+        - A swirling, noxious cloud of deep purples and sickly greens, exuding a haze that seems to corrupt the air around it. Bubbles of dangerous-looking liquids form and burst within it, and the occasional sharp, acrid scent hints at its lethal nature.
+        - a cube surrounded by A swirling, noxious cloud of deep purples and sickly greens, exuding a haze that seems to corrupt the air around it. Bubbles of dangerous-looking liquids form and burst within it, and the occasional sharp, acrid scent hints at its lethal nature. set on a toxic shore
+    Poison Magic: 
+        - A dripping, viscous substance that shifts between shades of green and black. It clings and oozes along surfaces, leaving a trail of decay in its wake. Small, sinister vapors rise from it, twisting into ghostly shapes before dissipating.
+        - a cube surrounded by A dripping, viscous substance that shifts between shades of green and black. It clings and oozes along surfaces, leaving a trail of decay in its wake. Small, sinister vapors rise from it, twisting into ghostly shapes before dissipating. set on a waste dump
+        
+    Death Magic:
+        - A spectral, skeletal hand wreathed in a cold, ethereal light. Shadows cling to it like tattered robes, and a sense of finality emanates from it, chilling the air. Ghostly whispers accompany its movements, speaking of endings and the void.
+        - A spectral, skeletal cube wreathed in a cold, ethereal light. Shadows cling to it like tattered robes, and a sense of finality emanates from it, chilling the air. Ghostly whispers accompany its movements, speaking of endings and the void. set in catacombs
+
+    Dark Magic: An amorphous shadow, deeper and darker than the night, absorbing light and hope. Red eyes seem to flicker within, like coals in a dying fire. It moves with a sinister grace, leaving a feeling of unease and dread in its path.
+
+    Dragon Magic: A magnificent, fiery aura in the shape of a dragon, its scales shimmering with ancient runes. It radiates heat and power, and its roar is a symphony of elemental fury, echoing with the wisdom and might of these legendary creatures.
+
+    Steel Magic: A gleaming, metallic construct, shifting between forms of swords, shields, and intricate armor. It reflects light with a steely glint, resonating with a sound like distant anvils. The air around it vibrates with the strength and resilience of forged metal.
