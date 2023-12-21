@@ -61,7 +61,7 @@ Bo:
                 modern:
                     - >-
                       female __person/magical/female__
-                      { wearing __clothings/regular/female-attire__
+                      { wearing __Bo/clothings/regular/female-attire__
                       __words/magical/verbs__ __magical/magic__| __bo/chars/char-magical/profession-magic__ },
                       __person/magical/poses__, __lighting/magical__
                 scenery:
@@ -144,7 +144,7 @@ Bo:
                 boconstructions:
                     - __bo/chars/char-regular/male/modern__, __bo/constructions/random-regular__
                 modern:
-                    - male __person/regular/male__ wearing __clothings/regular/male-attire__,
+                    - male __person/regular/male__ wearing __Bo/clothings/regular/male-attire__,
                       __person/regular/poses__
             random:
                 - >-
@@ -226,9 +226,9 @@ Bo:
                   {0.2::__clothings/scifi/unisex/facewear__ |}|
                   {0.1::__clothings/scifi/unisex/neckwear__ |}}
         random-attire-female:
-            - __clothings/*/female-attire__
+            - __Bo/clothings/*/female-attire__
         random-attire-male:
-            - __clothings/*/male-attire__
+            - __Bo/clothings/*/male-attire__
         random-combination:
             - __bo/clothings/random-upperbody__, __bo/clothings/random-lowerbody__
         random-dress-properties:
@@ -306,7 +306,7 @@ Bo:
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/female/lower-body__|__clothings/nsfw/female/underwear-lower__},
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
-                  {__clothings/nsfw/female/upper-body__|__clothings/nsfw/female/underwear-upper__},
+                  {__clothings/nsfw/female/upper-body__|__Bo/clothings/nsfw/female/underwear-upper__},
                   {0.8::__clothings/regular/female/footwear__,|} {0.5::__clothings/regular/female/headwear__,|}
                   __bo/clothings/random-accesoires/regular__
             male-attire:
@@ -1193,6 +1193,12 @@ atmosphere:
         - void
         - water
         - wind
+        - orc
+        - troll
+        - leaf
+        - tree
+        - siren
+
 
     elemental:
         - abyssal
@@ -1388,6 +1394,26 @@ atmosphere:
         - ember
         - arson
         - flare
+    foggy:
+        - brumous
+        - cloudy
+        - dim
+        - foggy
+        - gaseous
+        - hazy
+        - indistinct
+        - miasmic
+        - misty
+        - murky
+        - nebulous
+        - obscure
+        - overcast
+        - shadowy
+        - smoky
+        - steamy
+        - turbid
+        - unclear
+        - vaporous
     forest:
         - wooded
         - lush greenery
@@ -4945,7 +4971,7 @@ characters:
                   transparent opalescent iridescent wings,
                   pointed ears, colorful ethereal clothing,
                   nature inspired attire, made of petals and leaves,
-                  __clothings/magical/unisex/accessories__, {playful|mischievous}
+                  __Bo/clothings/magical/unisex/accessories__, {playful|mischievous}
                 - >-
                   enchanting ethereal creature, beauty, nature, protectors creatures, sacred
                   places, 1 to 2 feet tall, delicate wings, delicate wings, flit through the air, fantasy
