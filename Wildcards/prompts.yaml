@@ -154,6 +154,8 @@ prompts:
     Blood Magic:
         - Crimson streams that flow and twine in the air, moving with an eerie life of their own. They give off a metallic scent and seem to pulse with every heartbeat, creating an intimate yet unsettling spectacle.
         - a cube surrounded Crimson sticky liquid veils that flow that glide in the air, moving with an eerie life of their own. They give off a metallic scent and seem to pulse with every heartbeat, creating an intimate yet unsettling spectacle. set in a gothic throne room
+        - a cube surrounded Crimson sticky liquid and hazy miasmic veils which hang in the air, moving with an eerie life of their own. They give off a metallic scent and seem to pulse with every heartbeat, creating an intimate yet unsettling spectacle. set in a gothic hall 
+        - This magic is visceral and potent, manifesting as a deep, crimson aura that flows and pulses with each heartbeat. It has a liquid, almost hypnotic quality, moving like blood flowing through veins. The air around it becomes heavy with a metallic scent, and the magic itself seems to throb with a life force, an intimate connection to the essence of living beings.
     Crystal Magic:
         - Sparkling, multi-faceted crystals that float and rotate gently in the air. They catch light and break it into rainbows, and a soft, tinkling sound like chimes accompanies their movement, emanating an aura of mystic energy.
         - a cube surrounded Sparkling, multi-faceted crystals that float and rotate gently in the air. They catch light and break it into rainbows, and a soft, tinkling sound like chimes accompanies their movement, emanating an aura of mystic energy. set in a cave
@@ -180,4 +182,18 @@ prompts:
 
     Elven Magic:
         - This magic has an ethereal quality, manifesting in shimmering, silvery light that weaves intricate patterns in the air. It carries the elegance and ancient wisdom of the elven race, often taking forms that resemble delicate filigree or flowing script in an ancient tongue. Accompanied by a faint, harmonious melody, akin to a distant chorus of ethereal voices, it seems to resonate with the natural world, blending the mystical with the beauty of the wild.
+
+    Troll Magic:
+        - A gritty, earthy form of magic, visible as a murky, greenish aura. It exudes a rugged, wild energy, with occasional sparks of brown and gray that resemble stone and bark. This magic feels ancient and primal, with a tangible sense of endurance and resilience. It might be accompanied by the deep, guttural sounds of the earth, reminiscent of rocks grinding and roots burrowing.
+
+    Water Magic:
+        - This magic is characterized by its fluidity and grace. It appears as a flowing, shimmering cascade of blue and aquamarine light, constantly changing and moving like a stream. Droplets seem to glisten and dance within this magical flow, reflecting light as if sunbeams are playing on a river's surface. The sound accompanying it is that of a gentle, babbling brook, soothing and constant.
+
+    Siren Magic:
+        - Ethereal and enchanting, siren magic manifests as a misty, sea-foam green aura, intertwined with flashes of iridescent blue that resemble the depths of the ocean. It seems to undulate and flow like waves, and within it, one can almost see the shapes of mythical sea creatures. The most captivating aspect is its melody, a hauntingly beautiful song that seems to echo from the depths of ancient seas.
+
+    Orc Magic:
+        - Orc magic has a raw, unbridled energy. It appears as a fierce, pulsating red and orange glow, crackling with power. This magic feels as untamed as the orcs themselves, brimming with aggression and strength. The visual effect is reminiscent of a forge or a raging bonfire, and the sound is like the clash of iron on iron, echoing the orcs' prowess in battle.
+
+
         
