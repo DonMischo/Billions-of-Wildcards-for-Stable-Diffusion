@@ -306,7 +306,7 @@ Bo:
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/female/lower-body__|__clothings/nsfw/female/underwear-lower__},
                   {0.8::__bo/clothings/random-dress-properties/nsfw__|}
-                  {__clothings/nsfw/female/upper-body__|__Bo/clothings/nsfw/female/underwear-upper__},
+                  {__clothings/nsfw/female/upper-body__|__clothings/nsfw/female/underwear-upper__},
                   {0.8::__clothings/regular/female/footwear__,|} {0.5::__clothings/regular/female/headwear__,|}
                   __bo/clothings/random-accesoires/regular__
             male-attire:
@@ -1173,44 +1173,46 @@ atmosphere:
         - ice
         - illusion
         - kinetic
+        - leaf
         - light
         - lightning
         - magma
         - metal
         - nature
         - necrotic
+        - orc
         - order
         - plant
         - poison
         - psionic
         - radiation
         - radiant
+        - rune
         - shadow
+        - siren
         - sound
         - spirit
         - steam
         - time
+        - tree
+        - troll
         - void
         - water
         - wind
-        - orc
-        - troll
-        - leaf
-        - tree
-        - siren
-
 
     elemental:
         - abyssal
         - airy
         - aqueous
         - aquatic
+        - bloody
         - breezy
         - cryptic
         - cyclonic
         - deluge
         - earthen
         - eclipse
+        - elven
         - enigmatic
         - ethereal
         - fertile
@@ -1228,6 +1230,7 @@ atmosphere:
         - lava
         - lithic
         - liquid
+        - magical circle
         - maritime
         - molten
         - nocturnal
@@ -1240,6 +1243,7 @@ atmosphere:
         - pyroclasmic
         - radiant
         - rocky
+        - runic
         - shadowy
         - solid
         - stony
