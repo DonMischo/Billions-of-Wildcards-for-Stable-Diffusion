@@ -1,4 +1,64 @@
 Bo:
+    random:
+        anything:
+            - >-
+              {
+              __Bo/audio/random__|
+              __Bo/books/random__|
+              __Bo/chars/random__|
+              __Bo/christmas/random__|
+              __Bo/clothings/random-*body__|
+              __Bo/constructions/random-*__|
+              __Bo/cosmic/random__|
+              __Bo/creative/random*__|
+              __Bo/creatures/*__|
+              __Bo/habitats/random__|
+              __Bo/halloween/random*__|
+              __Bo/jewelry/random__|
+              __Bo/machines/random__|
+              __Bo/plants/random*__|
+              __Bo/psycho/random__|
+              __Bo/scenes/random*__|
+              __Bo/school/random*__|
+              __Bo/scifi/random__|
+              __Bo/styles/random-anything__|
+              __Bo/vehicles/random*__
+              }
+        beings:
+            - >-
+              {
+              __Bo/chars/random__|
+              __Bo/creatures/*__
+              }
+        scenes:
+            - >-
+              {
+              __Bo/cosmic/random__|
+              __Bo/creative/random*__|
+              __Bo/habitats/random__|
+              __Bo/psycho/random__|
+              __Bo/scenes/random*__|
+              __Bo/school/random*__|
+              __Bo/scifi/random__
+              }
+        things:
+            - >-
+              {
+              __Bo/audio/random__|
+              __Bo/books/random__|
+              __Bo/clothings/random-*body__|
+              __Bo/constructions/random-*__|
+              __Bo/habitats/random__|
+              __Bo/jewelry/random__|
+              __Bo/machines/random__|
+              __Bo/vehicles/random*__
+              }
+        events:
+            - >-
+              {
+              __Bo/christmas/random__|
+              __Bo/halloween/random*__
+              }
     audio:
         # __bo/audio/*__
         album-cover:
@@ -101,6 +161,9 @@ Bo:
                 - >-
                   {0-5$${-2$$__words/magical/adjectives__}| {-2$$__words/magical/substantives__}|
                   {-2$$__words/magical/verbs__}| {-2$$__properties/materials-magic/*__}| __lighting/magical__}
+            random-caster-magic:
+                - >-
+                  {male|female} {__Bo/chars/char-magical/profession-magic__|__characters/classes/caster__|__characters/classes/*__} {__magical/magic-14411__|__magical/magic*__}
             random:
                 - >-
                   {__bo/chars/char-magical/*male/*__|0.1::__bo/chars/char-magical/div__}
@@ -459,9 +522,12 @@ Bo:
         random-atmosphere:
             - >-
               {1-10$$__atmosphere/*__}
-        random-elements:
+        random-elements-gems:
             - >-
               __properties/colors/*__ __atmosphere/elemental__ __atmosphere/elements__ {__chemistry/gems__|__chemistry/minerals__}
+        random-elements:
+            - >-
+              __properties/colors/*__ __atmosphere/elemental__ __atmosphere/elements__
         random-scapes:
             - >-
               {0.7::__atmosphere/*__|0.3::{__bo/creative/random-elements__|__magical/types/*__|__lighting/*__|
@@ -17197,6 +17263,24 @@ machines:
         - contrivance
         - rube goldberg device
 magical:
+    actions:
+        - Brewing potions
+        - Casting spells
+        - Channeling
+        - Charming
+        - Conjuring
+        - Crafting spells of
+        - Enchanting with
+        - Evoking
+        - Exercising
+        - Hexing
+        - Mastering
+        - Mesmerizing with
+        - Performing
+        - Practicing
+        - Summoning
+        - Weaving
+        - Wielding
     elemental:
         - '{fire|water|air|earth|elemental}'
     magic:
@@ -17212,6 +17296,9 @@ magical:
           {-2$$__properties/materials*/*__}| 0.34::{-1$$__phenomena/*/natural__}| {-2$$__phenomena/*/abstract__}|
           {-2$$__properties/patterns/*__}| {-2$$__properties/textures/*__}| {-2$$__astronomy/*__}| {-2$$__chemistry/*__}|
           {-1$$__matter/state__}} magic:1.0)
+    magic-14411:
+        - >-
+          __magical/actions__ __magical/spell-types__ shaped like __properties/shape/magical__ of __bo/creative/random-elements__ and __magical/types/*__
     profession-magic-use:
         caster:
             - __magical/types/air__
@@ -17255,6 +17342,29 @@ magical:
             - __magical/types/elemental__
         technomancy:
             - __magical/types/tech__, __styles/punk-styles__
+    spell-types:
+        - abracadabra
+        - bewitch
+        - bewitchery
+        - bewitchment
+        - cantrip
+        - charm
+        - conjuration
+        - conjuring
+        - curse
+        - enchant
+        - enchantment
+        - ensorcell
+        - glamour
+        - hex
+        - incantation
+        - invocation
+        - jinx
+        - ritual
+        - sorcery
+        - spell
+        - voodoo
+
     types:
         air:
             - air magic
@@ -20482,40 +20592,40 @@ properties:
             - turquoise
             - vermilion
         spore-print:
-            - white spore print
-            - cream spore print
-            - pale spore print
-            - light spore print
-            - yellow spore print
-            - golden spore print
-            - orange spore print
-            - rust spore print
-            - red spore print
-            - pink spore print
-            - salmon spore print
-            - brown spore print
-            - chocolate spore print
-            - dark spore print
-            - black spore print
-            - gray spore print
-            - purple spore print
-            - lilac spore print
-            - blue spore print
-            - green spore print
-            - olive spore print
-            - blue-green spore print
-            - bluish-black spore print
-            - bluish-green spore print
-            - bluish-gray spore print
-            - bluish-white spore print
-            - bluish-yellow spore print
-            - bluish-violet spore print
-            - bluish-red spore print
-            - bluish-brown spore print
-            - bluish-purple spore print
-            - bluish-pink spore print
-            - bluish-orange spore print
-            - bluish-golden spore print
+            - white
+            - cream
+            - pale
+            - light
+            - yellow
+            - golden
+            - orange
+            - rust
+            - red
+            - pink
+            - salmon
+            - brown
+            - chocolate
+            - dark
+            - black
+            - gray
+            - purple
+            - lilac
+            - blue
+            - green
+            - olive
+            - blue-green
+            - bluish-black
+            - bluish-green
+            - bluish-gray
+            - bluish-white
+            - bluish-yellow
+            - bluish-violet
+            - bluish-red
+            - bluish-brown
+            - bluish-purple
+            - bluish-pink
+            - bluish-orange
+            - bluish-golden
         stipe:
             - white
             - cream
@@ -22204,6 +22314,50 @@ properties:
             - bipinnately-compound
             - trifoliate
             - undivided
+        magical:
+            - Amorphous
+            - Aura
+            - Beam
+            - Cantrip
+            - Cascade
+            - Curse
+            - Dimension
+            - Enchantment
+            - Ensorcell
+            - Evocation
+            - Glyph
+            - Halo
+            - Hex
+            - Incantation
+            - Invocation
+            - Jinx
+            - Lattice
+            - Maelstrom
+            - Mirage
+            - Mist
+            - Nebula
+            - Nexus
+            - Orb
+            - Phantasm
+            - Portal
+            - Prism
+            - Radiance
+            - Rune
+            - Shimmer
+            - Shroud
+            - Spiral
+            - Stream
+            - Swirl
+            - Tendrils
+            - Tentacles
+            - Transfiguration
+            - Twinkle
+            - Veil
+            - Vortex
+            - Web
+            - Whirlpool
+            - Wisp
+
         mushrooms:
             - bell
             - umbrella
