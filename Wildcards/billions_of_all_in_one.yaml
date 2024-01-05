@@ -163,10 +163,11 @@ Bo:
                   {-2$$__words/magical/verbs__}| {-2$$__properties/materials-magic/*__}| __lighting/magical__}
             random-caster-magic:
                 - >-
-                  {male|female} {__Bo/chars/char-magical/profession-magic__|__characters/classes/caster__|__characters/classes/*__} {__magical/magic-14411__|__magical/magic*__}
+                  {male|female} {__Bo/chars/char-magical/profession-magic__|__characters/classes/caster__|__characters/classes/*__} 
+                  {__magical/magic-14411__|__magical/prompts/*-magic/prompt__|__magical/magic*__}
             random:
                 - >-
-                  {__bo/chars/char-magical/*male/*__|0.1::__bo/chars/char-magical/div__}
+                  {__bo/chars/char-magical/*male/*__|0.1::__bo/chars/char-magical/div__|__bo/chars/char-magical/random-caster-magic__}
         char-nsfw:
             div:
                 - female __bo/chars/char-nsfw/male/*__
@@ -17342,6 +17343,379 @@ magical:
             - __magical/types/elemental__
         technomancy:
             - __magical/types/tech__, __styles/punk-styles__
+    prompts:
+        air-magic:
+            description:
+                - >-
+                  swirling vortex of wind, bends and distorts the ai, gentle embrace, 
+                  dancing around an invisible core, pulse
+            name:
+                - air magic
+            prompt:
+                - >-
+                  {__magical/prompts/air-magic/name__|} __magical/prompts/air-magic/description__
+        alchemy:
+            description:
+                - >-
+                  manifests as a golden luminous mist, intermingled with flashes of other metallic hues, copper, silver, iridescent blue,
+                  mist occasionally coalesces into ancient alchemical symbols and intricate geometric patterns, 
+                  symbolizing the transformation and creation processes at the heart of alchemy,
+                  gentle clinking, like glass against metal, evoking the essence of an alchemist's laboratory
+            name:
+                - alchemy
+            prompt:
+                - >-
+                  {__magical/prompts/alchemy-magic/name__|} __magical/prompts/alchemy-magic/description__
+        arcane-magic:
+            description:
+                - >-
+                  swirling vortex of shimmering translucent energy, ethereal shades of violet and indigo,
+                  pulses with ancient runes, arcane symbols that appear and disappear, aura of mystery and deep, hidden knowledge,
+                  emits a faint otherworldly hum, whispering the secrets of the universe
+            name:
+                - arcane magic
+            prompt:
+                - >-
+                  {__magical/prompts/arcane-magic/name__|} __magical/prompts/arcane-magic/description__
+        blood-magic:
+            description:
+                - >-
+                  crimson streams and veils that flow and twine in the air, moving with an eerie life of their own,
+                  pulse with every heartbeat, creating an intimate yet unsettling spectacle, miasmic mist
+            name:
+                - blood magic
+            prompt:
+                - >-
+                  {__magical/prompts/blood-magic/name__|} __magical/prompts/blood-magic/description__
+        crystal-magic:
+            description:
+                - >-
+                  sparkling, multi-faceted crystals that float and rotate gently in the air,
+                  catch light and break it into rainbows,soft tinkling sound like chimes, emanating an aura of mystic energy
+            name:
+                - crystal magic
+            prompt:
+                - >-
+                  {__magical/prompts/crystal-magic/name__|} __magical/prompts/crystal-magic/description__
+        dark-magic:
+            description:
+                - >-
+                  amorphous shadow, deeper and darker than night, absorbing light and hope,
+                  red eyes flicker within, sinister grace, leaving a feeling of unease and dread
+            name:
+                - dark magic
+            prompt:
+                - >-
+                  {__magical/prompts/dark-magic/name__|} __magical/prompts/dark-magic/description__
+        darkness-magic:
+            description:
+                - >-
+                  enveloping, inky blacknessabsorb all light and sound, moves like a living thing, tendrils of darkness reaching out,
+                  light dims and the air grows cold
+            name:
+                - darkness magic
+            prompt:
+                - >-
+                  {__magical/prompts/darkness-magic/name__|} __magical/prompts/darkness-magic/description__
+        death-magic:
+            description:
+                - >-
+                  spectral, skeletal, wreathed in a cold ethereal light,
+                  shadows cling to it, tattered, sense of finality emanates,
+                  chilling the air, ghostly whisper, endings and void
+            name:
+                - death magic
+            prompt:
+                - >-
+                  {__magical/prompts/death-magic/name__|} __magical/prompts/death-magic/description__
+        dragon-magic:
+            description:
+                - >-
+                  magnificent, fiery aura, shaped like a transluscent dragon head, shimmering, ancient runes,
+                  radiates heat and power, symphony of elemental fury, echoing wisdom and might, legendary
+            name:
+                - dragon magic
+            prompt:
+                - >-
+                  {__magical/prompts/dragon-magic/name__|} __magical/prompts/dragon-magic/description__
+        earth-magic:
+            description:
+                - >-
+                  rugged, floating boulder, covered in patches of moss and small plants,
+                  emanating deep resonant hum, breathing, with veins of glowing minerals tracing patterns like ancient runes
+            name:
+                - earth magic
+            prompt:
+                - >-
+                  {__magical/prompts/earth-magic/name__|} __magical/prompts/earth-magic/description__
+        elven-magic:
+            description:
+                - >-
+                  ethereal quality, manifesting in shimmering silvery light, weaves intricate patterns in the air,
+                  carries the elegance and ancient wisdom, resemble delicate filigree, flowing script in an ancient tongue,
+                  faint harmonious melody, distant chorus of ethereal voices, resonate with the natural world,
+                  blending the mystical with the beauty of the wild
+            name:
+                - elven magic
+            prompt:
+                - >-
+                  {__magical/prompts/elven-magic/name__|} __magical/prompts/elven-magic/description__
+        fire-magic:
+            description:
+                - >-
+                  crackling, intense, ever-shifting flames, 
+                  deep crimson to bright orange, scorched,
+                  sparks fly, mesmerizing patterns, 
+                  casting flickering shadows
+                - >-
+                  blazing, encased in ever-shifting flames, glowing intensely with a spectrum of orange, red, yellow,
+                  casting a warm, flickering light, ancient runes
+            name:
+                - fire magic
+            prompt:
+                - >-
+                  {__magical/prompts/fire-magic/name__|} __magical/prompts/fire-magic/description__
+        force-magic:
+            description:
+                - >-
+                  visible shimmering field of energy, transparent vibrating shield, distorts the air around it,
+                  capable of repelling or attracting with significant power, often accompanied by a low resonant hum
+            name:
+                - force magic
+            prompt:
+                - >-
+                  {__magical/prompts/force-magic/name__|} __magical/prompts/force-magic/description__
+        holy-magic:
+            description:
+                - >-
+                  radiant, soft golden light, emanates warmth, sense of peace, gently floating ethereal figures and symbols, 
+                  presence brings a sense of hope and sanctity
+            name:
+                - holy magic
+            prompt:
+                - >-
+                  {__magical/prompts/holy-magic/name__|} __magical/prompts/holy-magic/description__
+        ice-magic:
+            description:
+                - >-
+                  crystalline ice suspended in mid-air, exuding a bone-chilling cold, 
+                  surface reflective, frosty blue light, icicles floating around
+                - >-
+                  delicate, crystalline snowflakes, beautifully symmetrical, hovering in the air,
+                  sparkling, brilliantly, refracting light, chills emanating, frosting surfaces
+            name:
+                - ice magic
+            prompt:
+                - >-
+                  {__magical/prompts/ice-magic/name__|} __magical/prompts/ice-magic/description__
+        kinetic-magic:
+            description:
+                - >-
+                  invisible to the eye, presence is only felt as a sudden movement of air,
+                  a force that can be directed to push or pull or manipulate objects,
+                  occasionally manifests as a faint shimmer, like heat rising from hot pavement
+            name:
+                - kinetic magic
+            prompt:
+                - >-
+                  {__magical/prompts/kinetic-magic/name__|} __magical/prompts/kinetic-magic/description__
+        leaf-magic:
+            description:
+                - >-
+                  delicate, fluttering leaves, dance in the air around the caster, spring greens, rich hues of autumn, 
+                  moves graceful, soothing rhythm, gently falling, spinning, light breeze, 
+                  fresh and invigorating, filled with the essence of the forest
+            name:
+                - leaf magic
+            prompt:
+                - >-
+                  {__magical/prompts/leaf-magic/name__|} __magical/prompts/leaf-magic/description__
+        light magic:
+            description:
+                - >-
+                  radiant dazzling glow, emanates soft pure white light, interspersed with gentle gold and pale yellow hues,
+                  shimmers like sunlight filtering through a morning mist, casting a warm, comforting presence,
+                  gracefully, beams of light bend and spread, creating a sense of serenity and hope
+            name:
+                - light magic
+            prompt:
+                - >-
+                  {__magical/prompts/light-magic/name__|} __magical/prompts/light-magic/description__
+        lightning-magic:
+            description:
+                - >-
+                  jagged streaks of electric blue white energy,
+                  crackling intensely around a pulsating core,
+                  sizzles and pops with static, ground is faintly glowing
+            name:
+                - lightning magic
+            prompt:
+                - >-
+                  {__magical/prompts/lightning-magic/name__|} __magical/prompts/lightning-magic/description__
+        magma-magic:
+            description:
+                - >-
+                  globs of molten rock, bubble and churn, intense heat, fiery orange and red glowing, casting a hellish light,
+                  crackling sound, earth's furious heart brought to the surface
+            name:
+                - magma magic
+            prompt:
+                - >-
+                  {__magical/prompts/magma-magic/name__|} __magical/prompts/magma-magic/description__
+        nature-magic:
+            description:
+                - >-
+                  vibrant swirling aura, deep greens and browns, occasional flash of floral colors, rich earthy scent,
+                  soft rustling of leaves, gentle murmur of a distant stream, magic feels alive, tendril of energy are tiny roots and vines, 
+                  reaching out to connect and nurture life around it
+            name:
+                - nature magic
+            prompt:
+                - >-
+                  {__magical/prompts/nature-magic/name__|} __magical/prompts/nature-magic/description__
+        necrotic-magic:
+            description:
+                - >-
+                  creeping miasmic fog that clings to the ground, sickly green-purplish color,
+                  a feeling of decay and corruption, withering plants and rusting metal, whisper of mortality
+            name:
+                - necrotic magic
+            prompt:
+                - >-
+                  {__magical/prompts/necrotic-magic/name__|} __magical/prompts/necrotic-magic/description__
+        poison-magic:
+            description:
+                - >-
+                  dripping, viscous substance, shifting between shades of green and black,
+                  clings and oozes surfaces, leaving a trail of decay, sinister vapors rise from it,
+                  twisting into ghostly shapes before dissipating
+            name:
+                - poison magic
+            prompt:
+                - >-
+                  {__magical/prompts/poison-magic/name__|} __magical/prompts/air-magic/description__
+        potion-magic:
+            description:
+                - >-
+                  myriad of tiny swirling vials filled with liquids of every imaginable color, glowing softly,
+                  each vial emits a unique pattern of sparkles or smoke, representing the intricate and varied effects of potion magic,
+                  air is filled with a symphony of subtle, enchanting scents, hinting at the powerful transformations contained within each concoction
+                - >-
+                  single, glowing vial containing a swirling, iridescent liquid that shifts colors like an opal under sunlight,
+                  tiny bubbles of light rise to the surface and pop, releasing faint, ephemeral whispers of magical energy,
+                  potion exudes a captivating aura, hinting at the potent and mysterious power contained within its delicate glass confines
+            name:
+                - potion magic
+            prompt:
+                - >-
+                  {__magical/prompts/potion-magic/name__|} __magical/prompts/potion-magic/description__
+        psionic-magic:
+            description:
+                - >-
+                  manifests ethereal, neuro-like aura, with tendrils of light that reach out, pulsating in rhythm with thought and intention,
+                  accompanied by faint echoing whisper, visual dance of mind's power
+            name:
+                - psionic magic
+            prompt:
+                - >-
+                  {__magical/prompts/psionic-magic/name__|} __magical/prompts/psionic-magic/description__
+        psychic-magic:
+            description:
+                - >-
+                  translucent, shimmering neuron-like, surrounded by floating softly glowing orbs that pulse in rhythm,
+                  waves of color ebb and flow across its surface, representing the unseen currents of thought and emotion
+            name:
+                - psychic magic
+            prompt:
+                - >-
+                  {__magical/prompts/psychic-magic/name__|} __magical/prompts/psychic-magic/description__
+        shadow-magic:
+            description:
+                - >-
+                  dark, smoky wisp, shifting, flowing, like veils of liquid night,
+                  absorbs light in its vicinity, sense of depth and mystery,
+                  faint whispers from within its depths
+            name:
+                - shadow magic
+            prompt:
+                - >-
+                  {__magical/prompts/shadow-magic/name__|} __magical/prompts/air-magic/description__
+        space-magic:
+            description:
+                - >-
+                  ever-shifting portal, edges a blur of stars and cosmic colors, like gazing into a deep endless galaxy,
+                  distant nebulas and star systems, slowly swirling, infinite depth and possibility
+            name:
+                - space magic
+            prompt:
+                - >-
+                  {__magical/prompts/space-magic/name__|} __magical/prompts/space-magic/description__
+        steel-magic:
+            description:
+                - >-
+                  gleaming, metallic construct, shifting forms, intricate, reflects light, steely glint, 
+                  resonating, air around it vibrates with the strength and resilience of forged metal
+            name:
+                - steel magic
+            prompt:
+                - >-
+                  {__magical/prompts/steel-magic/name__|} __magical/prompts/steel-magic/description__
+        time-magic:
+            description:
+                - >-
+                  series of interlocking golden gears and hourglasses suspended in space,
+                  complex, precise patterns, passage of time, warping perception of moments
+                - >-
+                  series of interlocking golden gears, sands of time, fade silhoutte of an hourglass,
+                  suspended in space, complex precise patterns, ticking sound, passage of time, warping perception of moments
+            name:
+                - time magic
+            prompt:
+                - >-
+                  {__magical/prompts/time-magic/name__|} __magical/prompts/time-magic/description__
+        toxic-magic:
+            description:
+                - >-
+                  swirling, noxious cloud of deep purples and sickly greens, 
+                  exuding a haze, corrupt the air, bubbles of dangerous-looking liquids form and burst,
+                  acrid scent, lethal nature
+            name:
+                - toxic magic
+            prompt:
+                - >-
+                  {__magical/prompts/toxic-magic/name__|} __magical/prompts/toxic-magic/description__
+        void-magic:
+            description:
+                - >-
+                  pulsating, abyss-like orb, core a mesmerizing void, drawing in all essence,
+                  the fabric of reality appears to warp and bend, creating a sensation of looking into an endless, starless night
+            name:
+                - void magic
+            prompt:
+                - >-
+                  {__magical/prompts/void-magic/name__|} __magical/prompts/void-magic/description__
+        water-magic:
+            description:
+                - >-
+                  gently undulating, crystal-clear water, reflecting light, prismatic,
+                  serene, thin mist, small droplets, floating like tiny sparkling gems
+            name:
+                - water magic
+            prompt:
+                - >-
+                  {__magical/prompts/water-magic/name__|} __magical/prompts/air-magic/description__
+        wind-magic:
+            description:
+                - >-
+                  ethereal, swirling vortex of translucent air currents, 
+                  twisting gracefully around an invisible axis, air dances, 
+                  creating a mesmerizing, ever-changing pattern
+            name:
+                - wind magic
+            prompt:
+                - >-
+                  {__magical/prompts/wind-magic/name__|} __magical/prompts/air-magic/description__
+
     spell-types:
         - abracadabra
         - bewitch
