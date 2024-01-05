@@ -4612,7 +4612,8 @@ characters:
             name: 
                 - Beer Spirit
             prompt:
-                - __characters/magical-beings/beer-spirit/name__, __characters/magical-beings/beer-spirit/characteristics__
+                - >-
+                  {male|female} __characters/magical-beings/beer-spirit/name__, __characters/magical-beings/beer-spirit/characteristics__
         belial:
             characteristics:
                 - >-
@@ -8291,6 +8292,499 @@ clothings:
                 - solar-powered chain
                 - sonic sound-isolating collar
                 - thermal-regulating neck wrap
+    features:
+        baroque:
+            female:
+                - elaborate and ornate designs
+                - rich and luxurious fabrics such as {silk|velvet|brocade}
+                - intricate embroidery and lace
+                - puffed and ruffled sleeves
+                - corsets and bodices for a structured silhouette
+                - high necklines with lace collars
+                - long, full skirts with trains
+                - layers of petticoats and underskirts
+                - embellished with pearls, gemstones, and precious metals
+                - exaggerated and dramatic silhouettes
+                - use of rich, deep colors like burgundy, gold, and royal blue
+                - intricate hairstyles with curls, ribbons, and feathers
+                - wide-brimmed hats with feathers and ribbons
+                - breeches and waistcoats
+                - stockings and garters
+                - buckled shoes
+                - ornate fans and hand-held mirrors
+            male:
+                - tailored suits and outfits
+                - elaborate embroidery and trim
+                - high collars with lace ruffs
+                - waistcoats (vests) with ornate designs
+                - breeches (knee-length pants)
+                - stockings and garters
+                - buckled shoes with heels
+                - cloaks and capes with brocade or velvet
+                - jabot (a decorative neckpiece)
+                - tricorn hats (three-cornered hats) with feathers and ribbons
+                - use of rich, deep colors like burgundy, gold, and royal blue
+                - ornate brooches and jewelry, including rings and watches
+                - decorative sword belts
+                - long, tied-back hairstyles with curls and ribbons
+                - lace cuffs on sleeves
+            prompt:
+                - baroque attire, {3-8$$__clothing/features/baroque/*male__}
+        edoperiod:
+            female:
+                - kimono as the primary garment
+                - obi (wide belt) to secure kimono
+                - simple, rectangular silhouette
+                - long and wide sleeves (furisode for young unmarried women)
+                - use of traditional japanese textiles like silk and cotton
+                - colorful and intricate patterns (e.g., floral, nature, and geometric designs)
+                - layered kimono for special occasions
+                - obi decorated with embroidery and brocade
+                - oshiroi (white face powder) for a pale complexion
+                - elaborate hairstyles with hairpins and accessories (e.g., kanzashi)
+                - tabi (split-toe socks) and zori or geta (footwear)
+                - use of folded fans (sensu) and handheld fans (uchiwa)
+                - kago (bamboo palanquin) for transportation on special occasions
+                - minimal use of jewelry (e.g., earrings and necklaces)
+                - period-specific styles such as early edo or late edo
+
+            male:
+                - kimono as the primary garment
+                - hakama (wide-legged trousers) worn over kimono (for formal occasions)
+                - simple, straight silhouette
+                - use of traditional japanese textiles like silk and cotton
+                - subdued and earthy colors
+                - minimal decorative patterns (mainly for undergarments)
+                - obi (wide belt) to secure kimono
+                - tabi (split-toe socks) and zori or geta (footwear)
+                - minimal use of jewelry (e.g., earrings and necklaces)
+                - hachimaki (headband) for working men
+                - use of kasa (hats) for protection from sun and rain
+                - minimal use of accessories
+                - period-specific styles such as early edo or late edo
+                - simplicity and functionality in design
+
+        edwardian:
+            female:
+                - high necklines with lace collars
+                - puffed sleeves with lace or ruffled cuffs
+                - s-curve silhouette with a defined waist
+                - elaborate and ornate embroidery
+                - use of sheer fabrics like chiffon and lace
+                - wide-brimmed hats with ribbons and flowers
+                - corsets for hourglass figure
+                - long, columnar skirts with trains
+                - layers of petticoats and bustles for volume
+                - pastel colors and floral prints
+                - empire waist dresses with sashes
+                - edwardian "gibson girl" hairstyles with piled-up hair and large hats
+                - high-buttoned boots or low-heeled shoes
+                - gloves and parasols for accessories
+                - evening gowns with embellishments and beading
+                - tailored suits with long jackets (for daywear)
+                - lingerie dresses with layers of lace
+                - elaborate jewelry, including necklaces, brooches, and lockets
+                - small handbags or purses
+                - mutton chop sleeves with fullness at the upper arms
+                
+            male:
+                - tailored suits with matching jackets and trousers
+                - high stand collars on shirts
+                - cravats or ascot ties
+                - waistcoats (vests) with ornate patterns
+                - frock coats for formal occasions
+                - bowler hats or boater hats
+                - wingtip collar shirts for formalwear
+                - pocket watches with chains
+                - straight-legged trousers
+                - ankle boots or lace-up oxfords
+                - cufflinks and tie pins
+                - trench coats for rainy weather
+                - rolled umbrellas
+                - braces (suspenders) for trousers
+                - gloves for formal events
+                - top hats for very formal occasions
+                - walking canes or walking sticks
+                - boutonnieres (flower corsages)
+                - crisp white shirts for daywear
+                - wide, luxurious overcoats for winter
+                - homburg hats for elegant attire
+
+        georgian:
+            female:
+                - empire waistline dresses
+                - high necklines with ruffled collars
+                - gigot sleeves (puffed sleeves)
+                - lightweight fabrics like muslin and silk
+                - simple and elegant designs
+                - soft, flowing skirts with minimal crinoline or hoops
+                - delicate floral prints and pastel colors
+                - bodices with fitted corsets
+                - ribbons and sashes as waist decorations
+                - elaborate hairstyles with curls and ribbons
+                - bonnets with ribbons and decorative trim
+                - gloves and handheld fans
+                - parasols for sun protection
+                - small, round-rimmed eyeglasses (lorgnettes)
+                - elaborate jewelry with pearls and gemstones
+                - lace mitts or gloves
+                - flat shoes or slippers with minimal heels
+                - embroidery and embellishments on bodices and hems
+
+            male:
+                - tailored suits with long coats
+                - waistcoats (vests) with ornate designs
+                - cravats or neckties tied in bow knots
+                - knee-length breeches (pants)
+                - stockings and garters
+                - square-toed shoes with buckles
+                - tricorn hats (three-cornered hats)
+                - jabot (a decorative neckpiece)
+                - frock coats for formal occasions
+                - waist-length jackets with flared skirts
+                - crisp white shirts with ruffled collars and cuffs
+                - long, tied-back hairstyles with wigs for formal events
+                - walking canes or walking sticks
+                - pocket watches with chains
+                - gloves for formal events
+                - cloaks and capes for outdoor wear
+                - embroidered or brocade fabrics for formalwear
+                - cravat pins or brooches
+                - monocles for reading or distinction
+
+        medieval:
+            female:
+                - floor-length gowns
+                - long, flowing sleeves
+                - fitted bodices with laces or corsets
+                - wide, v-shaped necklines
+                - rich, luxurious fabrics like velvet and silk
+                - elaborate embroidery and decorative trims
+                - use of mantles or cloaks
+                - high-waisted silhouettes
+                - girdles or belts to define waist
+                - head coverings like wimples and veils
+                - long, loose hair or covered hair
+                - tippets (short capes)
+                - circular or full skirts
+                - decorative brooches and pins
+                - leather or fabric shoes
+                - use of layers and undergarments
+                - metal and gemstone jewelry
+                - rich, earthy colors like deep reds, greens, and blues
+                - period-specific styles such as gothic or renaissance
+                
+            male:
+                - tunic or surcoat (outer garment)
+                - hose (tight-fitting leg coverings)
+                - long-sleeved shirt or undertunic
+                - cloaks or mantles for outerwear
+                - belts with pouches or accessories
+                - leather or fabric shoes or boots
+                - coif or hood (head covering)
+                - doublet (close-fitting jacket)
+                - hosen (tight leg coverings)
+                - braies (undergarments)
+                - use of cloaks or capes for added warmth
+                - wide, belted waistlines
+                - decorative buckles and fastenings
+                - simple, natural colors like brown, gray, and earth tones
+                - cloaks or mantles for outerwear
+                - period-specific styles such as gothic or renaissance
+                - use of layers and undergarments
+                - metal and leather accessories like brooches and belts
+
+        napoleonic:
+            female:
+                - empire waistline dresses
+                - high necks with ruffled collars
+                - short puffed sleeves or long sleeves
+                - simple and elegant designs
+                - sheer fabrics like muslin and silk
+                - soft, flowing skirts with minimal understructure
+                - minimal use of corsets for a natural waist
+                - delicate embroidery and decorative trims
+                - empire silhouette with gowns falling from just below the bust
+                - classical greek and roman influences
+                - small, decorative belts or sashes
+                - bonnets with ribbons and plumes
+                - gloves and handheld fans
+                - parasols for sun protection
+                - delicate and dainty accessories
+                - soft pastel colors and floral prints
+                - empire hairstyles with simple curls and ribbons
+                - flat shoes or slippers with minimal heels
+
+            male:
+                - tailored coats and waistcoats (vests)
+                - high stand collars on shirts
+                - cravats or neckties tied in bow knots
+                - breeches (knee-length pants)
+                - knee-high boots or shoes with buckles
+                - top hats or bicorne hats (two-cornered hats)
+                - frock coats for formal occasions
+                - tailcoats with tails for formalwear
+                - waistcoats with ornate patterns
+                - crisp white shirts with high collars
+                - cane or walking stick
+                - waist belts with pouches or accessories
+                - gloves for formal events
+                - pocket watches with chains
+                - minimal jewelry, such as rings and cufflinks
+                - epaulettes on military uniforms
+                - period-specific styles such as regency or early victorian
+                - use of dark and neutral colors like black, blue, and gray
+
+        qingdynasty:
+            female:
+                - qipao or cheongsam (one-piece dress) with high collar
+                - tight-fitting silhouette with slit skirt (later qing dynasty)
+                - loose, flowing sleeves (earlier qing dynasty)
+                - use of luxurious fabrics like silk and satin
+                - elaborate embroidery and intricate brocade patterns
+                - traditional chinese knot buttons (frog closures)
+                - elegant floral and nature motifs in embroidery
+                - tied waist sash for shape definition
+                - elaborate hairstyles with hairpins and accessories
+                - decorative headdresses and hair ornaments (e.g., jade hairpins)
+                - small footwear (lotus shoes) for bound feet (earlier qing dynasty)
+                - natural footwear (platform shoes) (later qing dynasty)
+                - minimal use of jewelry (e.g., earrings and bracelets)
+                - period-specific styles such as early qing or late qing
+                - traditional color symbolism (e.g., red for good luck)
+                - use of decorative fans and handheld accessories
+                - qing dynasty specific headwear (e.g., phoenix crown for brides)
+                
+            male:
+                - changshan or changpao (long robe)
+                - high collar with frog closures
+                - loose and straight silhouette
+                - use of luxurious fabrics like silk and satin
+                - embroidered patterns on collar and sleeves (for formal occasions)
+                - minimal decoration for everyday wear
+                - waist sash or belt
+                - wide, straight-legged trousers
+                - flat-soled shoes (usually cloth or leather)
+                - traditional chinese knot buttons (frog closures)
+                - simple, functional design for practicality
+                - long hairstyles, often tied in a queue (long braid) for men
+                - minimal use of jewelry (e.g., rings or bracelets)
+                - period-specific styles such as early qing or late qing
+                - traditional colors and symbols (e.g., black for dignity)
+                - minimal use of accessories
+                - bamboo hats (for outdoor wear)
+                - use of fans and handheld accessories
+
+        regency:
+            female:
+                - empire waistline dresses
+                - high necks with ruffled collars
+                - short puffed sleeves or long sleeves
+                - minimal use of corsets for a natural waist
+                - soft and flowing silhouettes
+                - sheer and lightweight fabrics like muslin and silk
+                - delicate embroidery and decorative trims
+                - simple, elegant designs with minimal ornamentation
+                - gowns falling from just below the bust
+                - empire silhouette with raised waistline
+                - classical greek and roman influences
+                - minimal accessories for a natural look
+                - bonnets with ribbons and plumes
+                - gloves and handheld fans
+                - parasols for sun protection
+                - soft pastel colors and floral prints
+                - regency hairstyles with simple curls and ribbons
+                - flat slippers or low-heeled shoes
+                - short spencer jackets for outdoor wear
+                - shawls or stoles for added warmth
+
+            male:
+                - tailored coats with long tails
+                - waistcoats (vests) with high collars
+                - cravats or neckties tied in elaborate knots
+                - breeches (knee-length pants)
+                - knee-high boots or shoes with buckles
+                - top hats or bicorne hats (two-cornered hats)
+                - frock coats for formal occasions
+                - tailcoats with tails for formalwear
+                - waistcoats with ornate patterns
+                - crisp white shirts with high collars
+                - cane or walking stick
+                - waist belts with pouches or accessories
+                - gloves for formal events
+                - pocket watches with chains
+                - minimal jewelry, such as rings and cufflinks
+                - epaulettes on military uniforms (for military personnel)
+                - period-specific styles such as early regency or late regency
+                - use of dark and neutral colors like black, blue, and gray
+
+        renaissance:
+            female:
+                - elaborate and fitted bodices
+                - low necklines with square or v-shaped collars
+                - puffed sleeves, often slashed to reveal contrasting fabric
+                - wide, bell-shaped skirts
+                - use of corsets and boning for hourglass figure
+                - rich and luxurious fabrics like velvet, silk, and brocade
+                - ornate embroidery and decorative trims
+                - layers of petticoats and underskirts for volume
+                - gowns with trains or long hemlines
+                - high forehead and hairline (in some periods)
+                - elaborate headpieces and headdresses, such as gable hoods and tiaras
+                - bodice and skirt separation with girdles or belts
+                - rich, earthy colors like deep reds, greens, and blues
+                - pendants, medallions, and brooches as jewelry
+                - elaborate fans and handheld mirrors
+                - gloves and fingerless mitts
+                - flat slippers or shoes with heels
+                - period-specific styles such as italian renaissance or tudor
+
+            male:
+                - doublets (fitted jackets)
+                - puffed or slashed sleeves
+                - high necklines with ruffled collars
+                - hose (tight-fitting leg coverings)
+                - breeches (knee-length pants)
+                - jerkins (sleeveless jackets)
+                - cloaks and capes with fur or brocade
+                - tall, wide-brimmed hats
+                - codpieces (padded groin coverings)
+                - waistcoats (vests) with ornate patterns
+                - leather or fabric shoes with buckles
+                - ruffled or crisp white shirts
+                - sashes and belts for waist definition
+                - swords and dagger accessories (for some)
+                - feathered plumes as hat decorations
+                - jewelry, including rings and chains
+                - trench coats or mantles for outdoor wear
+                - use of rich, earthy colors and brocade fabrics
+                - period-specific styles such as italian renaissance or elizabethan
+
+        rococo:
+            female:
+                - elaborate and fitted bodices
+                - low necklines with ruffled collars or décolletage
+                - elbow-length puffed sleeves or bell sleeves
+                - use of corsets and stays for a curvaceous figure
+                - wide, panniered skirts for an hourglass silhouette
+                - layers of ruffles and frills
+                - pastel colors and floral prints
+                - luxurious fabrics like silk and taffeta
+                - exquisite embroidery and lace
+                - oversized watteau trains
+                - elaborate hairstyles with wigs and hairpieces
+                - feathered headdresses and hair accessories
+                - fans and handheld mirrors as accessories
+                - lace mitts or gloves
+                - flat slippers or heeled shoes with ribbon ties
+                - rococo-inspired jewelry, including cameos and rocaille motifs
+                - decorative girdles or sashes
+                - rococo-style rocaille and shell motifs
+                - masks and masquerade attire for balls and parties
+
+            male:
+                - three-piece suits (coat, waistcoat, breeches)
+                - tailored coats with elaborate embroidery and trim
+                - waistcoats (vests) with ornate patterns
+                - breeches (knee-length pants)
+                - high collars on shirts
+                - ruffled or cravat neckties
+                - stockings and garters
+                - buckled shoes or slippers
+                - tricorn hats (three-cornered hats) with ribbons
+                - wigs with curls and powder
+                - cane or walking stick as accessories
+                - elaborate waist sashes or belts
+                - frock coats with long tails
+                - brocade fabrics and pastel colors
+                - use of lace and embroidery
+                - pocket watches with chains
+                - minimal jewelry, such as rings and cufflinks
+                - fans and handheld mirrors (for some)
+                - rococo-inspired motifs and embellishments
+                - period-specific styles such as louis xv or louis xvi
+
+        tudor:
+            female:
+                - gowns with square necklines
+                - fitted bodices with laces and hooks
+                - elbow-length puffed sleeves or straight sleeves
+                - wide, hooped skirts with layers of petticoats
+                - high waistlines with girdles or belts
+                - elaborate embroidery and decorative trims
+                - rich fabrics like velvet, silk, and brocade
+                - use of corsets or stays for a conical torso
+                - headdresses like gable hoods or french hoods
+                - ruffled collars or partlets
+                - elaborate headpieces with veils and jewels
+                - minimal accessories, such as rings and necklaces
+                - flat shoes or low-heeled slippers
+                - rich, jewel-toned colors like deep reds, greens, and blues
+                - elizabethan ruffs (in later tudor period)
+                - period-specific styles such as early tudor or elizabethan
+
+            male:
+                - doublets (fitted jackets)
+                - hose (tight-fitting leg coverings)
+                - codpieces (padded groin coverings)
+                - breeches (knee-length pants)
+                - high necklines with ruffled collars
+                - cloaks and capes
+                - tall, flat hats (e.g., tudor bonnets)
+                - waistcoats (vests) with ornate patterns
+                - buckled shoes or ankle boots
+                - ruffled or cravat neckties
+                - wide leather belts with decorative buckles
+                - velvet and brocade fabrics
+                - use of puffed or slashed sleeves
+                - minimal jewelry, such as rings and brooches
+                - flat caps or berets (for outdoor wear)
+                - cloaks with fur collars (for outdoor wear)
+                - short beards and mustaches
+                - use of earthy and rich colors
+                - period-specific styles such as early tudor or elizabethan
+
+        victorian:
+            female:
+                - bonnets and wide-brimmed hats
+                - boots, button-up
+                - bows and sashes
+                - bustles for back fullness
+                - cameo brooches and jewelry
+                - corsets for waist cinching
+                - crinoline or hoop skirts for volume
+                - fans
+                - full-length skirts
+                - gloves
+                - high necklines
+                - lace and ruffles
+                - long sleeves
+                - natural waistline
+                - parasols
+                - petticoats for layering
+                - rich fabrics like silk and velvet
+                
+            male:
+                - ascot ties
+                - bowler hats (derby hats)
+                - cravats or neckties
+                - crisp white shirts
+                - cufflinks
+                - dress gloves
+                - frock coats
+                - high-collared shirts
+                - leather boots
+                - monocles
+                - pocket watches
+                - smoking jackets
+                - spats (shoe covers)
+                - suspenders (braces)
+                - tailcoats
+                - top hats
+                - trousers (pants)
+                - waistcoats (vests)
+                - walking canes
+
     magical:
         female:
             footwear:
@@ -11551,6 +12045,100 @@ clothings:
                 - solar-powered neck ring
                 - sonic sound-isolating collar
                 - thermal-regulating scarf
+    styles:
+        alternative:
+            - bohemian
+            - cyberpunk
+            - gothic lolita
+            - punk
+            - retro futurism
+            - steampunk
+            - victorian gothic lolita
+            - vintage pin-up
+
+        cultural-ethnic:
+            - aboriginal
+            - african tribal
+            - aztec
+            - bollywood
+            - cheongsam
+            - dashiki
+            - folk costume
+            - geisha
+            - hanbok
+            - highland dress
+            - inca
+            - kilt
+            - kimono
+            - maori
+            - mayan
+            - native american traditional
+            - poodle skirt swing dance
+            - poodle skirt
+            - sari
+            - samurai armor
+            - traditional chinese cheongsam
+            - traditional japanese kimono
+            - viking warrior armor
+            - zoot suit gangster
+
+        fantasy-fictional:
+            - cybergoth
+            - dapper victorian steampunk
+            - flapper party dress
+            - gothic vampire
+            - masquerade ball costume
+            - medieval fantasy
+            - old hollywood glamour
+            - renaissance faire
+            - renaissance gothic
+            - steampunk
+            - swing era fashion
+            - victorian
+            - vintage rockabilly
+
+        historical-eras:
+            - ancient egyptian
+            - ancient greek
+            - ancient roman
+            - baroque
+            - edo period (japan)
+            - edwardian
+            - georgian
+            - medieval
+            - napoleonic
+            - qing dynasty (china)
+            - regency
+            - renaissance
+            - rococo
+            - tudor
+            - victorian
+
+        modern styles:
+            - 1960s hippie
+            - 1970s disco
+            - 1980s new wave
+            - gatsby-era
+            - 1990s grunge
+            - 2000s emo
+            - 2010s hipster
+            - 2020s athleisure
+            - boho chic
+            - business casual
+            - casual
+            - casual chic
+            - contemporary
+            - minimalist
+            - preppy
+            - retro
+            - roaring twenties
+            - smart casual
+            - streetwear
+            - urban
+            - victorian mourning
+            - vintage
+
+
 components:
     bearings-bushings:
         - ball bearing
@@ -21061,578 +21649,7 @@ properties:
             - patterned
             - textured
             - solid
-    clothing:
-        styles:
-            Alternative:
-                - Bohemian
-                - Cyberpunk
-                - Gothic Lolita
-                - Punk
-                - Retro Futurism
-                - Steampunk
-                - Victorian Gothic Lolita
-                - Vintage Pin-up
-
-            Cultural-Ethnic:
-                - Aboriginal
-                - African Tribal
-                - Aztec
-                - Bollywood
-                - Cheongsam
-                - Dashiki
-                - Folk Costume
-                - Geisha
-                - Hanbok
-                - Highland Dress
-                - Inca
-                - Kilt
-                - Kimono
-                - Maori
-                - Mayan
-                - Native American Traditional
-                - Poodle Skirt Swing Dance
-                - Poodle Skirt
-                - Sari
-                - Samurai Armor
-                - Traditional Chinese Cheongsam
-                - Traditional Japanese Kimono
-                - Viking Warrior Armor
-                - Zoot Suit Gangster
-
-            Fantasy-Fictional:
-                - Cybergoth
-                - Dapper Victorian Steampunk
-                - Flapper Party Dress
-                - Gothic Vampire
-                - Masquerade Ball Costume
-                - Medieval Fantasy
-                - Old Hollywood Glamour
-                - Renaissance Faire
-                - Renaissance Gothic
-                - Steampunk
-                - Swing Era Fashion
-                - Victorian
-                - Vintage Rockabilly
-
-            Historical-Eras:
-                - Ancient Egyptian
-                - Ancient Greek
-                - Ancient Roman
-                - Baroque
-                - Edo Period (Japan)
-                - Edwardian
-                - Georgian
-                - Medieval
-                - Napoleonic
-                - Qing Dynasty (China)
-                - Regency
-                - Renaissance
-                - Rococo
-                - Tudor
-                - Victorian
-
-            Modern Styles:
-                - 1960s Hippie
-                - 1970s Disco
-                - 1980s New Wave
-                - Gatsby-era
-                - 1990s Grunge
-                - 2000s Emo
-                - 2010s Hipster
-                - 2020s Athleisure
-                - Boho Chic
-                - Business Casual
-                - Casual
-                - Casual Chic
-                - Contemporary
-                - Minimalist
-                - Preppy
-                - Retro
-                - Roaring Twenties
-                - Smart Casual
-                - Streetwear
-                - Urban
-                - Victorian Mourning
-                - Vintage
-
-
-        features:
-            Baroque-female:
-                - Elaborate and Ornate Designs
-                - Rich and Luxurious Fabrics such as Silk, Velvet, and Brocade
-                - Intricate Embroidery and Lace
-                - Puffed and Ruffled Sleeves
-                - Corsets and Bodices for a Structured Silhouette
-                - High Necklines with Lace Collars
-                - Long, Full Skirts with Trains
-                - Layers of Petticoats and Underskirts
-                - Embellished with Pearls, Gemstones, and Precious Metals
-                - Exaggerated and Dramatic Silhouettes
-                - Use of Rich, Deep Colors like Burgundy, Gold, and Royal Blue
-                - Intricate Hairstyles with Curls, Ribbons, and Feathers
-                - Wide-brimmed Hats with Feathers and Ribbons
-                - Breeches and Waistcoats
-                - Stockings and Garters
-                - Buckled Shoes
-                - Ornate Fans and Hand-held Mirrors
-            Baroque-male:
-                - Tailored Suits and Outfits
-                - Elaborate Embroidery and Trim
-                - High Collars with Lace Ruffs
-                - Waistcoats (Vests) with Ornate Designs
-                - Breeches (Knee-length Pants)
-                - Stockings and Garters
-                - Buckled Shoes with Heels
-                - Cloaks and Capes with Brocade or Velvet
-                - Jabot (a decorative neckpiece)
-                - Tricorn Hats (Three-cornered hats) with Feathers and Ribbons
-                - Use of Rich, Deep Colors like Burgundy, Gold, and Royal Blue
-                - Ornate Brooches and Jewelry, Including Rings and Watches
-                - Decorative Sword Belts
-                - Long, Tied-back Hairstyles with Curls and Ribbons
-                - Lace Cuffs on Sleeves
-            EdoPeriod-Female:
-                - Kimono as the Primary Garment
-                - Obi (Wide Belt) to Secure Kimono
-                - Simple, Rectangular Silhouette
-                - Long and Wide Sleeves (Furisode for young unmarried women)
-                - Use of Traditional Japanese Textiles like Silk and Cotton
-                - Colorful and Intricate Patterns (e.g., Floral, Nature, and Geometric Designs)
-                - Layered Kimono for Special Occasions
-                - Obi Decorated with Embroidery and Brocade
-                - Oshiroi (White Face Powder) for a Pale Complexion
-                - Elaborate Hairstyles with Hairpins and Accessories (e.g., Kanzashi)
-                - Tabi (Split-toe Socks) and Zori or Geta (Footwear)
-                - Use of Folded Fans (Sensu) and Handheld Fans (Uchiwa)
-                - Kago (Bamboo Palanquin) for Transportation on Special Occasions
-                - Minimal Use of Jewelry (e.g., Earrings and Necklaces)
-                - Period-Specific Styles such as Early Edo or Late Edo
-
-            EdoPeriod-Male:
-                - Kimono as the Primary Garment
-                - Hakama (Wide-legged Trousers) Worn Over Kimono (for formal occasions)
-                - Simple, Straight Silhouette
-                - Use of Traditional Japanese Textiles like Silk and Cotton
-                - Subdued and Earthy Colors
-                - Minimal Decorative Patterns (mainly for undergarments)
-                - Obi (Wide Belt) to Secure Kimono
-                - Tabi (Split-toe Socks) and Zori or Geta (Footwear)
-                - Minimal Use of Jewelry (e.g., Earrings and Necklaces)
-                - Hachimaki (Headband) for Working Men
-                - Use of Kasa (Hats) for Protection from Sun and Rain
-                - Minimal Use of Accessories
-                - Period-Specific Styles such as Early Edo or Late Edo
-                - Simplicity and Functionality in Design
-
-            Edwardian-Female:
-                - High Necklines with Lace Collars
-                - Puffed Sleeves with Lace or Ruffled Cuffs
-                - S-Curve Silhouette with a Defined Waist
-                - Elaborate and Ornate Embroidery
-                - Use of Sheer Fabrics like Chiffon and Lace
-                - Wide-brimmed Hats with Ribbons and Flowers
-                - Corsets for Hourglass Figure
-                - Long, Columnar Skirts with Trains
-                - Layers of Petticoats and Bustles for Volume
-                - Pastel Colors and Floral Prints
-                - Empire Waist Dresses with Sashes
-                - Edwardian "Gibson Girl" Hairstyles with Piled-Up Hair and Large Hats
-                - High-buttoned Boots or Low-heeled Shoes
-                - Gloves and Parasols for Accessories
-                - Evening Gowns with Embellishments and Beading
-                - Tailored Suits with Long Jackets (for daywear)
-                - Lingerie Dresses with Layers of Lace
-                - Elaborate Jewelry, Including Necklaces, Brooches, and Lockets
-                - Small Handbags or Purses
-                - Mutton Chop Sleeves with Fullness at the Upper Arms
-            Edwardian-Male:
-                - Tailored Suits with Matching Jackets and Trousers
-                - High Stand Collars on Shirts
-                - Cravats or Ascot Ties
-                - Waistcoats (Vests) with Ornate Patterns
-                - Frock Coats for Formal Occasions
-                - Bowler Hats or Boater Hats
-                - Wingtip Collar Shirts for Formalwear
-                - Pocket Watches with Chains
-                - Straight-Legged Trousers
-                - Ankle Boots or Lace-up Oxfords
-                - Cufflinks and Tie Pins
-                - Trench Coats for Rainy Weather
-                - Rolled Umbrellas
-                - Braces (Suspenders) for Trousers
-                - Gloves for Formal Events
-                - Top Hats for Very Formal Occasions
-                - Walking Canes or Walking Sticks
-                - Boutonnieres (Flower Corsages)
-                - Crisp White Shirts for Daywear
-                - Wide, Luxurious Overcoats for Winter
-                - Homburg Hats for Elegant Attire
-
-            Georgian-Female:
-                - Empire Waistline Dresses
-                - High Necklines with Ruffled Collars
-                - Gigot Sleeves (Puffed Sleeves)
-                - Lightweight Fabrics like Muslin and Silk
-                - Simple and Elegant Designs
-                - Soft, Flowing Skirts with Minimal Crinoline or Hoops
-                - Delicate Floral Prints and Pastel Colors
-                - Bodices with Fitted Corsets
-                - Ribbons and Sashes as Waist Decorations
-                - Elaborate Hairstyles with Curls and Ribbons
-                - Bonnets with Ribbons and Decorative Trim
-                - Gloves and Handheld Fans
-                - Parasols for Sun Protection
-                - Small, Round-Rimmed Eyeglasses (Lorgnettes)
-                - Elaborate Jewelry with Pearls and Gemstones
-                - Lace Mitts or Gloves
-                - Flat Shoes or Slippers with Minimal Heels
-                - Embroidery and Embellishments on Bodices and Hems
-
-            Georgian-Male:
-                - Tailored Suits with Long Coats
-                - Waistcoats (Vests) with Ornate Designs
-                - Cravats or Neckties Tied in Bow Knots
-                - Knee-length Breeches (Pants)
-                - Stockings and Garters
-                - Square-Toed Shoes with Buckles
-                - Tricorn Hats (Three-cornered hats)
-                - Jabot (a decorative neckpiece)
-                - Frock Coats for Formal Occasions
-                - Waist-length Jackets with Flared Skirts
-                - Crisp White Shirts with Ruffled Collars and Cuffs
-                - Long, Tied-back Hairstyles with Wigs for Formal Events
-                - Walking Canes or Walking Sticks
-                - Pocket Watches with Chains
-                - Gloves for Formal Events
-                - Cloaks and Capes for Outdoor Wear
-                - Embroidered or Brocade Fabrics for Formalwear
-                - Cravat Pins or Brooches
-                - Monocles for Reading or Distinction
-
-            Medieval-Female:
-                - Floor-Length Gowns
-                - Long, Flowing Sleeves
-                - Fitted Bodices with Laces or Corsets
-                - Wide, V-shaped Necklines
-                - Rich, Luxurious Fabrics like Velvet and Silk
-                - Elaborate Embroidery and Decorative Trims
-                - Use of Mantles or Cloaks
-                - High-Waisted Silhouettes
-                - Girdles or Belts to Define Waist
-                - Head Coverings like Wimples and Veils
-                - Long, Loose Hair or Covered Hair
-                - Tippets (Short Capes)
-                - Circular or Full Skirts
-                - Decorative Brooches and Pins
-                - Leather or Fabric Shoes
-                - Use of Layers and Undergarments
-                - Metal and Gemstone Jewelry
-                - Rich, Earthy Colors like Deep Reds, Greens, and Blues
-                - Period-Specific Styles such as Gothic or Renaissance
-            Medieval-Male:
-                - Tunic or Surcoat (Outer Garment)
-                - Hose (Tight-Fitting Leg Coverings)
-                - Long-Sleeved Shirt or Undertunic
-                - Cloaks or Mantles for Outerwear
-                - Belts with Pouches or Accessories
-                - Leather or Fabric Shoes or Boots
-                - Coif or Hood (Head Covering)
-                - Doublet (Close-Fitting Jacket)
-                - Hosen (Tight Leg Coverings)
-                - Braies (Undergarments)
-                - Use of Cloaks or Capes for Added Warmth
-                - Wide, Belted Waistlines
-                - Decorative Buckles and Fastenings
-                - Simple, Natural Colors like Brown, Gray, and Earth Tones
-                - Cloaks or Mantles for Outerwear
-                - Period-Specific Styles such as Gothic or Renaissance
-                - Use of Layers and Undergarments
-                - Metal and Leather Accessories like Brooches and Belts
-
-            Napoleonic-Female:
-                - Empire Waistline Dresses
-                - High Necks with Ruffled Collars
-                - Short Puffed Sleeves or Long Sleeves
-                - Simple and Elegant Designs
-                - Sheer Fabrics like Muslin and Silk
-                - Soft, Flowing Skirts with Minimal Understructure
-                - Minimal Use of Corsets for a Natural Waist
-                - Delicate Embroidery and Decorative Trims
-                - Empire Silhouette with Gowns Falling from Just Below the Bust
-                - Classical Greek and Roman Influences
-                - Small, Decorative Belts or Sashes
-                - Bonnets with Ribbons and Plumes
-                - Gloves and Handheld Fans
-                - Parasols for Sun Protection
-                - Delicate and Dainty Accessories
-                - Soft Pastel Colors and Floral Prints
-                - Empire Hairstyles with Simple Curls and Ribbons
-                - Flat Shoes or Slippers with Minimal Heels
-
-            Napoleonic-Male:
-                - Tailored Coats and Waistcoats (Vests)
-                - High Stand Collars on Shirts
-                - Cravats or Neckties Tied in Bow Knots
-                - Breeches (Knee-length Pants)
-                - Knee-high Boots or Shoes with Buckles
-                - Top Hats or Bicorne Hats (Two-cornered hats)
-                - Frock Coats for Formal Occasions
-                - Tailcoats with Tails for Formalwear
-                - Waistcoats with Ornate Patterns
-                - Crisp White Shirts with High Collars
-                - Cane or Walking Stick
-                - Waist Belts with Pouches or Accessories
-                - Gloves for Formal Events
-                - Pocket Watches with Chains
-                - Minimal Jewelry, Such as Rings and Cufflinks
-                - Epaulettes on Military Uniforms
-                - Period-Specific Styles such as Regency or Early Victorian
-                - Use of Dark and Neutral Colors like Black, Blue, and Gray
-
-            QingDynasty-Female:
-                - Qipao or Cheongsam (One-piece Dress) with High Collar
-                - Tight-Fitting Silhouette with Slit Skirt (later Qing Dynasty)
-                - Loose, Flowing Sleeves (earlier Qing Dynasty)
-                - Use of Luxurious Fabrics like Silk and Satin
-                - Elaborate Embroidery and Intricate Brocade Patterns
-                - Traditional Chinese Knot Buttons (Frog Closures)
-                - Elegant Floral and Nature Motifs in Embroidery
-                - Tied Waist Sash for Shape Definition
-                - Elaborate Hairstyles with Hairpins and Accessories
-                - Decorative Headdresses and Hair Ornaments (e.g., Jade Hairpins)
-                - Small Footwear (Lotus Shoes) for Bound Feet (earlier Qing Dynasty)
-                - Natural Footwear (Platform Shoes) (later Qing Dynasty)
-                - Minimal Use of Jewelry (e.g., Earrings and Bracelets)
-                - Period-Specific Styles such as Early Qing or Late Qing
-                - Traditional Color Symbolism (e.g., Red for Good Luck)
-                - Use of Decorative Fans and Handheld Accessories
-                - Qing Dynasty Specific Headwear (e.g., Phoenix Crown for brides)
-            QingDynasty-Male:
-                - Changshan or Changpao (Long Robe)
-                - High Collar with Frog Closures
-                - Loose and Straight Silhouette
-                - Use of Luxurious Fabrics like Silk and Satin
-                - Embroidered Patterns on Collar and Sleeves (for formal occasions)
-                - Minimal Decoration for Everyday Wear
-                - Waist Sash or Belt
-                - Wide, Straight-Legged Trousers
-                - Flat-Soled Shoes (usually cloth or leather)
-                - Traditional Chinese Knot Buttons (Frog Closures)
-                - Simple, Functional Design for Practicality
-                - Long Hairstyles, often tied in a Queue (long braid) for men
-                - Minimal Use of Jewelry (e.g., Rings or Bracelets)
-                - Period-Specific Styles such as Early Qing or Late Qing
-                - Traditional Colors and Symbols (e.g., Black for dignity)
-                - Minimal Use of Accessories
-                - Bamboo Hats (for outdoor wear)
-                - Use of Fans and Handheld Accessories
-
-
-            Regency-Female:
-                - Empire Waistline Dresses
-                - High Necks with Ruffled Collars
-                - Short Puffed Sleeves or Long Sleeves
-                - Minimal Use of Corsets for a Natural Waist
-                - Soft and Flowing Silhouettes
-                - Sheer and Lightweight Fabrics like Muslin and Silk
-                - Delicate Embroidery and Decorative Trims
-                - Simple, Elegant Designs with Minimal Ornamentation
-                - Gowns Falling from Just Below the Bust
-                - Empire Silhouette with Raised Waistline
-                - Classical Greek and Roman Influences
-                - Minimal Accessories for a Natural Look
-                - Bonnets with Ribbons and Plumes
-                - Gloves and Handheld Fans
-                - Parasols for Sun Protection
-                - Soft Pastel Colors and Floral Prints
-                - Regency Hairstyles with Simple Curls and Ribbons
-                - Flat Slippers or Low-heeled Shoes
-                - Short Spencer Jackets for Outdoor Wear
-                - Shawls or Stoles for Added Warmth
-
-            Regency-Male:
-                - Tailored Coats with Long Tails
-                - Waistcoats (Vests) with High Collars
-                - Cravats or Neckties Tied in Elaborate Knots
-                - Breeches (Knee-length Pants)
-                - Knee-high Boots or Shoes with Buckles
-                - Top Hats or Bicorne Hats (Two-cornered hats)
-                - Frock Coats for Formal Occasions
-                - Tailcoats with Tails for Formalwear
-                - Waistcoats with Ornate Patterns
-                - Crisp White Shirts with High Collars
-                - Cane or Walking Stick
-                - Waist Belts with Pouches or Accessories
-                - Gloves for Formal Events
-                - Pocket Watches with Chains
-                - Minimal Jewelry, Such as Rings and Cufflinks
-                - Epaulettes on Military Uniforms (for military personnel)
-                - Period-Specific Styles such as Early Regency or Late Regency
-                - Use of Dark and Neutral Colors like Black, Blue, and Gray
-
-            Renaissance-Female:
-                - Elaborate and Fitted Bodices
-                - Low Necklines with Square or V-shaped Collars
-                - Puffed Sleeves, Often Slashed to Reveal Contrasting Fabric
-                - Wide, Bell-shaped Skirts
-                - Use of Corsets and Boning for Hourglass Figure
-                - Rich and Luxurious Fabrics like Velvet, Silk, and Brocade
-                - Ornate Embroidery and Decorative Trims
-                - Layers of Petticoats and Underskirts for Volume
-                - Gowns with Trains or Long Hemlines
-                - High Forehead and Hairline (in some periods)
-                - Elaborate Headpieces and Headdresses, such as Gable Hoods and Tiaras
-                - Bodice and Skirt Separation with Girdles or Belts
-                - Rich, Earthy Colors like Deep Reds, Greens, and Blues
-                - Pendants, Medallions, and Brooches as Jewelry
-                - Elaborate Fans and Handheld Mirrors
-                - Gloves and Fingerless Mitts
-                - Flat Slippers or Shoes with Heels
-                - Period-Specific Styles such as Italian Renaissance or Tudor
-
-            Renaissance-Male:
-                - Doublets (Fitted Jackets)
-                - Puffed or Slashed Sleeves
-                - High Necklines with Ruffled Collars
-                - Hose (Tight-Fitting Leg Coverings)
-                - Breeches (Knee-length Pants)
-                - Jerkins (Sleeveless Jackets)
-                - Cloaks and Capes with Fur or Brocade
-                - Tall, Wide-brimmed Hats
-                - Codpieces (Padded Groin Coverings)
-                - Waistcoats (Vests) with Ornate Patterns
-                - Leather or Fabric Shoes with Buckles
-                - Ruffled or Crisp White Shirts
-                - Sashes and Belts for Waist Definition
-                - Swords and Dagger Accessories (for some)
-                - Feathered Plumes as Hat Decorations
-                - Jewelry, Including Rings and Chains
-                - Trench Coats or Mantles for Outdoor Wear
-                - Use of Rich, Earthy Colors and Brocade Fabrics
-                - Period-Specific Styles such as Italian Renaissance or Elizabethan
-
-            Rococo-Female:
-                - Elaborate and Fitted Bodices
-                - Low Necklines with Ruffled Collars or Décolletage
-                - Elbow-Length Puffed Sleeves or Bell Sleeves
-                - Use of Corsets and Stays for a Curvaceous Figure
-                - Wide, Panniered Skirts for an Hourglass Silhouette
-                - Layers of Ruffles and Frills
-                - Pastel Colors and Floral Prints
-                - Luxurious Fabrics like Silk and Taffeta
-                - Exquisite Embroidery and Lace
-                - Oversized Watteau Trains
-                - Elaborate Hairstyles with Wigs and Hairpieces
-                - Feathered Headdresses and Hair Accessories
-                - Fans and Handheld Mirrors as Accessories
-                - Lace Mitts or Gloves
-                - Flat Slippers or Heeled Shoes with Ribbon Ties
-                - Rococo-Inspired Jewelry, Including Cameos and Rocaille Motifs
-                - Decorative Girdles or Sashes
-                - Rococo-Style Rocaille and Shell Motifs
-                - Masks and Masquerade Attire for Balls and Parties
-
-            Rococo-Male:
-                - Three-Piece Suits (Coat, Waistcoat, Breeches)
-                - Tailored Coats with Elaborate Embroidery and Trim
-                - Waistcoats (Vests) with Ornate Patterns
-                - Breeches (Knee-length Pants)
-                - High Collars on Shirts
-                - Ruffled or Cravat Neckties
-                - Stockings and Garters
-                - Buckled Shoes or Slippers
-                - Tricorn Hats (Three-cornered hats) with Ribbons
-                - Wigs with Curls and Powder
-                - Cane or Walking Stick as Accessories
-                - Elaborate Waist Sashes or Belts
-                - Frock Coats with Long Tails
-                - Brocade Fabrics and Pastel Colors
-                - Use of Lace and Embroidery
-                - Pocket Watches with Chains
-                - Minimal Jewelry, Such as Rings and Cufflinks
-                - Fans and Handheld Mirrors (for some)
-                - Rococo-Inspired Motifs and Embellishments
-                - Period-Specific Styles such as Louis XV or Louis XVI
-
-            Tudor-Female:
-                - Gowns with Square Necklines
-                - Fitted Bodices with Laces and Hooks
-                - Elbow-Length Puffed Sleeves or Straight Sleeves
-                - Wide, Hooped Skirts with Layers of Petticoats
-                - High Waistlines with Girdles or Belts
-                - Elaborate Embroidery and Decorative Trims
-                - Rich Fabrics like Velvet, Silk, and Brocade
-                - Use of Corsets or Stays for a Conical Torso
-                - Headdresses like Gable Hoods or French Hoods
-                - Ruffled Collars or Partlets
-                - Elaborate Headpieces with Veils and Jewels
-                - Minimal Accessories, Such as Rings and Necklaces
-                - Flat Shoes or Low-heeled Slippers
-                - Rich, Jewel-Toned Colors like Deep Reds, Greens, and Blues
-                - Elizabethan Ruffs (in later Tudor period)
-                - Period-Specific Styles such as Early Tudor or Elizabethan
-
-            Tudor-Male:
-                - Doublets (Fitted Jackets)
-                - Hose (Tight-Fitting Leg Coverings)
-                - Codpieces (Padded Groin Coverings)
-                - Breeches (Knee-length Pants)
-                - High Necklines with Ruffled Collars
-                - Cloaks and Capes
-                - Tall, Flat Hats (e.g., Tudor Bonnets)
-                - Waistcoats (Vests) with Ornate Patterns
-                - Buckled Shoes or Ankle Boots
-                - Ruffled or Cravat Neckties
-                - Wide Leather Belts with Decorative Buckles
-                - Velvet and Brocade Fabrics
-                - Use of Puffed or Slashed Sleeves
-                - Minimal Jewelry, Such as Rings and Brooches
-                - Flat Caps or Berets (for outdoor wear)
-                - Cloaks with Fur Collars (for outdoor wear)
-                - Short Beards and Mustaches
-                - Use of Earthy and Rich Colors
-                - Period-Specific Styles such as Early Tudor or Elizabethan
-
-            Victorian-female:
-                - Bonnets and Wide-brimmed Hats
-                - Boots, Button-Up
-                - Bows and Sashes
-                - Bustles for Back Fullness
-                - Cameo Brooches and Jewelry
-                - Corsets for Waist Cinching
-                - Crinoline or Hoop Skirts for Volume
-                - Fans
-                - Full-Length Skirts
-                - Gloves
-                - High Necklines
-                - Lace and Ruffles
-                - Long Sleeves
-                - Natural Waistline
-                - Parasols
-                - Petticoats for Layering
-                - Rich Fabrics like Silk and Velvet
-            Victorian-Male:
-                - Ascot Ties
-                - Bowler Hats (Derby Hats)
-                - Cravats or Neckties
-                - Crisp White Shirts
-                - Cufflinks
-                - Dress Gloves
-                - Frock Coats
-                - High-collared Shirts
-                - Leather Boots
-                - Monocles
-                - Pocket Watches
-                - Smoking Jackets
-                - Spats (Shoe Covers)
-                - Suspenders (Braces)
-                - Tailcoats
-                - Top Hats
-                - Trousers (Pants)
-                - Waistcoats (Vests)
-                - Walking Canes
-
-        
+       
     fabrics:
         cyberpunk:
             - neon-laced fabric
