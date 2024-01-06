@@ -18088,6 +18088,7 @@ magical:
             prompt:
                 - >-
                   {__magical/prompts/force-magic/name__|} __magical/prompts/force-magic/description__
+#        gravity-magic:
         holy-magic:
             description:
                 - >-
