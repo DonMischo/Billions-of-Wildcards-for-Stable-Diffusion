@@ -1231,6 +1231,7 @@ atmosphere:
         - chaos
         - crystal
         - darkness
+        - dust
         - earth
         - electricity
         - fire
@@ -1255,6 +1256,7 @@ atmosphere:
         - radiation
         - radiant
         - rune
+        - sand
         - shadow
         - siren
         - sound
@@ -4765,6 +4767,19 @@ characters:
                 - cockatrice
             prompt:
                 - __characters/magical-beings/cockatrice/name__, __characters/magical-beings/cockatrice/characteristics__
+        coffee_spirit:
+            characteristics:
+                - >-
+                  coffee spirit, transparent Ethereal entity embodying the essence of coffee,
+                  aroma of freshly brewed coffee, eyes shimmer like coffee beans,
+                  swirls of steam, human-like form, energy, inspiration, warmth, cozy morning, {cafes|kitchen|bar},
+                  spreading comfort and alertness, accessories related to coffee culture, {rising from a coffee cup|barista apron}
+            name:
+                - coffee spirit
+            prompt:
+                - >-
+                  {male|female} __characters/magical-beings/coffee_spirit/name__, __characters/magical-beings/coffee_spirit/characteristics__
+
         cyclope:
             characteristics:
                 - >-
@@ -17935,7 +17950,7 @@ magical:
         air-magic:
             description:
                 - >-
-                  swirling vortex of wind, bends and distorts the ai, gentle embrace, 
+                  swirling transparent, transluscent vortex of wind, bends and distorts the ai, gentle embrace, 
                   dancing around an invisible core, pulse
             name:
                 - air magic
@@ -17988,7 +18003,7 @@ magical:
         dark-magic:
             description:
                 - >-
-                  amorphous shadow, deeper and darker than night, absorbing light and hope,
+                  floating amorphous shadow veils, deeper and darker than night, absorbing light and hope,
                   red eyes flicker within, sinister grace, leaving a feeling of unease and dread
             name:
                 - dark magic
@@ -18254,7 +18269,7 @@ magical:
                   series of interlocking golden gears and hourglasses suspended in space,
                   complex, precise patterns, passage of time, warping perception of moments
                 - >-
-                  series of interlocking golden gears, sands of time, fade silhoutte of an hourglass,
+                  series of holographic transluscent interlocking golden gears, sands of time, fade silhoutte of an hourglass,
                   suspended in space, complex precise patterns, ticking sound, passage of time, warping perception of moments
             name:
                 - time magic
