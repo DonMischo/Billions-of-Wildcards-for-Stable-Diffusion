@@ -60,7 +60,7 @@ Bo:
               __Bo/halloween/random*__
               }
     audio:
-        # __bo/audio/*__
+        # __Bo/audio/*__
         album-cover:
             - >-
               __audio/genre/*__ album cover, __audio/albumcover/mainimage__, __audio/albumcover/titletext__,
@@ -70,83 +70,83 @@ Bo:
               __audio/music/*__, {1-2$$__audio/sound/*__|__audio/melody/*__|__audio/notes/*__|__audio/notation/*__},
               __audio/genre/*__
     books:
-        # __bo/books/random__
+        # __Bo/books/random__
         random:
             - >-
-              {__books/genres__|__books/fictional-types__|__books/book-sizes__ book}, {0.1::__books/typography__, __books/printing-techniques__,|0.1::__books/illustration__,|} {__books/bookbinding-styles__,|} __books/book-covers__, __properties/materials-books/materials__,    {__books/places-books__|__books/book-accessories__|}
+              {__Books/genres__|__Books/fictional-types__|__Books/book-sizes__ book}, {0.1::__Books/typography__, __Books/printing-techniques__,|0.1::__Books/illustration__,|} {__Books/bookbinding-styles__,|} __Books/book-covers__, __properties/materials-books/materials__,    {__Books/places-books__|__Books/book-accessories__|}
     chars:
-        # __bo/chars/random__
-        # __bo/chars/char-*/random__
-        # __bo/chars/class-*__
+        # __Bo/chars/random__
+        # __Bo/chars/char-*/random__
+        # __Bo/chars/class-*__
         char-cyberpunk:
             div:
-                - female __bo/chars/char-cyberpunk/male/*__
-                - male __bo/chars/char-cyberpunk/female/*__
+                - female __Bo/chars/char-cyberpunk/male/*__
+                - male __Bo/chars/char-cyberpunk/female/*__
             female:
                 boconstructions:
-                    - __bo/chars/char-cyberpunk/female/classic__, __bo/constructions/random-cyberpunk__
+                    - __Bo/chars/char-cyberpunk/female/classic__, __Bo/constructions/random-cyberpunk__
                 classic:
                     - >-
                       female __characters/professions/*__, __person/cyberpunk/female__ wearing __Bo/clothings/cyberpunk/female-attire__,
                       {__person/cyberpunk/poses__|__person/*/poses__}
                 scenery:
-                    - __bo/chars/char-cyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+                    - __Bo/chars/char-cyberpunk/female/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
             male:
                 boconstructions:
-                    - __bo/chars/char-cyberpunk/male/classic__, __bo/constructions/random-cyberpunk__
+                    - __Bo/chars/char-cyberpunk/male/classic__, __Bo/constructions/random-cyberpunk__
                 classic:
                     - >-
                       male __characters/professions/*__, __person/cyberpunk/male__ wearing __Bo/clothings/cyberpunk/male-attire__,
                       {__person/cyberpunk/poses__|__person/*/poses__}
                 scenery:
-                    - __bo/chars/char-cyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
+                    - __Bo/chars/char-cyberpunk/male/classic__, __lighting/cyberpunk__, __scenes/cyberpunk/*__
             random:
                 - >-
-                  {__bo/chars/char-cyberpunk/*male/*__|0.1::__bo/chars/char-cyberpunk/div__},
+                  {__Bo/chars/char-cyberpunk/*male/*__|0.1::__Bo/chars/char-cyberpunk/div__},
                   __subtypes/cyberpunk__
         char-magical:
             div:
-                - female __bo/chars/char-magical/male/*__
-                - male __bo/chars/char-magical/female/*__
+                - female __Bo/chars/char-magical/male/*__
+                - male __Bo/chars/char-magical/female/*__
             female:
                 boconstructions:
                     - >-
-                      {__bo/chars/char-magical/female/classic__|__bo/chars/char-magical/female/modern__},
-                      __bo/constructions/random-magical__
+                      {__Bo/chars/char-magical/female/classic__|__Bo/chars/char-magical/female/modern__},
+                      __Bo/constructions/random-magical__
                 classic:
                     - >-
                       female __person/magical/female__    { wearing __Bo/clothings/magical/female-attire__
-                      __words/magical/verbs__ __magical/magic__| __bo/chars/char-magical/profession-magic__ },
+                      __words/magical/verbs__ __magical/magic__| __Bo/chars/char-magical/profession-magic__ },
                       __person/magical/poses__, __lighting/magical__
                 modern:
                     - >-
                       female __person/magical/female__
                       { wearing __Bo/clothings/regular/female-attire__
-                      __words/magical/verbs__ __magical/magic__| __bo/chars/char-magical/profession-magic__ },
+                      __words/magical/verbs__ __magical/magic__| __Bo/chars/char-magical/profession-magic__ },
                       __person/magical/poses__, __lighting/magical__
                 scenery:
                     - >-
-                      {__bo/chars/char-magical/female/classic__|__bo/chars/char-magical/female/modern__},
+                      {__Bo/chars/char-magical/female/classic__|__Bo/chars/char-magical/female/modern__},
                       __lighting/magical__, __scenes/regular/*__
             male:
                 boconstructions:
                     - >- 
-                      {__bo/chars/char-magical/male/classic__|__bo/chars/char-magical/male/modern__},
-                      __bo/constructions/random-magical__'
+                      {__Bo/chars/char-magical/male/classic__|__Bo/chars/char-magical/male/modern__},
+                      __Bo/constructions/random-magical__'
                 classic:
                     - >-
                       male __person/magical/male__    { wearing __Bo/clothings/magical/male-attire__
-                      __words/magical/verbs__ __magical/magic__| __bo/chars/char-magical/profession-magic__ },
+                      __words/magical/verbs__ __magical/magic__| __Bo/chars/char-magical/profession-magic__ },
                       __person/magical/poses__, __lighting/magical__
                 modern:
                     - >-
                       male __person/magical/male__
                       { wearing __Bo/clothings/regular/male-attire__
-                      __words/magical/verbs__ __magical/magic__| __bo/chars/char-magical/profession-magic__ },
+                      __words/magical/verbs__ __magical/magic__| __Bo/chars/char-magical/profession-magic__ },
                       __person/magical/poses__, __lighting/magical__
                 scenery:
                     - >-
-                      {__bo/chars/char-magical/male/classic__|__bo/chars/char-magical/male/modern__},
+                      {__Bo/chars/char-magical/male/classic__|__Bo/chars/char-magical/male/modern__},
                       __lighting/magical__, __scenes/regular/*__
             profession-magic:
                 - __characters/professions/magical/crafter__, __magical/profession-magic-use/crafter__
@@ -167,92 +167,94 @@ Bo:
                   {__magical/magic-14411__|__magical/prompts/*-magic/prompt__|__magical/magic*__}
             random:
                 - >-
-                  {__bo/chars/char-magical/*male/*__|0.1::__bo/chars/char-magical/div__|__bo/chars/char-magical/random-caster-magic__}
+                  {__Bo/chars/char-magical/*male/*__|0.1::__Bo/chars/char-magical/div__|__Bo/chars/char-magical/random-caster-magic__}
         char-nsfw:
             div:
-                - female __bo/chars/char-nsfw/male/*__
-                - male __bo/chars/char-nsfw/female/*__
+                - female __Bo/chars/char-nsfw/male/*__
+                - male __Bo/chars/char-nsfw/female/*__
             female:
                 boconstructions:
-                    - __bo/chars/char-nsfw/female/classic__, __bo/constructions/random-regular__
+                    - __Bo/chars/char-nsfw/female/classic__, __Bo/constructions/random-regular__
                 classic:
                     - >-
                       female __person/regular/female__ wearing __Bo/clothings/nsfw/female-attire__,
                       __person/nsfw/poses__, __lighting/nsfw__, __scenes/regular/light__
             male:
                 boconstructions:
-                    - __bo/chars/char-nsfw/male/classic__, __bo/constructions/random-regular__
+                    - __Bo/chars/char-nsfw/male/classic__, __Bo/constructions/random-regular__
                 classic:
                     - >-
                       male __person/regular/male__ wearing __Bo/clothings/nsfw/male-attire__,
                       __person/nsfw/poses__, __lighting/nsfw__, __scenes/regular/light__
             random:
                 - >-
-                  {__bo/chars/char-nsfw/*male/*__|0.1::__bo/chars/char-nsfw/div__}
+                  {__Bo/chars/char-nsfw/*male/*__|0.1::__Bo/chars/char-nsfw/div__}
 
         char-regular:
             div:
-                - male __bo/chars/char-regular/female/*__
-                - female __bo/chars/char-regular/male/*__
+                - male __Bo/chars/char-regular/female/*__
+                - female __Bo/chars/char-regular/male/*__
             female:
                 bocloths:
-                    - __bo/chars/char-regular/female/modern__,    {__bo/clothings/random-fullbody__|__bo/clothings/random-combination__}
+                    - __Bo/chars/char-regular/female/modern__,    {__Bo/clothings/random-fullbody__|__Bo/clothings/random-combination__}
                 boconstructions:
-                    - __bo/chars/char-regular/female/modern__, __bo/constructions/random-regular__
+                    - __Bo/chars/char-regular/female/modern__, __Bo/constructions/random-regular__
                 modern:
                     - female __person/regular/female__ wearing __Bo/clothings/regular/female-attire__,
                       __person/regular/poses__
             male:
                 bocloths:
-                    - __bo/chars/char-regular/male/modern__,    {__bo/clothings/random-fullbody__|__bo/clothings/random-combination__}
+                    - __Bo/chars/char-regular/male/modern__,    {__Bo/clothings/random-fullbody__|__Bo/clothings/random-combination__}
                 boconstructions:
-                    - __bo/chars/char-regular/male/modern__, __bo/constructions/random-regular__
+                    - __Bo/chars/char-regular/male/modern__, __Bo/constructions/random-regular__
                 modern:
                     - male __person/regular/male__ wearing __Bo/clothings/regular/male-attire__,
                       __person/regular/poses__
             random:
                 - >-
-                  {__bo/chars/char-regular/*male/*__|0.1::__bo/chars/char-regular/div__}
+                  {__Bo/chars/char-regular/*male/*__|0.1::__Bo/chars/char-regular/div__}
         char-scifi:
             div:
-                - female __bo/chars/char-scifi/male/*__
-                - male __bo/chars/char-scifi/female/*__
+                - female __Bo/chars/char-scifi/male/*__
+                - male __Bo/chars/char-scifi/female/*__
             female:
                 boconstructions:
-                    - __bo/chars/char-scifi/female/classic__, __bo/constructions/random-scifi__
+                    - __Bo/chars/char-scifi/female/classic__, __Bo/constructions/random-scifi__
                 classic:
                     - >-
                       female __characters/professions/scifi/*__, __person/scifi/female__ wearing
                       __Bo/clothings/scifi/female-attire__, __person/scifi/poses__
                 scenery:
-                    - __bo/chars/char-scifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
+                    - __Bo/chars/char-scifi/female/classic__, __lighting/scifi__, __scenes/scifi/*__
             male:
                 boconstructions:
-                    - __bo/chars/char-scifi/male/classic__, __bo/constructions/random-scifi__
+                    - __Bo/chars/char-scifi/male/classic__, __Bo/constructions/random-scifi__
                 classic:
                     - >-
                       male __characters/professions/scifi/*__, __person/scifi/male__ wearing __Bo/clothings/scifi/male-attire__,
                       __person/scifi/poses__, __lighting/scifi__, __scenes/scifi/*__
                 scenery:
-                    - __bo/chars/char-scifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
+                    - __Bo/chars/char-scifi/male/classic__, __lighting/scifi__, __scenes/scifi/*__
             random:
                 - >-
-                  {__bo/chars/char-scifi/*male/*__|0.1::__bo/chars/char-scifi/div__}
+                  {__Bo/chars/char-scifi/*male/*__|0.1::__Bo/chars/char-scifi/div__}
         class-profession-itemslots:
-            - __bo/chars/class-profession-regular__, __characters/itemslots/*__
+            - __Bo/chars/class-profession-regular__, __characters/itemslots/*__
         class-profession-regular:
             - >-
               {male|female} __characters/beings/*__, {__characters/professions/*/*__,|}{__characters/classes/*__|}
         class-profession-weapon:
-            - __bo/chars/class-profession-regular__, __characters/weapons/*__
+            - __Bo/chars/class-profession-regular__, __characters/weapons/*__
         haircolor:
             - >-
               {0.7::__person/regular/haircolor__|0.3::__person/regular/haircolor-unconv__}
+        name:
+            - __characters/names/firstname*__ __characters/names/surname*__
         random:
-            - __bo/chars/char-*/random__
-            - __bo/chars/class-*__
+            - __Bo/chars/char-*/random__
+            - __Bo/chars/class-*__
     christmas:
-        # __bo/christmas/random__
+        # __Bo/christmas/random__
         random:
             - >-
               __christmas/artstyles__, {__christmas/characters__|__christmas/christmas-carol/*__},
@@ -260,7 +262,7 @@ Bo:
               {1-3$$__christmas/atmosphere__},
               __christmas/lightings__, {__christmas/scapes__|__christmas/scenes__|__christmas/traditions__|}
     clothings:
-        # __bo/clothings/random*__ or any subset like __bo/clothings/random-combination__
+        # __Bo/clothings/random*__ or any subset like __Bo/clothings/random-combination__
         random-accesoires:
             cyberpunk:
                 - >-
@@ -294,7 +296,7 @@ Bo:
         random-attire-male:
             - __Bo/clothings/*/male-attire__
         random-combination:
-            - __bo/clothings/random-upperbody__, __bo/clothings/random-lowerbody__
+            - __Bo/clothings/random-upperbody__, __Bo/clothings/random-lowerbody__
         random-dress-properties:
             cyberpunk:
                 - >-
@@ -321,13 +323,13 @@ Bo:
               __properties/fit__ full body clothing, {__styles/clothing/collar__,|__styles/clothing/neckline__,|}
               __properties/fabrics/*__, {__properties/patterns/*__,|} {__properties/materials*/*__,|}
               __styles/clothing/sleeve__, __styles/clothing/dress-length__, __styles/clothing/waistlines__,
-              __styles/clothing/skirt__, __bo/clothings/random-extras__
+              __styles/clothing/skirt__, __Bo/clothings/random-extras__
         random-lowerbody:
             - >-
               __properties/fit__ lower body clothing, __properties/fabrics/*__,
               {__properties/patterns/*__,|} {__properties/materials*/*__,|}
               __styles/clothing/fit-length__, __styles/clothing/waistlines__,
-              __bo/clothings/random-extras__
+              __Bo/clothings/random-extras__
         random-upperbody:
             - >-
               __properties/fit__ upper body clothing,
@@ -335,119 +337,119 @@ Bo:
               __properties/fabrics/*__, {__properties/patterns/*__,|}
               {__properties/materials*/*__,|} __styles/clothing/sleeve__,
               __styles/clothing/dress-length__, __styles/clothing/waistlines__,
-              __bo/clothings/random-extras__
+              __Bo/clothings/random-extras__
         cyberpunk:
             female-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/female/lower-body__,
-                  {0.8::__bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/female/upper-body__,
+                  {0.8::__Bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/female/lower-body__,
+                  {0.8::__Bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/female/upper-body__,
                   {0.8::__clothings/cyberpunk/female/footwear__,|} {0.5::__clothings/cyberpunk/female/headwear__,|}
-                  __bo/clothings/random-accesoires/cyberpunk__
+                  __Bo/clothings/random-accesoires/cyberpunk__
             male-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/male/lower-body__,
-                  {0.8::__bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/male/upper-body__,
+                  {0.8::__Bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/male/lower-body__,
+                  {0.8::__Bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/male/upper-body__,
                   {0.8::__clothings/cyberpunk/male/footwear__,|} {0.5::__clothings/cyberpunk/male/headwear__,|}
-                  __bo/clothings/random-accesoires/cyberpunk__
+                  __Bo/clothings/random-accesoires/cyberpunk__
         magical:
             female-attire:
                 - >-
-                  { {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/female/lower-body__,
-                  {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/female/upper-body__,|
-                  {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/female/full-body__, }
+                  { {0.8::__Bo/chars/char-magical/properties-magical__|} __clothings/magical/female/lower-body__,
+                  {0.8::__Bo/chars/char-magical/properties-magical__|} __clothings/magical/female/upper-body__,|
+                  {0.8::__Bo/chars/char-magical/properties-magical__|} __clothings/magical/female/full-body__, }
                   {0.8::__clothings/regular/female/footwear__,|} {0.5::__clothings/regular/female/headwear__,|}
-                  __bo/clothings/random-accesoires/magical__
+                  __Bo/clothings/random-accesoires/magical__
             male-attire:
                 - >-
-                  { {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/male/lower-body__,
-                  {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/male/upper-body__,|
-                  {0.8::__bo/chars/char-magical/properties-magical__|} __clothings/magical/male/full-body__, }
+                  { {0.8::__Bo/chars/char-magical/properties-magical__|} __clothings/magical/male/lower-body__,
+                  {0.8::__Bo/chars/char-magical/properties-magical__|} __clothings/magical/male/upper-body__,|
+                  {0.8::__Bo/chars/char-magical/properties-magical__|} __clothings/magical/male/full-body__, }
                   {0.8::__clothings/magical/male/footwear__,|} {0.5::__clothings/magical/male/headwear__,|}
-                  __bo/clothings/random-accesoires/magical__
+                  __Bo/clothings/random-accesoires/magical__
         nsfw:
             female-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/nsfw__|}
+                  {0.8::__Bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/female/lower-body__|__clothings/nsfw/female/underwear-lower__},
-                  {0.8::__bo/clothings/random-dress-properties/nsfw__|}
+                  {0.8::__Bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/female/upper-body__|__clothings/nsfw/female/underwear-upper__},
                   {0.8::__clothings/regular/female/footwear__,|} {0.5::__clothings/regular/female/headwear__,|}
-                  __bo/clothings/random-accesoires/regular__
+                  __Bo/clothings/random-accesoires/regular__
             male-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/nsfw__|}
+                  {0.8::__Bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/male/lower-body__|__clothings/nsfw/male/underwear-lower__},
-                  {0.8::__bo/clothings/random-dress-properties/nsfw__|}
+                  {0.8::__Bo/clothings/random-dress-properties/nsfw__|}
                   {__clothings/nsfw/male/upper-body__,|__clothings/nsfw/male/underwear-upper__,|}
                   {0.8::__clothings/regular/male/footwear__,|} {0.5::__clothings/regular/male/headwear__,|}
-                  __bo/clothings/random-accesoires/regular__
+                  __Bo/clothings/random-accesoires/regular__
         regular:
             female-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/regular__|}
+                  {0.8::__Bo/clothings/random-dress-properties/regular__|}
                   __clothings/regular/female/lower-body__,
-                  {0.8::__bo/clothings/random-dress-properties/regular__|}
+                  {0.8::__Bo/clothings/random-dress-properties/regular__|}
                   __clothings/regular/female/upper-body__,
                   {0.8::__clothings/regular/female/footwear__,|}
                   {0.5::__clothings/regular/female/headwear__,|}
-                  __bo/clothings/random-accesoires/regular__
+                  __Bo/clothings/random-accesoires/regular__
             male-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/regular__|}
+                  {0.8::__Bo/clothings/random-dress-properties/regular__|}
                   __clothings/regular/male/lower-body__,
-                  {0.8::__bo/clothings/random-dress-properties/regular__|}
+                  {0.8::__Bo/clothings/random-dress-properties/regular__|}
                   __clothings/regular/male/upper-body__,
                   {0.8::__clothings/regular/male/footwear__,|}
                   {0.5::__clothings/regular/male/headwear__,|}
-                  __bo/clothings/random-accesoires/regular__
+                  __Bo/clothings/random-accesoires/regular__
         scifi:
             female-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/scifi__|}
+                  {0.8::__Bo/clothings/random-dress-properties/scifi__|}
                   __clothings/scifi/female/lower-body__,
-                  {0.8::__bo/clothings/random-dress-properties/scifi__|}
+                  {0.8::__Bo/clothings/random-dress-properties/scifi__|}
                   __clothings/scifi/female/upper-body__,
                   {0.8::__clothings/scifi/female/footwear__,|}
                   {0.5::__clothings/scifi/female/headwear__,|}
-                  __bo/clothings/random-accesoires/scifi__
+                  __Bo/clothings/random-accesoires/scifi__
             male-attire:
                 - >-
-                  {0.8::__bo/clothings/random-dress-properties/scifi__|}
+                  {0.8::__Bo/clothings/random-dress-properties/scifi__|}
                   __clothings/scifi/male/lower-body__,
-                  {0.8::__bo/clothings/random-dress-properties/scifi__|}
+                  {0.8::__Bo/clothings/random-dress-properties/scifi__|}
                   __clothings/scifi/male/upper-body__,
                   {0.8::__clothings/scifi/male/footwear__,|}
                   {0.5::__clothings/scifi/male/headwear__,|}
-                  __bo/clothings/random-accesoires/scifi__
+                  __Bo/clothings/random-accesoires/scifi__
     constructions:
-        # __bo/constructions/random*__
-        # __bo/constructions/buildings/*__
-        # __bo/constructions/rooms/*__
+        # __Bo/constructions/random*__
+        # __Bo/constructions/buildings/*__
+        # __Bo/constructions/rooms/*__
         buildings:
             cyberpunk:
                 - >-
                   __constructions/types/cyberpunk/*__, 
-                  {1-3$$__properties/materials-construction/cyberpunk__|__bo/constructions/materials-outdoor__},
-                  __bo/constructions/lighting-outdoor__
+                  {1-3$$__properties/materials-construction/cyberpunk__|__Bo/constructions/materials-outdoor__},
+                  __Bo/constructions/lighting-outdoor__
             fictional:
                 - >-
-                  __constructions/types/*/*__, {1-3$$__properties/materials-construction/basic*__|__bo/constructions/materials-outdoor__},
-                  __bo/constructions/lighting-outdoor__
+                  __constructions/types/*/*__, {1-3$$__properties/materials-construction/basic*__|__Bo/constructions/materials-outdoor__},
+                  __Bo/constructions/lighting-outdoor__
             magical:
                 - >-
                   __constructions/types/magical/*__,
-                  {1-3$$__properties/materials-construction/basic*__|__bo/constructions/materials-outdoor__},
-                  __bo/constructions/lighting-outdoor__
+                  {1-3$$__properties/materials-construction/basic*__|__Bo/constructions/materials-outdoor__},
+                  __Bo/constructions/lighting-outdoor__
             regular:
                 - >-
                   __constructions/types/regular/*__,
-                  {1-3$$__properties/materials-construction/basic__|__bo/constructions/materials-outdoor__},
-                  __bo/constructions/lighting-outdoor__
+                  {1-3$$__properties/materials-construction/basic__|__Bo/constructions/materials-outdoor__},
+                  __Bo/constructions/lighting-outdoor__
             scifi:
                 - >-
                   __constructions/types/scifi/*__,
-                  {1-3$$__properties/materials-construction/scifi__|__bo/constructions/materials-outdoor__},
-                  __bo/constructions/lighting-outdoor__
+                  {1-3$$__properties/materials-construction/scifi__|__Bo/constructions/materials-outdoor__},
+                  __Bo/constructions/lighting-outdoor__
         interior-design:
             - '{1-5$$__constructions/interior-design/*__}'
         interior-design-fictional:
@@ -466,49 +468,49 @@ Bo:
               roof}
         random:
             - >-
-              {__bo/constructions/rooms/*__|__bo/constructions/buildings/*__}
+              {__Bo/constructions/rooms/*__|__Bo/constructions/buildings/*__}
         random-building:
-            - __bo/constructions/buildings/*__
+            - __Bo/constructions/buildings/*__
         random-cyberpunk:
             - >-
-              {__bo/constructions/buildings/cyberpunk__|__bo/constructions/buildings/cyberpunk__}
+              {__Bo/constructions/buildings/cyberpunk__|__Bo/constructions/buildings/cyberpunk__}
         random-fictional:
             - >-
-              {__bo/constructions/buildings/fictional__|__bo/constructions/buildings/fictional__}
+              {__Bo/constructions/buildings/fictional__|__Bo/constructions/buildings/fictional__}
         random-magical:
             - >-
-              {__bo/constructions/buildings/magical__|__bo/constructions/buildings/magical__}
+              {__Bo/constructions/buildings/magical__|__Bo/constructions/buildings/magical__}
         random-regular:
             - >-
-              {__bo/constructions/rooms/regular__|__bo/constructions/buildings/regular__}
+              {__Bo/constructions/rooms/regular__|__Bo/constructions/buildings/regular__}
         random-room:
-            - __bo/constructions/rooms/*__
+            - __Bo/constructions/rooms/*__
         random-scifi:
             - >-
-              {__bo/constructions/buildings/scifi__|__bo/constructions/buildings/scifi__}
+              {__Bo/constructions/buildings/scifi__|__Bo/constructions/buildings/scifi__}
         rooms:
             cyberpunk:
                 - >-
-                  __constructions/rooms/cyberpunk/*__, __bo/constructions/interior-design-fictional__,
-                  __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__,
+                  __constructions/rooms/cyberpunk/*__, __Bo/constructions/interior-design-fictional__,
+                  __Bo/constructions/materials-indoor__, __Bo/constructions/lighting-indoor__,
                   cyberpunk, sci-fi
             fictional:
                 - >-
-                  __constructions/rooms/*/*__, __bo/constructions/interior-design-fictional__,
-                  __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__,
+                  __constructions/rooms/*/*__, __Bo/constructions/interior-design-fictional__,
+                  __Bo/constructions/materials-indoor__, __Bo/constructions/lighting-indoor__,
                   __styles/punk-styles__
             magical:
                 - >-
-                  __constructions/rooms/magical/*__, __bo/constructions/interior-design-fictional__,
-                  __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__,fantasy
+                  __constructions/rooms/magical/*__, __Bo/constructions/interior-design-fictional__,
+                  __Bo/constructions/materials-indoor__, __Bo/constructions/lighting-indoor__,fantasy
             regular:
                 - >-
-                  __constructions/rooms/regular/*__, __bo/constructions/interior-design__, __bo/constructions/materials-indoor__,
-                  __bo/constructions/lighting-indoor__
+                  __constructions/rooms/regular/*__, __Bo/constructions/interior-design__, __Bo/constructions/materials-indoor__,
+                  __Bo/constructions/lighting-indoor__
             scifi:
                 - >-
-                  __constructions/rooms/scifi/*__, __bo/constructions/interior-design-fictional__,
-                  __bo/constructions/materials-indoor__, __bo/constructions/lighting-indoor__,
+                  __constructions/rooms/scifi/*__, __Bo/constructions/interior-design-fictional__,
+                  __Bo/constructions/materials-indoor__, __Bo/constructions/lighting-indoor__,
                   __styles/punk-styles__, sci-fi
     cosmic:
         random:
@@ -516,10 +518,10 @@ Bo:
               {__astronomy/celestial-bodies__|__astronomy/spacecrafts__|__astronomy/relations__|__astronomy/celestial-anything__},
               __astronomy/relations__, __phenomena/astronomy/abstract__, __phenomena/astronomy/natural__
     creative:
-        # __bo/creative/random-atmosphere__
-        # __bo/creative/random-elements__
-        # __bo/creative/random-scapes__
-        # __bo/creative/myprompt__
+        # __Bo/creative/random-atmosphere__
+        # __Bo/creative/random-elements__
+        # __Bo/creative/random-scapes__
+        # __Bo/creative/myprompt__
         random-atmosphere:
             - >-
               {1-10$$__atmosphere/*__}
@@ -531,7 +533,7 @@ Bo:
               __properties/colors/*__ __atmosphere/elemental__ __atmosphere/elements__
         random-scapes:
             - >-
-              {0.7::__atmosphere/*__|0.3::{__bo/creative/random-elements__|__magical/types/*__|__lighting/*__|
+              {0.7::__atmosphere/*__|0.3::{__Bo/creative/random-elements__|__magical/types/*__|__lighting/*__|
               __astronomy/relations__|__properties/colors/*__|__matter/*__|
               __properties/materials*/*__|__properties/paint/*__|__properties/patterns/*__|
               __properties/shape/*__|__properties/size/*__|__properties/textures/*__|
@@ -541,13 +543,13 @@ Bo:
               0.05::__habitats/housing__}
         myprompt:
             - >-
-              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,__bo/creative/random-scapes__,__bo/creative/random-scapes__,__bo/creative/random-scapes__
-              __bo/styles/random-ambient-effect__,__phenomena/*/*__, __bo/creative/random-atmosphere__
+              hyper detailed masterpiece, dynamic realistic digital art, awesome quality,__Bo/creative/random-scapes__,__Bo/creative/random-scapes__,__Bo/creative/random-scapes__
+              __Bo/styles/random-ambient-effect__,__phenomena/*/*__, __Bo/creative/random-atmosphere__
 
     creatures:
-        # __bo/creatures/animalfusion__
-        # __bo/creatures/dragons__
-        # __bo/creatures/random__
+        # __Bo/creatures/animalfusion__
+        # __Bo/creatures/dragons__
+        # __Bo/creatures/random__
         animalfusion:
             - fusion of {2-5$$__creatures/species/*__}
         dragons:
@@ -584,12 +586,12 @@ Bo:
               {__properties/colors/*__,|__properties/patterns/unusual__,|}
 
     habitats:
-        # __bo/habitats/random__
+        # __Bo/habitats/random__
         random:
             - __habitats/types__ __habitats/housing__ in __habitats/biomes__ biome
             - __habitats/places/*__    in __habitats/biomes__ biome
     halloween:
-        # __bo/halloween/random*__
+        # __Bo/halloween/random*__
         random-anything:
             - >-
               __halloween/atmosphere__ __halloween/artstyles__ __halloween/costumes__ __halloween/places-sceneries__
@@ -608,9 +610,9 @@ Bo:
               pumpkin carving, __halloween/pumpkin-carving/techniques__, __halloween/pumpkin-carving/styles__,
               __halloween/pumpkin-carving/expressions__
     jewelry:
-        # __bo/jewelry/random__
+        # __Bo/jewelry/random__
         random:
-            - __jewelry/types__, __bo/jewelry/random-properties__
+            - __jewelry/types__, __Bo/jewelry/random-properties__
         random-properties:
             - >-
               __jewelry/brilliance__ __jewelry/clarities__ __chemistry/gems__, __jewelry/cut__, __jewelry/facets__,
@@ -623,7 +625,7 @@ Bo:
               __properties/materials-jewelry/metal-type__, __jewelry/durability__,
               __jewelry/treatments__, __jewelry/rarity__, __jewelry/style__, __jewelry/age__, __jewelry/symbolism__
     machines:
-        # __bo/machines/random*__
+        # __Bo/machines/random*__
         random:
             - >-
               __machines/types/*__, {2-6$$__machines/parts/*__}, 
@@ -636,7 +638,7 @@ Bo:
               {__properties/patterns/machines__}, 
               {__properties/textures/machines__}
     plants:
-        # __bo/plants/random*__
+        # __Bo/plants/random*__
         random-plant:
             - >-
               {__properties/size/plants__ __properties/colors/*__ __plants/growth-habit__ __properties/shape/plants__
@@ -657,13 +659,13 @@ Bo:
               __mushrooms/volva__,|__mushrooms/pileus__,|__mushrooms/pores__,| __mushrooms/hymenium__,| __mushrooms/latex__ latex,|}
               {__properties/colors/*__ __mushrooms/stipe-base__,|} {__mushrooms/poisonous-properties__,|__mushrooms/medicinal-properties__,|} }
     psycho:
-        # __bo/pyscho/random__
+        # __Bo/pyscho/random__
         random:
             - >-
               __brain-psychology/terms__, __brain-psychology/practices-fields__, __brain-psychology/concepts-phenomena__,
               __brain-psychology/neural-circuit-patterns__, {1-3$$__words/brain-psychology/*__}
     scenes:
-        # __bo/scenes/random*__
+        # __Bo/scenes/random*__
         random:
             - __scenes/settings/*__, {1-4$$__scenes/features*__}
         random-city:
@@ -676,14 +678,14 @@ Bo:
             - >
               {3-10$$__subjects-school/*__}
     scifi:
-        # __bo/scifi/random__
+        # __Bo/scifi/random__
         random:
             - __subtypes/scifi__ of __characters/beings/scifi__ , __characters/professions/scifi/*__
             - __words/scifi/verbs__ __words/scifi/adjectives__ __words/scifi/substantives__
             - '{3-7$$__scifi/computer/errors__|__scifi/atmosphere/*__}'
     styles:
-        # __bo/styles/random-anything__
-        # __bo/styles/random*__
+        # __Bo/styles/random-anything__
+        # __Bo/styles/random*__
         random-ambient-effect:
             - __styles/ambient-effects__
         random-animation-style:
@@ -700,11 +702,11 @@ Bo:
               __styles/depiction-styles/*__,
               {__styles/animations__,|}
               {__styles/ambient-effects__,|}
-              __bo/styles/random-quality-prompts__,
+              __Bo/styles/random-quality-prompts__,
               __styles/resolutions__,
               __styles/creative-concepts__,
               __styles/styleelementstext__
-              #__bo/styles/random-camera-settings__"
+              #__Bo/styles/random-camera-settings__"
         random-artstyle:
             - __styles/art-styles__
         random-camera-settings:
@@ -738,7 +740,7 @@ Bo:
         random-resolution:
             - __styles/resolutions__
     vehicles:
-        # __bo/vehicles/random*__
+        # __Bo/vehicles/random*__
         random:
             - >-
              {__vehicles/size__|} __vehicles/types/*__, {__vehicles/exterior-features__,|}
@@ -4907,7 +4909,7 @@ characters:
                 - >-
                   {female|male}  __characters/magical-beings/doppelganger/name__, __characters/magical-beings/doppelganger/characteristics__
         dragonborn:
-            # real dragons with __bo/creatures/dragon*__
+            # real dragons with __Bo/creatures/dragon*__
             characteristics:
                 - >-
                   {male|female} human with dragonic characteristics,
@@ -4921,7 +4923,7 @@ characters:
                 - >-
                   {female|male}  __characters/magical-beings/dragonborn/name__, __characters/magical-beings/dragonborn/characteristics__
         dragon-human-form:
-            # real dragons with __bo/creatures/dragon*__
+            # real dragons with __Bo/creatures/dragon*__
             characteristics:
                 - >-
                   {male|female} human, human head and face,
@@ -5446,7 +5448,7 @@ characters:
             characteristics:
                 - >-
                   human, multiple tails, fox ears,power,
-                  magical enchanting aura,supernatural alluring eyes, fox ears,
+                  magical enchanting aura,supernatural alluring eyes,
                   white and red, intelligence, trickery,wisdom, supernatural feats
                 - >-
                   mythical creature, japanese folklore, intelligent, humanform with multiple
@@ -6315,6 +6317,392 @@ characters:
                 - yuki-onna
             prompt:
                 - __characters/magical-beings/yuki-onna/name__, __characters/magical-beings/yuki-onna/characteristics__
+
+    names:
+        firstname-female:
+            - Acacius
+            - Adelais
+            - Adelphia
+            - Aeliana
+            - Aerith
+            - Agrippina
+            - Aisling
+            - Alarice
+            - Alathea
+            - Alouette
+            - Amaranta
+            - Amarantha
+            - Amarilis
+            - Andromeda
+            - Antheia
+            - Apollonia
+            - Aquilina
+            - Arcangela
+            - Arianwen
+            - Araminta
+            - Belisent
+            - Belphoebe
+            - Beryl
+            - Caelia
+            - Calanthe
+            - Calista
+            - Calixta
+            - Capucine
+            - Cassiopeia
+            - Celestia
+            - Chrysanthe
+            - Cressida
+            - Cybele
+            - Damaris
+            - Delphine
+            - Demelza
+            - Desdemona
+            - Eirlys
+            - Elara
+            - Elizaveta
+            - Elowen
+            - Elysande
+            - Elysia
+            - Endellion
+            - Esméralda
+            - Evadne
+            - Evensong
+            - Faelan
+            - Fiammetta
+            - Filomena
+            - Galadriel
+            - Galienne
+            - Genoveva
+            - Gwyneira
+            - Halcyon
+            - Heliodora
+            - Hesperia
+            - Idalina
+            - Idaline
+            - Idalys
+            - Ignacia
+            - Illyria
+            - Isabeau
+            - Isabele
+            - Isolde
+            - Ithilien
+            - Ithilwen
+            - Jacinthe
+            - Jezebel
+            - Jessamine
+            - Kalantha
+            - Kalista
+            - Keladry
+            - Kirrily
+            - Kismet
+            - Lavinia
+            - Leocadia
+            - Leocadie
+            - Lilith
+            - Lilou
+            - Lumina
+            - Maelle
+            - Maelona
+            - Madrigal
+            - Melisande
+            - Melisent
+            - Merewen
+            - Merewina
+            - Morwenna
+            - Nefertari
+            - Niniane
+            - Nolwen
+            - Nolwenne
+            - Ondine
+            - Orithia
+            - Ourania
+            - Parthenia
+            - Pernille
+            - Petronella
+            - Philomena
+            - Pomeline
+            - Quenby
+            - Quiterie
+            - Rosalba
+            - Rosalind
+            - Seraphina
+            - Serenella
+            - Sidonie
+            - Sidonia
+            - Solene
+            - Sylvestra
+            - Thalassa
+            - Theodosia
+            - Tindra
+            - Ulyssa
+            - Valkyria
+            - Valkyrie
+            - Viridiana
+            - Ylva
+            - Ysabeau
+            - Zephyra
+            - Zephyrine
+            - Zephyrith
+            - Zinnia
+        firstname-male:
+            - Abner
+            - Aeneas
+            - Alistair
+            - Alaric
+            - Amadeus
+            - Ambrose
+            - Anatole
+            - Archimedes
+            - Augustus
+            - Barnabas
+            - Bartholomew
+            - Beauregard
+            - Belvedere
+            - Bertram
+            - Branwell
+            - Caius
+            - Caliban
+            - Casimir
+            - Cassian
+            - Caspian
+            - Cornelius
+            - Cosimo
+            - Cyprian
+            - Dorian
+            - Draven
+            - Emeric
+            - Emilian
+            - Endymion
+            - Eryx
+            - Evander
+            - Fabian
+            - Faramond
+            - Fidelio
+            - Finnegan
+            - Finnian
+            - Florian
+            - Galileo
+            - Gavriel
+            - Hadrian
+            - Havelock
+            - Ignatius
+            - Isambard
+            - Jethro
+            - Jolyon
+            - Lazarus
+            - Leander
+            - Ludovico
+            - Lucullus
+            - Malachai
+            - Marcellus
+            - Maximilian
+            - Maximus
+            - Milosz
+            - Octavian
+            - Oberon
+            - Odysseus
+            - Orpheus
+            - Osric
+            - Peregrine
+            - Phineas
+            - Prospero
+            - Quintus
+            - Remington
+            - Remus
+            - Romulus
+            - Sebastian
+            - Seraphim
+            - Silvius
+            - Stellan
+            - Tarquin
+            - Thaddeus
+            - Thelonius
+            - Tiberius
+            - Ulysses
+            - Valerian
+            - Valerius
+            - Vespasian
+            - Xerxes
+            - Zephyrus
+            - Zephyrinus
+        surname-common:
+            - Abbott
+            - Adams
+            - Allen
+            - Anderson
+            - Bailey
+            - Baker
+            - Bennett
+            - Brooks
+            - Brown
+            - Campbell
+            - Carter
+            - Clark
+            - Collins
+            - Davis
+            - Dixon
+            - Edwards
+            - Elliott
+            - Ellis
+            - Evans
+            - Fisher
+            - Foster
+            - Franklin
+            - Gibson
+            - Gonzalez
+            - Graham
+            - Gray
+            - Greene
+            - Hall
+            - Harris
+            - Hayes
+            - Hernandez
+            - Hughes
+            - Ingram
+            - Jackson
+            - Jenkins
+            - Johnson
+            - Jones
+            - Kelly
+            - Kennedy
+            - King
+            - Knight
+            - Lawson
+            - Lewis
+            - Lopez
+            - Martinez
+            - Miller
+            - Mitchell
+            - Morgan
+            - Murphy
+            - Nguyen
+            - Nelson
+            - Norton
+            - O'Connor
+            - Owens
+            - Parker
+            - Patel
+            - Patterson
+            - Phillips
+            - Quinn
+            - Ramirez
+            - Reynolds
+            - Roberts
+            - Robinson
+            - Rogers
+            - Sanders
+            - Sanchez
+            - Smith
+            - Stewart
+            - Taylor
+            - Thompson
+            - Torres
+            - Turner
+            - Underwood
+            - Vaughn
+            - Wallace
+            - Watson
+            - Ward
+            - Williams
+            - Young
+        surname-uncommon:
+            - Abernathy
+            - Beauford
+            - Blakemore
+            - Bramble
+            - Caldwell
+            - Chatterley
+            - Cogswell
+            - Dunsforth
+            - Eddington
+            - Fairweather
+            - Fitzwilliam
+            - Gladstone
+            - Grimsley
+            - Hawthorn
+            - Hazelwood
+            - Holloway
+            - Huckleberry
+            - Jollimore
+            - Kingsford
+            - Larkspur
+            - MacGillicuddy
+            - Middleditch
+            - Northcott
+            - Pendergrass
+            - Pettigrew
+            - Quackenbush
+            - Quibble
+            - Rainwater
+            - Rumblebottom
+            - Sablewood
+            - Scrimshaw
+            - Shackleford
+            - Slingsby
+            - Stalwart
+            - Sycamore
+            - Thistledown
+            - Tumbleweed
+            - Umbridge
+            - Vickers
+            - Wallflower
+            - Waverley
+            - Weatherspoon
+            - Wetherall
+            - Whipple
+            - Windermere
+            - Wintringham
+            - Woodruff
+            - Yarbrough
+            - Abberley
+            - Ashenford
+            - Barnsley
+            - Becket
+            - Brampton
+            - Chadwick
+            - Cholmondeley
+            - Chumley
+            - Cresswell
+            - Cressy
+            - Dymond
+            - Eggleston
+            - Elswood
+            - Featherstone
+            - Fotheringham
+            - Gainsborough
+            - Giggleswick
+            - Grimsditch
+            - Haverstock
+            - Hazelmere
+            - Higglesworth
+            - Kettering
+            - Kilmartin
+            - Kimble
+            - Luddington
+            - Marigold
+            - Merryweather
+            - Middlewood
+            - Northcliff
+            - Pickles
+            - Puddlefoot
+            - Quibell
+            - Rafferty
+            - Rainville
+            - Scudamore
+            - Shadwell
+            - Smickle
+            - Somersby
+            - Stansfield
+            - Starling
+            - Tetherow
+            - Twiggletop
+            - Underhill
+            - Wainscott
+            - Walmington
+            - Wexford
+            - Whippleshire
+            - Whitcombe
+            - Yarborough
 
     professions:
         cyberpunk:
@@ -17902,7 +18290,7 @@ magical:
           {-1$$__matter/state__}} magic:1.0)
     magic-14411:
         - >-
-          __magical/actions__ __magical/spell-types__ shaped like __properties/shape/magical__ of __bo/creative/random-elements__ and __magical/types/*__
+          __magical/actions__ __magical/spell-types__ shaped like __properties/shape/magical__ of __Bo/creative/random-elements__ and __magical/types/*__
     profession-magic-use:
         caster:
             - __magical/types/air__
@@ -20107,14 +20495,14 @@ person:
               {__person/regular/forehead__,|} {__person/regular/face-shape__,|}
               {__person/regular/body-feature__,|} 
               { {0.7::__person/regular/facial-features__|}| {0.5::__person/regular/makeup__|} },
-              __bo/chars/haircolor__ __person/regular/haircuts-female__ hair,
+              __Bo/chars/haircolor__ __person/regular/haircuts-female__ hair,
               __person/regular/expressions__
         female_simple:
             - >-
               __person/regular/ages__, __person/regular/bodyshapes__, __person/regular/ethnics__,
               __person/regular/eyecolor__, {__person/regular/ears__,|}
               { {0.7::__person/regular/facial-features__|}| {0.5::__person/regular/makeup__|} },
-              __bo/chars/haircolor__ __person/regular/haircuts-female__ hair,
+              __Bo/chars/haircolor__ __person/regular/haircuts-female__ hair,
               __person/regular/expressions__
         forehead:
             - broad forehead
@@ -20342,14 +20730,14 @@ person:
               {__person/regular/chin__,|} {__person/regular/jaw__,|} {__person/regular/cheek__,|}
               {__person/regular/forehead__,|} {__person/regular/face-shape__,|} {__person/regular/body-feature__,|}
               { {0.7::__person/regular/facial-features__|}| {0.5::__person/regular/beard__|} },
-              __bo/chars/haircolor__ __person/regular/haircuts-male__ hair,
+              __Bo/chars/haircolor__ __person/regular/haircuts-male__ hair,
               __person/regular/expressions__
         male_simple:
             - >-
               __person/regular/ages__ __person/regular/bodyshapes__, __person/regular/ethnics__,
               __person/regular/eyecolor__, {__person/regular/ears__,|}
               { {0.7::__person/regular/facial-features__|}| {0.5::__person/regular/beard__|} },
-              __bo/chars/haircolor__ __person/regular/haircuts-male__ hair,
+              __Bo/chars/haircolor__ __person/regular/haircuts-male__ hair,
               __person/regular/expressions__
         noses:
             - straight nose
@@ -23299,6 +23687,7 @@ properties:
             - Beam
             - Cantrip
             - Cascade
+            - Coil
             - Curse
             - Dimension
             - Enchantment
