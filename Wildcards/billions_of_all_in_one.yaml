@@ -351,6 +351,7 @@ Bo:
                   {0.8::__Bo/clothings/random-dress-properties/cyberpunk__|} __clothings/cyberpunk/male/upper-body__,
                   {0.8::__clothings/cyberpunk/male/footwear__,|} {0.5::__clothings/cyberpunk/male/headwear__,|}
                   __Bo/clothings/random-accesoires/cyberpunk__
+
         historical:
             female-baroque:
                 - >- 
@@ -364,6 +365,19 @@ Bo:
                   __clothings/baroque/male/attire/collor-cleavage__, __clothings/baroque/male/attire/upper-body__,
                   __clothings/baroque/male/attire/lower-body__, __clothings/baroque/male/attire/accesoires__, 
                   __properties/colors/*__
+            female-edo:
+                - >- 
+                  edo period __clothings/edoperiod/female/dress/types__, __clothings/edoperiod/female/dress/arms__,
+                  __clothings/edoperiod/female/dress/collor-cleavage__, __clothings/edoperiod/female/dress/upper-body__,
+                  __clothings/edoperiod/female/dress/lower-body__, __clothings/edoperiod/female/dress/accesoires__, 
+                  __properties/colors/*__
+            male-edo:
+                - >- 
+                  edo period __clothings/edoperiod/male/attire/types__, __clothings/edoperiod/male/attire/arms__,
+                  __clothings/edoperiod/male/attire/collor-cleavage__, __clothings/edoperiod/male/attire/upper-body__,
+                  __clothings/edoperiod/male/attire/lower-body__, __clothings/edoperiod/male/attire/accesoires__, 
+                  __properties/colors/*__
+
         magical:
             female-attire:
                 - >-
@@ -6377,7 +6391,7 @@ characters:
             - Elysande
             - Elysia
             - Endellion
-            - Esméralda
+            - Esmeralda
             - Evadne
             - Evensong
             - Faelan
@@ -8712,287 +8726,287 @@ clothings:
         female:
             dress:
                 accesoires:
-                    - Baroque Pearl Necklaces
-                    - Cameo Brooches
-                    - Choker Necklaces
-                    - Embellished Fans
-                    - Feathered Hairpins
-                    - Filigree Earrings
-                    - Floral Corsages
-                    - Gemstone Rings
-                    - Gold Filigree Combs
-                    - Lace Hand Fans
-                    - Locket Bracelets
-                    - Muff Hand Warmers
-                    - Ribbon Bows
-                    - Rosette Hairpins
-                    - Silk Gloves
-                    - Tassel Earrings
-                    - Velvet Ribbon Chokers
+                    - baroque pearl necklaces
+                    - cameo brooches
+                    - choker necklaces
+                    - embellished fans
+                    - feathered hairpins
+                    - filigree earrings
+                    - floral corsages
+                    - gemstone rings
+                    - gold filigree combs
+                    - lace hand fans
+                    - locket bracelets
+                    - muff hand warmers
+                    - ribbon bows
+                    - rosette hairpins
+                    - silk gloves
+                    - tassel earrings
+                    - velvet ribbon chokers
 
                 arms:
-                    - Appliqué Detailing
-                    - Beaded Fringe
-                    - Beaded Netting
-                    - Bell Sleeves
-                    - Brocade Appliqués
-                    - Brocade Appliqués
-                    - Cuff Embellishments
-                    - Corded Appliqués
-                    - Corded Knots
-                    - Corded Trims
-                    - Crochet Lace Inserts
-                    - Crocheted Edges
-                    - Crocheted Tassels
-                    - Draped Sleeves
-                    - Embellished Buttons
-                    - Embellished Collar and Cuff Sets
-                    - Embroidered Foliage
-                    - Embroidered Lace Edges
-                    - Embroidery and Brocade
-                    - Faux Fur Trims
-                    - Faux Pearl Embellishments
-                    - Feather Trims
-                    - Floral Appliqués
-                    - Floral Lace Inserts
-                    - Floral Patterns
-                    - Flared Cuffs
-                    - Gathered Wrists
-                    - Geometric Designs
-                    - Gilded Passementerie
-                    - Gimp Braids
-                    - Gossamer Ribbons
-                    - Gossamer Tulle Overlay
-                    - Gold and Silver Embroidery
-                    - Gold Braiding
-                    - Gold Bullion
-                    - Gold Thread Tassels
-                    - Hazelwood
-                    - Lace Cuff Inserts
-                    - Lace Ruffles
-                    - Lace Ruching
-                    - Lattice Detailing
-                    - Layered Ruffles
-                    - Metallic Brocade Cuffs
-                    - Metallic Threadwork
-                    - Organza Bows
-                    - Organza Inserts
-                    - Pearl Buttons
-                    - Pearl or Gemstone Decorations
-                    - Pleated Cuff Bands
-                    - Pleated Satin Cuffs
-                    - Pleated Tulle Inserts
-                    - Pouf or Padding
-                    - Puffed and Slashed Sleeves
-                    - Puff and Slash Decorations
-                    - Quackenbush
-                    - Quilted Sleeves
-                    - Ribbon and Bow Accents
-                    - Ribbon Lacing
-                    - Ribbon Medallions
-                    - Ribbon Pom-Poms
-                    - Ribbon Rosettes
-                    - Ribbon Streamers
-                    - Ribbon Ties
-                    - Ruched Detailing
-                    - Ruched Organza
-                    - Ruched Tulle
-                    - Ruffled Collars
-                    - Ruffled Cuffs
-                    - Ruffled Taffeta
-                    - Sablewood
-                    - Sash or Ribbon Ties
-                    - Satin Bows
-                    - Satin Piping
-                    - Scalloped Edges
-                    - Scalloped Lace Trim
-                    - Scalloped Organza
-                    - Scalloped Satin Trim
-                    - Sequin Embellishments
-                    - Sequin Tassels
-                    - Sheer Fabrics
-                    - Silk Cord Loops
-                    - Silk Rosettes
-                    - Silk Tied Closures
-                    - Silk Tassels
-                    - Slingsby
-                    - Soutache Embroidery
-                    - Tassel and Fringe Embellishments
-                    - Tassels and Fringe Embellishments
-                    - Thistledown
-                    - Tiered Ruffles
-                    - Tied Sashes
-                    - Tied Satin Bows
-                    - Velvet and Silk Fabrics
-                    - Velvet Bows
-                    - Velvet Piping
-                    - Velvet Ribbon Trim
-                    - Windermere
-                    - Woodruff
-                    - Yarborough
-                    - Umbridge
+                    - applique detailing
+                    - beaded fringe
+                    - beaded netting
+                    - bell sleeves
+                    - brocade appliques
+                    - brocade appliques
+                    - cuff embellishments
+                    - corded appliques
+                    - corded knots
+                    - corded trims
+                    - crochet lace inserts
+                    - crocheted edges
+                    - crocheted tassels
+                    - draped sleeves
+                    - embellished buttons
+                    - embellished collar and cuff sets
+                    - embroidered foliage
+                    - embroidered lace edges
+                    - embroidery and brocade
+                    - faux fur trims
+                    - faux pearl embellishments
+                    - feather trims
+                    - floral appliques
+                    - floral lace inserts
+                    - floral patterns
+                    - flared cuffs
+                    - gathered wrists
+                    - geometric designs
+                    - gilded passementerie
+                    - gimp braids
+                    - gossamer ribbons
+                    - gossamer tulle overlay
+                    - gold and silver embroidery
+                    - gold braiding
+                    - gold bullion
+                    - gold thread tassels
+                    - hazelwood
+                    - lace cuff inserts
+                    - lace ruffles
+                    - lace ruching
+                    - lattice detailing
+                    - layered ruffles
+                    - metallic brocade cuffs
+                    - metallic threadwork
+                    - organza bows
+                    - organza inserts
+                    - pearl buttons
+                    - pearl or gemstone decorations
+                    - pleated cuff bands
+                    - pleated satin cuffs
+                    - pleated tulle inserts
+                    - pouf or padding
+                    - puffed and slashed sleeves
+                    - puff and slash decorations
+                    - quackenbush
+                    - quilted sleeves
+                    - ribbon and bow accents
+                    - ribbon lacing
+                    - ribbon medallions
+                    - ribbon pom-poms
+                    - ribbon rosettes
+                    - ribbon streamers
+                    - ribbon ties
+                    - ruched detailing
+                    - ruched organza
+                    - ruched tulle
+                    - ruffled collars
+                    - ruffled cuffs
+                    - ruffled taffeta
+                    - sablewood
+                    - sash or ribbon ties
+                    - satin bows
+                    - satin piping
+                    - scalloped edges
+                    - scalloped lace trim
+                    - scalloped organza
+                    - scalloped satin trim
+                    - sequin embellishments
+                    - sequin tassels
+                    - sheer fabrics
+                    - silk cord loops
+                    - silk rosettes
+                    - silk tied closures
+                    - silk tassels
+                    - slingsby
+                    - soutache embroidery
+                    - tassel and fringe embellishments
+                    - tassels and fringe embellishments
+                    - thistledown
+                    - tiered ruffles
+                    - tied sashes
+                    - tied satin bows
+                    - velvet and silk fabrics
+                    - velvet bows
+                    - velvet piping
+                    - velvet ribbon trim
+                    - windermere
+                    - woodruff
+                    - yarborough
+                    - umbridge
                 collor-cleavage:
-                    - Appliqué Detailing
-                    - Beaded Fringe
-                    - Beaded Netting
-                    - Bell Sleeves
-                    - Brocade Appliqués
-                    - Brocade Appliqués
-                    - Cuff Embellishments
-                    - Corded Appliqués
-                    - Corded Knots
-                    - Corded Trims
-                    - Crochet Lace Inserts
-                    - Crocheted Edges
-                    - Crocheted Tassels
-                    - Draped Sleeves
-                    - Embellished Buttons
-                    - Embellished Collar and Cuff Sets
-                    - Embroidered Foliage
-                    - Embroidered Lace Edges
-                    - Embroidery and Brocade
-                    - Faux Fur Trims
-                    - Faux Pearl Embellishments
-                    - Feather Trims
-                    - Floral Appliqués
-                    - Floral Lace Inserts
-                    - Floral Patterns
-                    - Flared Cuffs
-                    - Gathered Wrists
-                    - Geometric Designs
-                    - Gilded Passementerie
-                    - Gimp Braids
-                    - Gossamer Ribbons
-                    - Gossamer Tulle Overlay
-                    - Gold and Silver Embroidery
-                    - Gold Braiding
-                    - Gold Bullion
-                    - Gold Thread Tassels
-                    - Hazelwood
-                    - Lace Cuff Inserts
-                    - Lace Ruffles
-                    - Lace Ruching
-                    - Lattice Detailing
-                    - Layered Ruffles
-                    - Metallic Brocade Cuffs
-                    - Metallic Threadwork
-                    - Organza Bows
-                    - Organza Inserts
-                    - Pearl Buttons
-                    - Pearl or Gemstone Decorations
-                    - Pleated Cuff Bands
-                    - Pleated Satin Cuffs
-                    - Pleated Tulle Inserts
-                    - Pouf or Padding
-                    - Puffed and Slashed Sleeves
-                    - Puff and Slash Decorations
-                    - Quackenbush
-                    - Quilted Sleeves
-                    - Ribbon and Bow Accents
-                    - Ribbon Lacing
-                    - Ribbon Medallions
-                    - Ribbon Pom-Poms
-                    - Ribbon Rosettes
-                    - Ribbon Streamers
-                    - Ribbon Ties
-                    - Ruched Detailing
-                    - Ruched Organza
-                    - Ruched Tulle
-                    - Ruffled Collars
-                    - Ruffled Cuffs
-                    - Ruffled Taffeta
-                    - Sablewood
-                    - Sash or Ribbon Ties
-                    - Satin Bows
-                    - Satin Piping
-                    - Scalloped Edges
-                    - Scalloped Lace Trim
-                    - Scalloped Organza
-                    - Scalloped Satin Trim
-                    - Sequin Embellishments
-                    - Sequin Tassels
-                    - Sheer Fabrics
-                    - Silk Cord Loops
-                    - Silk Rosettes
-                    - Silk Tied Closures
-                    - Silk Tassels
-                    - Slingsby
-                    - Soutache Embroidery
-                    - Tassel and Fringe Embellishments
-                    - Tassels and Fringe Embellishments
-                    - Thistledown
-                    - Tiered Ruffles
-                    - Tied Sashes
-                    - Tied Satin Bows
-                    - Velvet and Silk Fabrics
-                    - Velvet Bows
-                    - Velvet Piping
-                    - Velvet Ribbon Trim
-                    - Windermere
-                    - Woodruff
-                    - Yarborough
-                    - Umbridge
+                    - applique detailing
+                    - beaded fringe
+                    - beaded netting
+                    - bell sleeves
+                    - brocade appliques
+                    - brocade appliques
+                    - cuff embellishments
+                    - corded appliques
+                    - corded knots
+                    - corded trims
+                    - crochet lace inserts
+                    - crocheted edges
+                    - crocheted tassels
+                    - draped sleeves
+                    - embellished buttons
+                    - embellished collar and cuff sets
+                    - embroidered foliage
+                    - embroidered lace edges
+                    - embroidery and brocade
+                    - faux fur trims
+                    - faux pearl embellishments
+                    - feather trims
+                    - floral appliques
+                    - floral lace inserts
+                    - floral patterns
+                    - flared cuffs
+                    - gathered wrists
+                    - geometric designs
+                    - gilded passementerie
+                    - gimp braids
+                    - gossamer ribbons
+                    - gossamer tulle overlay
+                    - gold and silver embroidery
+                    - gold braiding
+                    - gold bullion
+                    - gold thread tassels
+                    - hazelwood
+                    - lace cuff inserts
+                    - lace ruffles
+                    - lace ruching
+                    - lattice detailing
+                    - layered ruffles
+                    - metallic brocade cuffs
+                    - metallic threadwork
+                    - organza bows
+                    - organza inserts
+                    - pearl buttons
+                    - pearl or gemstone decorations
+                    - pleated cuff bands
+                    - pleated satin cuffs
+                    - pleated tulle inserts
+                    - pouf or padding
+                    - puffed and slashed sleeves
+                    - puff and slash decorations
+                    - quackenbush
+                    - quilted sleeves
+                    - ribbon and bow accents
+                    - ribbon lacing
+                    - ribbon medallions
+                    - ribbon pom-poms
+                    - ribbon rosettes
+                    - ribbon streamers
+                    - ribbon ties
+                    - ruched detailing
+                    - ruched organza
+                    - ruched tulle
+                    - ruffled collars
+                    - ruffled cuffs
+                    - ruffled taffeta
+                    - sablewood
+                    - sash or ribbon ties
+                    - satin bows
+                    - satin piping
+                    - scalloped edges
+                    - scalloped lace trim
+                    - scalloped organza
+                    - scalloped satin trim
+                    - sequin embellishments
+                    - sequin tassels
+                    - sheer fabrics
+                    - silk cord loops
+                    - silk rosettes
+                    - silk tied closures
+                    - silk tassels
+                    - slingsby
+                    - soutache embroidery
+                    - tassel and fringe embellishments
+                    - tassels and fringe embellishments
+                    - thistledown
+                    - tiered ruffles
+                    - tied sashes
+                    - tied satin bows
+                    - velvet and silk fabrics
+                    - velvet bows
+                    - velvet piping
+                    - velvet ribbon trim
+                    - windermere
+                    - woodruff
+                    - yarborough
+                    - umbridge
 
                 lower-body:
-                    - Embroidered Skirts
-                    - Flared Hemlines
-                    - Floral Patterns on Skirts
-                    - Gold and Silver Threadwork on Skirts
-                    - Layered Petticoats
-                    - Metallic Brocade Skirts
-                    - Overskirts with Embellishments
-                    - Pearl or Gemstone Decorations on Skirts
-                    - Pleated Skirt Panels
-                    - Ribbon and Bow Accents on Skirts
-                    - Ruffled Skirt Hemlines
-                    - Silk Tied Closures on Skirts
-                    - Tassels and Fringe on Skirts
-                    - Velvet Skirt Trim
-                    - Wide Skirt Pockets
+                    - embroidered skirts
+                    - flared hemlines
+                    - floral patterns on skirts
+                    - gold and silver threadwork on skirts
+                    - layered petticoats
+                    - metallic brocade skirts
+                    - overskirts with embellishments
+                    - pearl or gemstone decorations on skirts
+                    - pleated skirt panels
+                    - ribbon and bow accents on skirts
+                    - ruffled skirt hemlines
+                    - silk tied closures on skirts
+                    - tassels and fringe on skirts
+                    - velvet skirt trim
+                    - wide skirt pockets
 
                 types:
-                    - Ball Gowns
-                    - Corset Dresses
-                    - Court Dresses
-                    - Empire Waist Dresses
-                    - Mantua Dresses
-                    - Pannier Dresses
-                    - Robe à la Française
-                    - Robe à la Polonaise
-                    - Sack-Back Dresses
-                    - Chemise Dresses
-                    - Mantua Dresses
-                    - Watteau Dresses
-                    - Peplum Dresses
-                    - Fichu Dresses
-                    - Banyan Dresses
-                    - Farthingale Dresses
-                    - Hoop Skirts
+                    - ball gowns
+                    - corset dresses
+                    - court dresses
+                    - empire waist dresses
+                    - mantua dresses
+                    - pannier dresses
+                    - robe à la française
+                    - robe à la polonaise
+                    - sack-back dresses
+                    - chemise dresses
+                    - mantua dresses
+                    - watteau dresses
+                    - peplum dresses
+                    - fichu dresses
+                    - banyan dresses
+                    - farthingale dresses
+                    - hoop skirts
                     
                 upper-body:
-                    - Bodice Embellishments
-                    - Boned Corsets
-                    - Brocade Bodices
-                    - Cinched Waistlines
-                    - Corset Lacing
-                    - Crisscross Ribbon Bodices
-                    - Embroidered Corsets
-                    - Floral Appliqué Bodices
-                    - Gilded Bodice Fastenings
-                    - Intricate Lace Bodices
-                    - Jeweled Bodice Brooches
-                    - Lace-Up Corsets
-                    - Layered Ruffle Bodices
-                    - Metallic Threadwork Bodices
-                    - Pearl-Studded Bodices
-                    - Puffed Bodice Sleeves
-                    - Ribbon Corset Lacing
-                    - Silk Sashes
-                    - Stomacher Embellishments
-                    - Structured Bodices
-                    - Velvet Bodices
-                    - Wide Necklines
-                    - Wrapped Bodices
+                    - bodice embellishments
+                    - boned corsets
+                    - brocade bodices
+                    - cinched waistlines
+                    - corset lacing
+                    - crisscross ribbon bodices
+                    - embroidered corsets
+                    - floral applique bodices
+                    - gilded bodice fastenings
+                    - intricate lace bodices
+                    - jeweled bodice brooches
+                    - lace-up corsets
+                    - layered ruffle bodices
+                    - metallic threadwork bodices
+                    - pearl-studded bodices
+                    - puffed bodice sleeves
+                    - ribbon corset lacing
+                    - silk sashes
+                    - stomacher embellishments
+                    - structured bodices
+                    - velvet bodices
+                    - wide necklines
+                    - wrapped bodices
 
 
 
@@ -9000,288 +9014,343 @@ clothings:
         male:
             attire:
                 accesoires:
-                    - Cravat Pins
-                    - Embellished Cane Handles
-                    - Embroidered Handkerchiefs
-                    - Filigree Buckles
-                    - Gemstone Rings
-                    - Gold Pocket Watches
-                    - Lace Handkerchiefs
-                    - Locket Brooches
-                    - Ribbon Tied Bicorn Hats
-                    - Ruffled Lace Cuffs
-                    - Satin Gloves
-                    - Silk Breeches Garters
-                    - Snuff Boxes
-                    - Tricorn Hats with Feather Plumes
-                    - Velvet Gloves
+                    - cravat pins
+                    - embellished cane handles
+                    - embroidered handkerchiefs
+                    - filigree buckles
+                    - gemstone rings
+                    - gold pocket watches
+                    - lace handkerchiefs
+                    - locket brooches
+                    - ribbon tied bicorn hats
+                    - ruffled lace cuffs
+                    - satin gloves
+                    - silk breeches garters
+                    - snuff boxes
+                    - tricorn hats with feather plumes
+                    - velvet gloves
 
                 arms:
-                    - Appliqué Detailing
-                    - Beaded Fringe
-                    - Beaded Netting
-                    - Bell Sleeves
-                    - Brocade Appliqués
-                    - Brocade Appliqués
-                    - Corded Appliqués
-                    - Corded Knots
-                    - Corded Trims
-                    - Crochet Lace Inserts
-                    - Crocheted Edges
-                    - Crocheted Tassels
-                    - Cuff Embellishments
-                    - Draped Sleeves
-                    - Embellished Buttons
-                    - Embellished Collar and Cuff Sets
-                    - Embroidered Foliage
-                    - Embroidered Lace Edges
-                    - Embroidery and Brocade
-                    - Faux Fur Trims
-                    - Faux Pearl Embellishments
-                    - Feather Trims
-                    - Floral Appliqués
-                    - Floral Lace Inserts
-                    - Floral Patterns
-                    - Flared Cuffs
-                    - Gathered Wrists
-                    - Geometric Designs
-                    - Gilded Passementerie
-                    - Gimp Braids
-                    - Gossamer Ribbons
-                    - Gossamer Tulle Overlay
-                    - Gold and Silver Embroidery
-                    - Gold Braiding
-                    - Gold Bullion
-                    - Gold Thread Tassels
-                    - Hazelwood
-                    - Lace Cuff Inserts
-                    - Lace Ruffles
-                    - Lace Ruching
-                    - Lattice Detailing
-                    - Layered Ruffles
-                    - Metallic Brocade Cuffs
-                    - Metallic Threadwork
-                    - Organza Bows
-                    - Organza Inserts
-                    - Pearl Buttons
-                    - Pearl or Gemstone Decorations
-                    - Pleated Cuff Bands
-                    - Pleated Satin Cuffs
-                    - Pleated Tulle Inserts
-                    - Pouf or Padding
-                    - Puffed and Slashed Sleeves
-                    - Puff and Slash Decorations
-                    - Quackenbush
-                    - Quilted Sleeves
-                    - Ribbon and Bow Accents
-                    - Ribbon Lacing
-                    - Ribbon Medallions
-                    - Ribbon Pom-Poms
-                    - Ribbon Rosettes
-                    - Ribbon Streamers
-                    - Ribbon Ties
-                    - Ruched Detailing
-                    - Ruched Organza
-                    - Ruched Tulle
-                    - Ruffled Collars
-                    - Ruffled Cuffs
-                    - Ruffled Taffeta
-                    - Sablewood
-                    - Sash or Ribbon Ties
-                    - Satin Bows
-                    - Satin Piping
-                    - Scalloped Edges
-                    - Scalloped Lace Trim
-                    - Scalloped Organza
-                    - Scalloped Satin Trim
-                    - Sequin Embellishments
-                    - Sequin Tassels
-                    - Sheer Fabrics
-                    - Silk Cord Loops
-                    - Silk Rosettes
-                    - Silk Tied Closures
-                    - Silk Tassels
-                    - Slingsby
-                    - Soutache Embroidery
-                    - Tassel and Fringe Embellishments
-                    - Tassels and Fringe Embellishments
-                    - Thistledown
-                    - Tiered Ruffles
-                    - Tied Sashes
-                    - Tied Satin Bows
-                    - Velvet and Silk Fabrics
-                    - Velvet Bows
-                    - Velvet Piping
-                    - Velvet Ribbon Trim
-                    - Windermere
-                    - Woodruff
-                    - Yarborough
-                    - Umbridge
+                    - applique detailing
+                    - beaded fringe
+                    - beaded netting
+                    - bell sleeves
+                    - brocade appliques
+                    - brocade appliques
+                    - corded appliques
+                    - corded knots
+                    - corded trims
+                    - crochet lace inserts
+                    - crocheted edges
+                    - crocheted tassels
+                    - cuff embellishments
+                    - draped sleeves
+                    - embellished buttons
+                    - embellished collar and cuff sets
+                    - embroidered foliage
+                    - embroidered lace edges
+                    - embroidery and brocade
+                    - faux fur trims
+                    - faux pearl embellishments
+                    - feather trims
+                    - floral appliques
+                    - floral lace inserts
+                    - floral patterns
+                    - flared cuffs
+                    - gathered wrists
+                    - geometric designs
+                    - gilded passementerie
+                    - gimp braids
+                    - gossamer ribbons
+                    - gossamer tulle overlay
+                    - gold and silver embroidery
+                    - gold braiding
+                    - gold bullion
+                    - gold thread tassels
+                    - hazelwood
+                    - lace cuff inserts
+                    - lace ruffles
+                    - lace ruching
+                    - lattice detailing
+                    - layered ruffles
+                    - metallic brocade cuffs
+                    - metallic threadwork
+                    - organza bows
+                    - organza inserts
+                    - pearl buttons
+                    - pearl or gemstone decorations
+                    - pleated cuff bands
+                    - pleated satin cuffs
+                    - pleated tulle inserts
+                    - pouf or padding
+                    - puffed and slashed sleeves
+                    - puff and slash decorations
+                    - quackenbush
+                    - quilted sleeves
+                    - ribbon and bow accents
+                    - ribbon lacing
+                    - ribbon medallions
+                    - ribbon pom-poms
+                    - ribbon rosettes
+                    - ribbon streamers
+                    - ribbon ties
+                    - ruched detailing
+                    - ruched organza
+                    - ruched tulle
+                    - ruffled collars
+                    - ruffled cuffs
+                    - ruffled taffeta
+                    - sablewood
+                    - sash or ribbon ties
+                    - satin bows
+                    - satin piping
+                    - scalloped edges
+                    - scalloped lace trim
+                    - scalloped organza
+                    - scalloped satin trim
+                    - sequin embellishments
+                    - sequin tassels
+                    - sheer fabrics
+                    - silk cord loops
+                    - silk rosettes
+                    - silk tied closures
+                    - silk tassels
+                    - slingsby
+                    - soutache embroidery
+                    - tassel and fringe embellishments
+                    - tassels and fringe embellishments
+                    - thistledown
+                    - tiered ruffles
+                    - tied sashes
+                    - tied satin bows
+                    - velvet and silk fabrics
+                    - velvet bows
+                    - velvet piping
+                    - velvet ribbon trim
+                    - windermere
+                    - woodruff
+                    - yarborough
+                    - umbridge
 
                 collar-cleavage:
-                    - Cravat and Jabot Sets
-                    - Embellished Cravats
-                    - Embroidered Lace Collars
-                    - Gold Thread Collar Embroidery
-                    - Jabot Pins
-                    - Lace Cravats
-                    - Pearl-Studded Collars
-                    - Ribbon Tied Stocks
-                    - Ruffled Collars
-                    - Scalloped Collar Edges
-                    - Velvet Collars
-                    - Wide Collar Decorations
+                    - cravat and jabot sets
+                    - embellished cravats
+                    - embroidered lace collars
+                    - gold thread collar embroidery
+                    - jabot pins
+                    - lace cravats
+                    - pearl-studded collars
+                    - ribbon tied stocks
+                    - ruffled collars
+                    - scalloped collar edges
+                    - velvet collars
+                    - wide collar decorations
 
                 lower-body:
-                    - Breeches with Embroidery
-                    - Brocade Breeches
-                    - Embellished Hose
-                    - Lace-Up Breeches
-                    - Metallic Threadwork on Breeches
-                    - Pearl-Adorned Breeches
-                    - Ribbon-Trimmed Breeches
-                    - Ruffled Breeches
-                    - Silk Sashes for Waist
-                    - Tassels and Fringe on Breeches
-                    - Velvet Breeches
-                    - Wide Cuffs on Breeches
+                    - breeches with embroidery
+                    - brocade breeches
+                    - embellished hose
+                    - lace-up breeches
+                    - metallic threadwork on breeches
+                    - pearl-adorned breeches
+                    - ribbon-trimmed breeches
+                    - ruffled breeches
+                    - silk sashes for waist
+                    - tassels and fringe on breeches
+                    - velvet breeches
+                    - wide cuffs on breeches
                 types:
-                    - Banyan Robes
-                    - Breeches with Embroidery
-                    - Brocade Breeches
-                    - Court Suits
-                    - Cravat and Jabot Sets
-                    - Doublets
-                    - Frock Coats
-                    - Jerkins
-                    - Justaucorps
-                    - Lace Cravats
-                    - Mantua Coats
-                    - Ribbon-Trimmed Breeches
-                    - Ruffled Shirts
-                    - Sash or Ribbon Ties
-                    - Tailcoats
-                    - Tricorn Hats
-                    - Velvet Breeches
-                    - Waistcoats
-                    - Wide Cuffs on Breeches
+                    - banyan robes
+                    - breeches with embroidery
+                    - brocade breeches
+                    - court suits
+                    - cravat and jabot sets
+                    - doublets
+                    - frock coats
+                    - jerkins
+                    - justaucorps
+                    - lace cravats
+                    - mantua coats
+                    - ribbon-trimmed breeches
+                    - ruffled shirts
+                    - sash or ribbon ties
+                    - tailcoats
+                    - tricorn hats
+                    - velvet breeches
+                    - waistcoats
+                    - wide cuffs on breeches
                 upper-body:
-                    - Appliqué Detailing
-                    - Beaded Brooches
-                    - Brocade Vests
-                    - Cravat and Jabot Sets
-                    - Embellished Cravats
-                    - Embroidered Waistcoats
-                    - Faux Fur Stoles
-                    - Gold Thread Embroidery
-                    - Jeweled Buttons
-                    - Lace Cravats
-                    - Metallic Threadwork
-                    - Pearl-Studded Waistcoats
-                    - Ribbon Tied Stocks
-                    - Ruffled Jabots
-                    - Silk Waistcoats
-                    - Velvet Jackets
-                    - Waistcoat Chains
+                    - applique detailing
+                    - beaded brooches
+                    - brocade vests
+                    - cravat and jabot sets
+                    - embellished cravats
+                    - embroidered waistcoats
+                    - faux fur stoles
+                    - gold thread embroidery
+                    - jeweled buttons
+                    - lace cravats
+                    - metallic threadwork
+                    - pearl-studded waistcoats
+                    - ribbon tied stocks
+                    - ruffled jabots
+                    - silk waistcoats
+                    - velvet jackets
+                    - waistcoat chains
 
 
     edoperiod:
         female:
-            accesoires:
-                - Higasa (Paper Umbrella)
-                - Kanzashi (Ornamental Hairpins)
-                - Kimono Obi (Sash)
-                - Kinchaku (Drawstring Bag)
-                - Koromogae (Seasonal Clothing Changes)
-                - Obijime (Obi Cord)
-                - Obidome (Obi Ornament)
-                - Tabi (Traditional Split-Toe Socks)
-                - Tegara (Handbag)
-                - Uchiwa (Hand Fan)
-                - Zori (Traditional Sandals)
-            arms:
-                - Embroidered Sleeves
-                - Furisode Kimono Sleeves
-                - Hikizuri Kimono Sleeves
-                - Homongi Kimono Sleeves
-                - Irotomesode Kimono Sleeves
-                - Juunihitoe Sleeves
-                - Kariginu Sleeves
-                - Kosode Kimono Sleeves
-                - Mofuku Kimono Sleeves
-                - Susohiki Kimono Sleeves
-                - Tsumugi Kimono Sleeves
-                - Uchikake Kimono Sleeves
-                - Yogi Kimono Sleeves
-                - Wrist Ties
+            dress:
+                accesoires:
+                    - higasa (paper umbrella)
+                    - kanzashi (ornamental hairpins)
+                    - kimono obi (sash)
+                    - kinchaku (drawstring bag)
+                    - koromogae (seasonal clothing changes)
+                    - obijime (obi cord)
+                    - obidome (obi ornament)
+                    - tabi (traditional split-toe socks)
+                    - tegara (handbag)
+                    - uchiwa (hand fan)
+                    - zori (traditional sandals)
+                arms:
+                    - embroidered sleeves
+                    - furisode kimono sleeves
+                    - hikizuri kimono sleeves
+                    - homongi kimono sleeves
+                    - irotomesode kimono sleeves
+                    - juunihitoe sleeves
+                    - kariginu sleeves
+                    - kosode kimono sleeves
+                    - mofuku kimono sleeves
+                    - susohiki kimono sleeves
+                    - tsumugi kimono sleeves
+                    - uchikake kimono sleeves
+                    - yogi kimono sleeves
+                    - wrist ties
 
-            collor-cleavage:
-                - Kimono Collar (Eri)
-                - Nagajuban Collar
-                - Han-eri
-                - Eri Sugata
-                - Juban Collar
-                - Kimono Neckline
-                - Kakeshita Collar
+                collor-cleavage:
+                    - kimono collar (eri)
+                    - nagajuban collar
+                    - han-eri
+                    - eri sugata
+                    - juban collar
+                    - kimono neckline
+                    - kakeshita collar
 
-            lower-body:
-                - Hakama Skirt
-                - Kosode Kimono Skirt
-                - Nagajuban (Under Kimono)
-                - Sarashi (Cloth Wrap)
-                - Susohiki Kimono Train
-                - Tsuke-obi (Pre-Tied Obi)
-                - Uchikake Kimono Train
-                - Zori Sandals
+                lower-body:
+                    - hakama skirt
+                    - kosode kimono skirt
+                    - nagajuban (under kimono)
+                    - sarashi (cloth wrap)
+                    - susohiki kimono train
+                    - tsuke-obi (pre-tied obi)
+                    - uchikake kimono train
+                    - zori sandals
 
-            types:
-                - Furisode Kimono
-                - Hikizuri Kimono
-                - Homongi Kimono
-                - Irotomesode Kimono
-                - Juunihitoe
-                - Kariginu
-                - Kosode Kimono
-                - Mofuku Kimono
-                - Susohiki Kimono
-                - Tsumugi Kimono
-                - Uchikake Kimono
-                - Yogi Kimono
-            upper-body:
-                - Fukuro Obi (Formal Sash)
-                - Haori (Kimono Jacket)
-                - Haori-himo (Haori Cord)
-                - Kimono Collar
-                - Kimono Obi (Sash)
-                - Kinchaku (Drawstring Bag)
-                - Koshihimo (Kimono Undergarment Ties)
-                - Nagajuban (Under Kimono)
-                - Tabi (Traditional Split-Toe Socks)
-                - Uchikake (Wedding Kimono)
-                - Uchikake Obi (Wedding Kimono Sash)
-                - Wataboshi (Bridal Hood)
-                - Yogi Kimono Jacket
-
+                types:
+                    - furisode kimono
+                    - hikizuri kimono
+                    - homongi kimono
+                    - irotomesode kimono
+                    - juunihitoe
+                    - kariginu
+                    - kosode kimono
+                    - mofuku kimono
+                    - susohiki kimono
+                    - tsumugi kimono
+                    - uchikake kimono
+                    - yogi kimono
+                upper-body:
+                    - fukuro obi (formal sash)
+                    - haori (kimono jacket)
+                    - haori-himo (haori cord)
+                    - kimono collar
+                    - kimono obi (sash)
+                    - kinchaku (drawstring bag)
+                    - koshihimo (kimono undergarment ties)
+                    - nagajuban (under kimono)
+                    - tabi (traditional split-toe socks)
+                    - uchikake (wedding kimono)
+                    - uchikake obi (wedding kimono sash)
+                    - wataboshi (bridal hood)
+                    - yogi kimono jacket
 
         male:
-            types:
-                - Eboshi (Formal Hat)
-                - Haori (Kimono Jacket)
-                - Hakama (Wide-Legged Trousers)
-                - Hitatare (Formal Attire)
-                - Hoko (Narrow-Obi Ensemble)
-                - Jika-tabi (Split-Toe Socks)
-                - Jinbaori (Sleeveless Surcoat)
-                - Kamishimo (Formal Attire)
-                - Kataginu (Sleeveless Jacket)
-                - Kimono (Main Garment)
-                - Kosode (Under Kimono)
-                - Nagajuban (Under Kimono)
-                - Obi (Sash)
-                - Samue (Casual Wear)
-                - Uwagi (Outer Garment)
-                - Zori (Traditional Sandals)
+            attire:
+                accesoires:
+                    - Geta (Traditional Wooden Sandals)
+                    - Hachimaki (Headband)
+                    - Haneri (Decorative Collar Insert)
+                    - Kanzashi (Ornamental Hairpins)
+                    - Kinchaku (Drawstring Bag)
+                    - Obi (Sash)
+                    - Sensu (Folding Fan)
+                    - Tabi (Traditional Split-Toe Socks)
+                    - Tegara (Handbag)
+                    - Tenugui (Cotton Hand Towel)
+                    - Uchiwa (Hand Fan)
+                    - Zori (Traditional Sandals)
 
+                arms:
+                    - Furisode Sleeves
+                    - Hikizuri Sleeves
+                    - Homongi Sleeves
+                    - Irotomesode Sleeves
+                    - Juunihitoe Sleeves
+                    - Kariginu Sleeves
+                    - Kosode Sleeves
+                    - Mofuku Sleeves
+                    - Susohiki Sleeves
+                    - Tsumugi Sleeves
+                    - Uchikake Sleeves
+                    - Yogi Sleeves
+
+                collor-cleavage:
+                    - Kataginu Neckline
+                    - Haori Neckline
+                    - Kosode Neckline
+                    - Nagajuban Neckline
+                    - Uwagi Neckline
+                    - Kimono Neckline
+                    - Yukata Neckline
+
+                lower-body:
+                    - Hakama (Wide-Legged Trousers)
+                    - Jika-tabi (Split-Toe Socks)
+                    - Samue (Casual Wear)
+                    - Zori (Traditional Sandals)
+
+                types:
+                    - eboshi (formal hat)
+                    - haori (kimono jacket)
+                    - hakama (wide-legged trousers)
+                    - hitatare (formal attire)
+                    - hoko (narrow-obi ensemble)
+                    - jika-tabi (split-toe socks)
+                    - jinbaori (sleeveless surcoat)
+                    - kamishimo (formal attire)
+                    - kataginu (sleeveless jacket)
+                    - kimono (main garment)
+                    - kosode (under kimono)
+                    - nagajuban (under kimono)
+                    - obi (sash)
+                    - samue (casual wear)
+                    - uwagi (outer garment)
+                    - zori (traditional sandals)
+
+                upperbody:
+                    - Eboshi (Formal Hat)
+                    - Haori (Kimono Jacket)
+                    - Hitatare (Formal Attire)
+                    - Jinbaori (Sleeveless Surcoat)
+                    - Kamishimo (Formal Attire)
+                    - Kataginu (Sleeveless Jacket)
+                    - Kosode (Under Kimono)
+                    - Nagajuban (Under Kimono)
+                    - Obi (Sash)
+                    - Uwagi (Outer Garment)
 
     edwardian:
         female:
@@ -9494,176 +9563,176 @@ clothings:
             - bamboo hats (for outdoor wear)
             - use of fans and handheld accessories
 
-        regency:
-            female:
-                - empire waistline dresses
-                - high necks with ruffled collars
-                - short puffed sleeves or long sleeves
-                - minimal use of corsets for a natural waist
-                - soft and flowing silhouettes
-                - sheer and lightweight fabrics like muslin and silk
-                - delicate embroidery and decorative trims
-                - simple, elegant designs with minimal ornamentation
-                - gowns falling from just below the bust
-                - empire silhouette with raised waistline
-                - classical greek and roman influences
-                - minimal accessories for a natural look
-                - bonnets with ribbons and plumes
-                - gloves and handheld fans
-                - parasols for sun protection
-                - soft pastel colors and floral prints
-                - regency hairstyles with simple curls and ribbons
-                - flat slippers or low-heeled shoes
-                - short spencer jackets for outdoor wear
-                - shawls or stoles for added warmth
+    regency:
+        female:
+            - empire waistline dresses
+            - high necks with ruffled collars
+            - short puffed sleeves or long sleeves
+            - minimal use of corsets for a natural waist
+            - soft and flowing silhouettes
+            - sheer and lightweight fabrics like muslin and silk
+            - delicate embroidery and decorative trims
+            - simple, elegant designs with minimal ornamentation
+            - gowns falling from just below the bust
+            - empire silhouette with raised waistline
+            - classical greek and roman influences
+            - minimal accessories for a natural look
+            - bonnets with ribbons and plumes
+            - gloves and handheld fans
+            - parasols for sun protection
+            - soft pastel colors and floral prints
+            - regency hairstyles with simple curls and ribbons
+            - flat slippers or low-heeled shoes
+            - short spencer jackets for outdoor wear
+            - shawls or stoles for added warmth
 
-            male:
-                - tailored coats with long tails
-                - waistcoats (vests) with high collars
-                - cravats or neckties tied in elaborate knots
-                - breeches (knee-length pants)
-                - knee-high boots or shoes with buckles
-                - top hats or bicorne hats (two-cornered hats)
-                - frock coats for formal occasions
-                - tailcoats with tails for formalwear
-                - waistcoats with ornate patterns
-                - crisp white shirts with high collars
-                - cane or walking stick
-                - waist belts with pouches or accessories
-                - gloves for formal events
-                - pocket watches with chains
-                - minimal jewelry, such as rings and cufflinks
-                - epaulettes on military uniforms (for military personnel)
-                - period-specific styles such as early regency or late regency
-                - use of dark and neutral colors like black, blue, and gray
+        male:
+            - tailored coats with long tails
+            - waistcoats (vests) with high collars
+            - cravats or neckties tied in elaborate knots
+            - breeches (knee-length pants)
+            - knee-high boots or shoes with buckles
+            - top hats or bicorne hats (two-cornered hats)
+            - frock coats for formal occasions
+            - tailcoats with tails for formalwear
+            - waistcoats with ornate patterns
+            - crisp white shirts with high collars
+            - cane or walking stick
+            - waist belts with pouches or accessories
+            - gloves for formal events
+            - pocket watches with chains
+            - minimal jewelry, such as rings and cufflinks
+            - epaulettes on military uniforms (for military personnel)
+            - period-specific styles such as early regency or late regency
+            - use of dark and neutral colors like black, blue, and gray
 
-        renaissance:
-            female:
-                - elaborate and fitted bodices
-                - low necklines with square or v-shaped collars
-                - puffed sleeves, often slashed to reveal contrasting fabric
-                - wide, bell-shaped skirts
-                - use of corsets and boning for hourglass figure
-                - rich and luxurious fabrics like velvet, silk, and brocade
-                - ornate embroidery and decorative trims
-                - layers of petticoats and underskirts for volume
-                - gowns with trains or long hemlines
-                - high forehead and hairline (in some periods)
-                - elaborate headpieces and headdresses, such as gable hoods and tiaras
-                - bodice and skirt separation with girdles or belts
-                - rich, earthy colors like deep reds, greens, and blues
-                - pendants, medallions, and brooches as jewelry
-                - elaborate fans and handheld mirrors
-                - gloves and fingerless mitts
-                - flat slippers or shoes with heels
-                - period-specific styles such as italian renaissance or tudor
+    renaissance:
+        female:
+            - elaborate and fitted bodices
+            - low necklines with square or v-shaped collars
+            - puffed sleeves, often slashed to reveal contrasting fabric
+            - wide, bell-shaped skirts
+            - use of corsets and boning for hourglass figure
+            - rich and luxurious fabrics like velvet, silk, and brocade
+            - ornate embroidery and decorative trims
+            - layers of petticoats and underskirts for volume
+            - gowns with trains or long hemlines
+            - high forehead and hairline (in some periods)
+            - elaborate headpieces and headdresses, such as gable hoods and tiaras
+            - bodice and skirt separation with girdles or belts
+            - rich, earthy colors like deep reds, greens, and blues
+            - pendants, medallions, and brooches as jewelry
+            - elaborate fans and handheld mirrors
+            - gloves and fingerless mitts
+            - flat slippers or shoes with heels
+            - period-specific styles such as italian renaissance or tudor
 
-            male:
-                - doublets (fitted jackets)
-                - puffed or slashed sleeves
-                - high necklines with ruffled collars
-                - hose (tight-fitting leg coverings)
-                - breeches (knee-length pants)
-                - jerkins (sleeveless jackets)
-                - cloaks and capes with fur or brocade
-                - tall, wide-brimmed hats
-                - codpieces (padded groin coverings)
-                - waistcoats (vests) with ornate patterns
-                - leather or fabric shoes with buckles
-                - ruffled or crisp white shirts
-                - sashes and belts for waist definition
-                - swords and dagger accessories (for some)
-                - feathered plumes as hat decorations
-                - jewelry, including rings and chains
-                - trench coats or mantles for outdoor wear
-                - use of rich, earthy colors and brocade fabrics
-                - period-specific styles such as italian renaissance or elizabethan
+        male:
+            - doublets (fitted jackets)
+            - puffed or slashed sleeves
+            - high necklines with ruffled collars
+            - hose (tight-fitting leg coverings)
+            - breeches (knee-length pants)
+            - jerkins (sleeveless jackets)
+            - cloaks and capes with fur or brocade
+            - tall, wide-brimmed hats
+            - codpieces (padded groin coverings)
+            - waistcoats (vests) with ornate patterns
+            - leather or fabric shoes with buckles
+            - ruffled or crisp white shirts
+            - sashes and belts for waist definition
+            - swords and dagger accessories (for some)
+            - feathered plumes as hat decorations
+            - jewelry, including rings and chains
+            - trench coats or mantles for outdoor wear
+            - use of rich, earthy colors and brocade fabrics
+            - period-specific styles such as italian renaissance or elizabethan
 
-        rococo:
-            female:
-                - elaborate and fitted bodices
-                - low necklines with ruffled collars or décolletage
-                - elbow-length puffed sleeves or bell sleeves
-                - use of corsets and stays for a curvaceous figure
-                - wide, panniered skirts for an hourglass silhouette
-                - layers of ruffles and frills
-                - pastel colors and floral prints
-                - luxurious fabrics like silk and taffeta
-                - exquisite embroidery and lace
-                - oversized watteau trains
-                - elaborate hairstyles with wigs and hairpieces
-                - feathered headdresses and hair accessories
-                - fans and handheld mirrors as accessories
-                - lace mitts or gloves
-                - flat slippers or heeled shoes with ribbon ties
-                - rococo-inspired jewelry, including cameos and rocaille motifs
-                - decorative girdles or sashes
-                - rococo-style rocaille and shell motifs
-                - masks and masquerade attire for balls and parties
+    rococo:
+        female:
+            - elaborate and fitted bodices
+            - low necklines with ruffled collars or decolletage
+            - elbow-length puffed sleeves or bell sleeves
+            - use of corsets and stays for a curvaceous figure
+            - wide, panniered skirts for an hourglass silhouette
+            - layers of ruffles and frills
+            - pastel colors and floral prints
+            - luxurious fabrics like silk and taffeta
+            - exquisite embroidery and lace
+            - oversized watteau trains
+            - elaborate hairstyles with wigs and hairpieces
+            - feathered headdresses and hair accessories
+            - fans and handheld mirrors as accessories
+            - lace mitts or gloves
+            - flat slippers or heeled shoes with ribbon ties
+            - rococo-inspired jewelry, including cameos and rocaille motifs
+            - decorative girdles or sashes
+            - rococo-style rocaille and shell motifs
+            - masks and masquerade attire for balls and parties
 
-            male:
-                - three-piece suits (coat, waistcoat, breeches)
-                - tailored coats with elaborate embroidery and trim
-                - waistcoats (vests) with ornate patterns
-                - breeches (knee-length pants)
-                - high collars on shirts
-                - ruffled or cravat neckties
-                - stockings and garters
-                - buckled shoes or slippers
-                - tricorn hats (three-cornered hats) with ribbons
-                - wigs with curls and powder
-                - cane or walking stick as accessories
-                - elaborate waist sashes or belts
-                - frock coats with long tails
-                - brocade fabrics and pastel colors
-                - use of lace and embroidery
-                - pocket watches with chains
-                - minimal jewelry, such as rings and cufflinks
-                - fans and handheld mirrors (for some)
-                - rococo-inspired motifs and embellishments
-                - period-specific styles such as louis xv or louis xvi
+        male:
+            - three-piece suits (coat, waistcoat, breeches)
+            - tailored coats with elaborate embroidery and trim
+            - waistcoats (vests) with ornate patterns
+            - breeches (knee-length pants)
+            - high collars on shirts
+            - ruffled or cravat neckties
+            - stockings and garters
+            - buckled shoes or slippers
+            - tricorn hats (three-cornered hats) with ribbons
+            - wigs with curls and powder
+            - cane or walking stick as accessories
+            - elaborate waist sashes or belts
+            - frock coats with long tails
+            - brocade fabrics and pastel colors
+            - use of lace and embroidery
+            - pocket watches with chains
+            - minimal jewelry, such as rings and cufflinks
+            - fans and handheld mirrors (for some)
+            - rococo-inspired motifs and embellishments
+            - period-specific styles such as louis xv or louis xvi
 
-        tudor:
-            female:
-                - gowns with square necklines
-                - fitted bodices with laces and hooks
-                - elbow-length puffed sleeves or straight sleeves
-                - wide, hooped skirts with layers of petticoats
-                - high waistlines with girdles or belts
-                - elaborate embroidery and decorative trims
-                - rich fabrics like velvet, silk, and brocade
-                - use of corsets or stays for a conical torso
-                - headdresses like gable hoods or french hoods
-                - ruffled collars or partlets
-                - elaborate headpieces with veils and jewels
-                - minimal accessories, such as rings and necklaces
-                - flat shoes or low-heeled slippers
-                - rich, jewel-toned colors like deep reds, greens, and blues
-                - elizabethan ruffs (in later tudor period)
-                - period-specific styles such as early tudor or elizabethan
+    tudor:
+        female:
+            - gowns with square necklines
+            - fitted bodices with laces and hooks
+            - elbow-length puffed sleeves or straight sleeves
+            - wide, hooped skirts with layers of petticoats
+            - high waistlines with girdles or belts
+            - elaborate embroidery and decorative trims
+            - rich fabrics like velvet, silk, and brocade
+            - use of corsets or stays for a conical torso
+            - headdresses like gable hoods or french hoods
+            - ruffled collars or partlets
+            - elaborate headpieces with veils and jewels
+            - minimal accessories, such as rings and necklaces
+            - flat shoes or low-heeled slippers
+            - rich, jewel-toned colors like deep reds, greens, and blues
+            - elizabethan ruffs (in later tudor period)
+            - period-specific styles such as early tudor or elizabethan
 
-            male:
-                - doublets (fitted jackets)
-                - hose (tight-fitting leg coverings)
-                - codpieces (padded groin coverings)
-                - breeches (knee-length pants)
-                - high necklines with ruffled collars
-                - cloaks and capes
-                - tall, flat hats (e.g., tudor bonnets)
-                - waistcoats (vests) with ornate patterns
-                - buckled shoes or ankle boots
-                - ruffled or cravat neckties
-                - wide leather belts with decorative buckles
-                - velvet and brocade fabrics
-                - use of puffed or slashed sleeves
-                - minimal jewelry, such as rings and brooches
-                - flat caps or berets (for outdoor wear)
-                - cloaks with fur collars (for outdoor wear)
-                - short beards and mustaches
-                - use of earthy and rich colors
-                - period-specific styles such as early tudor or elizabethan
+        male:
+            - doublets (fitted jackets)
+            - hose (tight-fitting leg coverings)
+            - codpieces (padded groin coverings)
+            - breeches (knee-length pants)
+            - high necklines with ruffled collars
+            - cloaks and capes
+            - tall, flat hats (e.g., tudor bonnets)
+            - waistcoats (vests) with ornate patterns
+            - buckled shoes or ankle boots
+            - ruffled or cravat neckties
+            - wide leather belts with decorative buckles
+            - velvet and brocade fabrics
+            - use of puffed or slashed sleeves
+            - minimal jewelry, such as rings and brooches
+            - flat caps or berets (for outdoor wear)
+            - cloaks with fur collars (for outdoor wear)
+            - short beards and mustaches
+            - use of earthy and rich colors
+            - period-specific styles such as early tudor or elizabethan
 
-        victorian:
+    victorian:
             female:
                 - bonnets and wide-brimmed hats
                 - boots, button-up
@@ -11301,9 +11370,9 @@ clothings:
                 - rhinestone face stickers
                 - face chains
                 - face jewels
-                - sequin face appliqués
-                - rhinestone face appliqués
-                - embellished face appliqués
+                - sequin face appliques
+                - rhinestone face appliques
+                - embellished face appliques
                 - face veil
                 - feather face veil
                 - floral face veil
@@ -15405,7 +15474,7 @@ creatures:
             - bagiennik
             - bakeneko
             - barometz
-            - bicéfalo
+            - bicefalo
             - bonnacon
             - ceffyl dŵr
             - cipactli
@@ -21571,7 +21640,7 @@ phenomena:
             - doom
             - void
             - synchronicity
-            - déjà vu
+            - dejà vu
             - serendipity
             - cognitive dissonance
             - flow state
@@ -21652,8 +21721,8 @@ phenomena:
             - lindenmayer systems (l-systems)
             - koch curve
             - circle packing
-            - lévy c curve
-            - hénon map
+            - levy c curve
+            - henon map
             - lorenz attractor
             - strange attractor
             - koch snowflake
@@ -22678,7 +22747,7 @@ properties:
             - poplin
             - eyelet
             - broderie anglaise
-            - piqué
+            - pique
             - barkcloth
         scifi:
             - holographic fabric
@@ -23661,7 +23730,7 @@ properties:
             - pixelated texture
             - tron neon print
             - cybernetic pixel pattern
-            - holographic moiré texture
+            - holographic moire texture
             - cyberpunk glyph print
             - neon pulse pattern
             - techno neon texture
@@ -23703,7 +23772,7 @@ properties:
             - pixelated texture
             - tron neon print
             - cybernetic pixel pattern
-            - holographic moiré texture
+            - holographic moire texture
             - cyberpunk glyph print
             - neon pulse pattern
             - techno neon texture
@@ -23859,7 +23928,7 @@ properties:
             - quilted
             - basketweave
             - honeycomb
-            - moiré
+            - moire
             - ripple
             - crosshatch
             - stippled
@@ -26006,7 +26075,7 @@ scenes:
             - a sunlit park, filled with children playing and families having picnics
             - a cozy living room with a crackling fireplace and comfortable seating
             - a vibrant farmer's market, bustling with people and colorful produce
-            - a cheerful café, with the aroma of freshly brewed coffee and friendly conversation
+            - a cheerful cafe, with the aroma of freshly brewed coffee and friendly conversation
             - a sunny beach, with families building sandcastles and enjoying the ocean
             - a lively street fair, with food stalls, live music, and laughter
             - a peaceful garden, with blooming flowers and butterflies fluttering around
@@ -26022,7 +26091,7 @@ scenes:
             - a cheerful school classroom, with students working together and a passionate teacher
             - a vibrant street market, with vendors showcasing their unique crafts and products
             - a peaceful lakeside retreat, with serene waters and people enjoying recreational activities
-            - a friendly neighborhood café, with cozy seating, friendly staff, and the aroma of freshly brewed coffee
+            - a friendly neighborhood cafe, with cozy seating, friendly staff, and the aroma of freshly brewed coffee
         nature:
             - a serene waterfall, surrounded by lush greenery and the soothing sound of cascading water
             - a tranquil forest clearing, where sunlight filters through the trees and birdsong fills the air
@@ -26741,7 +26810,7 @@ styles:
             - floor-length
         embellishments:
             - embroidery
-            - appliqué
+            - applique
             - sequins
             - beads
             - studs
@@ -26760,7 +26829,7 @@ styles:
             - lace trims
             - ruffle details
             - bow accents
-            - appliqué work
+            - applique work
         fit-length:
             - slim fit
             - regular fit
@@ -27186,7 +27255,7 @@ styles:
             - acrylic painting
             - charcoal drawing
             - collage
-            - cliché verre
+            - cliche verre
             - dry brush
             - encaustic painting
             - glazing
@@ -28882,7 +28951,7 @@ vehicles:
             - touring bike
             - dirt bike
             - adventure bike
-            - café racer
+            - cafe racer
             - chopper
             - electric motorcycle
         public transport:
