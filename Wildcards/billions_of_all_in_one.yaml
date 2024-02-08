@@ -739,6 +739,12 @@ Bo:
             - __styles/rendering-techniques/*__
         random-resolution:
             - __styles/resolutions__
+    valentine:
+        random:
+            - >-
+              valentines day, __valentine/artstyle__, __valentine/atmosphere__, __valentine/decorations__,
+              {__valentine/symbols__|__valtentine/food__|__valentine/characters__|__valentine/traditions__},
+              __valentine/scapes__, __valentine/scenes__, __valentine/lightings__
     vehicles:
         # __Bo/vehicles/random*__
         random:
@@ -28498,6 +28504,125 @@ subtypes:
         - transhumanism
         - utopian/post-scarcity
         - virtual reality, augmented reality
+valentine:
+    artstyle:
+        - abstract
+        - cartoon
+        - minimalist
+        - realistic
+        - surreal
+        - handmade
+        - printable
+        - romantic
+        - vintage
+
+    atmosphere:
+        - candlelit
+        - cozy
+        - elegant
+        - intimate
+        - romantic
+        - rustic
+        - tranquil
+
+    characters:
+        - cupid
+        - lovebirds
+        - mickey and minnie mouse
+        - romeo and juliet
+        - the lady and the tramp
+        - the little mermaid and prince eric
+        - wall-e and eve
+
+    decorations:
+        - balloons
+        - candles
+        - flowers
+        - heart-shaped confetti
+        - red and pink streamers
+        - rose petals
+        - string lights
+
+    food:
+        - chocolate-covered strawberries
+        - heart-shaped cookies
+        - romantic dinner
+        - strawberry shortcake
+        - sweetheart candies
+        - truffles
+        - wine and cheese platter
+
+    lightings:
+        - candlelight
+        - dimmed chandelier
+        - fairy lights
+        - led candles
+        - moonlit
+        - soft, dimmed lights
+        - soft lantern glow
+        - twinkle lights
+
+    scapes:
+        - beach sunset
+        - city skyline
+        - garden setting
+        - mountain view
+        - starry night sky
+        - beach sunset
+        - garden setting
+        - botanical garden
+        - charming bed and breakfast
+        - luxury hotel suite
+        - outdoor terrace with city views
+        - quiet countryside inn
+        - scenic overlook
+        - spa resort
+        - vineyard
+
+    scenes:
+        - candlelit bubble bath for two
+        - cozy fireside cuddling
+        - dancing cheek to cheek in the moonlight
+        - elegant dinner at a fancy restaurant
+        - enchanting stargazing session
+        - hand-in-hand walks along the beach at sunset
+        - intimate rooftop dinner with city skyline views
+        - romantic picnic in the park
+        - serene lakeside retreat
+        - sharing a warm blanket and hot cocoa on a snowy evening
+        - tender embraces under the stars
+        - watching the sunrise together from a mountaintop
+
+    symbols: 
+        - champagne glasses
+        - cupid's arrow
+        - diamond rings
+        - doves
+        - engagement rings
+        - heart
+        - key to my heart
+        - lock and key
+        - love knot
+        - love letter
+        - red rose
+        - teddy bears
+        - wedding bells
+
+    traditions:
+        - acts of kindness and affection
+        - exchanging love letters
+        - expressing gratitude and appreciation
+        - giving flowers
+        - going on romantic getaways
+        - hosting valentine's day party
+        - sending greeting cards
+        - sharing romantic dinners
+        - spending quality time together
+        - surprising loved ones with gifts
+        - supporting each other's dreams and aspirations
+        - watching romantic movies
+        - writing love poems
+
 vehicles:
     accessories:
         - roof rack
