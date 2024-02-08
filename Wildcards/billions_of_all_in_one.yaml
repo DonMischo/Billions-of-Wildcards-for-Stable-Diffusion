@@ -253,14 +253,6 @@ Bo:
         random:
             - __Bo/chars/char-*/random__
             - __Bo/chars/class-*__
-    christmas:
-        # __Bo/christmas/random__
-        random:
-            - >-
-              __christmas/artstyles__, {__christmas/characters__|__christmas/christmas-carol/*__},
-              {1-5$$__christmas/decorations__|__christmas/food__|},
-              {1-3$$__christmas/atmosphere__},
-              __christmas/lightings__, {__christmas/scapes__|__christmas/scenes__|__christmas/traditions__|}
     clothings:
         # __Bo/clothings/random*__ or any subset like __Bo/clothings/random-combination__
         random-accesoires:
@@ -612,30 +604,57 @@ Bo:
               # {__creatures/mouth-jaw__,|}
               {__properties/colors/*__,|__properties/patterns/unusual__,|}
 
+    events:
+        christmas:
+            # __Bo/christmas/random__
+            random:
+                - >-
+                  __christmas/artstyles__, {__christmas/characters__|__christmas/christmas-carol/*__},
+                  {1-5$$__christmas/decorations__|__christmas/food__|},
+                  {1-3$$__christmas/atmosphere__},
+                  __christmas/lightings__, {__christmas/scapes__|__christmas/scenes__|__christmas/traditions__|}
+
+        halloween:
+            # __Bo/events/halloween/random*__
+            random-anything:
+                - >-
+                  __halloween/atmosphere__ __halloween/artstyles__ __halloween/costumes__ __halloween/places-sceneries__
+                  __halloween/food-treats__ __halloween/decorations__ __halloween/grimaces__ __halloween/lighting__
+                  __halloween/symbols-icons__ __halloween/traditions__
+            random-location:
+                - >-
+                  __halloween/places-sceneries__, __halloween/atmosphere__, __halloween/decorations__,
+                  __halloween/symbols-icons__,__halloween/lighting__, __halloween/artstyles__
+            random-ppl:
+                - >-
+                  __halloween/costumes__, __halloween/atmosphere__, __halloween/food-treats__, __halloween/lighting__,
+                  {__halloween/symbols-icons__,|__halloween/grimaces__,|__halloween/symbols-icons__,|__halloween/traditions__,|}
+            random-pumpkin:
+                - >-
+                  pumpkin carving, __halloween/pumpkin-carving/techniques__, __halloween/pumpkin-carving/styles__,
+                  __halloween/pumpkin-carving/expressions__
+
+        lunar-newyear:
+            # __Bo/events/lunar-newyear/random*__
+            random:
+                - >-
+                  lunar newyear, __lunar-newyear/artstyles__, __lunar-newyear/atmosphere__, __lunar-newyear/decorations__,
+                  {__lunar-newyear/symbols__|__lunar-newyear/food__|__lunar-newyear/characters__|__lunar-newyear/traditions__},
+                  __lunar-newyear/scapes__, __lunar-newyear/scenes__, __lunar-newyear/lightings__
+
+        valentine:
+            # __Bo/events/valentine/random*__
+            random:
+                - >-
+                  valentines day, __valentine/artstyles__, __valentine/atmosphere__, __valentine/decorations__,
+                  {__valentine/symbols__|__valtentine/food__|__valentine/characters__|__valentine/traditions__},
+                  __valentine/scapes__, __valentine/scenes__, __valentine/lightings__
+
     habitats:
         # __Bo/habitats/random__
         random:
             - __habitats/types__ __habitats/housing__ in __habitats/biomes__ biome
             - __habitats/places/*__    in __habitats/biomes__ biome
-    halloween:
-        # __Bo/halloween/random*__
-        random-anything:
-            - >-
-              __halloween/atmosphere__ __halloween/artstyles__ __halloween/costumes__ __halloween/places-sceneries__
-              __halloween/food-treats__ __halloween/decorations__ __halloween/grimaces__ __halloween/lighting__
-              __halloween/symbols-icons__ __halloween/traditions__
-        random-location:
-            - >-
-              __halloween/places-sceneries__, __halloween/atmosphere__, __halloween/decorations__,
-              __halloween/symbols-icons__,__halloween/lighting__, __halloween/artstyles__
-        random-ppl:
-            - >-
-              __halloween/costumes__, __halloween/atmosphere__, __halloween/food-treats__, __halloween/lighting__,
-              {__halloween/symbols-icons__,|__halloween/grimaces__,|__halloween/symbols-icons__,|__halloween/traditions__,|}
-        random-pumpkin:
-            - >-
-              pumpkin carving, __halloween/pumpkin-carving/techniques__, __halloween/pumpkin-carving/styles__,
-              __halloween/pumpkin-carving/expressions__
     jewelry:
         # __Bo/jewelry/random__
         random:
@@ -766,12 +785,6 @@ Bo:
             - __styles/rendering-techniques/*__
         random-resolution:
             - __styles/resolutions__
-    valentine:
-        random:
-            - >-
-              valentines day, __valentine/artstyle__, __valentine/atmosphere__, __valentine/decorations__,
-              {__valentine/symbols__|__valtentine/food__|__valentine/characters__|__valentine/traditions__},
-              __valentine/scapes__, __valentine/scenes__, __valentine/lightings__
     vehicles:
         # __Bo/vehicles/random*__
         random:
@@ -18020,6 +18033,96 @@ lighting:
         - prism lighting effects
         - fantasy colors with gels
         - minimalist lighting
+lunar-newyear:
+    artstyles:
+        - Chinese calligraphy
+        - Chinese landscape painting
+        - Gongbi, Detailed brushwork often depicting birds and flowers
+        - Ink and wash painting
+        - New Year prints
+        - Paper cutting
+
+    atmosphere:
+        - Bustling
+        - Cheerful
+        - Colorful
+        - Festive
+        - Hopeful
+        - Joyous
+        - Reflective
+
+    characters:
+        - Cai Shen, The God of Wealth
+        - Door gods, Protective deities
+        - chinese Dragon, Symbol of power and good luck
+        - Kitchen god, Watches over families and reports to the Jade Emperor
+        - Lion, Used in lion dances to bring good luck and drive away evil spirits
+        - Nian, A mythical beast believed to eat crops and livestock
+        
+    decorations:
+        - Couplets, Red banners with auspicious phrases
+        - Kumquat trees, Symbolizing wealth and good luck
+        - Lanterns, Red lanterns hung for good fortune and to guide positive spirits
+        - Paper cuttings, Intricate designs representing luck and happiness
+        - Red envelopes, Given as gifts, filled with money for luck and prosperity
+        - Spring scrolls, Vertical banners with wishes for the new year
+
+    food:
+        - Dumplings, Symbolize wealth due to their shape resembling ancient Chinese money
+        - Fish, Served whole for abundance and prosperity
+        - Glutinous rice cake (nian gao), Represents growth and a higher income
+        - Long noodles, Symbolize longevity
+        - Oranges and tangerines, Represent luck and wealth
+        - Sweet rice balls (tangyuan), Symbolize family togetherness
+    lightings:
+        - Firecrackers
+        - Lanterns
+        - LED decorations
+        - Paper lanterns
+        - Red lanterns
+        - Candle holders, Shaped in traditional symbols or animals of the Chinese zodiac
+        - Electric red lanterns, Modern take on traditional lanterns, often with flashing lights or music
+        - Floating lanterns, Released into the sky or water, symbolizing the release of worries and wishes for the new year
+        - Sparklers, Hand-held fireworks that sparkle, adding a personal touch to celebrations
+        - String lights, Often used to decorate homes, trees, or public spaces, creating a festive and warm atmosphere
+    scapes:
+        - Cityscapes, Illuminated by festive lights, lanterns, and decorations, with crowded streets and markets
+        - Countrysides, Quiet and serene, with traditional decorations adorning homes and public spaces
+        - Home interiors, Warmly decorated with red envelopes, lanterns, and spring couplets, ready for family gatherings
+        - Temples, Busy with worshippers praying for good fortune, surrounded by incense smoke and festive decorations
+        - Waterfronts, Hosting lantern festivals with floating lanterns on rivers or seas, creating a magical atmosphere
+
+    scenes:
+        - Calligraphy writing
+        - Cleaning
+        - Dragon and lion dances
+        - Family gatherings
+        - Fireworks and firecrackers
+        - Giving red envelopes (hongbao)
+        - Lantern festivals
+        - Praying at temples
+        - Street fairs
+        - Wearing new clothes
+    symbols:
+        - Bamboo
+        - Dragons
+        - Fish
+        - Flowers {Peony|Plum blossom}
+        - Koi fish
+        - Lanterns
+        - Oranges and tangerines
+        - Red envelopes
+        - Red lanterns
+    traditions:
+        - Cleaning the house to sweep away ill-fortune and make way for incoming luck
+        - Exchanging gifts, particularly red envelopes containing money, to spread wealth and good fortune
+        - Family reunions, especially the reunion dinner on New Year's Eve, signifying family unity
+        - Firework displays and firecrackers to ward off evil spirits and welcome the new year
+        - Hanging decorations in red and gold, symbols of happiness and prosperity
+        - Offering sacrifices to ancestors, honoring family heritage and roots
+        - Watching lion and dragon dances, performed to bring good luck and drive away evil spirits
+        - Wearing new clothes, often in red, to symbolize a new beginning and fresh start
+
 machines:
     parts:
         cables-wires:
@@ -28573,7 +28676,7 @@ subtypes:
         - utopian/post-scarcity
         - virtual reality, augmented reality
 valentine:
-    artstyle:
+    artstyles:
         - abstract
         - cartoon
         - minimalist
