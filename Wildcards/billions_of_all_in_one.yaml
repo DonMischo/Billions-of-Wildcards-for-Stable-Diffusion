@@ -56,8 +56,10 @@ Bo:
         events:
             - >-
               {
-              __Bo/christmas/random__|
-              __Bo/halloween/random*__
+              __Bo/events/christmas/random__|
+              __Bo/events/halloween/random*__|
+              __Bo/events/lunar-newyear/random*__|
+              __Bo/events/valentine/random*__
               }
     audio:
         # __Bo/audio/*__
@@ -642,12 +644,20 @@ Bo:
                   {__lunar-newyear/symbols__|__lunar-newyear/food__|__lunar-newyear/characters__|__lunar-newyear/traditions__},
                   __lunar-newyear/scapes__, __lunar-newyear/scenes__, __lunar-newyear/lightings__
 
+        st-patrick:
+            # __Bo/events/valentine/random*__
+            random:
+                - >-
+                  st. patricks day, __st-patrick/artstyles__, __st-patrick/atmosphere__, __st-patrick/costumes__, __st-patrick/decorations__,
+                  {__st-patrick/symbols__|__st-patrick/food__|__st-patrick/characters__|__st-patrick/traditions__},
+                  __st-patrick/places-sceneries__, __st-patrick/lightings__
+
         valentine:
             # __Bo/events/valentine/random*__
             random:
                 - >-
                   valentines day, __valentine/artstyles__, __valentine/atmosphere__, __valentine/decorations__,
-                  {__valentine/symbols__|__valtentine/food__|__valentine/characters__|__valentine/traditions__},
+                  {__valentine/symbols__|__valentine/food__|__valentine/characters__|__valentine/traditions__},
                   __valentine/scapes__, __valentine/scenes__, __valentine/lightings__
 
     habitats:
@@ -8864,7 +8874,7 @@ clothings:
                     - woodruff
                     - yarborough
                     - umbridge
-                collor-cleavage:
+                collar-cleavage:
                     - applique detailing
                     - beaded fringe
                     - beaded netting
@@ -26602,6 +26612,97 @@ scifi:
             - unidentified code injection
             - unrecoverable file deletion
             - unresponsive web server
+st-patrick:
+    artstyles:
+        - Cartoon
+        - Celtic knotwork
+        - Photorealistic landscapes (Irish countryside)
+        - Traditional Irish illustrations
+
+    atmosphere:
+        - Festive
+        - Fun
+        - Inclusive
+        - Lighthearted
+        - Lively
+        - Reverent (during religious observances)
+        - Welcoming
+        
+    characters:
+        - Fairies
+        - Leprechauns
+        - St. Patrick
+        - Storytellers
+        - Traditional Irish Dancers
+
+    costumes:
+        - Fairy costume
+        - Green clothing (all shades)
+        - Leprechaun outfit, Buckle shoes, Green coat, Hat
+        - Traditional Irish dress, Kilt, Shawl
+
+    decorations:
+        - Green balloons
+        - Green streamers
+        - Irish flags
+        - Leprechaun figures
+        - Leprechaun traps
+        - Pots of gold (decorations)
+        - Pots of gold (filled with candy)
+        - Rainbow decorations
+        - Shamrocks
+        - Shamrock Garlands
+        - Shamrock Table scatters
+        - Shamrock Wreaths
+
+    food:
+        - Cabbage
+        - Colcannon (mashed potato dish with kale)
+        - Corned beef
+        - Guinness (beer)
+        - Irish stew
+        - Irish whiskey
+        - Shamrock cookies
+        - Shamrock cupcakes
+        - Shepherd's pie
+        - Soda bread
+
+    lighting:
+        - Fairy lights (twinkling)
+        - Green spotlights
+        - Green uplighting
+        - Inviting
+        - Warm
+
+    places-sceneries:
+        - Cliffs overlooking the ocean
+        - Irish pubs
+        - Rolling green hills
+        - St. Patrick's Cathedral (Dublin)
+        - Traditional cottages Thatched roofs
+
+    symbols:
+        - Celtic cross
+        - Leprechaun
+        - Pot of gold
+        - Rainbow
+        - Shamrock (representing the Holy Trinity)
+
+    traditions:
+        - Attending a St. Patrick's Day parade
+        - Attending church services (Catholic)
+        - Attending church services (Church of Ireland)
+        - Blessing religious buildings
+        - Blessing religious statues
+        - Drinking green beer
+        - Eating cabbage
+        - Eating corned beef
+        - Irish dancing
+        - Irish dancing Jig
+        - Irish dancing Step dance
+        - Storytelling (Irish myths and legends)
+        - Wearing green clothing
+
 styles:
     ambient-effects:
         - bloom
