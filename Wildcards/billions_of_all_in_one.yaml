@@ -821,12 +821,17 @@ Bo:
               {__properties/paint/vehicle__,|} {__properties/Textures/vehicles__,|}
         random-scifi:
             - >-
-              {__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|
+              scifi {__vehicles/size__|} {__vehicles/types/space__|__vehicles/types/Fictional-Underwater-Vehicles__|
               __vehicles/types/Flying-Car-Like-Vehicles__|__vehicles/types/Underground-Vehicles__},
               {__vehicles/exterior-features__,|} {__vehicles/windows__,|} {__vehicles/lights__,|}
               {__vehicles/Accessories__,|} {__vehicles/Customization__,|}
               __properties/materials-vehicles/*__, __properties/Visual/Appearance__,
               {__properties/paint/vehicle__,|} {__properties/Textures/vehicles__,|}
+        spacecraft:
+            - >-
+              scifi __scifi/spacecrafts/size__ __scifi/spacecrafts/shape__ __scifi/spacecrafts/type__,
+              __scifi/spacecrafts/engine__, __scifi/spacecrafts/hull__, 
+              {3-6$$__scifi/spacecrafts/antennae__|__scifi/spacecrafts/sensor__|__scifi/spacecrafts/window__|__scifi/spacecrafts/markings__}
 
 atmosphere:
     abstract:
@@ -26700,6 +26705,97 @@ scifi:
             - unidentified code injection
             - unrecoverable file deletion
             - unresponsive web server
+    spacecrafts:
+        antennae:
+            - communication antennas
+            - laser communication arrays
+            - radar antennas
+            - sensory antennas
+            - solar arrays
+            - telescopic antennas
+
+        engine:
+            - chemical rockets
+            - ion thrusters
+            - nuclear pulse propulsion
+            - nuclear thermal rockets
+            - solar sails
+            - warp drives
+            - antimatter engines
+            - electric propulsion systems
+
+        hull:
+            - aluminum alloys
+            - carbon composite
+            - ceramic tiles
+            - organic material
+            - reinforced titanium
+            - stainless steel
+            - synthetic polymers
+            - titanium alloys
+
+        markings:
+            - camouflage patterns
+            - emblems and insignias
+            - heat-resistant coatings
+            - holographic displays
+            - identification numbers
+            - metallic finishes
+            - national flags
+            - neon lighting
+            - reflective surfaces
+            - rust-like textures
+            - solar panel arrays
+
+        sensor:
+            - gravitational wave detectors
+            - infrared sensors
+            - lidar
+            - magnetometers
+            - optical telescopes
+            - radar
+            - radio antennas
+            - ultraviolet sensors
+            - x-ray detectors
+        size:
+            - extra-large
+            - large
+            - medium
+            - small
+            - very small
+        shape:
+            - cylindrical
+            - disc-shaped
+            - ring-shaped
+            - spherical
+            - streamlined
+            - triangular
+            - wedge-shaped
+
+        type:
+            - cargo ship
+            - cruiser
+            - explorer
+            - fighter
+            - freighter
+            - frigate
+            - mining vessel
+            - mothership
+            - patrol ship
+            - shuttle
+            - starfighter
+            - transport
+            - yacht
+
+        window:
+            - bulletproof glass
+            - electrochromic windows
+            - observation domes
+            - portholes
+            - reinforced transparent aluminum
+            - skylights
+            - viewports
+
 st-patrick:
     artstyles:
         - Cartoon
