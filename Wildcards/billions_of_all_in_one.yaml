@@ -57,8 +57,10 @@ Bo:
             - >-
               {
               __Bo/events/christmas/random__|
+              __Bo/events/easter/random*__|
               __Bo/events/halloween/random*__|
               __Bo/events/lunar-newyear/random*__|
+              __Bo/events/st-patrick/random*__|
               __Bo/events/valentine/random*__
               }
     audio:
@@ -350,25 +352,25 @@ Bo:
             female-baroque:
                 - >- 
                   baroque __clothings/baroque/female/dress/types__, __clothings/baroque/female/dress/arms__,
-                  __clothings/baroque/female/dress/collor-cleavage__, __clothings/baroque/female/dress/upper-body__,
+                  __clothings/baroque/female/dress/collar-cleavage__, __clothings/baroque/female/dress/upper-body__,
                   __clothings/baroque/female/dress/lower-body__, __clothings/baroque/female/dress/accesoires__, 
                   __properties/colors/*__
             male-baroque:
                 - >- 
                   baroque __clothings/baroque/male/attire/types__, __clothings/baroque/male/attire/arms__,
-                  __clothings/baroque/male/attire/collor-cleavage__, __clothings/baroque/male/attire/upper-body__,
+                  __clothings/baroque/male/attire/collar-cleavage__, __clothings/baroque/male/attire/upper-body__,
                   __clothings/baroque/male/attire/lower-body__, __clothings/baroque/male/attire/accesoires__, 
                   __properties/colors/*__
             female-edo:
                 - >- 
                   edo period __clothings/edoperiod/female/dress/types__, __clothings/edoperiod/female/dress/arms__,
-                  __clothings/edoperiod/female/dress/collor-cleavage__, __clothings/edoperiod/female/dress/upper-body__,
+                  __clothings/edoperiod/female/dress/collar-cleavage__, __clothings/edoperiod/female/dress/upper-body__,
                   __clothings/edoperiod/female/dress/lower-body__, __clothings/edoperiod/female/dress/accesoires__, 
                   __properties/colors/*__
             male-edo:
                 - >- 
                   edo period __clothings/edoperiod/male/attire/types__, __clothings/edoperiod/male/attire/arms__,
-                  __clothings/edoperiod/male/attire/collor-cleavage__, __clothings/edoperiod/male/attire/upper-body__,
+                  __clothings/edoperiod/male/attire/collar-cleavage__, __clothings/edoperiod/male/attire/upper-body__,
                   __clothings/edoperiod/male/attire/lower-body__, __clothings/edoperiod/male/attire/accesoires__, 
                   __properties/colors/*__
 
@@ -9267,7 +9269,7 @@ clothings:
                     - yogi kimono sleeves
                     - wrist ties
 
-                collor-cleavage:
+                collar-cleavage:
                     - kimono collar (eri)
                     - nagajuban collar
                     - han-eri
@@ -9299,6 +9301,7 @@ clothings:
                     - tsumugi kimono
                     - uchikake kimono
                     - yogi kimono
+
                 upper-body:
                     - fukuro obi (formal sash)
                     - haori (kimono jacket)
@@ -9344,7 +9347,7 @@ clothings:
                     - Uchikake Sleeves
                     - Yogi Sleeves
 
-                collor-cleavage:
+                collar-cleavage:
                     - Kataginu Neckline
                     - Haori Neckline
                     - Kosode Neckline
@@ -9377,7 +9380,7 @@ clothings:
                     - uwagi (outer garment)
                     - zori (traditional sandals)
 
-                upperbody:
+                upper-body:
                     - Eboshi (Formal Hat)
                     - Haori (Kimono Jacket)
                     - Hitatare (Formal Attire)
