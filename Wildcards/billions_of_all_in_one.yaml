@@ -6,14 +6,13 @@ Bo:
               __Bo/audio/random__|
               __Bo/books/random__|
               __Bo/chars/random__|
-              __Bo/christmas/random__|
               __Bo/clothings/random-*body__|
               __Bo/constructions/random-*__|
               __Bo/cosmic/random__|
               __Bo/creative/random*__|
               __Bo/creatures/*__|
+              __Bo/random/events__|
               __Bo/habitats/random__|
-              __Bo/halloween/random*__|
               __Bo/jewelry/random__|
               __Bo/machines/random__|
               __Bo/plants/random*__|
@@ -827,7 +826,7 @@ Bo:
               {__vehicles/Accessories__,|} {__vehicles/Customization__,|}
               __properties/materials-vehicles/*__, __properties/Visual/Appearance__,
               {__properties/paint/vehicle__,|} {__properties/Textures/vehicles__,|}
-        spacecraft:
+        random-spacecraft:
             - >-
               scifi __scifi/spacecrafts/size__ __scifi/spacecrafts/shape__ __scifi/spacecrafts/type__,
               __scifi/spacecrafts/engine__, __scifi/spacecrafts/hull__, 
