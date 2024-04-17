@@ -19055,6 +19055,563 @@ magical:
         - Summoning
         - Weaving
         - Wielding
+    academy:
+        arcane:
+            - Alchemical Apparatus (such as alembics and retorts)
+            - Arcane Crystals
+            - Binding Runes
+            - Charms and Talismans
+            - Consecrated Altar
+            - Crystal Phials (for storing magical essences)
+            - Enchanted Gemstones
+            - Essence Extractors
+            - Glyph Carving Tools
+            - Incense Burners
+            - Magical Ink (for inscribing arcane symbols)
+            - Mana Batteries
+            - Mystic Cauldron
+            - Occult Grimoires
+            - Planar Compass (for navigating between realms)
+            - Resonance Crystals
+            - Ritual Candles
+            - Ritual Chalk
+            - Ritual Circles (for containing magical energy)
+            - Rune Stones
+            - Sacred Relics
+            - Scroll Cases (for storing scrolls of arcane knowledge)
+            - Sigil Stones
+            - Soul Gems (containing captured souls for arcane rituals)
+            - Spell Catalysts
+            - Spell Components (various herbs, minerals, and reagents)
+            - Spell Scrolls
+            - Star Charts (for celestial magic)
+            - Summoning Circles (for invoking otherworldly beings)
+            - Thaumaturgic Wands
+            - Tome of Arcane Lore
+            - Unholy Relics
+            - Warding Glyphs
+            - Witch's Broom (for ritual cleansing and protection)
+            - Wizard's Staff
+
+        artificing:
+            - Artificer's Tools (such as hammers, chisels, and soldering irons)
+            - Blueprint Scrolls (for planning artifact designs)
+            - Enchanted Forges (for shaping magical metals)
+            - Essence Extractors (for harvesting magical essences from materials)
+            - Gemstone Cutters (for shaping magical gems)
+            - Inscription Pens (for inscribing magical runes)
+            - Mana Batteries (for powering magical artifacts)
+            - Metal Ingots (for crafting enchanted metals)
+            - Precision Engraving Tools
+            - Runic Templates (for creating uniform runes)
+            - Scroll Cases (for storing artifact blueprints)
+            - Spell Catalysts (for imbuing artifacts with magical properties)
+            - Spell Infusion Chambers (for infusing artifacts with magical energy)
+            - Stasis Chambers (for storing unstable magical materials)
+            - Stone Carving Tools (for shaping magical stones)
+            - Symbol Stamps (for stamping magical symbols)
+            - Talisman Chains (for wearable magical artifacts)
+            - Transmutation Circles (for transforming mundane materials into magical ones)
+            - Warding Glyphs (for imbuing artifacts with protective wards)
+            - Workbenches (for assembling and finishing magical artifacts)
+
+        astral:
+            - Astral Beacon
+            - Astral Compass
+            - Astral Projection Elixir
+            - Astral Projection Incense
+            - Astral Projection Mirror
+            - Astral Projection Robes
+            - Astral Projection Sigil
+            - Astral Projection Talisman
+            - Astral Projection Wand
+            - Astral Projection Crystals
+            - Dreamcatcher
+            - Meditation Cushion
+            - Oracle Cards
+            - Spirit Guide Statue
+            - Star Chart
+            - Travel Journal
+            - Vibrational Tuning Fork
+            - White Sage
+            - Wind Chimes
+
+        books:
+            - Ancient Grimoires
+            - Atlases of Magical Realms
+            - Books of Arcane History
+            - Books of Ethereal Studies
+            - Chronicles of Magical Wars
+            - Codices of Spellcraft
+            - Compendiums of Magical Creatures
+            - Diagrams of Magical Circles and Sigils
+            - Divination Tomes
+            - Encyclopedias of Magical Artifacts
+            - Enchanted Scrolls
+            - Folios of Alchemical Recipes
+            - Grimoires of Elemental Magic
+            - Histories of Wizarding Orders
+            - Lexicons of Magical Languages
+            - Manuals of Magical Combat
+            - Manuscripts of Mythical Lore
+            - Maps of Ley Lines and Magical Nodes
+            - Monographs on Psychic Phenomena
+            - Occult Journals
+            - Potions Manuals
+            - Records of Divine Intervention
+            - Scrolls of Enchantment
+            - Scrolls of Forbidden Knowledge
+            - Spellbooks of Legendary Wizards
+            - Texts on Astral Projection
+            - Tomes of Ancient Prophecies
+            - Treatises on Ritual Magic
+            - Volumes of Herbalism and Potion Brewing
+            - Writings on Celestial Navigation
+
+        classroom:
+            - Blackboards (enchanted for writing with magical chalk)
+            - Cauldrons (for practical potion-making demonstrations)
+            - Chalk and Erasers (enchanted for writing on magical blackboards)
+            - Crystal Balls (for divination lessons)
+            - Demonstration Tables (for showcasing magical experiments)
+            - Enchanted Projectors (for displaying magical diagrams and images)
+            - Lectern (for instructors to deliver lectures)
+            - Magic Circles (for contained spellcasting demonstrations)
+            - Magical Globes (for illustrating geography or celestial phenomena)
+            - Microscopes (enchanted for observing magical particles)
+            - Oculus Oculus (enchanted orbs for viewing distant locations)
+            - Potion Ingredients (for hands-on potion-making lessons)
+            - Spellbooks (for reference and study)
+            - Wand Racks (for storing student wands during class)
+            - Whiteboards (enchanted for writing with magical markers)
+            - Lecture Chairs (comfortable seating for students)
+            - Podium (for guest speakers or student presentations)
+            - Ritual Altar (for ceremonial magic demonstrations)
+            - Scrying Pool (for scrying lessons)
+            - Summoning Circle (for summoning lessons)
+            - Teacher's Desk (for instructor preparation and organization)
+            - Time-Turner Hourglass (for timing class sessions)
+            - Wardrobe (for storing ceremonial robes or props)
+            - Window Enchantments (for controlling natural light or enhancing ambiance)
+
+        common:
+            - Art Supplies
+            - Aura Reading Equipment
+            - Bean Bag Chairs
+            - Board Games
+            - Crystal Ball
+            - Crystal Garden
+            - Enchanted Books
+            - Enchanted Fountain
+            - Enchanted Musical Instruments
+            - Enchanted Paintings
+            - Enchanted Rugs
+            - Enchanted Quills and Parchment
+            - Fireplace
+            - Floating Candles
+            - Indoor Garden
+            - Lounge Chairs
+            - Magic Chess Set
+            - Magical Creature Habitat
+            - Meditation Cushions
+            - Memory Corner
+            - Music Player
+            - Potion Brewing Station
+            - Projection Screen
+            - Puzzle Boxes
+            - Reading Nooks
+            - Relaxation Pod
+            - Snack Bar
+            - Study Tables
+            - Telescope
+            - Teleportation Circle
+            - Time-Turner Hourglass
+            - Wardrobe
+            - Window Seats
+
+        crystal-resonance:
+            - Crystal Resonance Chamber (the main chamber itself)
+            - Amplification Crystals (to enhance energy resonance)
+            - Crystal Tuning Forks (for fine-tuning crystal vibrations)
+            - Energy Conductors (to channel energy throughout the chamber)
+            - Harmonic Resonators (to balance and harmonize energy frequencies)
+            - Meditation Cushions (for comfortable seating during resonance sessions)
+            - Quartz Crystal Singing Bowls (for sound healing and resonance)
+            - Reflective Surfaces (to amplify and reflect crystal energy)
+            - Sacred Geometry Tools (for geometric energy alignment)
+            - Selenite Wands (to cleanse and purify energy in the chamber)
+            - Smudge Sticks (for energy cleansing rituals before and after use)
+            - Soundproofing Materials (to minimize external interference)
+            - Vibrational Massage Tools (for energy alignment and relaxation)
+            - Water Features (such as fountains or pools, for enhancing resonance)
+            - Wind Chimes (to add gentle sound vibrations to the chamber)
+
+        demon-summoning:
+            - Altar of Summoning
+            - Binding Circles
+            - Black Candles
+            - Blood Chalices
+            - Book of Infernal Incantations
+            - Chains and Shackles
+            - Demon Sigils
+            - Enchanted Runes of Containment
+            - Infernal Relics
+            - Iron Pentagram
+            - Protective Warding Glyphs
+            - Sacrificial Knife
+            - Sulfur Incense
+            - Summoning Bell
+            - Summoning Cauldron
+            - Torture Implements
+            - Unholy Scriptures
+            - Venomous Reptiles
+            - Volcanic Rocks
+            - Whip of Subjugation
+
+        dining-hall:
+            - Banquet Tables
+            - Buffet Stations
+            - Chandeliers
+            - Crystal Goblets
+            - Dining Chairs
+            - Enchanted Food Platters
+            - Fireplace
+            - Hanging Plants
+            - Magical Cutlery
+            - Musician's Platform
+            - Potted Trees
+            - Serving Carts
+            - Silverware
+            - Tapestry
+            - Tea and Coffee Stations
+            - Themed Decorations
+            - Water Fountains
+            - Wine Cellar
+            - Wizarding Chef's Hat
+            - Wizarding Waiters
+
+        divination:
+            - Crystal Ball
+            - Divination Cards
+            - Enchanted Candles
+            - Incense Burner
+            - Meditation Cushions
+            - Pendulum
+            - Runes
+            - Scrying Mirror
+            - Tea Leaves
+            - Themed Decor
+            - Wishing Well
+            - Zodiac Charts
+
+        dorms:
+            - Canopy Beds
+            - Enchanted Wardrobes
+            - Floating Shelves
+            - Glow-in-the-Dark Stars
+            - Hanging Crystals
+            - Magic Alarm Clocks
+            - Memory Foam Pillows
+            - Personalized Tapestry
+            - Portable Study Desks
+            - Quill Holders
+            - Self-Cleaning Laundry Baskets
+            - Soundproofing Charms
+            - Study Lamps
+            - Tapestry Curtains
+            - Transfiguring Mirrors
+            - Underbed Storage
+            - Warm and Cozy Blankets
+            - Welcome Gifts
+            - Whispering Walls
+            - Writing Desk
+
+        dreamwalking:
+            - Dreamcatchers
+            - Enchanted Beds
+            - Hypnotic Crystals
+            - Lucid Dreaming Tea
+            - Meditation Mats
+            - Moonlight Lamps
+            - Projection Screens
+            - Scented Oils
+            - Sleep Masks
+            - Soundscapes
+            - Star Projectors
+            - Tranquil Music
+            - Visualization Crystals
+
+        duelling:
+            - Arena Floor
+            - Audience Seating
+            - Barrier Shields
+            - Dueling Platforms
+            - Enchanted Scoreboard
+            - Grand Entrance
+            - Healing Stations
+            - Magical Amplification System
+            - Spectator Stands
+            - Spell-Reflecting Mirrors
+            - Starting Line
+            - Trophy Display
+            - Victory Podium
+            - Warding Runes
+
+        elemental-manipulation:
+            - Elemental Altar
+            - Enchanted Braziers
+            - Elemental Crystals
+            - Energy Conduits
+            - Focus Stones
+            - Incantation Scrolls
+            - Meditation Pillows
+            - Elemental Gauntlets
+            - Elemental Staffs
+            - Elemental Tomes
+            - Magic Circles
+            - Resonance Crystals
+            - Scrying Pool
+            - Sigil Stones
+            - Spell Catalysts
+            - Summoning Cauldron
+            - Training Dummies
+            - Transformation Runes
+            - Weather Control Device
+            - Elemental Vortex Generator
+
+        enchanted-forest:
+            - Artificial Trees
+            - Enchanted Underbrush
+            - Holographic Animals
+            - Magic Mist Generators
+            - Mystic Ponds
+            - Simulated Sunlight Lamps
+            - Enchanted Flowerbeds
+            - Fairy Lights
+            - Holographic Butterflies
+            - Illusionary Birdsong
+            - Whispering Breezes
+            - Enchanted Rocks and Boulders
+            - Simulated Wildlife Sounds
+            - Mystical Waterfalls
+            - Magical Pathways
+            - Glowing Mushrooms
+            - Faux Fauna Nooks
+            - Tranquil Clearings
+            - Enchanted Fireflies
+            - Illusory Moonlight
+
+        ethereal-plain:
+            - Astral Projection Mat
+            - Celestial Charts
+            - Crystal Meditation Spheres
+            - Divination Crystals
+            - Dreamcatchers
+            - Enchanted Books on Astral Travel
+            - Ethereal Essence Vials
+            - Meditation Cushions
+            - Mystic Incense Burners
+            - Planar Gateway Portals
+            - Runes of Interdimensional Travel
+            - Scrying Mirrors
+            - Spirit Summoning Candles
+            - Transcendental Meditation Mantras
+            - Void Essence Extractors
+            - Warded Boundaries
+            - Wisp Orbs
+            - Xenomorphic Artefacts
+            - Yin-Yang Balance Stones
+            - Zen Gardens
+
+        fairy-grove:
+            - Blossoming Flowers
+            - Crystal Clear Ponds
+            - Enchanted Butterflies
+            - Fairy Dust Sprinklers
+            - Glowing Mushrooms
+            - Gossamer Wings
+            - Illuminated Fireflies
+            - Magical Waterfalls
+            - Mystical Fauna
+            - Pixie Nests
+            - Radiant Sunbeams
+            - Shimmering Dewdrops
+            - Sparkling Gemstones
+            - Twinkling Stardust
+            - Whispering Breezes
+            - Willow Trees
+            - Wishing Wells
+            - Woodland Pathways
+            - Enchanted Arbors
+            - Elfin Enclaves
+
+        lab-items:
+            - Alembics
+            - Alchemical Ingredients (such as rare minerals, metals, and magical essences)
+            - Athames
+            - Beakers
+            - Bunsen Burners
+            - Cauldrons
+            - Crucibles
+            - Crystal Vials
+            - Distillation Apparatus
+            - Elemental Essences (extracts from elemental creatures or materials)
+            - Enchanted Crystals and Gems
+            - Erlenmeyer Flasks
+            - Evaporating Dishes
+            - Filtration Funnels
+            - Glass Stirring Rods
+            - Graduated Cylinders
+            - Heating Mantles
+            - Heating Plates
+            - Hydrometers
+            - Incantation Scrolls
+            - Incubators
+            - Laboratory Notebooks
+            - Laboratory Robes and Aprons
+            - Magic Circles (for containing and controlling magical energy)
+            - Magic Reagents (various herbs, powders, and liquids used in spellcasting and potion-making)
+            - Magic Wands
+            - Microscopes
+            - Mortar and Pestle
+            - Petri Dishes
+            - Pipettes
+            - Protective Gloves
+            - Retorts
+            - Safety Goggles
+            - Scales and Weights
+            - Spectrophotometers
+            - Spellbooks
+            - Spirit Jars (for capturing and studying magical beings)
+            - Stirring Rods
+            - Test Tubes
+            - Thermometers
+
+        library-interior:
+            - Ambient Music Crystals (to enhance focus and concentration)
+            - Aromatherapy Diffusers (for concentration and relaxation)
+            - Area Rugs
+            - Bookshelves
+            - Comfortable Reading Nooks (with plush cushions and blankets)
+            - Crystal Ball (for scrying)
+            - Cushioned Chairs
+            - Decorative Bookends
+            - Decorative Statues or Busts
+            - Decorative Tapestries
+            - Fireplaces (with enchanted flames)
+            - Globes of the Magical World
+            - Inkwells and Quills
+            - Indexing Golems (magical constructs that assist with book retrieval)
+            - Levitating Book Platforms (for displaying rare or important volumes)
+            - Magic Dustbins (for disposing of unwanted scrolls or parchment)
+            - Magic Mirrors (for communication or divination)
+            - Navigation Compass (for finding specific sections or books)
+            - Ornate Ceiling Lamps (enchanted for illumination)
+            - Parchment Scrolls
+            - Reading Lamps
+            - Reading Tables
+            - Refreshment Stations (with enchanted tea or coffee dispensers)
+            - Self-Paging Books (enchanted to turn pages at the reader's command)
+            - Silence Charms (to maintain a quiet atmosphere)
+            - Study Carrels
+            - Time-Turner Hourglass (for monitoring study sessions)
+            - Wall Sconces (with enchanted flames)
+            - Whispering Walls (enchanted walls that share knowledge)
+            - Writing Desks
+
+        places:
+            - Administration Offices
+            - Alchemy Workshop
+            - Ancient Runes Archive
+            - Arcane Archives
+            - Artifacts Vault
+            - Artificer's Studio
+            - Astral Projection Room
+            - Aula (Auditorium)
+            - Celestial Observatory
+            - Classrooms
+            - Common Rooms
+            - Crystal Resonance Chamber
+            - Demonology Chamber
+            - Dining Hall
+            - Divination Parlor
+            - Dormitories
+            - Dreamwalking Chamber
+            - Dueling Chamber
+            - Elemental Manipulation Lab
+            - Elemental Nexus
+            - Enchanted Forest Simulation Room
+            - Enchantment Chamber
+            - Ethereal Plane Portal Room
+            - Fairy Grove
+            - Forbidden Section (Restricted Area in the Library)
+            - Healing Chamber
+            - Herb Garden
+            - History Chamber (Containing artifacts and texts related to magical history)
+            - Illusionary Hall
+            - Infirmary
+            - Kitchen
+            - Laboratory
+            - Laundry Room
+            - Library
+            - Magical Creatures Enclosure
+            - Magical Defense Training Grounds
+            - Magical History Gallery
+            - Magical Theory Lecture Hall
+            - Meditation Room
+            - Music Studio
+            - Necromancy Crypt
+            - Outdoor Training Grounds
+            - Potion Garden
+            - Potions Cellar
+            - Practice Rooms for spellcasting 
+            - Practice Rooms for potion-making
+            - Psychic Training Room
+            - Seance Chamber
+            - Shadow Magic Study
+            - Spirit Summoning Circle
+            - Storeroom
+            - Study Room
+            - Teleportation Chamber
+            - Time Magic Chamber
+            - Toilet
+            - Transfiguration Room
+            - Transmutation Chamber
+            - Wand Crafting Workshop
+        runecraft:
+            - Blank Runestones
+            - Chisels
+            - Engraving Tools
+            - Ink (for runic inscriptions)
+            - Magical Ink (enchanted for rune casting)
+            - Mortar and Pestle (for grinding magical materials)
+            - Quills (for writing runic symbols)
+            - Rune Casting Cloth (for divination)
+            - Rune Crafting Manuals
+            - Rune Crystals
+            - Rune Stones
+            - Rune Stamps (for creating uniform runes)
+            - Rune Crafting Tables
+            - Rune Crafting Cauldron (for enchanting runes)
+            - Rune Etching Acid
+            - Rune Inscribing Machine
+            - Rune Inscribing Scrolls
+            - Rune Mapping Instruments
+            - Rune Seals
+            - Rune Scribing Parchment
+            - Rune Crafting Gloves (to protect against magical residue)
+            - Runic Altar
+            - Runic Enchantment Ink
+            - Runic Inscription Books
+            - Runic Oils (for activating runes)
+            - Runic Symbols Guide
+            - Sigil Templates (for creating complex runes)
+            - Symbol Carving Knife
+            - Symbol Tracing Paper
+            - Transcription Tablets (for copying ancient runes)
+            - Warding Crystals (for protective runes)
+            - Word-of-Power Amulets (containing rune-powered spells)
+
     elemental:
         - '{fire|water|air|earth|elemental}'
     magic:
