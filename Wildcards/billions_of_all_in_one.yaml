@@ -504,11 +504,11 @@ Bo:
               {__Bo/constructions/buildings/magical__|__Bo/constructions/buildings/magical__}
         random-magical-academy-room:
             - >-
-              __magical/academy/places/*/prompt__
+              magic academy, __magical/academy/places/*/prompt__, magical, fantasy
             - >-
               __magical/academy/places/*/prompt__, __Bo/creative/random-atmosphere__
             - >-
-              __magical/academy/places/*/prompt__, {1-5$$__magical/academy/places/extra/*__}
+              __magical/academy/places/*/prompt__, {1-5$$__magical/academy/extra/*__}
         random-regular:
             - >-
               {__Bo/constructions/rooms/regular__|__Bo/constructions/buildings/regular__}
@@ -21714,7 +21714,6 @@ magical:
                 - worn leather chairs
                 - wraith essence containment vessels
 
-            gallery:
             gauntlet:
                 - arcane glyphs (marking different training zones)
                 - elemental emitters (creating obstacles or challenges)
@@ -22096,62 +22095,6 @@ magical:
                 - tractor tires
                 - training sleds
                 - weighted vests or sandbags
-
-            places:
-                administration-offices:
-                ancient-runes-archive:
-                arcane-archives:
-                artifacts-vault:
-                artificers-studio:
-                astral-projection-room:
-                aula-(auditorium):
-                celestial-observatory:
-                classrooms:
-                common-rooms:
-                crystal-resonance-chamber:
-                demonology-chamber:
-                dining-hall:
-                divination-parlor:
-                dormitories:
-                dreamwalking-chamber:
-                dueling-chamber:
-                elemental-manipulation-lab:
-                elemental-nexus:
-                enchanted-forest-simulation-room:
-                enchantment-chamber:
-                ethereal-plane-portal-room:
-                fairy-grove:
-                forbidden-section:
-                headmasters-office:
-                healing-chamber:
-                herb-garden:
-                history-chamber:
-                illusionary-hall:
-                infirmary:
-                kitchen:
-                laboratory:
-                laundry-room:
-                library:
-                magical-creatures-enclosure:
-                magical-defense-training-grounds:
-                magical-gallery:
-                magical-theory-lecture-hall:
-                meditation-room:
-                music-studio:
-                necromancy-crypt:
-                outdoor-training-grounds:
-                potions-cellar:
-                psychic-training-room:
-                shadow-magic-study:
-                spirit-summoning-circle:
-                storeroom:
-                study-room:
-                teleportation-chamber:
-                time-magic-chamber:
-                toilet:
-                transfiguration-room:
-                transmutation-chamber:
-                wand-crafting-workshop:
 
             potion-cellar:
                 - alembics
