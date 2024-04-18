@@ -502,6 +502,13 @@ Bo:
         random-magical:
             - >-
               {__Bo/constructions/buildings/magical__|__Bo/constructions/buildings/magical__}
+        random-magical-academy-room:
+            - >-
+              __magical/academy/places/*/prompt__
+            - >-
+              __magical/academy/places/*/prompt__, __Bo/creative/random-atmosphere__
+            - >-
+              __magical/academy/places/*/prompt__, {1-5$$__magical/academy/places/extra/*__}
         random-regular:
             - >-
               {__Bo/constructions/rooms/regular__|__Bo/constructions/buildings/regular__}
