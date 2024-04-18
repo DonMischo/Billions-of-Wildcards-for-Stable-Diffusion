@@ -19057,7 +19057,7 @@ magical:
         - Wielding
     academy:
         places:
-            administration-offices:
+            administration-office:
                 furniture:
                     - antique desks
                     - bookshelves
@@ -19096,16 +19096,22 @@ magical:
                     - scent of old parchment
                     - buzz of activity
                     - magical glow from various artifacts
-                entities/creatures:
+                entities-creatures:
                     - assistant imps
                     - paper golems
                     - spectral librarian
                     - document sprites
-                general features:
+                general-features:
                     - enchanted windows that adjust lighting
                     - magic-proofed walls
                     - sealed enchantments for privacy
                     - strategically placed magical wards
+                prompt:
+                    - >-
+                      __magical/academy/places/administration-office/atmosphere__ administration office, {1-3$$__magical/academy/places/administration-office/furniture__},
+                      {2-3$$__magical/academy/places/administration-office/items__}, {1-3$$__magical/academy/places/administration-office/equipment__},
+                      {0-1$$__magical/academy/places/administration-office/entities-creatures__|}, {__magical/academy/places/administration-office/entities-creatures__|},
+                      {__magical/academy/places/administration-office/general-features__|}
             ancient-runes-archive:
                 furniture:
                     - carved stone tables
@@ -19140,17 +19146,23 @@ magical:
                     - flickering torches
                     - mystical energy pulses
                     - silence except for the echo of footsteps
-                entities/creatures:
+                entities-creatures:
                     - archive wraiths
                     - guardian golems
                     - knowledge spirits
                     - rune wights
-                general features:
+                general-features:
                     - enchanted locks
                     - glyph-covered walls
                     - mystical barriers
                     - runic protection circles
                     - time-frozen zones
+                prompt:
+                    - >-
+                      __magical/academy/places/ancient-runes-archive/atmosphere__ ancient runes archive, {1-3$$__magical/academy/places/ancient-runes-archive/furniture__},
+                      {2-3$$__magical/academy/places/ancient-runes-archive/items__}, {1-3$$__magical/academy/places/ancient-runes-archive/equipment__},
+                      {0-1$$__magical/academy/places/ancient-runes-archive/entities-creatures__|}, {__magical/academy/places/ancient-runes-archive/entities-creatures__|},
+                      {__magical/academy/places/ancient-runes-archive/general-features__|}
             arcane-archives:
                 furniture:
                     - arcane lecterns
@@ -19185,18 +19197,24 @@ magical:
                     - magical mist
                     - mysterious hums
                     - soft glow of magic orbs
-                entities/creatures:
+                entities-creatures:
                     - arcane sentinels
                     - enchanted constructs
                     - magic essence wraiths
                     - spell-bound librarians
                     - wandering eyes
-                general features:
+                general-features:
                       - arcane symbols on walls
                       - dimensional rifts
                       - enchanted ceilings
                       - magic ward circles
                       - spatial distortions
+                prompt:
+                    - >-
+                      __magical/academy/places/arcane-archives/atmosphere__ arcane archives, {1-3$$__magical/academy/places/arcane-archives/furniture__},
+                      {2-3$$__magical/academy/places/arcane-archives/items__}, {1-3$$__magical/academy/places/arcane-archives/equipment__},
+                      {0-1$$__magical/academy/places/arcane-archives/entities-creatures__|}, {__magical/academy/places/arcane-archives/entities-creatures__|},
+                      {__magical/academy/places/arcane-archives/general-features__|}
             artifacts-vault:
                 furniture:
                     - armored display cases
@@ -19225,15 +19243,22 @@ magical:
                     - dim lighting
                     - mystic barriers humming
                     - protective spells active
-                entities/creatures:
+                entities-creatures:
                     - artifact guardians
                     - custodial spirits
                     - magic wardens
                     - security golems
-                general features:
+                general-features:
                     - enhanced magical security
                     - spatial expansion charms
                     - time-lock spells
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/artifacts-vault/atmosphere__ artifacts vault, {1-3$$__magical/academy/places/artifacts-vault/furniture__},
+                      {2-3$$__magical/academy/places/artifacts-vault/items__}, {1-3$$__magical/academy/places/artifacts-vault/equipment__},
+                      {0-1$$__magical/academy/places/artifacts-vault/entities-creatures__|}, {__magical/academy/places/artifacts-vault/entities-creatures__|},
+                      {__magical/academy/places/artifacts-vault/general-features__|}
             artificers-studio:
                 furniture:
                     - crafting tables
@@ -19261,15 +19286,22 @@ magical:
                     - faint smell of ozone
                     - glow of molten metal
                     - sound of hammering
-                entities/creatures:
+                entities-creatures:
                     - animated constructs
                     - forge sprites
                     - invention familiars
                     - tool spirits
-                general features:
+                general-features:
                     - emergency dispel zones
                     - energy containment fields
                     - mana recycling systems
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/artificers-studio/atmosphere__ artificers studio, {1-3$$__magical/academy/places/artificers-studio/furniture__},
+                      {2-3$$__magical/academy/places/artificers-studio/items__}, {1-3$$__magical/academy/places/artificers-studio/equipment__},
+                      {0-1$$__magical/academy/places/artificers-studio/entities-creatures__|}, {__magical/academy/places/artificers-studio/entities-creatures__|},
+                      {__magical/academy/places/artificers-studio/general-features__|}
             astral-projection-room:
                 furniture:
                     - cushioned platforms
@@ -19296,15 +19328,22 @@ magical:
                     - celestial music
                     - ethereal fog
                     - subtle vibrations
-                entities/creatures:
+                entities-creatures:
                     - astral navigators
                     - dream weavers
                     - projection sentinels
                     - spiritual guardians
-                general features:
+                general-features:
                     - dimensional anchors
                     - ethereal gateways
                     - vibration-proofing
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/astral-projection-room/atmosphere__ astral projection room, {1-3$$__magical/academy/places/astral-projection-room/furniture__},
+                      {2-3$$__magical/academy/places/astral-projection-room/items__}, {1-3$$__magical/academy/places/astral-projection-room/equipment__},
+                      {0-1$$__magical/academy/places/astral-projection-room/entities-creatures__|}, {__magical/academy/places/astral-projection-room/entities-creatures__|},
+                      {__magical/academy/places/astral-projection-room/general-features__|}
             aula-auditorium:
                 furniture:
                     - acoustic panels
@@ -19331,16 +19370,23 @@ magical:
                     - hushed anticipation
                     - murmur of the crowd
                     - spotlights roaming
-                entities/creatures:
+                entities-creatures:
                     - auditorium wraiths
                     - echo sprites
                     - performance spirits
                     - stage hands (magical)
-                general features:
+                general-features:
                     - enchanted acoustics
                     - illusionary backdrops
                     - magical fire exits
                     - themed decorations
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/aula-auditorium/atmosphere__ auditorium, {1-3$$__magical/academy/places/aula-auditorium/furniture__},
+                      {2-3$$__magical/academy/places/aula-auditorium/items__}, {1-3$$__magical/academy/places/aula-auditorium/equipment__},
+                      {0-1$$__magical/academy/places/aula-auditorium/entities-creatures__|}, {__magical/academy/places/aula-auditorium/entities-creatures__|},
+                      {__magical/academy/places/aula-auditorium/general-features__|}
             celestial-observatory:
                 furniture:
                     - astronomer's chairs
@@ -19367,16 +19413,23 @@ magical:
                     - glow of distant stars
                     - silence of space
                     - whisper of the universe
-                entities/creatures:
+                entities-creatures:
                     - celestial beings
                     - constellation spirits
                     - orbital sentinels
                     - star guardians
-                general features:
+                general-features:
                     - celestial gateways
                     - cosmic energy fields
                     - gravity nullifiers
                     - stellar alignment grids
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/celestial-observatory/atmosphere__ celestial observatory, {1-3$$__magical/academy/places/celestial-observatory/furniture__},
+                      {2-3$$__magical/academy/places/celestial-observatory/items__}, {1-3$$__magical/academy/places/celestial-observatory/equipment__},
+                      {0-1$$__magical/academy/places/celestial-observatory/entities-creatures__|}, {__magical/academy/places/celestial-observatory/entities-creatures__|},
+                      {__magical/academy/places/celestial-observatory/general-features__|}
             classrooms:
                 furniture:
                     - adjustable desks
@@ -19403,16 +19456,23 @@ magical:
                     - chalk dust in the air
                     - hum of concentration
                     - murmurs of discussion
-                entities/creatures:
+                entities-creatures:
                     - educational spirits
                     - homework nymphs
                     - teaching assistants (magical)
                     - tutoring phantoms
-                general features:
+                general-features:
                     - charm-proof walls
                     - learning enhancers
                     - spell containment fields
                     - transmutable furniture
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/classrooms/atmosphere__ classrooms, {1-3$$__magical/academy/places/classrooms/furniture__},
+                      {2-3$$__magical/academy/places/classrooms/items__}, {1-3$$__magical/academy/places/classrooms/equipment__},
+                      {0-1$$__magical/academy/places/classrooms/entities-creatures__|}, {__magical/academy/places/classrooms/entities-creatures__|},
+                      {__magical/academy/places/classrooms/general-features__|}
             common-rooms:
                 furniture:
                     - comfy sofas
@@ -19439,16 +19499,23 @@ magical:
                     - gentle flickering lights
                     - murmur of shared stories
                     - soft music playing
-                entities/creatures:
+                entities-creatures:
                     - comfort ghosts
                     - housekeeping sprites
                     - relaxation elementals
                     - welcoming wraiths
-                general features:
+                general-features:
                     - charm-resistant walls
                     - ever-clean floors
                     - spatially adjustable rooms
                     - ward-protected privacy
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/common-rooms/atmosphere__ common rooms, {1-3$$__magical/academy/places/common-rooms/furniture__},
+                      {2-3$$__magical/academy/places/common-rooms/items__}, {1-3$$__magical/academy/places/common-rooms/equipment__},
+                      {0-1$$__magical/academy/places/common-rooms/entities-creatures__|}, {__magical/academy/places/common-rooms/entities-creatures__|},
+                      {__magical/academy/places/common-rooms/general-features__|}
             crystal-resonance-chamber:
                 furniture:
                     - crystal holders
@@ -19475,16 +19542,23 @@ magical:
                     - harmonic buzzing
                     - pulsating waves
                     - rhythmic vibrations
-                entities/creatures:
+                entities-creatures:
                     - harmony sprites
                     - resonance beings
                     - sound elementals
                     - vibration spectres
-                general features:
+                general-features:
                     - acoustic optimization
                     - energy flow controls
                     - resonance stabilization
                     - vibration damping
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/crystal-resonance-chamber/atmosphere__ crystal resonance chamber, {1-3$$__magical/academy/places/crystal-resonance-chamber/furniture__},
+                      {2-3$$__magical/academy/places/crystal-resonance-chamber/items__}, {1-3$$__magical/academy/places/crystal-resonance-chamber/equipment__},
+                      {0-1$$__magical/academy/places/crystal-resonance-chamber/entities-creatures__|}, {__magical/academy/places/crystal-resonance-chamber/entities-creatures__|},
+                      {__magical/academy/places/crystal-resonance-chamber/general-features__|}
             demonology-chamber:
                 furniture:
                     - binding circles
@@ -19511,16 +19585,23 @@ magical:
                     - chilling winds
                     - muffled incantations
                     - tense stillness
-                entities/creatures:
+                entities-creatures:
                     - bound demons
                     - guardian spirits
                     - ritual masters
                     - warding constructs
-                general features:
+                general-features:
                     - enchanted locks
                     - magical containment
                     - reinforced protections
                     - seal of binding
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/demonology-chamber/atmosphere__ demonology chamber, {1-3$$__magical/academy/places/demonology-chamber/furniture__},
+                      {2-3$$__magical/academy/places/demonology-chamber/items__}, {1-3$$__magical/academy/places/demonology-chamber/equipment__},
+                      {0-1$$__magical/academy/places/demonology-chamber/entities-creatures__|}, {__magical/academy/places/demonology-chamber/entities-creatures__|},
+                      {__magical/academy/places/demonology-chamber/general-features__|}
             dining-hall:
                 furniture:
                     - banquet tables
@@ -19547,16 +19628,23 @@ magical:
                     - clatter of dishes
                     - glow of candlelight
                     - murmurs of satisfied diners
-                entities/creatures:
+                entities-creatures:
                     - culinary sprites
                     - feasting spirits
                     - gourmet ghosts
                     - table-setting imps
-                general features:
+                general-features:
                     - ambient sound control
                     - ever-fresh decor
                     - temperature regulation charms
                     - waste-free processing
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/dining-hall/atmosphere__ dining hall, {1-3$$__magical/academy/places/dining-hall/furniture__},
+                      {2-3$$__magical/academy/places/dining-hall/items__}, {1-3$$__magical/academy/places/dining-hall/equipment__},
+                      {0-1$$__magical/academy/places/dining-hall/entities-creatures__|}, {__magical/academy/places/dining-hall/entities-creatures__|},
+                      {__magical/academy/places/dining-hall/general-features__|}
             divination-parlor:
                 furniture:
                     - curtained alcoves
@@ -19583,16 +19671,23 @@ magical:
                     - flickering shadows
                     - soft whispering echoes
                     - visions flickering in the air
-                entities/creatures:
+                entities-creatures:
                     - future seers
                     - oracle spirits
                     - premonition wraiths
                     - visionary familiars
-                general features:
+                general-features:
                     - aura reading zones
                     - reality distortion fields
                     - temporal stabilizers
                     - vision-enhancing decor
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/divination-parlor/atmosphere__ divination parlor, {1-3$$__magical/academy/places/divination-parlor/furniture__},
+                      {2-3$$__magical/academy/places/divination-parlor/items__}, {1-3$$__magical/academy/places/divination-parlor/equipment__},
+                      {0-1$$__magical/academy/places/divination-parlor/entities-creatures__|}, {__magical/academy/places/divination-parlor/entities-creatures__|},
+                      {__magical/academy/places/divination-parlor/general-features__|}
             dormitories:
                 furniture:
                     - bunk beds
@@ -19619,16 +19714,23 @@ magical:
                     - gentle snoring
                     - soft night lights
                     - whisper of pages turning
-                entities/creatures:
+                entities-creatures:
                     - night guardians
                     - privacy sentinels
                     - restful spirits
                     - sleep aids
-                general features:
+                general-features:
                     - lockdown measures
                     - magic-proof insulation
                     - personalized comfort settings
                     - security enchantments
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/dormitories/atmosphere__ dormitories, {1-3$$__magical/academy/places/dormitories/furniture__},
+                      {2-3$$__magical/academy/places/dormitories/items__}, {1-3$$__magical/academy/places/dormitories/equipment__},
+                      {0-1$$__magical/academy/places/dormitories/entities-creatures__|}, {__magical/academy/places/dormitories/entities-creatures__|},
+                      {__magical/academy/places/dormitories/general-features__|}
             dreamwalking-chamber:
                 furniture:
                     - dream pods
@@ -19655,16 +19757,23 @@ magical:
                     - murmur of subconscious
                     - soft pulsing lights
                     - whispers of the mind
-                entities/creatures:
+                entities-creatures:
                     - dream guides
                     - nightmare wardens
                     - sleep spirits
                     - subconscious navigators
-                general features:
+                general-features:
                     - dreamscape manipulation
                     - psychic noise filters
                     - reality anchors
                     - subconscious gateways
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/dreamwalking-chamber/atmosphere__ dreamwalking chamber, {1-3$$__magical/academy/places/dreamwalking-chamber/furniture__},
+                      {2-3$$__magical/academy/places/dreamwalking-chamber/items__}, {1-3$$__magical/academy/places/dreamwalking-chamber/equipment__},
+                      {0-1$$__magical/academy/places/dreamwalking-chamber/entities-creatures__|}, {__magical/academy/places/dreamwalking-chamber/entities-creatures__|},
+                      {__magical/academy/places/dreamwalking-chamber/general-features__|}
             dueling-chamber:
                 furniture:
                     - combat platforms
@@ -19691,16 +19800,23 @@ magical:
                     - echo of combat
                     - intensity of the duel
                     - roar of the crowd
-                entities/creatures:
+                entities-creatures:
                     - battle spirits
                     - duel arbiters
                     - magic combat instructors
                     - victory heralds
-                general features:
+                general-features:
                     - damage-resistant walls
                     - magic containment fields
                     - spell rebounding systems
                     - tactical illusion generators
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/dueling-chamber/atmosphere__ dueling chamber, {1-3$$__magical/academy/places/dueling-chamber/furniture__},
+                      {2-3$$__magical/academy/places/dueling-chamber/items__}, {1-3$$__magical/academy/places/dueling-chamber/equipment__},
+                      {0-1$$__magical/academy/places/dueling-chamber/entities-creatures__|}, {__magical/academy/places/dueling-chamber/entities-creatures__|},
+                      {__magical/academy/places/dueling-chamber/general-features__|}
             elemental-manipulation-lab:
                 furniture:
                     - elemental altars
@@ -19727,16 +19843,23 @@ magical:
                     - buzz of energy
                     - flow of elements
                     - hum of manipulation
-                entities/creatures:
+                entities-creatures:
                     - elemental guardians
                     - energy sprites
                     - force entities
                     - weather wraiths
-                general features:
+                general-features:
                     - element-proofing
                     - energy absorption fields
                     - safety barriers
                     - weather control zones
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/elemental-manipulation-lab/atmosphere__ elemental manipulation lab, {1-3$$__magical/academy/places/elemental-manipulation-lab/furniture__},
+                      {2-3$$__magical/academy/places/elemental-manipulation-lab/items__}, {1-3$$__magical/academy/places/elemental-manipulation-lab/equipment__},
+                      {0-1$$__magical/academy/places/elemental-manipulation-lab/entities-creatures__|}, {__magical/academy/places/elemental-manipulation-lab/entities-creatures__|},
+                      {__magical/academy/places/elemental-manipulation-lab/general-features__|}
             elemental-nexus:
                 furniture:
                     - elemental fonts
@@ -19763,16 +19886,23 @@ magical:
                     - hum of balance
                     - pulse of energies
                     - whirl of elements
-                entities/creatures:
+                entities-creatures:
                     - elemental avatars
                     - energy conduits
                     - nexus guardians
                     - synergy spirits
-                general features:
+                general-features:
                     - elemental alignment
                     - energy flow control
                     - nexus stabilization
                     - power distribution systems
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/elemental-nexus/atmosphere__ elemental nexus, {1-3$$__magical/academy/places/elemental-nexus/furniture__},
+                      {2-3$$__magical/academy/places/elemental-nexus/items__}, {1-3$$__magical/academy/places/elemental-nexus/equipment__},
+                      {0-1$$__magical/academy/places/elemental-nexus/entities-creatures__|}, {__magical/academy/places/elemental-nexus/entities-creatures__|},
+                      {__magical/academy/places/elemental-nexus/general-features__|}
             enchanted-forest-simulation-room:
                 furniture:
                     - imitation trees
@@ -19799,16 +19929,23 @@ magical:
                     - rustle of leaves
                     - scent of fresh earth
                     - whisper of the wind
-                entities/creatures:
+                entities-creatures:
                     - biome caretakers
                     - ecosystem monitors
                     - simulation sprites
                     - virtual wildlife
-                general features:
+                general-features:
                     - climate emulation
                     - environmental feedback loops
                     - realistic ecosystem simulation
                     - terrain modulation
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/enchanted-forest-simulation-room/atmosphere__ enchanted forest simulation room, {1-3$$__magical/academy/places/enchanted-forest-simulation-room/furniture__},
+                      {2-3$$__magical/academy/places/enchanted-forest-simulation-room/items__}, {1-3$$__magical/academy/places/enchanted-forest-simulation-room/equipment__},
+                      {0-1$$__magical/academy/places/enchanted-forest-simulation-room/entities-creatures__|}, {__magical/academy/places/enchanted-forest-simulation-room/entities-creatures__|},
+                      {__magical/academy/places/enchanted-forest-simulation-room/general-features__|}
             enchantment-chamber:
                 furniture:
                     - enchanting tables
@@ -19835,16 +19972,23 @@ magical:
                     - glow of enchantments
                     - hum of spells
                     - whisper of incantations
-                entities/creatures:
+                entities-creatures:
                     - enchantment spirits
                     - inscription wisps
                     - spell crafters
                     - warding ghosts
-                general features:
+                general-features:
                     - aura cleanliness
                     - magical insulation
                     - spell persistence enhancements
                     - ward flexibility
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/enchantment-chamber/atmosphere__ enchantment chamber, {1-3$$__magical/academy/places/enchantment-chamber/furniture__},
+                      {2-3$$__magical/academy/places/enchantment-chamber/items__}, {1-3$$__magical/academy/places/enchantment-chamber/equipment__},
+                      {0-1$$__magical/academy/places/enchantment-chamber/entities-creatures__|}, {__magical/academy/places/enchantment-chamber/entities-creatures__|},
+                      {__magical/academy/places/enchantment-chamber/general-features__|}
             ethereal-plane-portal-room:
                 furniture:
                     - dimensional gates
@@ -19872,16 +20016,23 @@ magical:
                     - hum of dimensions
                     - ripple of space
                     - whisper of otherworlds
-                entities/creatures:
+                entities-creatures:
                     - dimensional sentinels
                     - plane wanderers
                     - portal guardians
                     - realm explorers
-                general features:
+                general-features:
                     - cross-dimensional barriers
                     - portal lockdown systems
                     - spatial anomaly detectors
                     - transdimensional security
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/ethereal-plane-portal-room/atmosphere__ ethereal plane portal room, {1-3$$__magical/academy/places/ethereal-plane-portal-room/furniture__},
+                      {2-3$$__magical/academy/places/ethereal-plane-portal-room/items__}, {1-3$$__magical/academy/places/ethereal-plane-portal-room/equipment__},
+                      {0-1$$__magical/academy/places/ethereal-plane-portal-room/entities-creatures__|}, {__magical/academy/places/ethereal-plane-portal-room/entities-creatures__|},
+                      {__magical/academy/places/ethereal-plane-portal-room/general-features__|}
             fairy-grove:
                 furniture:
                     - fairy circles
@@ -19908,16 +20059,23 @@ magical:
                     - murmur of tiny wings
                     - scent of wildflowers
                     - song of the grove
-                entities/creatures:
+                entities-creatures:
                     - fairy queens
                     - nature sprites
                     - pixies
                     - will-o'-the-wisps
-                general features:
+                general-features:
                     - enchanted boundaries
                     - natural camouflage
                     - pixie dust regenerators
                     - sprite energy fields
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/fairy-grove/atmosphere__ fairy groove, {1-3$$__magical/academy/places/fairy-grove/furniture__},
+                      {2-3$$__magical/academy/places/fairy-grove/items__}, {1-3$$__magical/academy/places/fairy-grove/equipment__},
+                      {0-1$$__magical/academy/places/fairy-grove/entities-creatures__|}, {__magical/academy/places/fairy-grove/entities-creatures__|},
+                      {__magical/academy/places/fairy-grove/general-features__|}
             forbidden-section:
                 furniture:
                     - caged bookshelves
@@ -19944,16 +20102,23 @@ magical:
                     - chill of the unknown
                     - muffled whispers
                     - silence of containment
-                entities/creatures:
+                entities-creatures:
                     - guardian specters
                     - keeper ghouls
                     - protection spirits
                     - ward watchers
-                general features:
+                general-features:
                     - curse-proofing
                     - magic damping fields
                     - security barriers
                     - ward reinforcements
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/forbidden-section/atmosphere__ forbidden library section, {1-3$$__magical/academy/places/forbidden-section/furniture__},
+                      {2-3$$__magical/academy/places/forbidden-section/items__}, {1-3$$__magical/academy/places/forbidden-section/equipment__},
+                      {0-1$$__magical/academy/places/forbidden-section/entities-creatures__|}, {__magical/academy/places/forbidden-section/entities-creatures__|},
+                      {__magical/academy/places/forbidden-section/general-features__|}
             headmasters-office:
                 furniture:
                     - elaborate desk
@@ -19980,16 +20145,23 @@ magical:
                     - glow of enchanted objects
                     - silence of respect
                     - whispers of history
-                entities/creatures:
+                entities-creatures:
                     - ancestral spirits
                     - guardian phantoms
                     - mystical advisers
                     - secret keepers
-                general features:
+                general-features:
                     - anti-eavesdropping charms
                     - dimensional escape routes
                     - magic-proofing
                     - time-lock safes
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/headmasters-office/atmosphere__ headmasters office, {1-3$$__magical/academy/places/headmasters-office/furniture__},
+                      {2-3$$__magical/academy/places/headmasters-office/items__}, {1-3$$__magical/academy/places/headmasters-office/equipment__},
+                      {0-1$$__magical/academy/places/headmasters-office/entities-creatures__|}, {__magical/academy/places/headmasters-office/entities-creatures__|},
+                      {__magical/academy/places/headmasters-office/general-features__|}
             healing-chamber:
                 furniture:
                     - healing beds
@@ -20016,16 +20188,23 @@ magical:
                     - gentle glowing lights
                     - sound of soothing melodies
                     - whisper of recovery
-                entities/creatures:
+                entities-creatures:
                     - curing spirits
                     - healer familiars
                     - regeneration nymphs
                     - restorative ghosts
-                general features:
+                general-features:
                     - aura cleansing zones
                     - magic contamination filters
                     - pain relief fields
                     - regenerative energy grids
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/healing-chamber/atmosphere__ healing chamber, {1-3$$__magical/academy/places/healing-chamber/furniture__},
+                      {2-3$$__magical/academy/places/healing-chamber/items__}, {1-3$$__magical/academy/places/healing-chamber/equipment__},
+                      {0-1$$__magical/academy/places/healing-chamber/entities-creatures__|}, {__magical/academy/places/healing-chamber/entities-creatures__|},
+                      {__magical/academy/places/healing-chamber/general-features__|}
             herb-garden:
                 furniture:
                     - growth shelves
@@ -20052,16 +20231,23 @@ magical:
                     - humidity of lush growth
                     - rustle of leaves
                     - scent of earth
-                entities/creatures:
+                entities-creatures:
                     - garden gnomes
                     - herb sprites
                     - plant guardians
                     - sprout fairies
-                general features:
+                general-features:
                     - automated irrigation
                     - enchanted composting
                     - pest control wards
                     - seasonal adjustment charms
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/herb-garden/atmosphere__ herb garden, {1-3$$__magical/academy/places/herb-garden/furniture__},
+                      {2-3$$__magical/academy/places/herb-garden/items__}, {1-3$$__magical/academy/places/herb-garden/equipment__},
+                      {0-1$$__magical/academy/places/herb-garden/entities-creatures__|}, {__magical/academy/places/herb-garden/entities-creatures__|},
+                      {__magical/academy/places/herb-garden/general-features__|}
             history-chamber:
                 furniture:
                     - ancient busts
@@ -20088,16 +20274,23 @@ magical:
                     - murmur of bygone eras
                     - scent of old books
                     - whispers of history
-                entities/creatures:
+                entities-creatures:
                     - historical apparitions
                     - museum custodians
                     - past echoes
                     - time spirits
-                general features:
+                general-features:
                     - chrono-barriers
                     - historical accuracy wards
                     - temporal insulation
                     - time-proofing spells
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/history-chamber/atmosphere__ history chamber, {1-3$$__magical/academy/places/history-chamber/furniture__},
+                      {2-3$$__magical/academy/places/history-chamber/items__}, {1-3$$__magical/academy/places/history-chamber/equipment__},
+                      {0-1$$__magical/academy/places/history-chamber/entities-creatures__|}, {__magical/academy/places/history-chamber/entities-creatures__|},
+                      {__magical/academy/places/history-chamber/general-features__|}
             illusionary-hall:
                 furniture:
                     - deceptive mirrors
@@ -20124,16 +20317,23 @@ magical:
                     - flicker of unreal
                     - play of shadows
                     - whisper of illusions
-                entities/creatures:
+                entities-creatures:
                     - illusion masters
                     - mirage spirits
                     - phantom guardians
                     - reality benders
-                general features:
+                general-features:
                     - illusion maintenance systems
                     - perceptual safeguards
                     - reality anchoring
                     - visual coherence tuners
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/illusionary-hall/atmosphere__ illusionary hall, {1-3$$__magical/academy/places/illusionary-hall/furniture__},
+                      {2-3$$__magical/academy/places/illusionary-hall/items__}, {1-3$$__magical/academy/places/illusionary-hall/equipment__},
+                      {0-1$$__magical/academy/places/illusionary-hall/entities-creatures__|}, {__magical/academy/places/illusionary-hall/entities-creatures__|},
+                      {__magical/academy/places/illusionary-hall/general-features__|}
             infirmary:
                 furniture:
                     - adjustable beds
@@ -20160,16 +20360,23 @@ magical:
                     - quiet of recuperation
                     - scent of antiseptics
                     - soothing ambient sounds
-                entities/creatures:
+                entities-creatures:
                     - curing phantoms
                     - healing wraiths
                     - medic spirits
                     - recovery sprites
-                general features:
+                general-features:
                     - automated nursing systems
                     - health field generators
                     - infection barriers
                     - recovery acceleration zones
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/infirmary/atmosphere__ infirmary, {1-3$$__magical/academy/places/infirmary/furniture__},
+                      {2-3$$__magical/academy/places/infirmary/items__}, {1-3$$__magical/academy/places/infirmary/equipment__},
+                      {0-1$$__magical/academy/places/infirmary/entities-creatures__|}, {__magical/academy/places/infirmary/entities-creatures__|},
+                      {__magical/academy/places/infirmary/general-features__|}
             kitchen:
                 furniture:
                     - chef's counters
@@ -20196,16 +20403,23 @@ magical:
                     - sizzle of cooking
                     - steam of boiling pots
                     - warmth of the hearth
-                entities/creatures:
+                entities-creatures:
                     - cooking sprites
                     - culinary genies
                     - flavor wizards
                     - kitchen goblins
-                general features:
+                general-features:
                     - fire suppression spells
                     - ingredient replenishment charms
                     - meal planning scryers
                     - self-cleaning magic
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/kitchen/atmosphere__ kitchen, {1-3$$__magical/academy/places/kitchen/furniture__},
+                      {2-3$$__magical/academy/places/kitchen/items__}, {1-3$$__magical/academy/places/kitchen/equipment__},
+                      {0-1$$__magical/academy/places/kitchen/entities-creatures__|}, {__magical/academy/places/kitchen/entities-creatures__|},
+                      {__magical/academy/places/kitchen/general-features__|}
             laboratory:
                 furniture:
                     - alchemy stations
@@ -20232,16 +20446,23 @@ magical:
                     - glow of alchemical reactions
                     - hum of magic machinery
                     - scent of potent potions
-                entities/creatures:
+                entities-creatures:
                     - alchemical homunculi
                     - experimental spirits
                     - lab wraiths
                     - research familiars
-                general features:
+                general-features:
                     - contamination wards
                     - magic dampening zones
                     - safety barriers
                     - spell-proof containment
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/laboratory/atmosphere__ laboratory, {1-3$$__magical/academy/places/laboratory/furniture__},
+                      {2-3$$__magical/academy/places/laboratory/items__}, {1-3$$__magical/academy/places/laboratory/equipment__},
+                      {0-1$$__magical/academy/places/laboratory/entities-creatures__|}, {__magical/academy/places/laboratory/entities-creatures__|},
+                      {__magical/academy/places/laboratory/general-features__|}
             laundry-room:
                 furniture:
                     - drying racks
@@ -20268,16 +20489,23 @@ magical:
                     - hum of clean
                     - rustle of folding clothes
                     - whir of machines
-                entities/creatures:
+                entities-creatures:
                     - cleaning imps
                     - laundry sprites
                     - wash wizards
                     - wrinkle gnomes
-                general features:
+                general-features:
                     - anti-fade enchantments
                     - cloth rejuvenation spells
                     - self-sorting systems
                     - water recycling charms
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/laundry-room/atmosphere__ laundry room, {1-3$$__magical/academy/places/laundry-room/furniture__},
+                      {2-3$$__magical/academy/places/laundry-room/items__}, {1-3$$__magical/academy/places/laundry-room/equipment__},
+                      {0-1$$__magical/academy/places/laundry-room/entities-creatures__|}, {__magical/academy/places/laundry-room/entities-creatures__|},
+                      {__magical/academy/places/laundry-room/general-features__|}
             library:
                 furniture:
                     - book ladders
@@ -20304,16 +20532,23 @@ magical:
                     - musk of old paper
                     - soft echoes of footsteps
                     - whisper of knowledge
-                entities/creatures:
+                entities-creatures:
                     - bookworm spirits
                     - librarian specters
                     - literature sprites
                     - silence guardians
-                general features:
+                general-features:
                     - anti-fire wards
                     - magical indexing
                     - noise cancellation spells
                     - reading enhancement zones
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/library/atmosphere__ library, {1-3$$__magical/academy/places/library/furniture__},
+                      {2-3$$__magical/academy/places/library/items__}, {1-3$$__magical/academy/places/library/equipment__},
+                      {0-1$$__magical/academy/places/library/entities-creatures__|}, {__magical/academy/places/library/entities-creatures__|},
+                      {__magical/academy/places/library/general-features__|}
             magical-creatures-enclosure:
                 furniture:
                     - creature comforts
@@ -20340,16 +20575,23 @@ magical:
                     - rustle of foliage
                     - scent of nature
                     - whispers of the wild
-                entities/creatures:
+                entities-creatures:
                     - creature caretakers
                     - magical veterinarians
                     - nature spirits
                     - wildlife wardens
-                general features:
+                general-features:
                     - biome stabilization
                     - creature comfort magic
                     - habitat wards
                     - safety barriers
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/magical-creatures-enclosure/atmosphere__ magical creatures enclosure, {1-3$$__magical/academy/places/magical-creatures-enclosure/furniture__},
+                      {2-3$$__magical/academy/places/magical-creatures-enclosure/items__}, {1-3$$__magical/academy/places/magical-creatures-enclosure/equipment__},
+                      {0-1$$__magical/academy/places/magical-creatures-enclosure/entities-creatures__|}, {__magical/academy/places/magical-creatures-enclosure/entities-creatures__|},
+                      {__magical/academy/places/magical-creatures-enclosure/general-features__|}
             magical-defense-training-grounds:
                 furniture:
                     - dueling arenas
@@ -20376,16 +20618,23 @@ magical:
                     - echo of maneuvers
                     - intensity of training
                     - roar of combat
-                entities/creatures:
+                entities-creatures:
                     - defense instructors
                     - magic combatants
                     - tactical ghosts
                     - training elementals
-                general features:
+                general-features:
                     - battlefield simulations
                     - combat magic zones
                     - spell casting ranges
                     - training spell wards
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/magical-defense-training-grounds/atmosphere__ magical defense training grounds, {1-3$$__magical/academy/places/magical-defense-training-grounds/furniture__},
+                      {2-3$$__magical/academy/places/magical-defense-training-grounds/items__}, {1-3$$__magical/academy/places/magical-defense-training-grounds/equipment__},
+                      {0-1$$__magical/academy/places/magical-defense-training-grounds/entities-creatures__|}, {__magical/academy/places/magical-defense-training-grounds/entities-creatures__|},
+                      {__magical/academy/places/magical-defense-training-grounds/general-features__|}
             magical-gallery:
                 furniture:
                     - art plinths
@@ -20412,16 +20661,23 @@ magical:
                     - glow of artworks
                     - hum of magic
                     - whispers of awe
-                entities/creatures:
+                entities-creatures:
                     - art guardians
                     - creative muses
                     - magic restorers
                     - spectral critics
-                general features:
+                general-features:
                     - artistic enhancement zones
                     - magic dampening shields
                     - protection spells
                     - theft-proof barriers
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/magical-gallery/atmosphere__ magical gallery, {1-3$$__magical/academy/places/magical-gallery/furniture__},
+                      {2-3$$__magical/academy/places/magical-gallery/items__}, {1-3$$__magical/academy/places/magical-gallery/equipment__},
+                      {0-1$$__magical/academy/places/magical-gallery/entities-creatures__|}, {__magical/academy/places/magical-gallery/entities-creatures__|},
+                      {__magical/academy/places/magical-gallery/general-features__|}
             magical-theory-lecture-hall:
                 furniture:
                     - instructor's podium
@@ -20448,16 +20704,23 @@ magical:
                     - echo of discussions
                     - glow of understanding
                     - hum of concentrated study
-                entities/creatures:
+                entities-creatures:
                     - learning enhancers
                     - magical theorists
                     - student aides
                     - theory spirits
-                general features:
+                general-features:
                     - knowledge amplification fields
                     - learning accelerators
                     - theory testing zones
                     - thought clarity enhancements
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/magical-theory-lecture-hall/atmosphere__ magical theory lecture hall, {1-3$$__magical/academy/places/magical-theory-lecture-hall/furniture__},
+                      {2-3$$__magical/academy/places/magical-theory-lecture-hall/items__}, {1-3$$__magical/academy/places/magical-theory-lecture-hall/equipment__},
+                      {0-1$$__magical/academy/places/magical-theory-lecture-hall/entities-creatures__|}, {__magical/academy/places/magical-theory-lecture-hall/entities-creatures__|},
+                      {__magical/academy/places/magical-theory-lecture-hall/general-features__|}
             meditation-room:
                 furniture:
                     - cushioned mats
@@ -20484,16 +20747,23 @@ magical:
                     - hush of stillness
                     - murmur of calm
                     - whisper of peace
-                entities/creatures:
+                entities-creatures:
                     - calm spirits
                     - meditation guides
                     - peaceful presences
                     - serenity phantoms
-                general features:
+                general-features:
                     - energy neutralizers
                     - mental clarity fields
                     - spiritual alignment zones
                     - stress reduction auras
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/meditation-room/atmosphere__ meditation room, {1-3$$__magical/academy/places/meditation-room/furniture__},
+                      {2-3$$__magical/academy/places/meditation-room/items__}, {1-3$$__magical/academy/places/meditation-room/equipment__},
+                      {0-1$$__magical/academy/places/meditation-room/entities-creatures__|}, {__magical/academy/places/meditation-room/entities-creatures__|},
+                      {__magical/academy/places/meditation-room/general-features__|}
             music-studio:
                 furniture:
                     - instrument racks
@@ -20520,16 +20790,23 @@ magical:
                     - harmony of instruments
                     - rhythm of beats
                     - symphony of sounds
-                entities/creatures:
+                entities-creatures:
                     - melody sprites
                     - music nymphs
                     - rhythm phantoms
                     - sound wizards
-                general features:
+                general-features:
                     - acoustic perfection zones
                     - music preservation auras
                     - sound isolation fields
                     - vibrational control systems
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/music-studio/atmosphere__ music studio, {1-3$$__magical/academy/places/music-studio/furniture__},
+                      {2-3$$__magical/academy/places/music-studio/items__}, {1-3$$__magical/academy/places/music-studio/equipment__},
+                      {0-1$$__magical/academy/places/music-studio/entities-creatures__|}, {__magical/academy/places/music-studio/entities-creatures__|},
+                      {__magical/academy/places/music-studio/general-features__|}
             necromancy-crypt:
                 furniture:
                     - altar of shadows
@@ -20556,16 +20833,23 @@ magical:
                     - echo of the void
                     - murmur of the dead
                     - whisper of spirits
-                entities/creatures:
+                entities-creatures:
                     - crypt guardians
                     - necro-spirits
                     - reanimation specters
                     - soul wardens
-                general features:
+                general-features:
                     - death magic wards
                     - necrotic energy filters
                     - spirit containment fields
                     - undead suppression glyphs
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/necromancy-crypt/atmosphere__ necromancy crypt, {1-3$$__magical/academy/places/necromancy-crypt/furniture__},
+                      {2-3$$__magical/academy/places/necromancy-crypt/items__}, {1-3$$__magical/academy/places/necromancy-crypt/equipment__},
+                      {0-1$$__magical/academy/places/necromancy-crypt/entities-creatures__|}, {__magical/academy/places/necromancy-crypt/entities-creatures__|},
+                      {__magical/academy/places/necromancy-crypt/general-features__|}
             outdoor-training-grounds:
                 furniture:
                     - archery targets
@@ -20592,16 +20876,23 @@ magical:
                     - roar of spells
                     - shouts of training
                     - thrill of combat
-                entities/creatures:
+                entities-creatures:
                     - combat instructors
                     - magic tacticians
                     - training elementals
                     - warrior spirits
-                general features:
+                general-features:
                     - battlefield simulations
                     - combat magic zones
                     - spell casting ranges
                     - training spell wards
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/outdoor-training-grounds/atmosphere__ outdoor training grounds, {1-3$$__magical/academy/places/outdoor-training-grounds/furniture__},
+                      {2-3$$__magical/academy/places/outdoor-training-grounds/items__}, {1-3$$__magical/academy/places/outdoor-training-grounds/equipment__},
+                      {0-1$$__magical/academy/places/outdoor-training-grounds/entities-creatures__|}, {__magical/academy/places/outdoor-training-grounds/entities-creatures__|},
+                      {__magical/academy/places/outdoor-training-grounds/general-features__|}
             potions-cellar:
                 furniture:
                     - brewing stations
@@ -20628,16 +20919,23 @@ magical:
                     - glow of bubbling concoctions
                     - scent of herbs
                     - whispers of steam
-                entities/creatures:
+                entities-creatures:
                     - brew masters
                     - potion sprites
                     - spirit alchemists
                     - vapor wisps
-                general features:
+                general-features:
                     - climate control for storage
                     - magic resistant walls
                     - potion curing stations
                     - spill containment spells
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/potions-cellar/atmosphere__ potions cellar, {1-3$$__magical/academy/places/potions-cellar/furniture__},
+                      {2-3$$__magical/academy/places/potions-cellar/items__}, {1-3$$__magical/academy/places/potions-cellar/equipment__},
+                      {0-1$$__magical/academy/places/potions-cellar/entities-creatures__|}, {__magical/academy/places/potions-cellar/entities-creatures__|},
+                      {__magical/academy/places/potions-cellar/general-features__|}
             psychic-training-room:
                 furniture:
                     - concentration pods
@@ -20664,16 +20962,23 @@ magical:
                     - hum of focused energy
                     - silence of deep thought
                     - whisper of minds
-                entities/creatures:
+                entities-creatures:
                     - mind guides
                     - psychic instructors
                     - telepathic mentors
                     - thought spirits
-                general features:
+                general-features:
                     - mental clarity zones
                     - psychic barrier protections
                     - thought filtering systems
                     - vision clarity enhancements
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/psychic-training-room/atmosphere__ psychic training room, {1-3$$__magical/academy/places/psychic-training-room/furniture__},
+                      {2-3$$__magical/academy/places/psychic-training-room/items__}, {1-3$$__magical/academy/places/psychic-training-room/equipment__},
+                      {0-1$$__magical/academy/places/psychic-training-room/entities-creatures__|}, {__magical/academy/places/psychic-training-room/entities-creatures__|},
+                      {__magical/academy/places/psychic-training-room/general-features__|}
             shadow-magic-study:
                 furniture:
                     - darkness drapes
@@ -20700,16 +21005,23 @@ magical:
                     - echoes of quiet
                     - glimmer of shadows
                     - whispers of the unseen
-                entities/creatures:
+                entities-creatures:
                     - darkness spirits
                     - gloom wardens
                     - shadow mages
                     - silence watchers
-                general features:
+                general-features:
                     - darkness control zones
                     - gloom damping fields
                     - shadow blending spells
                     - silence reinforcement areas
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/shadow-magic-study/atmosphere__ shadow magic study, {1-3$$__magical/academy/places/shadow-magic-study/furniture__},
+                      {2-3$$__magical/academy/places/shadow-magic-study/items__}, {1-3$$__magical/academy/places/shadow-magic-study/equipment__},
+                      {0-1$$__magical/academy/places/shadow-magic-study/entities-creatures__|}, {__magical/academy/places/shadow-magic-study/entities-creatures__|},
+                      {__magical/academy/places/shadow-magic-study/general-features__|}
             spirit-summoning-circle:
                 furniture:
                     - channeling stones
@@ -20736,16 +21048,23 @@ magical:
                     - glow of spirits
                     - murmur of the ethereal
                     - whisper of the otherworld
-                entities/creatures:
+                entities-creatures:
                     - astral navigators
                     - phantom guides
                     - spirit summoners
                     - ward protectors
-                general features:
+                general-features:
                     - ectoplasm containment
                     - spirit barrier zones
                     - summoning grid protections
                     - ward synchronization
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/administration-office/atmosphere__ spirit summoning circle, {1-3$$__magical/academy/places/administration-office/furniture__},
+                      {2-3$$__magical/academy/places/administration-office/items__}, {1-3$$__magical/academy/places/administration-office/equipment__},
+                      {0-1$$__magical/academy/places/administration-office/entities-creatures__|}, {__magical/academy/places/administration-office/entities-creatures__|},
+                      {__magical/academy/places/administration-office/general-features__|}
             storeroom:
                 furniture:
                     - item racks
@@ -20772,16 +21091,23 @@ magical:
                     - orderliness
                     - scent of preservation
                     - silence of storage
-                entities/creatures:
+                entities-creatures:
                     - item keepers
                     - preservation sprites
                     - stock managers
                     - storage ghosts
-                general features:
+                general-features:
                     - inventory control spells
                     - magic-proofing
                     - preservation zones
                     - theft deterrence enchantments
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/storeroom/atmosphere__ storeroom, {1-3$$__magical/academy/places/storeroom/furniture__},
+                      {2-3$$__magical/academy/places/storeroom/items__}, {1-3$$__magical/academy/places/storeroom/equipment__},
+                      {0-1$$__magical/academy/places/storeroom/entities-creatures__|}, {__magical/academy/places/storeroom/entities-creatures__|},
+                      {__magical/academy/places/storeroom/general-features__|}
             study-room:
                 furniture:
                     - book carrels
@@ -20808,16 +21134,23 @@ magical:
                     - hum of concentration
                     - murmur of learning
                     - whisper of knowledge
-                entities/creatures:
+                entities-creatures:
                     - learning spirits
                     - memory aides
                     - study guides
                     - wisdom presences
-                general features:
+                general-features:
                     - cognitive boost zones
                     - focus enhancement fields
                     - learning acceleration spells
                     - noise reduction barriers
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/study-room/atmosphere__ study room, {1-3$$__magical/academy/places/study-room/furniture__},
+                      {2-3$$__magical/academy/places/study-room/items__}, {1-3$$__magical/academy/places/study-room/equipment__},
+                      {0-1$$__magical/academy/places/study-room/entities-creatures__|}, {__magical/academy/places/study-room/entities-creatures__|},
+                      {__magical/academy/places/study-room/general-features__|}
             teleportation-chamber:
                 furniture:
                     - destination pads
@@ -20844,16 +21177,23 @@ magical:
                     - glimmer of passing lights
                     - hum of spatial bending
                     - whirl of dimensions
-                entities/creatures:
+                entities-creatures:
                     - portal masters
                     - spatial technicians
                     - teleportation spirits
                     - wormhole watchers
-                general features:
+                general-features:
                     - destination lock systems
                     - safety interlocks
                     - spatial anchor points
                     - teleportation field stabilizers
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/teleportation-chamber/atmosphere__ teleportation chamber, {1-3$$__magical/academy/places/teleportation-chamber/furniture__},
+                      {2-3$$__magical/academy/places/teleportation-chamber/items__}, {1-3$$__magical/academy/places/teleportation-chamber/equipment__},
+                      {0-1$$__magical/academy/places/teleportation-chamber/entities-creatures__|}, {__magical/academy/places/teleportation-chamber/entities-creatures__|},
+                      {__magical/academy/places/teleportation-chamber/general-features__|}
             time-magic-chamber:
                 furniture:
                     - chrono pods
@@ -20880,16 +21220,23 @@ magical:
                     - flow of temporal energy
                     - glow of time streams
                     - whisper of passing years
-                entities/creatures:
+                entities-creatures:
                     - chrono spirits
                     - time benders
                     - timeline guardians
                     - temporal echoes
-                general features:
+                general-features:
                     - chronostatic fields
                     - temporal anomaly detectors
                     - time lock protections
                     - timeline stabilization
+            
+                prompt:
+                    - >-
+                      __magical/academy/places/time-magic-chamber/atmosphere__ time magic chamber, {1-3$$__magical/academy/places/time-magic-chamber/furniture__},
+                      {2-3$$__magical/academy/places/time-magic-chamber/items__}, {1-3$$__magical/academy/places/time-magic-chamber/equipment__},
+                      {0-1$$__magical/academy/places/time-magic-chamber/entities-creatures__|}, {__magical/academy/places/time-magic-chamber/entities-creatures__|},
+                      {__magical/academy/places/time-magic-chamber/general-features__|}
             toilet:
                 furniture:
                     - enchanted basins
@@ -20916,18 +21263,24 @@ magical:
                     - fresh scents
                     - soft glow of light
                     - whisper of water
-                entities/creatures:
+                entities-creatures:
                     - cleanliness sprites
                     - hygiene spirits
                     - sanitation specters
                     - water nymphs
-                general features:
+                general-features:
                     - automatic cleaning spells
                     - health sanitation wards
                     - privacy enchantments
                     - water conservation magic
 
 
+                prompt:
+                    - >-
+                      __magical/academy/places/toilet/atmosphere__ toilet, {1-3$$__magical/academy/places/toilet/furniture__},
+                      {2-3$$__magical/academy/places/toilet/items__}, {1-3$$__magical/academy/places/toilet/equipment__},
+                      {0-1$$__magical/academy/places/toilet/entities-creatures__|}, {__magical/academy/places/toilet/entities-creatures__|},
+                      {__magical/academy/places/toilet/general-features__|}
         extra:
             arcane:
                 - alchemical apparatus (such as alembics and retorts)
