@@ -1,0 +1,2494 @@
+RPG:
+    rpg_tiles:
+        - >-
+          rpg tile
+    rpg_tiles:
+        environmental:
+            - campsites
+            - fences
+            - gates
+            - pools
+            - signs
+            - statues
+            - tombs
+            - traps
+        items:
+            - altars
+            - anvils
+            - barrels
+            - benches
+            - bookshelves
+            - braziers
+            - cages
+            - chandeliers
+            - crates
+            - cupboards
+            - desks
+            - display cases
+            - fireplaces
+            - fountains
+            - furniture
+            - lanterns
+            - mirrors
+            - paintings
+            - pillars
+            - potted plants
+            - rugs
+            - shelves
+            - statues
+            - stools
+            - tables
+            - tents
+            - thrones
+            - treasure chests
+            - urns
+            - vehicles
+            - wagons
+            - weapon racks
+            - wells
+            - workbenches
+            - cauldrons
+            - carpets
+            - chests
+            - clocks
+            - cushions
+            - dividers
+            - drapes
+            - globes
+            - musical instruments
+            - pedestals
+            - screens
+            - scroll cases
+            - sideboards
+            - stands
+            - trunks
+
+        natural_features:
+            - beaches
+            - canyons
+            - caves
+            - cliffs
+            - coral reefs
+            - deserts
+            - dunes
+            - forests
+            - geysers
+            - glaciers
+            - groves
+            - hot springs
+            - islands
+            - jungles
+            - lakes
+            - marshes
+            - meadows
+            - mountains
+            - oases
+            - plains
+            - rivers
+            - rock formations
+            - savannahs
+            - swamps
+            - tundras
+            - valleys
+            - volcanoes
+            - waterfalls
+            - wetlands
+
+        special_locations:
+            - ancient ruins
+            - celestial observatories
+            - dragon lairs
+            - dwarven strongholds
+            - enchanted forests
+            - faerie circles
+            - floating islands
+            - ghost towns
+            - haunted houses
+            - hidden temples
+            - lost cities
+            - magical portals
+            - mysterious islands
+            - necromancer towers
+            - sacred groves
+            - secret hideouts
+            - sky castles
+            - sunken ships
+            - teleportation circles
+            - underwater cities
+            - volcanoes
+            - wizard towers
+            - abandoned laboratories
+            - arcane libraries
+            - crystal caves
+            - elemental shrines
+            - enchanted gardens
+            - forbidden sanctuaries
+            - haunted cathedrals
+            - hidden caves
+            - lost temples
+            - mystical springs
+            - pirate coves
+            - rune stones
+            - spectral battlegrounds
+
+        structures:
+            buildings:
+                - barracks
+                - blacksmith shops
+                - castles
+                - cottages
+                - forts
+                - guild halls
+                - huts
+                - inns
+                - keeps
+                - lighthouses
+                - manors
+                - mills
+                - outposts
+                - ruins
+                - stables
+                - taverns
+                - towers
+                - warehouses
+                - watchtowers
+                - workshops
+                - armories
+                - bakeries
+                - breweries
+                - clock towers
+                - farmhouses
+                - granaries
+                - greenhouses
+                - libraries
+                - observatories
+                - palaces
+                - prisons
+                - schools
+                - shrines
+                - smithies
+                - theaters
+                - town halls
+                - villas
+
+            dungeons:
+                - catacombs
+                - caverns
+                - crypts
+                - dungeon cells
+                - labyrinths
+                - mines
+                - sewers
+                - tombs
+                - underwater caves
+                - abandoned forts
+                - ancient temples
+                - bandit hideouts
+                - forgotten libraries
+                - goblin dens
+                - haunted mansions
+                - hidden chambers
+                - lost cities
+                - necromancer lairs
+                - smuggler tunnels
+                - spider nests
+                - vampire crypts
+            interiors:
+                - armories
+                - banquet halls
+                - ballrooms
+                - bedchambers
+                - cellars
+                - chapels
+                - dining rooms
+                - dungeons
+                - galleries
+                - kitchens
+                - libraries
+                - living quarters
+                - pantries
+                - prisons
+                - secret rooms
+                - servant quarters
+                - storerooms
+                - studies
+                - throne rooms
+                - treasure rooms
+                - vaults
+                - wine cellars
+                - workshops
+                - bathrooms
+                - cloakrooms
+                - common rooms
+                - conference rooms
+                - courtyards
+                - greenhouses
+                - guard rooms
+                - infirmaries
+                - lounges
+                - offices
+                - observatories
+                - parlors
+                - reception halls
+                - salons
+                - saunas
+                - staircases
+
+        terrain:
+            - canyons
+            - desert
+            - forest
+            - grassland
+            - hills
+            - jungles
+            - mountains
+            - plains
+            - savannahs
+            - swamp
+            - tundra
+            - valleys
+            - water
+            - wastelands
+        urban:
+            - alleys
+            - aqueducts
+            - avenues
+            - bazaars
+            - bridges
+            - canals
+            - courtyards
+            - fountains
+            - gardens
+            - marketplaces
+            - monuments
+            - observatories
+            - parks
+            - plazas
+            - public baths
+            - squares
+            - statues
+            - streets
+            - temples
+            - town halls
+            - town squares
+            - walls
+            - watchtowers
+            - wells
+            - amphitheaters
+            - clock towers
+            - guild halls
+            - inns
+            - libraries
+            - manor houses
+            - mansions
+            - markets
+            - museums
+            - pubs
+            - residential areas
+            - schools
+            - shops
+            - theaters
+            - towers
+            - trading posts
+    abilities:
+        combat:
+            melee:
+                offensive:
+                    - backstab
+                    - battering ram
+                    - berserk
+                    - blade flurry
+                    - cleave
+                    - crippling strike
+                    - crushing blow
+                    - deadly precision
+                    - disarm
+                    - double strike
+                    - dual wield
+                    - enrage
+                    - execute
+                    - flurry of blows
+                    - hamstring
+                    - headbutt
+                    - heavy swing
+                    - lunge
+                    - piercing strike
+                    - power attack
+                    - precision strike
+                    - riposte
+                    - roundhouse kick
+                    - shockwave
+                    - slash
+                    - smite
+                    - spin attack
+                    - stunning blow
+                    - sunder armor
+                    - sweeping strike
+                    - thrust
+                    - uppercut
+                    - whirlwind attack
+                    - wild swing
+                    - war cry
+                    - feint
+                    - grapple
+                    - kidney shot
+                    - low blow
+                    - overhand strike
+                    - pommel strike
+                    - savage strike
+                    - skewer
+                    - spartan kick
+                    - throat punch
+                defensive:
+                    - parry
+                    - shield bash
+                    - shield block
+                    - shield charge
+                    - sidestep
+                    - martial stance
+                    - deflect
+                    - counterattack
+                    - dodge
+                    - defensive stance
+                    - iron defense
+                    - mirror image
+                    - fortify
+                    - unyielding resolve
+                    - protective stance
+                    - stone skin
+                    - indomitable will
+
+            range:
+                offensive:
+                    - aimed shot
+                    - arrow barrage
+                    - bomb toss
+                    - bursting shot
+                    - called shot
+                    - crossbow bolt
+                    - explosive arrow
+                    - fire arrow
+                    - grenade throw
+                    - hail of arrows
+                    - long shot
+                    - multi-shot
+                    - piercing arrow
+                    - poison arrow
+                    - quick shot
+                    - ricochet shot
+                    - scatter shot
+                    - snipe
+                    - throwing dagger
+                    - throwing spear
+                    - trick shot
+                    - volley
+                    - rapid fire
+                    - incendiary arrow
+                    - frost arrow
+                    - thunderbolt arrow
+                    - shadow arrow
+                    - wind arrow
+                    - lightning bolt
+                    - arcane shot
+                    - homing arrow
+                    - shrapnel shot
+                    - charged shot
+                defensive:
+                    - cover fire
+                    - defensive stance
+                    - dodge roll
+                    - evasive maneuver
+                    - retreat shot
+                    - suppressive fire
+                    - tactical retreat
+                    - smoke screen
+                    - feigned retreat
+                    - blinding arrow
+                    - disorienting shot
+                    - net shot
+                    - tripwire shot
+                    - distraction shot
+                    - flashbang
+
+        spells:
+            fire_spells:
+                offensive:
+                    - blaze
+                    - burning hands
+                    - combust
+                    - dragon's breath
+                    - fire blast
+                    - fire bolt
+                    - fireball
+                    - flame arrow
+                    - flame blade
+                    - flame burst
+                    - flame strike
+                    - incendiary cloud
+                    - meteor swarm
+                    - phoenix fire
+                    - scorching ray
+                    - searing smite
+                    - hellfire
+                    - immolate
+                    - lava burst
+                defensive:
+                    - fire shield
+                    - flame ward
+                    - wall of fire
+                    - fire resistance
+                    - fiery aura
+                    - ember shield
+                ritual:
+                    - ritual of flame
+                    - summoning flame elementals
+                    - eternal flame
+                    - fire trap
+                    - fire ward
+                    - ignition circle
+                    - pyromancy
+                    - sacred fire rite
+                    - flame purification
+                    - fire rune engraving
+                    - immolation ward
+                    - inferno binding
+                    - sacrificial fire
+
+            water_spells:
+                offensive:
+                    - aqua jet
+                    - crushing wave
+                    - drown
+                    - frost flood
+                    - geyser
+                    - ice to water
+                    - tidal wave
+                    - tsunami
+                    - water blast
+                    - water bolt
+                    - water whip
+                    - whirlpool
+                    - boiling surge
+                    - deluge
+                    - frostbite
+                    - hydro blast
+                    - ice needles
+                    - riptide
+                    - sea serpent's strike
+                    - water cannon
+                    - water jet
+                    - wave crash
+                defensive:
+                    - healing waters
+                    - mist form
+                    - purify water
+                    - rain dance
+                    - river's embrace
+                    - water barrier
+                    - water breathing
+                    - fog cloud
+                    - bubble shield
+                    - soothing mist
+                    - frost armor
+                    - liquid armor
+                    - moisture shield
+                    - sea foam protection
+                    - shield of tides
+                    - vapor shield
+                    - water cloak
+                    - water ward
+                    - aquatic sanctuary
+                ritual:
+                    - water divination
+                    - water scrying
+                    - summoning water elementals
+                    - blessed rain
+                    - water purification
+                    - aquamancy
+                    - tidal surge
+                    - river calling
+                    - ocean's blessing
+                    - elemental water binding
+                    - cleansing tide
+                    - rain invocation
+                    - water rune engraving
+                    - sea blessing
+                    - ceremony of waves
+                    - lake mirror
+                    - mermaid's call
+                    - moonlit tides
+                    - ocean's memory
+                    - ritual of the deep
+                    - spring's gift
+                    - summoning aquatic spirits
+                    - tide whispering
+                    - water healing circle
+                    - water spirit invocation
+                    - wellspring blessing
+            lightning_spells:
+                offensive:
+                    - ball lightning
+                    - chain lightning
+                    - electrical storm
+                    - lightning bolt
+                    - lightning strike
+                    - lightning surge
+                    - lightning whip
+                    - stormcall
+                    - stormstrike
+                    - thunderbolt
+                    - thunderclap
+                    - thunderstorm
+                    - voltaic arc
+                    - zap
+                    - zeus' wrath
+                    - shocking grasp
+                    - shockwave
+                    - electrocute
+                    - jolt
+                    - plasma blast
+                    - static burst
+                defensive:
+                    - lightning shield
+                    - storm shield
+                    - electric barrier
+                    - static field
+                    - magnetic shield
+                    - lightning resistance
+                    - thunder ward
+                    - spark armor
+                ritual:
+                    - summoning storm elementals
+                    - storm invocation
+                    - thunder ritual
+                    - lightning rune engraving
+                    - electric warding
+                    - tempest call
+                    - sky summoning
+                    - storm summoning
+                    - storm's blessing
+                    - ritual of the storm
+                    - storm binding
+                    - electric purification
+                    - lightning focus
+                    - static ritual
+                    - thunder chant
+                    - weather control
+            earth_spells:
+                offensive:
+                    - boulder throw
+                    - earthquake
+                    - earth spike
+                    - earth tremor
+                    - fissure
+                    - landslide
+                    - mudslide
+                    - rock barrage
+                    - rockfall
+                    - sandstorm
+                    - seismic shock
+                    - stone blast
+                    - stone spikes
+                    - stonefist
+                    - tremor strike
+                    - upheaval
+                    - petrify
+                    - avalanche
+                defensive:
+                    - earthen armor
+                    - earthen shield
+                    - stone skin
+                    - earth barrier
+                    - mud wall
+                    - rock shield
+                    - sand shield
+                    - stone wall
+                    - earth ward
+                    - fortify
+                    - earthen bulwark
+                    - protective barrier
+                    - granite shield
+                    - boulder defense
+                    - ground guard
+                ritual:
+                    - summoning earth elementals
+                    - earth rune engraving
+                    - geomancy
+                    - stone shaping
+                    - earth binding
+                    - earth's blessing
+                    - ground sanctification
+                    - stone guardian summoning
+                    - terraforming
+                    - ritual of the mountain
+                    - soil purification
+                    - seismic control
+                    - earth divination
+                    - rock communion
+                    - earthen resonance
+                    - ritual of stability
+                    - summoning golems
+                    - nature's embrace
+                    - binding of the land
+                    - earth spirit invocation
+            wind_spells:
+                offensive:
+                    - air blade
+                    - cyclone
+                    - dust storm
+                    - gale force
+                    - gust
+                    - hurricane strike
+                    - tornado
+                    - vortex
+                    - wind blast
+                    - wind cutter
+                    - wind lash
+                    - wind shear
+                    - whirlwind
+                    - zephyr strike
+                    - razor wind
+                    - storm gust
+                    - tempest strike
+                    - wind scythe
+                defensive:
+                    - air shield
+                    - barrier of winds
+                    - deflecting breeze
+                    - wind barrier
+                    - wind cloak
+                    - wind wall
+                    - protective gust
+                    - whirlwind shield
+                    - breeze guard
+                    - airy defense
+                    - cyclone shield
+                    - mist barrier
+                    - wind ward
+                    - gale guard
+                ritual:
+                    - summoning air elementals
+                    - air rune engraving
+                    - wind calling
+                    - breeze invocation
+                    - storm summoning
+                    - wind divination
+                    - whispering wind ritual
+                    - aerial blessing
+                    - flight invocation
+                    - invocation of the four winds
+                    - sky communion
+                    - storm binding
+                    - wind sanctification
+                    - air spirit invocation
+                    - tempest ritual
+                    - ritual of the zephyr
+                    - breeze communion
+                    - gale summoning
+                    - breath of life
+                    - ritual of storms
+            blood_spells:
+                offensive:
+                    - blood boil
+                    - blood burst
+                    - blood lance
+                    - blood strike
+                    - blood siphon
+                    - hemorrhage
+                    - life drain
+                    - sanguine spear
+                    - crimson whip
+                    - bleeding curse
+                    - blood hex
+                    - sanguine eruption
+                    - vampire's touch
+                    - arterial slice
+                    - crimson bolt
+                    - exsanguinate
+                defensive:
+                    - blood barrier
+                    - blood shield
+                    - crimson armor
+                    - life ward
+                    - blood fortification
+                    - sanguine ward
+                    - blood bond
+                    - hematoma shield
+                    - blood regeneration
+                    - sanguine veil
+                ritual:
+                    - blood sacrifice
+                    - blood binding
+                    - blood divination
+                    - blood pact
+                    - blood ritual
+                    - blood rune engraving
+                    - crimson rite
+                    - life transfusion
+                    - summoning blood elementals
+                    - blood communion
+                    - sanguine purification
+                    - blood warding
+                    - necrotic infusion
+                    - blood spirit invocation
+                    - bloodletting ceremony
+                    - ritual of sanguine power
+                    - blood moon invocation
+                    - sacrificial bond
+                    - hematomancy
+                    - life essence extraction
+                    - ritual of the red moon
+            darkness_spells:
+                offensive:
+                    - abyssal strike
+                    - black bolt
+                    - dark blast
+                    - dark flare
+                    - dark lance
+                    - dark wave
+                    - death touch
+                    - drain life
+                    - shadow blade
+                    - shadow bolt
+                    - shadow burst
+                    - shadow strike
+                    - shadowflame
+                    - soul siphon
+                    - void blast
+                    - void strike
+                    - withering touch
+                defensive:
+                    - black shroud
+                    - cloak of shadows
+                    - dark armor
+                    - dark ward
+                    - shadow barrier
+                    - shadow cloak
+                    - shadow shield
+                    - shroud of darkness
+                    - veil of shadows
+                    - void shield
+                    - wraith form
+                    - shadow veil
+                    - necrotic shield
+                    - night guard
+                ritual:
+                    - dark binding
+                    - dark divination
+                    - dark rune engraving
+                    - darkness invocation
+                    - eclipse ritual
+                    - necromancy
+                    - ritual of shadows
+                    - shadow summoning
+                    - shadowmancy
+                    - summoning dark elementals
+                    - void calling
+                    - void communion
+                    - ritual of the night
+                    - shadow spirit invocation
+                    - soul binding
+                    - black sacrament
+                    - twilight invocation
+                    - ritual of eternal night
+                    - necrotic rite
+                    - invocation of the dark
+                    - sacrificial darkness
+                    - nocturnal blessing
+            shadow_spells:
+                offensive:
+                    - shadow bolt
+                    - shadow blade
+                    - shadow burst
+                    - shadow claw
+                    - shadowflame
+                    - shadow lance
+                    - shadow strike
+                    - shadow wave
+                    - shadow whip
+                    - shadowslash
+                    - wraith strike
+                    - dark shadow
+                    - umbral blast
+                    - umbral spikes
+                    - phantom grasp
+                    - midnight slash
+                    - gloom strike
+                defensive:
+                    - cloak of shadows
+                    - dark shroud
+                    - shadow armor
+                    - shadow barrier
+                    - shadow cloak
+                    - shadow shield
+                    - shadow veil
+                    - shroud of darkness
+                    - wraith form
+                    - shadow mist
+                    - umbral ward
+                    - veil of shadows
+                    - phantom shield
+                    - shadow wall
+                    - twilight guard
+                ritual:
+                    - shadow binding
+                    - shadow communion
+                    - shadow conjuring
+                    - shadow divination
+                    - shadow invocation
+                    - shadow rune engraving
+                    - shadowmancy
+                    - summoning shadow elementals
+                    - shadow step
+                    - umbral ritual
+                    - veil of the night
+                    - shadow spirit invocation
+                    - ritual of darkness
+                    - shadow veil ceremony
+                    - binding shadows
+                    - twilight summoning
+                    - nightfall invocation
+                    - shadow pact
+                    - phantom invocation
+                    - ritual of the shadow
+                    - eclipse binding
+            nature_spells:
+                offensive:
+                    - bramble grasp
+                    - earthquake
+                    - entangle
+                    - fungal growth
+                    - grasping vines
+                    - hail of thorns
+                    - insect swarm
+                    - lightning strike
+                    - poison ivy
+                    - thorn whip
+                    - tree strike
+                    - venom spray
+                    - vine lash
+                    - wild strike
+                    - wind blade
+                    - wither
+                    - bark burst
+                    - stone throw
+                    - rockslide
+                    - root spike
+                defensive:
+                    - barkskin
+                    - call of the wild
+                    - earth shield
+                    - healing rain
+                    - nature's blessing
+                    - nature's cloak
+                    - nature's shield
+                    - regeneration
+                    - stone skin
+                    - thorn armor
+                    - tree form
+                    - wind barrier
+                    - woodland guard
+                    - camouflage
+                    - nature's refuge
+                    - plant barrier
+                    - forest embrace
+                ritual:
+                    - animal summoning
+                    - communion with nature
+                    - control weather
+                    - grove sanctification
+                    - nature rune engraving
+                    - plant growth
+                    - rain dance
+                    - rebirth ritual
+                    - summoning earth elementals
+                    - tree communication
+                    - tree stride
+                    - wild shape
+                    - nature's bond
+                    - spirit of the forest
+                    - ritual of seasons
+                    - harvest blessing
+                    - elemental binding
+                    - solstice celebration
+                    - nature's renewal
+                    - druids' circle
+                    - invocation of the wild
+                    - sacred grove
+                    - nature's guidance
+                    - moonlight ritual
+                    - star communion
+                    - earth's embrace
+                    - forest spirit invocation
+                    - binding of the woods
+            moon_spells:
+                offensive:
+                    - crescent slash
+                    - dark moon blast
+                    - eclipse beam
+                    - lunar bolt
+                    - lunar flare
+                    - moon beam
+                    - moonfire
+                    - moonlit strike
+                    - moonshadow strike
+                    - silvery arrow
+                    - starfall
+                    - tidal surge
+                    - waning strike
+                defensive:
+                    - celestial shield
+                    - eclipse shield
+                    - lunar barrier
+                    - lunar shield
+                    - moon cloak
+                    - moonlight ward
+                    - night veil
+                    - silvery mist
+                    - twilight armor
+                    - waning guard
+                    - waxing guard
+                ritual:
+                    - astral communion
+                    - blessing of the moon
+                    - call of the moon
+                    - eclipse invocation
+                    - full moon rite
+                    - lunar blessing
+                    - lunar divination
+                    - lunar empowerment
+                    - moon rune engraving
+                    - moonlit ceremony
+                    - moonrise ritual
+                    - moonshadow invocation
+                    - new moon ritual
+                    - night whisper
+                    - ritual of the crescent
+                    - sacred lunar circle
+                    - summoning lunar spirits
+                    - tide calling
+                    - twilight invocation
+                    - waning ritual
+                    - waxing ritual
+                    - moon spirit invocation
+                    - night sky communion
+                    - star gaze
+                    - celestial alignment
+                    - moonwell blessing
+            astral_spells:
+                offensive:
+                    - astral bolt
+                    - astral flare
+                    - astral lance
+                    - cosmic ray
+                    - falling star
+                    - meteor strike
+                    - starburst
+                    - starlight spear
+                    - void blast
+                    - astral blade
+                    - cosmic surge
+                    - nebula strike
+                    - stellar explosion
+                    - void strike
+                defensive:
+                    - astral shield
+                    - cosmic barrier
+                    - ethereal ward
+                    - nebula cloak
+                    - stardust veil
+                    - starry armor
+                    - void shield
+                    - celestial guard
+                    - etheric shield
+                    - luminous barrier
+                    - stellar shield
+                ritual:
+                    - astral communion
+                    - astral projection
+                    - celestial alignment
+                    - cosmic binding
+                    - cosmic invocation
+                    - ethereal journey
+                    - full moon rite
+                    - lunar blessing
+                    - lunar divination
+                    - lunar empowerment
+                    - moon rune engraving
+                    - moonlit ceremony
+                    - moonrise ritual
+                    - moonshadow invocation
+                    - new moon ritual
+                    - night whisper
+                    - ritual of the crescent
+                    - sacred lunar circle
+                    - summoning lunar spirits
+                    - tide calling
+                    - twilight invocation
+                    - waning ritual
+                    - waxing ritual
+                    - star gaze
+                    - etheric binding
+                    - galaxy blessing
+                    - interstellar call
+                    - nebula communion
+                    - ritual of the stars
+                    - sky blessing
+                    - stellar divination
+                    - summoning astral entities
+                    - void communion
+                    - voidwalk
+            void_spells:
+                offensive:
+                    - abyssal blast
+                    - black hole
+                    - dark pulse
+                    - entropy wave
+                    - event horizon
+                    - gravitic crush
+                    - nether bolt
+                    - nether spike
+                    - shadow burst
+                    - shadow lance
+                    - void bolt
+                    - void blast
+                    - void burst
+                    - void rift
+                    - void strike
+                    - warp strike
+                defensive:
+                    - dark shield
+                    - entropy barrier
+                    - gravitic shield
+                    - nether shield
+                    - shadow barrier
+                    - void cloak
+                    - void shield
+                    - abyssal ward
+                    - dark veil
+                    - event horizon guard
+                    - null field
+                    - void ward
+                    - wraith form
+                    - null barrier
+                ritual:
+                    - abyssal communion
+                    - astral projection
+                    - black sacrament
+                    - binding shadows
+                    - dark binding
+                    - dark divination
+                    - dark invocation
+                    - dark rune engraving
+                    - darkness communion
+                    - eclipse binding
+                    - entropy ritual
+                    - event horizon rite
+                    - nether ritual
+                    - shadow communion
+                    - shadow summoning
+                    - shadowmancy
+                    - void calling
+                    - void communion
+                    - void journey
+                    - void rune engraving
+                    - void summoning
+                    - voidwalk
+                    - warp ritual
+                    - whispering void
+                    - ritual of the abyss
+                    - void spirit invocation
+                    - darkness spirit binding
+            fairy_spells:
+                offensive:
+                    - dazzling blast
+                    - fae fire
+                    - pixie dust
+                    - fairy flames
+                    - glittering bolt
+                    - sparkling arrow
+                    - thorn whip
+                    - enchanted thorns
+                    - butterfly swarm
+                    - luminous dart
+                    - fairy storm
+                    - shimmering strike
+                    - ethereal sting
+                defensive:
+                    - fairy shield
+                    - enchanted aura
+                    - glittering barrier
+                    - pixie veil
+                    - fae ward
+                    - luminous armor
+                    - sparkling shield
+                    - ethereal cloak
+                    - protective glimmer
+                    - nature's embrace
+                    - whimsical guard
+                ritual:
+                    - fairy blessing
+                    - fairy circle invocation
+                    - fae summoning
+                    - enchanting song
+                    - fairy dust charm
+                    - glamour spell
+                    - nature communion
+                    - pixie dance
+                    - ritual of the fae
+                    - woodland blessing
+                    - enchanting twilight
+                    - moonlit dance
+                    - faerie fire ceremony
+                    - floral enchantment
+                    - fairy guardian summoning
+                    - ritual of sparkles
+                    - dream weaving
+                    - ritual of the glade
+                    - whispering winds
+                    - shimmering rite
+                    - nature's gift
+                    - twilight glow
+                    - forest communion
+                    - elven song
+            poison_spells:
+                offensive:
+                    - acid arrow
+                    - venomous touch
+                    - poison dart
+                    - toxic cloud
+                    - venom spray
+                    - poison bolt
+                    - deadly toxin
+                    - miasma
+                    - corrosive blast
+                    - bile strike
+                    - venomous whip
+                    - toxic fangs
+                    - poison spike
+                    - blight
+                    - infectious strike
+                    - noxious fumes
+                    - caustic spray
+                    - serpent's bite
+                defensive:
+                    - venom shield
+                    - poison ward
+                    - toxic barrier
+                    - miasma shield
+                    - protective toxins
+                    - acidic armor
+                    - bile barrier
+                    - toxic skin
+                    - venomous aura
+                    - caustic ward
+                    - antidote aura
+                    - poison resistance
+                    - serpent's guard
+                ritual:
+                    - poison summoning
+                    - venomous communion
+                    - toxic rune engraving
+                    - ritual of blight
+                    - venomous invocation
+                    - serpent's blessing
+                    - toxic infusion
+                    - poison spirit summoning
+                    - miasma ritual
+                    - bile rite
+                    - venom binding
+                    - caustic incantation
+                    - toxic purification
+                    - blighted earth ceremony
+                    - ritual of the serpent
+                    - deadly toxin ritual
+                    - infectious spell
+                    - ritual of venom
+                    - potion of poison brewing
+                    - poison cloud invocation
+                    - noxious offering
+                    - sacrificial toxin
+                    - venomous enchantment
+                    - plague summoning
+            steel_spells:
+                offensive:
+                    - blade storm
+                    - iron spike
+                    - steel barrage
+                    - steel lash
+                    - sword burst
+                    - metal blast
+                    - iron fist
+                    - steel whirlwind
+                    - razor wind
+                    - crushing blow
+                    - serrated strike
+                    - iron claw
+                    - steel wave
+                    - metallic slash
+                    - iron rain
+                    - steel strike
+                defensive:
+                    - iron shield
+                    - steel barrier
+                    - metal ward
+                    - iron skin
+                    - steel armor
+                    - metallic shield
+                    - steel wall
+                    - iron bulwark
+                    - iron guard
+                    - steel aegis
+                    - metal fortification
+                    - steel ward
+                    - ironclad defense
+                    - steel skin
+                    - unbreakable shield
+                    - iron fortress
+                ritual:
+                    - steel binding
+                    - iron rune engraving
+                    - metal communion
+                    - steel spirit summoning
+                    - forging ritual
+                    - iron infusion
+                    - ritual of blades
+                    - steel guardian summoning
+                    - iron will invocation
+                    - metal resonance
+                    - steel warding
+                    - forging of the iron golem
+                    - metal transmutation
+                    - ritual of fortitude
+                    - steel forge blessing
+                    - iron protection rite
+                    - metallic empowerment
+                    - steel spell casting
+                    - iron soul ritual
+                    - ceremonial forging
+                    - armor enchantment
+                    - steel rune invocation
+                    - iron might ceremony
+                    - blade blessing
+            nymph_spells:
+                offensive:
+                    - charm person
+                    - entangling vines
+                    - mesmerizing gaze
+                    - nymph's kiss
+                    - pollen burst
+                    - seductive allure
+                    - vine lash
+                    - nature's wrath
+                    - thorny embrace
+                    - floral burst
+                    - enchanting melody
+                    - hypnotic dance
+                    - beguiling whisper
+                defensive:
+                    - nature's shield
+                    - soothing aura
+                    - floral barrier
+                    - protective vines
+                    - enchanted grove
+                    - calming presence
+                    - nymph's grace
+                    - bloom shield
+                    - pollen cloud
+                    - gentle breeze
+                    - serene sanctuary
+                    - forest embrace
+                ritual:
+                    - blessing of the nymphs
+                    - communion with nature
+                    - enchanted spring
+                    - forest blessing
+                    - grove sanctification
+                    - nymph's blessing
+                    - ritual of blooms
+                    - summoning nymph spirits
+                    - water blessing
+                    - woodland dance
+                    - nymph's invocation
+                    - ritual of the glade
+                    - nature's communion
+                    - sacred grove ritual
+                    - spirit of the nymphs
+                    - woodland harmony
+                    - springtime celebration
+                    - floral invocation
+                    - nymph's protection rite
+                    - grove enchantment
+                    - mystical meadow ceremony
+                    - nature's grace
+                    - forest spirit invocation
+                    - ritual of the wild
+                    - stream's blessing
+                    - river's call
+            seduction_spells:
+                offensive:
+                    - charm person
+                    - enthrall
+                    - heartbreaker
+                    - irresistible allure
+                    - love's touch
+                    - lustful gaze
+                    - passion strike
+                    - siren's call
+                    - spellbind
+                    - vampiric charm
+                    - bewitching kiss
+                    - seductive embrace
+                    - allure
+                    - beguiling smile
+                    - enchant
+                defensive:
+                    - beguiling aura
+                    - charm shield
+                    - irresistible presence
+                    - lover's protection
+                    - mystic allure
+                    - seductive veil
+                    - tempting barrier
+                    - allure shield
+                    - enchantment ward
+                    - passion aura
+                    - pheromone cloud
+                    - hypnotic presence
+                ritual:
+                    - aphrodite's blessing
+                    - charm enchantment
+                    - love's invocation
+                    - passion's rite
+                    - ritual of allure
+                    - ritual of enchantment
+                    - siren's song
+                    - spell of seduction
+                    - twilight charm
+                    - enchantment ceremony
+                    - invocation of desire
+                    - lover's binding
+                    - ritual of passion
+                    - spell of attraction
+                    - siren's embrace
+                    - lustful enchantment
+                    - beguiling ceremony
+                    - ritual of love
+                    - charm person enchantment
+                    - enchanting dance
+                    - invocation of allure
+                    - lover's ritual
+                    - mystic seduction
+                    - twilight enchantment
+                    - romantic invocation
+                    - seductive rite
+                    - enchantress's blessing
+            ghost_spells:
+                offensive:
+                    - banshee wail
+                    - chilling touch
+                    - ectoplasmic blast
+                    - ghostly grasp
+                    - haunt
+                    - phantom strike
+                    - poltergeist
+                    - spectral claw
+                    - spectral scream
+                    - spirit drain
+                    - wraith touch
+                    - ethereal blade
+                    - phantom bolt
+                    - shadow strike
+                    - spectral assault
+                defensive:
+                    - ghostly armor
+                    - spectral shield
+                    - haunting presence
+                    - ethereal veil
+                    - ghost ward
+                    - misty form
+                    - phantom cloak
+                    - spirit barrier
+                    - wraith form
+                    - ghostly shroud
+                    - spectral defense
+                    - phantom guard
+                ritual:
+                    - binding of spirits
+                    - calling of the ancestors
+                    - ectoplasmic communion
+                    - ghost summoning
+                    - haunting ritual
+                    - necromantic binding
+                    - phantom invocation
+                    - ritual of the dead
+                    - séance
+                    - shadow communion
+                    - spectral binding
+                    - spirit communion
+                    - spirit invocation
+                    - wraith summoning
+                    - spectral manifestation
+                    - ghostly rite
+                    - haunting ceremony
+                    - necrotic invocation
+                    - soul binding
+                    - spirit journey
+                    - invocation of the restless
+                    - ghost walk
+                    - phantom manifestation
+                    - specter invocation
+            dragon_spells:
+                offensive:
+                    - dragon breath
+                    - flame strike
+                    - fireball
+                    - frost breath
+                    - acid spray
+                    - lightning breath
+                    - tail swipe
+                    - wing buffet
+                    - draconic roar
+                    - claw swipe
+                    - dragon's fury
+                    - inferno blast
+                    - thunderous roar
+                    - toxic breath
+                    - molten strike
+                    - dragon claw
+                    - venomous bite
+                    - firestorm
+                    - ice shard
+                    - storm bolt
+                defensive:
+                    - dragon scales
+                    - elemental shield
+                    - dragon's hide
+                    - draconic fortitude
+                    - flame shield
+                    - frost armor
+                    - acid barrier
+                    - lightning shield
+                    - wing shield
+                    - protective roar
+                    - dragon's aegis
+                    - dragon ward
+                    - draconic resilience
+                    - magma shield
+                    - ice barrier
+                ritual:
+                    - summoning dragon spirits
+                    - draconic binding
+                    - dragon communion
+                    - dragon transformation
+                    - elemental infusion
+                    - ritual of the dragon
+                    - dragon's blessing
+                    - dragon rune engraving
+                    - ancient dragon rite
+                    - dragon spirit invocation
+                    - summoning dragon kin
+                    - dragon's pact
+                    - dragon heart ritual
+                    - invocation of draconic power
+                    - dragon soul binding
+                    - fire dragon ceremony
+                    - ice dragon invocation
+                    - storm dragon summoning
+                    - poison dragon rite
+                    - ritual of dragonflight
+                    - dragon's eye ceremony
+                    - elder dragon invocation
+                    - dragon's wrath summoning
+                    - guardian dragon ritual
+                    - dragon's hoard enchantment
+                    - draconic essence binding
+                    - dragon's roar invocation
+            weather_spells:
+                offensive:
+                    - blizzard
+                    - lightning strike
+                    - hailstorm
+                    - thunderstorm
+                    - tornado
+                    - hurricane
+                    - sandstorm
+                    - wind blast
+                    - ice storm
+                    - rain of fire
+                    - freezing rain
+                    - storm surge
+                    - tempest
+                    - cyclone
+                    - wind shear
+                    - storm bolt
+                defensive:
+                    - weather ward
+                    - storm shield
+                    - frost barrier
+                    - wind wall
+                    - rain cloak
+                    - fog shield
+                    - ice shield
+                    - lightning barrier
+                    - protective mist
+                    - hurricane guard
+                    - thunder guard
+                    - wind guard
+                    - cyclone shield
+                    - blizzard ward
+                ritual:
+                    - control weather
+                    - storm summoning
+                    - rain dance
+                    - sun calling
+                    - cloud weaving
+                    - wind calling
+                    - hurricane invocation
+                    - tempest rite
+                    - storm binding
+                    - frost summoning
+                    - thunder invocation
+                    - rain blessing
+                    - elemental weather binding
+                    - fog invocation
+                    - snowfall ceremony
+                    - drought banishment
+                    - invocation of the four winds
+                    - monsoon summoning
+                    - ritual of clear skies
+                    - invocation of storms
+                    - ritual of the seasons
+                    - weather divination
+                    - hailstorm rite
+                    - invocation of calm
+                    - lightning summoning
+                    - ritual of the rainbow
+            light_spells:
+                offensive:
+                    - blinding flash
+                    - dawn strike
+                    - flare
+                    - holy fire
+                    - laser beam
+                    - light blast
+                    - radiance bolt
+                    - searing light
+                    - solar flare
+                    - sunbeam
+                    - sunburst
+                    - luminous lance
+                    - prism blast
+                    - radiant arrow
+                    - divine spark
+                    - light ray
+                    - sacred fire
+                    - celestial spear
+                    - dazzling strike
+                defensive:
+                    - blinding shield
+                    - divine barrier
+                    - holy aura
+                    - light shield
+                    - luminous armor
+                    - radiant protection
+                    - solar guard
+                    - star ward
+                    - celestial shield
+                    - light ward
+                    - aura of light
+                    - glimmering shield
+                    - halo guard
+                    - shield of radiance
+                    - angelic shield
+                    - divine light
+                ritual:
+                    - beacon of hope
+                    - blessing of light
+                    - consecration
+                    - divine illumination
+                    - light rune engraving
+                    - radiant blessing
+                    - sacred light ceremony
+                    - solar blessing
+                    - summoning light elementals
+                    - invocation of dawn
+                    - ritual of the sun
+                    - star communion
+                    - ritual of purity
+                    - celestial invocation
+                    - light purification
+                    - sun prayer
+                    - holy light invocation
+                    - divine radiance rite
+                    - sacred light binding
+                    - illumination rite
+                    - sun soul invocation
+                    - heavenly light ceremony
+                    - ritual of luminescence
+                    - light spirit summoning
+                    - halo invocation
+            healing_spells:
+                basic_healing:
+                    - cure wounds
+                    - healing touch
+                    - mend
+                    - minor restoration
+                    - rejuvenate
+                    - soothe
+                    - vitality
+                    - heal minor wounds
+                    - first aid
+                    - regenerative touch
+                    - quick mend
+                    - gentle restoration
+                    - health surge
+                advanced_healing:
+                    - greater restoration
+                    - heal
+                    - mass cure wounds
+                    - regeneration
+                    - revive
+                    - life infusion
+                    - restore vitality
+                    - heal major wounds
+                    - life force transfer
+                    - rejuvenating wave
+                    - cleansing touch
+                    - divine healing
+                    - invigorate
+                    - life renewal
+                    - purification
+                    - grand restoration
+                    - lifebloom
+                    - full recovery
+                ritual_healing:
+                    - circle of healing
+                    - healing aura
+                    - healing circle
+                    - lay on hands
+                    - life bond ritual
+                    - life transfer
+                    - mass rejuvenation
+                    - miracle cure
+                    - purification ritual
+                    - ritual of restoration
+                    - sanctify
+                    - soul mend
+                    - sacred healing
+                    - spirit healing
+                    - vitality ritual
+                    - healing light
+                    - divine restoration
+                    - revival ceremony
+                    - spirit rejuvenation
+                    - aura of health
+                    - restorative chant
+                    - blessed recovery
+                    - rite of renewal
+            bug_spells:
+                offensive:
+                    - beetle swarm
+                    - biting insects
+                    - bug barrage
+                    - centipede strike
+                    - creeping death
+                    - infest
+                    - insect plague
+                    - locust swarm
+                    - parasitic bite
+                    - scorpion sting
+                    - spider bite
+                    - wasp sting
+                    - hornet strike
+                    - venomous swarm
+                    - pestilence
+                    - crawling doom
+                    - mantis slash
+                    - mosquito swarm
+                    - venomous beetles
+                defensive:
+                    - chitin armor
+                    - cocoon
+                    - insect shield
+                    - locust guard
+                    - moth's protection
+                    - protective swarm
+                    - scarab shield
+                    - shell armor
+                    - spider web barrier
+                    - beetle carapace
+                    - ant hill fortification
+                    - hornet's nest ward
+                    - bug shield
+                    - centipede coil
+                    - defensive webbing
+                ritual:
+                    - bug communion
+                    - bug summoning
+                    - insect warding
+                    - locust blessing
+                    - ritual of the swarm
+                    - scarab's blessing
+                    - spider's grace
+                    - summoning insect spirits
+                    - wasp's fury invocation
+                    - beetle binding
+                    - centipede rite
+                    - spider web enchantment
+                    - ritual of creeping death
+                    - ceremony of the hive
+                    - insect bonding
+                    - mantis prayer
+                    - pestilence rite
+                    - insect spirit summoning
+                    - hornet's call
+                    - ritual of infestation
+                    - bug spirit invocation
+                    - chittering chant
+                    - hive mind connection
+                    - insect queen's blessing
+            plant_spells:
+                offensive:
+                    - bramble burst
+                    - entangling roots
+                    - grasping vines
+                    - pollen burst
+                    - poison ivy
+                    - razorleaf
+                    - thorn lash
+                    - thorn whip
+                    - toxic thorns
+                    - vine strike
+                    - weed strike
+                    - wither
+                    - nettle sting
+                    - sap strike
+                    - flower bomb
+                    - bloom burst
+                    - pollen cloud
+                    - sprout assault
+                    - venomous thorns
+                defensive:
+                    - barkskin
+                    - camouflage
+                    - flora shield
+                    - forest guard
+                    - leaf armor
+                    - nature's cloak
+                    - petal shield
+                    - plant barrier
+                    - root armor
+                    - thicket guard
+                    - tree form
+                    - vine shield
+                    - wooden fortification
+                    - green ward
+                    - nature's refuge
+                    - ivy shield
+                    - verdant barrier
+                ritual:
+                    - blossom blessing
+                    - communion with nature
+                    - forest communion
+                    - grove sanctification
+                    - nature's gift
+                    - plant growth
+                    - ritual of blooms
+                    - ritual of the green
+                    - seed blessing
+                    - summoning plant spirits
+                    - tree communication
+                    - verdant rite
+                    - wild growth
+                    - nature's bond
+                    - garden enchantment
+                    - sacred grove
+                    - vine weaving
+                    - floral invocation
+                    - nature's renewal
+                    - ritual of the forest
+                    - druidic prayer
+                    - harvest rite
+                    - rejuvenating rain
+                    - sapling blessing
+                    - forest spirit summoning
+                    - green magic invocation
+                    - nature's embrace
+            battle_spells:
+                offensive:
+                    - battle cry
+                    - berserker rage
+                    - blade dance
+                    - cleave
+                    - crushing blow
+                    - devastating strike
+                    - double strike
+                    - flame strike
+                    - forceful swing
+                    - lightning strike
+                    - piercing strike
+                    - power attack
+                    - ravage
+                    - shockwave
+                    - slashing wind
+                    - smite
+                    - spin attack
+                    - sweeping strike
+                    - thunderclap
+                    - whirlwind
+                    - war stomp
+                    - blazing charge
+                    - shadow strike
+                    - poison strike
+                    - divine strike
+                defensive:
+                    - battle armor
+                    - battle trance
+                    - blade ward
+                    - bulwark
+                    - fortify
+                    - hardened skin
+                    - iron defense
+                    - magical barrier
+                    - protective stance
+                    - shield of valor
+                    - stone skin
+                    - unyielding resolve
+                    - warcry shield
+                    - defensive stance
+                    - guard
+                    - indomitable will
+                    - warrior's shield
+                    - barrier of courage
+                    - deflect
+                    - mirror image
+                    - parry
+                ritual:
+                    - blessing of strength
+                    - battle chant
+                    - invocation of might
+                    - martial blessing
+                    - rage ritual
+                    - rite of valor
+                    - sacred weapon enchantment
+                    - song of battle
+                    - summoning of the warrior spirit
+                    - war blessing
+                    - warrior's invocation
+                    - rite of combat
+                    - ritual of endurance
+                    - shield bonding
+                    - war dance
+                    - rite of fury
+                    - rallying cry
+                    - summoning of battle spirits
+                    - oath of the warrior
+                    - invocation of the battle gods
+                    - ceremony of valor
+                    - forging of the war spirit
+                    - call to arms
+                    - sacred armor ritual
+
+    equiptment:
+        weapons:
+            melee:
+                singlehanded:
+                    - arming sword
+                    - axe
+                    - battleaxe
+                    - bone dagger
+                    - broadsword
+                    - butcher knife
+                    - cestus
+                    - cleaver
+                    - club
+                    - cutlass
+                    - dagger
+                    - dirk
+                    - falchion
+                    - flail
+                    - gladius
+                    - hand axe
+                    - hunting knife
+                    - jian
+                    - kama
+                    - khopesh
+                    - kris
+                    - kukri
+                    - longsword
+                    - machete
+                    - mace
+                    - main gauche
+                    - morning star
+                    - parrying dagger
+                    - poignard
+                    - rapier
+                    - saber
+                    - scimitar
+                    - short sword
+                    - sickle
+                    - spear
+                    - spiked gauntlet
+                    - stiletto
+                    - sword
+                    - tomahawk
+                    - trench knife
+                    - wakizashi
+                    - war hammer
+                twohanded:
+                    - bardiche
+                    - battleaxe
+                    - claymore
+                    - club
+                    - double axe
+                    - falchion
+                    - flamberge
+                    - glaive
+                    - great axe
+                    - great club
+                    - great sword
+                    - halberd
+                    - lochaber axe
+                    - maul
+                    - naginata
+                    - nodachi
+                    - odachi
+                    - poleaxe
+                    - quarterstaff
+                    - scythe
+                    - tetsubo
+                    - two-handed flail
+                    - war scythe
+                    - warhammer
+                    - zweihander
+            magic:
+                singlehanded:
+                    - crystal ball
+                    - enchanted dagger
+                    - magic wand
+                    - orb
+                    - ritual dagger
+                    - runed staff
+                    - scepter
+                    - spellbook
+                    - talisman
+                    - totem
+                    - wand
+                twohanded:
+                    - arcane staff
+                    - crystal staff
+                    - enchanted staff
+                    - great staff
+                    - magic staff
+                    - runed staff
+                    - staff of fire
+                    - staff of ice
+                    - staff of lightning
+                    - staff of power
+                    - staff of summoning
+                    - staff of teleportation
+                    - wizard staff
+            offhand:
+                - buckler
+                - cestus
+                - dagger
+                - hand axe
+                - main gauche
+                - parrying dagger
+                - punch dagger
+                - sai
+                - spiked shield
+                - sword breaker
+                - tomahawk
+                - war fan
+                - whip
+            offhand_defense:
+                - buckler
+                - charm
+                - defensive gauntlet
+                - enchanted shield
+                - magic talisman
+                - mirror shield
+                - parrying dagger
+                - ritual shield
+                - round shield
+                - runic shield
+                - shield
+                - small shield
+                - spell focus
+                - spell shield
+                - tower shield
+                - warding talisman
+                - wrist guard
+        armor:
+            regular:
+                cloth:
+                    - arcane robes
+                    - battle robes
+                    - cloak
+                    - druidic robes
+                    - elven robes
+                    - enchanted robes
+                    - hooded cloak
+                    - linen tunic
+                    - mage robes
+                    - mantle
+                    - monk robes
+                    - necromancer robes
+                    - padded armor
+                    - padded robes
+                    - priest robes
+                    - ritual robes
+                    - robe of the archmage
+                    - scholar's robes
+                    - silk robes
+                    - sorcerer's robes
+                    - spellcaster's cloak
+                    - spellweave robes
+                    - tunic
+                    - vestments
+                    - warlock robes
+                    - witch's cloak
+                    - wizard robes
+                leather:
+                    - adventurer's jerkin
+                    - archer's vest
+                    - battle harness
+                    - brigandine
+                    - ceremonial leather
+                    - hardened leather armor
+                    - hunter's armor
+                    - leather breastplate
+                    - leather doublet
+                    - leather jacket
+                    - leather jerkin
+                    - leather tunic
+                    - padded leather armor
+                    - ranger's armor
+                    - reinforced leather armor
+                    - rogue's leather armor
+                    - scout's armor
+                    - shadow leather armor
+                    - studded leather armor
+                    - thief's armor
+                    - traveler's leather
+                    - warrior's leather
+                metal:
+                    - banded mail
+                    - breastplate
+                    - chainmail
+                    - chestplate
+                    - cuirass
+                    - full plate armor
+                    - half plate armor
+                    - knight's armor
+                    - lamellar armor
+                    - lorica segmentata
+                    - mail shirt
+                    - mithril armor
+                    - ornate breastplate
+                    - plate armor
+                    - scale mail
+                    - splint mail
+                    - steel cuirass
+                    - templar armor
+                    - war plate
+            special:
+                cloth:
+                    - arcane silk robes
+                    - dragonhide robes
+                    - enchanted cloth armor
+                    - ethereal robes
+                    - faerie robes
+                    - ghostweave robes
+                    - mystic silk tunic
+                    - shadowcloth robes
+                    - spidersilk robes
+                    - starlight robes
+                    - wispweave robes
+
+                leather:
+                    - dragonhide leather
+                    - elven leather armor
+                    - enchanted leather armor
+                    - ghost leather armor
+                    - mystic leather jerkin
+                    - nightstalker leather
+                    - phantom leather
+                    - shadow leather
+                    - spectral leather
+                    - spidersilk leather
+                    - wyvernhide leather
+
+                metal:
+                    - adamantine armor
+                    - crystal armor
+                    - dragonbone plate
+                    - dragonsteel armor
+                    - dwarven plate
+                    - enchanted plate armor
+                    - mithril armor
+                    - obsidian plate
+                    - shadowsteel armor
+                    - soulforged armor
+                    - starmetal armor
+        accesoires:
+            accessories:
+                rings:
+                    - band
+                    - ring
+                    - signet ring
+                    - wizard's ring
+                amulets:
+                    - amulet
+                    - charm
+                    - enchanted amulet
+                    - medallion
+                    - necklace
+                    - talisman
+                    - totem
+                bracelets:
+                    - bracelet
+                    - bracer
+                    - enchanted bracelet
+                    - magic wristband
+                earrings:
+                    - earring
+                    - enchanted earring
+                    - gemstone earring
+                belts:
+                    - belt
+                    - enchanted belt
+                    - girdle
+                cloaks:
+                    - cloak
+                    - enchanted cloak
+                    - mantle
+                headgear:
+                    - circlet
+                    - crown
+                    - diadem
+                    - helmet
+                    - hood
+                    - tiara
+ 
+    extras:
+        runes:
+            - fire rune
+            - water rune
+            - earth rune
+            - air rune
+            - lightning rune
+            - ice rune
+            - healing rune
+            - protection rune
+            - strength rune
+            - speed rune
+            - invisibility rune
+            - binding rune
+            - summoning rune
+            - teleportation rune
+            - light rune
+            - darkness rune
+            - fear rune
+            - power rune
+            - transformation rune
+            - time rune
+            - illusion rune
+            - wisdom rune
+            - knowledge rune
+            - life rune
+            - death rune
+            - chaos rune
+            - order rune
+            - enchantment rune
+            - silence rune
+            - detection rune
+        inscriptions:
+            offensive:
+                - blaze rune
+                - blood inscription
+                - chaos sigil
+                - death mark
+                - fire rune
+                - lightning glyph
+                - poison rune
+                - shadow sigil
+                - thunder rune
+                - venomous rune
+                - void glyph
+                - war inscription
+                - wrath rune
+            defensive:
+                - barrier sigil
+                - earth rune
+                - fortitude inscription
+                - frost rune
+                - guardian glyph
+                - healing sigil
+                - iron rune
+                - light inscription
+                - protection rune
+                - shield glyph
+                - stone inscription
+                - warding sigil
+                - wind rune
+                - sanctuary glyph
+            utility:
+                - binding rune
+                - clarity inscription
+                - divination sigil
+                - enchantment glyph
+                - growth rune
+                - luck inscription
+                - mana sigil
+                - regeneration glyph
+                - speed rune
+                - teleportation sigil
+                - transformation glyph
+                - truth rune
+                - vision inscription
+                - whispering sigil
+            ritual:
+                - celestial glyph
+                - dark inscription
+                - elemental rune
+                - eternity sigil
+                - lunar glyph
+                - necromantic inscription
+                - ritual mark
+                - solar rune
+                - spirit sigil
+                - star inscription
+                - summoning rune
+                - time glyph
+                - void inscription
+                - soul binding sigil
+        enchantments:
+            offensive:
+                - blazing enchantment
+                - bloodlust enchantment
+                - chaos enchantment
+                - deathly touch
+                - fiery enchantment
+                - frostbite enchantment
+                - lightning enchantment
+                - poison enchantment
+                - shadowstrike enchantment
+                - thundering enchantment
+                - venomous enchantment
+                - void touch
+                - wrathful enchantment
+                - arcane blast enchantment
+                - exploding enchantment
+                - piercing enchantment
+            defensive:
+                - barrier enchantment
+                - earthen guard
+                - fortitude enchantment
+                - frost guard
+                - guardian enchantment
+                - healing enchantment
+                - iron skin enchantment
+                - light guard
+                - protective enchantment
+                - shield enchantment
+                - stone skin enchantment
+                - warding enchantment
+                - wind guard
+                - sanctuary enchantment
+                - deflecting enchantment
+                - resilient enchantment
+                - magic resistance enchantment
+            utility:
+                - binding enchantment
+                - clarity enchantment
+                - divination enchantment
+                - enchantment of growth
+                - luck enchantment
+                - mana regeneration enchantment
+                - speed enchantment
+                - teleportation enchantment
+                - transformation enchantment
+                - truth enchantment
+                - vision enchantment
+                - whispering enchantment
+                - enchantment of strength
+                - dexterity enchantment
+                - endurance enchantment
+            ritual:
+                - celestial enchantment
+                - dark ritual enchantment
+                - elemental enchantment
+                - eternity enchantment
+                - lunar enchantment
+                - necromantic enchantment
+                - ritualistic enchantment
+                - solar enchantment
+                - spirit enchantment
+                - star enchantment
+                - summoning enchantment
+                - time enchantment
+        etchings:
+            offensive:
+                - blaze etching
+                - blood etching
+                - chaos etching
+                - death etching
+                - fire etching
+                - lightning etching
+                - poison etching
+                - shadow etching
+                - thunder etching
+                - venom etching
+                - void etching
+                - wrath etching
+                - frost etching
+                - piercing etching
+                - arcane etching
+            defensive:
+                - barrier etching
+                - earth etching
+                - fortitude etching
+                - frost etching
+                - guardian etching
+                - healing etching
+                - iron etching
+                - light etching
+                - protection etching
+                - shield etching
+                - stone etching
+                - warding etching
+                - wind etching
+                - sanctuary etching
+                - resilience etching
+                - deflecting etching
+                - magic resistance etching
+            utility:
+                - binding etching
+                - clarity etching
+                - divination etching
+                - enchantment etching
+                - growth etching
+                - luck etching
+                - mana etching
+                - regeneration etching
+                - speed etching
+                - teleportation etching
+                - transformation etching
+                - truth etching
+                - vision etching
+                - whispering etching
+                - strength etching
+                - dexterity etching
+                - endurance etching
+            ritual:
+                - celestial etching
+                - dark etching
+                - elemental etching
+                - eternity etching
+                - lunar etching
+                - necromantic etching
+                - ritual etching
+                - solar etching
+                - spirit etching
+                - star etching
+                - summoning etching
+                - time etching
+                - void etching
+                - soul binding etching
+                - ancestral etching
+                - ancient etching
+                - divine etching
+
+    paths:
+        crossings:
+            - crossroads
+            - dead ends
+            - roundabouts
+            - switchbacks
+            - T-crossings
+            - Y-crossings
+        road_types:
+            - cobblestone streets
+            - dirt paths
+            - footbridges
+            - gravel roads
+            - highways
+            - main roads
+            - mountain passes
+            - paved streets
+            - secret paths
+            - stone bridges
+            - straight roads
+            - tunnels
+            - winding roads
+            - wooden bridges
+        corners_and_turns:
+            - hairpin turns
+            - right-angle corners
+            - gentle bends
+            - sharp curves
+            - U-turns
+            - S-curves
+            - switchbacks
+
+  
+    traps:
+        - arrow trap
+        - blade trap
+        - collapsing floor
+        - crushing walls
+        - dart trap
+        - falling net
+        - fire trap
+        - hidden pit
+        - poison dart trap
+        - rolling boulder
+        - spear trap
+        - spike pit
+        - swinging log
+        - tripwire trap
+        - water trap
+        - acid spray trap
+        - bear trap
+        - collapsing ceiling
+        - crossbow trap
+        - electrified floor
+        - gas trap
+        - glue trap
+        - hidden scythe
+        - magic rune trap
+        - pendulum blade
+        - pressure plate
+        - rope snare
+        - sleep gas trap
+        - sonic trap
+        - teleportation trap
+    secrets:
+        - hidden door
+        - concealed passage
+        - secret compartment
+        - false wall
+        - hidden staircase
+        - secret trapdoor
+        - disguised entrance
+        - rotating bookcase
+        - secret chamber
+        - hidden alcove
+        - false floor
+        - hidden safe
+        - secret tunnel
+        - hidden panel
+        - invisible door
+        - hidden switch
+        - secret lever
+        - hidden map
+        - concealed treasure
+        - hidden mechanism
+        - hidden ladder
+        - secret balcony
+        - false ceiling
+        - hidden cache
+        - secret message

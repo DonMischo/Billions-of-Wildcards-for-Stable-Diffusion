@@ -1,0 +1,154 @@
+# Bo Heraldry
+heraldry:
+    badges:
+        - house badges
+        - livery badges
+        - personal badges
+        - clan badges
+        - tribal badges
+    blazon:
+        - arrangement
+        - charges
+        - tinctures
+        - attitude
+        - position
+    charges:
+      animals:
+          - bears
+          - birds
+          - boars
+          - bulls
+          - dogs
+          - fish
+          - lions
+          - mammals
+          - stags
+          - eagles
+          - foxes
+          - hares
+          - rams
+          - serpents
+          - wolves
+      beasts of myth and legend:
+          - centaurs
+          - dragons
+          - griffins
+          - harpies
+          - mermaids
+          - phoenixes
+          - unicorns
+          - wyverns
+          - pegasus
+          - basilisks
+      celestial bodies:
+          - comets
+          - crescent moons
+          - moon
+          - stars
+          - sun
+          - planets
+          - eclipses
+          - meteor showers
+      objects:
+          - anchors
+          - bells
+          - books
+          - buildings
+          - crowns
+          - keys
+          - scrolls
+          - shields
+          - swords
+          - tools
+          - weapons
+          - arrows
+          - axes
+          - hammers
+          - lanterns
+          - lances
+          - spears
+          - torches
+      plants:
+          - acorns
+          - flowers
+          - leaves
+          - oak trees
+          - roses
+          - trees
+          - vines
+          - wheat
+          - thistles
+          - laurel
+          - ivy
+    compartments:
+        - artificial features
+        - natural features
+        - stylized designs
+        - landscapes
+        - heraldic beasts
+    crests:
+        - animals
+        - objects
+        - plants
+        - mythological creatures
+    divisions of the field:
+        - checky
+        - gyronny
+        - per bend
+        - per chevron
+        - per fess
+        - per pale
+        - per saltire
+        - quarterly
+        - barry
+        - paly
+        - bendy
+        - lozengy
+    helmets:
+        - barred helmet
+        - close helmet
+        - open helmet
+        - tilting helmet
+        - visored helmet
+        - jugular helmet
+    mantling:
+        - complex mantling
+        - simple mantling
+        - decorative mantling
+    mottoes:
+        - in English
+        - in Latin
+        - in other languages
+        - in French
+        - in Gaelic
+    ordinaries:
+        - bend
+        - bend sinister
+        - chevron
+        - chief
+        - cross
+        - fess
+        - pale
+        - saltire
+        - pile
+        - shakefork
+    subordinaries:
+        - annulet
+        - billet
+        - bordure
+        - canton
+        - escutcheon
+        - flaunches
+        - inescutcheon
+        - lozenge
+        - mascle
+        - orle
+        - rustre
+        - fret
+        - tressure
+    supporters:
+        - animals
+        - humans
+        - mythological creatures
+        - angels
+        - demons
