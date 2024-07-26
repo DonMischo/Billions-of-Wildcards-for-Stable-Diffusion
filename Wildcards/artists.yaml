@@ -1,0 +1,3189 @@
+prehistoric_art:
+    - cave of altamira
+    - chauvet cave
+    - lascaux
+    - bhimbetka rock shelters
+    - magura cave
+    - tassili n'ajjer
+    - cueva de las manos
+    - serra da capivara
+    - val camonica
+    - niaux cave
+    - rock art of the kimberley
+    - ubirr
+    - laas geel
+    - petra
+    - nazca lines
+    - rock shelters of bhimbetka
+    - baja california
+    - the picts
+    - san bushmen rock art
+    - sahara rock art
+    - petroglyphs of valcamonica
+    - parietal art
+    - fumane cave
+    - apollo 11 cave
+    - drakensberg
+    - wonderwerk cave
+    - altai mountains petroglyphs
+    - three rivers petroglyph site
+    - bhimbetka petroglyphs
+    - tassili n'ajjer rock art
+
+ancient_egyptian_art:
+    - akhenaten
+    - amenhotep iii
+    - hatshepsut
+    - imhotep
+    - menkaure
+    - nefertari
+    - nefertiti
+    - rameses ii
+    - senenmut
+    - thutmose
+    - tutankhamun
+    - great sphinx of giza
+    - valley of the kings
+    - abu simbel
+    - karnak
+    - luxor temple
+    - temple of edfu
+    - temple of philae
+    - tomb of tutankhamun
+    - tomb of nefertari
+    - mastaba of ti
+    - step pyramid of djoser
+    - the great pyramid of giza
+    - temple of hatshepsut
+    - temple of kom ombo
+    - temple of medinet habu
+    - temple of seti i
+    - tomb of ramesses vi
+    - rosetta stone
+
+ancient_greek_art:
+    - agatharchus
+    - agoracritus
+    - antenor
+    - apelles
+    - apollodorus
+    - bryaxis
+    - callimachus
+    - callicrates
+    - cleomenes
+    - critios
+    - daedalus
+    - euphranor
+    - exekias
+    - ictinus
+    - leochares
+    - lysippos
+    - myron
+    - paeonius
+    - pheidias
+    - polygnotus
+    - polykleitos
+    - praxiteles
+    - scopas
+    - smilis
+    - theodorus
+    - timarchides
+    - timotheos
+    - xenokrates
+    - zeuxis
+    - phidias
+
+roman_art:
+    - apollodorus of damascus
+    - aristeas
+    - aulus metellus
+    - augustus of prima porta
+    - dioskourides of samos
+    - gaius terentius varro
+    - gaius valerius catullus
+    - gnaeus pompeius magnus
+    - marcus agrippa
+    - praxiteles
+    - quintus horatius flaccus
+    - sextus pompeius
+    - titus flavius domitianus
+    - vitruvius
+    - ara pacis
+    - augustus of prima porta
+    - colosseum
+    - pantheon
+    - trajan's column
+    - arch of titus
+    - villa of the mysteries
+    - pont du gard
+    - mosaic of alexander the great
+    - pompeian frescoes
+    - house of the vettii
+    - fayum mummy portraits
+    - villa romana del casale
+    - column of marcus aurelius
+    - equestrian statue of marcus aurelius
+
+byzantine_art:
+    - andrei rublev
+    - angelos akotantos
+    - apollinarius
+    - barlaam
+    - christodoulos kalothetos
+    - el greco
+    - emmanuel tzanes
+    - georgios klontzas
+    - johannes climacus
+    - lazaros sochos
+    - manuel panselinos
+    - michael astrapas
+    - michael damaskinos
+    - michael psellos
+    - nicetas choniates
+    - nikolaos philanthropinos
+    - panagiotes doxaras
+    - photios
+    - pimen sofronov
+    - saint luke the evangelist
+    - saint theodore the studite
+    - stephanos the younger
+    - theophanes the confessor
+    - theophanes the greek
+    - theotokos
+    - thomas magistros
+    - yannis tsarouchis
+    - zoe of constantinople
+    - hagia sophia
+    - san vitale in ravenna
+
+medieval_art:
+    - abbot suger
+    - benedetto antelami
+    - berlinghiero berlinghieri
+    - bonaventura berlinghieri
+    - cimabue
+    - duccio di buoninsegna
+    - eadfrith of lindisfarne
+    - filippo rusuti
+    - giotto di bondone
+    - guido da siena
+    - hildegard of bingen
+    - jean pucelle
+    - luca signorelli
+    - maître de boucicaut
+    - master of flémalle
+    - nicola pisano
+    - nino pisano
+    - odo of metz
+    - paolo veneziano
+    - pietro cavallini
+    - roger van der weyden
+    - simone martini
+    - taddeo gaddi
+    - theophilus presbyter
+    - ugolino di nerio
+    - vitale da bologna
+    - wiligelmo
+    - book of kells
+    - chartres cathedral
+    - notre-dame cathedral
+
+renaissance_art:
+    - albrecht dürer
+    - andrea mantegna
+    - andrea del verrocchio
+    - benvenuto cellini
+    - botticelli
+    - caravaggio
+    - donatello
+    - el greco
+    - fra angelico
+    - giorgione
+    - giovanni bellini
+    - hans holbein the younger
+    - hieronymus bosch
+    - leonardo da vinci
+    - lorenzo ghiberti
+    - luca signorelli
+    - masaccio
+    - michelangelo
+    - paolo uccello
+    - piero della francesca
+    - pieter bruegel the elder
+    - raphael
+    - sandro botticelli
+    - sofonisba anguissola
+    - titian
+    - tintoretto
+    - veronese
+    - william shakespeare
+    - leonardo da vinci
+    - michelangelo
+
+baroque_art:
+    - annibale carracci
+    - artemisia gentileschi
+    - caravaggio
+    - claude lorrain
+    - diego velázquez
+    - francisco de zurbarán
+    - frans hals
+    - georges de la tour
+    - giovanni battista gaulli
+    - guido reni
+    - jan steen
+    - johann liss
+    - johannes vermeer
+    - jusepe de ribera
+    - luca giordano
+    - nicolas poussin
+    - peter paul rubens
+    - pieter claesz
+    - rembrandt
+    - ribera
+    - salvator rosa
+    - sebastiano ricci
+    - simon vouet
+    - tiepolo
+    - van dyck
+    - velázquez
+    - vermeer
+    - willem claeszoon heda
+    - zurbarán
+    - andrea pozzo
+
+rococo_art:
+    - antoine watteau
+    - balthasar neumann
+    - carle van loo
+    - françois boucher
+    - françois lemoyne
+    - giovanni battista tiepolo
+    - giovanni battista piazzetta
+    - giovanni battista piranesi
+    - giovanni paolo panini
+    - jean-baptiste pater
+    - jean-honoré fragonard
+    - jean-marc nattier
+    - jean-siméon chardin
+    - joseph highmore
+    - louis-michel van loo
+    - maurice quentin de la tour
+    - nicolas lancret
+    - nicolas pineau
+    - noël-nicolas coypel
+    - rosalba carriera
+    - sebastiano ricci
+    - thomas gainsborough
+    - william hogarth
+    - élisabeth vigée le brun
+    - jacques-louis david
+    - clodion
+    - françois de cuvilliés
+    - jean-baptiste greuze
+    - françois boucher
+    - jean-honoré fragonard
+
+neoclassical_art:
+    - angelica kauffman
+    - antonio canova
+    - bertel thorvaldsen
+    - carle vernet
+    - elisabeth louise vigée le brun
+    - francisco goya
+    - jacques-louis david
+    - jean-auguste-dominique ingres
+    - john flaxman
+    - john singleton copley
+    - joseph-marie vien
+    - karl friedrich schinkel
+    - károly markó the elder
+    - marie-guillemine benoist
+    - pompeo batoni
+    - thomas banks
+    - thomas gainsborough
+    - thomas jefferson
+    - vincenzo camuccini
+    - william blake
+    - william hogarth
+    - william hoare
+    - william kent
+    - william thornton
+    - antonio canova
+    - jacques-louis david
+    - jean-auguste-dominique ingres
+    - john flaxman
+    - william blake
+
+romanticism:
+    - caspar david friedrich
+    - eugène delacroix
+    - francisco goya
+    - henry fuseli
+    - j.m.w. turner
+    - jean-baptiste-camille corot
+    - john constable
+    - john martin
+    - joseph wright of derby
+    - karl bryullov
+    - karl friedrich schinkel
+    - luis paret y alcázar
+    - philipp otto runge
+    - théodore géricault
+    - thomas cole
+    - william blake
+    - william turner
+    - albert bierstadt
+    - antoine-louis barye
+    - ary scheffer
+    - ferdinand victor eugène delacroix
+    - francisco de goya
+    - george stubbs
+    - horace vernet
+    - jean-auguste-dominique ingres
+    - joseph mallord william turner
+    - sir edwin landseer
+    - théodore rousseau
+    - thomas lawrence
+
+realism:
+    - adolph menzel
+    - alfred sisley
+    - camille corot
+    - camille pissarro
+    - charles-françois daubigny
+    - édouard manet
+    - édouard vuillard
+    - edgar degas
+    - émile zola
+    - frank duveneck
+    - frederick mccubbin
+    - fritz von uhde
+    - george inness
+    - george wesley bellows
+    - george frederick watts
+    - gustave courbet
+    - gustav klimt
+    - honoré daumier
+    - ilya repin
+    - jean-baptiste-camille corot
+    - jean-françois millet
+    - jules breton
+    - léon augustin lhermitte
+    - mary cassatt
+    - thomas eakins
+    - vasily perov
+    - winslow homer
+    - wilhelm leibl
+    - édouard manet
+
+impressionism:
+    - alfred sisley
+    - armand guillaumin
+    - berthe morisot
+    - camille pissarro
+    - charles-françois daubigny
+    - claude monet
+    - edgar degas
+    - édouard manet
+    - édouard vuillard
+    - eugène boudin
+    - eva gonzalès
+    - federico zandomeneghi
+    - frédéric bazille
+    - georges seurat
+    - gustave caillebotte
+    - jean-françois raffaëlli
+    - joaquín sorolla
+    - john singer sargent
+    - julie manet
+    - jusepe de ribera
+    - léon augustin lhermitte
+    - mary cassatt
+    - pierre-auguste renoir
+    - pierre bonnard
+    - théodore duret
+    - vincent van gogh
+    - walter sickert
+    - william merritt chase
+    - édouard manet
+    - james mcneill whistler
+
+post_impressionism:
+    - camille pissarro
+    - émile bernard
+    - émile henri bernard
+    - georges seurat
+    - henri de toulouse-lautrec
+    - henri rousseau
+    - jean-édouard vuillard
+    - louis anquetin
+    - odilon redon
+    - paul cézanne
+    - paul gauguin
+    - paul signac
+    - pierre bonnard
+    - vincent van gogh
+    - émile schuffenecker
+    - félix vallotton
+    - georges lemmen
+    - henri-edmond cross
+    - jacques-émile blanche
+    - jean-louis forain
+    - maurice denis
+    - maxime dethomas
+    - pierre-auguste renoir
+    - roderic o'conor
+    - théophile steinlen
+    - théo van rysselberghe
+    - toulouse-lautrec
+    - vincent van gogh
+    - édouard vuillard
+    - georges-pierre seurat
+
+expressionism:
+    - alexej von jawlensky
+    - alfred kubin
+    - august macke
+    - egon schiele
+    - emil nolde
+    - ernst ludwig kirchner
+    - erich heckel
+    - franz marc
+    - gabriel munter
+    - george grosz
+    - hermann max pechstein
+    - james ensor
+    - karl schmidt-rottluff
+    - käthe kollwitz
+    - lyonel feininger
+    - marc chagall
+    - max beckmann
+    - max ernst
+    - oskar kokoschka
+    - otto dix
+    - paula modersohn-becker
+    - richard gerstl
+    - wassily kandinsky
+    - wilhelm lehmbruck
+    - ernst barlach
+    - emil nolde
+    - franz marc
+    - george grosz
+    - oskar kokoschka
+    - wassily kandinsky
+
+cubism:
+    - albert gleizes
+    - alexander archipenko
+    - andré lhote
+    - andré masson
+    - andré villon
+    - auguste herbin
+    - césar domela
+    - diego rivera
+    - fernand léger
+    - francis picabia
+    - františek kupka
+    - georges braque
+    - gino severini
+    - henri le fauconnier
+    - jacques lipchitz
+    - jean metzinger
+    - joan miró
+    - juan gris
+    - louis marcoussis
+    - man ray
+    - marcel duchamp
+    - max weber
+    - natalia goncharova
+    - pablo picasso
+    - paul klee
+    - raymond duchamp-villon
+    - robert delaunay
+    - roger de la fresnaye
+    - salvador dalí
+    - sonia delaunay
+
+surrealism:
+    - andré breton
+    - andré masson
+    - dorothea tanning
+    - giorgio de chirico
+    - hans bellmer
+    - jean arp
+    - joan miró
+    - joseph cornell
+    - kay sage
+    - leonora carrington
+    - louise bourgeois
+    - luis buñuel
+    - man ray
+    - marcel duchamp
+    - max ernst
+    - meret oppenheim
+    - paul delvaux
+    - pierre roy
+    - rené magritte
+    - salvador dalí
+    - tanguy
+    - yves tanguy
+    - victor brauner
+    - wolfgang paalen
+    - dorothea tanning
+    - leonor fini
+    - hans arp
+    - kay sage
+    - leonora carrington
+    - louise bourgeois
+
+abstract_expressionism:
+    - adolph gottlieb
+    - barnett newman
+    - clyfford still
+    - franz kline
+    - hans hofmann
+    - helen frankenthaler
+    - jackson pollock
+    - james brooks
+    - joan mitchell
+    - lee krasner
+    - mark rothko
+    - morris louis
+    - norman bluhm
+    - philip guston
+    - richard pousette-dart
+    - robert motherwell
+    - theodoros stamos
+    - willem de kooning
+    - ad reinhardt
+    - arshile gorky
+    - elaine de kooning
+    - esteban vicente
+    - grace hartigan
+    - jack tworkov
+    - michael goldberg
+    - milton resnick
+    - robert goodnough
+    - sam francis
+    - william baziotes
+    - david smith
+
+pop_art:
+    - andy warhol
+    - billy apple
+    - claes oldenburg
+    - david hockney
+    - edward ruscha
+    - evelyne axell
+    - george segal
+    - james rosenquist
+    - jasper johns
+    - jim dine
+    - keith haring
+    - larry rivers
+    - marisol escobar
+    - patrick caulfield
+    - peter blake
+    - richard hamilton
+    - robert indiana
+    - robert rauschenberg
+    - roy lichtenstein
+    - tom wesselmann
+    - wayne thiebaud
+    - yayoi kusama
+    - allan d'arcangelo
+    - eduardo paolozzi
+    - erró
+    - gerald laing
+    - idelle weber
+    - joe tilson
+    - nicholas monro
+    - pauline boty
+
+minimalism:
+    - agnes martin
+    - carl andre
+    - dan flavin
+    - donald judd
+    - ellsworth kelly
+    - eva hesse
+    - frank stella
+    - fred sandback
+    - james turrell
+    - john mccracken
+    - kenneth noland
+    - larry bell
+    - lee bontecou
+    - mel bochner
+    - michael heizer
+    - robert irwin
+    - robert mangold
+    - robert morris
+    - sol lewitt
+    - tony smith
+    - walter de maria
+    - anne truitt
+    - dan graham
+    - jo baer
+    - richard serra
+    - alan charlton
+    - robert grosvenor
+    - carl andre
+    - larry bell
+    - robert morris
+
+conceptual_art:
+    - adrian piper
+    - bruce nauman
+    - chris burden
+    - dan graham
+    - douglas huebler
+    - ed ruscha
+    - eleanor antin
+    - hans haacke
+    - jenny holzer
+    - john baldessari
+    - joseph beuys
+    - lawrence weiner
+    - marcel broodthaers
+    - on kawara
+    - piero manzoni
+    - robert barry
+    - robert smithson
+    - sol lewitt
+    - vito acconci
+    - yoko ono
+    - hanne darboven
+    - mary kelly
+    - art & language
+    - joseph kosuth
+    - stephen kaltenbach
+    - mel ramsden
+    - michael craig-martin
+    - victor burgin
+    - ian wilson
+    - terry atkinson
+
+postmodernism:
+    - anselm kiefer
+    - barbara kruger
+    - cindy sherman
+    - damien hirst
+    - david salle
+    - francesco clemente
+    - frank gehry
+    - gerhard richter
+    - gilbert & george
+    - jeff koons
+    - jenny holzer
+    - julian schnabel
+    - keith haring
+    - lawrence weiner
+    - louise bourgeois
+    - lucian freud
+    - matthew barney
+    - nan goldin
+    - richard prince
+    - robert gober
+    - robert mapplethorpe
+    - sherrie levine
+    - sophie calle
+    - thomas hirschhorn
+    - tracey emin
+    - yasumasa morimura
+    - yayoi kusama
+    - yinka shonibare
+    - cindy sherman
+    - damien hirst
+
+contemporary_art:
+    - ai weiwei
+    - anish kapoor
+    - banksy
+    - cindy sherman
+    - damien hirst
+    - david hockney
+    - doug aitken
+    - gerhard richter
+    - jeff koons
+    - jenny holzer
+    - julian opie
+    - kaws
+    - kehinde wiley
+    - kerry james marshall
+    - louise bourgeois
+    - marina abramović
+    - matthew barney
+    - olafur eliasson
+    - rachel whiteread
+    - richard serra
+    - robert gober
+    - sarah sze
+    - shirin neshat
+    - takashi murakami
+    - yayoi kusama
+    - yinka shonibare
+    - zaha hadid
+    - christo and jeanne-claude
+    - tracey emin
+    - ed ruscha
+
+sci_fi:
+    - alejandro jodorowsky
+    - chris foss
+    - dan mcpharlin
+    - dave dorman
+    - frank frazetta
+    - h.r. giger
+    - jim burns
+    - john harris
+    - john berkey
+    - john schoenherr
+    - michael whelan
+    - moebius (jean giraud
+    - peter elson
+    - ralph mcquarrie
+    - richard m. powers
+    - rodney matthews
+    - syd mead
+    - wayne barlowe
+    - yoshitaka amano
+    - zdzisław beksiński
+    - bruce pennington
+    - boris vallejo
+    - steve ditko
+    - hannes bok
+    - virgil finlay
+    - jack gaughan
+    - robert mccall
+    - ed emshwiller
+    - james gurney
+    - phil tippett
+
+art nouveau:
+    - alphonse mucha
+    - antoni gaudí
+    - aubrey beardsley
+    - charles rennie mackintosh
+    - emile gallé
+    - eugène grasset
+    - ferdinand hodler
+    - francis jourdain
+    - frank lloyd wright
+    - georges de feure
+    - gustav klimt
+    - hector guimard
+    - henri de toulouse-lautrec
+    - jan toorop
+    - jean dunand
+    - josef hoffmann
+    - louis comfort tiffany
+    - louis majorelle
+    - otto eckmann
+    - rené lalique
+    - theophile steinlen
+    - victor horta
+    - william bradley
+    - william morris
+    - henry van de velde
+    - émile gallé
+    - antonio gaudí
+    - charles rennie mackintosh
+    - gustav klimt
+    - rené lalique
+
+gothic:
+    - abbot suger
+    - anonimo
+    - arnolfo di cambio
+    - cimabue
+    - claus sluter
+    - duccio di buoninsegna
+    - enrico scrovegni
+    - eudes rigaud
+    - giotto di bondone
+    - giovanni pisano
+    - guglielmo agnelli
+    - jean pucelle
+    - lorenzo maitani
+    - maestro andrea da pontedera
+    - margaritone d'arezzo
+    - master bertram
+    - master e. s.
+    - master of the vienna genesis
+    - nicola pisano
+    - peter parler
+    - pietro cavallini
+    - rogier van der weyden
+    - simone martini
+    - taddeo di bartolo
+    - taddeo gaddi
+    - tilman riemenschneider
+    - wiligelmo
+    - chartres cathedral
+    - notre-dame cathedral
+    - sainte-chapelle
+
+fauvism:
+    - albert marquet
+    - andré derain
+    - charles camoin
+    - emile-othon friesz
+    - georges braque
+    - georges rouault
+    - henri manguin
+    - henri matisse
+    - jean metzinger
+    - jean puy
+    - kees van dongen
+    - louis valtat
+    - maurice de vlaminck
+    - othon friesz
+    - raoul dufy
+    - richard diebenkorn
+    - robert delaunay
+    - georges braque
+    - andré derain
+    - henri matisse
+    - maurice de vlaminck
+    - raoul dufy
+    - othon friesz
+    - jean puy
+    - louis valtat
+    - albert marquet
+    - kees van dongen
+    - charles camoin
+    - richard diebenkorn
+    - jean metzinger
+
+dadaism:
+    - andré breton
+    - christian schad
+    - francis picabia
+    - george grosz
+    - hannah höch
+    - hans arp
+    - hans richter
+    - hugo ball
+    - jean arp
+    - jean crotti
+    - johannes baader
+    - john heartfield
+    - julian trevelyan
+    - kurt schwitters
+    - man ray
+    - marcel duchamp
+    - marcel janco
+    - max ernst
+    - raoul hausmann
+    - richard huelsenbeck
+    - sophie taeuber-arp
+    - theo van doesburg
+    - tristan tzara
+    - walter serner
+    - hannah höch
+    - raoul hausmann
+    - kurt schwitters
+    - richard huelsenbeck
+    - max ernst
+    - marcel duchamp
+
+pointillism:
+    - albert dubois-pillet
+    - charles angrand
+    - georges lemmen
+    - georges seurat
+    - henri-edmond cross
+    - hippolyte petitjean
+    - jan toorop
+    - jean metzinger
+    - léo gausson
+    - lucien pissarro
+    - maximilien luce
+    - paul baum
+    - paul signac
+    - théo van rysselberghe
+    - camille pissarro
+    - georges seurat
+    - paul signac
+    - henri-edmond cross
+    - maximilien luce
+    - georges lemmen
+    - jan toorop
+    - léo gausson
+    - lucien pissarro
+    - jean metzinger
+    - théo van rysselberghe
+    - charles angrand
+    - hippolyte petitjean
+    - paul baum
+    - albert dubois-pillet
+
+symbolism:
+    - alexandre séon
+    - arnold böcklin
+    - carlos schwabe
+    - edward burne-jones
+    - elihu vedder
+    - fernand khnopff
+    - franz von stuck
+    - františek kupka
+    - gabriel von max
+    - georges rouault
+    - gustav klimt
+    - gustave moreau
+    - jan toorop
+    - jean delville
+    - jean-jacques henner
+    - léon frédéric
+    - mikalojus konstantinas čiurlionis
+    - odilon redon
+    - pierre puvis de chavannes
+    - pietro pajetta
+    - william blake
+    - fernand khnopff
+    - gustav klimt
+    - odilon redon
+    - gustave moreau
+    - arnold böcklin
+    - jan toorop
+    - františek kupka
+    - gabriel von max
+    - franz von stuck
+
+photorealism:
+    - audrey flack
+    - charles bell
+    - chuck close
+    - don eddy
+    - duane hanson
+    - gerhard richter
+    - john baeder
+    - john salt
+    - malcolm morley
+    - richard estes
+    - robert bechtle
+    - ron kleemann
+    - steve mills
+    - tom blackwell
+    - richard estes
+    - chuck close
+    - ralph goings
+    - audrey flack
+    - robert bechtle
+    - duane hanson
+    - malcolm morley
+    - john salt
+    - john baeder
+    - charles bell
+    - don eddy
+    - ron kleemann
+    - tom blackwell
+    - steve mills
+    - gerhard richter
+
+constructivism:
+    - alexander rodchenko
+    - el lissitzky
+    - gustav klutsis
+    - kazimir malevich
+    - lazar lissitzky
+    - lászló moholy-nagy
+    - liubov popova
+    - naum gabo
+    - nina kogan
+    - olga rozanova
+    - sol lewitt
+    - varvara stepanova
+    - vladimir tatlin
+    - antoine pevsner
+    - alexandre rodtchenko
+    - lászló moholy-nagy
+    - kazimir malevich
+    - vladimir tatlin
+    - gustav klutsis
+    - varvara stepanova
+    - el lissitzky
+    - naum gabo
+    - lazar lissitzky
+    - liubov popova
+    - nina kogan
+    - olga rozanova
+    - sol lewitt
+    - alexander rodchenko
+    - antoine pevsner
+
+abstract_art:
+    - agnes martin
+    - anni albers
+    - barnett newman
+    - cy twombly
+    - ellsworth kelly
+    - frank stella
+    - helen frankenthaler
+    - jackson pollock
+    - joan mitchell
+    - josef albers
+    - kenneth noland
+    - mark rothko
+    - norman lewis
+    - paul klee
+    - piet mondrian
+    - robert delaunay
+    - robert motherwell
+    - sonia delaunay
+    - wassily kandinsky
+    - willem de kooning
+    - gerhard richter
+    - georgia o'keeffe
+    - hans hofmann
+    - jean arp
+    - kazimir malevich
+    - lyubov popova
+    - robert rauschenberg
+    - franz kline
+    - arshile gorky
+    - kazimir malevich
+
+op_art:
+    - bridget riley
+    - carlos cruz-diez
+    - francois morellet
+    - heinz mack
+    - jesús rafael soto
+    - julian stanczak
+    - richard anuszkiewicz
+    - victor vasarely
+    - yaacov agam
+    - frank stella
+    - carlos cruz-diez
+    - victor vasarely
+    - bridget riley
+    - jesús rafael soto
+    - yaacov agam
+    - julian stanczak
+    - francois morellet
+    - richard anuszkiewicz
+    - heinz mack
+    - frank stella
+    - victor vasarely
+    - bridget riley
+    - carlos cruz-diez
+    - jesús rafael soto
+    - yaacov agam
+    - julian stanczak
+    - francois morellet
+    - richard anuszkiewicz
+    - heinz mack
+
+futurism:
+    - antonio sant'elia
+    - benedetta cappa
+    - carlo carrà
+    - enrico prampolini
+    - fortunato depero
+    - giacomo balla
+    - gino severini
+    - luigi russolo
+    - natalia goncharova
+    - tullio crali
+    - umberto boccioni
+    - alberto bragaglia
+    - alexander bogomazov
+    - gerardo dottori
+    - mario sironi
+    - ivo pannaggi
+    - filippo tommaso marinetti
+    - david burliuk
+    - jean metzinger
+    - georges braque
+    - fernand léger
+    - piet mondrian
+    - robert delaunay
+    - sonia delaunay
+    - kazimir malevich
+    - mikhail larionov
+    - lyubov popova
+    - el lissitzky
+    - vladimir tatlin
+    - natalia goncharova
+
+art_deco:
+    - a. m. cassandre
+    - albert hadley
+    - andré mare
+    - boris lacroix
+    - charles catteau
+    - christian bérard
+    - clément rousseau
+    - eileen gray
+    - erté
+    - eugene printz
+    - émile-jacques ruhlmann
+    - frank lloyd wright
+    - gio ponti
+    - jean dunand
+    - jean dupas
+    - jean-michel frank
+    - jean puiforcat
+    - louis süe
+    - maurice dufrêne
+    - paul iribe
+    - paul poiret
+    - pierre chareau
+    - pierre legrain
+    - robert mallet-stevens
+    - sonia delaunay
+    - tamara de lempicka
+    - vladimir kagan
+    - william van alen
+    - rené lalique
+    - jacques-émile ruhlmann
+
+neoclassicism:
+    - angelica kauffman
+    - antonio canova
+    - bertel thorvaldsen
+    - carle vernet
+    - elisabeth louise vigée le brun
+    - francisco goya
+    - jacques-louis david
+    - jean-auguste-dominique ingres
+    - john flaxman
+    - john singleton copley
+    - joseph-marie vien
+    - karl friedrich schinkel
+    - károly markó the elder
+    - marie-guillemine benoist
+    - pompeo batoni
+    - thomas banks
+    - thomas gainsborough
+    - thomas jefferson
+    - vincenzo camuccini
+    - william blake
+    - william hogarth
+    - william hoare
+    - william kent
+    - william thornton
+    - antonio canova
+    - jacques-louis david
+    - jean-auguste-dominique ingres
+    - john flaxman
+    - william blake
+
+indigenous_art:
+    - albert namatjira
+    - andrea adamson
+    - angeline pwerle
+    - billy stockman tjapaltjarri
+    - clifford possum tjapaltjarri
+    - emily kame kngwarreye
+    - george tjungurrayi
+    - gloria petyarre
+    - gordon bennett
+    - hector jandany
+    - judy watson
+    - kudditji kngwarreye
+    - lin onus
+    - makinti napanangka
+    - minnie pwerle
+    - nora napaljarri
+    - nyurapayia nampitjinpa
+    - paddy bedford
+    - queenie mckenzie
+    - ronnie tjampitjinpa
+    - rover thomas
+    - sally gabori
+    - shorty lungkarta
+    - timmy payungka tjapangati
+    - turkey tolson tjupurrula
+    - uta uta tjangala
+    - william barak
+    - wenten rubuntja
+    - yirawala
+    - warlimpirrnga tjapaltjarri
+
+afrofuturism:
+    - arthur jafa
+    - chris ofili
+    - david huffman
+    - derrick adams
+    - ellen gallagher
+    - hank willis thomas
+    - jack whitten
+    - jean-michel basquiat
+    - janelle monáe
+    - kara walker
+    - kehinde wiley
+    - lina iris viktor
+    - lorna simpson
+    - nick cave
+    - njideka akunyili crosby
+    - peter williams
+    - rashid johnson
+    - rashaad newsome
+    - sanford biggers
+    - shinique smith
+    - sun ra
+    - theaster gates
+    - wangechi mutu
+    - yinka shonibare
+    - juliana huxtable
+    - ebony g. patterson
+    - cauleen smith
+    - martine syms
+    - deana lawson
+    - khalil joseph
+
+street_art:
+    - banksy
+    - blek le rat
+    - blu
+    - david choe
+    - eduardo kobra
+    - el mac
+    - faith47
+    - gaia
+    - haring
+    - invader
+    - jr
+    - keith haring
+    - lady pink
+    - os gemeos
+    - retna
+    - roa
+    - ron english
+    - swoon
+    - shepard fairey
+    - space invader
+    - stik
+    - vhils
+    - whisbe
+    - wk interact
+    - zevs
+    - shepard fairey
+    - jr
+    - banksy
+    - lady pink
+    - keith haring
+
+land_art:
+    - andy goldsworthy
+    - christo and jeanne-claude
+    - dennis oppenheim
+    - hamish fulton
+    - james turrell
+    - michael heizer
+    - nancy holt
+    - nils-udo
+    - patrick dougherty
+    - peter hutchinson
+    - richard long
+    - robert smithson
+    - roy staab
+    - walter de maria
+    - ana mendieta
+    - hamish fulton
+    - richard long
+    - robert smithson
+    - walter de maria
+    - james turrell
+    - andy goldsworthy
+    - dennis oppenheim
+    - nancy holt
+    - michael heizer
+    - christo and jeanne-claude
+    - nils-udo
+    - patrick dougherty
+    - peter hutchinson
+    - roy staab
+
+installation_art:
+    - ann hamilton
+    - bill viola
+    - bruce nauman
+    - carsten höller
+    - christo and jeanne-claude
+    - doug aitken
+    - fred sandback
+    - hans haacke
+    - ilya kabakov
+    - james turrell
+    - jason rhoades
+    - jenny holzer
+    - jessica stockholder
+    - jim lambie
+    - john chamberlain
+    - judy chicago
+    - marina abramović
+    - martin creed
+    - olafur eliasson
+    - rirkrit tiravanija
+    - robert irwin
+    - robert smithson
+    - spencer finch
+    - stan douglas
+    - tony oursler
+    - tracey emin
+    - yayoi kusama
+    - yinka shonibare
+    - david hammons
+    - doris salcedo
+
+environmental_art:
+    - agnes denes
+    - andy goldsworthy
+    - betty beaumont
+    - christo and jeanne-claude
+    - dennis oppenheim
+    - hamish fulton
+    - helen and newton harrison
+    - james turrell
+    - michael heizer
+    - nancy holt
+    - nils-udo
+    - patrick dougherty
+    - peter hutchinson
+    - richard long
+    - robert smithson
+    - roy staab
+    - walter de maria
+    - ana mendieta
+    - andy goldsworthy
+    - christo and jeanne-claude
+    - dennis oppenheim
+    - hamish fulton
+    - helen and newton harrison
+    - james turrell
+    - michael heizer
+    - nancy holt
+    - nils-udo
+    - patrick dougherty
+    - peter hutchinson
+    - roy staab
+
+performance_art:
+    - allan kaprow
+    - chris burden
+    - dan graham
+    - gina pane
+    - gilbert & george
+    - hermann nitsch
+    - joan jonas
+    - john cage
+    - laurie anderson
+    - marina abramović
+    - matthew barney
+    - meredith monk
+    - orlan
+    - pina bausch
+    - ron athey
+    - sophie calle
+    - stuart brisley
+    - tehching hsieh
+    - vito acconci
+    - yoko ono
+    - carolee schneemann
+    - hannah wilke
+    - ulay
+    - william pope.l
+    - valie export
+    - bruce nauman
+    - linda montano
+    - laurie anderson
+    - joseph beuys
+    - tania bruguera
+
+video_art:
+    - bill viola
+    - bruce nauman
+    - carolee schneemann
+    - chris marker
+    - dara birnbaum
+    - gary hill
+    - joan jonas
+    - john baldessari
+    - martha rosler
+    - mary lucier
+    - nam june paik
+    - pipilotti rist
+    - shirin neshat
+    - tony oursler
+    - vito acconci
+    - william wegman
+    - john cage
+    - laurie anderson
+    - bruce conner
+    - steina and woody vasulka
+    - sadie benning
+    - pipilotti rist
+    - bill viola
+    - nam june paik
+    - vito acconci
+    - shirin neshat
+    - joan jonas
+    - tony oursler
+    - dara birnbaum
+    - martha rosler
+
+outsider_art:
+    - adolf wölfli
+    - aloïse corbaz
+    - anna zemánková
+    - carlo zinelli
+    - darger
+    - henry darger
+    - howard finster
+    - jean dubuffet
+    - judith scott
+    - louis soutter
+    - madge gill
+    - martin ramirez
+    - michel nedjar
+    - minnie evans
+    - nick blinko
+    - nek chand
+    - nunzio gulino
+    - william edmondson
+    - willem van genk
+    - zdenek kosek
+    - simon rodia
+    - charles dellschau
+    - nek chand
+    - aloïse corbaz
+    - joseph cornell
+    - augustin lesage
+    - francis palanc
+    - madge gill
+    - adolf wölfli
+    - jean dubuffet
+
+naive_art:
+    - alfred wallis
+    - antonio ligabue
+    - camille bombois
+    - henri rousseau
+    - ivan generalić
+    - joão miró
+    - grandma moses
+    - jean-michel basquiat
+    - josephine tota
+    - louis vivin
+    - malcah zeldis
+    - maria primachenko
+    - morris hirshfield
+    - nikifor krynicki
+    - paul klee
+    - séraphine louis
+    - teofil ociepka
+    - tiki berra
+    - vivin
+    - wölfli
+    - yehouda chaki
+    - andré bauchant
+    - camille bombois
+    - henri rousseau
+    - ivan generalić
+    - jean-michel basquiat
+    - grandma moses
+    - nikifor krynicki
+    - séraphine louis
+    - paul klee
+
+folk_art:
+    - bill traylor
+    - clementine hunter
+    - edward hicks
+    - horace pippin
+    - jimmy lee sudduth
+    - grandma moses
+    - howard finster
+    - joseph yoakum
+    - maud lewis
+    - minnie evans
+    - mose tolliver
+    - noah purifoy
+    - nellie mae rowe
+    - simon rodia
+    - thornton dial
+    - william edmondson
+    - elijah pierce
+    - eddie arning
+    - jesse aaron
+    - william hawkins
+    - ulysses davis
+    - frank jones
+    - ronald lockett
+    - lonnie holley
+    - clementine hunter
+    - jimmy lee sudduth
+    - edward hicks
+    - bill traylor
+    - howard finster
+    - grandma moses
+
+graffiti_art:
+    - banksy
+    - basquiat
+    - blek le rat
+    - dondi white
+    - futura 2000
+    - keith haring
+    - lady pink
+    - lee quinones
+    - os gemeos
+    - retna
+    - shepard fairey
+    - swoon
+    - tracy 168
+    - twist
+    - zephyr
+    - jef aérosol
+    - mr. brainwash
+    - shepard fairey
+    - banksy
+    - keith haring
+    - jean-michel basquiat
+    - lady pink
+    - lee quinones
+    - zephyr
+    - shepard fairey
+    - tracy 168
+    - futura 2000
+    - blek le rat
+    - os gemeos
+    - retna
+
+art_brut:
+    - aloïse corbaz
+    - adolf wölfli
+    - augustin lesage
+    - carlo zinelli
+    - henry darger
+    - madge gill
+    - martin ramirez
+    - michel nedjar
+    - minnie evans
+    - nek chand
+    - scottie wilson
+    - séraphine louis
+    - simon rodia
+    - willem van genk
+    - aloïse corbaz
+    - adolf wölfli
+    - augustin lesage
+    - carlo zinelli
+    - henry darger
+    - madge gill
+    - martin ramirez
+    - michel nedjar
+    - minnie evans
+    - nek chand
+    - scottie wilson
+    - séraphine louis
+    - simon rodia
+    - willem van genk
+
+tonalism:
+    - albert pinkham ryder
+    - alexander helwig wyant
+    - dwight tryon
+    - george inness
+    - john francis murphy
+    - joseph decamp
+    - lowell birge harrison
+    - ralph blakelock
+    - thomas dewing
+    - charles melville dewey
+    - edward bannister
+    - robert duncanson
+    - walter clark
+    - robert minor
+    - abbott handerson thayer
+    - allen tucker
+    - george fuller
+    - thomas wilmer dewing
+    - john francis murphy
+    - alexander helwig wyant
+    - albert pinkham ryder
+    - dwight tryon
+    - george inness
+    - joseph decamp
+    - ralph blakelock
+    - charles melville dewey
+    - robert minor
+    - edward bannister
+    - walter clark
+    - thomas wilmer dewing
+
+suprematism:
+    - ivan kliun
+    - kazimir malevich
+    - ksenia boguslavskaya
+    - liubov popova
+    - mikhail menkov
+    - nadezhda udaltsova
+    - olga rozanova
+    - varvara stepanova
+    - el lissitzky
+    - ivan puni
+    - kazimir malevich
+    - ksenia boguslavskaya
+    - liubov popova
+    - nadezhda udaltsova
+    - olga rozanova
+    - varvara stepanova
+    - ivan kliun
+    - el lissitzky
+    - ivan puni
+    - kazimir malevich
+    - ksenia boguslavskaya
+    - liubov popova
+    - nadezhda udaltsova
+    - olga rozanova
+    - varvara stepanova
+    - el lissitzky
+    - ivan kliun
+    - ivan puni
+    - kazimir malevich
+
+fluxus:
+    - alison knowles
+    - ben vautier
+    - dick higgins
+    - george brecht
+    - george maciunas
+    - jackson mac low
+    - la monte young
+    - nam june paik
+    - robert filliou
+    - takehisa kosugi
+    - wolf vostell
+    - yoko ono
+    - ay-o
+    - benjamin patterson
+    - dick higgins
+    - eric andersen
+    - george brecht
+    - george maciunas
+    - la monte young
+    - nam june paik
+    - robert filliou
+    - takehisa kosugi
+    - wolf vostell
+    - yoko ono
+    - alison knowles
+    - ben vautier
+    - eric andersen
+    - benjamin patterson
+    - jackson mac low
+
+ashcan_school:
+    - arthur b. davies
+    - ernest lawson
+    - everett shinn
+    - george bellows
+    - george luks
+    - guy pène du bois
+    - john french sloan
+    - john marin
+    - maurice prendergast
+    - robert henri
+    - arthur b. carles
+    - charles demuth
+    - edward hopper
+    - joseph stella
+    - john sloan
+    - william glackens
+    - arthur b. davies
+    - ernest lawson
+    - everett shinn
+    - george bellows
+    - george luks
+    - guy pène du bois
+    - john french sloan
+    - john marin
+    - maurice prendergast
+    - robert henri
+    - charles demuth
+    - edward hopper
+    - joseph stella
+    - william glackens
+
+precisionism:
+    - charles demuth
+    - charles sheeler
+    - elsie driggs
+    - george ault
+    - georgia o'keeffe
+    - gerald murphy
+    - joseph stella
+    - niles spencer
+    - preston dickinson
+    - ralston crawford
+    - stuart davis
+    - charles demuth
+    - charles sheeler
+    - elsie driggs
+    - george ault
+    - georgia o'keeffe
+    - gerald murphy
+    - joseph stella
+    - niles spencer
+    - preston dickinson
+    - ralston crawford
+    - stuart davis
+    - charles demuth
+    - charles sheeler
+    - elsie driggs
+    - george ault
+    - georgia o'keeffe
+    - gerald murphy
+    - joseph stella
+
+neue_sachlichkeit:
+    - christian schad
+    - conrad felixmüller
+    - george grosz
+    - hans baluschek
+    - heinrich maria davringhausen
+    - jeanne mammen
+    - karl hubbuch
+    - ludwig meidner
+    - max beckmann
+    - max liebermann
+    - otto dix
+    - otto griebel
+    - otto nagel
+    - rudolf schlichter
+    - albert birkle
+    - alexander kanoldt
+    - august sander
+    - georg schrimpf
+    - karl hofer
+    - wilhelm schnarrenberger
+    - christian schad
+    - conrad felixmüller
+    - george grosz
+    - hans baluschek
+    - heinrich maria davringhausen
+    - jeanne mammen
+    - karl hubbuch
+    - ludwig meidner
+    - max beckmann
+    - otto dix
+
+magic_realism:
+    - andré masson
+    - balthus
+    - carel willink
+    - felice casorati
+    - frida kahlo
+    - giorgio de chirico
+    - ivan albright
+    - leonor fini
+    - luis caballero
+    - mervyn peake
+    - paul cadmus
+    - peter blume
+    - rené magritte
+    - stanley spencer
+    - willink
+    - balthus
+    - carel willink
+    - frida kahlo
+    - giorgio de chirico
+    - ivan albright
+    - leonor fini
+    - luis caballero
+    - mervyn peake
+    - paul cadmus
+    - peter blume
+    - rené magritte
+    - stanley spencer
+    - andré masson
+    - felice casorati
+
+video_installation:
+    - bill viola
+    - bruce nauman
+    - carolee schneemann
+    - chris marker
+    - dara birnbaum
+    - gary hill
+    - joan jonas
+    - john baldessari
+    - martha rosler
+    - mary lucier
+    - nam june paik
+    - pipilotti rist
+    - shirin neshat
+    - tony oursler
+    - vito acconci
+    - william wegman
+    - john cage
+    - laurie anderson
+    - bruce conner
+    - steina and woody vasulka
+    - sadie benning
+    - pipilotti rist
+    - bill viola
+    - nam june paik
+    - vito acconci
+    - shirin neshat
+    - joan jonas
+    - tony oursler
+    - dara birnbaum
+    - martha rosler
+
+landscapes:
+    - albert bierstadt
+    - asher brown durand
+    - camille corot
+    - caspar david friedrich
+    - claude lorrain
+    - claude monet
+    - eugene boudin
+    - frederic edwin church
+    - george inness
+    - gustav klimt
+    - j.m.w. turner
+    - jacob van ruisdael
+    - jean-baptiste-camille corot
+    - john constable
+    - katsushika hokusai
+    - paul cézanne
+    - paul gauguin
+    - pierre-auguste renoir
+    - thomas cole
+    - vincent van gogh
+    - wang hui
+    - winslow homer
+    - albert bierstadt
+    - caspar david friedrich
+    - claude lorrain
+    - claude monet
+    - eugene boudin
+    - george inness
+    - john constable
+    - j.m.w. turner
+
+portraiture:
+    - alice neel
+    - albrecht dürer
+    - anthony van dyck
+    - diego velázquez
+    - edgar degas
+    - egon schiele
+    - francisco goya
+    - frans hals
+    - frida kahlo
+    - gustav klimt
+    - hans holbein the younger
+    - henri matisse
+    - henri de toulouse-lautrec
+    - james mcneill whistler
+    - john singer sargent
+    - leonardo da vinci
+    - lucian freud
+    - pablo picasso
+    - paul cézanne
+    - rembrandt
+    - thomas gainsborough
+    - thomas lawrence
+    - vincent van gogh
+    - willem de kooning
+    - anthony van dyck
+    - diego velázquez
+    - john singer sargent
+    - albrecht dürer
+    - hans holbein the younger
+    - rembrandt
+
+still_life:
+    - abraham van beijeren
+    - adriaen coorte
+    - ambrosius bosschaert
+    - balthasar van der ast
+    - caravaggio
+    - chardin
+    - claude monet
+    - francisco de zurbarán
+    - frida kahlo
+    - georges braque
+    - henri matisse
+    - jan brueghel the elder
+    - jan davidsz de heem
+    - jean siméon chardin
+    - juan sánchez cotán
+    - michelangelo merisi da caravaggio
+    - paul cézanne
+    - pieter claesz
+    - pieter aertsen
+    - rachel ruysch
+    - willem claesz heda
+    - willem kalf
+    - vincent van gogh
+    - william harnett
+    - abraham van beijeren
+    - ambrosius bosschaert
+    - caravaggio
+    - chardin
+    - francisco de zurbarán
+    - paul cézanne
+
+trompe_l_oeil:
+    - cornelis gijsbrechts
+    - cornelis norbertus gijsbrechts
+    - evert collier
+    - jean-baptiste oudry
+    - john haberle
+    - louis-léopold boilly
+    - pere borrell del caso
+    - samuel van hoogstraten
+    - simon verelst
+    - william harnett
+    - françois perrier
+    - louis-léopold boilly
+    - cornelis gijsbrechts
+    - evert collier
+    - simon verelst
+    - samuel van hoogstraten
+    - william harnett
+    - françois perrier
+    - jean-baptiste oudry
+    - pere borrell del caso
+    - john haberle
+    - samuel dirksz van hoogstraten
+    - louis-léopold boilly
+    - françois perrier
+    - cornelis gijsbrechts
+    - jean-baptiste oudry
+    - simon verelst
+    - pere borrell del caso
+    - john haberle
+
+hyperrealism:
+    - chuck close
+    - clive head
+    - denis peterson
+    - don eddy
+    - duane hanson
+    - gottfried helnwein
+    - jacques bodin
+    - jason de graaf
+    - john baeder
+    - juan francisco casas
+    - malcolm morley
+    - richard estes
+    - roberto bernardi
+    - ron mueck
+    - steve mills
+    - tjalf sparnaay
+    - tom blackwell
+    - yigal ozeri
+    - chuck close
+    - clive head
+    - denis peterson
+    - don eddy
+    - duane hanson
+    - gottfried helnwein
+    - jacques bodin
+    - jason de graaf
+    - john baeder
+    - juan francisco casas
+    - malcolm morley
+
+kinetic_art:
+    - alexander calder
+    - bridget riley
+    - carlos cruz-diez
+    - frank malina
+    - george rickey
+    - jean tinguely
+    - jesús rafael soto
+    - lászló moholy-nagy
+    - man ray
+    - naum gabo
+    - pol bury
+    - richard anuszkiewicz
+    - victor vasarely
+    - yaacov agam
+    - heinz mack
+    - george rickey
+    - jean tinguely
+    - jesús rafael soto
+    - lászló moholy-nagy
+    - alexander calder
+    - victor vasarely
+    - naum gabo
+    - pol bury
+    - yaacov agam
+    - carlos cruz-diez
+    - frank malina
+    - richard anuszkiewicz
+    - bridget riley
+    - heinz mack
+
+body_art:
+    - carolee schneemann
+    - chris burden
+    - gina pane
+    - hannah wilke
+    - hermann nitsch
+    - joseph beuys
+    - marina abramović
+    - matthew barney
+    - orlan
+    - ron athey
+    - stelarc
+    - vito acconci
+    - yoko ono
+    - ana mendieta
+    - bob flanagan
+    - chris burden
+    - gina pane
+    - hannah wilke
+    - hermann nitsch
+    - joseph beuys
+    - marina abramović
+    - matthew barney
+    - orlan
+    - ron athey
+    - stelarc
+    - vito acconci
+    - yoko ono
+    - carolee schneemann
+    - ana mendieta
+
+bio_art:
+    - adam zaretsky
+    - brandon ballengée
+    - eduardo kac
+    - heather dewey-hagborg
+    - joe davis
+    - marta de menezes
+    - oron catts
+    - stelarc
+    - symbiotica
+    - tissue culture & art project
+    - wafaa bilal
+    - art orienté objet
+    - brandon ballengée
+    - eduardo kac
+    - heather dewey-hagborg
+    - joe davis
+    - marta de menezes
+    - oron catts
+    - stelarc
+    - symbiotica
+    - tissue culture & art project
+    - wafaa bilal
+    - art orienté objet
+    - adam zaretsky
+    - eduardo kac
+    - heather dewey-hagborg
+    - joe davis
+    - marta de menezes
+
+chinese_ink_painting:
+    - bada shanren
+    - chen hongshou
+    - dong qichang
+    - fang congyi
+    - gong xian
+    - guo xi
+    - huang binhong
+    - huang gongwang
+    - li cheng
+    - lin fengmian
+    - ma yuan
+    - mi fu
+    - ni zan
+    - qiu ying
+    - shen zhou
+    - shitao
+    - tang yin
+    - wang meng
+    - wang wei
+    - wen zhengming
+    - wu guanzhong
+    - xu beihong
+    - xu wei
+    - yan liben
+    - zhao mengfu
+    - zheng banqiao
+    - zhu da
+    - zhu derun
+    - zhang daqian
+    - wu guanzhong
+
+japanese_ukiyo-e:
+    - ando hiroshige
+    - chikanobu
+    - eishi
+    - eizan
+    - harunobu
+    - hokusai
+    - kunichika
+    - kunimasa
+    - kuniyoshi
+    - kyosai
+    - moronobu
+    - shunsho
+    - shun'ei
+    - shunman
+    - suzuki harunobu
+    - torii kiyonaga
+    - toyokuni
+    - utamaro
+    - yoshitoshi
+    - yoshikazu
+    - yoshimune
+    - yoshitora
+    - yoshitoshi
+    - yoshiiku
+    - yoshikazu
+    - yoshimune
+    - yoshitora
+    - utamaro
+    - toyokuni
+    - torii kiyonaga
+
+persian_miniature:
+    - abd allah musavvir
+    - aqa mirak
+    - bihzad
+    - farrukh beg
+    - kamal-ud-din behzad
+    - mir sayyid ali
+    - muzaffar ali
+    - riza abbasi
+    - sadiqi beg
+    - sultan mohammed
+    - reza abbasi
+    - bihzad
+    - kamal-ud-din behzad
+    - mir sayyid ali
+    - muzaffar ali
+    - sadiqi beg
+    - sultan mohammed
+    - reza abbasi
+    - aqa mirak
+    - farrukh beg
+    - abd allah musavvir
+    - aqa mirak
+    - bihzad
+    - farrukh beg
+    - kamal-ud-din behzad
+    - mir sayyid ali
+    - muzaffar ali
+    - riza abbasi
+    - sadiqi beg
+
+mosaic_art:
+    - anthemius of tralles
+    - isidore of miletus
+    - marko ivan rupnik
+    - piero della francesca
+    - polyeuktos
+    - ravenna mosaicists
+    - sedefkar mehmed agha
+    - sosos of pergamon
+    - theophanes the confessor
+    - theodoric the great
+    - thomas of damascus
+    - hagia sophia
+    - san vitale
+    - ravenna
+    - madaba map
+    - dome of the rock
+    - poreč mosaic
+    - st. mark's basilica
+    - chora church
+    - basilica of san apollinare
+    - great mosque of cordoba
+    - westminster cathedral
+    - st. peter's basilica
+    - capitolium in brescia
+    - st. catherine's monastery
+    - torcello cathedral
+    - santa prassede
+    - santa maria in trastevere
+    - villa romana del casale
+    - st. sophia cathedral
+
+mexican_muralism:
+    - alfredo zalce
+    - david alfaro siqueiros
+    - diego rivera
+    - federico cantú
+    - fernando leal
+    - fermin revueltas
+    - francisco eppens helguera
+    - jean charlot
+    - jorge gonzález camarena
+    - josé chávez morado
+    - josé clemente orozco
+    - juan o'gorman
+    - leopoldo méndez
+    - manuel rodríguez lozano
+    - pablo o'higgins
+    - rufino tamayo
+    - rodolfo morales
+    - xavier guerrero
+    - arnold belkin
+    - aurora reyes
+    - arturo garcía bustos
+    - raúl anguiano
+    - rina lazo
+    - guillermo meza
+    - guillermo ceniceros
+    - luis nishizawa
+    - jorge gonzález camarena
+    - raúl anguiano
+    - guillermo meza
+    - luis nishizawa
+
+social_realism:
+    - alice neel
+    - ben shahn
+    - charles white
+    - diego rivera
+    - dorothea lange
+    - edward hopper
+    - grant wood
+    - isabel bishop
+    - jacob lawrence
+    - john steuart curry
+    - josé clemente orozco
+    - käthe kollwitz
+    - louis lozowick
+    - lucien bernhard
+    - moses soyer
+    - philip evergood
+    - raphael soyer
+    - reginald marsh
+    - rockwell kent
+    - walker evans
+    - william gropper
+    - charles white
+    - diego rivera
+    - edward hopper
+    - grant wood
+    - isabel bishop
+    - jacob lawrence
+    - john steuart curry
+    - moses soyer
+    - raphael soyer
+
+romantic_landscape:
+    - albert bierstadt
+    - asher brown durand
+    - caspar david friedrich
+    - charles-françois daubigny
+    - frederic edwin church
+    - george inness
+    - j.m.w. turner
+    - jean-baptiste-camille corot
+    - john constable
+    - thomas cole
+    - thomas moran
+    - winslow homer
+    - caspar david friedrich
+    - j.m.w. turner
+    - thomas cole
+    - albert bierstadt
+    - jean-baptiste-camille corot
+    - john constable
+    - george inness
+    - asher brown durand
+    - frederic edwin church
+    - winslow homer
+    - thomas moran
+    - charles-françois daubigny
+    - thomas cole
+    - thomas moran
+    - winslow homer
+    - george inness
+
+abstract_landscape:
+    - gerhard richter
+    - joan mitchell
+    - helen frankenthaler
+    - franz kline
+    - ellsworth kelly
+    - agnes martin
+    - jackson pollock
+    - mark rothko
+    - willem de kooning
+    - adolph gottlieb
+    - arshile gorky
+    - lee krasner
+    - clifford still
+    - richard diebenkorn
+    - robert motherwell
+    - cy twombly
+    - barnett newman
+    - philip guston
+    - morris louis
+    - robert mangold
+    - hans hofmann
+    - mark tobey
+    - brice marden
+    - helen frankenthaler
+    - franz kline
+    - jackson pollock
+    - mark rothko
+    - willem de kooning
+    - gerhard richter
+    - joan mitchell
+
+optical_art:
+    - bridget riley
+    - carlos cruz-diez
+    - françois morellet
+    - heinz mack
+    - jesús rafael soto
+    - julian stanczak
+    - richard anuszkiewicz
+    - victor vasarely
+    - yaacov agam
+    - bridget riley
+    - victor vasarely
+    - carlos cruz-diez
+    - jesús rafael soto
+    - yaacov agam
+    - julian stanczak
+    - françois morellet
+    - heinz mack
+    - richard anuszkiewicz
+    - frank stella
+    - carlos cruz-diez
+    - heinz mack
+    - jesús rafael soto
+    - richard anuszkiewicz
+    - victor vasarely
+    - yaacov agam
+    - bridget riley
+    - françois morellet
+    - julian stanczak
+
+kinetic_sculpture:
+    - alexander calder
+    - anthony caro
+    - bruce nauman
+    - george rickey
+    - jean tinguely
+    - jesús rafael soto
+    - lászló moholy-nagy
+    - naum gabo
+    - nicolas schöffer
+    - pol bury
+    - rebecca horn
+    - richard serra
+    - robert breer
+    - tim hawkinson
+    - yaacov agam
+    - jean tinguely
+    - jesús rafael soto
+    - lászló moholy-nagy
+    - naum gabo
+    - nicolas schöffer
+    - pol bury
+    - rebecca horn
+    - richard serra
+    - robert breer
+    - tim hawkinson
+    - yaacov agam
+    - alexander calder
+    - anthony caro
+    - bruce nauman
+
+photomontage:
+    - aleksandr rodchenko
+    - anne brigman
+    - barbara kruger
+    - hannah höch
+    - heartfield
+    - john heartfield
+    - lászló moholy-nagy
+    - man ray
+    - max ernst
+    - raoul hausmann
+    - richard hamilton
+    - robert heinecken
+    - rodchenko
+    - roman cieslewicz
+    - salvador dalí
+    - val telberg
+    - wallace berman
+    - gilbert and george
+    - martha rosler
+    - richard prince
+    - hannah höch
+    - raoul hausmann
+    - john heartfield
+    - man ray
+    - max ernst
+    - aleksandr rodchenko
+    - salvador dalí
+    - gilbert and george
+    - wallace berman
+    - barbara kruger
+
+constructive_realism:
+    - alexander bogomazov
+    - anton pevsner
+    - bart van der leck
+    - el lissitzky
+    - georges vantongerloo
+    - ivan puni
+    - joaquin torres-garcia
+    - kazimir malevich
+    - lászló moholy-nagy
+    - lygia clark
+    - lyubov popova
+    - manfredo tafuri
+    - naum gabo
+    - piet mondrian
+    - theo van doesburg
+    - vladimir tatlin
+    - vilmos huszár
+    - bart van der leck
+    - el lissitzky
+    - ivan puni
+    - kazimir malevich
+    - lászló moholy-nagy
+    - naum gabo
+    - theo van doesburg
+    - vladimir tatlin
+    - vilmos huszár
+    - alexander bogomazov
+    - anton pevsner
+    - georges vantongerloo
+    - joaquin torres-garcia
+
+neo_expressionism:
+    - anselm kiefer
+    - david salle
+    - elizabeth murray
+    - eric fischl
+    - francesco clemente
+    - georg baselitz
+    - gerhard richter
+    - jean-michel basquiat
+    - jörg immendorff
+    - julian schnabel
+    - markus lüpertz
+    - per kirkeby
+    - sandro chia
+    - jean-michel basquiat
+    - anselm kiefer
+    - david salle
+    - elizabeth murray
+    - eric fischl
+    - francesco clemente
+    - georg baselitz
+    - gerhard richter
+    - jean-michel basquiat
+    - jörg immendorff
+    - julian schnabel
+    - markus lüpertz
+    - per kirkeby
+    - sandro chia
+    - jean-michel basquiat
+
+neue_wilde:
+    - albert oehlen
+    - andré butzer
+    - anselm reyle
+    - cornelius quabeck
+    - elvira bach
+    - frank nitsche
+    - georg herold
+    - georg baselitz
+    - günther förg
+    - helmut middendorf
+    - jörg immendorff
+    - jonathan meese
+    - kippenberger
+    - markus oehlen
+    - rainer fetting
+    - salomé
+    - volker hildebrandt
+    - werner büttner
+    - xanti schawinsky
+    - georg baselitz
+    - günther förg
+    - jörg immendorff
+    - jonathan meese
+    - markus oehlen
+    - rainer fetting
+    - salomé
+    - volker hildebrandt
+    - werner büttner
+    - xanti schawinsky
+    - elvira bach
+
+street_photography:
+    - bill cunningham
+    - bruce davidson
+    - daido moriyama
+    - diane arbus
+    - garry winogrand
+    - helen levitt
+    - henri cartier-bresson
+    - lee friedlander
+    - lisette model
+    - martin parr
+    - robert doisneau
+    - robert frank
+    - vivian maier
+    - weegee
+    - william klein
+    - joel meyerowitz
+    - helen levitt
+    - bruce davidson
+    - daido moriyama
+    - diane arbus
+    - garry winogrand
+    - helen levitt
+    - henri cartier-bresson
+    - lee friedlander
+    - lisette model
+    - martin parr
+    - robert doisneau
+    - robert frank
+    - vivian maier
+    - weegee
+
+hyperpop_art:
+    - felicia chiao
+    - filip hodas
+    - james jean
+    - kaws
+    - lauren brevner
+    - murakami
+    - tadanori yokoo
+    - takashi murakami
+    - yayoi kusama
+    - felipe pantone
+    - mad dog jones
+    - ori toor
+    - cody cobb
+    - alex pardee
+    - julie bell
+    - james jean
+    - felipe pantone
+    - lauren brevner
+    - kaws
+    - murakami
+    - takashi murakami
+    - yayoi kusama
+    - ori toor
+    - mad dog jones
+    - cody cobb
+    - alex pardee
+    - julie bell
+    - tadanori yokoo
+    - felipe pantone
+    - lauren brevner
+
+graffiti_writing:
+    - banksy
+    - basquiat
+    - blek le rat
+    - dondi white
+    - futura 2000
+    - keith haring
+    - lady pink
+    - lee quinones
+    - os gemeos
+    - retna
+    - shepard fairey
+    - swoon
+    - tracy 168
+    - twist
+    - zephyr
+    - jef aérosol
+    - mr. brainwash
+    - shepard fairey
+    - banksy
+    - keith haring
+    - jean-michel basquiat
+    - lady pink
+    - lee quinones
+    - zephyr
+    - shepard fairey
+    - tracy 168
+    - futura 2000
+    - blek le rat
+    - os gemeos
+    - retna
+
+arte_povera:
+    - alighiero boetti
+    - emilio prini
+    - giovanni anselmo
+    - gilberto zorio
+    - giuseppe penone
+    - jannis kounellis
+    - luciano fabro
+    - marisa merz
+    - mario merz
+    - michelangelo pistoletto
+    - pino pascali
+    - piero gilardi
+    - piero manzoni
+    - pier paolo calzolari
+    - pistoletto
+    - jannis kounellis
+    - alighiero boetti
+    - emilio prini
+    - giovanni anselmo
+    - gilberto zorio
+    - giuseppe penone
+    - jannis kounellis
+    - luciano fabro
+    - marisa merz
+    - mario merz
+    - michelangelo pistoletto
+    - pino pascali
+    - piero gilardi
+    - piero manzoni
+
+happening:
+    - allan kaprow
+    - carolee schneemann
+    - claes oldenburg
+    - dick higgins
+    - george brecht
+    - jackson mac low
+    - jim dine
+    - john cage
+    - kaprow
+    - nam june paik
+    - robert rauschenberg
+    - wolf vostell
+    - yoko ono
+    - ay-o
+    - dick higgins
+    - eric andersen
+    - george brecht
+    - george maciunas
+    - la monte young
+    - nam june paik
+    - robert filliou
+    - takehisa kosugi
+    - wolf vostell
+    - yoko ono
+    - alison knowles
+    - ben vautier
+    - eric andersen
+    - benjamin patterson
+    - jackson mac low
+
+video_game_art:
+    - akira toriyama
+    - amano yoshitaka
+    - hideo kojima
+    - joe madureira
+    - ken sugimori
+    - marc silvestri
+    - naoto ohshima
+    - shigeru miyamoto
+    - sid meier
+    - takashi tezuka
+    - tetsuya nomura
+    - yoko taro
+    - yuji naka
+    - akihiko yoshida
+    - ayami kojima
+    - eric chahi
+    - fumito ueda
+    - hajime sorayama
+    - hironobu sakaguchi
+    - hiroshi yamauchi
+    - ken sugimori
+    - shigeru miyamoto
+    - tetsuya nomura
+    - hideo kojima
+    - sid meier
+    - takashi tezuka
+    - naoto ohshima
+    - amano yoshitaka
+    - marc silvestri
+    - yoko taro
+
+digital_painting:
+    - adam hughes
+    - alex ross
+    - ashley wood
+    - cyril rolando
+    - dan luvisi
+    - feng zhu
+    - greg rutkowski
+    - h.r. giger
+    - jason chan
+    - karla ortiz
+    - marta nael
+    - pascal blanché
+    - ryan church
+    - sakimichan
+    - sparth
+    - syd mead
+    - wlop
+    - andrée wallin
+    - bobby chiu
+    - craig mullins
+    - dave mckean
+    - ian mccaig
+    - jama jurabaev
+    - john avon
+    - justin sweet
+    - karla ortiz
+    - loish
+    - maciej kuciara
+    - marta nael
+    - sparth
+
+photographic_realism:
+    - audrey flack
+    - chuck close
+    - duane hanson
+    - richard estes
+    - ralph goings
+    - audrey flack
+    - chuck close
+    - duane hanson
+    - richard estes
+    - ralph goings
+    - audrey flack
+    - chuck close
+    - duane hanson
+    - richard estes
+    - ralph goings
+    - audrey flack
+    - chuck close
+    - duane hanson
+    - richard estes
+    - ralph goings
+    - audrey flack
+    - chuck close
+    - duane hanson
+    - richard estes
+    - ralph goings
+    - audrey flack
+    - chuck close
+    - duane hanson
+    - richard estes
+
+postcolonial_art:
+    - aimé mpane
+    - chéri samba
+    - el anatsui
+    - fathi hassan
+    - frédéric bruly bouabré
+    - ibrahim mahama
+    - kehinde wiley
+    - kerry james marshall
+    - lubaina himid
+    - meleko mokgosi
+    - njideka akunyili crosby
+    - ousmane sow
+    - radcliffe bailey
+    - sammy baloji
+    - william kentridge
+    - wangechi mutu
+    - yinka shonibare
+    - wangechi mutu
+    - kerry james marshall
+    - william kentridge
+    - yinka shonibare
+    - meleko mokgosi
+    - njideka akunyili crosby
+    - chéri samba
+    - el anatsui
+    - frédéric bruly bouabré
+    - kehinde wiley
+    - lubaina himid
+    - ousmane sow
+    - radcliffe bailey
+
+installation_sculpture:
+    - ann hamilton
+    - bill viola
+    - bruce nauman
+    - carsten höller
+    - christo and jeanne-claude
+    - doug aitken
+    - fred sandback
+    - hans haacke
+    - ilya kabakov
+    - james turrell
+    - jason rhoades
+    - jenny holzer
+    - jessica stockholder
+    - jim lambie
+    - john chamberlain
+    - judy chicago
+    - marina abramović
+    - martin creed
+    - olafur eliasson
+    - rirkrit tiravanija
+    - robert irwin
+    - robert smithson
+    - spencer finch
+    - stan douglas
+    - tony oursler
+    - tracey emin
+    - yayoi kusama
+    - yinka shonibare
+    - david hammons
+    - doris salcedo
+
+geometric_abstraction:
+    - bridget riley
+    - ellsworth kelly
+    - frank stella
+    - josef albers
+    - kazimir malevich
+    - kenneth noland
+    - lászló moholy-nagy
+    - mark rothko
+    - piet mondrian
+    - sonia delaunay
+    - theo van doesburg
+    - victor vasarely
+    - wassily kandinsky
+    - al held
+    - barnett newman
+    - ad reinhardt
+    - carlos cruz-diez
+    - jesús rafael soto
+    - bridget riley
+    - victor vasarely
+    - frank stella
+    - josef albers
+    - mark rothko
+    - ellsworth kelly
+    - kenneth noland
+    - piet mondrian
+    - sonia delaunay
+    - theo van doesburg
+    - wassily kandinsky
+
+hard_edge_painting:
+    - al held
+    - bridget riley
+    - ellsworth kelly
+    - frederick hammersley
+    - john mclaughlin
+    - karl benjamin
+    - kenneth noland
+    - lorser feitelson
+    - ralph goings
+    - tony delap
+    - ad reinhardt
+    - ellsworth kelly
+    - kenneth noland
+    - karl benjamin
+    - john mclaughlin
+    - lorser feitelson
+    - al held
+    - tony delap
+    - bridget riley
+    - ralph goings
+    - al held
+    - bridget riley
+    - ellsworth kelly
+    - frederick hammersley
+    - john mclaughlin
+    - karl benjamin
+    - kenneth noland
+    - lorser feitelson
+    - ralph goings
+
+social_sculpture:
+    - beuys
+    - ernesto neto
+    - hannah wilke
+    - hans haacke
+    - ilya kabakov
+    - judy chicago
+    - marina abramović
+    - olafur eliasson
+    - pistoletto
+    - rebecca horn
+    - theaster gates
+    - thomas hirschhorn
+    - vito acconci
+    - yoko ono
+    - beuys
+    - ernesto neto
+    - hannah wilke
+    - hans haacke
+    - ilya kabakov
+    - judy chicago
+    - marina abramović
+    - olafur eliasson
+    - pistoletto
+    - rebecca horn
+    - theaster gates
+    - thomas hirschhorn
+    - vito acconci
+    - yoko ono
+
+new_media_art:
+    - bill viola
+    - bruce nauman
+    - carolee schneemann
+    - chris marker
+    - dara birnbaum
+    - gary hill
+    - joan jonas
+    - john baldessari
+    - martha rosler
+    - mary lucier
+    - nam june paik
+    - pipilotti rist
+    - shirin neshat
+    - tony oursler
+    - vito acconci
+    - william wegman
+    - john cage
+    - laurie anderson
+    - bruce conner
+    - steina and woody vasulka
+    - sadie benning
+    - pipilotti rist
+    - bill viola
+    - nam june paik
+    - vito acconci
+    - shirin neshat
+    - joan jonas
+    - tony oursler
+    - dara birnbaum
+    - martha rosler
+
+indigenous_australian_art:
+    - albert namatjira
+    - andrea adamson
+    - angeline pwerle
+    - billy stockman tjapaltjarri
+    - clifford possum tjapaltjarri
+    - emily kame kngwarreye
+    - george tjungurrayi
+    - gloria petyarre
+    - gordon bennett
+    - hector jandany
+    - judy watson
+    - kudditji kngwarreye
+    - lin onus
+    - makinti napanangka
+    - minnie pwerle
+    - nora napaljarri
+    - nyurapayia nampitjinpa
+    - paddy bedford
+    - queenie mckenzie
+    - ronnie tjampitjinpa
+    - rover thomas
+    - sally gabori
+    - shorty lungkarta
+    - timmy payungka tjapangati
+    - turkey tolson tjupurrula
+    - uta uta tjangala
+    - william barak
+    - wenten rubuntja
+    - yirawala
+    - warlimpirrnga tjapaltjarri
+
+aboriginal_dot_painting:
+    - ada bird petyarre
+    - barbara weir
+    - clifford possum tjapaltjarri
+    - dorothy napangardi
+    - emily kame kngwarreye
+    - eubena nampitjin
+    - george tjungurrayi
+    - johnny warangkula tjupurrula
+    - judy napangardi watson
+    - kathleen petyarre
+    - kudditji kngwarreye
+    - minnie pwerle
+    - nora wompi napaljarri
+    - ronnie tjampitjinpa
+    - thomas tjapaltjarri
+    - turkey tolson tjupurrula
+    - uta uta tjangala
+    - william barak
+    - ada bird petyarre
+    - barbara weir
+    - clifford possum tjapaltjarri
+    - dorothy napangardi
+    - emily kame kngwarreye
+    - eubena nampitjin
+    - george tjungurrayi
+    - johnny warangkula tjupurrula
+    - judy napangardi watson
+    - kathleen petyarre
+    - kudditji kngwarreye
+    - minnie pwerle
+
+photocollage:
+    - aleksandr rodchenko
+    - anne brigman
+    - barbara kruger
+    - hannah höch
+    - heartfield
+    - john heartfield
+    - lászló moholy-nagy
+    - man ray
+    - max ernst
+    - raoul hausmann
+    - richard hamilton
+    - robert heinecken
+    - rodchenko
+    - roman cieslewicz
+    - salvador dalí
+    - val telberg
+    - wallace berman
+    - gilbert and george
+    - martha rosler
+    - richard prince
+    - hannah höch
+    - raoul hausmann
+    - john heartfield
+    - man ray
+    - max ernst
+    - aleksandr rodchenko
+    - salvador dalí
+    - gilbert and george
+    - wallace berman
+    - barbara kruger
+
+art_informel:
+    - alfred manessier
+    - antonio tàpies
+    - asger jorn
+    - georges mathieu
+    - hans hartung
+    - jean fautrier
+    - jean dubuffet
+    - lucio fontana
+    - michel tapié
+    - pierre soulages
+    - wols
+    - zao wou-ki
+    - alfred manessier
+    - antonio tàpies
+    - asger jorn
+    - georges mathieu
+    - hans hartung
+    - jean fautrier
+    - jean dubuffet
+    - lucio fontana
+    - michel tapié
+    - pierre soulages
+    - wols
+    - zao wou-ki
+    - alfred manessier
+    - antonio tàpies
+    - asger jorn
+    - georges mathieu
+
+color_field_painting:
+    - barnett newman
+    - clyfford still
+    - ellsworth kelly
+    - frank stella
+    - helen frankenthaler
+    - mark rothko
+    - morris louis
+    - richard diebenkorn
+    - sam gilliam
+    - theodoros stamos
+    - willem de kooning
+    - arshile gorky
+    - joan mitchell
+    - jules olitski
+    - larry poons
+    - robert motherwell
+    - ad reinhardt
+    - gene davis
+    - morris louis
+    - helen frankenthaler
+    - barnett newman
+    - clyfford still
+    - frank stella
+    - mark rothko
+    - ellsworth kelly
+    - sam gilliam
+    - theodoros stamos
+    - richard diebenkorn
+    - robert motherwell
+
+assemblage_art:
+    - betye saar
+    - daniel spoerri
+    - edward kienholz
+    - george herms
+    - hans bellmer
+    - jean dubuffet
+    - john chamberlain
+    - joseph cornell
+    - louise nevelson
+    - man ray
+    - meret oppenheim
+    - pablo picasso
+    - robert rauschenberg
+    - salvador dalí
+    - wallace berman
+    - wolf vostell
+    - annette messager
+    - betye saar
+    - daniel spoerri
+    - edward kienholz
+    - george herms
+    - hans bellmer
+    - jean dubuffet
+    - john chamberlain
+    - joseph cornell
+    - louise nevelson
+    - man ray
+    - meret oppenheim
+    - pablo picasso
+    - robert rauschenberg
+
+stuckism:
+    - charles thomson
+    - billy childish
+    - ella guru
+    - gina bold
+    - joe machine
+    - john bourne
+    - mandy mccartin
+    - matthew collings
+    - paul harvey
+    - philip absolon
+    - sheila clark
+    - stella vine
+    - wolf howard
+    - yoko mada
+    - andy bullock
+    - john bourne
+    - philip absolon
+    - gina bold
+    - joe machine
+    - mandy mccartin
+    - charles thomson
+    - billy childish
+    - matthew collings
+    - ella guru
+    - sheila clark
+    - paul harvey
+    - stella vine
+    - wolf howard
+    - yoko mada
