@@ -676,6 +676,10 @@ Bo:
                   {__valentine/symbols__|__valentine/food__|__valentine/characters__|__valentine/traditions__},
                   __valentine/scapes__, __valentine/scenes__, __valentine/lightings__
 
+    fruits:
+        ->
+          A __fruits/climate__  __properties/colors*__ {__properties/shape/fruit_|__properties/shape/*___} shaped fruit with a __fruits/surface__ __fruits/surface_kind__ surface. It has a __fruits/seed_kinds__ {seed|seeds}.
+          Its flesh is __fruits/flesh__.
     habitats:
         # __Bo/habitats/random__
         random:
@@ -16028,6 +16032,143 @@ easter:
         - sharing a special easter meal
         - sunrise services
 
+fruits:
+    aroma:
+        - almond
+        - apple
+        - apricot
+        - banana
+        - berry
+        - black currant
+        - blueberry
+        - caramel
+        - cherry
+        - citrus
+        - coconut
+        - cranberry
+        - currant
+        - fig
+        - floral
+        - grapefruit
+        - grape
+        - guava
+        - honey
+        - kiwi
+        - lemon
+        - lime
+        - lychee
+        - mango
+        - melon
+        - mint
+        - nectarine
+        - orange
+        - passionfruit
+        - peach
+        - pear
+        - pineapple
+        - plum
+        - pomegranate
+        - raspberry
+        - spice
+        - strawberry
+        - tangerine
+        - tropical
+        - vanilla
+        - watermelon
+
+    climate:
+        - arid
+        - coastal
+        - cold temperate
+        - continental
+        - desert
+        - highland
+        - humid continental
+        - humid subtropical
+        - maritime
+        - Mediterranean
+        - microclimate
+        - monsoon
+        - mountain
+        - polar
+        - savanna
+        - subarctic
+        - subtropical
+        - temperate
+        - tropical
+        - tropical rainforest
+    flesh:
+        - aril
+        - berry
+        - carpellary
+        - drupe
+        - endocarp
+        - fibrous
+        - fleshy
+        - granular
+        - juicy
+        - mealy
+        - pithy
+        - pulpy
+        - segmented
+        - stony
+        - stringy
+        - succulent
+        - watery
+
+    seed_kinds:
+        - achene
+        - aril
+        - berry seed
+        - capsule seed
+        - drupe seed
+        - follicle seed
+        - legume seed
+        - nut
+        - pepo seed
+        - pit
+        - pome seed
+        - samara
+        - stone seed
+        - winged seed
+
+    surface:
+        - bumpy
+        - creased
+        - dimpled
+        - fuzzy
+        - glossy
+        - grooved
+        - hairy
+        - knobby
+        - lumpy
+        - pebbled
+        - pitted
+        - ribbed
+        - ridged
+        - rough
+        - scaly
+        - shiny
+        - smooth
+        - spiked
+        - spiny
+        - striated
+        - thorny
+        - veined
+        - velvety
+        - warty
+        - waxy
+
+    surface_kind:
+        - exocarp
+        - husk
+        - peel
+        - pith
+        - rind
+        - shell
+        - skin
+
+
 habitats:
     biomes:
         - tundra
@@ -28177,6 +28318,37 @@ properties:
             - cuneate buds
             - napiform buds
             - capitate buds
+        fruit:
+            - asymmetrical
+            - bell-shaped
+            - conical
+            - crescent-shaped
+            - cylindrical
+            - disc-shaped
+            - drum-shaped
+            - egg-shaped
+            - elongated
+            - flattened
+            - globular
+            - heart-shaped
+            - irregular
+            - kidney-shaped
+            - lobed
+            - oblong
+            - oval
+            - ovoid
+            - pear-shaped
+            - pyramid-shaped
+            - rectangular
+            - round
+            - spiky
+            - spiral-shaped
+            - square
+            - star-shaped
+            - teardrop-shaped
+            - triangular
+            - tubular
+
         jewelry:
             - round
             - oval
