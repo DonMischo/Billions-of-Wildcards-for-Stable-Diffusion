@@ -1,0 +1,170 @@
+Bo:
+    castles:
+        peaceful:
+            - __castle_exteriors/types__ surrounded by __castle_exteriors/walls__ with __castle_exteriors/towers__ and __castle_exteriors/entrances__.
+            - A tranquil __castle_exteriors/types__ with sprawling __castle_exteriors/grounds__, lit by __castle_exteriors/lighting_and_torches__ and adorned with __castle_exteriors/decorative_elements__.
+            - The peaceful __castle_exteriors/types__ has elegant __castle_exteriors/decorative_elements__ decorating its __castle_exteriors/walls__, with __castle_exteriors/towers__ watching over the serene __castle_exteriors/grounds__.
+            - Around the __castle_exteriors/types__, beautiful __castle_exteriors/grounds__ extend, bordered by __castle_exteriors/walls__ and enhanced by ornate __castle_exteriors/decorative_elements__.
+            - A magical __castle_exteriors/types__, its __castle_exteriors/walls__ lined with climbing plants, with tranquil __castle_exteriors/towers__ and peaceful __castle_exteriors/grounds__ stretching into the distance.
+            - The quiet __castle_exteriors/types__ rises above mystical __castle_exteriors/grounds__, where light from __castle_exteriors/lighting_and_torches__ dances off the walls, and decorative __castle_exteriors/towers__ add to the calm ambiance.
+            - In the heart of the land stands a majestic __castle_exteriors/types__, with pristine __castle_exteriors/grounds__ and __castle_exteriors/walls__ adorned by magical __castle_exteriors/decorative_elements__.
+            - The gentle __castle_exteriors/types__ is embraced by enchanted __castle_exteriors/grounds__, bordered by protective yet beautiful __castle_exteriors/walls__ and illuminated by glowing __castle_exteriors/lighting_and_torches__.
+            - With its __castle_exteriors/towers__ rising high, the serene __castle_exteriors/types__ offers stunning views of the peaceful __castle_exteriors/grounds__, while its decorative __castle_exteriors/walls__ gleam in the moonlight.
+        battle:
+            - __castle_exteriors/types__ fortified with __castle_exteriors/walls__, guarded by __castle_exteriors/towers__ and protected by __castle_exteriors/defensive_features__.
+            - The military __castle_exteriors/types__ stands strong, reinforced by __castle_exteriors/fortifications__ and __castle_exteriors/defensive_features__, with __castle_exteriors/towers__ and __castle_exteriors/entrances__ built for defense.
+            - Around the fortified __castle_exteriors/types__, mighty __castle_exteriors/walls__ hold firm, bolstered by __castle_exteriors/defensive_features__ and supported by strategic __castle_exteriors/towers__.
+            - The imposing __castle_exteriors/types__ dominates the landscape, with __castle_exteriors/fortifications__, __castle_exteriors/defensive_features__, and towering __castle_exteriors/towers__ at every turn.
+            - A mighty __castle_exteriors/types__ looms above, with strong __castle_exteriors/walls__ and defensive __castle_exteriors/towers__, ready for any siege, while __castle_exteriors/defensive_features__ secure every entry.
+            - The war-hardened __castle_exteriors/types__ is protected by thick __castle_exteriors/walls__ and __castle_exteriors/defensive_features__, with battle-ready __castle_exteriors/towers__ surveying the lands.
+            - The fortress __castle_exteriors/types__ stands impenetrable, encircled by __castle_exteriors/walls__ and fortified with __castle_exteriors/defensive_features__, prepared for any attack.
+            - At the center of the stronghold lies the __castle_exteriors/types__, with vigilant __castle_exteriors/towers__ guarding every side and reinforced __castle_exteriors/fortifications__ keeping enemies at bay.
+            - The towering __castle_exteriors/types__ casts a shadow over the battlefield, its __castle_exteriors/walls__ impenetrable and its __castle_exteriors/towers__ bristling with weapons, protected by numerous __castle_exteriors/defensive_features__.
+
+castle_exteriors:
+    battlements:
+        - crenellations
+        - embrasures
+        - hoardings
+        - magical force shields
+        - machicolations
+        - merlons
+    decoration:
+        - animated statues
+        - crystal spires
+        - curtain walls
+        - flying buttresses
+        - glowing glyphs
+        - mystical symbols
+    decorative_elements:
+        - bas-reliefs
+        - carvings
+        - frescoes
+        - gargoyles
+        - glowing runes
+        - illusionary murals
+        - living ivy (magically animated)
+        - mosaics
+        - murals
+        - statues
+        - tapestries (outdoor)
+        - terracotta
+    defensive_features:
+        - arrow slits
+        - barbican
+        - battlements
+        - dragon perches
+        - drawbridge
+        - ditches
+        - enchanted gatehouse (magical guardians)
+        - forcefield barriers
+        - gatehouse
+        - loopholes
+        - machicolations
+        - moat (with magical creatures)
+        - murder holes
+        - portcullis
+        - ravelins
+        - spellcasting turrets
+    entrances:
+        - drawbridge
+        - enchanted gates (locked by spells)
+        - gates
+        - main gate
+        - postern gate
+        - sally port
+        - side entrances
+    fortifications:
+        - bastions
+        - enchanted ramparts
+        - glacis
+        - ramparts
+        - ravelins
+        - redoubts
+        - siege defenses
+        - splayed base walls
+    grounds:
+        - courtyards
+        - ditches
+        - enchanted forests
+        - floating gardens
+        - gardens
+        - hedge maze
+        - hunting grounds
+        - inner bailey
+        - mystical fountains
+        - orchards
+        - outer bailey
+        - training grounds
+        - wells
+    lighting_torches:
+        - beacon towers
+        - braziers
+        - enchanted torches (self-lighting)
+        - floating lanterns
+        - glowing crystals
+        - lanterns
+        - magical fire pits
+        - torches
+        - wall-mounted torches
+    material_elements:
+        - brick masonry
+        - cobblestone
+        - enchanted metal (glows or changes form)
+        - flagstone
+        - iron gratings
+        - living stone (morphing or shifting material)
+        - moonstone bricks
+        - obsidian towers
+        - slate roofing
+        - stone masonry
+        - timber
+        - wooden palings
+    outbuildings:
+        - armory
+        - barracks
+        - barns
+        - chapels
+        - enchanted greenhouses
+        - forges
+        - granaries
+        - magical workshops
+        - smithy
+        - stables (for magical creatures)
+        - storage buildings
+        - workshops
+    towers:
+        - alchemist's tower
+        - corner towers
+        - gatehouse tower
+        - guard towers
+        - lookout towers
+        - mage towers
+        - signal towers
+        - turrets
+        - watchtowers
+    types:
+        - elemental keeps (aligned with magical elements)
+        - floating parapets
+        - keeps
+        - parapets
+        - ramparts
+    visual_features:
+        - animated banners
+        - banners
+        - glowing sigils
+        - heraldic symbols
+        - illusionary walls (magical appearance)
+        - mosaic floors
+        - pennants
+        - relief sculptures
+        - signal flags
+        - stained glass windows
+    walls:
+        - crystal walls
+        - curtain walls
+        - defensive walls
+        - inner walls
+        - magical barrier walls
+        - outer walls
+        - shield walls
