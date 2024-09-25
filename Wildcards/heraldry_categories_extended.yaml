@@ -1,96 +1,106 @@
 # Bo Heraldry
+    heraldry:
+        - >-
+          __heraldry/colors__ __heraldry/badges__ with __heraldry/ordinaries__ ordinaries {and __heraldry/subordinaries__},
+          {one|multiple} {__heraldry/charges/objects__,|__heraldry/charges/*__,|}
+          {0.2::__heraldry/supporters__ supporters,|} {0.2::motto,|} {__heraldry/mantling__,|}
+          {0.2::__heraldry/helmets__,|} {0.2::__heraldry/crests__ crest,|}
+
 heraldry:
     badges:
-        - house badges
-        - livery badges
-        - personal badges
-        - clan badges
-        - tribal badges
+        - house badge
+        - livery badge
+        - personal badge
+        - clan badge
+        - tribal badge
     blazon:
         - arrangement
         - charges
         - tinctures
         - attitude
         - position
+    colors:
+        - gules
+        - azure
+        - vert
+        - sable
+        - purpure
+        - or
+        - argent
+        - ermine
+        - vair
     charges:
       animals:
-          - bears
-          - birds
-          - boars
-          - bulls
+          - bear
+          - bird
+          - boar
+          - bull
           - dogs
           - fish
-          - lions
-          - mammals
-          - stags
-          - eagles
-          - foxes
-          - hares
-          - rams
-          - serpents
-          - wolves
+          - lion
+          - stag
+          - eagle
+          - foxe
+          - hare
+          - ram
+          - serpent
+          - wolve
       beasts of myth and legend:
-          - centaurs
-          - dragons
-          - griffins
-          - harpies
-          - mermaids
-          - phoenixes
-          - unicorns
-          - wyverns
-          - pegasus
-          - basilisks
+          - centaur
+          - dragon
+          - griffin
+          - harpie
+          - mermaid
+          - phoenixe
+          - unicorn
+          - wyvern
+          - pegasu
+          - basilisk
       celestial bodies:
-          - comets
-          - crescent moons
+          - comet
+          - crescent moon
           - moon
-          - stars
+          - star
           - sun
           - planets
-          - eclipses
-          - meteor showers
+          - eclipse
+          - meteor shower
       objects:
-          - anchors
-          - bells
-          - books
-          - buildings
-          - crowns
-          - keys
-          - scrolls
-          - shields
-          - swords
-          - tools
-          - weapons
-          - arrows
-          - axes
-          - hammers
-          - lanterns
-          - lances
-          - spears
-          - torches
+          - anchor
+          - bell
+          - book
+          - building
+          - crown
+          - key
+          - scroll
+          - shield
+          - sword
+          - tool
+          - weapon
+          - arrow
+          - axe
+          - hammer
+          - lantern
+          - lance
+          - spear
+          - torche
       plants:
-          - acorns
-          - flowers
-          - leaves
-          - oak trees
-          - roses
-          - trees
-          - vines
+          - acorn
+          - flower
+          - leave
+          - oak tree
+          - rose
+          - tree
+          - vine
           - wheat
-          - thistles
+          - thistle
           - laurel
           - ivy
-    compartments:
-        - artificial features
-        - natural features
-        - stylized designs
-        - landscapes
-        - heraldic beasts
     crests:
-        - animals
-        - objects
-        - plants
-        - mythological creatures
+        - animal
+        - object
+        - plant
+        - mythological creature
     divisions of the field:
         - checky
         - gyronny
@@ -115,12 +125,7 @@ heraldry:
         - complex mantling
         - simple mantling
         - decorative mantling
-    mottoes:
-        - in English
-        - in Latin
-        - in other languages
-        - in French
-        - in Gaelic
+
     ordinaries:
         - bend
         - bend sinister
