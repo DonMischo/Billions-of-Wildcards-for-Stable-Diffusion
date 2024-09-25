@@ -1,0 +1,913 @@
+arming sword:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Präzisionsschlag (Erhöhte Trefferchance)"
+axe:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Wilder Schlag (Erhöhter Schaden, geringere Genauigkeit)"
+battleaxe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Einschüchterung
+  Spezialfähigkeit: "Kampfeswut (Erhöhte Angriffsgeschwindigkeit)"
+bone dagger:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +1 Heimlichkeit
+  Spezialfähigkeit: "Vergiften (Monster nimmt 1 Schaden pro Runde)"
+broadsword:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+butcher knife:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Blutverlust (Gegner blutet und verliert HP über Zeit)"
+cestus:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Athletik
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+cleaver:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +1 Konstitution
+  Spezialfähigkeit: "Blutverlust (Gegner blutet und verliert HP über Zeit)"
+club:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +1 Stärke
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+cutlass:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Piratenstreich (Erhöhte Chance auf kritische Treffer)"
+dagger:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+dirk:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Vergiften (Monster nimmt 1 Schaden pro Runde)"
+falchion:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+flail:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Verwirrung (Gegner hat verringerte Trefferchance)"
+gladius:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Präzisionsschlag (Erhöhte Trefferchance)"
+hand axe:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Wilder Schlag (Erhöhter Schaden, geringere Genauigkeit)"
+hunting knife:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Überlebenskunst
+  Spezialfähigkeit: "Vergiften (Monster nimmt 1 Schaden pro Runde)"
+jian:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+kama:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schnittwunde (Gegner verliert HP über Zeit)"
+khopesh:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+kris:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Vergiften (Monster nimmt 1 Schaden pro Runde)"
+kukri:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schnittwunde (Gegner verliert HP über Zeit)"
+longsword:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+machete:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Überlebenskunst
+  Spezialfähigkeit: "Schnittwunde (Gegner verliert HP über Zeit)"
+mace:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+main gauche:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Parieren
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+morning star:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Einschüchterung
+  Spezialfähigkeit: "Verwirrung (Gegner hat verringerte Trefferchance)"
+parrying dagger:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Parieren
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+poignard:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+rapier:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Präzisionsschlag (Erhöhte Trefferchance)"
+saber:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Piratenstreich (Erhöhte Chance auf kritische Treffer)"
+scimitar:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schnittwunde (Gegner verliert HP über Zeit)"
+short sword:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+sickle:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +1 Handwerk
+  Spezialfähigkeit: "Schnittwunde (Gegner verliert HP über Zeit)"
+spear:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Durchbohren (Erhöhter Schaden bei Rüstungen)"
+spiked gauntlet:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+stiletto:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+sword:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Präzisionsschlag (Erhöhte Trefferchance)"
+tomahawk:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Wilder Schlag (Erhöhter Schaden, geringere Genauigkeit)"
+trench knife:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Schnittwunde (Gegner verliert HP über Zeit)"
+wakizashi:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+war hammer:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Einschüchterung
+  Spezialfähigkeit: "Verwüstung (Erhöhter Schaden und Betäubung)"
+
+bardiche:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Durchdringen (Erhöhter Schaden gegen Rüstungen)"
+battleaxe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Kampfeswut (Erhöhte Angriffsgeschwindigkeit)"
+claymore:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+club:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +1 Stärke
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+double axe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Wilder Schlag (Erhöhter Schaden, geringere Genauigkeit)"
+falchion:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+flamberge:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Einschüchterung
+  Spezialfähigkeit: "Verwundung (Gegner verliert HP über Zeit)"
+glaive:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Weitreichend (Angriff auf Distanz)"
+great axe:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Kampfeswut (Erhöhte Angriffsgeschwindigkeit)"
+great club:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+great sword:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+halberd:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Weitreichend (Angriff auf Distanz)"
+lochaber axe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Durchdringen (Erhöhter Schaden gegen Rüstungen)"
+maul:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Verwüstung (Erhöhter Schaden und Betäubung)"
+naginata:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Weitreichend (Angriff auf Distanz)"
+nodachi:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+odachi:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+poleaxe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Weitreichend (Angriff auf Distanz)"
+quarterstaff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+scythe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Ernte (Erhöhter Schaden gegen Gruppen)"
+tetsubo:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Verwüstung (Erhöhter Schaden und Betäubung)"
+two-handed flail:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Verwirrung (Gegner hat verringerte Trefferchance)"
+war scythe:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Ernte (Erhöhter Schaden gegen Gruppen)"
+warhammer:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Einschüchterung
+  Spezialfähigkeit: "Verwüstung (Erhöhter Schaden und Betäubung)"
+zweihander:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Schwerer Schlag (Durchdringt Rüstung)"
+
+
+crystal ball:
+  Schadensmodifikator: 1
+  Eigenschaftsverstärkung: +3 Wahrnehmung
+  Spezialfähigkeit: "Hellsehen (Ermöglicht dem Benutzer, entfernte Orte oder zukünftige Ereignisse zu sehen)"
+enchanted dagger:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Magische Klinge (Ignoriert normale Rüstung)"
+magic wand:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Zauberverstärkung (Erhöht die Wirksamkeit von Zaubersprüchen)"
+orb:
+  Schadensmodifikator: 1
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Manaquelle (Stellt Zauberpunkte des Benutzers wieder her)"
+ritual dagger:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Religion
+  Spezialfähigkeit: "Blutopfer (Erhöht die Macht von Ritualzaubern)"
+runed staff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Runenmagie (Aktiviert mächtige Runenzauber)"
+scepter:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Charisma
+  Spezialfähigkeit: "Macht des Herrschers (Erhöht die Führungskraft und Überzeugungskraft)"
+spellbook:
+  Schadensmodifikator: 1
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Zaubersammlung (Enthält mächtige Zaubersprüche)"
+talisman:
+  Schadensmodifikator: 1
+  Eigenschaftsverstärkung: +2 Weisheit
+  Spezialfähigkeit: "Schutzzauber (Bietet magischen Schutz vor Schaden)"
+totem:
+  Schadensmodifikator: 1
+  Eigenschaftsverstärkung: +2 Naturkunde
+  Spezialfähigkeit: "Geistverbindung (Ermöglicht die Kommunikation mit Geistern und Naturgeistern)"
+wand:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Präzision und Macht von Zaubersprüchen)"
+
+
+arcane staff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Zauberverstärkung (Erhöht die Wirksamkeit von Zaubersprüchen)"
+crystal staff:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +2 Weisheit
+  Spezialfähigkeit: "Manaquelle (Stellt Zauberpunkte des Benutzers wieder her)"
+enchanted staff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Magische Verstärkung (Erhöht die Macht aller Zaubersprüche)"
+great staff:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Schlag des Titanen (Erhöhter physischer Schaden)"
+magic staff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Präzision und Macht von Zaubersprüchen)"
+runed staff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Runenmagie (Aktiviert mächtige Runenzauber)"
+staff of fire:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Feuerball (Erzeugt einen mächtigen Feuerball-Zauber)"
+staff of ice:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Frostnova (Erzeugt eine Frostexplosion, die Gegner einfriert)"
+staff of lightning:
+  Schadensmodifikator: 4
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Blitzschlag (Erzeugt einen mächtigen Blitz, der Gegner trifft)"
+staff of power:
+  Schadensmodifikator: 5
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Machtvolle Magie (Erhöht die Effektivität aller Zauber drastisch)"
+staff of summoning:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Beschwörung (Ermöglicht das Beschwören von Kreaturen zur Unterstützung)"
+staff of teleportation:
+  Schadensmodifikator: 2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Teleportation (Ermöglicht die sofortige Bewegung zu einem bekannten Ort)"
+wizard staff:
+  Schadensmodifikator: 3
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Zaubersammlung (Enthält mächtige Zaubersprüche)"
+
+buckler:
+  Schadensmodifikator: 1
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Schnellblock (Erhöht die Blockchance)"
+cestus:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Athletik
+  Spezialfähigkeit: "Betäubungsschlag (Gegner wird für 1 Runde betäubt)"
+dagger:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+hand axe:
+  Schadensmodifikator: 3
+  Verteidigungsmodifikator: 0
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Wilder Schlag (Erhöhter Schaden, geringere Genauigkeit)"
+main gauche:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Parieren
+  Spezialfähigkeit: "Doppelangriff (Zweiter Angriff bei erfolgreichem Parieren)"
+parrying dagger:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Parieren
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf)"
+punch dagger:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Durchbohren (Erhöhter Schaden bei Rüstungen)"
+sai:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Entwaffnen (Gegner verliert Waffe)"
+spiked shield:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Schildschlag (Gegner wird für 1 Runde betäubt)"
+sword breaker:
+  Schadensmodifikator: 1
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Parieren
+  Spezialfähigkeit: "Schwertbrechen (Zerstört die Waffe des Gegners bei erfolgreichem Parieren)"
+tomahawk:
+  Schadensmodifikator: 3
+  Verteidigungsmodifikator: 0
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Wilder Schlag (Erhöhter Schaden, geringere Genauigkeit)"
+war fan:
+  Schadensmodifikator: 1
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Ablenkung (Gegner hat verringerte Trefferchance)"
+whip:
+  Schadensmodifikator: 2
+  Verteidigungsmodifikator: 0
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Peitschenhieb (Gegner wird für 1 Runde immobilisiert)"
+
+
+charm:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Weisheit
+  Spezialfähigkeit: "Schutzzauber (Erhöht den magischen Schutz)"
+defensive gauntlet:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Block (Erhöht die Blockchance)"
+enchanted shield:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Arkane Kunst
+  Spezialfähigkeit: "Magischer Schutz (Erhöht den Schutz vor magischen Angriffen)"
+magic talisman:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Zauberschild (Erzeugt einen schützenden Magieschild)"
+mirror shield:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Reflexion (Reflektiert magische Angriffe)"
+parrying dagger:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Parieren
+  Spezialfähigkeit: "Schnellangriff (zweiter Würfelwurf bei erfolgreichem Parieren)"
+ritual shield:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Religion
+  Spezialfähigkeit: "Heiliger Schutz (Erhöht den Schutz vor untoten Kreaturen)"
+round shield:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +1 Stärke
+  Spezialfähigkeit: "Schildschlag (Gegner wird für 1 Runde betäubt)"
+runic shield:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Arkane Kunst
+  Spezialfähigkeit: "Runenschutz (Aktiviert einen magischen Schutzschild)"
+shield:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +1 Stärke
+  Spezialfähigkeit: "Schildschlag (Gegner wird für 1 Runde betäubt)"
+small shield:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+spell focus:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Arkane Kunst
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Wirksamkeit von Schutzzaubern)"
+spell shield:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Magische Absorption (Absorbiert einen Teil des magischen Schadens)"
+tower shield:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Deckung (Erhöht den Schutz vor Fernangriffen)"
+warding talisman:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Weisheit
+  Spezialfähigkeit: "Abwehrzauber (Schützt vor Flüchen und negativen Effekten)"
+wrist guard:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Schnellblock (Erhöht die Blockchance)"
+
+
+arcane robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Wirksamkeit von Zaubersprüchen)"
+battle robes:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Kampfmagie (Erhöht die Wirksamkeit von Kampfzaubern)"
+cloak:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Verhüllung (Erhöht die Unsichtbarkeit des Trägers)"
+druidic robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Naturkunde
+  Spezialfähigkeit: "Naturverbundenheit (Erhöht die Wirksamkeit von Naturzaubern)"
+elven robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Leichtfüßigkeit (Erhöht die Beweglichkeit des Trägers)"
+enchanted robes:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Magischer Schutz (Erhöht den Schutz vor magischen Angriffen)"
+hooded cloak:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Heimlichkeit
+  Spezialfähigkeit: "Verhüllung (Erhöht die Unsichtbarkeit des Trägers)"
+linen tunic:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+mage robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Wirksamkeit von Zaubersprüchen)"
+mantle:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Weisheit
+  Spezialfähigkeit: "Schutzzauber (Erhöht den magischen Schutz)"
+monk robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Kampfkunst (Erhöht die Effektivität unbewaffneter Angriffe)"
+necromancer robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Totenbeschwörung (Erhöht die Macht von Nekromantiezaubern)"
+padded armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Stoßdämpfung (Verringert physischen Schaden)"
+padded robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Stoßdämpfung (Verringert physischen Schaden)"
+priest robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Religion
+  Spezialfähigkeit: "Heiliger Schutz (Erhöht den Schutz vor untoten Kreaturen)"
+ritual robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Weisheit
+  Spezialfähigkeit: "Ritualmagie (Erhöht die Macht von Ritualzaubern)"
+robe of the archmage:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Erzmagie (Erhöht die Effektivität aller Zauber drastisch)"
+scholar's robes:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Gelehrsamkeit (Erhöht die Geschwindigkeit des Zauberwirkens)"
+silk robes:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Charisma
+  Spezialfähigkeit: "Eleganz (Erhöht die Überzeugungskraft des Trägers)"
+sorcerer's robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Magische Verstärkung (Erhöht die Macht aller Zaubersprüche)"
+spellcaster's cloak:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Arkane Kunst
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Präzision von Zaubersprüchen)"
+spellweave robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Zauberbindung (Erhöht die Dauer von Zaubereffekten)"
+tunic:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+vestments:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Religion
+  Spezialfähigkeit: "Heiliger Schutz (Erhöht den Schutz vor untoten Kreaturen)"
+warlock robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Dunkle Magie (Erhöht die Macht von Schadenszaubern)"
+witch's cloak:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +2 Weisheit
+
+
+adventurer's jerkin:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+archer's vest:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Genauigkeit
+  Spezialfähigkeit: "Präzisionsschuss (Erhöht die Treffergenauigkeit von Fernangriffen)"
+battle harness:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Kampfesmut (Erhöht die Angriffskraft des Trägers)"
+brigandine:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Stoßdämpfung (Verringert physischen Schaden)"
+ceremonial leather:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Charisma
+  Spezialfähigkeit: "Ritualschutz (Erhöht den Schutz vor magischen Angriffen)"
+hardened leather armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+hunter's armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Überlebenskunst
+  Spezialfähigkeit: "Jägerinstinkt (Erhöht die Wirksamkeit von Jagdangriffen)"
+leather breastplate:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+leather doublet:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+leather jacket:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Flexibilität (Erhöht die Beweglichkeit des Trägers)"
+leather jerkin:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+leather tunic:
+  Verteidigungsmodifikator: +1
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Erhöht die Beweglichkeit des Trägers)"
+padded leather armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Stoßdämpfung (Verringert physischen Schaden)"
+ranger's armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Überlebenskunst
+  Spezialfähigkeit: "Waldläufer (Erhöht die Effizienz von Aktionen in der Wildnis)"
+reinforced leather armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+rogue's leather armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Schattenmantel (Erhöht die Unsichtbarkeit des Trägers)"
+scout's armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Wahrnehmung
+  Spezialfähigkeit: "Aufklärung (Erhöht die Erkennungsfähigkeit von Gefahren)"
+shadow leather armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Schattenhülle (Erhöht die Unsichtbarkeit des Trägers)"
+studded leather armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+thief's armor:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Schattenmantel (Erhöht die Unsichtbarkeit des Trägers)"
+traveler's leather:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Überlebenskunst
+  Spezialfähigkeit: "Reisesegen (Erhöht die Effizienz von Reisen)"
+warrior's leather:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Kampfgeist (Erhöht die Angriffskraft des Trägers)"
+
+
+banded mail:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+breastplate:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Stoßdämpfung (Verringert physischen Schaden)"
+chainmail:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +1 Konstitution
+  Spezialfähigkeit: "Flexibilität (Erhöht die Beweglichkeit trotz Rüstung)"
+chestplate:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+cuirass:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+full plate armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Vollständiger Schutz (Maximiert den physischen Schutz)"
+half plate armor:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Halber Schutz (Erhöht den physischen Schutz bei erhöhter Beweglichkeit)"
+knight's armor:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Charisma
+  Spezialfähigkeit: "Ritterehre (Erhöht die Überzeugungskraft des Trägers)"
+lamellar armor:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+lorica segmentata:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Konstitution
+  Spezialfähigkeit: "Stoßdämpfung (Verringert physischen Schaden)"
+mail shirt:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +1 Geschicklichkeit
+  Spezialfähigkeit: "Flexibilität (Erhöht die Beweglichkeit trotz Rüstung)"
+mithril armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Maximiert den Schutz bei minimalem Gewicht)"
+ornate breastplate:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Charisma
+  Spezialfähigkeit: "Imposanz (Erhöht die Überzeugungskraft des Trägers)"
+plate armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Vollständiger Schutz (Maximiert den physischen Schutz)"
+scale mail:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Schuppenpanzer (Erhöht den physischen Schutz)"
+splint mail:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+steel cuirass:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +2 Stärke
+  Spezialfähigkeit: "Verstärkte Verteidigung (Erhöht den physischen Schutz)"
+templar armor:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Religion
+  Spezialfähigkeit: "Heiliger Schutz (Erhöht den Schutz vor untoten Kreaturen)"
+war plate:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Kriegsrüstung (Maximiert den physischen Schutz und erhöht die Angriffskraft)"
+
+
+arcane silk robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Zauberfokus (Erhöht die Wirksamkeit von Zaubersprüchen)"
+dragonhide robes:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Konstitution
+  Spezialfähigkeit: "Drachenhaut (Erhöht den Schutz vor Feuer und physischen Angriffen)"
+enchanted cloth armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Magischer Schutz (Erhöht den Schutz vor magischen Angriffen)"
+ethereal robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Weisheit
+  Spezialfähigkeit: "Ätherische Form (Erhöht die Fähigkeit, durch feste Objekte zu gehen)"
+faerie robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Feenstaub (Erhöht die Beweglichkeit und Heilungsfähigkeit)"
+ghostweave robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Geisterhafte Tarnung (Erhöht die Unsichtbarkeit des Trägers)"
+mystic silk tunic:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Mystische Verstärkung (Erhöht die Wirksamkeit von Zaubersprüchen)"
+shadowcloth robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Schattenhülle (Erhöht die Unsichtbarkeit des Trägers)"
+spidersilk robes:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Spinnennetz (Erhöht die Fähigkeit, Gegner zu fesseln)"
+starlight robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Charisma
+  Spezialfähigkeit: "Sternenlicht (Erhöht die Überzeugungskraft und das Charisma)"
+wispweave robes:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +3 Arkane Kunst
+  Spezialfähigkeit: "Irrlicht-Bindung (Erhöht die Fähigkeit, magische Kreaturen zu kontrollieren)"
+
+
+dragonhide leather:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Konstitution
+  Spezialfähigkeit: "Drachenhaut (Erhöht den Schutz vor Feuer und physischen Angriffen)"
+elven leather armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Elfenreflexe (Erhöht die Beweglichkeit und Ausweichfähigkeit)"
+enchanted leather armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Magischer Schutz (Erhöht den Schutz vor magischen Angriffen)"
+ghost leather armor:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Geisterhafte Tarnung (Erhöht die Unsichtbarkeit des Trägers)"
+mystic leather jerkin:
+  Verteidigungsmodifikator: +2
+  Eigenschaftsverstärkung: +2 Intelligenz
+  Spezialfähigkeit: "Mystische Verstärkung (Erhöht die Wirksamkeit von Zaubersprüchen)"
+nightstalker leather:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Nachtjäger (Erhöht die Effektivität von Angriffen im Dunkeln)"
+phantom leather:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Phantomschritte (Erhöht die Fähigkeit, lautlos zu bewegen)"
+shadow leather:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Schattenhülle (Erhöht die Unsichtbarkeit des Trägers)"
+spectral leather:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Spektrale Form (Erhöht die Fähigkeit, durch feste Objekte zu gehen)"
+spidersilk leather:
+  Verteidigungsmodifikator: +3
+  Eigenschaftsverstärkung: +2 Geschicklichkeit
+  Spezialfähigkeit: "Spinnennetz (Erhöht die Fähigkeit, Gegner zu fesseln)"
+wyvernhide leather:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Konstitution
+  Spezialfähigkeit: "Wyvernhäutigkeit (Erhöht den Schutz vor Gift und physischen Angriffen)"
+
+
+adamantine armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Unzerstörbar (Erhöht den Schutz vor allen physischen Angriffen)"
+crystal armor:
+  Verteidigungsmodifikator: +4
+  Eigenschaftsverstärkung: +3 Weisheit
+  Spezialfähigkeit: "Kristallklarheit (Erhöht die magische Abwehr)"
+dragonbone plate:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Konstitution
+  Spezialfähigkeit: "Drachenknoche (Erhöht den Schutz vor Feuer und physischen Angriffen)"
+dragonsteel armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Stärke
+  Spezialfähigkeit: "Drachenstärke (Erhöht den physischen Angriff und Schutz)"
+dwarven plate:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Konstitution
+  Spezialfähigkeit: "Zwergenfestigkeit (Erhöht die Abwehr gegen Magie und physische Angriffe)"
+enchanted plate armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Magische Abwehr (Erhöht den Schutz vor magischen Angriffen)"
+mithril armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Geschicklichkeit
+  Spezialfähigkeit: "Leichtgewicht (Maximiert den Schutz bei minimalem Gewicht)"
+obsidian plate:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Konstitution
+  Spezialfähigkeit: "Dunkle Abwehr (Erhöht den Schutz vor dunkler Magie)"
+shadowsteel armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Heimlichkeit
+  Spezialfähigkeit: "Schattenhülle (Erhöht die Unsichtbarkeit des Trägers)"
+soulforged armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Weisheit
+  Spezialfähigkeit: "Seelenbindung (Erhöht den Schutz und die Heilfähigkeit)"
+starmetal armor:
+  Verteidigungsmodifikator: +5
+  Eigenschaftsverstärkung: +3 Intelligenz
+  Spezialfähigkeit: "Sternenlicht (Erhöht die Abwehr gegen Magie und verstärkt Zaubersprüche)"
+
