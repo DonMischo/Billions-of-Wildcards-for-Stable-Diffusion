@@ -2,12 +2,12 @@ Bo:
     drawingStyles:
         random:
             - >-
-              A __drawing/line_stroke__ line stroke illustration featuring __drawing/color__ colours, 
-              enhanced with __drawing/shading__ shading against a __drawing/background__ background. 
-              The composition is arranged using __drawing/composition__ composition that emphasize the 
-              __drawing/form__ forms, complemented by __drawing/texture__ elements
-              and __drawing/perspective__ view that tells a __drawing/narrative__ story
-              in __drawing/style__ style.
+              A __styles-drawing/line_stroke__ line stroke illustration featuring __styles-drawing/color__ colours, 
+              enhanced with __styles-drawing/shading__ shading against a __styles-drawing/background__ background. 
+              The composition is arranged using __styles-drawing/composition__ composition that emphasize the 
+              __styles-drawing/form__ forms, complemented by __styles-drawing/texture__ elements
+              and __styles-drawing/perspective__ view that tells a __styles-drawing/narrative__ story
+              in __styles-drawing/style__ style.
 
 drawing_styles:
     line_stroke:
