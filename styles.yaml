@@ -87,115 +87,154 @@ drawing_styles:
         - wet-on-wet
         - zero-gradient
 
-background:
-    - abstract
-    - atmospheric
-    - blended
-    - detailed
-    - empty
-    - gradient
-    - minimalistic
-    - patterned
-    - realistic
-    - textural
-    - thematic
-    - tonal
-    - transitional
-    - vibrant
-    - washed_out
-    - whimsical
+    background:
+        - abstract
+        - atmospheric
+        - blended
+        - detailed
+        - empty
+        - gradient
+        - minimalistic
+        - patterned
+        - realistic
+        - textural
+        - thematic
+        - tonal
+        - transitional
+        - vibrant
+        - washed_out
+        - whimsical
 
-composition:
-    - asymmetrical
-    - balanced
-    - balanced_dissonance
-    - circular
-    - complex
-    - condensed
-    - diagonal
-    - dynamic
-    - emphasis
-    - foreground_midground_background
-    - framing
-    - hierarchical
-    - improvisational
-    - layering
-    - minimal
-    - negative_space
-    - organic
-    - radial
-    - repetition
-    - rule_of_thirds
-    - rhythm
-    - simplified
-    - symmetrical
-    - tension
-    - unified
-    - variety
+    composition:
+        - asymmetrical
+        - balanced
+        - balanced_dissonance
+        - circular
+        - complex
+        - condensed
+        - diagonal
+        - dynamic
+        - emphasis
+        - foreground_midground_background
+        - framing
+        - hierarchical
+        - improvisational
+        - layering
+        - minimal
+        - negative_space
+        - organic
+        - radial
+        - repetition
+        - rule_of_thirds
+        - rhythm
+        - simplified
+        - symmetrical
+        - tension
+        - unified
+        - variety
 
-form:
-    - abstract
-    - biomorphic
-    - blocky
-    - cubic
-    - geometrical
-    - hard-edged
-    - organic
-    - realistic
-    - rounded
-    - sculptural
-    - simplified
-    - stylized
-    - three-dimensional
-    - two-dimensional
-    - voluminous
-    - angular
-    - fluid
-    - fragmented
-    - modular
-    - negative_space
-    - tonal
+    form:
+        - abstract
+        - biomorphic
+        - blocky
+        - cubic
+        - geometrical
+        - hard-edged
+        - organic
+        - realistic
+        - rounded
+        - sculptural
+        - simplified
+        - stylized
+        - three-dimensional
+        - two-dimensional
+        - voluminous
+        - angular
+        - fluid
+        - fragmented
+        - modular
+        - negative_space
+        - tonal
 
-texture:
-    - abrasive
-    - coarse
-    - detailed
-    - digital
-    - fine
-    - flat
-    - glossy
-    - gritty
-    - layered
-    - light
-    - matte
-    - rough
-    - smooth
-    - soft
-    - tactile
-    - textural
-    - transparent
-    - vibrant
-    - woven
-    - weathered
-    - wispy
+    texture:
+        - abrasive
+        - coarse
+        - detailed
+        - digital
+        - fine
+        - flat
+        - glossy
+        - gritty
+        - layered
+        - light
+        - matte
+        - rough
+        - smooth
+        - soft
+        - tactile
+        - textural
+        - transparent
+        - vibrant
+        - woven
+        - weathered
+        - wispy
 
     perspective:
         - atmospheric
+        - cubic
+        - dynamic
+        - exaggerated
+        - foreshortened
         - linear
-        - one_point
-        - two_point
-        - three_point
+        - one-point
+        - orthographic
+        - parallel
+        - simplified
+        - two-point
+        - three-point
+        - vanishing_point
+        - bird's_eye_view
+        - worm's_eye_view
+
     narrative:
         - allegorical
+        - character-driven
+        - chronological
+        - conceptual
+        - dramatic
         - figurative
         - literal
+        - metaphorical
+        - narrative_sequence
+        - nonlinear
+        - personal
+        - political
+        - poetic
+        - retrospective
         - symbolic
+        - thematic
+
     style:
+        - abstract
+        - anime
+        - baroque
         - cartoon
+        - chibi
         - classical
         - contemporary
+        - cubism
+        - digital_art
+        - expressionism
+        - fan_art
+        - graphic_novel
+        - hyperrealism
         - impressionistic
         - minimalist
+        - manga
+        - modernism
         - pop_art
         - realism
+        - retro
         - surrealism
+        - symbolic
+        - whimsical
