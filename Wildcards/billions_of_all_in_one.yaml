@@ -1061,7 +1061,7 @@ Bo:
     styles-drawing:
         random:
             - >-
-              A __styles-drawing/line_stroke__ line stroke illustration featuring __styles-drawing/color__ colours, 
+              A __styles-drawing/expression__ __styles-drawing/line_stroke__ line stroke __styles-drawing/types__ featuring __styles-drawing/color__ colours, 
               enhanced with __styles-drawing/shading__ shading against a __styles-drawing/background__ background. 
               The composition is arranged using __styles-drawing/composition__ composition that emphasize the 
               __styles-drawing/form__ forms, complemented by __styles-drawing/texture__ elements
@@ -38198,6 +38198,70 @@ styles-drawing:
         - surrealism
         - symbolic
         - whimsical
+    types:
+        - abstraction
+        - animation
+        - caricature
+        - cartoon
+        - character design
+        - concept art
+        - contour drawing
+        - cross-hatching
+        - digital painting
+        - doodle
+        - figure drawing
+        - gesture drawing
+        - graphic novel art
+        - illustration
+        - ink wash
+        - line art
+        - mixed media
+        - mural
+        - observational drawing
+        - painting
+        - pastel drawing
+        - pencil drawing
+        - portrait drawing
+        - sketch
+        - storyboarding
+        - technical drawing
+        - tattoo design
+        - vector art
+        - watercolor
+        - wildlife drawing
+
+    expression:
+        - abstract
+        - aggressive
+        - bold
+        - chaotic
+        - childlike
+        - controlled
+        - dramatic
+        - dynamic
+        - emotive
+        - exaggerated
+        - fluid
+        - gestural
+        - heartfelt
+        - imaginative
+        - intimate
+        - intense
+        - introspective
+        - minimalist
+        - muted
+        - nuanced
+        - raw
+        - refined
+        - spontaneous
+        - stark
+        - subtle
+        - symbolic
+        - textured
+        - tension
+        - vibrant
+        - whimsical
+
 
 subjects-school:
     art:
