@@ -1066,7 +1066,7 @@ Bo:
               The composition is arranged using __styles-drawing/composition__ composition that emphasize the 
               __styles-drawing/form__ forms, complemented by __styles-drawing/texture__ elements
               and __styles-drawing/perspective__ view that tells a __styles-drawing/narrative__ story
-              in __styles-drawing/style__ style.
+              in __styles-drawing/style__ style. __styles-drawing/face_head_depiction/combined__. __styles-drawing/body_depiction/combined__.
 
     superheroes:
         random-marvel-hero:
@@ -25706,6 +25706,47 @@ person:
             - standing with crossed arms and raised eyebrow, indicating skepticism
             - standing with hands in front, suggesting submission
             - standing with weight shifted to one leg, suggesting ease
+        teeth:
+            shapes:
+                - straight
+                - crooked
+                - sharp
+                - rounded
+                - flat
+                - pointed
+                - gap-toothed
+                - uneven
+                - yellowed
+                - jagged
+            styles:
+                - realistic
+                - cartoonish
+                - exaggerated
+                - stylized
+                - minimalist
+                - monochromatic
+                - detailed
+                - shiny
+                - textured
+            features:
+                - visible gums
+                - braces
+                - dental work (e.g., fillings, crowns)
+                - missing teeth
+                - stained
+                - translucent
+                - white and shiny
+                - oversized
+                - small
+                - protruding
+            expressions:
+                - smiling (with teeth)
+                - grimacing
+                - showing grit (clenched teeth)
+                - sneering
+                - open-mouthed (showing excitement or shock)
+                - pouting
+
     scifi:
         equipment:
             - laser gun
@@ -38262,7 +38303,78 @@ styles-drawing:
         - vibrant
         - whimsical
 
-
+    face_head_depiction:
+        styles:
+            - abstract
+            - cartoon
+            - chibi
+            - classical
+            - contemporary
+            - caricature
+            - digital_art
+            - expressionistic
+            - hyperrealistic
+            - impressionistic
+            - minimalist
+            - manga
+            - modern
+            - realistic
+            - retro
+            - surreal
+            - tribal
+            - whimsical
+        sizes:
+            - small
+            - medium
+            - large
+            - oversized
+            - proportionate
+            - petite
+            - elongated
+            - exaggerated
+            - compact
+            - wide
+            - tall
+        combined:
+          ->
+            __styles-drawing/face_head_depiction/sizes__ __styles-drawing/face_head_depiction/styles__ head with
+            __person/regular/ears__, __person/regular/jaw__, __person/regular/chin__, __person/regular/forehead__,
+            __person/regular/cheek__, __person/regular/teeth/styles__ __person/regular/teeth/shapes__ __person/regular/teeth/shapes__
+            __person/regular/teeth/features__ __person/regular/teeth/expressions__ teeth
+    body_depiction:
+        proportions:
+            - elongated limbs
+            - exaggerated features
+            - average proportions
+            - compact stature
+            - muscular build
+            - slender form
+            - heavyset
+            - short stature
+            - tall and thin
+            - balanced proportions
+            - stylized proportions
+            - chibi proportions
+            - realistic human proportions
+        styles:
+            - abstract
+            - anatomical
+            - cartoonish
+            - classical
+            - contemporary
+            - expressionistic
+            - minimalist
+            - modern
+            - realistic
+            - stylized
+            - caricature
+            - gestural
+            - dynamic
+            - impressionistic
+            - surreal
+        combined:
+          ->
+            __styles-drawing/body_depiction/styles__ __styles-drawing/body_depiction/proportions__ __person/regular/bodyshapes__
 subjects-school:
     art:
         - Visual Arts
