@@ -3806,7 +3806,7 @@ castle_exteriors:
         - outer bailey
         - training grounds
         - wells
-    lighting_torches:
+    lighting_and_torches:
         - beacon towers
         - braziers
         - enchanted torches (self-lighting)
